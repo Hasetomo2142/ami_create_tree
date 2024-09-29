@@ -2,7 +2,48 @@
     "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2002a-ES2002a - Regions.csv",
     "use_model": "gpt-4o-mini",
     "use_method": "baseline",
+    "template": "ver.1.0.txt",
     "rate": 0.42857142857142855,
+    "total_node_count": 11,
+    "removed_node_count": 3,
+    "removed_node_list": [
+        {
+            "index": 2,
+            "ae_id": "ES2002a.A.argumentstructs.8",
+            "speaker": "A",
+            "start_time": 565.05,
+            "end_time": 565.32,
+            "sentence": "Hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 3,
+            "ae_id": "ES2002a.B.argumentstructs.21",
+            "speaker": "B",
+            "start_time": 565.13,
+            "end_time": 565.93,
+            "sentence": "Yeah.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 5,
+            "ae_id": "ES2002a.D.argumentstructs.26",
+            "speaker": "D",
+            "start_time": 566.17,
+            "end_time": 566.7,
+            "sentence": "Um.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
     "one_turn_results": [
         {
             "turn_number": 0,
@@ -56,7 +97,7 @@
                     ]
                 }
             ],
-            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002a.B.argumentstructs.Erik.3:\n\"Oh yeah, regions and stuff, yeah. Yeah. Okay.\"\n\nPast dialogue turns:\nAE_ID ES2002a.D.argumentstructs.Erik.1: \"Well right away I'm wondering if there's um th th uh, like with D_V_D_ players, if there are zones. Um f frequencies or something um as well as uh characters, um different uh keypad styles and s symbols.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002a.B.argumentstructs.Erik.3\n- Index: 1\n- Speaker: B\n- Sentence: \"Oh yeah, regions and stuff, yeah. Yeah. Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2002a.D.argumentstructs.Erik.1 (Index: 0, Speaker: D): \"Well right away I'm wondering if there's um th th uh, like with D_V_D_ players, if there are zones. Um f frequencies or something um as well as uh characters, um different uh keypad styles and s symbols.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
             "gpt_ans": "ES2002a.D.argumentstructs.Erik.1",
             "ans": "ES2002a.D.argumentstructs.Erik.1",
             "judgement": true
@@ -104,7 +145,7 @@
                     ]
                 }
             ],
-            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002a.B.argumentstructs.Erik.1:\n\"Well for a remote control, do you think that will be  I suppose it's depends on how complicated our remote control is.\"\n\nPast dialogue turns:\nAE_ID ES2002a.D.argumentstructs.Erik.1: \"Well right away I'm wondering if there's um th th uh, like with D_V_D_ players, if there are zones. Um f frequencies or something um as well as uh characters, um different uh keypad styles and s symbols.\"\nAE_ID ES2002a.B.argumentstructs.Erik.3: \"Oh yeah, regions and stuff, yeah. Yeah. Okay.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002a.B.argumentstructs.Erik.1\n- Index: 4\n- Speaker: B\n- Sentence: \"Well for a remote control, do you think that will be  I suppose it's depends on how complicated our remote control is.\"\n\nPast Dialogue Turns:\nAE_ID ES2002a.D.argumentstructs.Erik.1 (Index: 0, Speaker: D): \"Well right away I'm wondering if there's um th th uh, like with D_V_D_ players, if there are zones. Um f frequencies or something um as well as uh characters, um different uh keypad styles and s symbols.\"\nAE_ID ES2002a.B.argumentstructs.Erik.3 (Index: 1, Speaker: B): \"Oh yeah, regions and stuff, yeah. Yeah. Okay.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
             "gpt_ans": "ES2002a.D.argumentstructs.Erik.1",
             "ans": "ES2002a.D.argumentstructs.Erik.1",
             "judgement": true
@@ -164,10 +205,10 @@
                     ]
                 }
             ],
-            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002a.D.argumentstructs.Erik.2:\n\"I don't know.\"\n\nPast dialogue turns:\nAE_ID ES2002a.D.argumentstructs.Erik.1: \"Well right away I'm wondering if there's um th th uh, like with D_V_D_ players, if there are zones. Um f frequencies or something um as well as uh characters, um different uh keypad styles and s symbols.\"\nAE_ID ES2002a.B.argumentstructs.Erik.3: \"Oh yeah, regions and stuff, yeah. Yeah. Okay.\"\nAE_ID ES2002a.B.argumentstructs.Erik.1: \"Well for a remote control, do you think that will be  I suppose it's depends on how complicated our remote control is.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2002a.B.argumentstructs.Erik.1",
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002a.D.argumentstructs.Erik.2\n- Index: 6\n- Speaker: D\n- Sentence: \"I don't know.\"\n\nPast Dialogue Turns:\nAE_ID ES2002a.D.argumentstructs.Erik.1 (Index: 0, Speaker: D): \"Well right away I'm wondering if there's um th th uh, like with D_V_D_ players, if there are zones. Um f frequencies or something um as well as uh characters, um different uh keypad styles and s symbols.\"\nAE_ID ES2002a.B.argumentstructs.Erik.3 (Index: 1, Speaker: B): \"Oh yeah, regions and stuff, yeah. Yeah. Okay.\"\nAE_ID ES2002a.B.argumentstructs.Erik.1 (Index: 4, Speaker: B): \"Well for a remote control, do you think that will be  I suppose it's depends on how complicated our remote control is.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002a.D.argumentstructs.Erik.1",
             "ans": "ES2002a.B.argumentstructs.Erik.1",
-            "judgement": true
+            "judgement": false
         },
         {
             "turn_number": 4,
@@ -236,7 +277,7 @@
                     ]
                 }
             ],
-            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002a.D.argumentstructs.Erik.3:\n\"Yeah.\"\n\nPast dialogue turns:\nAE_ID ES2002a.D.argumentstructs.Erik.1: \"Well right away I'm wondering if there's um th th uh, like with D_V_D_ players, if there are zones. Um f frequencies or something um as well as uh characters, um different uh keypad styles and s symbols.\"\nAE_ID ES2002a.B.argumentstructs.Erik.3: \"Oh yeah, regions and stuff, yeah. Yeah. Okay.\"\nAE_ID ES2002a.B.argumentstructs.Erik.1: \"Well for a remote control, do you think that will be  I suppose it's depends on how complicated our remote control is.\"\nAE_ID ES2002a.D.argumentstructs.Erik.2: \"I don't know.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002a.D.argumentstructs.Erik.3\n- Index: 7\n- Speaker: D\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2002a.D.argumentstructs.Erik.1 (Index: 0, Speaker: D): \"Well right away I'm wondering if there's um th th uh, like with D_V_D_ players, if there are zones. Um f frequencies or something um as well as uh characters, um different uh keypad styles and s symbols.\"\nAE_ID ES2002a.B.argumentstructs.Erik.3 (Index: 1, Speaker: B): \"Oh yeah, regions and stuff, yeah. Yeah. Okay.\"\nAE_ID ES2002a.B.argumentstructs.Erik.1 (Index: 4, Speaker: B): \"Well for a remote control, do you think that will be  I suppose it's depends on how complicated our remote control is.\"\nAE_ID ES2002a.D.argumentstructs.Erik.2 (Index: 6, Speaker: D): \"I don't know.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
             "gpt_ans": "ES2002a.B.argumentstructs.Erik.3",
             "ans": "ES2002a.B.argumentstructs.Erik.1",
             "judgement": false
@@ -321,7 +362,7 @@
                     ]
                 }
             ],
-            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002a.A.argumentstructs.Erik.1:\n\"It does make sense from maybe the design point of view 'cause you have more complicated characters like European languages, then you need more buttons.\"\n\nPast dialogue turns:\nAE_ID ES2002a.D.argumentstructs.Erik.1: \"Well right away I'm wondering if there's um th th uh, like with D_V_D_ players, if there are zones. Um f frequencies or something um as well as uh characters, um different uh keypad styles and s symbols.\"\nAE_ID ES2002a.B.argumentstructs.Erik.3: \"Oh yeah, regions and stuff, yeah. Yeah. Okay.\"\nAE_ID ES2002a.B.argumentstructs.Erik.1: \"Well for a remote control, do you think that will be  I suppose it's depends on how complicated our remote control is.\"\nAE_ID ES2002a.D.argumentstructs.Erik.2: \"I don't know.\"\nAE_ID ES2002a.D.argumentstructs.Erik.3: \"Yeah.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002a.A.argumentstructs.Erik.1\n- Index: 8\n- Speaker: A\n- Sentence: \"It does make sense from maybe the design point of view 'cause you have more complicated characters like European languages, then you need more buttons.\"\n\nPast Dialogue Turns:\nAE_ID ES2002a.D.argumentstructs.Erik.1 (Index: 0, Speaker: D): \"Well right away I'm wondering if there's um th th uh, like with D_V_D_ players, if there are zones. Um f frequencies or something um as well as uh characters, um different uh keypad styles and s symbols.\"\nAE_ID ES2002a.B.argumentstructs.Erik.3 (Index: 1, Speaker: B): \"Oh yeah, regions and stuff, yeah. Yeah. Okay.\"\nAE_ID ES2002a.B.argumentstructs.Erik.1 (Index: 4, Speaker: B): \"Well for a remote control, do you think that will be  I suppose it's depends on how complicated our remote control is.\"\nAE_ID ES2002a.D.argumentstructs.Erik.2 (Index: 6, Speaker: D): \"I don't know.\"\nAE_ID ES2002a.D.argumentstructs.Erik.3 (Index: 7, Speaker: D): \"Yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
             "gpt_ans": "ES2002a.B.argumentstructs.Erik.1",
             "ans": "ES2002a.D.argumentstructs.Erik.1",
             "judgement": false
@@ -404,10 +445,10 @@
                     ]
                 }
             ],
-            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002a.B.argumentstructs.Erik.2:\n\"Yeah, yeah. Okay.\"\n\nPast dialogue turns:\nAE_ID ES2002a.B.argumentstructs.Erik.3: \"Oh yeah, regions and stuff, yeah. Yeah. Okay.\"\nAE_ID ES2002a.B.argumentstructs.Erik.1: \"Well for a remote control, do you think that will be  I suppose it's depends on how complicated our remote control is.\"\nAE_ID ES2002a.D.argumentstructs.Erik.2: \"I don't know.\"\nAE_ID ES2002a.D.argumentstructs.Erik.3: \"Yeah.\"\nAE_ID ES2002a.A.argumentstructs.Erik.1: \"It does make sense from maybe the design point of view 'cause you have more complicated characters like European languages, then you need more buttons.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2002a.B.argumentstructs.Erik.3",
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002a.B.argumentstructs.Erik.2\n- Index: 9\n- Speaker: B\n- Sentence: \"Yeah, yeah. Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2002a.B.argumentstructs.Erik.3 (Index: 1, Speaker: B): \"Oh yeah, regions and stuff, yeah. Yeah. Okay.\"\nAE_ID ES2002a.B.argumentstructs.Erik.1 (Index: 4, Speaker: B): \"Well for a remote control, do you think that will be  I suppose it's depends on how complicated our remote control is.\"\nAE_ID ES2002a.D.argumentstructs.Erik.2 (Index: 6, Speaker: D): \"I don't know.\"\nAE_ID ES2002a.D.argumentstructs.Erik.3 (Index: 7, Speaker: D): \"Yeah.\"\nAE_ID ES2002a.A.argumentstructs.Erik.1 (Index: 8, Speaker: A): \"It does make sense from maybe the design point of view 'cause you have more complicated characters like European languages, then you need more buttons.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002a.A.argumentstructs.Erik.1",
             "ans": "ES2002a.A.argumentstructs.Erik.1",
-            "judgement": false
+            "judgement": true
         },
         {
             "turn_number": 7,
@@ -487,7 +528,7 @@
                     ]
                 }
             ],
-            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002a.D.argumentstructs.Erik.4:\n\"Yeah.\"\n\nPast dialogue turns:\nAE_ID ES2002a.B.argumentstructs.Erik.1: \"Well for a remote control, do you think that will be  I suppose it's depends on how complicated our remote control is.\"\nAE_ID ES2002a.D.argumentstructs.Erik.2: \"I don't know.\"\nAE_ID ES2002a.D.argumentstructs.Erik.3: \"Yeah.\"\nAE_ID ES2002a.A.argumentstructs.Erik.1: \"It does make sense from maybe the design point of view 'cause you have more complicated characters like European languages, then you need more buttons.\"\nAE_ID ES2002a.B.argumentstructs.Erik.2: \"Yeah, yeah. Okay.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002a.D.argumentstructs.Erik.4\n- Index: 10\n- Speaker: D\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2002a.B.argumentstructs.Erik.1 (Index: 4, Speaker: B): \"Well for a remote control, do you think that will be  I suppose it's depends on how complicated our remote control is.\"\nAE_ID ES2002a.D.argumentstructs.Erik.2 (Index: 6, Speaker: D): \"I don't know.\"\nAE_ID ES2002a.D.argumentstructs.Erik.3 (Index: 7, Speaker: D): \"Yeah.\"\nAE_ID ES2002a.A.argumentstructs.Erik.1 (Index: 8, Speaker: A): \"It does make sense from maybe the design point of view 'cause you have more complicated characters like European languages, then you need more buttons.\"\nAE_ID ES2002a.B.argumentstructs.Erik.2 (Index: 9, Speaker: B): \"Yeah, yeah. Okay.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
             "gpt_ans": "ES2002a.B.argumentstructs.Erik.2",
             "ans": "ES2002a.A.argumentstructs.Erik.1",
             "judgement": false

@@ -37,7 +37,8 @@ class DialogueTurn:
         return dialogue_turns
 
     def parse_targets(self, targets_str):
-        if targets_str == 'None' or not targets_str:
+        print(targets_str)
+        if targets_str == ['NONE'] or not targets_str:
             return []
         else:
             return [t.strip() for t in targets_str.strip('{}').split(',')]
@@ -56,15 +57,13 @@ class DialogueTurn:
     @staticmethod
     def remove_none_relationships(dialogue_turns):
         filtered_turns = []
+        removed_turns = []
         for turn in dialogue_turns:
             if turn.source == 'NONE' and turn.targets == ['NONE']:
-                print(f"Removed: {turn.ae_id}")
-                print(f"Source: {turn.source}")
-                print(f"Targets: {turn.targets}")
-                print('-------------------------')
+                removed_turns.append(turn)
             else:
                 filtered_turns.append(turn)
-        return filtered_turns
+        return filtered_turns, removed_turns
 
 
     # ae_idからファイルを検索し、ファイルパスのリストを返すメソッド
@@ -104,6 +103,20 @@ class DialogueTurn:
             "source": self.source,
             "targets": self.targets
         }
+
+
+    @classmethod
+    def from_dict(cls, data):
+        return cls(
+            index=data["index"],
+            ae_id=data["ae_id"],
+            speaker=data["speaker"],
+            start_time=data["start_time"],
+            end_time=data["end_time"],
+            sentence=data["sentence"],
+            source=data["source"],
+            targets=data["targets"]
+        )
 
 # dir_path = "/home/hasegawa_tomokazu/create_tree/CSV_topics"  # 検索するディレクトリのパス
 # ae_id = "ES2002a.D.argumentstructs.Erik.1"

@@ -1,0 +1,963 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2002d-ES2002d - Digital pens.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "ver.1.0.txt",
+    "rate": 0.3333333333333333,
+    "total_node_count": 16,
+    "removed_node_count": 3,
+    "removed_node_list": [
+        {
+            "index": 6,
+            "ae_id": "ES2002d.C.argumentstructs.45",
+            "speaker": "C",
+            "start_time": 2039.35,
+            "end_time": 2046.89,
+            "sentence": "Yep. Mm. Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 8,
+            "ae_id": "ES2002d.B.argumentstructs.55",
+            "speaker": "B",
+            "start_time": 2041.83,
+            "end_time": 2043.58,
+            "sentence": "Um",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 13,
+            "ae_id": "ES2002d.C.argumentstructs.46",
+            "speaker": "C",
+            "start_time": 2060.69,
+            "end_time": 2072.88,
+            "sentence": "Hmm. Hmm. Mm-hmm, mm-hmm. Hmm. Mm-hmm, mm-hmm, mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 0,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.37",
+                "speaker": "B",
+                "start_time": 2028.23,
+                "end_time": 2031.96,
+                "sentence": "What about the digital pens, did you find them easy enough to use ?",
+                "source": "NONE",
+                "targets": [
+                    "ES2002d.A.argumentstructs.Erik.28",
+                    "ES2002d.C.argumentstructs.Erik.30",
+                    "ES2002d.D.argumentstructs.Erik.14",
+                    "ES2002d.A.argumentstructs.Erik.29",
+                    "ES2002d.A.argumentstructs.Erik.30"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "NONE",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2002d.D.argumentstructs.Erik.14",
+                "speaker": "D",
+                "start_time": 2032.68,
+                "end_time": 2033.63,
+                "sentence": "Oh they're a bit clunky.",
+                "source": "ES2002d.B.argumentstructs.Erik.37",
+                "targets": [
+                    "ES2002d.B.argumentstructs.Erik.38",
+                    "ES2002d.C.argumentstructs.Erik.31",
+                    "ES2002d.B.argumentstructs.Erik.39"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.37",
+                    "speaker": "B",
+                    "start_time": 2028.23,
+                    "end_time": 2031.96,
+                    "sentence": "What about the digital pens, did you find them easy enough to use ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.28",
+                        "ES2002d.C.argumentstructs.Erik.30",
+                        "ES2002d.D.argumentstructs.Erik.14",
+                        "ES2002d.A.argumentstructs.Erik.29",
+                        "ES2002d.A.argumentstructs.Erik.30"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.D.argumentstructs.Erik.14\n- Index: 1\n- Speaker: D\n- Sentence: \"Oh they're a bit clunky.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.B.argumentstructs.Erik.37 (Index: 0, Speaker: B): \"What about the digital pens, did you find them easy enough to use ?\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.37",
+            "ans": "ES2002d.B.argumentstructs.Erik.37",
+            "judgement": true
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 2,
+                "ae_id": "ES2002d.C.argumentstructs.Erik.30",
+                "speaker": "C",
+                "start_time": 2033.07,
+                "end_time": 2033.9,
+                "sentence": "Sure, yeah.",
+                "source": "ES2002d.B.argumentstructs.Erik.37",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.37",
+                    "speaker": "B",
+                    "start_time": 2028.23,
+                    "end_time": 2031.96,
+                    "sentence": "What about the digital pens, did you find them easy enough to use ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.28",
+                        "ES2002d.C.argumentstructs.Erik.30",
+                        "ES2002d.D.argumentstructs.Erik.14",
+                        "ES2002d.A.argumentstructs.Erik.29",
+                        "ES2002d.A.argumentstructs.Erik.30"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.14",
+                    "speaker": "D",
+                    "start_time": 2032.68,
+                    "end_time": 2033.63,
+                    "sentence": "Oh they're a bit clunky.",
+                    "source": "ES2002d.B.argumentstructs.Erik.37",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.38",
+                        "ES2002d.C.argumentstructs.Erik.31",
+                        "ES2002d.B.argumentstructs.Erik.39"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.C.argumentstructs.Erik.30\n- Index: 2\n- Speaker: C\n- Sentence: \"Sure, yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.B.argumentstructs.Erik.37 (Index: 0, Speaker: B): \"What about the digital pens, did you find them easy enough to use ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.14 (Index: 1, Speaker: D): \"Oh they're a bit clunky.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.37",
+            "ans": "ES2002d.B.argumentstructs.Erik.37",
+            "judgement": true
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 3,
+                "ae_id": "ES2002d.A.argumentstructs.Erik.28",
+                "speaker": "A",
+                "start_time": 2035.21,
+                "end_time": 2038.66,
+                "sentence": "Yep clunky. Agreed.",
+                "source": "ES2002d.B.argumentstructs.Erik.37",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.37",
+                    "speaker": "B",
+                    "start_time": 2028.23,
+                    "end_time": 2031.96,
+                    "sentence": "What about the digital pens, did you find them easy enough to use ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.28",
+                        "ES2002d.C.argumentstructs.Erik.30",
+                        "ES2002d.D.argumentstructs.Erik.14",
+                        "ES2002d.A.argumentstructs.Erik.29",
+                        "ES2002d.A.argumentstructs.Erik.30"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.14",
+                    "speaker": "D",
+                    "start_time": 2032.68,
+                    "end_time": 2033.63,
+                    "sentence": "Oh they're a bit clunky.",
+                    "source": "ES2002d.B.argumentstructs.Erik.37",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.38",
+                        "ES2002d.C.argumentstructs.Erik.31",
+                        "ES2002d.B.argumentstructs.Erik.39"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.30",
+                    "speaker": "C",
+                    "start_time": 2033.07,
+                    "end_time": 2033.9,
+                    "sentence": "Sure, yeah.",
+                    "source": "ES2002d.B.argumentstructs.Erik.37",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.A.argumentstructs.Erik.28\n- Index: 3\n- Speaker: A\n- Sentence: \"Yep clunky. Agreed.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.B.argumentstructs.Erik.37 (Index: 0, Speaker: B): \"What about the digital pens, did you find them easy enough to use ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.14 (Index: 1, Speaker: D): \"Oh they're a bit clunky.\"\nAE_ID ES2002d.C.argumentstructs.Erik.30 (Index: 2, Speaker: C): \"Sure, yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.D.argumentstructs.Erik.14",
+            "ans": "ES2002d.B.argumentstructs.Erik.37",
+            "judgement": false
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 4,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.38",
+                "speaker": "B",
+                "start_time": 2037.65,
+                "end_time": 2037.8,
+                "sentence": "Yeah.",
+                "source": "ES2002d.D.argumentstructs.Erik.14",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.37",
+                    "speaker": "B",
+                    "start_time": 2028.23,
+                    "end_time": 2031.96,
+                    "sentence": "What about the digital pens, did you find them easy enough to use ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.28",
+                        "ES2002d.C.argumentstructs.Erik.30",
+                        "ES2002d.D.argumentstructs.Erik.14",
+                        "ES2002d.A.argumentstructs.Erik.29",
+                        "ES2002d.A.argumentstructs.Erik.30"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.14",
+                    "speaker": "D",
+                    "start_time": 2032.68,
+                    "end_time": 2033.63,
+                    "sentence": "Oh they're a bit clunky.",
+                    "source": "ES2002d.B.argumentstructs.Erik.37",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.38",
+                        "ES2002d.C.argumentstructs.Erik.31",
+                        "ES2002d.B.argumentstructs.Erik.39"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.30",
+                    "speaker": "C",
+                    "start_time": 2033.07,
+                    "end_time": 2033.9,
+                    "sentence": "Sure, yeah.",
+                    "source": "ES2002d.B.argumentstructs.Erik.37",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.28",
+                    "speaker": "A",
+                    "start_time": 2035.21,
+                    "end_time": 2038.66,
+                    "sentence": "Yep clunky. Agreed.",
+                    "source": "ES2002d.B.argumentstructs.Erik.37",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.B.argumentstructs.Erik.38\n- Index: 4\n- Speaker: B\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.B.argumentstructs.Erik.37 (Index: 0, Speaker: B): \"What about the digital pens, did you find them easy enough to use ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.14 (Index: 1, Speaker: D): \"Oh they're a bit clunky.\"\nAE_ID ES2002d.C.argumentstructs.Erik.30 (Index: 2, Speaker: C): \"Sure, yeah.\"\nAE_ID ES2002d.A.argumentstructs.Erik.28 (Index: 3, Speaker: A): \"Yep clunky. Agreed.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.A.argumentstructs.Erik.28",
+            "ans": "ES2002d.D.argumentstructs.Erik.14",
+            "judgement": false
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 5,
+                "ae_id": "ES2002d.C.argumentstructs.Erik.31",
+                "speaker": "C",
+                "start_time": 2037.93,
+                "end_time": 2038.569,
+                "sentence": "Yeah.",
+                "source": "ES2002d.D.argumentstructs.Erik.14",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.37",
+                    "speaker": "B",
+                    "start_time": 2028.23,
+                    "end_time": 2031.96,
+                    "sentence": "What about the digital pens, did you find them easy enough to use ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.28",
+                        "ES2002d.C.argumentstructs.Erik.30",
+                        "ES2002d.D.argumentstructs.Erik.14",
+                        "ES2002d.A.argumentstructs.Erik.29",
+                        "ES2002d.A.argumentstructs.Erik.30"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.14",
+                    "speaker": "D",
+                    "start_time": 2032.68,
+                    "end_time": 2033.63,
+                    "sentence": "Oh they're a bit clunky.",
+                    "source": "ES2002d.B.argumentstructs.Erik.37",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.38",
+                        "ES2002d.C.argumentstructs.Erik.31",
+                        "ES2002d.B.argumentstructs.Erik.39"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.30",
+                    "speaker": "C",
+                    "start_time": 2033.07,
+                    "end_time": 2033.9,
+                    "sentence": "Sure, yeah.",
+                    "source": "ES2002d.B.argumentstructs.Erik.37",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.28",
+                    "speaker": "A",
+                    "start_time": 2035.21,
+                    "end_time": 2038.66,
+                    "sentence": "Yep clunky. Agreed.",
+                    "source": "ES2002d.B.argumentstructs.Erik.37",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.38",
+                    "speaker": "B",
+                    "start_time": 2037.65,
+                    "end_time": 2037.8,
+                    "sentence": "Yeah.",
+                    "source": "ES2002d.D.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.C.argumentstructs.Erik.31\n- Index: 5\n- Speaker: C\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.B.argumentstructs.Erik.37 (Index: 0, Speaker: B): \"What about the digital pens, did you find them easy enough to use ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.14 (Index: 1, Speaker: D): \"Oh they're a bit clunky.\"\nAE_ID ES2002d.C.argumentstructs.Erik.30 (Index: 2, Speaker: C): \"Sure, yeah.\"\nAE_ID ES2002d.A.argumentstructs.Erik.28 (Index: 3, Speaker: A): \"Yep clunky. Agreed.\"\nAE_ID ES2002d.B.argumentstructs.Erik.38 (Index: 4, Speaker: B): \"Yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.38",
+            "ans": "ES2002d.D.argumentstructs.Erik.14",
+            "judgement": false
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 7,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.39",
+                "speaker": "B",
+                "start_time": 2039.88,
+                "end_time": 2041.83,
+                "sentence": "Clunky, okay.",
+                "source": "ES2002d.D.argumentstructs.Erik.14",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.14",
+                    "speaker": "D",
+                    "start_time": 2032.68,
+                    "end_time": 2033.63,
+                    "sentence": "Oh they're a bit clunky.",
+                    "source": "ES2002d.B.argumentstructs.Erik.37",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.38",
+                        "ES2002d.C.argumentstructs.Erik.31",
+                        "ES2002d.B.argumentstructs.Erik.39"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.30",
+                    "speaker": "C",
+                    "start_time": 2033.07,
+                    "end_time": 2033.9,
+                    "sentence": "Sure, yeah.",
+                    "source": "ES2002d.B.argumentstructs.Erik.37",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.28",
+                    "speaker": "A",
+                    "start_time": 2035.21,
+                    "end_time": 2038.66,
+                    "sentence": "Yep clunky. Agreed.",
+                    "source": "ES2002d.B.argumentstructs.Erik.37",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.38",
+                    "speaker": "B",
+                    "start_time": 2037.65,
+                    "end_time": 2037.8,
+                    "sentence": "Yeah.",
+                    "source": "ES2002d.D.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.31",
+                    "speaker": "C",
+                    "start_time": 2037.93,
+                    "end_time": 2038.569,
+                    "sentence": "Yeah.",
+                    "source": "ES2002d.D.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.B.argumentstructs.Erik.39\n- Index: 7\n- Speaker: B\n- Sentence: \"Clunky, okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.D.argumentstructs.Erik.14 (Index: 1, Speaker: D): \"Oh they're a bit clunky.\"\nAE_ID ES2002d.C.argumentstructs.Erik.30 (Index: 2, Speaker: C): \"Sure, yeah.\"\nAE_ID ES2002d.A.argumentstructs.Erik.28 (Index: 3, Speaker: A): \"Yep clunky. Agreed.\"\nAE_ID ES2002d.B.argumentstructs.Erik.38 (Index: 4, Speaker: B): \"Yeah.\"\nAE_ID ES2002d.C.argumentstructs.Erik.31 (Index: 5, Speaker: C): \"Yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.D.argumentstructs.Erik.14",
+            "ans": "ES2002d.D.argumentstructs.Erik.14",
+            "judgement": true
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 9,
+                "ae_id": "ES2002d.A.argumentstructs.Erik.29",
+                "speaker": "A",
+                "start_time": 2043.48,
+                "end_time": 2049.62,
+                "sentence": "Having to tick it before you go off was a bit hindering as well, 'cause you're half way through a thought, and then you run out of paper and then you have to jump.",
+                "source": "ES2002d.B.argumentstructs.Erik.37",
+                "targets": [
+                    "ES2002d.B.argumentstructs.Erik.40",
+                    "ES2002d.B.argumentstructs.Erik.41"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 2,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.30",
+                    "speaker": "C",
+                    "start_time": 2033.07,
+                    "end_time": 2033.9,
+                    "sentence": "Sure, yeah.",
+                    "source": "ES2002d.B.argumentstructs.Erik.37",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.28",
+                    "speaker": "A",
+                    "start_time": 2035.21,
+                    "end_time": 2038.66,
+                    "sentence": "Yep clunky. Agreed.",
+                    "source": "ES2002d.B.argumentstructs.Erik.37",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.38",
+                    "speaker": "B",
+                    "start_time": 2037.65,
+                    "end_time": 2037.8,
+                    "sentence": "Yeah.",
+                    "source": "ES2002d.D.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.31",
+                    "speaker": "C",
+                    "start_time": 2037.93,
+                    "end_time": 2038.569,
+                    "sentence": "Yeah.",
+                    "source": "ES2002d.D.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.39",
+                    "speaker": "B",
+                    "start_time": 2039.88,
+                    "end_time": 2041.83,
+                    "sentence": "Clunky, okay.",
+                    "source": "ES2002d.D.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.A.argumentstructs.Erik.29\n- Index: 9\n- Speaker: A\n- Sentence: \"Having to tick it before you go off was a bit hindering as well, 'cause you're half way through a thought, and then you run out of paper and then you have to jump.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.C.argumentstructs.Erik.30 (Index: 2, Speaker: C): \"Sure, yeah.\"\nAE_ID ES2002d.A.argumentstructs.Erik.28 (Index: 3, Speaker: A): \"Yep clunky. Agreed.\"\nAE_ID ES2002d.B.argumentstructs.Erik.38 (Index: 4, Speaker: B): \"Yeah.\"\nAE_ID ES2002d.C.argumentstructs.Erik.31 (Index: 5, Speaker: C): \"Yeah.\"\nAE_ID ES2002d.B.argumentstructs.Erik.39 (Index: 7, Speaker: B): \"Clunky, okay.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.A.argumentstructs.Erik.28",
+            "ans": "ES2002d.B.argumentstructs.Erik.37",
+            "judgement": false
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 10,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.40",
+                "speaker": "B",
+                "start_time": 2046.8,
+                "end_time": 2047.3,
+                "sentence": "Yeah.",
+                "source": "ES2002d.A.argumentstructs.Erik.29",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 3,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.28",
+                    "speaker": "A",
+                    "start_time": 2035.21,
+                    "end_time": 2038.66,
+                    "sentence": "Yep clunky. Agreed.",
+                    "source": "ES2002d.B.argumentstructs.Erik.37",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.38",
+                    "speaker": "B",
+                    "start_time": 2037.65,
+                    "end_time": 2037.8,
+                    "sentence": "Yeah.",
+                    "source": "ES2002d.D.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.31",
+                    "speaker": "C",
+                    "start_time": 2037.93,
+                    "end_time": 2038.569,
+                    "sentence": "Yeah.",
+                    "source": "ES2002d.D.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.39",
+                    "speaker": "B",
+                    "start_time": 2039.88,
+                    "end_time": 2041.83,
+                    "sentence": "Clunky, okay.",
+                    "source": "ES2002d.D.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.29",
+                    "speaker": "A",
+                    "start_time": 2043.48,
+                    "end_time": 2049.62,
+                    "sentence": "Having to tick it before you go off was a bit hindering as well, 'cause you're half way through a thought, and then you run out of paper and then you have to jump.",
+                    "source": "ES2002d.B.argumentstructs.Erik.37",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.40",
+                        "ES2002d.B.argumentstructs.Erik.41"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.B.argumentstructs.Erik.40\n- Index: 10\n- Speaker: B\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.A.argumentstructs.Erik.28 (Index: 3, Speaker: A): \"Yep clunky. Agreed.\"\nAE_ID ES2002d.B.argumentstructs.Erik.38 (Index: 4, Speaker: B): \"Yeah.\"\nAE_ID ES2002d.C.argumentstructs.Erik.31 (Index: 5, Speaker: C): \"Yeah.\"\nAE_ID ES2002d.B.argumentstructs.Erik.39 (Index: 7, Speaker: B): \"Clunky, okay.\"\nAE_ID ES2002d.A.argumentstructs.Erik.29 (Index: 9, Speaker: A): \"Having to tick it before you go off was a bit hindering as well, 'cause you're half way through a thought, and then you run out of paper and then you have to jump.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.38",
+            "ans": "ES2002d.A.argumentstructs.Erik.29",
+            "judgement": false
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 11,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.41",
+                "speaker": "B",
+                "start_time": 2049.73,
+                "end_time": 2067.29,
+                "sentence": "I know, I think at the very start of today I like wrote a whole load of stuff, didn't click note on one, then went back and wrote one tiny wee thing on the another page, but then did click note, and so I'm quite worried that I've just written over the top of it or something, but they'll have my paper anyway um and haven't done that since.",
+                "source": "ES2002d.A.argumentstructs.Erik.29",
+                "targets": [
+                    "ES2002d.C.argumentstructs.Erik.32"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 4,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.38",
+                    "speaker": "B",
+                    "start_time": 2037.65,
+                    "end_time": 2037.8,
+                    "sentence": "Yeah.",
+                    "source": "ES2002d.D.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.31",
+                    "speaker": "C",
+                    "start_time": 2037.93,
+                    "end_time": 2038.569,
+                    "sentence": "Yeah.",
+                    "source": "ES2002d.D.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.39",
+                    "speaker": "B",
+                    "start_time": 2039.88,
+                    "end_time": 2041.83,
+                    "sentence": "Clunky, okay.",
+                    "source": "ES2002d.D.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.29",
+                    "speaker": "A",
+                    "start_time": 2043.48,
+                    "end_time": 2049.62,
+                    "sentence": "Having to tick it before you go off was a bit hindering as well, 'cause you're half way through a thought, and then you run out of paper and then you have to jump.",
+                    "source": "ES2002d.B.argumentstructs.Erik.37",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.40",
+                        "ES2002d.B.argumentstructs.Erik.41"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.40",
+                    "speaker": "B",
+                    "start_time": 2046.8,
+                    "end_time": 2047.3,
+                    "sentence": "Yeah.",
+                    "source": "ES2002d.A.argumentstructs.Erik.29",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.B.argumentstructs.Erik.41\n- Index: 11\n- Speaker: B\n- Sentence: \"I know, I think at the very start of today I like wrote a whole load of stuff, didn't click note on one, then went back and wrote one tiny wee thing on the another page, but then did click note, and so I'm quite worried that I've just written over the top of it or something, but they'll have my paper anyway um and haven't done that since.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.B.argumentstructs.Erik.38 (Index: 4, Speaker: B): \"Yeah.\"\nAE_ID ES2002d.C.argumentstructs.Erik.31 (Index: 5, Speaker: C): \"Yeah.\"\nAE_ID ES2002d.B.argumentstructs.Erik.39 (Index: 7, Speaker: B): \"Clunky, okay.\"\nAE_ID ES2002d.A.argumentstructs.Erik.29 (Index: 9, Speaker: A): \"Having to tick it before you go off was a bit hindering as well, 'cause you're half way through a thought, and then you run out of paper and then you have to jump.\"\nAE_ID ES2002d.B.argumentstructs.Erik.40 (Index: 10, Speaker: B): \"Yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.A.argumentstructs.Erik.29",
+            "ans": "ES2002d.A.argumentstructs.Erik.29",
+            "judgement": true
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 12,
+                "ae_id": "ES2002d.C.argumentstructs.Erik.32",
+                "speaker": "C",
+                "start_time": 2050.08,
+                "end_time": 2050.41,
+                "sentence": "Yeah.",
+                "source": "ES2002d.B.argumentstructs.Erik.41",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 5,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.31",
+                    "speaker": "C",
+                    "start_time": 2037.93,
+                    "end_time": 2038.569,
+                    "sentence": "Yeah.",
+                    "source": "ES2002d.D.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.39",
+                    "speaker": "B",
+                    "start_time": 2039.88,
+                    "end_time": 2041.83,
+                    "sentence": "Clunky, okay.",
+                    "source": "ES2002d.D.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.29",
+                    "speaker": "A",
+                    "start_time": 2043.48,
+                    "end_time": 2049.62,
+                    "sentence": "Having to tick it before you go off was a bit hindering as well, 'cause you're half way through a thought, and then you run out of paper and then you have to jump.",
+                    "source": "ES2002d.B.argumentstructs.Erik.37",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.40",
+                        "ES2002d.B.argumentstructs.Erik.41"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.40",
+                    "speaker": "B",
+                    "start_time": 2046.8,
+                    "end_time": 2047.3,
+                    "sentence": "Yeah.",
+                    "source": "ES2002d.A.argumentstructs.Erik.29",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.41",
+                    "speaker": "B",
+                    "start_time": 2049.73,
+                    "end_time": 2067.29,
+                    "sentence": "I know, I think at the very start of today I like wrote a whole load of stuff, didn't click note on one, then went back and wrote one tiny wee thing on the another page, but then did click note, and so I'm quite worried that I've just written over the top of it or something, but they'll have my paper anyway um and haven't done that since.",
+                    "source": "ES2002d.A.argumentstructs.Erik.29",
+                    "targets": [
+                        "ES2002d.C.argumentstructs.Erik.32"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.C.argumentstructs.Erik.32\n- Index: 12\n- Speaker: C\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.C.argumentstructs.Erik.31 (Index: 5, Speaker: C): \"Yeah.\"\nAE_ID ES2002d.B.argumentstructs.Erik.39 (Index: 7, Speaker: B): \"Clunky, okay.\"\nAE_ID ES2002d.A.argumentstructs.Erik.29 (Index: 9, Speaker: A): \"Having to tick it before you go off was a bit hindering as well, 'cause you're half way through a thought, and then you run out of paper and then you have to jump.\"\nAE_ID ES2002d.B.argumentstructs.Erik.40 (Index: 10, Speaker: B): \"Yeah.\"\nAE_ID ES2002d.B.argumentstructs.Erik.41 (Index: 11, Speaker: B): \"I know, I think at the very start of today I like wrote a whole load of stuff, didn't click note on one, then went back and wrote one tiny wee thing on the another page, but then did click note, and so I'm quite worried that I've just written over the top of it or something, but they'll have my paper anyway um and haven't done that since.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.40",
+            "ans": "ES2002d.B.argumentstructs.Erik.41",
+            "judgement": false
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 14,
+                "ae_id": "ES2002d.A.argumentstructs.Erik.30",
+                "speaker": "A",
+                "start_time": 2066.76,
+                "end_time": 2075.13,
+                "sentence": "But I think the pen is v is very intuitive, everybody knows how to use it, we don't  have to worry. So I think the pen's good. It's about the best thing.",
+                "source": "ES2002d.B.argumentstructs.Erik.37",
+                "targets": [
+                    "ES2002d.B.argumentstructs.Erik.42"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 7,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.39",
+                    "speaker": "B",
+                    "start_time": 2039.88,
+                    "end_time": 2041.83,
+                    "sentence": "Clunky, okay.",
+                    "source": "ES2002d.D.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.29",
+                    "speaker": "A",
+                    "start_time": 2043.48,
+                    "end_time": 2049.62,
+                    "sentence": "Having to tick it before you go off was a bit hindering as well, 'cause you're half way through a thought, and then you run out of paper and then you have to jump.",
+                    "source": "ES2002d.B.argumentstructs.Erik.37",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.40",
+                        "ES2002d.B.argumentstructs.Erik.41"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.40",
+                    "speaker": "B",
+                    "start_time": 2046.8,
+                    "end_time": 2047.3,
+                    "sentence": "Yeah.",
+                    "source": "ES2002d.A.argumentstructs.Erik.29",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.41",
+                    "speaker": "B",
+                    "start_time": 2049.73,
+                    "end_time": 2067.29,
+                    "sentence": "I know, I think at the very start of today I like wrote a whole load of stuff, didn't click note on one, then went back and wrote one tiny wee thing on the another page, but then did click note, and so I'm quite worried that I've just written over the top of it or something, but they'll have my paper anyway um and haven't done that since.",
+                    "source": "ES2002d.A.argumentstructs.Erik.29",
+                    "targets": [
+                        "ES2002d.C.argumentstructs.Erik.32"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.32",
+                    "speaker": "C",
+                    "start_time": 2050.08,
+                    "end_time": 2050.41,
+                    "sentence": "Yeah.",
+                    "source": "ES2002d.B.argumentstructs.Erik.41",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.A.argumentstructs.Erik.30\n- Index: 14\n- Speaker: A\n- Sentence: \"But I think the pen is v is very intuitive, everybody knows how to use it, we don't  have to worry. So I think the pen's good. It's about the best thing.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.B.argumentstructs.Erik.39 (Index: 7, Speaker: B): \"Clunky, okay.\"\nAE_ID ES2002d.A.argumentstructs.Erik.29 (Index: 9, Speaker: A): \"Having to tick it before you go off was a bit hindering as well, 'cause you're half way through a thought, and then you run out of paper and then you have to jump.\"\nAE_ID ES2002d.B.argumentstructs.Erik.40 (Index: 10, Speaker: B): \"Yeah.\"\nAE_ID ES2002d.B.argumentstructs.Erik.41 (Index: 11, Speaker: B): \"I know, I think at the very start of today I like wrote a whole load of stuff, didn't click note on one, then went back and wrote one tiny wee thing on the another page, but then did click note, and so I'm quite worried that I've just written over the top of it or something, but they'll have my paper anyway um and haven't done that since.\"\nAE_ID ES2002d.C.argumentstructs.Erik.32 (Index: 12, Speaker: C): \"Yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.A.argumentstructs.Erik.29",
+            "ans": "ES2002d.B.argumentstructs.Erik.37",
+            "judgement": false
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 15,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.42",
+                "speaker": "B",
+                "start_time": 2070.26,
+                "end_time": 2071.53,
+                "sentence": "Yeah, yeah.",
+                "source": "ES2002d.A.argumentstructs.Erik.30",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 9,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.29",
+                    "speaker": "A",
+                    "start_time": 2043.48,
+                    "end_time": 2049.62,
+                    "sentence": "Having to tick it before you go off was a bit hindering as well, 'cause you're half way through a thought, and then you run out of paper and then you have to jump.",
+                    "source": "ES2002d.B.argumentstructs.Erik.37",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.40",
+                        "ES2002d.B.argumentstructs.Erik.41"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.40",
+                    "speaker": "B",
+                    "start_time": 2046.8,
+                    "end_time": 2047.3,
+                    "sentence": "Yeah.",
+                    "source": "ES2002d.A.argumentstructs.Erik.29",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.41",
+                    "speaker": "B",
+                    "start_time": 2049.73,
+                    "end_time": 2067.29,
+                    "sentence": "I know, I think at the very start of today I like wrote a whole load of stuff, didn't click note on one, then went back and wrote one tiny wee thing on the another page, but then did click note, and so I'm quite worried that I've just written over the top of it or something, but they'll have my paper anyway um and haven't done that since.",
+                    "source": "ES2002d.A.argumentstructs.Erik.29",
+                    "targets": [
+                        "ES2002d.C.argumentstructs.Erik.32"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.32",
+                    "speaker": "C",
+                    "start_time": 2050.08,
+                    "end_time": 2050.41,
+                    "sentence": "Yeah.",
+                    "source": "ES2002d.B.argumentstructs.Erik.41",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.30",
+                    "speaker": "A",
+                    "start_time": 2066.76,
+                    "end_time": 2075.13,
+                    "sentence": "But I think the pen is v is very intuitive, everybody knows how to use it, we don't  have to worry. So I think the pen's good. It's about the best thing.",
+                    "source": "ES2002d.B.argumentstructs.Erik.37",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.42"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.B.argumentstructs.Erik.42\n- Index: 15\n- Speaker: B\n- Sentence: \"Yeah, yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.A.argumentstructs.Erik.29 (Index: 9, Speaker: A): \"Having to tick it before you go off was a bit hindering as well, 'cause you're half way through a thought, and then you run out of paper and then you have to jump.\"\nAE_ID ES2002d.B.argumentstructs.Erik.40 (Index: 10, Speaker: B): \"Yeah.\"\nAE_ID ES2002d.B.argumentstructs.Erik.41 (Index: 11, Speaker: B): \"I know, I think at the very start of today I like wrote a whole load of stuff, didn't click note on one, then went back and wrote one tiny wee thing on the another page, but then did click note, and so I'm quite worried that I've just written over the top of it or something, but they'll have my paper anyway um and haven't done that since.\"\nAE_ID ES2002d.C.argumentstructs.Erik.32 (Index: 12, Speaker: C): \"Yeah.\"\nAE_ID ES2002d.A.argumentstructs.Erik.30 (Index: 14, Speaker: A): \"But I think the pen is v is very intuitive, everybody knows how to use it, we don't  have to worry. So I think the pen's good. It's about the best thing.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.40",
+            "ans": "ES2002d.A.argumentstructs.Erik.30",
+            "judgement": false
+        }
+    ]
+}

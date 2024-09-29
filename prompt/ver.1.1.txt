@@ -1,0 +1,23 @@
+Instruction:
+
+You are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.
+
+Current Turn (Index: $current_index):
+- AE_ID: $current_ae_id
+- Speaker: $current_speaker
+- Sentence: "$current_sentence"
+
+Past Dialogue Turns:
+$previous_utterances
+
+Guidelines:
+- Only consider the provided past dialogue turns as potential influencing turns.
+- The influencing turn is typically the one the current turn is responding to or building upon.
+- Pay attention to references, questions, answers, and topic continuity.
+- Do not assume any information beyond what is provided.
+
+Answer Format:
+- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.
+- Do not include any explanations, justifications, or additional information.
+
+Answer:

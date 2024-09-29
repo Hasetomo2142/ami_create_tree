@@ -1,0 +1,16 @@
+Instruction:
+
+Given the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.
+
+Current Turn:
+- AE_ID: $current_ae_id
+- Index: $current_index
+- Speaker: $current_speaker
+- Sentence: "$current_sentence"
+
+Past Dialogue Turns:
+$previous_utterances
+
+Please provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.
+
+Answer:
