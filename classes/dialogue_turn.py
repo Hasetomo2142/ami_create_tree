@@ -37,7 +37,6 @@ class DialogueTurn:
         return dialogue_turns
 
     def parse_targets(self, targets_str):
-        print(targets_str)
         if targets_str == ['NONE'] or not targets_str:
             return []
         else:
