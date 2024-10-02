@@ -8,8 +8,8 @@ from string import Template  # プレースホルダを扱うためにimport
 # 自作クラスのインポート
 from classes.meeting import Meeting
 from classes.dialogue_turn import DialogueTurn
-from classes.result import OneTurnResult
-from classes.result import Result
+from classes.result_json import OneTurnResult
+from classes.result_json import Result
 
 # ファイルのパス
 dir_path = os.path.dirname(os.path.abspath(__file__))

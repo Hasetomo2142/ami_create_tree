@@ -3,7 +3,7 @@ import os
 
 # 必要なクラスをインポートまたは定義済みと仮定
 from classes.dialogue_turn import DialogueTurn
-from classes.result import OneTurnResult, Result
+from classes.result_json import OneTurnResult, Result
 
 # ファイルのパス
 dir_path = '/home/hasegawa_tomokazu/create_tree/'
