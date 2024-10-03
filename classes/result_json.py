@@ -15,12 +15,15 @@ result_json_path = os.path.join(dir_path, 'result_json')
 class OneTurnResult:
 	def __init__(self, turn_number, current_node_id, target_node_id_list, prompt, gpt_ans, ans, judgement):
 		self.turn_number = turn_number
-		self.current_node = DialogueTurn.find_by_ae_id(csv_topics_path, current_node_id)
-		self.target_node_list = [DialogueTurn.find_by_ae_id(csv_topics_path, target_node_id) for target_node_id in target_node_id_list]
+		self.current_node = DialogueTurn.find_by_ae_id(current_node_id)
+		self.target_node_list = [DialogueTurn.find_by_ae_id(target_node_id) for target_node_id in target_node_id_list]
 		self.prompt = prompt
 		self.gpt_ans = gpt_ans
 		self.ans = ans
 		self.judgement = judgement
+
+		# 正解が含まれているか (True/False)　カラムとしては保持しない
+		self.contains_ans = self.ans in self.target_node_list
 
 	def to_dict(self):
 		return {
@@ -47,6 +50,12 @@ class OneTurnResult:
 				judgement=data["judgement"]
 		)
 
+	def contains_answer(self):
+		for target_node in self.target_node_list:
+			if target_node.ae_id == self.ans:
+				return True
+		return False
+
 class Result:
 	def __init__(self, file_name, use_model, use_method, template, rate, total_node_count, removed_node_count, removed_node_list, one_turn_results):
 		self.file_name = file_name
@@ -58,6 +67,19 @@ class Result:
 		self.removed_node_count = removed_node_count
 		self.removed_node_list = removed_node_list
 		self.one_turn_results = one_turn_results
+
+	def soleve_count(self):
+		return self.total_node_count - self.removed_node_count - 1 # -1はROOTノード
+
+	def true_count(self):
+		true_count = 0
+		for one_turn_result in self.one_turn_results:
+			if one_turn_result.judgement == True:
+				true_count += 1
+		return true_count
+
+	def calc_accuracy(self):
+		return self.true_count / self.soleve_count
 
 	def to_dict(self):
 		return {

@@ -3,6 +3,10 @@ import json
 import os
 import re
 
+# ファイルのパス
+dir_path = '/home/hasegawa_tomokazu/create_tree/'
+csv_topics_path = os.path.join(dir_path, 'CSV_topics')
+
 class DialogueTurn:
     def __init__(self, index, ae_id, speaker, start_time, end_time, sentence, source, targets):
         self.index = index
@@ -67,7 +71,7 @@ class DialogueTurn:
 
     # ae_idからファイルを検索し、ファイルパスのリストを返すメソッド
     @staticmethod
-    def find_by_ae_id(dir_path, ae_id):
+    def find_by_ae_id(ae_id):
         # 正規表現パターンを定義
         pattern = r"^[^.]+"  # ドットまでの部分を抽出
         # ae_idからファイルIDを抽出
@@ -78,9 +82,9 @@ class DialogueTurn:
         matching_files = []
 
         # dir_pathのなかで、file_idから始まるファイルのリストを検索
-        for file_name in os.listdir(dir_path):
+        for file_name in os.listdir(csv_topics_path):
             if file_name.startswith(file_id):
-                file_path = os.path.join(dir_path, file_name)
+                file_path = os.path.join(csv_topics_path, file_name)
                 matching_files.append(file_path)  # 見つかったファイルをリストに追加
 
         for file_path in matching_files:
@@ -120,4 +124,4 @@ class DialogueTurn:
 # dir_path = "/home/hasegawa_tomokazu/create_tree/CSV_topics"  # 検索するディレクトリのパス
 # ae_id = "ES2002a.D.argumentstructs.Erik.1"
 # node = DialogueTurn.find_by_ae_id(dir_path, ae_id)
-# print(node.to_json())
+# print(node.to_dict())

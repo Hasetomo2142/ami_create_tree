@@ -1,0 +1,2 @@
+file_name,rate,num_solved_problems,num_options_without_answer,build_tree_depth,real_tree_depth,tree_edit_distance,edge_similarity,path_based_similarity
+ES2002a - Regions,0.42857142857142855,8,0,4,2,4.0,0.4285714285714285,0.8510649469101557

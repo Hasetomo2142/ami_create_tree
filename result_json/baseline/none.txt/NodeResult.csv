@@ -1,0 +1,9 @@
+file_name,turn_number,current_node_id,gpt_ans_node_id,ans_node_id,judgement,current_node_id_index,gpt_ans_node_id_index,ans_node_id_index,distance_from_ans,contains_answer
+ES2002a - Regions,0,ES2002a.D.argumentstructs.Erik.1,ROOT,NONE,NONE,0,0,0,0,False
+ES2002a - Regions,1,ES2002a.B.argumentstructs.Erik.3,None.,ES2002a.D.argumentstructs.Erik.1,False,1,0,0,1,True
+ES2002a - Regions,2,ES2002a.B.argumentstructs.Erik.1,None.,ES2002a.D.argumentstructs.Erik.1,False,4,0,0,4,True
+ES2002a - Regions,3,ES2002a.D.argumentstructs.Erik.2,None.,ES2002a.B.argumentstructs.Erik.1,False,6,0,4,2,True
+ES2002a - Regions,4,ES2002a.D.argumentstructs.Erik.3,None.,ES2002a.B.argumentstructs.Erik.1,False,7,0,4,3,True
+ES2002a - Regions,5,ES2002a.A.argumentstructs.Erik.1,None.,ES2002a.D.argumentstructs.Erik.1,False,8,0,0,8,True
+ES2002a - Regions,6,ES2002a.B.argumentstructs.Erik.2,None.,ES2002a.A.argumentstructs.Erik.1,False,9,0,8,1,True
+ES2002a - Regions,7,ES2002a.D.argumentstructs.Erik.4,None.,ES2002a.A.argumentstructs.Erik.1,False,10,0,8,2,True

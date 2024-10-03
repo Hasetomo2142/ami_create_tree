@@ -10,6 +10,8 @@ from classes.meeting import Meeting
 from classes.dialogue_turn import DialogueTurn
 from classes.result_json import OneTurnResult
 from classes.result_json import Result
+from classes.node_result import NodeResult
+from classes.tree_result import TreeResult
 
 # ファイルのパス
 dir_path = os.path.dirname(os.path.abspath(__file__))
@@ -21,6 +23,11 @@ prompt_dir = os.path.join(dir_path, 'prompt')  # プロンプトファイルの�
 # 実験設定
 MODEL = "gpt-4o-mini"
 METHOD = "baseline"
+PROMPT = "ver.1.0.txt"
+
+#結果を格納するファイルを生成
+node_result_csv_path = NodeResult.create_csv_header(METHOD, PROMPT)
+tree_result_csv_path = TreeResult.create_csv_header(METHOD, PROMPT)
 
 # CSVファイルのパスを取得
 def get_csv_files(csv_topics_path):
@@ -64,7 +71,7 @@ def get_chat_response(prompt):
 
 # メイン処理
 def main():
-    csv_file_list = get_csv_files(csv_topics_path)[:10]
+    csv_file_list = get_csv_files(csv_topics_path)[:1]
 
     overall_true_count = 0
     overall_total_count = 0
@@ -86,7 +93,7 @@ def main():
                 previous_utterances = dialogue_turns[start_index:index]
 
                 # プロンプト生成
-                template = 'ver.1.0.txt'
+                template = PROMPT
                 prompt_file = os.path.join(prompt_dir, template)
                 prompt = generate_prompt_from_template(turn, previous_utterances, prompt_file)
 
@@ -121,6 +128,8 @@ def main():
         overall_total_count += total_count
 
         result.save()
+        NodeResult.save_nodes_from_result_class(result, node_result_csv_path)
+        TreeResult.save_trees_from_result_class(result, tree_result_csv_path)
 
 
     if overall_total_count > 0:
