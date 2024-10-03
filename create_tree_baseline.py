@@ -129,7 +129,9 @@ def main():
 
         result.save()
         NodeResult.save_nodes_from_result_class(result, node_result_csv_path)
-        TreeResult.save_trees_from_result_class(result, tree_result_csv_path)
+        tree_result = TreeResult.save_trees_from_result_class(result, tree_result_csv_path)
+        tree_result.draw_tree(METHOD, PROMPT)
+
 
 
     if overall_total_count > 0:

@@ -68,6 +68,12 @@ class Result:
 		self.removed_node_list = removed_node_list
 		self.one_turn_results = one_turn_results
 
+	def get_speakers(self):
+		speakers = set()
+		for one_turn_result in self.one_turn_results:
+			speakers.add(one_turn_result.current_node.speaker)
+		return list(speakers)
+
 	def soleve_count(self):
 		return self.total_node_count - self.removed_node_count - 1 # -1はROOTノード
 

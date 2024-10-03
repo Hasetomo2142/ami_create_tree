@@ -5,9 +5,10 @@ import re
 import datetime
 import networkx as nx
 import matplotlib.pyplot as plt
+from networkx.drawing.nx_agraph import graphviz_layout
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
-
+import textwrap  # 改行処理のために使用
 
 # 自作クラスのインポート
 from .dialogue_turn import DialogueTurn
@@ -24,6 +25,8 @@ class TreeResult:
         self.estimated_tree = nx.DiGraph()
         self.real_tree = nx.DiGraph()
 
+        self.color_map = self.get_color_map(Result.get_speakers())
+
         self.build_estimated_tree(Result)
         self.build_real_tree(Result)
 
@@ -37,6 +40,7 @@ class TreeResult:
         self.tree_edit_distance = nx.graph_edit_distance(self.estimated_tree, self.real_tree)
         self.edge_similarity = self.edge_similarity()
         self.path_based_similarity = self.compute_path_based_similarity()
+
 
         # print(f"Estimated Tree - Nodes: {self.estimated_tree.number_of_nodes()}, Edges: {self.estimated_tree.number_of_edges()}")
         # print(f"Real Tree - Nodes: {self.real_tree.number_of_nodes()}, Edges: {self.real_tree.number_of_edges()}")
@@ -53,13 +57,14 @@ class TreeResult:
 
     def build_estimated_tree(self, Result):
         one_turn_results = Result.one_turn_results
-
         for one_turn_result in one_turn_results:
-            current_node_ae_id = one_turn_result.current_node.ae_id
+            current_node = one_turn_result.current_node
 
             # 現在のノードがすでに存在しているか確認（ae_id で照合）
-            if not self.estimated_tree.has_node(current_node_ae_id):
-                self.estimated_tree.add_node(current_node_ae_id)
+            if not self.estimated_tree.has_node(current_node.ae_id):
+
+                node_label = f"{current_node.index + 1}: {self.wrap_and_truncate_text(current_node.sentence)}"
+                self.estimated_tree.add_node(current_node.ae_id, label=node_label, color=self.color_map[DialogueTurn.find_by_ae_id(current_node.ae_id).speaker])
 
             # GPTの回答ノードを取得して、エッジを追加（ae_id で処理）
             if one_turn_result.current_node.source != 'NONE':
@@ -69,17 +74,11 @@ class TreeResult:
                     gpt_ans_node_ae_id = gpt_ans_node.ae_id
 
                     # ノードがすでに追加されているか確認（ae_id で確認）
-                    if not self.estimated_tree.has_node(gpt_ans_node_ae_id):
-                        self.estimated_tree.add_node(gpt_ans_node_ae_id)
+                    if not self.estimated_tree.has_node(gpt_ans_node.ae_id):
+                        self.estimated_tree.add_node(gpt_ans_node.ae_id)
 
                     # エッジを追加（ae_id を用いる）
-                    self.estimated_tree.add_edge(gpt_ans_node_ae_id, current_node_ae_id)
-
-        # グラフを描画し保存
-        nx.draw(self.estimated_tree, with_labels=False)
-        plt.savefig('estimated.png')
-        plt.close()
-
+                    self.estimated_tree.add_edge(gpt_ans_node.ae_id, current_node.ae_id)
 
     def build_real_tree(self, Result):
         one_turn_results = Result.one_turn_results
@@ -104,11 +103,6 @@ class TreeResult:
 
                     # エッジを追加（ae_id を用いる）
                     self.real_tree.add_edge(ans_node_ae_id, current_node_ae_id)
-
-        # グラフを描画し保存
-        nx.draw(self.real_tree, with_labels=False)
-        plt.savefig('real.png')
-        plt.close()
 
     def edge_similarity(self):
         """
@@ -259,3 +253,87 @@ class TreeResult:
     def save_trees_from_result_class(result, tree_result_csv_path):
         tree_result = TreeResult(result)
         tree_result.save_one_tree(tree_result_csv_path)
+        return tree_result
+
+
+
+###################################################################################################
+#以下は、グラフの描写に利用する処理
+
+    # ノードのラベルを適切な長さで改行し、150文字を超える場合は省略する関数
+    def wrap_and_truncate_text(self, text):
+        width=40
+        max_len=150
+        if len(text) > max_len:
+            text = text[:max_len] + '...'  # 150文字で切り捨てて省略記号を追加
+        return '\n'.join(textwrap.wrap(text, width=width))
+
+    # 話者ごとに異なる色を設定する関数
+    def get_color_map(self, speakers):
+        color_palette = ['lightblue', 'lightgreen', 'lightcoral', 'khaki', 'plum']
+        color_map = {speaker: color_palette[i % len(color_palette)] for i, speaker in enumerate(speakers)}
+        return color_map
+
+    # 画像サイズをノード数に応じて計算する関数
+    def calculate_figsize(self, num_nodes):
+        if num_nodes <= 8:
+            return (15, 12)  # デフォルトのサイズ
+        else:
+            # 8個以上のノードに対して、スケーリングするルール
+            width = 15 + (num_nodes - 8) * 1.4  # 横幅を1.4ずつ増やす
+            height = 12 + (num_nodes - 8) * 0.6  # 縦幅は0.6ずつ増やす
+            return (width, height)
+
+    # 凡例のスケーリング（フォントサイズとマーカーサイズを画像全体の大きさに基づいて設定）
+    def calculate_legend_size(self, figsize):
+        width, height = figsize
+        # 画像全体の10%に相当するサイズを計算
+        legend_font_size = max(30, 0.1 * width)
+        legend_marker_size = max(300, 0.1 * width * 100)  # マーカーサイズはスケーリングを調整
+        return legend_font_size, legend_marker_size
+
+    def draw_tree(self, use_method, template):
+
+         # result_json_pathにuse_methodのディレクトリを作成
+        method_dir_path = os.path.join(result_json_path, use_method)
+        if not os.path.exists(method_dir_path):
+            os.makedirs(method_dir_path)
+
+        # use_methodのディレクトリにpromptのディレクトリを作成
+        prompt_dir_path = os.path.join(method_dir_path, template)
+        if not os.path.exists(prompt_dir_path):
+            os.makedirs(prompt_dir_path)
+
+        tree = self.estimated_tree
+        num_nodes = len(tree.nodes)
+        figsize = self.calculate_figsize(num_nodes)  # 画像サイズを計算
+        legend_font_size, legend_marker_size = self.calculate_legend_size(figsize)  # 凡例のサイズを計算
+        print(f"Generating graph with {num_nodes} nodes, figsize={figsize}, legend_font_size={legend_font_size}")
+
+        # グラフを描画
+        pos = graphviz_layout(tree, prog='dot')  # 'dot'レイアウトを使用
+        plt.figure(figsize=figsize)  # 計算されたサイズを設定
+
+        for node in tree.nodes:
+            x, y = pos[node]
+            if 'label' in tree.nodes[node]:  # labelが存在するか確認
+                plt.text(x, y, tree.nodes[node]['label'], fontsize=10, ha='center', va='center',
+                        bbox=dict(facecolor=tree.nodes[node]['color'], edgecolor='black', boxstyle='round,pad=0.3'))
+
+        # エッジを描画
+        nx.draw_networkx_edges(tree, pos, arrowstyle='-|>', arrowsize=15, edge_color='black')
+        plt.axis('off')
+
+        # 話者の凡例を描画（スケーリングされたフォントサイズとマーカーサイズを使用）
+        for speaker, color in self.color_map.items():
+            plt.scatter([], [], c=color, label=speaker, s=legend_marker_size)
+        plt.legend(title='Speaker Colors', loc='upper left', bbox_to_anchor=(1, 1), fontsize=legend_font_size)
+
+        # 画像をファイルに保存
+        output_dir = os.path.join(prompt_dir_path, 'images')
+        if not os.path.exists(output_dir):
+            os.makedirs(output_dir)
+
+        output_path = os.path.join(output_dir, f'{self.file_name}.png')
+        plt.savefig(output_path, format='png', bbox_inches='tight')
+        plt.close()
