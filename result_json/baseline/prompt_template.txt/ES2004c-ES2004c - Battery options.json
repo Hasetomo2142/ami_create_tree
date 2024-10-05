@@ -3,7 +3,7 @@
     "use_model": "gpt-4o-mini",
     "use_method": "baseline",
     "template": "prompt_template.txt",
-    "rate": 0.35294117647058826,
+    "rate": 0.4117647058823529,
     "total_node_count": 52,
     "removed_node_count": 17,
     "removed_node_list": [
@@ -451,9 +451,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2004c.B.argumentstructs.Erik.3:\n\"Like a  right, okay.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2004c.B.argumentstructs.Erik.1 (Index: 1, Speaker: B): \"'Kay.\"\nAE_ID ES2004c.C.argumentstructs.Erik.1 (Index: 2, Speaker: C): \"Um and then we we're loo looking into battery options.\"\nAE_ID ES2004c.C.argumentstructs.Erik.2 (Index: 3, Speaker: C): \"There's um actually no rechargeable option available, so we  I saw the um the standard double A_ and triple A_ which we thought were a bit bit too bulky at the moment, dynamo charging, I thought that that might be a bit silly to be to be honest, people won't  it's it's basically like wind-up radio. So you wind up your remote control before you use it. It might\"\nAE_ID ES2004c.B.argumentstructs.Erik.2 (Index: 5, Speaker: B): \"can you explain that ?\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2004c.B.argumentstructs.Erik.5",
+            "gpt_ans": "ES2004c.B.argumentstructs.Erik.2",
             "ans": "ES2004c.B.argumentstructs.Erik.2",
-            "judgement": false
+            "judgement": true
         },
         {
             "turn_number": 5,
@@ -957,7 +957,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2004c.B.argumentstructs.Erik.6:\n\"I thought it was U_V_ like\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2004c.B.argumentstructs.Erik.4 (Index: 7, Speaker: B): \"How   what kind of  how l long can you get out of that, I mean can you pick it up and then wind it for two minutes and then that's it for the night ?\"\nAE_ID ES2004c.C.argumentstructs.Erik.3 (Index: 9, Speaker: C): \"Yeah, yeah, oh yeah I presu you wouldn't have to wind it for very long,\"\nAE_ID ES2004c.C.argumentstructs.Erik.4 (Index: 11, Speaker: C): \"but I don't I don't think it's really sort of necessary when you th you think of the next two options, like the the solar charging, 'cause most people have the light on in the room anyway so they could get  when when you got T_V_.\"\nAE_ID ES2004c.B.argumentstructs.Erik.5 (Index: 12, Speaker: B): \"That doesn't count though does it ?\"\nAE_ID ES2004c.D.argumentstructs.Erik.1 (Index: 13, Speaker: D): \"Does does light charge as as sunlight does ? Artificial light ?\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2004c.B.argumentstructs.Erik.5",
+            "gpt_ans": "ES2004c.C.argumentstructs.Erik.4",
             "ans": "ES2004c.D.argumentstructs.Erik.1",
             "judgement": false
         },
@@ -2206,9 +2206,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2004c.A.argumentstructs.Erik.4:\n\"And are these like uh  what are the life of the kinetic battery, it like it runs for long time ?\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2004c.C.argumentstructs.Erik.8 (Index: 30, Speaker: C): \"Yeah and most people most people also watch T_V_ in the in the night anyway.\"\nAE_ID ES2004c.A.argumentstructs.Erik.3 (Index: 31, Speaker: A): \"Right.\"\nAE_ID ES2004c.B.argumentstructs.Erik.9 (Index: 33, Speaker: B): \"Mm, but then it would be charging through the day, I think the point is that it charges through the day and then you've got it charged for the evening.\"\nAE_ID ES2004c.C.argumentstructs.Erik.9 (Index: 34, Speaker: C): \"But I I think I think the the next one's the best anyway. The the kinetic charging which is like you get it in r you get it in wrist watches and you d you don't even notice it. I mean the amount the amount of probably moving around you'd be doing all the time would would charge it up, I don't think you'd ever need to actually physically start shaking it up to make it work.\"\nAE_ID ES2004c.B.argumentstructs.Erik.10 (Index: 35, Speaker: B): \"Okay.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2004c.B.argumentstructs.Erik.9",
+            "gpt_ans": "ES2004c.C.argumentstructs.Erik.9",
             "ans": "ES2004c.C.argumentstructs.Erik.9",
-            "judgement": false
+            "judgement": true
         },
         {
             "turn_number": 26,

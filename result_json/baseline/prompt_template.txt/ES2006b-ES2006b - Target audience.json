@@ -885,7 +885,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006b.B.argumentstructs.Erik.3:\n\"Yeah.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2006b.A.argumentstructs.Erik.3 (Index: 11, Speaker: A): \"Right.\"\nAE_ID ES2006b.B.argumentstructs.Erik.2 (Index: 12, Speaker: B): \"Well, that's when you go to uni, isn't it ? So, you know\"\nAE_ID ES2006b.C.argumentstructs.Erik.3 (Index: 14, Speaker: C): \"Yeah, but you don't have much money, generally. I would've thought it's it's more that twenty five to thirty five, when people are really moving out and they've got their first job and they want their nice toys and\"\nAE_ID ES2006b.D.argumentstructs.Erik.1 (Index: 15, Speaker: D): \"Yeah. Yeah, you share a television or something that  yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.4 (Index: 16, Speaker: A): \"Right. But uh still, if if you can go back to that slide and uh, how popular was it ? Oh, oh, okay.  That's alright, if you can just look it up on your computer, wh uh um people between twenty five to thirty five, uh how popular was  so it was sti still still quite popular amongst them. So even they are seventy six percent, is that high amount ?\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2006b.C.argumentstructs.Erik.3",
+            "gpt_ans": "ES2006b.A.argumentstructs.Erik.3",
             "ans": "ES2006b.A.argumentstructs.Erik.4",
             "judgement": false
         },
@@ -1213,7 +1213,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006b.A.argumentstructs.Erik.5:\n\"Alright.\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2006b.A.argumentstructs.Erik.4 (Index: 16, Speaker: A): \"Right. But uh still, if if you can go back to that slide and uh, how popular was it ? Oh, oh, okay.  That's alright, if you can just look it up on your computer, wh uh um people between twenty five to thirty five, uh how popular was  so it was sti still still quite popular amongst them. So even they are seventy six percent, is that high amount ?\"\nAE_ID ES2006b.B.argumentstructs.Erik.3 (Index: 17, Speaker: B): \"Yeah.\"\nAE_ID ES2006b.B.argumentstructs.Erik.5 (Index: 20, Speaker: B): \"Seventy six point three percent.\"\nAE_ID ES2006b.D.argumentstructs.Erik.2 (Index: 21, Speaker: D): \"It was seventy something, yeah, yeah.\"\nAE_ID ES2006b.B.argumentstructs.Erik.6 (Index: 22, Speaker: B): \"Yeah.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2006b.B.argumentstructs.Erik.3",
+            "gpt_ans": "ES2006b.A.argumentstructs.Erik.4",
             "ans": "ES2006b.B.argumentstructs.Erik.7",
             "judgement": false
         },

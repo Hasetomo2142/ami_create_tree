@@ -230,7 +230,7 @@ class TreeResult:
             writer = csv.writer(f)
             writer.writerow([
                 self.file_name,
-                self.rate,
+                f"{self.rate * 100:.2f}%",  # 少数から％表示に変更
                 self.num_solved_problems,
                 self.num_options_without_answer,
                 self.build_tree_depth,

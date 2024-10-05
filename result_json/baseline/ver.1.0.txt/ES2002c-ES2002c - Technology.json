@@ -3,7 +3,7 @@
     "use_model": "gpt-4o-mini",
     "use_method": "baseline",
     "template": "ver.1.0.txt",
-    "rate": 0.4,
+    "rate": 0.3333333333333333,
     "total_node_count": 22,
     "removed_node_count": 6,
     "removed_node_list": [
@@ -313,9 +313,9 @@
                 }
             ],
             "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002c.D.argumentstructs.Erik.22\n- Index: 5\n- Speaker: D\n- Sentence: \"Yeah clear, that'd be\"\n\nPast Dialogue Turns:\nAE_ID ES2002c.D.argumentstructs.Erik.20 (Index: 0, Speaker: D): \"I mean one of the things running through my mind right now, I realise we're being efficient to wrap up the meeting and have lots of decisions made, um but we are leaning quite a bit to the side of being low-tech, rubber buttons plastic frame, it's almost like we're reproducing the same old remote control that's out there. Should we think about how we are actually getting this high-tech user friendly uh um theme  like what is it that we're u we're using to to achieve those goals ? Like\"\nAE_ID ES2002c.B.argumentstructs.Erik.23 (Index: 2, Speaker: B): \"Could have things like backlighting the buttons and stuff like that.\"\nAE_ID ES2002c.D.argumentstructs.Erik.21 (Index: 3, Speaker: D): \"Okay so so backlighting, that would be good.\"\nAE_ID ES2002c.A.argumentstructs.Erik.14 (Index: 4, Speaker: A): \"Or even a clear case. Um you know a a glowing a a glowing yellow type case where the yellow is showable, but in the dark it sort of, it's alive. Um in in a slight subtle way.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
-            "gpt_ans": "ES2002c.A.argumentstructs.Erik.14",
+            "gpt_ans": "ES2002c.D.argumentstructs.Erik.21",
             "ans": "ES2002c.A.argumentstructs.Erik.14",
-            "judgement": true
+            "judgement": false
         },
         {
             "turn_number": 5,
@@ -483,7 +483,7 @@
                 }
             ],
             "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002c.D.argumentstructs.Erik.23\n- Index: 7\n- Speaker: D\n- Sentence: \"Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2002c.B.argumentstructs.Erik.23 (Index: 2, Speaker: B): \"Could have things like backlighting the buttons and stuff like that.\"\nAE_ID ES2002c.D.argumentstructs.Erik.21 (Index: 3, Speaker: D): \"Okay so so backlighting, that would be good.\"\nAE_ID ES2002c.A.argumentstructs.Erik.14 (Index: 4, Speaker: A): \"Or even a clear case. Um you know a a glowing a a glowing yellow type case where the yellow is showable, but in the dark it sort of, it's alive. Um in in a slight subtle way.\"\nAE_ID ES2002c.D.argumentstructs.Erik.22 (Index: 5, Speaker: D): \"Yeah clear, that'd be\"\nAE_ID ES2002c.B.argumentstructs.Erik.24 (Index: 6, Speaker: B): \"Aye that would be a good idea.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
-            "gpt_ans": "ES2002c.D.argumentstructs.Erik.22",
+            "gpt_ans": "ES2002c.D.argumentstructs.Erik.21",
             "ans": "ES2002c.B.argumentstructs.Erik.24",
             "judgement": false
         },

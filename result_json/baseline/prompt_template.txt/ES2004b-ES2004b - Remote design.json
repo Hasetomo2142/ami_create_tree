@@ -3,7 +3,7 @@
     "use_model": "gpt-4o-mini",
     "use_method": "baseline",
     "template": "prompt_template.txt",
-    "rate": 0.4117647058823529,
+    "rate": 0.35294117647058826,
     "total_node_count": 27,
     "removed_node_count": 9,
     "removed_node_list": [
@@ -530,9 +530,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2004b.A.argumentstructs.Erik.11:\n\"A sea shell ?\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2004b.A.argumentstructs.Erik.9 (Index: 2, Speaker: A): \"We could look in at that but\"\nAE_ID ES2004b.D.argumentstructs.Erik.15 (Index: 3, Speaker: D): \"I mean look at the mobile.\"\nAE_ID ES2004b.A.argumentstructs.Erik.10 (Index: 6, Speaker: A): \"What we were talking is to make it more rather than like sea-shells, logo could become as  you could put a logo in the corner of uh the model, rather than you know, trying to make it like a sea shell or whatever you were ta telling like.\"\nAE_ID ES2004b.B.argumentstructs.Erik.26 (Index: 7, Speaker: B): \"Well we need to think about how it's gonna look different.\"\nAE_ID ES2004b.D.argumentstructs.Erik.16 (Index: 8, Speaker: D): \"I think that's   that sounds a really attractive idea, I've not come across anything like that before, if it kind of  yeah and that opens out into your flip-top. Then it's nice t to h you can make it lightweight plastic, nice to hold in the palm of the hand and just because you're having to actually insert in between the two covers, that's gonna take care of some of the repetitive strain injury trying p prevent a lot of that I would think. I think it's a really nice idea and plus you can get   you know even though we're using plastic, you can still  I mean think of the designs you can get in plastic, we can do a nice conch shell or scallop shell exterior.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2004b.D.argumentstructs.Erik.16",
+            "gpt_ans": "ES2004b.A.argumentstructs.Erik.10",
             "ans": "ES2004b.D.argumentstructs.Erik.16",
-            "judgement": true
+            "judgement": false
         },
         {
             "turn_number": 7,
@@ -612,7 +612,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2004b.C.argumentstructs.Erik.26:\n\"Yeah.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2004b.D.argumentstructs.Erik.15 (Index: 3, Speaker: D): \"I mean look at the mobile.\"\nAE_ID ES2004b.A.argumentstructs.Erik.10 (Index: 6, Speaker: A): \"What we were talking is to make it more rather than like sea-shells, logo could become as  you could put a logo in the corner of uh the model, rather than you know, trying to make it like a sea shell or whatever you were ta telling like.\"\nAE_ID ES2004b.B.argumentstructs.Erik.26 (Index: 7, Speaker: B): \"Well we need to think about how it's gonna look different.\"\nAE_ID ES2004b.D.argumentstructs.Erik.16 (Index: 8, Speaker: D): \"I think that's   that sounds a really attractive idea, I've not come across anything like that before, if it kind of  yeah and that opens out into your flip-top. Then it's nice t to h you can make it lightweight plastic, nice to hold in the palm of the hand and just because you're having to actually insert in between the two covers, that's gonna take care of some of the repetitive strain injury trying p prevent a lot of that I would think. I think it's a really nice idea and plus you can get   you know even though we're using plastic, you can still  I mean think of the designs you can get in plastic, we can do a nice conch shell or scallop shell exterior.\"\nAE_ID ES2004b.A.argumentstructs.Erik.11 (Index: 9, Speaker: A): \"A sea shell ?\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2004b.D.argumentstructs.Erik.15",
+            "gpt_ans": "ES2004b.D.argumentstructs.Erik.16",
             "ans": "ES2004b.A.argumentstructs.Erik.11",
             "judgement": false
         },

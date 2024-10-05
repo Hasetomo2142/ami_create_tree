@@ -3,7 +3,7 @@
     "use_model": "gpt-4o-mini",
     "use_method": "baseline",
     "template": "ver.1.0.txt",
-    "rate": 0.41379310344827586,
+    "rate": 0.3793103448275862,
     "total_node_count": 44,
     "removed_node_count": 14,
     "removed_node_list": [
@@ -746,9 +746,9 @@
                 }
             ],
             "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002b.A.argumentstructs.Erik.3\n- Index: 11\n- Speaker: A\n- Sentence: \"Is that too  is that a lot of money to buy an extra remote or a replacement remote ? Right. Um so maybe not the high end range, but maybe middle, middle up-ish. Kind of. You know how much ? I dunno I guess you pay, what, ten ten quid for a remote ? Like a simple replacement, right. I mean if you lost your remote and the first thing you just wanna go out and get, would you  how much would you pay ?\"\n\nPast Dialogue Turns:\nAE_ID ES2002b.D.argumentstructs.Erik.10 (Index: 5, Speaker: D): \"Yeah. And who watches T_V_.\"\nAE_ID ES2002b.D.argumentstructs.Erik.11 (Index: 7, Speaker: D): \"Yeah.\"\nAE_ID ES2002b.A.argumentstructs.Erik.1 (Index: 8, Speaker: A): \"Um, I think it'll be the mid range to the high end market, in terms of people.\"\nAE_ID ES2002b.A.argumentstructs.Erik.2 (Index: 9, Speaker: A): \"'Cause twenty five Euros for a remote, how much is that lo locally in pounds ?\"\nAE_ID ES2002b.B.argumentstructs.Erik.11 (Index: 10, Speaker: B): \"It's about sixteen, seventeen pounds, I think.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
-            "gpt_ans": "ES2002b.B.argumentstructs.Erik.11",
+            "gpt_ans": "ES2002b.A.argumentstructs.Erik.2",
             "ans": "ES2002b.B.argumentstructs.Erik.11",
-            "judgement": true
+            "judgement": false
         },
         {
             "turn_number": 9,
@@ -1822,7 +1822,7 @@
                 }
             ],
             "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002b.B.argumentstructs.Erik.18\n- Index: 32\n- Speaker: B\n- Sentence: \"yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2002b.B.argumentstructs.Erik.15 (Index: 23, Speaker: B): \"Yeah, okay.\"\nAE_ID ES2002b.B.argumentstructs.Erik.16 (Index: 26, Speaker: B): \"Um do you think then uh voice recognition is something we should really seriously consider ?\"\nAE_ID ES2002b.B.argumentstructs.Erik.17 (Index: 27, Speaker: B): \"What what do you think, Craig ?\"\nAE_ID ES2002b.C.argumentstructs.Erik.7 (Index: 28, Speaker: C): \"Well, did you not say it was the the adults that were going for the the voice recognition ? Sort of the the older group.\"\nAE_ID ES2002b.D.argumentstructs.Erik.15 (Index: 29, Speaker: D): \"Yep. It does it does fit with the market that we're sort of identifying, in terms of\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
-            "gpt_ans": "ES2002b.B.argumentstructs.Erik.16",
+            "gpt_ans": "ES2002b.B.argumentstructs.Erik.15",
             "ans": "ES2002b.D.argumentstructs.Erik.15",
             "judgement": false
         },
@@ -1906,7 +1906,7 @@
                 }
             ],
             "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002b.B.argumentstructs.Erik.19\n- Index: 33\n- Speaker: B\n- Sentence: \"I think we are gonna have to narrow it down, to say let's target these people and give them what they want and 'cause you know, there needs to be some kind of selling point to it. So um anybody  anything there to add  Just kind of young professionals, uh th like  if we are going to include speech recognition, it's kind of between fifteen and thirty five seems to be like a really high response to that. So we could say that was our target.\"\n\nPast Dialogue Turns:\nAE_ID ES2002b.B.argumentstructs.Erik.16 (Index: 26, Speaker: B): \"Um do you think then uh voice recognition is something we should really seriously consider ?\"\nAE_ID ES2002b.B.argumentstructs.Erik.17 (Index: 27, Speaker: B): \"What what do you think, Craig ?\"\nAE_ID ES2002b.C.argumentstructs.Erik.7 (Index: 28, Speaker: C): \"Well, did you not say it was the the adults that were going for the the voice recognition ? Sort of the the older group.\"\nAE_ID ES2002b.D.argumentstructs.Erik.15 (Index: 29, Speaker: D): \"Yep. It does it does fit with the market that we're sort of identifying, in terms of\"\nAE_ID ES2002b.B.argumentstructs.Erik.18 (Index: 32, Speaker: B): \"yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
-            "gpt_ans": "ES2002b.B.argumentstructs.Erik.18",
+            "gpt_ans": "ES2002b.B.argumentstructs.Erik.16",
             "ans": "ES2002b.C.argumentstructs.Erik.7",
             "judgement": false
         },
@@ -2408,7 +2408,7 @@
                 }
             ],
             "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002b.D.argumentstructs.Erik.18\n- Index: 41\n- Speaker: D\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2002b.D.argumentstructs.Erik.16 (Index: 34, Speaker: D): \"Okay.\"\nAE_ID ES2002b.A.argumentstructs.Erik.5 (Index: 36, Speaker: A): \"I I think twenty five to thirty five is is is fair to add that in as a group as well because that's more than half your group of people who are willing to at least try and use your technology.\"\nAE_ID ES2002b.B.argumentstructs.Erik.20 (Index: 37, Speaker: B): \"Yeah.\"\nAE_ID ES2002b.D.argumentstructs.Erik.17 (Index: 38, Speaker: D): \"Yeah, yeah.\"\nAE_ID ES2002b.B.argumentstructs.Erik.21 (Index: 40, Speaker: B): \"Okay, so fifteen to thirty five, look fairly young. You know, they have bit of expendable income to spend on this sort of thing.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
-            "gpt_ans": "ES2002b.D.argumentstructs.Erik.17",
+            "gpt_ans": "ES2002b.B.argumentstructs.Erik.20",
             "ans": "ES2002b.B.argumentstructs.Erik.21",
             "judgement": false
         },

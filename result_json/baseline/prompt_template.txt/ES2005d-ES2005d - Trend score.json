@@ -317,7 +317,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2005d.A.argumentstructs.Erik.3:\n\"How it  how conforms to the current trends ?\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2005d.D.argumentstructs.Erik.1 (Index: 1, Speaker: D): \"Okay, yeah.\"\nAE_ID ES2005d.A.argumentstructs.Erik.1 (Index: 2, Speaker: A): \". So trends.\"\nAE_ID ES2005d.A.argumentstructs.Erik.2 (Index: 3, Speaker: A): \"Can you explain what you want us to write there ?\"\nAE_ID ES2005d.B.argumentstructs.Erik.1 (Index: 4, Speaker: B): \"Sorry ?\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2005d.A.argumentstructs.Erik.2",
+            "gpt_ans": "ES2005d.A.argumentstructs.Erik.1",
             "ans": "ES2005d.B.argumentstructs.Erik.1",
             "judgement": false
         },
@@ -652,9 +652,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2005d.B.argumentstructs.Erik.3:\n\"Okay. Yeah.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2005d.B.argumentstructs.Erik.1 (Index: 4, Speaker: B): \"Sorry ?\"\nAE_ID ES2005d.A.argumentstructs.Erik.3 (Index: 5, Speaker: A): \"How it  how conforms to the current trends ?\"\nAE_ID ES2005d.B.argumentstructs.Erik.2 (Index: 6, Speaker: B): \"Yeah, again the the fashion trends, this also like whether it it will be fashionable to have these products in the  uh as a fruit shape or something.\"\nAE_ID ES2005d.D.argumentstructs.Erik.2 (Index: 8, Speaker: D): \"Okay. Well um going on uh the specifications that we had, that fruit and vegetables are quite popular, and that people like something that is good to look at and not many buttons, I would give it um, well, because it's hard to make a fruit good to look at, that that looks cool, you know, so I would actually give it a three.\"\nAE_ID ES2005d.D.argumentstructs.Erik.3 (Index: 10, Speaker: D): \"Tha three or four, I'm not sure. Three. Go for three. That's fine.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2005d.B.argumentstructs.Erik.2",
+            "gpt_ans": "ES2005d.D.argumentstructs.Erik.2",
             "ans": "ES2005d.D.argumentstructs.Erik.2",
-            "judgement": false
+            "judgement": true
         },
         {
             "turn_number": 9,
@@ -816,9 +816,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2005d.C.argumentstructs.Erik.2:\n\"Yeah, I am sort of pret uh   Just the fruit does me in, I mean uh it might it might be trendy to some, but I'm just not swallowing the fruit, so um   Uh also uh I would have liked to have seen the L_C_D_ screen in it. Um so yeah I'd say about four as well.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2005d.B.argumentstructs.Erik.2 (Index: 6, Speaker: B): \"Yeah, again the the fashion trends, this also like whether it it will be fashionable to have these products in the  uh as a fruit shape or something.\"\nAE_ID ES2005d.D.argumentstructs.Erik.2 (Index: 8, Speaker: D): \"Okay. Well um going on uh the specifications that we had, that fruit and vegetables are quite popular, and that people like something that is good to look at and not many buttons, I would give it um, well, because it's hard to make a fruit good to look at, that that looks cool, you know, so I would actually give it a three.\"\nAE_ID ES2005d.D.argumentstructs.Erik.3 (Index: 10, Speaker: D): \"Tha three or four, I'm not sure. Three. Go for three. That's fine.\"\nAE_ID ES2005d.B.argumentstructs.Erik.3 (Index: 11, Speaker: B): \"Okay. Yeah.\"\nAE_ID ES2005d.A.argumentstructs.Erik.4 (Index: 13, Speaker: A): \"'Kay. As far as the uh technology it its' got the latest trends in speech technology, but it's missing the screen, as we said, um but it does have the push-buttons, or the scroll-buttons, um but it doesn't have that fancy solar power or the the vibrating energy mechanism. So I give it a a four. I'd give it a kinda middle of the road for for technology.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2005d.A.argumentstructs.Erik.4",
+            "gpt_ans": "ES2005d.B.argumentstructs.Erik.2",
             "ans": "ES2005d.A.argumentstructs.Erik.4",
-            "judgement": true
+            "judgement": false
         },
         {
             "turn_number": 11,

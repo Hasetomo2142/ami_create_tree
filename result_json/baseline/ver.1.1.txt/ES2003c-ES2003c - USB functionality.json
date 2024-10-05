@@ -1,0 +1,1896 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2003c-ES2003c - USB functionality.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "ver.1.1.txt",
+    "rate": 0.4782608695652174,
+    "total_node_count": 29,
+    "removed_node_count": 5,
+    "removed_node_list": [
+        {
+            "index": 5,
+            "ae_id": "ES2003c.B.argumentstructs.23",
+            "speaker": "B",
+            "start_time": 2055.0,
+            "end_time": 2055.59,
+            "sentence": "Um.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 8,
+            "ae_id": "ES2003c.C.argumentstructs.32",
+            "speaker": "C",
+            "start_time": 2063.12,
+            "end_time": 2063.67,
+            "sentence": "Different.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 13,
+            "ae_id": "ES2003c.A.argumentstructs.32",
+            "speaker": "A",
+            "start_time": 2076.91,
+            "end_time": 2078.21,
+            "sentence": "Yeah, I mean it's",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 20,
+            "ae_id": "ES2003c.B.argumentstructs.24",
+            "speaker": "B",
+            "start_time": 2117.34,
+            "end_time": 2117.64,
+            "sentence": "W",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 28,
+            "ae_id": "ES2003c.B.argumentstructs.25",
+            "speaker": "B",
+            "start_time": 2163.14,
+            "end_time": 2165.28,
+            "sentence": "Uh we'll see how that goes. Um.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 0,
+                "ae_id": "ES2003c.D.argumentstructs.Erik.8",
+                "speaker": "D",
+                "start_time": 2039.17,
+                "end_time": 2040.25,
+                "sentence": "The U_S_B_ for which ?",
+                "source": "NONE",
+                "targets": [
+                    "ES2003c.C.argumentstructs.Erik.13"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "NONE",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2003c.C.argumentstructs.Erik.13",
+                "speaker": "C",
+                "start_time": 2040.66,
+                "end_time": 2041.48,
+                "sentence": "For the remote control.",
+                "source": "ES2003c.D.argumentstructs.Erik.8",
+                "targets": [
+                    "ES2003c.B.argumentstructs.Erik.9"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 2039.17,
+                    "end_time": 2040.25,
+                    "sentence": "The U_S_B_ for which ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.13"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 1):\n- AE_ID: ES2003c.C.argumentstructs.Erik.13\n- Speaker: C\n- Sentence: \"For the remote control.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.D.argumentstructs.Erik.8 (Index: 0, Speaker: D): \"The U_S_B_ for which ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.D.argumentstructs.Erik.8",
+            "ans": "ES2003c.D.argumentstructs.Erik.8",
+            "judgement": true
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 2,
+                "ae_id": "ES2003c.B.argumentstructs.Erik.9",
+                "speaker": "B",
+                "start_time": 2041.83,
+                "end_time": 2053.56,
+                "sentence": "The the idea was that maybe it could connect up for um allowing a software interface on the P_C_ for a larger programming due to the fact that we've gone for such a nice, easy minimal design, normally.",
+                "source": "ES2003c.C.argumentstructs.Erik.13",
+                "targets": [
+                    "ES2003c.D.argumentstructs.Erik.9",
+                    "ES2003c.C.argumentstructs.Erik.14"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 2039.17,
+                    "end_time": 2040.25,
+                    "sentence": "The U_S_B_ for which ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.13",
+                    "speaker": "C",
+                    "start_time": 2040.66,
+                    "end_time": 2041.48,
+                    "sentence": "For the remote control.",
+                    "source": "ES2003c.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.9"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 2):\n- AE_ID: ES2003c.B.argumentstructs.Erik.9\n- Speaker: B\n- Sentence: \"The the idea was that maybe it could connect up for um allowing a software interface on the P_C_ for a larger programming due to the fact that we've gone for such a nice, easy minimal design, normally.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.D.argumentstructs.Erik.8 (Index: 0, Speaker: D): \"The U_S_B_ for which ?\"\nAE_ID ES2003c.C.argumentstructs.Erik.13 (Index: 1, Speaker: C): \"For the remote control.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.C.argumentstructs.Erik.13",
+            "ans": "ES2003c.C.argumentstructs.Erik.13",
+            "judgement": true
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 3,
+                "ae_id": "ES2003c.D.argumentstructs.Erik.9",
+                "speaker": "D",
+                "start_time": 2047.62,
+                "end_time": 2048.64,
+                "sentence": "Oh right, okay.",
+                "source": "ES2003c.B.argumentstructs.Erik.9",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 2039.17,
+                    "end_time": 2040.25,
+                    "sentence": "The U_S_B_ for which ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.13",
+                    "speaker": "C",
+                    "start_time": 2040.66,
+                    "end_time": 2041.48,
+                    "sentence": "For the remote control.",
+                    "source": "ES2003c.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 2041.83,
+                    "end_time": 2053.56,
+                    "sentence": "The the idea was that maybe it could connect up for um allowing a software interface on the P_C_ for a larger programming due to the fact that we've gone for such a nice, easy minimal design, normally.",
+                    "source": "ES2003c.C.argumentstructs.Erik.13",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.9",
+                        "ES2003c.C.argumentstructs.Erik.14"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 3):\n- AE_ID: ES2003c.D.argumentstructs.Erik.9\n- Speaker: D\n- Sentence: \"Oh right, okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.D.argumentstructs.Erik.8 (Index: 0, Speaker: D): \"The U_S_B_ for which ?\"\nAE_ID ES2003c.C.argumentstructs.Erik.13 (Index: 1, Speaker: C): \"For the remote control.\"\nAE_ID ES2003c.B.argumentstructs.Erik.9 (Index: 2, Speaker: B): \"The the idea was that maybe it could connect up for um allowing a software interface on the P_C_ for a larger programming due to the fact that we've gone for such a nice, easy minimal design, normally.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.C.argumentstructs.Erik.13",
+            "ans": "ES2003c.B.argumentstructs.Erik.9",
+            "judgement": false
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 4,
+                "ae_id": "ES2003c.C.argumentstructs.Erik.14",
+                "speaker": "C",
+                "start_time": 2054.66,
+                "end_time": 2056.944,
+                "sentence": "We've w definitely talking some type of",
+                "source": "ES2003c.B.argumentstructs.Erik.9",
+                "targets": [
+                    "ES2003c.D.argumentstructs.Erik.10"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 2039.17,
+                    "end_time": 2040.25,
+                    "sentence": "The U_S_B_ for which ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.13",
+                    "speaker": "C",
+                    "start_time": 2040.66,
+                    "end_time": 2041.48,
+                    "sentence": "For the remote control.",
+                    "source": "ES2003c.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 2041.83,
+                    "end_time": 2053.56,
+                    "sentence": "The the idea was that maybe it could connect up for um allowing a software interface on the P_C_ for a larger programming due to the fact that we've gone for such a nice, easy minimal design, normally.",
+                    "source": "ES2003c.C.argumentstructs.Erik.13",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.9",
+                        "ES2003c.C.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.9",
+                    "speaker": "D",
+                    "start_time": 2047.62,
+                    "end_time": 2048.64,
+                    "sentence": "Oh right, okay.",
+                    "source": "ES2003c.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 4):\n- AE_ID: ES2003c.C.argumentstructs.Erik.14\n- Speaker: C\n- Sentence: \"We've w definitely talking some type of\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.D.argumentstructs.Erik.8 (Index: 0, Speaker: D): \"The U_S_B_ for which ?\"\nAE_ID ES2003c.C.argumentstructs.Erik.13 (Index: 1, Speaker: C): \"For the remote control.\"\nAE_ID ES2003c.B.argumentstructs.Erik.9 (Index: 2, Speaker: B): \"The the idea was that maybe it could connect up for um allowing a software interface on the P_C_ for a larger programming due to the fact that we've gone for such a nice, easy minimal design, normally.\"\nAE_ID ES2003c.D.argumentstructs.Erik.9 (Index: 3, Speaker: D): \"Oh right, okay.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.C.argumentstructs.Erik.13",
+            "ans": "ES2003c.B.argumentstructs.Erik.9",
+            "judgement": false
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 6,
+                "ae_id": "ES2003c.D.argumentstructs.Erik.10",
+                "speaker": "D",
+                "start_time": 2057.5,
+                "end_time": 2060.832,
+                "sentence": "But didn't they just say it's just for T_V_, or are we gonna",
+                "source": "ES2003c.C.argumentstructs.Erik.14",
+                "targets": [
+                    "ES2003c.B.argumentstructs.Erik.10"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 2039.17,
+                    "end_time": 2040.25,
+                    "sentence": "The U_S_B_ for which ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.13",
+                    "speaker": "C",
+                    "start_time": 2040.66,
+                    "end_time": 2041.48,
+                    "sentence": "For the remote control.",
+                    "source": "ES2003c.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 2041.83,
+                    "end_time": 2053.56,
+                    "sentence": "The the idea was that maybe it could connect up for um allowing a software interface on the P_C_ for a larger programming due to the fact that we've gone for such a nice, easy minimal design, normally.",
+                    "source": "ES2003c.C.argumentstructs.Erik.13",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.9",
+                        "ES2003c.C.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.9",
+                    "speaker": "D",
+                    "start_time": 2047.62,
+                    "end_time": 2048.64,
+                    "sentence": "Oh right, okay.",
+                    "source": "ES2003c.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.14",
+                    "speaker": "C",
+                    "start_time": 2054.66,
+                    "end_time": 2056.944,
+                    "sentence": "We've w definitely talking some type of",
+                    "source": "ES2003c.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.10"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 6):\n- AE_ID: ES2003c.D.argumentstructs.Erik.10\n- Speaker: D\n- Sentence: \"But didn't they just say it's just for T_V_, or are we gonna\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.D.argumentstructs.Erik.8 (Index: 0, Speaker: D): \"The U_S_B_ for which ?\"\nAE_ID ES2003c.C.argumentstructs.Erik.13 (Index: 1, Speaker: C): \"For the remote control.\"\nAE_ID ES2003c.B.argumentstructs.Erik.9 (Index: 2, Speaker: B): \"The the idea was that maybe it could connect up for um allowing a software interface on the P_C_ for a larger programming due to the fact that we've gone for such a nice, easy minimal design, normally.\"\nAE_ID ES2003c.D.argumentstructs.Erik.9 (Index: 3, Speaker: D): \"Oh right, okay.\"\nAE_ID ES2003c.C.argumentstructs.Erik.14 (Index: 4, Speaker: C): \"We've w definitely talking some type of\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.C.argumentstructs.Erik.13",
+            "ans": "ES2003c.C.argumentstructs.Erik.14",
+            "judgement": false
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 7,
+                "ae_id": "ES2003c.B.argumentstructs.Erik.10",
+                "speaker": "B",
+                "start_time": 2060.74,
+                "end_time": 2068.26,
+                "sentence": "It's just for T_V_, but for programming it to use your T_V_, you might hook it up to the P_C_.",
+                "source": "ES2003c.D.argumentstructs.Erik.10",
+                "targets": [
+                    "ES2003c.B.argumentstructs.Erik.11",
+                    "ES2003c.C.argumentstructs.Erik.15"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.13",
+                    "speaker": "C",
+                    "start_time": 2040.66,
+                    "end_time": 2041.48,
+                    "sentence": "For the remote control.",
+                    "source": "ES2003c.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 2041.83,
+                    "end_time": 2053.56,
+                    "sentence": "The the idea was that maybe it could connect up for um allowing a software interface on the P_C_ for a larger programming due to the fact that we've gone for such a nice, easy minimal design, normally.",
+                    "source": "ES2003c.C.argumentstructs.Erik.13",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.9",
+                        "ES2003c.C.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.9",
+                    "speaker": "D",
+                    "start_time": 2047.62,
+                    "end_time": 2048.64,
+                    "sentence": "Oh right, okay.",
+                    "source": "ES2003c.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.14",
+                    "speaker": "C",
+                    "start_time": 2054.66,
+                    "end_time": 2056.944,
+                    "sentence": "We've w definitely talking some type of",
+                    "source": "ES2003c.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.10",
+                    "speaker": "D",
+                    "start_time": 2057.5,
+                    "end_time": 2060.832,
+                    "sentence": "But didn't they just say it's just for T_V_, or are we gonna",
+                    "source": "ES2003c.C.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.10"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 7):\n- AE_ID: ES2003c.B.argumentstructs.Erik.10\n- Speaker: B\n- Sentence: \"It's just for T_V_, but for programming it to use your T_V_, you might hook it up to the P_C_.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.C.argumentstructs.Erik.13 (Index: 1, Speaker: C): \"For the remote control.\"\nAE_ID ES2003c.B.argumentstructs.Erik.9 (Index: 2, Speaker: B): \"The the idea was that maybe it could connect up for um allowing a software interface on the P_C_ for a larger programming due to the fact that we've gone for such a nice, easy minimal design, normally.\"\nAE_ID ES2003c.D.argumentstructs.Erik.9 (Index: 3, Speaker: D): \"Oh right, okay.\"\nAE_ID ES2003c.C.argumentstructs.Erik.14 (Index: 4, Speaker: C): \"We've w definitely talking some type of\"\nAE_ID ES2003c.D.argumentstructs.Erik.10 (Index: 6, Speaker: D): \"But didn't they just say it's just for T_V_, or are we gonna\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.D.argumentstructs.Erik.10",
+            "ans": "ES2003c.D.argumentstructs.Erik.10",
+            "judgement": true
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 9,
+                "ae_id": "ES2003c.D.argumentstructs.Erik.11",
+                "speaker": "D",
+                "start_time": 2065.65,
+                "end_time": 2066.49,
+                "sentence": "Okay, yeah.",
+                "source": "ES2003c.B.argumentstructs.Erik.11",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 2,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 2041.83,
+                    "end_time": 2053.56,
+                    "sentence": "The the idea was that maybe it could connect up for um allowing a software interface on the P_C_ for a larger programming due to the fact that we've gone for such a nice, easy minimal design, normally.",
+                    "source": "ES2003c.C.argumentstructs.Erik.13",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.9",
+                        "ES2003c.C.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.9",
+                    "speaker": "D",
+                    "start_time": 2047.62,
+                    "end_time": 2048.64,
+                    "sentence": "Oh right, okay.",
+                    "source": "ES2003c.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.14",
+                    "speaker": "C",
+                    "start_time": 2054.66,
+                    "end_time": 2056.944,
+                    "sentence": "We've w definitely talking some type of",
+                    "source": "ES2003c.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.10",
+                    "speaker": "D",
+                    "start_time": 2057.5,
+                    "end_time": 2060.832,
+                    "sentence": "But didn't they just say it's just for T_V_, or are we gonna",
+                    "source": "ES2003c.C.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 2060.74,
+                    "end_time": 2068.26,
+                    "sentence": "It's just for T_V_, but for programming it to use your T_V_, you might hook it up to the P_C_.",
+                    "source": "ES2003c.D.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.11",
+                        "ES2003c.C.argumentstructs.Erik.15"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 9):\n- AE_ID: ES2003c.D.argumentstructs.Erik.11\n- Speaker: D\n- Sentence: \"Okay, yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.B.argumentstructs.Erik.9 (Index: 2, Speaker: B): \"The the idea was that maybe it could connect up for um allowing a software interface on the P_C_ for a larger programming due to the fact that we've gone for such a nice, easy minimal design, normally.\"\nAE_ID ES2003c.D.argumentstructs.Erik.9 (Index: 3, Speaker: D): \"Oh right, okay.\"\nAE_ID ES2003c.C.argumentstructs.Erik.14 (Index: 4, Speaker: C): \"We've w definitely talking some type of\"\nAE_ID ES2003c.D.argumentstructs.Erik.10 (Index: 6, Speaker: D): \"But didn't they just say it's just for T_V_, or are we gonna\"\nAE_ID ES2003c.B.argumentstructs.Erik.10 (Index: 7, Speaker: B): \"It's just for T_V_, but for programming it to use your T_V_, you might hook it up to the P_C_.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.B.argumentstructs.Erik.10",
+            "ans": "ES2003c.B.argumentstructs.Erik.11",
+            "judgement": false
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 10,
+                "ae_id": "ES2003c.B.argumentstructs.Erik.11",
+                "speaker": "B",
+                "start_time": 2068.26,
+                "end_time": 2076.4,
+                "sentence": "I I'm not sure, but I'm thinking maybe that the additional cost of the U_S_B_ might be prohibitive. We don't know unless  it would make sense to.",
+                "source": "ES2003c.B.argumentstructs.Erik.10",
+                "targets": [
+                    "ES2003c.D.argumentstructs.Erik.11",
+                    "ES2003c.A.argumentstructs.Erik.12"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 3,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.9",
+                    "speaker": "D",
+                    "start_time": 2047.62,
+                    "end_time": 2048.64,
+                    "sentence": "Oh right, okay.",
+                    "source": "ES2003c.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.14",
+                    "speaker": "C",
+                    "start_time": 2054.66,
+                    "end_time": 2056.944,
+                    "sentence": "We've w definitely talking some type of",
+                    "source": "ES2003c.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.10",
+                    "speaker": "D",
+                    "start_time": 2057.5,
+                    "end_time": 2060.832,
+                    "sentence": "But didn't they just say it's just for T_V_, or are we gonna",
+                    "source": "ES2003c.C.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 2060.74,
+                    "end_time": 2068.26,
+                    "sentence": "It's just for T_V_, but for programming it to use your T_V_, you might hook it up to the P_C_.",
+                    "source": "ES2003c.D.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.11",
+                        "ES2003c.C.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.11",
+                    "speaker": "D",
+                    "start_time": 2065.65,
+                    "end_time": 2066.49,
+                    "sentence": "Okay, yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 10):\n- AE_ID: ES2003c.B.argumentstructs.Erik.11\n- Speaker: B\n- Sentence: \"I I'm not sure, but I'm thinking maybe that the additional cost of the U_S_B_ might be prohibitive. We don't know unless  it would make sense to.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.D.argumentstructs.Erik.9 (Index: 3, Speaker: D): \"Oh right, okay.\"\nAE_ID ES2003c.C.argumentstructs.Erik.14 (Index: 4, Speaker: C): \"We've w definitely talking some type of\"\nAE_ID ES2003c.D.argumentstructs.Erik.10 (Index: 6, Speaker: D): \"But didn't they just say it's just for T_V_, or are we gonna\"\nAE_ID ES2003c.B.argumentstructs.Erik.10 (Index: 7, Speaker: B): \"It's just for T_V_, but for programming it to use your T_V_, you might hook it up to the P_C_.\"\nAE_ID ES2003c.D.argumentstructs.Erik.11 (Index: 9, Speaker: D): \"Okay, yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.B.argumentstructs.Erik.10",
+            "ans": "ES2003c.B.argumentstructs.Erik.10",
+            "judgement": true
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 11,
+                "ae_id": "ES2003c.A.argumentstructs.Erik.12",
+                "speaker": "A",
+                "start_time": 2074.31,
+                "end_time": 2074.7,
+                "sentence": "Mm.",
+                "source": "ES2003c.B.argumentstructs.Erik.11",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 4,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.14",
+                    "speaker": "C",
+                    "start_time": 2054.66,
+                    "end_time": 2056.944,
+                    "sentence": "We've w definitely talking some type of",
+                    "source": "ES2003c.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.10",
+                    "speaker": "D",
+                    "start_time": 2057.5,
+                    "end_time": 2060.832,
+                    "sentence": "But didn't they just say it's just for T_V_, or are we gonna",
+                    "source": "ES2003c.C.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 2060.74,
+                    "end_time": 2068.26,
+                    "sentence": "It's just for T_V_, but for programming it to use your T_V_, you might hook it up to the P_C_.",
+                    "source": "ES2003c.D.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.11",
+                        "ES2003c.C.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.11",
+                    "speaker": "D",
+                    "start_time": 2065.65,
+                    "end_time": 2066.49,
+                    "sentence": "Okay, yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 2068.26,
+                    "end_time": 2076.4,
+                    "sentence": "I I'm not sure, but I'm thinking maybe that the additional cost of the U_S_B_ might be prohibitive. We don't know unless  it would make sense to.",
+                    "source": "ES2003c.B.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.11",
+                        "ES2003c.A.argumentstructs.Erik.12"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 11):\n- AE_ID: ES2003c.A.argumentstructs.Erik.12\n- Speaker: A\n- Sentence: \"Mm.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.C.argumentstructs.Erik.14 (Index: 4, Speaker: C): \"We've w definitely talking some type of\"\nAE_ID ES2003c.D.argumentstructs.Erik.10 (Index: 6, Speaker: D): \"But didn't they just say it's just for T_V_, or are we gonna\"\nAE_ID ES2003c.B.argumentstructs.Erik.10 (Index: 7, Speaker: B): \"It's just for T_V_, but for programming it to use your T_V_, you might hook it up to the P_C_.\"\nAE_ID ES2003c.D.argumentstructs.Erik.11 (Index: 9, Speaker: D): \"Okay, yeah.\"\nAE_ID ES2003c.B.argumentstructs.Erik.11 (Index: 10, Speaker: B): \"I I'm not sure, but I'm thinking maybe that the additional cost of the U_S_B_ might be prohibitive. We don't know unless  it would make sense to.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.B.argumentstructs.Erik.11",
+            "ans": "ES2003c.B.argumentstructs.Erik.11",
+            "judgement": true
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 12,
+                "ae_id": "ES2003c.C.argumentstructs.Erik.15",
+                "speaker": "C",
+                "start_time": 2076.84,
+                "end_time": 2086.27,
+                "sentence": "But you're gonna need some type of flash memory or something. Well something that doesn't  you wouldn't have to redo the whole thing once the batteries are changed, you know, once you turn off the power.",
+                "source": "ES2003c.B.argumentstructs.Erik.10",
+                "targets": [
+                    "ES2003c.A.argumentstructs.Erik.13",
+                    "ES2003c.A.argumentstructs.Erik.14"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 6,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.10",
+                    "speaker": "D",
+                    "start_time": 2057.5,
+                    "end_time": 2060.832,
+                    "sentence": "But didn't they just say it's just for T_V_, or are we gonna",
+                    "source": "ES2003c.C.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 2060.74,
+                    "end_time": 2068.26,
+                    "sentence": "It's just for T_V_, but for programming it to use your T_V_, you might hook it up to the P_C_.",
+                    "source": "ES2003c.D.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.11",
+                        "ES2003c.C.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.11",
+                    "speaker": "D",
+                    "start_time": 2065.65,
+                    "end_time": 2066.49,
+                    "sentence": "Okay, yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 2068.26,
+                    "end_time": 2076.4,
+                    "sentence": "I I'm not sure, but I'm thinking maybe that the additional cost of the U_S_B_ might be prohibitive. We don't know unless  it would make sense to.",
+                    "source": "ES2003c.B.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.11",
+                        "ES2003c.A.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.12",
+                    "speaker": "A",
+                    "start_time": 2074.31,
+                    "end_time": 2074.7,
+                    "sentence": "Mm.",
+                    "source": "ES2003c.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 12):\n- AE_ID: ES2003c.C.argumentstructs.Erik.15\n- Speaker: C\n- Sentence: \"But you're gonna need some type of flash memory or something. Well something that doesn't  you wouldn't have to redo the whole thing once the batteries are changed, you know, once you turn off the power.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.D.argumentstructs.Erik.10 (Index: 6, Speaker: D): \"But didn't they just say it's just for T_V_, or are we gonna\"\nAE_ID ES2003c.B.argumentstructs.Erik.10 (Index: 7, Speaker: B): \"It's just for T_V_, but for programming it to use your T_V_, you might hook it up to the P_C_.\"\nAE_ID ES2003c.D.argumentstructs.Erik.11 (Index: 9, Speaker: D): \"Okay, yeah.\"\nAE_ID ES2003c.B.argumentstructs.Erik.11 (Index: 10, Speaker: B): \"I I'm not sure, but I'm thinking maybe that the additional cost of the U_S_B_ might be prohibitive. We don't know unless  it would make sense to.\"\nAE_ID ES2003c.A.argumentstructs.Erik.12 (Index: 11, Speaker: A): \"Mm.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.B.argumentstructs.Erik.11",
+            "ans": "ES2003c.B.argumentstructs.Erik.10",
+            "judgement": false
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 14,
+                "ae_id": "ES2003c.A.argumentstructs.Erik.13",
+                "speaker": "A",
+                "start_time": 2082.38,
+                "end_time": 2082.83,
+                "sentence": "Yeah.",
+                "source": "ES2003c.C.argumentstructs.Erik.15",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 7,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 2060.74,
+                    "end_time": 2068.26,
+                    "sentence": "It's just for T_V_, but for programming it to use your T_V_, you might hook it up to the P_C_.",
+                    "source": "ES2003c.D.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.11",
+                        "ES2003c.C.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.11",
+                    "speaker": "D",
+                    "start_time": 2065.65,
+                    "end_time": 2066.49,
+                    "sentence": "Okay, yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 2068.26,
+                    "end_time": 2076.4,
+                    "sentence": "I I'm not sure, but I'm thinking maybe that the additional cost of the U_S_B_ might be prohibitive. We don't know unless  it would make sense to.",
+                    "source": "ES2003c.B.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.11",
+                        "ES2003c.A.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.12",
+                    "speaker": "A",
+                    "start_time": 2074.31,
+                    "end_time": 2074.7,
+                    "sentence": "Mm.",
+                    "source": "ES2003c.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.15",
+                    "speaker": "C",
+                    "start_time": 2076.84,
+                    "end_time": 2086.27,
+                    "sentence": "But you're gonna need some type of flash memory or something. Well something that doesn't  you wouldn't have to redo the whole thing once the batteries are changed, you know, once you turn off the power.",
+                    "source": "ES2003c.B.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2003c.A.argumentstructs.Erik.13",
+                        "ES2003c.A.argumentstructs.Erik.14"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 14):\n- AE_ID: ES2003c.A.argumentstructs.Erik.13\n- Speaker: A\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.B.argumentstructs.Erik.10 (Index: 7, Speaker: B): \"It's just for T_V_, but for programming it to use your T_V_, you might hook it up to the P_C_.\"\nAE_ID ES2003c.D.argumentstructs.Erik.11 (Index: 9, Speaker: D): \"Okay, yeah.\"\nAE_ID ES2003c.B.argumentstructs.Erik.11 (Index: 10, Speaker: B): \"I I'm not sure, but I'm thinking maybe that the additional cost of the U_S_B_ might be prohibitive. We don't know unless  it would make sense to.\"\nAE_ID ES2003c.A.argumentstructs.Erik.12 (Index: 11, Speaker: A): \"Mm.\"\nAE_ID ES2003c.C.argumentstructs.Erik.15 (Index: 12, Speaker: C): \"But you're gonna need some type of flash memory or something. Well something that doesn't  you wouldn't have to redo the whole thing once the batteries are changed, you know, once you turn off the power.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.C.argumentstructs.Erik.15",
+            "ans": "ES2003c.C.argumentstructs.Erik.15",
+            "judgement": true
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 15,
+                "ae_id": "ES2003c.A.argumentstructs.Erik.14",
+                "speaker": "A",
+                "start_time": 2085.33,
+                "end_time": 2113.636,
+                "sentence": "Yeah. The other thing I mean it I mean it would need to ha  it would need to have um some sort of on board memory anyway. Um f  for one  for one thing because I do think that the menu system should be um uh I mean although you know, it's not going to be terribly complicated if it's just controlling one device, the menu system ought to be um o ought to be customisable and uh",
+                "source": "ES2003c.C.argumentstructs.Erik.15",
+                "targets": [
+                    "ES2003c.C.argumentstructs.Erik.16",
+                    "ES2003c.C.argumentstructs.Erik.17",
+                    "ES2003c.A.argumentstructs.Erik.16"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 9,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.11",
+                    "speaker": "D",
+                    "start_time": 2065.65,
+                    "end_time": 2066.49,
+                    "sentence": "Okay, yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 2068.26,
+                    "end_time": 2076.4,
+                    "sentence": "I I'm not sure, but I'm thinking maybe that the additional cost of the U_S_B_ might be prohibitive. We don't know unless  it would make sense to.",
+                    "source": "ES2003c.B.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.11",
+                        "ES2003c.A.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.12",
+                    "speaker": "A",
+                    "start_time": 2074.31,
+                    "end_time": 2074.7,
+                    "sentence": "Mm.",
+                    "source": "ES2003c.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.15",
+                    "speaker": "C",
+                    "start_time": 2076.84,
+                    "end_time": 2086.27,
+                    "sentence": "But you're gonna need some type of flash memory or something. Well something that doesn't  you wouldn't have to redo the whole thing once the batteries are changed, you know, once you turn off the power.",
+                    "source": "ES2003c.B.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2003c.A.argumentstructs.Erik.13",
+                        "ES2003c.A.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.13",
+                    "speaker": "A",
+                    "start_time": 2082.38,
+                    "end_time": 2082.83,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.C.argumentstructs.Erik.15",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 15):\n- AE_ID: ES2003c.A.argumentstructs.Erik.14\n- Speaker: A\n- Sentence: \"Yeah. The other thing I mean it I mean it would need to ha  it would need to have um some sort of on board memory anyway. Um f  for one  for one thing because I do think that the menu system should be um uh I mean although you know, it's not going to be terribly complicated if it's just controlling one device, the menu system ought to be um o ought to be customisable and uh\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.D.argumentstructs.Erik.11 (Index: 9, Speaker: D): \"Okay, yeah.\"\nAE_ID ES2003c.B.argumentstructs.Erik.11 (Index: 10, Speaker: B): \"I I'm not sure, but I'm thinking maybe that the additional cost of the U_S_B_ might be prohibitive. We don't know unless  it would make sense to.\"\nAE_ID ES2003c.A.argumentstructs.Erik.12 (Index: 11, Speaker: A): \"Mm.\"\nAE_ID ES2003c.C.argumentstructs.Erik.15 (Index: 12, Speaker: C): \"But you're gonna need some type of flash memory or something. Well something that doesn't  you wouldn't have to redo the whole thing once the batteries are changed, you know, once you turn off the power.\"\nAE_ID ES2003c.A.argumentstructs.Erik.13 (Index: 14, Speaker: A): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.C.argumentstructs.Erik.15",
+            "ans": "ES2003c.C.argumentstructs.Erik.15",
+            "judgement": true
+        },
+        {
+            "turn_number": 13,
+            "current_node": {
+                "index": 16,
+                "ae_id": "ES2003c.C.argumentstructs.Erik.16",
+                "speaker": "C",
+                "start_time": 2093.24,
+                "end_time": 2093.67,
+                "sentence": "Yeah.",
+                "source": "ES2003c.A.argumentstructs.Erik.14",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 10,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 2068.26,
+                    "end_time": 2076.4,
+                    "sentence": "I I'm not sure, but I'm thinking maybe that the additional cost of the U_S_B_ might be prohibitive. We don't know unless  it would make sense to.",
+                    "source": "ES2003c.B.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.11",
+                        "ES2003c.A.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.12",
+                    "speaker": "A",
+                    "start_time": 2074.31,
+                    "end_time": 2074.7,
+                    "sentence": "Mm.",
+                    "source": "ES2003c.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.15",
+                    "speaker": "C",
+                    "start_time": 2076.84,
+                    "end_time": 2086.27,
+                    "sentence": "But you're gonna need some type of flash memory or something. Well something that doesn't  you wouldn't have to redo the whole thing once the batteries are changed, you know, once you turn off the power.",
+                    "source": "ES2003c.B.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2003c.A.argumentstructs.Erik.13",
+                        "ES2003c.A.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.13",
+                    "speaker": "A",
+                    "start_time": 2082.38,
+                    "end_time": 2082.83,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.C.argumentstructs.Erik.15",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.14",
+                    "speaker": "A",
+                    "start_time": 2085.33,
+                    "end_time": 2113.636,
+                    "sentence": "Yeah. The other thing I mean it I mean it would need to ha  it would need to have um some sort of on board memory anyway. Um f  for one  for one thing because I do think that the menu system should be um uh I mean although you know, it's not going to be terribly complicated if it's just controlling one device, the menu system ought to be um o ought to be customisable and uh",
+                    "source": "ES2003c.C.argumentstructs.Erik.15",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.16",
+                        "ES2003c.C.argumentstructs.Erik.17",
+                        "ES2003c.A.argumentstructs.Erik.16"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 16):\n- AE_ID: ES2003c.C.argumentstructs.Erik.16\n- Speaker: C\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.B.argumentstructs.Erik.11 (Index: 10, Speaker: B): \"I I'm not sure, but I'm thinking maybe that the additional cost of the U_S_B_ might be prohibitive. We don't know unless  it would make sense to.\"\nAE_ID ES2003c.A.argumentstructs.Erik.12 (Index: 11, Speaker: A): \"Mm.\"\nAE_ID ES2003c.C.argumentstructs.Erik.15 (Index: 12, Speaker: C): \"But you're gonna need some type of flash memory or something. Well something that doesn't  you wouldn't have to redo the whole thing once the batteries are changed, you know, once you turn off the power.\"\nAE_ID ES2003c.A.argumentstructs.Erik.13 (Index: 14, Speaker: A): \"Yeah.\"\nAE_ID ES2003c.A.argumentstructs.Erik.14 (Index: 15, Speaker: A): \"Yeah. The other thing I mean it I mean it would need to ha  it would need to have um some sort of on board memory anyway. Um f  for one  for one thing because I do think that the menu system should be um uh I mean although you know, it's not going to be terribly complicated if it's just controlling one device, the menu system ought to be um o ought to be customisable and uh\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.C.argumentstructs.Erik.15",
+            "ans": "ES2003c.A.argumentstructs.Erik.14",
+            "judgement": false
+        },
+        {
+            "turn_number": 14,
+            "current_node": {
+                "index": 17,
+                "ae_id": "ES2003c.C.argumentstructs.Erik.17",
+                "speaker": "C",
+                "start_time": 2113.12,
+                "end_time": 2117.13,
+                "sentence": "Different languages, uh different skins and stuff like that.",
+                "source": "ES2003c.A.argumentstructs.Erik.14",
+                "targets": [
+                    "ES2003c.B.argumentstructs.Erik.12",
+                    "ES2003c.A.argumentstructs.Erik.15"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 11,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.12",
+                    "speaker": "A",
+                    "start_time": 2074.31,
+                    "end_time": 2074.7,
+                    "sentence": "Mm.",
+                    "source": "ES2003c.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.15",
+                    "speaker": "C",
+                    "start_time": 2076.84,
+                    "end_time": 2086.27,
+                    "sentence": "But you're gonna need some type of flash memory or something. Well something that doesn't  you wouldn't have to redo the whole thing once the batteries are changed, you know, once you turn off the power.",
+                    "source": "ES2003c.B.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2003c.A.argumentstructs.Erik.13",
+                        "ES2003c.A.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.13",
+                    "speaker": "A",
+                    "start_time": 2082.38,
+                    "end_time": 2082.83,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.C.argumentstructs.Erik.15",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.14",
+                    "speaker": "A",
+                    "start_time": 2085.33,
+                    "end_time": 2113.636,
+                    "sentence": "Yeah. The other thing I mean it I mean it would need to ha  it would need to have um some sort of on board memory anyway. Um f  for one  for one thing because I do think that the menu system should be um uh I mean although you know, it's not going to be terribly complicated if it's just controlling one device, the menu system ought to be um o ought to be customisable and uh",
+                    "source": "ES2003c.C.argumentstructs.Erik.15",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.16",
+                        "ES2003c.C.argumentstructs.Erik.17",
+                        "ES2003c.A.argumentstructs.Erik.16"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.16",
+                    "speaker": "C",
+                    "start_time": 2093.24,
+                    "end_time": 2093.67,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 17):\n- AE_ID: ES2003c.C.argumentstructs.Erik.17\n- Speaker: C\n- Sentence: \"Different languages, uh different skins and stuff like that.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.A.argumentstructs.Erik.12 (Index: 11, Speaker: A): \"Mm.\"\nAE_ID ES2003c.C.argumentstructs.Erik.15 (Index: 12, Speaker: C): \"But you're gonna need some type of flash memory or something. Well something that doesn't  you wouldn't have to redo the whole thing once the batteries are changed, you know, once you turn off the power.\"\nAE_ID ES2003c.A.argumentstructs.Erik.13 (Index: 14, Speaker: A): \"Yeah.\"\nAE_ID ES2003c.A.argumentstructs.Erik.14 (Index: 15, Speaker: A): \"Yeah. The other thing I mean it I mean it would need to ha  it would need to have um some sort of on board memory anyway. Um f  for one  for one thing because I do think that the menu system should be um uh I mean although you know, it's not going to be terribly complicated if it's just controlling one device, the menu system ought to be um o ought to be customisable and uh\"\nAE_ID ES2003c.C.argumentstructs.Erik.16 (Index: 16, Speaker: C): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.C.argumentstructs.Erik.16",
+            "ans": "ES2003c.A.argumentstructs.Erik.14",
+            "judgement": false
+        },
+        {
+            "turn_number": 15,
+            "current_node": {
+                "index": 18,
+                "ae_id": "ES2003c.B.argumentstructs.Erik.12",
+                "speaker": "B",
+                "start_time": 2115.93,
+                "end_time": 2117.34,
+                "sentence": "Mm-hmm.",
+                "source": "ES2003c.C.argumentstructs.Erik.17",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 12,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.15",
+                    "speaker": "C",
+                    "start_time": 2076.84,
+                    "end_time": 2086.27,
+                    "sentence": "But you're gonna need some type of flash memory or something. Well something that doesn't  you wouldn't have to redo the whole thing once the batteries are changed, you know, once you turn off the power.",
+                    "source": "ES2003c.B.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2003c.A.argumentstructs.Erik.13",
+                        "ES2003c.A.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.13",
+                    "speaker": "A",
+                    "start_time": 2082.38,
+                    "end_time": 2082.83,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.C.argumentstructs.Erik.15",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.14",
+                    "speaker": "A",
+                    "start_time": 2085.33,
+                    "end_time": 2113.636,
+                    "sentence": "Yeah. The other thing I mean it I mean it would need to ha  it would need to have um some sort of on board memory anyway. Um f  for one  for one thing because I do think that the menu system should be um uh I mean although you know, it's not going to be terribly complicated if it's just controlling one device, the menu system ought to be um o ought to be customisable and uh",
+                    "source": "ES2003c.C.argumentstructs.Erik.15",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.16",
+                        "ES2003c.C.argumentstructs.Erik.17",
+                        "ES2003c.A.argumentstructs.Erik.16"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.16",
+                    "speaker": "C",
+                    "start_time": 2093.24,
+                    "end_time": 2093.67,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.17",
+                    "speaker": "C",
+                    "start_time": 2113.12,
+                    "end_time": 2117.13,
+                    "sentence": "Different languages, uh different skins and stuff like that.",
+                    "source": "ES2003c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.12",
+                        "ES2003c.A.argumentstructs.Erik.15"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 18):\n- AE_ID: ES2003c.B.argumentstructs.Erik.12\n- Speaker: B\n- Sentence: \"Mm-hmm.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.C.argumentstructs.Erik.15 (Index: 12, Speaker: C): \"But you're gonna need some type of flash memory or something. Well something that doesn't  you wouldn't have to redo the whole thing once the batteries are changed, you know, once you turn off the power.\"\nAE_ID ES2003c.A.argumentstructs.Erik.13 (Index: 14, Speaker: A): \"Yeah.\"\nAE_ID ES2003c.A.argumentstructs.Erik.14 (Index: 15, Speaker: A): \"Yeah. The other thing I mean it I mean it would need to ha  it would need to have um some sort of on board memory anyway. Um f  for one  for one thing because I do think that the menu system should be um uh I mean although you know, it's not going to be terribly complicated if it's just controlling one device, the menu system ought to be um o ought to be customisable and uh\"\nAE_ID ES2003c.C.argumentstructs.Erik.16 (Index: 16, Speaker: C): \"Yeah.\"\nAE_ID ES2003c.C.argumentstructs.Erik.17 (Index: 17, Speaker: C): \"Different languages, uh different skins and stuff like that.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.C.argumentstructs.Erik.17",
+            "ans": "ES2003c.C.argumentstructs.Erik.17",
+            "judgement": true
+        },
+        {
+            "turn_number": 16,
+            "current_node": {
+                "index": 19,
+                "ae_id": "ES2003c.A.argumentstructs.Erik.15",
+                "speaker": "A",
+                "start_time": 2116.71,
+                "end_time": 2117.53,
+                "sentence": "Mm-hmm.",
+                "source": "ES2003c.C.argumentstructs.Erik.17",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 14,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.13",
+                    "speaker": "A",
+                    "start_time": 2082.38,
+                    "end_time": 2082.83,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.C.argumentstructs.Erik.15",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.14",
+                    "speaker": "A",
+                    "start_time": 2085.33,
+                    "end_time": 2113.636,
+                    "sentence": "Yeah. The other thing I mean it I mean it would need to ha  it would need to have um some sort of on board memory anyway. Um f  for one  for one thing because I do think that the menu system should be um uh I mean although you know, it's not going to be terribly complicated if it's just controlling one device, the menu system ought to be um o ought to be customisable and uh",
+                    "source": "ES2003c.C.argumentstructs.Erik.15",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.16",
+                        "ES2003c.C.argumentstructs.Erik.17",
+                        "ES2003c.A.argumentstructs.Erik.16"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.16",
+                    "speaker": "C",
+                    "start_time": 2093.24,
+                    "end_time": 2093.67,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.17",
+                    "speaker": "C",
+                    "start_time": 2113.12,
+                    "end_time": 2117.13,
+                    "sentence": "Different languages, uh different skins and stuff like that.",
+                    "source": "ES2003c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.12",
+                        "ES2003c.A.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 2115.93,
+                    "end_time": 2117.34,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003c.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 19):\n- AE_ID: ES2003c.A.argumentstructs.Erik.15\n- Speaker: A\n- Sentence: \"Mm-hmm.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.A.argumentstructs.Erik.13 (Index: 14, Speaker: A): \"Yeah.\"\nAE_ID ES2003c.A.argumentstructs.Erik.14 (Index: 15, Speaker: A): \"Yeah. The other thing I mean it I mean it would need to ha  it would need to have um some sort of on board memory anyway. Um f  for one  for one thing because I do think that the menu system should be um uh I mean although you know, it's not going to be terribly complicated if it's just controlling one device, the menu system ought to be um o ought to be customisable and uh\"\nAE_ID ES2003c.C.argumentstructs.Erik.16 (Index: 16, Speaker: C): \"Yeah.\"\nAE_ID ES2003c.C.argumentstructs.Erik.17 (Index: 17, Speaker: C): \"Different languages, uh different skins and stuff like that.\"\nAE_ID ES2003c.B.argumentstructs.Erik.12 (Index: 18, Speaker: B): \"Mm-hmm.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.B.argumentstructs.Erik.12",
+            "ans": "ES2003c.C.argumentstructs.Erik.17",
+            "judgement": false
+        },
+        {
+            "turn_number": 17,
+            "current_node": {
+                "index": 21,
+                "ae_id": "ES2003c.A.argumentstructs.Erik.16",
+                "speaker": "A",
+                "start_time": 2117.53,
+                "end_time": 2127.2,
+                "sentence": "How uh how uh how you want say the um the the menu structure for flicking through channels if you've got lots of channels. That sort of thing.",
+                "source": "ES2003c.A.argumentstructs.Erik.14",
+                "targets": [
+                    "ES2003c.C.argumentstructs.Erik.18",
+                    "ES2003c.B.argumentstructs.Erik.13",
+                    "ES2003c.C.argumentstructs.Erik.19",
+                    "ES2003c.C.argumentstructs.Erik.20"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 15,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.14",
+                    "speaker": "A",
+                    "start_time": 2085.33,
+                    "end_time": 2113.636,
+                    "sentence": "Yeah. The other thing I mean it I mean it would need to ha  it would need to have um some sort of on board memory anyway. Um f  for one  for one thing because I do think that the menu system should be um uh I mean although you know, it's not going to be terribly complicated if it's just controlling one device, the menu system ought to be um o ought to be customisable and uh",
+                    "source": "ES2003c.C.argumentstructs.Erik.15",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.16",
+                        "ES2003c.C.argumentstructs.Erik.17",
+                        "ES2003c.A.argumentstructs.Erik.16"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.16",
+                    "speaker": "C",
+                    "start_time": 2093.24,
+                    "end_time": 2093.67,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.17",
+                    "speaker": "C",
+                    "start_time": 2113.12,
+                    "end_time": 2117.13,
+                    "sentence": "Different languages, uh different skins and stuff like that.",
+                    "source": "ES2003c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.12",
+                        "ES2003c.A.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 2115.93,
+                    "end_time": 2117.34,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003c.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.15",
+                    "speaker": "A",
+                    "start_time": 2116.71,
+                    "end_time": 2117.53,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003c.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 21):\n- AE_ID: ES2003c.A.argumentstructs.Erik.16\n- Speaker: A\n- Sentence: \"How uh how uh how you want say the um the the menu structure for flicking through channels if you've got lots of channels. That sort of thing.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.A.argumentstructs.Erik.14 (Index: 15, Speaker: A): \"Yeah. The other thing I mean it I mean it would need to ha  it would need to have um some sort of on board memory anyway. Um f  for one  for one thing because I do think that the menu system should be um uh I mean although you know, it's not going to be terribly complicated if it's just controlling one device, the menu system ought to be um o ought to be customisable and uh\"\nAE_ID ES2003c.C.argumentstructs.Erik.16 (Index: 16, Speaker: C): \"Yeah.\"\nAE_ID ES2003c.C.argumentstructs.Erik.17 (Index: 17, Speaker: C): \"Different languages, uh different skins and stuff like that.\"\nAE_ID ES2003c.B.argumentstructs.Erik.12 (Index: 18, Speaker: B): \"Mm-hmm.\"\nAE_ID ES2003c.A.argumentstructs.Erik.15 (Index: 19, Speaker: A): \"Mm-hmm.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.A.argumentstructs.Erik.14",
+            "ans": "ES2003c.A.argumentstructs.Erik.14",
+            "judgement": true
+        },
+        {
+            "turn_number": 18,
+            "current_node": {
+                "index": 22,
+                "ae_id": "ES2003c.C.argumentstructs.Erik.18",
+                "speaker": "C",
+                "start_time": 2125.38,
+                "end_time": 2132.25,
+                "sentence": "Sure.  I if it was customisable as in different languages and stuff, that does open  it is supposed to be international, right ? So.",
+                "source": "ES2003c.A.argumentstructs.Erik.16",
+                "targets": [
+                    "ES2003c.B.argumentstructs.Erik.14"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 16,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.16",
+                    "speaker": "C",
+                    "start_time": 2093.24,
+                    "end_time": 2093.67,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.17",
+                    "speaker": "C",
+                    "start_time": 2113.12,
+                    "end_time": 2117.13,
+                    "sentence": "Different languages, uh different skins and stuff like that.",
+                    "source": "ES2003c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.12",
+                        "ES2003c.A.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 2115.93,
+                    "end_time": 2117.34,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003c.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.15",
+                    "speaker": "A",
+                    "start_time": 2116.71,
+                    "end_time": 2117.53,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003c.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.16",
+                    "speaker": "A",
+                    "start_time": 2117.53,
+                    "end_time": 2127.2,
+                    "sentence": "How uh how uh how you want say the um the the menu structure for flicking through channels if you've got lots of channels. That sort of thing.",
+                    "source": "ES2003c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.18",
+                        "ES2003c.B.argumentstructs.Erik.13",
+                        "ES2003c.C.argumentstructs.Erik.19",
+                        "ES2003c.C.argumentstructs.Erik.20"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 22):\n- AE_ID: ES2003c.C.argumentstructs.Erik.18\n- Speaker: C\n- Sentence: \"Sure.  I if it was customisable as in different languages and stuff, that does open  it is supposed to be international, right ? So.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.C.argumentstructs.Erik.16 (Index: 16, Speaker: C): \"Yeah.\"\nAE_ID ES2003c.C.argumentstructs.Erik.17 (Index: 17, Speaker: C): \"Different languages, uh different skins and stuff like that.\"\nAE_ID ES2003c.B.argumentstructs.Erik.12 (Index: 18, Speaker: B): \"Mm-hmm.\"\nAE_ID ES2003c.A.argumentstructs.Erik.15 (Index: 19, Speaker: A): \"Mm-hmm.\"\nAE_ID ES2003c.A.argumentstructs.Erik.16 (Index: 21, Speaker: A): \"How uh how uh how you want say the um the the menu structure for flicking through channels if you've got lots of channels. That sort of thing.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.C.argumentstructs.Erik.17",
+            "ans": "ES2003c.A.argumentstructs.Erik.16",
+            "judgement": false
+        },
+        {
+            "turn_number": 19,
+            "current_node": {
+                "index": 23,
+                "ae_id": "ES2003c.B.argumentstructs.Erik.13",
+                "speaker": "B",
+                "start_time": 2132.94,
+                "end_time": 2144.13,
+                "sentence": "It would make sense to. I would say to. Um and we'd better be careful about the time as well. We've already had the five minute warning, so. Um. I would say yeah.",
+                "source": "ES2003c.A.argumentstructs.Erik.16",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 17,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.17",
+                    "speaker": "C",
+                    "start_time": 2113.12,
+                    "end_time": 2117.13,
+                    "sentence": "Different languages, uh different skins and stuff like that.",
+                    "source": "ES2003c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.12",
+                        "ES2003c.A.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 2115.93,
+                    "end_time": 2117.34,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003c.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.15",
+                    "speaker": "A",
+                    "start_time": 2116.71,
+                    "end_time": 2117.53,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003c.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.16",
+                    "speaker": "A",
+                    "start_time": 2117.53,
+                    "end_time": 2127.2,
+                    "sentence": "How uh how uh how you want say the um the the menu structure for flicking through channels if you've got lots of channels. That sort of thing.",
+                    "source": "ES2003c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.18",
+                        "ES2003c.B.argumentstructs.Erik.13",
+                        "ES2003c.C.argumentstructs.Erik.19",
+                        "ES2003c.C.argumentstructs.Erik.20"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.18",
+                    "speaker": "C",
+                    "start_time": 2125.38,
+                    "end_time": 2132.25,
+                    "sentence": "Sure.  I if it was customisable as in different languages and stuff, that does open  it is supposed to be international, right ? So.",
+                    "source": "ES2003c.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.14"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 23):\n- AE_ID: ES2003c.B.argumentstructs.Erik.13\n- Speaker: B\n- Sentence: \"It would make sense to. I would say to. Um and we'd better be careful about the time as well. We've already had the five minute warning, so. Um. I would say yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.C.argumentstructs.Erik.17 (Index: 17, Speaker: C): \"Different languages, uh different skins and stuff like that.\"\nAE_ID ES2003c.B.argumentstructs.Erik.12 (Index: 18, Speaker: B): \"Mm-hmm.\"\nAE_ID ES2003c.A.argumentstructs.Erik.15 (Index: 19, Speaker: A): \"Mm-hmm.\"\nAE_ID ES2003c.A.argumentstructs.Erik.16 (Index: 21, Speaker: A): \"How uh how uh how you want say the um the the menu structure for flicking through channels if you've got lots of channels. That sort of thing.\"\nAE_ID ES2003c.C.argumentstructs.Erik.18 (Index: 22, Speaker: C): \"Sure.  I if it was customisable as in different languages and stuff, that does open  it is supposed to be international, right ? So.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.C.argumentstructs.Erik.18",
+            "ans": "ES2003c.A.argumentstructs.Erik.16",
+            "judgement": false
+        },
+        {
+            "turn_number": 20,
+            "current_node": {
+                "index": 24,
+                "ae_id": "ES2003c.C.argumentstructs.Erik.19",
+                "speaker": "C",
+                "start_time": 2134.17,
+                "end_time": 2135.487,
+                "sentence": "It would make sense if you could",
+                "source": "ES2003c.A.argumentstructs.Erik.16",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 18,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 2115.93,
+                    "end_time": 2117.34,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003c.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.15",
+                    "speaker": "A",
+                    "start_time": 2116.71,
+                    "end_time": 2117.53,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003c.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.16",
+                    "speaker": "A",
+                    "start_time": 2117.53,
+                    "end_time": 2127.2,
+                    "sentence": "How uh how uh how you want say the um the the menu structure for flicking through channels if you've got lots of channels. That sort of thing.",
+                    "source": "ES2003c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.18",
+                        "ES2003c.B.argumentstructs.Erik.13",
+                        "ES2003c.C.argumentstructs.Erik.19",
+                        "ES2003c.C.argumentstructs.Erik.20"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.18",
+                    "speaker": "C",
+                    "start_time": 2125.38,
+                    "end_time": 2132.25,
+                    "sentence": "Sure.  I if it was customisable as in different languages and stuff, that does open  it is supposed to be international, right ? So.",
+                    "source": "ES2003c.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 2132.94,
+                    "end_time": 2144.13,
+                    "sentence": "It would make sense to. I would say to. Um and we'd better be careful about the time as well. We've already had the five minute warning, so. Um. I would say yeah.",
+                    "source": "ES2003c.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 24):\n- AE_ID: ES2003c.C.argumentstructs.Erik.19\n- Speaker: C\n- Sentence: \"It would make sense if you could\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.B.argumentstructs.Erik.12 (Index: 18, Speaker: B): \"Mm-hmm.\"\nAE_ID ES2003c.A.argumentstructs.Erik.15 (Index: 19, Speaker: A): \"Mm-hmm.\"\nAE_ID ES2003c.A.argumentstructs.Erik.16 (Index: 21, Speaker: A): \"How uh how uh how you want say the um the the menu structure for flicking through channels if you've got lots of channels. That sort of thing.\"\nAE_ID ES2003c.C.argumentstructs.Erik.18 (Index: 22, Speaker: C): \"Sure.  I if it was customisable as in different languages and stuff, that does open  it is supposed to be international, right ? So.\"\nAE_ID ES2003c.B.argumentstructs.Erik.13 (Index: 23, Speaker: B): \"It would make sense to. I would say to. Um and we'd better be careful about the time as well. We've already had the five minute warning, so. Um. I would say yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.B.argumentstructs.Erik.13",
+            "ans": "ES2003c.A.argumentstructs.Erik.16",
+            "judgement": false
+        },
+        {
+            "turn_number": 21,
+            "current_node": {
+                "index": 25,
+                "ae_id": "ES2003c.C.argumentstructs.Erik.20",
+                "speaker": "C",
+                "start_time": 2139.13,
+                "end_time": 2139.41,
+                "sentence": "Okay.",
+                "source": "ES2003c.A.argumentstructs.Erik.16",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 19,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.15",
+                    "speaker": "A",
+                    "start_time": 2116.71,
+                    "end_time": 2117.53,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003c.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.16",
+                    "speaker": "A",
+                    "start_time": 2117.53,
+                    "end_time": 2127.2,
+                    "sentence": "How uh how uh how you want say the um the the menu structure for flicking through channels if you've got lots of channels. That sort of thing.",
+                    "source": "ES2003c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.18",
+                        "ES2003c.B.argumentstructs.Erik.13",
+                        "ES2003c.C.argumentstructs.Erik.19",
+                        "ES2003c.C.argumentstructs.Erik.20"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.18",
+                    "speaker": "C",
+                    "start_time": 2125.38,
+                    "end_time": 2132.25,
+                    "sentence": "Sure.  I if it was customisable as in different languages and stuff, that does open  it is supposed to be international, right ? So.",
+                    "source": "ES2003c.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 2132.94,
+                    "end_time": 2144.13,
+                    "sentence": "It would make sense to. I would say to. Um and we'd better be careful about the time as well. We've already had the five minute warning, so. Um. I would say yeah.",
+                    "source": "ES2003c.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.19",
+                    "speaker": "C",
+                    "start_time": 2134.17,
+                    "end_time": 2135.487,
+                    "sentence": "It would make sense if you could",
+                    "source": "ES2003c.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 25):\n- AE_ID: ES2003c.C.argumentstructs.Erik.20\n- Speaker: C\n- Sentence: \"Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.A.argumentstructs.Erik.15 (Index: 19, Speaker: A): \"Mm-hmm.\"\nAE_ID ES2003c.A.argumentstructs.Erik.16 (Index: 21, Speaker: A): \"How uh how uh how you want say the um the the menu structure for flicking through channels if you've got lots of channels. That sort of thing.\"\nAE_ID ES2003c.C.argumentstructs.Erik.18 (Index: 22, Speaker: C): \"Sure.  I if it was customisable as in different languages and stuff, that does open  it is supposed to be international, right ? So.\"\nAE_ID ES2003c.B.argumentstructs.Erik.13 (Index: 23, Speaker: B): \"It would make sense to. I would say to. Um and we'd better be careful about the time as well. We've already had the five minute warning, so. Um. I would say yeah.\"\nAE_ID ES2003c.C.argumentstructs.Erik.19 (Index: 24, Speaker: C): \"It would make sense if you could\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.C.argumentstructs.Erik.19",
+            "ans": "ES2003c.A.argumentstructs.Erik.16",
+            "judgement": false
+        },
+        {
+            "turn_number": 22,
+            "current_node": {
+                "index": 26,
+                "ae_id": "ES2003c.B.argumentstructs.Erik.14",
+                "speaker": "B",
+                "start_time": 2145.85,
+                "end_time": 2147.67,
+                "sentence": "International would make sense.",
+                "source": "ES2003c.C.argumentstructs.Erik.18",
+                "targets": [
+                    "ES2003c.A.argumentstructs.Erik.17"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 21,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.16",
+                    "speaker": "A",
+                    "start_time": 2117.53,
+                    "end_time": 2127.2,
+                    "sentence": "How uh how uh how you want say the um the the menu structure for flicking through channels if you've got lots of channels. That sort of thing.",
+                    "source": "ES2003c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.18",
+                        "ES2003c.B.argumentstructs.Erik.13",
+                        "ES2003c.C.argumentstructs.Erik.19",
+                        "ES2003c.C.argumentstructs.Erik.20"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.18",
+                    "speaker": "C",
+                    "start_time": 2125.38,
+                    "end_time": 2132.25,
+                    "sentence": "Sure.  I if it was customisable as in different languages and stuff, that does open  it is supposed to be international, right ? So.",
+                    "source": "ES2003c.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 2132.94,
+                    "end_time": 2144.13,
+                    "sentence": "It would make sense to. I would say to. Um and we'd better be careful about the time as well. We've already had the five minute warning, so. Um. I would say yeah.",
+                    "source": "ES2003c.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.19",
+                    "speaker": "C",
+                    "start_time": 2134.17,
+                    "end_time": 2135.487,
+                    "sentence": "It would make sense if you could",
+                    "source": "ES2003c.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.20",
+                    "speaker": "C",
+                    "start_time": 2139.13,
+                    "end_time": 2139.41,
+                    "sentence": "Okay.",
+                    "source": "ES2003c.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 26):\n- AE_ID: ES2003c.B.argumentstructs.Erik.14\n- Speaker: B\n- Sentence: \"International would make sense.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.A.argumentstructs.Erik.16 (Index: 21, Speaker: A): \"How uh how uh how you want say the um the the menu structure for flicking through channels if you've got lots of channels. That sort of thing.\"\nAE_ID ES2003c.C.argumentstructs.Erik.18 (Index: 22, Speaker: C): \"Sure.  I if it was customisable as in different languages and stuff, that does open  it is supposed to be international, right ? So.\"\nAE_ID ES2003c.B.argumentstructs.Erik.13 (Index: 23, Speaker: B): \"It would make sense to. I would say to. Um and we'd better be careful about the time as well. We've already had the five minute warning, so. Um. I would say yeah.\"\nAE_ID ES2003c.C.argumentstructs.Erik.19 (Index: 24, Speaker: C): \"It would make sense if you could\"\nAE_ID ES2003c.C.argumentstructs.Erik.20 (Index: 25, Speaker: C): \"Okay.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.C.argumentstructs.Erik.18",
+            "ans": "ES2003c.C.argumentstructs.Erik.18",
+            "judgement": true
+        },
+        {
+            "turn_number": 23,
+            "current_node": {
+                "index": 27,
+                "ae_id": "ES2003c.A.argumentstructs.Erik.17",
+                "speaker": "A",
+                "start_time": 2158.02,
+                "end_time": 2158.52,
+                "sentence": "Yeah.",
+                "source": "ES2003c.B.argumentstructs.Erik.14",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 22,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.18",
+                    "speaker": "C",
+                    "start_time": 2125.38,
+                    "end_time": 2132.25,
+                    "sentence": "Sure.  I if it was customisable as in different languages and stuff, that does open  it is supposed to be international, right ? So.",
+                    "source": "ES2003c.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 2132.94,
+                    "end_time": 2144.13,
+                    "sentence": "It would make sense to. I would say to. Um and we'd better be careful about the time as well. We've already had the five minute warning, so. Um. I would say yeah.",
+                    "source": "ES2003c.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.19",
+                    "speaker": "C",
+                    "start_time": 2134.17,
+                    "end_time": 2135.487,
+                    "sentence": "It would make sense if you could",
+                    "source": "ES2003c.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.20",
+                    "speaker": "C",
+                    "start_time": 2139.13,
+                    "end_time": 2139.41,
+                    "sentence": "Okay.",
+                    "source": "ES2003c.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 26,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.14",
+                    "speaker": "B",
+                    "start_time": 2145.85,
+                    "end_time": 2147.67,
+                    "sentence": "International would make sense.",
+                    "source": "ES2003c.C.argumentstructs.Erik.18",
+                    "targets": [
+                        "ES2003c.A.argumentstructs.Erik.17"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 27):\n- AE_ID: ES2003c.A.argumentstructs.Erik.17\n- Speaker: A\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.C.argumentstructs.Erik.18 (Index: 22, Speaker: C): \"Sure.  I if it was customisable as in different languages and stuff, that does open  it is supposed to be international, right ? So.\"\nAE_ID ES2003c.B.argumentstructs.Erik.13 (Index: 23, Speaker: B): \"It would make sense to. I would say to. Um and we'd better be careful about the time as well. We've already had the five minute warning, so. Um. I would say yeah.\"\nAE_ID ES2003c.C.argumentstructs.Erik.19 (Index: 24, Speaker: C): \"It would make sense if you could\"\nAE_ID ES2003c.C.argumentstructs.Erik.20 (Index: 25, Speaker: C): \"Okay.\"\nAE_ID ES2003c.B.argumentstructs.Erik.14 (Index: 26, Speaker: B): \"International would make sense.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.B.argumentstructs.Erik.14",
+            "ans": "ES2003c.B.argumentstructs.Erik.14",
+            "judgement": true
+        }
+    ]
+}

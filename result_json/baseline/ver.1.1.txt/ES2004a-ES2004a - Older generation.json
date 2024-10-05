@@ -1,0 +1,1580 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2004a-ES2004a - Older generation.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "ver.1.1.txt",
+    "rate": 0.631578947368421,
+    "total_node_count": 27,
+    "removed_node_count": 7,
+    "removed_node_list": [
+        {
+            "index": 2,
+            "ae_id": "ES2004a.A.argumentstructs.2",
+            "speaker": "A",
+            "start_time": 816.27,
+            "end_time": 863.53,
+            "sentence": "You mean to save it lesser number. Right. Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 4,
+            "ae_id": "ES2004a.D.argumentstructs.6",
+            "speaker": "D",
+            "start_time": 821.35,
+            "end_time": 823.79,
+            "sentence": "Mm-hmm. Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 9,
+            "ae_id": "ES2004a.D.argumentstructs.7",
+            "speaker": "D",
+            "start_time": 833.26,
+            "end_time": 833.8,
+            "sentence": "Right.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 14,
+            "ae_id": "ES2004a.B.argumentstructs.10",
+            "speaker": "B",
+            "start_time": 862.33,
+            "end_time": 862.76,
+            "sentence": "Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 16,
+            "ae_id": "ES2004a.C.argumentstructs.6",
+            "speaker": "C",
+            "start_time": 870.18,
+            "end_time": 870.69,
+            "sentence": "Oh yeah.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 17,
+            "ae_id": "ES2004a.D.argumentstructs.8",
+            "speaker": "D",
+            "start_time": 872.2,
+            "end_time": 872.59,
+            "sentence": "Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 22,
+            "ae_id": "ES2004a.D.argumentstructs.9",
+            "speaker": "D",
+            "start_time": 895.43,
+            "end_time": 895.75,
+            "sentence": "Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 0,
+                "ae_id": "ES2004a.B.argumentstructs.Erik.1",
+                "speaker": "B",
+                "start_time": 812.35,
+                "end_time": 815.09,
+                "sentence": "What about the older generation ? What about granny and grandads ?",
+                "source": "NONE",
+                "targets": [
+                    "ES2004a.B.argumentstructs.Erik.2",
+                    "ES2004a.D.argumentstructs.Erik.3",
+                    "ES2004a.D.argumentstructs.Erik.5"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "NONE",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2004a.B.argumentstructs.Erik.2",
+                "speaker": "B",
+                "start_time": 816.15,
+                "end_time": 823.63,
+                "sentence": "Um, my grandad can answer his mobile phone, but he couldn't even dream of texting or something like that.",
+                "source": "ES2004a.B.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2004a.C.argumentstructs.Erik.1",
+                    "ES2004a.D.argumentstructs.Erik.1"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 812.35,
+                    "end_time": 815.09,
+                    "sentence": "What about the older generation ? What about granny and grandads ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.2",
+                        "ES2004a.D.argumentstructs.Erik.3",
+                        "ES2004a.D.argumentstructs.Erik.5"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 1):\n- AE_ID: ES2004a.B.argumentstructs.Erik.2\n- Speaker: B\n- Sentence: \"Um, my grandad can answer his mobile phone, but he couldn't even dream of texting or something like that.\"\n\nPast Dialogue Turns:\nAE_ID ES2004a.B.argumentstructs.Erik.1 (Index: 0, Speaker: B): \"What about the older generation ? What about granny and grandads ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004a.B.argumentstructs.Erik.1",
+            "ans": "ES2004a.B.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 3,
+                "ae_id": "ES2004a.C.argumentstructs.Erik.1",
+                "speaker": "C",
+                "start_time": 819.96,
+                "end_time": 820.26,
+                "sentence": "Yeah.",
+                "source": "ES2004a.B.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 812.35,
+                    "end_time": 815.09,
+                    "sentence": "What about the older generation ? What about granny and grandads ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.2",
+                        "ES2004a.D.argumentstructs.Erik.3",
+                        "ES2004a.D.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 816.15,
+                    "end_time": 823.63,
+                    "sentence": "Um, my grandad can answer his mobile phone, but he couldn't even dream of texting or something like that.",
+                    "source": "ES2004a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004a.C.argumentstructs.Erik.1",
+                        "ES2004a.D.argumentstructs.Erik.1"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 3):\n- AE_ID: ES2004a.C.argumentstructs.Erik.1\n- Speaker: C\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2004a.B.argumentstructs.Erik.1 (Index: 0, Speaker: B): \"What about the older generation ? What about granny and grandads ?\"\nAE_ID ES2004a.B.argumentstructs.Erik.2 (Index: 1, Speaker: B): \"Um, my grandad can answer his mobile phone, but he couldn't even dream of texting or something like that.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004a.B.argumentstructs.Erik.1",
+            "ans": "ES2004a.B.argumentstructs.Erik.2",
+            "judgement": false
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 5,
+                "ae_id": "ES2004a.D.argumentstructs.Erik.1",
+                "speaker": "D",
+                "start_time": 823.79,
+                "end_time": 827.97,
+                "sentence": "Can he programme his remote control or is it basic with that too ?",
+                "source": "ES2004a.B.argumentstructs.Erik.2",
+                "targets": [
+                    "ES2004a.B.argumentstructs.Erik.3"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 812.35,
+                    "end_time": 815.09,
+                    "sentence": "What about the older generation ? What about granny and grandads ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.2",
+                        "ES2004a.D.argumentstructs.Erik.3",
+                        "ES2004a.D.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 816.15,
+                    "end_time": 823.63,
+                    "sentence": "Um, my grandad can answer his mobile phone, but he couldn't even dream of texting or something like that.",
+                    "source": "ES2004a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004a.C.argumentstructs.Erik.1",
+                        "ES2004a.D.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 819.96,
+                    "end_time": 820.26,
+                    "sentence": "Yeah.",
+                    "source": "ES2004a.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 5):\n- AE_ID: ES2004a.D.argumentstructs.Erik.1\n- Speaker: D\n- Sentence: \"Can he programme his remote control or is it basic with that too ?\"\n\nPast Dialogue Turns:\nAE_ID ES2004a.B.argumentstructs.Erik.1 (Index: 0, Speaker: B): \"What about the older generation ? What about granny and grandads ?\"\nAE_ID ES2004a.B.argumentstructs.Erik.2 (Index: 1, Speaker: B): \"Um, my grandad can answer his mobile phone, but he couldn't even dream of texting or something like that.\"\nAE_ID ES2004a.C.argumentstructs.Erik.1 (Index: 3, Speaker: C): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004a.B.argumentstructs.Erik.2",
+            "ans": "ES2004a.B.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 6,
+                "ae_id": "ES2004a.B.argumentstructs.Erik.3",
+                "speaker": "B",
+                "start_time": 828.12,
+                "end_time": 831.516,
+                "sentence": "I don't think they tape things, I don't think they use",
+                "source": "ES2004a.D.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2004a.C.argumentstructs.Erik.2"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 812.35,
+                    "end_time": 815.09,
+                    "sentence": "What about the older generation ? What about granny and grandads ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.2",
+                        "ES2004a.D.argumentstructs.Erik.3",
+                        "ES2004a.D.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 816.15,
+                    "end_time": 823.63,
+                    "sentence": "Um, my grandad can answer his mobile phone, but he couldn't even dream of texting or something like that.",
+                    "source": "ES2004a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004a.C.argumentstructs.Erik.1",
+                        "ES2004a.D.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 819.96,
+                    "end_time": 820.26,
+                    "sentence": "Yeah.",
+                    "source": "ES2004a.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2004a.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 823.79,
+                    "end_time": 827.97,
+                    "sentence": "Can he programme his remote control or is it basic with that too ?",
+                    "source": "ES2004a.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.3"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 6):\n- AE_ID: ES2004a.B.argumentstructs.Erik.3\n- Speaker: B\n- Sentence: \"I don't think they tape things, I don't think they use\"\n\nPast Dialogue Turns:\nAE_ID ES2004a.B.argumentstructs.Erik.1 (Index: 0, Speaker: B): \"What about the older generation ? What about granny and grandads ?\"\nAE_ID ES2004a.B.argumentstructs.Erik.2 (Index: 1, Speaker: B): \"Um, my grandad can answer his mobile phone, but he couldn't even dream of texting or something like that.\"\nAE_ID ES2004a.C.argumentstructs.Erik.1 (Index: 3, Speaker: C): \"Yeah.\"\nAE_ID ES2004a.D.argumentstructs.Erik.1 (Index: 5, Speaker: D): \"Can he programme his remote control or is it basic with that too ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004a.D.argumentstructs.Erik.1",
+            "ans": "ES2004a.D.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 7,
+                "ae_id": "ES2004a.C.argumentstructs.Erik.2",
+                "speaker": "C",
+                "start_time": 829.37,
+                "end_time": 834.05,
+                "sentence": "Yeah, my grandad's actually better than me at using teletext, so.",
+                "source": "ES2004a.B.argumentstructs.Erik.3",
+                "targets": [
+                    "ES2004a.D.argumentstructs.Erik.2"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 812.35,
+                    "end_time": 815.09,
+                    "sentence": "What about the older generation ? What about granny and grandads ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.2",
+                        "ES2004a.D.argumentstructs.Erik.3",
+                        "ES2004a.D.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 816.15,
+                    "end_time": 823.63,
+                    "sentence": "Um, my grandad can answer his mobile phone, but he couldn't even dream of texting or something like that.",
+                    "source": "ES2004a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004a.C.argumentstructs.Erik.1",
+                        "ES2004a.D.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 819.96,
+                    "end_time": 820.26,
+                    "sentence": "Yeah.",
+                    "source": "ES2004a.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2004a.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 823.79,
+                    "end_time": 827.97,
+                    "sentence": "Can he programme his remote control or is it basic with that too ?",
+                    "source": "ES2004a.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 828.12,
+                    "end_time": 831.516,
+                    "sentence": "I don't think they tape things, I don't think they use",
+                    "source": "ES2004a.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004a.C.argumentstructs.Erik.2"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 7):\n- AE_ID: ES2004a.C.argumentstructs.Erik.2\n- Speaker: C\n- Sentence: \"Yeah, my grandad's actually better than me at using teletext, so.\"\n\nPast Dialogue Turns:\nAE_ID ES2004a.B.argumentstructs.Erik.1 (Index: 0, Speaker: B): \"What about the older generation ? What about granny and grandads ?\"\nAE_ID ES2004a.B.argumentstructs.Erik.2 (Index: 1, Speaker: B): \"Um, my grandad can answer his mobile phone, but he couldn't even dream of texting or something like that.\"\nAE_ID ES2004a.C.argumentstructs.Erik.1 (Index: 3, Speaker: C): \"Yeah.\"\nAE_ID ES2004a.D.argumentstructs.Erik.1 (Index: 5, Speaker: D): \"Can he programme his remote control or is it basic with that too ?\"\nAE_ID ES2004a.B.argumentstructs.Erik.3 (Index: 6, Speaker: B): \"I don't think they tape things, I don't think they use\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004a.B.argumentstructs.Erik.1",
+            "ans": "ES2004a.B.argumentstructs.Erik.3",
+            "judgement": false
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 8,
+                "ae_id": "ES2004a.D.argumentstructs.Erik.2",
+                "speaker": "D",
+                "start_time": 830.05,
+                "end_time": 830.6,
+                "sentence": "Right.",
+                "source": "ES2004a.C.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 816.15,
+                    "end_time": 823.63,
+                    "sentence": "Um, my grandad can answer his mobile phone, but he couldn't even dream of texting or something like that.",
+                    "source": "ES2004a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004a.C.argumentstructs.Erik.1",
+                        "ES2004a.D.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 819.96,
+                    "end_time": 820.26,
+                    "sentence": "Yeah.",
+                    "source": "ES2004a.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2004a.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 823.79,
+                    "end_time": 827.97,
+                    "sentence": "Can he programme his remote control or is it basic with that too ?",
+                    "source": "ES2004a.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 828.12,
+                    "end_time": 831.516,
+                    "sentence": "I don't think they tape things, I don't think they use",
+                    "source": "ES2004a.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004a.C.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 829.37,
+                    "end_time": 834.05,
+                    "sentence": "Yeah, my grandad's actually better than me at using teletext, so.",
+                    "source": "ES2004a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2004a.D.argumentstructs.Erik.2"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 8):\n- AE_ID: ES2004a.D.argumentstructs.Erik.2\n- Speaker: D\n- Sentence: \"Right.\"\n\nPast Dialogue Turns:\nAE_ID ES2004a.B.argumentstructs.Erik.2 (Index: 1, Speaker: B): \"Um, my grandad can answer his mobile phone, but he couldn't even dream of texting or something like that.\"\nAE_ID ES2004a.C.argumentstructs.Erik.1 (Index: 3, Speaker: C): \"Yeah.\"\nAE_ID ES2004a.D.argumentstructs.Erik.1 (Index: 5, Speaker: D): \"Can he programme his remote control or is it basic with that too ?\"\nAE_ID ES2004a.B.argumentstructs.Erik.3 (Index: 6, Speaker: B): \"I don't think they tape things, I don't think they use\"\nAE_ID ES2004a.C.argumentstructs.Erik.2 (Index: 7, Speaker: C): \"Yeah, my grandad's actually better than me at using teletext, so.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004a.C.argumentstructs.Erik.2",
+            "ans": "ES2004a.C.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 10,
+                "ae_id": "ES2004a.D.argumentstructs.Erik.3",
+                "speaker": "D",
+                "start_time": 834.64,
+                "end_time": 844.64,
+                "sentence": "So that's a problem regardless of of any design modifications you you come up with, that's gonna be a problem anyway with the older generation perhaps, and that's another issue how we tackle that.",
+                "source": "ES2004a.B.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2004a.C.argumentstructs.Erik.3",
+                    "ES2004a.B.argumentstructs.Erik.4",
+                    "ES2004a.C.argumentstructs.Erik.4"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 3,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 819.96,
+                    "end_time": 820.26,
+                    "sentence": "Yeah.",
+                    "source": "ES2004a.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2004a.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 823.79,
+                    "end_time": 827.97,
+                    "sentence": "Can he programme his remote control or is it basic with that too ?",
+                    "source": "ES2004a.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 828.12,
+                    "end_time": 831.516,
+                    "sentence": "I don't think they tape things, I don't think they use",
+                    "source": "ES2004a.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004a.C.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 829.37,
+                    "end_time": 834.05,
+                    "sentence": "Yeah, my grandad's actually better than me at using teletext, so.",
+                    "source": "ES2004a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2004a.D.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2004a.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 830.05,
+                    "end_time": 830.6,
+                    "sentence": "Right.",
+                    "source": "ES2004a.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 10):\n- AE_ID: ES2004a.D.argumentstructs.Erik.3\n- Speaker: D\n- Sentence: \"So that's a problem regardless of of any design modifications you you come up with, that's gonna be a problem anyway with the older generation perhaps, and that's another issue how we tackle that.\"\n\nPast Dialogue Turns:\nAE_ID ES2004a.C.argumentstructs.Erik.1 (Index: 3, Speaker: C): \"Yeah.\"\nAE_ID ES2004a.D.argumentstructs.Erik.1 (Index: 5, Speaker: D): \"Can he programme his remote control or is it basic with that too ?\"\nAE_ID ES2004a.B.argumentstructs.Erik.3 (Index: 6, Speaker: B): \"I don't think they tape things, I don't think they use\"\nAE_ID ES2004a.C.argumentstructs.Erik.2 (Index: 7, Speaker: C): \"Yeah, my grandad's actually better than me at using teletext, so.\"\nAE_ID ES2004a.D.argumentstructs.Erik.2 (Index: 8, Speaker: D): \"Right.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004a.C.argumentstructs.Erik.2",
+            "ans": "ES2004a.B.argumentstructs.Erik.1",
+            "judgement": false
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 11,
+                "ae_id": "ES2004a.C.argumentstructs.Erik.3",
+                "speaker": "C",
+                "start_time": 838.64,
+                "end_time": 839.0,
+                "sentence": "Yeah.",
+                "source": "ES2004a.D.argumentstructs.Erik.3",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 5,
+                    "ae_id": "ES2004a.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 823.79,
+                    "end_time": 827.97,
+                    "sentence": "Can he programme his remote control or is it basic with that too ?",
+                    "source": "ES2004a.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 828.12,
+                    "end_time": 831.516,
+                    "sentence": "I don't think they tape things, I don't think they use",
+                    "source": "ES2004a.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004a.C.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 829.37,
+                    "end_time": 834.05,
+                    "sentence": "Yeah, my grandad's actually better than me at using teletext, so.",
+                    "source": "ES2004a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2004a.D.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2004a.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 830.05,
+                    "end_time": 830.6,
+                    "sentence": "Right.",
+                    "source": "ES2004a.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2004a.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 834.64,
+                    "end_time": 844.64,
+                    "sentence": "So that's a problem regardless of of any design modifications you you come up with, that's gonna be a problem anyway with the older generation perhaps, and that's another issue how we tackle that.",
+                    "source": "ES2004a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004a.C.argumentstructs.Erik.3",
+                        "ES2004a.B.argumentstructs.Erik.4",
+                        "ES2004a.C.argumentstructs.Erik.4"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 11):\n- AE_ID: ES2004a.C.argumentstructs.Erik.3\n- Speaker: C\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2004a.D.argumentstructs.Erik.1 (Index: 5, Speaker: D): \"Can he programme his remote control or is it basic with that too ?\"\nAE_ID ES2004a.B.argumentstructs.Erik.3 (Index: 6, Speaker: B): \"I don't think they tape things, I don't think they use\"\nAE_ID ES2004a.C.argumentstructs.Erik.2 (Index: 7, Speaker: C): \"Yeah, my grandad's actually better than me at using teletext, so.\"\nAE_ID ES2004a.D.argumentstructs.Erik.2 (Index: 8, Speaker: D): \"Right.\"\nAE_ID ES2004a.D.argumentstructs.Erik.3 (Index: 10, Speaker: D): \"So that's a problem regardless of of any design modifications you you come up with, that's gonna be a problem anyway with the older generation perhaps, and that's another issue how we tackle that.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004a.D.argumentstructs.Erik.3",
+            "ans": "ES2004a.D.argumentstructs.Erik.3",
+            "judgement": true
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 12,
+                "ae_id": "ES2004a.B.argumentstructs.Erik.4",
+                "speaker": "B",
+                "start_time": 841.2,
+                "end_time": 843.24,
+                "sentence": "Mm, yeah, the age gap.",
+                "source": "ES2004a.D.argumentstructs.Erik.3",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 6,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 828.12,
+                    "end_time": 831.516,
+                    "sentence": "I don't think they tape things, I don't think they use",
+                    "source": "ES2004a.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004a.C.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 829.37,
+                    "end_time": 834.05,
+                    "sentence": "Yeah, my grandad's actually better than me at using teletext, so.",
+                    "source": "ES2004a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2004a.D.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2004a.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 830.05,
+                    "end_time": 830.6,
+                    "sentence": "Right.",
+                    "source": "ES2004a.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2004a.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 834.64,
+                    "end_time": 844.64,
+                    "sentence": "So that's a problem regardless of of any design modifications you you come up with, that's gonna be a problem anyway with the older generation perhaps, and that's another issue how we tackle that.",
+                    "source": "ES2004a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004a.C.argumentstructs.Erik.3",
+                        "ES2004a.B.argumentstructs.Erik.4",
+                        "ES2004a.C.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 838.64,
+                    "end_time": 839.0,
+                    "sentence": "Yeah.",
+                    "source": "ES2004a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 12):\n- AE_ID: ES2004a.B.argumentstructs.Erik.4\n- Speaker: B\n- Sentence: \"Mm, yeah, the age gap.\"\n\nPast Dialogue Turns:\nAE_ID ES2004a.B.argumentstructs.Erik.3 (Index: 6, Speaker: B): \"I don't think they tape things, I don't think they use\"\nAE_ID ES2004a.C.argumentstructs.Erik.2 (Index: 7, Speaker: C): \"Yeah, my grandad's actually better than me at using teletext, so.\"\nAE_ID ES2004a.D.argumentstructs.Erik.2 (Index: 8, Speaker: D): \"Right.\"\nAE_ID ES2004a.D.argumentstructs.Erik.3 (Index: 10, Speaker: D): \"So that's a problem regardless of of any design modifications you you come up with, that's gonna be a problem anyway with the older generation perhaps, and that's another issue how we tackle that.\"\nAE_ID ES2004a.C.argumentstructs.Erik.3 (Index: 11, Speaker: C): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004a.D.argumentstructs.Erik.3",
+            "ans": "ES2004a.D.argumentstructs.Erik.3",
+            "judgement": true
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 13,
+                "ae_id": "ES2004a.C.argumentstructs.Erik.4",
+                "speaker": "C",
+                "start_time": 843.73,
+                "end_time": 861.94,
+                "sentence": "Yeah, what it just needs to be  as long as it's sort of self-intuitive and you can can work out what everything's doing, 'cause I mean, menus on sort of new phones now they've sort of got all these pictures and stuff which makes it fairly obvious what you're trying to do.",
+                "source": "ES2004a.D.argumentstructs.Erik.3",
+                "targets": [
+                    "ES2004a.B.argumentstructs.Erik.5",
+                    "ES2004a.C.argumentstructs.Erik.5"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 7,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 829.37,
+                    "end_time": 834.05,
+                    "sentence": "Yeah, my grandad's actually better than me at using teletext, so.",
+                    "source": "ES2004a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2004a.D.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2004a.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 830.05,
+                    "end_time": 830.6,
+                    "sentence": "Right.",
+                    "source": "ES2004a.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2004a.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 834.64,
+                    "end_time": 844.64,
+                    "sentence": "So that's a problem regardless of of any design modifications you you come up with, that's gonna be a problem anyway with the older generation perhaps, and that's another issue how we tackle that.",
+                    "source": "ES2004a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004a.C.argumentstructs.Erik.3",
+                        "ES2004a.B.argumentstructs.Erik.4",
+                        "ES2004a.C.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 838.64,
+                    "end_time": 839.0,
+                    "sentence": "Yeah.",
+                    "source": "ES2004a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 841.2,
+                    "end_time": 843.24,
+                    "sentence": "Mm, yeah, the age gap.",
+                    "source": "ES2004a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 13):\n- AE_ID: ES2004a.C.argumentstructs.Erik.4\n- Speaker: C\n- Sentence: \"Yeah, what it just needs to be  as long as it's sort of self-intuitive and you can can work out what everything's doing, 'cause I mean, menus on sort of new phones now they've sort of got all these pictures and stuff which makes it fairly obvious what you're trying to do.\"\n\nPast Dialogue Turns:\nAE_ID ES2004a.C.argumentstructs.Erik.2 (Index: 7, Speaker: C): \"Yeah, my grandad's actually better than me at using teletext, so.\"\nAE_ID ES2004a.D.argumentstructs.Erik.2 (Index: 8, Speaker: D): \"Right.\"\nAE_ID ES2004a.D.argumentstructs.Erik.3 (Index: 10, Speaker: D): \"So that's a problem regardless of of any design modifications you you come up with, that's gonna be a problem anyway with the older generation perhaps, and that's another issue how we tackle that.\"\nAE_ID ES2004a.C.argumentstructs.Erik.3 (Index: 11, Speaker: C): \"Yeah.\"\nAE_ID ES2004a.B.argumentstructs.Erik.4 (Index: 12, Speaker: B): \"Mm, yeah, the age gap.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004a.D.argumentstructs.Erik.3",
+            "ans": "ES2004a.D.argumentstructs.Erik.3",
+            "judgement": true
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 15,
+                "ae_id": "ES2004a.B.argumentstructs.Erik.5",
+                "speaker": "B",
+                "start_time": 864.3,
+                "end_time": 871.74,
+                "sentence": "I don't know, I d I don't like the, you know the new phones that have kind of got a Windows-based running system.",
+                "source": "ES2004a.C.argumentstructs.Erik.4",
+                "targets": [
+                    "ES2004a.B.argumentstructs.Erik.6"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 8,
+                    "ae_id": "ES2004a.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 830.05,
+                    "end_time": 830.6,
+                    "sentence": "Right.",
+                    "source": "ES2004a.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2004a.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 834.64,
+                    "end_time": 844.64,
+                    "sentence": "So that's a problem regardless of of any design modifications you you come up with, that's gonna be a problem anyway with the older generation perhaps, and that's another issue how we tackle that.",
+                    "source": "ES2004a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004a.C.argumentstructs.Erik.3",
+                        "ES2004a.B.argumentstructs.Erik.4",
+                        "ES2004a.C.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 838.64,
+                    "end_time": 839.0,
+                    "sentence": "Yeah.",
+                    "source": "ES2004a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 841.2,
+                    "end_time": 843.24,
+                    "sentence": "Mm, yeah, the age gap.",
+                    "source": "ES2004a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.4",
+                    "speaker": "C",
+                    "start_time": 843.73,
+                    "end_time": 861.94,
+                    "sentence": "Yeah, what it just needs to be  as long as it's sort of self-intuitive and you can can work out what everything's doing, 'cause I mean, menus on sort of new phones now they've sort of got all these pictures and stuff which makes it fairly obvious what you're trying to do.",
+                    "source": "ES2004a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.5",
+                        "ES2004a.C.argumentstructs.Erik.5"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 15):\n- AE_ID: ES2004a.B.argumentstructs.Erik.5\n- Speaker: B\n- Sentence: \"I don't know, I d I don't like the, you know the new phones that have kind of got a Windows-based running system.\"\n\nPast Dialogue Turns:\nAE_ID ES2004a.D.argumentstructs.Erik.2 (Index: 8, Speaker: D): \"Right.\"\nAE_ID ES2004a.D.argumentstructs.Erik.3 (Index: 10, Speaker: D): \"So that's a problem regardless of of any design modifications you you come up with, that's gonna be a problem anyway with the older generation perhaps, and that's another issue how we tackle that.\"\nAE_ID ES2004a.C.argumentstructs.Erik.3 (Index: 11, Speaker: C): \"Yeah.\"\nAE_ID ES2004a.B.argumentstructs.Erik.4 (Index: 12, Speaker: B): \"Mm, yeah, the age gap.\"\nAE_ID ES2004a.C.argumentstructs.Erik.4 (Index: 13, Speaker: C): \"Yeah, what it just needs to be  as long as it's sort of self-intuitive and you can can work out what everything's doing, 'cause I mean, menus on sort of new phones now they've sort of got all these pictures and stuff which makes it fairly obvious what you're trying to do.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004a.C.argumentstructs.Erik.4",
+            "ans": "ES2004a.C.argumentstructs.Erik.4",
+            "judgement": true
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 18,
+                "ae_id": "ES2004a.B.argumentstructs.Erik.6",
+                "speaker": "B",
+                "start_time": 872.95,
+                "end_time": 885.17,
+                "sentence": "I find it really confusing, I kept getting lost  in the phone, I di I've not got a new one but uh my friend got a new one and I was trying to do things with it and I just kept getting lost, but that's just me.",
+                "source": "ES2004a.B.argumentstructs.Erik.5",
+                "targets": [
+                    "ES2004a.D.argumentstructs.Erik.4"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 10,
+                    "ae_id": "ES2004a.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 834.64,
+                    "end_time": 844.64,
+                    "sentence": "So that's a problem regardless of of any design modifications you you come up with, that's gonna be a problem anyway with the older generation perhaps, and that's another issue how we tackle that.",
+                    "source": "ES2004a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004a.C.argumentstructs.Erik.3",
+                        "ES2004a.B.argumentstructs.Erik.4",
+                        "ES2004a.C.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 838.64,
+                    "end_time": 839.0,
+                    "sentence": "Yeah.",
+                    "source": "ES2004a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 841.2,
+                    "end_time": 843.24,
+                    "sentence": "Mm, yeah, the age gap.",
+                    "source": "ES2004a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.4",
+                    "speaker": "C",
+                    "start_time": 843.73,
+                    "end_time": 861.94,
+                    "sentence": "Yeah, what it just needs to be  as long as it's sort of self-intuitive and you can can work out what everything's doing, 'cause I mean, menus on sort of new phones now they've sort of got all these pictures and stuff which makes it fairly obvious what you're trying to do.",
+                    "source": "ES2004a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.5",
+                        "ES2004a.C.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 864.3,
+                    "end_time": 871.74,
+                    "sentence": "I don't know, I d I don't like the, you know the new phones that have kind of got a Windows-based running system.",
+                    "source": "ES2004a.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.6"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 18):\n- AE_ID: ES2004a.B.argumentstructs.Erik.6\n- Speaker: B\n- Sentence: \"I find it really confusing, I kept getting lost  in the phone, I di I've not got a new one but uh my friend got a new one and I was trying to do things with it and I just kept getting lost, but that's just me.\"\n\nPast Dialogue Turns:\nAE_ID ES2004a.D.argumentstructs.Erik.3 (Index: 10, Speaker: D): \"So that's a problem regardless of of any design modifications you you come up with, that's gonna be a problem anyway with the older generation perhaps, and that's another issue how we tackle that.\"\nAE_ID ES2004a.C.argumentstructs.Erik.3 (Index: 11, Speaker: C): \"Yeah.\"\nAE_ID ES2004a.B.argumentstructs.Erik.4 (Index: 12, Speaker: B): \"Mm, yeah, the age gap.\"\nAE_ID ES2004a.C.argumentstructs.Erik.4 (Index: 13, Speaker: C): \"Yeah, what it just needs to be  as long as it's sort of self-intuitive and you can can work out what everything's doing, 'cause I mean, menus on sort of new phones now they've sort of got all these pictures and stuff which makes it fairly obvious what you're trying to do.\"\nAE_ID ES2004a.B.argumentstructs.Erik.5 (Index: 15, Speaker: B): \"I don't know, I d I don't like the, you know the new phones that have kind of got a Windows-based running system.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004a.C.argumentstructs.Erik.4",
+            "ans": "ES2004a.B.argumentstructs.Erik.5",
+            "judgement": false
+        },
+        {
+            "turn_number": 13,
+            "current_node": {
+                "index": 19,
+                "ae_id": "ES2004a.D.argumentstructs.Erik.4",
+                "speaker": "D",
+                "start_time": 878.36,
+                "end_time": 878.8,
+                "sentence": "Right.",
+                "source": "ES2004a.B.argumentstructs.Erik.6",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 11,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 838.64,
+                    "end_time": 839.0,
+                    "sentence": "Yeah.",
+                    "source": "ES2004a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 841.2,
+                    "end_time": 843.24,
+                    "sentence": "Mm, yeah, the age gap.",
+                    "source": "ES2004a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.4",
+                    "speaker": "C",
+                    "start_time": 843.73,
+                    "end_time": 861.94,
+                    "sentence": "Yeah, what it just needs to be  as long as it's sort of self-intuitive and you can can work out what everything's doing, 'cause I mean, menus on sort of new phones now they've sort of got all these pictures and stuff which makes it fairly obvious what you're trying to do.",
+                    "source": "ES2004a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.5",
+                        "ES2004a.C.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 864.3,
+                    "end_time": 871.74,
+                    "sentence": "I don't know, I d I don't like the, you know the new phones that have kind of got a Windows-based running system.",
+                    "source": "ES2004a.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 872.95,
+                    "end_time": 885.17,
+                    "sentence": "I find it really confusing, I kept getting lost  in the phone, I di I've not got a new one but uh my friend got a new one and I was trying to do things with it and I just kept getting lost, but that's just me.",
+                    "source": "ES2004a.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2004a.D.argumentstructs.Erik.4"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 19):\n- AE_ID: ES2004a.D.argumentstructs.Erik.4\n- Speaker: D\n- Sentence: \"Right.\"\n\nPast Dialogue Turns:\nAE_ID ES2004a.C.argumentstructs.Erik.3 (Index: 11, Speaker: C): \"Yeah.\"\nAE_ID ES2004a.B.argumentstructs.Erik.4 (Index: 12, Speaker: B): \"Mm, yeah, the age gap.\"\nAE_ID ES2004a.C.argumentstructs.Erik.4 (Index: 13, Speaker: C): \"Yeah, what it just needs to be  as long as it's sort of self-intuitive and you can can work out what everything's doing, 'cause I mean, menus on sort of new phones now they've sort of got all these pictures and stuff which makes it fairly obvious what you're trying to do.\"\nAE_ID ES2004a.B.argumentstructs.Erik.5 (Index: 15, Speaker: B): \"I don't know, I d I don't like the, you know the new phones that have kind of got a Windows-based running system.\"\nAE_ID ES2004a.B.argumentstructs.Erik.6 (Index: 18, Speaker: B): \"I find it really confusing, I kept getting lost  in the phone, I di I've not got a new one but uh my friend got a new one and I was trying to do things with it and I just kept getting lost, but that's just me.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004a.B.argumentstructs.Erik.6",
+            "ans": "ES2004a.B.argumentstructs.Erik.6",
+            "judgement": true
+        },
+        {
+            "turn_number": 14,
+            "current_node": {
+                "index": 20,
+                "ae_id": "ES2004a.C.argumentstructs.Erik.5",
+                "speaker": "C",
+                "start_time": 885.18,
+                "end_time": 899.31,
+                "sentence": "Yeah, I don't I don't know how for twenty fi, or twelve Euros fifty how much of a excellent screen you could get, you'd you'd have to sort of keep it down to a black and white L_C_D_ thing anyway, I'd assume.",
+                "source": "ES2004a.C.argumentstructs.Erik.4",
+                "targets": [
+                    "ES2004a.B.argumentstructs.Erik.7"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 12,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 841.2,
+                    "end_time": 843.24,
+                    "sentence": "Mm, yeah, the age gap.",
+                    "source": "ES2004a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.4",
+                    "speaker": "C",
+                    "start_time": 843.73,
+                    "end_time": 861.94,
+                    "sentence": "Yeah, what it just needs to be  as long as it's sort of self-intuitive and you can can work out what everything's doing, 'cause I mean, menus on sort of new phones now they've sort of got all these pictures and stuff which makes it fairly obvious what you're trying to do.",
+                    "source": "ES2004a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.5",
+                        "ES2004a.C.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 864.3,
+                    "end_time": 871.74,
+                    "sentence": "I don't know, I d I don't like the, you know the new phones that have kind of got a Windows-based running system.",
+                    "source": "ES2004a.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 872.95,
+                    "end_time": 885.17,
+                    "sentence": "I find it really confusing, I kept getting lost  in the phone, I di I've not got a new one but uh my friend got a new one and I was trying to do things with it and I just kept getting lost, but that's just me.",
+                    "source": "ES2004a.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2004a.D.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2004a.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 878.36,
+                    "end_time": 878.8,
+                    "sentence": "Right.",
+                    "source": "ES2004a.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 20):\n- AE_ID: ES2004a.C.argumentstructs.Erik.5\n- Speaker: C\n- Sentence: \"Yeah, I don't I don't know how for twenty fi, or twelve Euros fifty how much of a excellent screen you could get, you'd you'd have to sort of keep it down to a black and white L_C_D_ thing anyway, I'd assume.\"\n\nPast Dialogue Turns:\nAE_ID ES2004a.B.argumentstructs.Erik.4 (Index: 12, Speaker: B): \"Mm, yeah, the age gap.\"\nAE_ID ES2004a.C.argumentstructs.Erik.4 (Index: 13, Speaker: C): \"Yeah, what it just needs to be  as long as it's sort of self-intuitive and you can can work out what everything's doing, 'cause I mean, menus on sort of new phones now they've sort of got all these pictures and stuff which makes it fairly obvious what you're trying to do.\"\nAE_ID ES2004a.B.argumentstructs.Erik.5 (Index: 15, Speaker: B): \"I don't know, I d I don't like the, you know the new phones that have kind of got a Windows-based running system.\"\nAE_ID ES2004a.B.argumentstructs.Erik.6 (Index: 18, Speaker: B): \"I find it really confusing, I kept getting lost  in the phone, I di I've not got a new one but uh my friend got a new one and I was trying to do things with it and I just kept getting lost, but that's just me.\"\nAE_ID ES2004a.D.argumentstructs.Erik.4 (Index: 19, Speaker: D): \"Right.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004a.B.argumentstructs.Erik.6",
+            "ans": "ES2004a.C.argumentstructs.Erik.4",
+            "judgement": false
+        },
+        {
+            "turn_number": 15,
+            "current_node": {
+                "index": 21,
+                "ae_id": "ES2004a.B.argumentstructs.Erik.7",
+                "speaker": "B",
+                "start_time": 893.63,
+                "end_time": 894.31,
+                "sentence": "Yeah.",
+                "source": "ES2004a.C.argumentstructs.Erik.5",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 13,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.4",
+                    "speaker": "C",
+                    "start_time": 843.73,
+                    "end_time": 861.94,
+                    "sentence": "Yeah, what it just needs to be  as long as it's sort of self-intuitive and you can can work out what everything's doing, 'cause I mean, menus on sort of new phones now they've sort of got all these pictures and stuff which makes it fairly obvious what you're trying to do.",
+                    "source": "ES2004a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.5",
+                        "ES2004a.C.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 864.3,
+                    "end_time": 871.74,
+                    "sentence": "I don't know, I d I don't like the, you know the new phones that have kind of got a Windows-based running system.",
+                    "source": "ES2004a.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 872.95,
+                    "end_time": 885.17,
+                    "sentence": "I find it really confusing, I kept getting lost  in the phone, I di I've not got a new one but uh my friend got a new one and I was trying to do things with it and I just kept getting lost, but that's just me.",
+                    "source": "ES2004a.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2004a.D.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2004a.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 878.36,
+                    "end_time": 878.8,
+                    "sentence": "Right.",
+                    "source": "ES2004a.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.5",
+                    "speaker": "C",
+                    "start_time": 885.18,
+                    "end_time": 899.31,
+                    "sentence": "Yeah, I don't I don't know how for twenty fi, or twelve Euros fifty how much of a excellent screen you could get, you'd you'd have to sort of keep it down to a black and white L_C_D_ thing anyway, I'd assume.",
+                    "source": "ES2004a.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.7"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 21):\n- AE_ID: ES2004a.B.argumentstructs.Erik.7\n- Speaker: B\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2004a.C.argumentstructs.Erik.4 (Index: 13, Speaker: C): \"Yeah, what it just needs to be  as long as it's sort of self-intuitive and you can can work out what everything's doing, 'cause I mean, menus on sort of new phones now they've sort of got all these pictures and stuff which makes it fairly obvious what you're trying to do.\"\nAE_ID ES2004a.B.argumentstructs.Erik.5 (Index: 15, Speaker: B): \"I don't know, I d I don't like the, you know the new phones that have kind of got a Windows-based running system.\"\nAE_ID ES2004a.B.argumentstructs.Erik.6 (Index: 18, Speaker: B): \"I find it really confusing, I kept getting lost  in the phone, I di I've not got a new one but uh my friend got a new one and I was trying to do things with it and I just kept getting lost, but that's just me.\"\nAE_ID ES2004a.D.argumentstructs.Erik.4 (Index: 19, Speaker: D): \"Right.\"\nAE_ID ES2004a.C.argumentstructs.Erik.5 (Index: 20, Speaker: C): \"Yeah, I don't I don't know how for twenty fi, or twelve Euros fifty how much of a excellent screen you could get, you'd you'd have to sort of keep it down to a black and white L_C_D_ thing anyway, I'd assume.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004a.C.argumentstructs.Erik.5",
+            "ans": "ES2004a.C.argumentstructs.Erik.5",
+            "judgement": true
+        },
+        {
+            "turn_number": 16,
+            "current_node": {
+                "index": 23,
+                "ae_id": "ES2004a.D.argumentstructs.Erik.5",
+                "speaker": "D",
+                "start_time": 898.71,
+                "end_time": 911.78,
+                "sentence": "Is it possible that that for the older generation you could have like an extra button that you press for large print like you do in large print books ? Obviously it displays less on the screen, it displays less on the screen but as long as they can read it that's the main thing.",
+                "source": "ES2004a.B.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2004a.A.argumentstructs.Erik.1",
+                    "ES2004a.B.argumentstructs.Erik.8",
+                    "ES2004a.B.argumentstructs.Erik.9"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 15,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 864.3,
+                    "end_time": 871.74,
+                    "sentence": "I don't know, I d I don't like the, you know the new phones that have kind of got a Windows-based running system.",
+                    "source": "ES2004a.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 872.95,
+                    "end_time": 885.17,
+                    "sentence": "I find it really confusing, I kept getting lost  in the phone, I di I've not got a new one but uh my friend got a new one and I was trying to do things with it and I just kept getting lost, but that's just me.",
+                    "source": "ES2004a.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2004a.D.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2004a.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 878.36,
+                    "end_time": 878.8,
+                    "sentence": "Right.",
+                    "source": "ES2004a.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.5",
+                    "speaker": "C",
+                    "start_time": 885.18,
+                    "end_time": 899.31,
+                    "sentence": "Yeah, I don't I don't know how for twenty fi, or twelve Euros fifty how much of a excellent screen you could get, you'd you'd have to sort of keep it down to a black and white L_C_D_ thing anyway, I'd assume.",
+                    "source": "ES2004a.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 893.63,
+                    "end_time": 894.31,
+                    "sentence": "Yeah.",
+                    "source": "ES2004a.C.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 23):\n- AE_ID: ES2004a.D.argumentstructs.Erik.5\n- Speaker: D\n- Sentence: \"Is it possible that that for the older generation you could have like an extra button that you press for large print like you do in large print books ? Obviously it displays less on the screen, it displays less on the screen but as long as they can read it that's the main thing.\"\n\nPast Dialogue Turns:\nAE_ID ES2004a.B.argumentstructs.Erik.5 (Index: 15, Speaker: B): \"I don't know, I d I don't like the, you know the new phones that have kind of got a Windows-based running system.\"\nAE_ID ES2004a.B.argumentstructs.Erik.6 (Index: 18, Speaker: B): \"I find it really confusing, I kept getting lost  in the phone, I di I've not got a new one but uh my friend got a new one and I was trying to do things with it and I just kept getting lost, but that's just me.\"\nAE_ID ES2004a.D.argumentstructs.Erik.4 (Index: 19, Speaker: D): \"Right.\"\nAE_ID ES2004a.C.argumentstructs.Erik.5 (Index: 20, Speaker: C): \"Yeah, I don't I don't know how for twenty fi, or twelve Euros fifty how much of a excellent screen you could get, you'd you'd have to sort of keep it down to a black and white L_C_D_ thing anyway, I'd assume.\"\nAE_ID ES2004a.B.argumentstructs.Erik.7 (Index: 21, Speaker: B): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004a.D.argumentstructs.Erik.4",
+            "ans": "ES2004a.B.argumentstructs.Erik.1",
+            "judgement": false
+        },
+        {
+            "turn_number": 17,
+            "current_node": {
+                "index": 24,
+                "ae_id": "ES2004a.A.argumentstructs.Erik.1",
+                "speaker": "A",
+                "start_time": 905.32,
+                "end_time": 905.7,
+                "sentence": "Okay.",
+                "source": "ES2004a.D.argumentstructs.Erik.5",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 18,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 872.95,
+                    "end_time": 885.17,
+                    "sentence": "I find it really confusing, I kept getting lost  in the phone, I di I've not got a new one but uh my friend got a new one and I was trying to do things with it and I just kept getting lost, but that's just me.",
+                    "source": "ES2004a.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2004a.D.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2004a.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 878.36,
+                    "end_time": 878.8,
+                    "sentence": "Right.",
+                    "source": "ES2004a.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.5",
+                    "speaker": "C",
+                    "start_time": 885.18,
+                    "end_time": 899.31,
+                    "sentence": "Yeah, I don't I don't know how for twenty fi, or twelve Euros fifty how much of a excellent screen you could get, you'd you'd have to sort of keep it down to a black and white L_C_D_ thing anyway, I'd assume.",
+                    "source": "ES2004a.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 893.63,
+                    "end_time": 894.31,
+                    "sentence": "Yeah.",
+                    "source": "ES2004a.C.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2004a.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 898.71,
+                    "end_time": 911.78,
+                    "sentence": "Is it possible that that for the older generation you could have like an extra button that you press for large print like you do in large print books ? Obviously it displays less on the screen, it displays less on the screen but as long as they can read it that's the main thing.",
+                    "source": "ES2004a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004a.A.argumentstructs.Erik.1",
+                        "ES2004a.B.argumentstructs.Erik.8",
+                        "ES2004a.B.argumentstructs.Erik.9"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 24):\n- AE_ID: ES2004a.A.argumentstructs.Erik.1\n- Speaker: A\n- Sentence: \"Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2004a.B.argumentstructs.Erik.6 (Index: 18, Speaker: B): \"I find it really confusing, I kept getting lost  in the phone, I di I've not got a new one but uh my friend got a new one and I was trying to do things with it and I just kept getting lost, but that's just me.\"\nAE_ID ES2004a.D.argumentstructs.Erik.4 (Index: 19, Speaker: D): \"Right.\"\nAE_ID ES2004a.C.argumentstructs.Erik.5 (Index: 20, Speaker: C): \"Yeah, I don't I don't know how for twenty fi, or twelve Euros fifty how much of a excellent screen you could get, you'd you'd have to sort of keep it down to a black and white L_C_D_ thing anyway, I'd assume.\"\nAE_ID ES2004a.B.argumentstructs.Erik.7 (Index: 21, Speaker: B): \"Yeah.\"\nAE_ID ES2004a.D.argumentstructs.Erik.5 (Index: 23, Speaker: D): \"Is it possible that that for the older generation you could have like an extra button that you press for large print like you do in large print books ? Obviously it displays less on the screen, it displays less on the screen but as long as they can read it that's the main thing.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004a.D.argumentstructs.Erik.5",
+            "ans": "ES2004a.D.argumentstructs.Erik.5",
+            "judgement": true
+        },
+        {
+            "turn_number": 18,
+            "current_node": {
+                "index": 25,
+                "ae_id": "ES2004a.B.argumentstructs.Erik.8",
+                "speaker": "B",
+                "start_time": 905.77,
+                "end_time": 907.5,
+                "sentence": "Teletext has got that option as well.",
+                "source": "ES2004a.D.argumentstructs.Erik.5",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 19,
+                    "ae_id": "ES2004a.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 878.36,
+                    "end_time": 878.8,
+                    "sentence": "Right.",
+                    "source": "ES2004a.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.5",
+                    "speaker": "C",
+                    "start_time": 885.18,
+                    "end_time": 899.31,
+                    "sentence": "Yeah, I don't I don't know how for twenty fi, or twelve Euros fifty how much of a excellent screen you could get, you'd you'd have to sort of keep it down to a black and white L_C_D_ thing anyway, I'd assume.",
+                    "source": "ES2004a.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 893.63,
+                    "end_time": 894.31,
+                    "sentence": "Yeah.",
+                    "source": "ES2004a.C.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2004a.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 898.71,
+                    "end_time": 911.78,
+                    "sentence": "Is it possible that that for the older generation you could have like an extra button that you press for large print like you do in large print books ? Obviously it displays less on the screen, it displays less on the screen but as long as they can read it that's the main thing.",
+                    "source": "ES2004a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004a.A.argumentstructs.Erik.1",
+                        "ES2004a.B.argumentstructs.Erik.8",
+                        "ES2004a.B.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2004a.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 905.32,
+                    "end_time": 905.7,
+                    "sentence": "Okay.",
+                    "source": "ES2004a.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 25):\n- AE_ID: ES2004a.B.argumentstructs.Erik.8\n- Speaker: B\n- Sentence: \"Teletext has got that option as well.\"\n\nPast Dialogue Turns:\nAE_ID ES2004a.D.argumentstructs.Erik.4 (Index: 19, Speaker: D): \"Right.\"\nAE_ID ES2004a.C.argumentstructs.Erik.5 (Index: 20, Speaker: C): \"Yeah, I don't I don't know how for twenty fi, or twelve Euros fifty how much of a excellent screen you could get, you'd you'd have to sort of keep it down to a black and white L_C_D_ thing anyway, I'd assume.\"\nAE_ID ES2004a.B.argumentstructs.Erik.7 (Index: 21, Speaker: B): \"Yeah.\"\nAE_ID ES2004a.D.argumentstructs.Erik.5 (Index: 23, Speaker: D): \"Is it possible that that for the older generation you could have like an extra button that you press for large print like you do in large print books ? Obviously it displays less on the screen, it displays less on the screen but as long as they can read it that's the main thing.\"\nAE_ID ES2004a.A.argumentstructs.Erik.1 (Index: 24, Speaker: A): \"Okay.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004a.D.argumentstructs.Erik.5",
+            "ans": "ES2004a.D.argumentstructs.Erik.5",
+            "judgement": true
+        },
+        {
+            "turn_number": 19,
+            "current_node": {
+                "index": 26,
+                "ae_id": "ES2004a.B.argumentstructs.Erik.9",
+                "speaker": "B",
+                "start_time": 911.86,
+                "end_time": 912.35,
+                "sentence": "Yeah.",
+                "source": "ES2004a.D.argumentstructs.Erik.5",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 20,
+                    "ae_id": "ES2004a.C.argumentstructs.Erik.5",
+                    "speaker": "C",
+                    "start_time": 885.18,
+                    "end_time": 899.31,
+                    "sentence": "Yeah, I don't I don't know how for twenty fi, or twelve Euros fifty how much of a excellent screen you could get, you'd you'd have to sort of keep it down to a black and white L_C_D_ thing anyway, I'd assume.",
+                    "source": "ES2004a.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2004a.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 893.63,
+                    "end_time": 894.31,
+                    "sentence": "Yeah.",
+                    "source": "ES2004a.C.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2004a.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 898.71,
+                    "end_time": 911.78,
+                    "sentence": "Is it possible that that for the older generation you could have like an extra button that you press for large print like you do in large print books ? Obviously it displays less on the screen, it displays less on the screen but as long as they can read it that's the main thing.",
+                    "source": "ES2004a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004a.A.argumentstructs.Erik.1",
+                        "ES2004a.B.argumentstructs.Erik.8",
+                        "ES2004a.B.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2004a.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 905.32,
+                    "end_time": 905.7,
+                    "sentence": "Okay.",
+                    "source": "ES2004a.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2004a.B.argumentstructs.Erik.8",
+                    "speaker": "B",
+                    "start_time": 905.77,
+                    "end_time": 907.5,
+                    "sentence": "Teletext has got that option as well.",
+                    "source": "ES2004a.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 26):\n- AE_ID: ES2004a.B.argumentstructs.Erik.9\n- Speaker: B\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2004a.C.argumentstructs.Erik.5 (Index: 20, Speaker: C): \"Yeah, I don't I don't know how for twenty fi, or twelve Euros fifty how much of a excellent screen you could get, you'd you'd have to sort of keep it down to a black and white L_C_D_ thing anyway, I'd assume.\"\nAE_ID ES2004a.B.argumentstructs.Erik.7 (Index: 21, Speaker: B): \"Yeah.\"\nAE_ID ES2004a.D.argumentstructs.Erik.5 (Index: 23, Speaker: D): \"Is it possible that that for the older generation you could have like an extra button that you press for large print like you do in large print books ? Obviously it displays less on the screen, it displays less on the screen but as long as they can read it that's the main thing.\"\nAE_ID ES2004a.A.argumentstructs.Erik.1 (Index: 24, Speaker: A): \"Okay.\"\nAE_ID ES2004a.B.argumentstructs.Erik.8 (Index: 25, Speaker: B): \"Teletext has got that option as well.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004a.B.argumentstructs.Erik.8",
+            "ans": "ES2004a.D.argumentstructs.Erik.5",
+            "judgement": false
+        }
+    ]
+}

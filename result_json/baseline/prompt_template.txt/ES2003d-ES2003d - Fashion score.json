@@ -1479,7 +1479,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.A.argumentstructs.Erik.27:\n\"That's kinda   i it won't be when it's been budgeted.\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2003d.D.argumentstructs.Erik.22 (Index: 13, Speaker: D): \"Mm 'kay.\"\nAE_ID ES2003d.B.argumentstructs.Erik.51 (Index: 15, Speaker: B): \"Is it inspired by  clothing fashion ?\"\nAE_ID ES2003d.C.argumentstructs.Erik.63 (Index: 16, Speaker: C): \"Th th they're referring to the fruit and veg thing. Is this like a banana type colour ?\"\nAE_ID ES2003d.C.argumentstructs.Erik.64 (Index: 17, Speaker: C): \"Could we stretch  no still, it's not shaped like a banana is\"\nAE_ID ES2003d.B.argumentstructs.Erik.52 (Index: 18, Speaker: B): \"Yes.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003d.B.argumentstructs.Erik.52",
+            "gpt_ans": "ES2003d.B.argumentstructs.Erik.51",
             "ans": "ES2003d.C.argumentstructs.Erik.64",
             "judgement": false
         },
@@ -1727,7 +1727,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.A.argumentstructs.Erik.28:\n\"I I think s I I think this isn't  not particularly fruit and veggie.\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2003d.C.argumentstructs.Erik.64 (Index: 17, Speaker: C): \"Could we stretch  no still, it's not shaped like a banana is\"\nAE_ID ES2003d.B.argumentstructs.Erik.52 (Index: 18, Speaker: B): \"Yes.\"\nAE_ID ES2003d.A.argumentstructs.Erik.27 (Index: 20, Speaker: A): \"That's kinda   i it won't be when it's been budgeted.\"\nAE_ID ES2003d.C.argumentstructs.Erik.65 (Index: 21, Speaker: C): \"Oh is that 'cause it's flat ?\"\nAE_ID ES2003d.C.argumentstructs.Erik.66 (Index: 22, Speaker: C): \"What is  what fruit or veg is flat ?\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003d.C.argumentstructs.Erik.65",
+            "gpt_ans": "ES2003d.C.argumentstructs.Erik.66",
             "ans": "ES2003d.C.argumentstructs.Erik.63",
             "judgement": false
         },
@@ -3300,7 +3300,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.C.argumentstructs.Erik.76:\n\"Yeah.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2003d.B.argumentstructs.Erik.57 (Index: 41, Speaker: B): \"Si it's got a curve to it.\"\nAE_ID ES2003d.C.argumentstructs.Erik.74 (Index: 42, Speaker: C): \"Right five. Is that  sound reasonable ?\"\nAE_ID ES2003d.B.argumentstructs.Erik.58 (Index: 43, Speaker: B): \"Am I  do you think I'm stretching the uh the use of the banana ?\"\nAE_ID ES2003d.D.argumentstructs.Erik.25 (Index: 44, Speaker: D): \"Yeah, I'll go with five.\"\nAE_ID ES2003d.C.argumentstructs.Erik.75 (Index: 45, Speaker: C): \"Five.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003d.C.argumentstructs.Erik.75",
+            "gpt_ans": "ES2003d.D.argumentstructs.Erik.25",
             "ans": "ES2003d.B.argumentstructs.Erik.58",
             "judgement": false
         }

@@ -791,7 +791,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002d.C.argumentstructs.Erik.32:\n\"Yeah.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2002d.C.argumentstructs.Erik.31 (Index: 5, Speaker: C): \"Yeah.\"\nAE_ID ES2002d.B.argumentstructs.Erik.39 (Index: 7, Speaker: B): \"Clunky, okay.\"\nAE_ID ES2002d.A.argumentstructs.Erik.29 (Index: 9, Speaker: A): \"Having to tick it before you go off was a bit hindering as well, 'cause you're half way through a thought, and then you run out of paper and then you have to jump.\"\nAE_ID ES2002d.B.argumentstructs.Erik.40 (Index: 10, Speaker: B): \"Yeah.\"\nAE_ID ES2002d.B.argumentstructs.Erik.41 (Index: 11, Speaker: B): \"I know, I think at the very start of today I like wrote a whole load of stuff, didn't click note on one, then went back and wrote one tiny wee thing on the another page, but then did click note, and so I'm quite worried that I've just written over the top of it or something, but they'll have my paper anyway um and haven't done that since.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2002d.B.argumentstructs.Erik.40",
+            "gpt_ans": "ES2002d.C.argumentstructs.Erik.31",
             "ans": "ES2002d.B.argumentstructs.Erik.41",
             "judgement": false
         },

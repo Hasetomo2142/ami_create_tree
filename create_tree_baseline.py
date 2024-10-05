@@ -25,7 +25,7 @@ prompt_dir = os.path.join(dir_path, 'prompt')  # プロンプトファイルの�
 # 実験設定
 MODEL = "gpt-4o-mini"
 METHOD = "baseline"
-PROMPT = "prompt_template.txt"
+PROMPT = "ver.1.1.txt"
 COUNT = 50
 
 

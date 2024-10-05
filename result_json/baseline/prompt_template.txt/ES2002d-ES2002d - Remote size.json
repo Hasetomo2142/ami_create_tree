@@ -3,7 +3,7 @@
     "use_model": "gpt-4o-mini",
     "use_method": "baseline",
     "template": "prompt_template.txt",
-    "rate": 0.6,
+    "rate": 0.7,
     "total_node_count": 19,
     "removed_node_count": 8,
     "removed_node_list": [
@@ -329,9 +329,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002d.C.argumentstructs.Erik.2:\n\"About nine in total.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2002d.B.argumentstructs.Erik.1 (Index: 1, Speaker: B): \"dimensions are you thinking about here ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.1 (Index: 2, Speaker: D): \"Well  we want the other buttons to be big enough to push easily with a finger so we reckon maybe that'll be about the same size as the palm of your hand.\"\nAE_ID ES2002d.C.argumentstructs.Erik.1 (Index: 4, Speaker: C): \"Okay.\"\nAE_ID ES2002d.A.argumentstructs.Erik.1 (Index: 6, Speaker: A): \"four centimetres. Plus maybe half o five\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2002d.D.argumentstructs.Erik.1",
+            "gpt_ans": "ES2002d.A.argumentstructs.Erik.1",
             "ans": "ES2002d.A.argumentstructs.Erik.1",
-            "judgement": false
+            "judgement": true
         },
         {
             "turn_number": 5,

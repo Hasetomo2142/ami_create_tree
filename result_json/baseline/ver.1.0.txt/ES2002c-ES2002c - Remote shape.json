@@ -3,7 +3,7 @@
     "use_model": "gpt-4o-mini",
     "use_method": "baseline",
     "template": "ver.1.0.txt",
-    "rate": 0.45454545454545453,
+    "rate": 0.5,
     "total_node_count": 31,
     "removed_node_count": 8,
     "removed_node_list": [
@@ -1156,9 +1156,9 @@
                 }
             ],
             "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002c.B.argumentstructs.Erik.13\n- Index: 19\n- Speaker: B\n- Sentence: \"That's quite a distinctive shape, that would be good wouldn't it.\"\n\nPast Dialogue Turns:\nAE_ID ES2002c.D.argumentstructs.Erik.13 (Index: 13, Speaker: D): \"what it is we're trying to achieve, so and then we have one one sorta theme that we stick with. Do you know what I mean ?\"\nAE_ID ES2002c.B.argumentstructs.Erik.11 (Index: 14, Speaker: B): \"Okay right well um so thoughts about the actual shape of the thing.\"\nAE_ID ES2002c.C.argumentstructs.Erik.1 (Index: 15, Speaker: C): \"I'd quite like a sort of uh snowman type shape.\"\nAE_ID ES2002c.B.argumentstructs.Erik.12 (Index: 16, Speaker: B): \"A snowman shape ?\"\nAE_ID ES2002c.C.argumentstructs.Erik.2 (Index: 17, Speaker: C): \"Um so a p sort of larger bit sits in your hand, and then you got maybe another bubble at the top for just any other function you need.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
-            "gpt_ans": "ES2002c.C.argumentstructs.Erik.1",
+            "gpt_ans": "ES2002c.C.argumentstructs.Erik.2",
             "ans": "ES2002c.C.argumentstructs.Erik.2",
-            "judgement": false
+            "judgement": true
         },
         {
             "turn_number": 15,
@@ -1827,7 +1827,7 @@
                 }
             ],
             "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002c.B.argumentstructs.Erik.17\n- Index: 30\n- Speaker: B\n- Sentence: \"So call it the snowman-shape trademark.\"\n\nPast Dialogue Turns:\nAE_ID ES2002c.B.argumentstructs.Erik.15 (Index: 23, Speaker: B): \"Do you wanna draw it on the board ?\"\nAE_ID ES2002c.D.argumentstructs.Erik.15 (Index: 24, Speaker: D): \"Can you like  yeah just t we can visualize it.\"\nAE_ID ES2002c.C.argumentstructs.Erik.3 (Index: 25, Speaker: C): \"Um something like that um you got two groups there um maybe it could fold up and you get a third group inside or uh you have volume controls about there.\"\nAE_ID ES2002c.D.argumentstructs.Erik.16 (Index: 26, Speaker: D): \"Okay.\"\nAE_ID ES2002c.B.argumentstructs.Erik.16 (Index: 27, Speaker: B): \"Ooh that'd be good.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
-            "gpt_ans": "ES2002c.B.argumentstructs.Erik.16",
+            "gpt_ans": "ES2002c.B.argumentstructs.Erik.15",
             "ans": "ES2002c.C.argumentstructs.Erik.3",
             "judgement": false
         }

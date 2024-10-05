@@ -355,9 +355,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2004b.C.argumentstructs.Erik.22:\n\"Yeah and if  yeah if you if you had if you had one of those  uh just coming back to your other point about pressing the button and setting off the bleeper in the room that could uh\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2004b.B.argumentstructs.Erik.17 (Index: 4, Speaker: B): \"Um, what other functions ? We need  I'm not sure if we need a design um decision now, but we should think about  c 'cause you've got the dilemma between  oh batteries, that's what I was thinking about. Mobile phone batteries, what kinda battery is that ?\"\nAE_ID ES2004b.C.argumentstructs.Erik.20 (Index: 5, Speaker: C): \"Um they're they're specially made for the for the mobile phones, but they come with a charger, I mean you could you could bundle a charger in with it but\"\nAE_ID ES2004b.B.argumentstructs.Erik.18 (Index: 6, Speaker: B): \"Well they la they they last quite a long time, and if you had uh  when you  th the thing that you get with mobile house phones, you sit it in its charger when you're not using it or t at night or something, but it doesn't really matter 'cause it never really runs out 'cause it lasts a long time once it is charged. Um, something like that should reduce the size of it.\"\nAE_ID ES2004b.C.argumentstructs.Erik.21 (Index: 8, Speaker: C): \"Yeah.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2004b.C.argumentstructs.Erik.21",
+            "gpt_ans": "ES2004b.B.argumentstructs.Erik.18",
             "ans": "ES2004b.B.argumentstructs.Erik.18",
-            "judgement": false
+            "judgement": true
         },
         {
             "turn_number": 5,
@@ -1099,9 +1099,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2004b.B.argumentstructs.Erik.23:\n\"Okay.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2004b.C.argumentstructs.Erik.24 (Index: 15, Speaker: C): \"Yeah some sort of docking station or  yeah.\"\nAE_ID ES2004b.B.argumentstructs.Erik.20 (Index: 16, Speaker: B): \"Yes.\"\nAE_ID ES2004b.B.argumentstructs.Erik.21 (Index: 17, Speaker: B): \"Rechargeable with a docking station.\"\nAE_ID ES2004b.C.argumentstructs.Erik.25 (Index: 20, Speaker: C): \"Yeah yeah th yeah that that'd be fine, and also that would mean they wouldn't have to go out buying batteries all the time.\"\nAE_ID ES2004b.B.argumentstructs.Erik.22 (Index: 21, Speaker: B): \"field.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2004b.C.argumentstructs.Erik.25",
+            "gpt_ans": "ES2004b.C.argumentstructs.Erik.24",
             "ans": "ES2004b.C.argumentstructs.Erik.25",
-            "judgement": true
+            "judgement": false
         },
         {
             "turn_number": 14,

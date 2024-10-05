@@ -222,7 +222,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003c.D.argumentstructs.Erik.9:\n\"Oh right, okay.\" Speaker: D\n\nPast dialogue turns:\nAE_ID ES2003c.D.argumentstructs.Erik.8 (Index: 0, Speaker: D): \"The U_S_B_ for which ?\"\nAE_ID ES2003c.C.argumentstructs.Erik.13 (Index: 1, Speaker: C): \"For the remote control.\"\nAE_ID ES2003c.B.argumentstructs.Erik.9 (Index: 2, Speaker: B): \"The the idea was that maybe it could connect up for um allowing a software interface on the P_C_ for a larger programming due to the fact that we've gone for such a nice, easy minimal design, normally.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003c.D.argumentstructs.Erik.8",
+            "gpt_ans": "ES2003c.C.argumentstructs.Erik.13",
             "ans": "ES2003c.B.argumentstructs.Erik.9",
             "judgement": false
         },
@@ -1214,7 +1214,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003c.B.argumentstructs.Erik.12:\n\"Mm-hmm.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2003c.C.argumentstructs.Erik.15 (Index: 12, Speaker: C): \"But you're gonna need some type of flash memory or something. Well something that doesn't  you wouldn't have to redo the whole thing once the batteries are changed, you know, once you turn off the power.\"\nAE_ID ES2003c.A.argumentstructs.Erik.13 (Index: 14, Speaker: A): \"Yeah.\"\nAE_ID ES2003c.A.argumentstructs.Erik.14 (Index: 15, Speaker: A): \"Yeah. The other thing I mean it I mean it would need to ha  it would need to have um some sort of on board memory anyway. Um f  for one  for one thing because I do think that the menu system should be um uh I mean although you know, it's not going to be terribly complicated if it's just controlling one device, the menu system ought to be um o ought to be customisable and uh\"\nAE_ID ES2003c.C.argumentstructs.Erik.16 (Index: 16, Speaker: C): \"Yeah.\"\nAE_ID ES2003c.C.argumentstructs.Erik.17 (Index: 17, Speaker: C): \"Different languages, uh different skins and stuff like that.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003c.A.argumentstructs.Erik.14",
+            "gpt_ans": "ES2003c.C.argumentstructs.Erik.15",
             "ans": "ES2003c.C.argumentstructs.Erik.17",
             "judgement": false
         },

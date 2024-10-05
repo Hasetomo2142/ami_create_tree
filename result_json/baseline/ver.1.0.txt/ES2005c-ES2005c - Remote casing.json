@@ -1,0 +1,1244 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2005c-ES2005c - Remote casing.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "ver.1.0.txt",
+    "rate": 0.4,
+    "total_node_count": 22,
+    "removed_node_count": 6,
+    "removed_node_list": [
+        {
+            "index": 0,
+            "ae_id": "ES2005c.A.argumentstructs.27",
+            "speaker": "A",
+            "start_time": 1059.03,
+            "end_time": 1094.7,
+            "sentence": "Um. So you know, as we said, we got the outer casing, which we have to decide, you know, what's it gonna be, um the board we have to use basically uh the same set-up, processor, um we'll probably use the more advanced processor than they had, amplifier and transmitter are all standard. Um so for the casing, uh this an e-mail I got from our manufacturing team uh, you know, we have a bunch of options from wood, titanium, rubber, plastic, whatnot, um latex, double-curved, curved.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 2,
+            "ae_id": "ES2005c.C.argumentstructs.43",
+            "speaker": "C",
+            "start_time": 1096.18,
+            "end_time": 1099.68,
+            "sentence": "'Kay. Well.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 7,
+            "ae_id": "ES2005c.C.argumentstructs.44",
+            "speaker": "C",
+            "start_time": 1107.83,
+            "end_time": 1110.78,
+            "sentence": "Yeah. And that would k also give it kinda durability and",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 9,
+            "ae_id": "ES2005c.D.argumentstructs.46",
+            "speaker": "D",
+            "start_time": 1111.48,
+            "end_time": 1112.03,
+            "sentence": "Yeah.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 11,
+            "ae_id": "ES2005c.A.argumentstructs.28",
+            "speaker": "A",
+            "start_time": 1123.49,
+            "end_time": 1125.67,
+            "sentence": "Okay so, here are a a plastic,",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 21,
+            "ae_id": "ES2005c.A.argumentstructs.29",
+            "speaker": "A",
+            "start_time": 1140.63,
+            "end_time": 1141.64,
+            "sentence": "And",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2005c.A.argumentstructs.Erik.4",
+                "speaker": "A",
+                "start_time": 1095.89,
+                "end_time": 1097.74,
+                "sentence": "So lots of choices, what do we think ?",
+                "source": "NONE",
+                "targets": [
+                    "ES2005c.A.argumentstructs.Erik.5",
+                    "ES2005c.C.argumentstructs.Erik.8",
+                    "ES2005c.D.argumentstructs.Erik.13"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "NONE",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 3,
+                "ae_id": "ES2005c.A.argumentstructs.Erik.5",
+                "speaker": "A",
+                "start_time": 1099.15,
+                "end_time": 1103.935,
+                "sentence": "Uh or sponge, I guess, isn't on there, right. Organic sponge.",
+                "source": "ES2005c.A.argumentstructs.Erik.4",
+                "targets": [
+                    "ES2005c.D.argumentstructs.Erik.11"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1095.89,
+                    "end_time": 1097.74,
+                    "sentence": "So lots of choices, what do we think ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2005c.A.argumentstructs.Erik.5",
+                        "ES2005c.C.argumentstructs.Erik.8",
+                        "ES2005c.D.argumentstructs.Erik.13"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005c.A.argumentstructs.Erik.5\n- Index: 3\n- Speaker: A\n- Sentence: \"Uh or sponge, I guess, isn't on there, right. Organic sponge.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.A.argumentstructs.Erik.4 (Index: 1, Speaker: A): \"So lots of choices, what do we think ?\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.A.argumentstructs.Erik.4",
+            "ans": "ES2005c.A.argumentstructs.Erik.4",
+            "judgement": true
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 4,
+                "ae_id": "ES2005c.D.argumentstructs.Erik.11",
+                "speaker": "D",
+                "start_time": 1101.02,
+                "end_time": 1104.16,
+                "sentence": "Mm. I'm not sure about the sponge.",
+                "source": "ES2005c.A.argumentstructs.Erik.5",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1095.89,
+                    "end_time": 1097.74,
+                    "sentence": "So lots of choices, what do we think ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2005c.A.argumentstructs.Erik.5",
+                        "ES2005c.C.argumentstructs.Erik.8",
+                        "ES2005c.D.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 1099.15,
+                    "end_time": 1103.935,
+                    "sentence": "Uh or sponge, I guess, isn't on there, right. Organic sponge.",
+                    "source": "ES2005c.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.11"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005c.D.argumentstructs.Erik.11\n- Index: 4\n- Speaker: D\n- Sentence: \"Mm. I'm not sure about the sponge.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.A.argumentstructs.Erik.4 (Index: 1, Speaker: A): \"So lots of choices, what do we think ?\"\nAE_ID ES2005c.A.argumentstructs.Erik.5 (Index: 3, Speaker: A): \"Uh or sponge, I guess, isn't on there, right. Organic sponge.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.A.argumentstructs.Erik.5",
+            "ans": "ES2005c.A.argumentstructs.Erik.5",
+            "judgement": true
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 5,
+                "ae_id": "ES2005c.C.argumentstructs.Erik.8",
+                "speaker": "C",
+                "start_time": 1101.57,
+                "end_time": 1105.61,
+                "sentence": "Well, I mean like la latex has a kinda spongy feeling to it, doesn't it.",
+                "source": "ES2005c.A.argumentstructs.Erik.4",
+                "targets": [
+                    "ES2005c.A.argumentstructs.Erik.6"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1095.89,
+                    "end_time": 1097.74,
+                    "sentence": "So lots of choices, what do we think ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2005c.A.argumentstructs.Erik.5",
+                        "ES2005c.C.argumentstructs.Erik.8",
+                        "ES2005c.D.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 1099.15,
+                    "end_time": 1103.935,
+                    "sentence": "Uh or sponge, I guess, isn't on there, right. Organic sponge.",
+                    "source": "ES2005c.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.11"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.11",
+                    "speaker": "D",
+                    "start_time": 1101.02,
+                    "end_time": 1104.16,
+                    "sentence": "Mm. I'm not sure about the sponge.",
+                    "source": "ES2005c.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005c.C.argumentstructs.Erik.8\n- Index: 5\n- Speaker: C\n- Sentence: \"Well, I mean like la latex has a kinda spongy feeling to it, doesn't it.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.A.argumentstructs.Erik.4 (Index: 1, Speaker: A): \"So lots of choices, what do we think ?\"\nAE_ID ES2005c.A.argumentstructs.Erik.5 (Index: 3, Speaker: A): \"Uh or sponge, I guess, isn't on there, right. Organic sponge.\"\nAE_ID ES2005c.D.argumentstructs.Erik.11 (Index: 4, Speaker: D): \"Mm. I'm not sure about the sponge.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.A.argumentstructs.Erik.5",
+            "ans": "ES2005c.A.argumentstructs.Erik.4",
+            "judgement": false
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 6,
+                "ae_id": "ES2005c.A.argumentstructs.Erik.6",
+                "speaker": "A",
+                "start_time": 1105.7,
+                "end_time": 1107.75,
+                "sentence": "Uh yeah, it's very elasticy for sure.",
+                "source": "ES2005c.C.argumentstructs.Erik.8",
+                "targets": [
+                    "ES2005c.C.argumentstructs.Erik.9"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1095.89,
+                    "end_time": 1097.74,
+                    "sentence": "So lots of choices, what do we think ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2005c.A.argumentstructs.Erik.5",
+                        "ES2005c.C.argumentstructs.Erik.8",
+                        "ES2005c.D.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 1099.15,
+                    "end_time": 1103.935,
+                    "sentence": "Uh or sponge, I guess, isn't on there, right. Organic sponge.",
+                    "source": "ES2005c.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.11"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.11",
+                    "speaker": "D",
+                    "start_time": 1101.02,
+                    "end_time": 1104.16,
+                    "sentence": "Mm. I'm not sure about the sponge.",
+                    "source": "ES2005c.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.8",
+                    "speaker": "C",
+                    "start_time": 1101.57,
+                    "end_time": 1105.61,
+                    "sentence": "Well, I mean like la latex has a kinda spongy feeling to it, doesn't it.",
+                    "source": "ES2005c.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2005c.A.argumentstructs.Erik.6"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005c.A.argumentstructs.Erik.6\n- Index: 6\n- Speaker: A\n- Sentence: \"Uh yeah, it's very elasticy for sure.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.A.argumentstructs.Erik.4 (Index: 1, Speaker: A): \"So lots of choices, what do we think ?\"\nAE_ID ES2005c.A.argumentstructs.Erik.5 (Index: 3, Speaker: A): \"Uh or sponge, I guess, isn't on there, right. Organic sponge.\"\nAE_ID ES2005c.D.argumentstructs.Erik.11 (Index: 4, Speaker: D): \"Mm. I'm not sure about the sponge.\"\nAE_ID ES2005c.C.argumentstructs.Erik.8 (Index: 5, Speaker: C): \"Well, I mean like la latex has a kinda spongy feeling to it, doesn't it.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.C.argumentstructs.Erik.8",
+            "ans": "ES2005c.C.argumentstructs.Erik.8",
+            "judgement": true
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 8,
+                "ae_id": "ES2005c.D.argumentstructs.Erik.12",
+                "speaker": "D",
+                "start_time": 1108.0,
+                "end_time": 1108.33,
+                "sentence": "Yeah.",
+                "source": "ES2005c.C.argumentstructs.Erik.9",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1095.89,
+                    "end_time": 1097.74,
+                    "sentence": "So lots of choices, what do we think ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2005c.A.argumentstructs.Erik.5",
+                        "ES2005c.C.argumentstructs.Erik.8",
+                        "ES2005c.D.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 1099.15,
+                    "end_time": 1103.935,
+                    "sentence": "Uh or sponge, I guess, isn't on there, right. Organic sponge.",
+                    "source": "ES2005c.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.11"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.11",
+                    "speaker": "D",
+                    "start_time": 1101.02,
+                    "end_time": 1104.16,
+                    "sentence": "Mm. I'm not sure about the sponge.",
+                    "source": "ES2005c.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.8",
+                    "speaker": "C",
+                    "start_time": 1101.57,
+                    "end_time": 1105.61,
+                    "sentence": "Well, I mean like la latex has a kinda spongy feeling to it, doesn't it.",
+                    "source": "ES2005c.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2005c.A.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 1105.7,
+                    "end_time": 1107.75,
+                    "sentence": "Uh yeah, it's very elasticy for sure.",
+                    "source": "ES2005c.C.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.9"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005c.D.argumentstructs.Erik.12\n- Index: 8\n- Speaker: D\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.A.argumentstructs.Erik.4 (Index: 1, Speaker: A): \"So lots of choices, what do we think ?\"\nAE_ID ES2005c.A.argumentstructs.Erik.5 (Index: 3, Speaker: A): \"Uh or sponge, I guess, isn't on there, right. Organic sponge.\"\nAE_ID ES2005c.D.argumentstructs.Erik.11 (Index: 4, Speaker: D): \"Mm. I'm not sure about the sponge.\"\nAE_ID ES2005c.C.argumentstructs.Erik.8 (Index: 5, Speaker: C): \"Well, I mean like la latex has a kinda spongy feeling to it, doesn't it.\"\nAE_ID ES2005c.A.argumentstructs.Erik.6 (Index: 6, Speaker: A): \"Uh yeah, it's very elasticy for sure.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.D.argumentstructs.Erik.11",
+            "ans": "ES2005c.C.argumentstructs.Erik.9",
+            "judgement": false
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 10,
+                "ae_id": "ES2005c.C.argumentstructs.Erik.9",
+                "speaker": "C",
+                "start_time": 1112.04,
+                "end_time": 1123.21,
+                "sentence": "and ther that's also f sorta relatively cheap to cast. Um  so maybe s uh a sort of uh plastic  initial plastic with a a latex kinda sheath ?",
+                "source": "ES2005c.A.argumentstructs.Erik.6",
+                "targets": [
+                    "ES2005c.D.argumentstructs.Erik.12",
+                    "ES2005c.A.argumentstructs.Erik.7"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 3,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 1099.15,
+                    "end_time": 1103.935,
+                    "sentence": "Uh or sponge, I guess, isn't on there, right. Organic sponge.",
+                    "source": "ES2005c.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.11"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.11",
+                    "speaker": "D",
+                    "start_time": 1101.02,
+                    "end_time": 1104.16,
+                    "sentence": "Mm. I'm not sure about the sponge.",
+                    "source": "ES2005c.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.8",
+                    "speaker": "C",
+                    "start_time": 1101.57,
+                    "end_time": 1105.61,
+                    "sentence": "Well, I mean like la latex has a kinda spongy feeling to it, doesn't it.",
+                    "source": "ES2005c.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2005c.A.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 1105.7,
+                    "end_time": 1107.75,
+                    "sentence": "Uh yeah, it's very elasticy for sure.",
+                    "source": "ES2005c.C.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.12",
+                    "speaker": "D",
+                    "start_time": 1108.0,
+                    "end_time": 1108.33,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005c.C.argumentstructs.Erik.9\n- Index: 10\n- Speaker: C\n- Sentence: \"and ther that's also f sorta relatively cheap to cast. Um  so maybe s uh a sort of uh plastic  initial plastic with a a latex kinda sheath ?\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.A.argumentstructs.Erik.5 (Index: 3, Speaker: A): \"Uh or sponge, I guess, isn't on there, right. Organic sponge.\"\nAE_ID ES2005c.D.argumentstructs.Erik.11 (Index: 4, Speaker: D): \"Mm. I'm not sure about the sponge.\"\nAE_ID ES2005c.C.argumentstructs.Erik.8 (Index: 5, Speaker: C): \"Well, I mean like la latex has a kinda spongy feeling to it, doesn't it.\"\nAE_ID ES2005c.A.argumentstructs.Erik.6 (Index: 6, Speaker: A): \"Uh yeah, it's very elasticy for sure.\"\nAE_ID ES2005c.D.argumentstructs.Erik.12 (Index: 8, Speaker: D): \"Yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.C.argumentstructs.Erik.8",
+            "ans": "ES2005c.A.argumentstructs.Erik.6",
+            "judgement": false
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 12,
+                "ae_id": "ES2005c.A.argumentstructs.Erik.7",
+                "speaker": "A",
+                "start_time": 1127.12,
+                "end_time": 1128.624,
+                "sentence": "uh latex",
+                "source": "ES2005c.C.argumentstructs.Erik.9",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 4,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.11",
+                    "speaker": "D",
+                    "start_time": 1101.02,
+                    "end_time": 1104.16,
+                    "sentence": "Mm. I'm not sure about the sponge.",
+                    "source": "ES2005c.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.8",
+                    "speaker": "C",
+                    "start_time": 1101.57,
+                    "end_time": 1105.61,
+                    "sentence": "Well, I mean like la latex has a kinda spongy feeling to it, doesn't it.",
+                    "source": "ES2005c.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2005c.A.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 1105.7,
+                    "end_time": 1107.75,
+                    "sentence": "Uh yeah, it's very elasticy for sure.",
+                    "source": "ES2005c.C.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.12",
+                    "speaker": "D",
+                    "start_time": 1108.0,
+                    "end_time": 1108.33,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.9",
+                    "speaker": "C",
+                    "start_time": 1112.04,
+                    "end_time": 1123.21,
+                    "sentence": "and ther that's also f sorta relatively cheap to cast. Um  so maybe s uh a sort of uh plastic  initial plastic with a a latex kinda sheath ?",
+                    "source": "ES2005c.A.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.12",
+                        "ES2005c.A.argumentstructs.Erik.7"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005c.A.argumentstructs.Erik.7\n- Index: 12\n- Speaker: A\n- Sentence: \"uh latex\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.D.argumentstructs.Erik.11 (Index: 4, Speaker: D): \"Mm. I'm not sure about the sponge.\"\nAE_ID ES2005c.C.argumentstructs.Erik.8 (Index: 5, Speaker: C): \"Well, I mean like la latex has a kinda spongy feeling to it, doesn't it.\"\nAE_ID ES2005c.A.argumentstructs.Erik.6 (Index: 6, Speaker: A): \"Uh yeah, it's very elasticy for sure.\"\nAE_ID ES2005c.D.argumentstructs.Erik.12 (Index: 8, Speaker: D): \"Yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.9 (Index: 10, Speaker: C): \"and ther that's also f sorta relatively cheap to cast. Um  so maybe s uh a sort of uh plastic  initial plastic with a a latex kinda sheath ?\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.C.argumentstructs.Erik.8",
+            "ans": "ES2005c.C.argumentstructs.Erik.9",
+            "judgement": false
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 13,
+                "ae_id": "ES2005c.D.argumentstructs.Erik.13",
+                "speaker": "D",
+                "start_time": 1129.01,
+                "end_time": 1136.432,
+                "sentence": "I like the rubber, the stress balls, I think, you know, that could be a bit of a gimmick like it's good to hold and",
+                "source": "ES2005c.A.argumentstructs.Erik.4",
+                "targets": [
+                    "ES2005c.C.argumentstructs.Erik.10",
+                    "ES2005c.A.argumentstructs.Erik.8",
+                    "ES2005c.C.argumentstructs.Erik.11",
+                    "ES2005c.A.argumentstructs.Erik.9"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 5,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.8",
+                    "speaker": "C",
+                    "start_time": 1101.57,
+                    "end_time": 1105.61,
+                    "sentence": "Well, I mean like la latex has a kinda spongy feeling to it, doesn't it.",
+                    "source": "ES2005c.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2005c.A.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 1105.7,
+                    "end_time": 1107.75,
+                    "sentence": "Uh yeah, it's very elasticy for sure.",
+                    "source": "ES2005c.C.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.12",
+                    "speaker": "D",
+                    "start_time": 1108.0,
+                    "end_time": 1108.33,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.9",
+                    "speaker": "C",
+                    "start_time": 1112.04,
+                    "end_time": 1123.21,
+                    "sentence": "and ther that's also f sorta relatively cheap to cast. Um  so maybe s uh a sort of uh plastic  initial plastic with a a latex kinda sheath ?",
+                    "source": "ES2005c.A.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.12",
+                        "ES2005c.A.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.7",
+                    "speaker": "A",
+                    "start_time": 1127.12,
+                    "end_time": 1128.624,
+                    "sentence": "uh latex",
+                    "source": "ES2005c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005c.D.argumentstructs.Erik.13\n- Index: 13\n- Speaker: D\n- Sentence: \"I like the rubber, the stress balls, I think, you know, that could be a bit of a gimmick like it's good to hold and\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.C.argumentstructs.Erik.8 (Index: 5, Speaker: C): \"Well, I mean like la latex has a kinda spongy feeling to it, doesn't it.\"\nAE_ID ES2005c.A.argumentstructs.Erik.6 (Index: 6, Speaker: A): \"Uh yeah, it's very elasticy for sure.\"\nAE_ID ES2005c.D.argumentstructs.Erik.12 (Index: 8, Speaker: D): \"Yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.9 (Index: 10, Speaker: C): \"and ther that's also f sorta relatively cheap to cast. Um  so maybe s uh a sort of uh plastic  initial plastic with a a latex kinda sheath ?\"\nAE_ID ES2005c.A.argumentstructs.Erik.7 (Index: 12, Speaker: A): \"uh latex\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.C.argumentstructs.Erik.8",
+            "ans": "ES2005c.A.argumentstructs.Erik.4",
+            "judgement": false
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 14,
+                "ae_id": "ES2005c.C.argumentstructs.Erik.10",
+                "speaker": "C",
+                "start_time": 1132.36,
+                "end_time": 1132.98,
+                "sentence": "Oh right, okay.",
+                "source": "ES2005c.D.argumentstructs.Erik.13",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 6,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 1105.7,
+                    "end_time": 1107.75,
+                    "sentence": "Uh yeah, it's very elasticy for sure.",
+                    "source": "ES2005c.C.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.12",
+                    "speaker": "D",
+                    "start_time": 1108.0,
+                    "end_time": 1108.33,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.9",
+                    "speaker": "C",
+                    "start_time": 1112.04,
+                    "end_time": 1123.21,
+                    "sentence": "and ther that's also f sorta relatively cheap to cast. Um  so maybe s uh a sort of uh plastic  initial plastic with a a latex kinda sheath ?",
+                    "source": "ES2005c.A.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.12",
+                        "ES2005c.A.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.7",
+                    "speaker": "A",
+                    "start_time": 1127.12,
+                    "end_time": 1128.624,
+                    "sentence": "uh latex",
+                    "source": "ES2005c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.13",
+                    "speaker": "D",
+                    "start_time": 1129.01,
+                    "end_time": 1136.432,
+                    "sentence": "I like the rubber, the stress balls, I think, you know, that could be a bit of a gimmick like it's good to hold and",
+                    "source": "ES2005c.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.10",
+                        "ES2005c.A.argumentstructs.Erik.8",
+                        "ES2005c.C.argumentstructs.Erik.11",
+                        "ES2005c.A.argumentstructs.Erik.9"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005c.C.argumentstructs.Erik.10\n- Index: 14\n- Speaker: C\n- Sentence: \"Oh right, okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.A.argumentstructs.Erik.6 (Index: 6, Speaker: A): \"Uh yeah, it's very elasticy for sure.\"\nAE_ID ES2005c.D.argumentstructs.Erik.12 (Index: 8, Speaker: D): \"Yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.9 (Index: 10, Speaker: C): \"and ther that's also f sorta relatively cheap to cast. Um  so maybe s uh a sort of uh plastic  initial plastic with a a latex kinda sheath ?\"\nAE_ID ES2005c.A.argumentstructs.Erik.7 (Index: 12, Speaker: A): \"uh latex\"\nAE_ID ES2005c.D.argumentstructs.Erik.13 (Index: 13, Speaker: D): \"I like the rubber, the stress balls, I think, you know, that could be a bit of a gimmick like it's good to hold and\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.C.argumentstructs.Erik.9",
+            "ans": "ES2005c.D.argumentstructs.Erik.13",
+            "judgement": false
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 15,
+                "ae_id": "ES2005c.A.argumentstructs.Erik.8",
+                "speaker": "A",
+                "start_time": 1134.58,
+                "end_time": 1135.11,
+                "sentence": "Oh right.",
+                "source": "ES2005c.D.argumentstructs.Erik.13",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 8,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.12",
+                    "speaker": "D",
+                    "start_time": 1108.0,
+                    "end_time": 1108.33,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.9",
+                    "speaker": "C",
+                    "start_time": 1112.04,
+                    "end_time": 1123.21,
+                    "sentence": "and ther that's also f sorta relatively cheap to cast. Um  so maybe s uh a sort of uh plastic  initial plastic with a a latex kinda sheath ?",
+                    "source": "ES2005c.A.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.12",
+                        "ES2005c.A.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.7",
+                    "speaker": "A",
+                    "start_time": 1127.12,
+                    "end_time": 1128.624,
+                    "sentence": "uh latex",
+                    "source": "ES2005c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.13",
+                    "speaker": "D",
+                    "start_time": 1129.01,
+                    "end_time": 1136.432,
+                    "sentence": "I like the rubber, the stress balls, I think, you know, that could be a bit of a gimmick like it's good to hold and",
+                    "source": "ES2005c.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.10",
+                        "ES2005c.A.argumentstructs.Erik.8",
+                        "ES2005c.C.argumentstructs.Erik.11",
+                        "ES2005c.A.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.10",
+                    "speaker": "C",
+                    "start_time": 1132.36,
+                    "end_time": 1132.98,
+                    "sentence": "Oh right, okay.",
+                    "source": "ES2005c.D.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005c.A.argumentstructs.Erik.8\n- Index: 15\n- Speaker: A\n- Sentence: \"Oh right.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.D.argumentstructs.Erik.12 (Index: 8, Speaker: D): \"Yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.9 (Index: 10, Speaker: C): \"and ther that's also f sorta relatively cheap to cast. Um  so maybe s uh a sort of uh plastic  initial plastic with a a latex kinda sheath ?\"\nAE_ID ES2005c.A.argumentstructs.Erik.7 (Index: 12, Speaker: A): \"uh latex\"\nAE_ID ES2005c.D.argumentstructs.Erik.13 (Index: 13, Speaker: D): \"I like the rubber, the stress balls, I think, you know, that could be a bit of a gimmick like it's good to hold and\"\nAE_ID ES2005c.C.argumentstructs.Erik.10 (Index: 14, Speaker: C): \"Oh right, okay.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.C.argumentstructs.Erik.10",
+            "ans": "ES2005c.D.argumentstructs.Erik.13",
+            "judgement": false
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 16,
+                "ae_id": "ES2005c.C.argumentstructs.Erik.11",
+                "speaker": "C",
+                "start_time": 1134.68,
+                "end_time": 1136.255,
+                "sentence": "I don't know what that stuff is.",
+                "source": "ES2005c.D.argumentstructs.Erik.13",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 10,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.9",
+                    "speaker": "C",
+                    "start_time": 1112.04,
+                    "end_time": 1123.21,
+                    "sentence": "and ther that's also f sorta relatively cheap to cast. Um  so maybe s uh a sort of uh plastic  initial plastic with a a latex kinda sheath ?",
+                    "source": "ES2005c.A.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.12",
+                        "ES2005c.A.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.7",
+                    "speaker": "A",
+                    "start_time": 1127.12,
+                    "end_time": 1128.624,
+                    "sentence": "uh latex",
+                    "source": "ES2005c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.13",
+                    "speaker": "D",
+                    "start_time": 1129.01,
+                    "end_time": 1136.432,
+                    "sentence": "I like the rubber, the stress balls, I think, you know, that could be a bit of a gimmick like it's good to hold and",
+                    "source": "ES2005c.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.10",
+                        "ES2005c.A.argumentstructs.Erik.8",
+                        "ES2005c.C.argumentstructs.Erik.11",
+                        "ES2005c.A.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.10",
+                    "speaker": "C",
+                    "start_time": 1132.36,
+                    "end_time": 1132.98,
+                    "sentence": "Oh right, okay.",
+                    "source": "ES2005c.D.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.8",
+                    "speaker": "A",
+                    "start_time": 1134.58,
+                    "end_time": 1135.11,
+                    "sentence": "Oh right.",
+                    "source": "ES2005c.D.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005c.C.argumentstructs.Erik.11\n- Index: 16\n- Speaker: C\n- Sentence: \"I don't know what that stuff is.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.C.argumentstructs.Erik.9 (Index: 10, Speaker: C): \"and ther that's also f sorta relatively cheap to cast. Um  so maybe s uh a sort of uh plastic  initial plastic with a a latex kinda sheath ?\"\nAE_ID ES2005c.A.argumentstructs.Erik.7 (Index: 12, Speaker: A): \"uh latex\"\nAE_ID ES2005c.D.argumentstructs.Erik.13 (Index: 13, Speaker: D): \"I like the rubber, the stress balls, I think, you know, that could be a bit of a gimmick like it's good to hold and\"\nAE_ID ES2005c.C.argumentstructs.Erik.10 (Index: 14, Speaker: C): \"Oh right, okay.\"\nAE_ID ES2005c.A.argumentstructs.Erik.8 (Index: 15, Speaker: A): \"Oh right.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.A.argumentstructs.Erik.7",
+            "ans": "ES2005c.D.argumentstructs.Erik.13",
+            "judgement": false
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 17,
+                "ae_id": "ES2005c.A.argumentstructs.Erik.9",
+                "speaker": "A",
+                "start_time": 1137.03,
+                "end_time": 1140.63,
+                "sentence": "So something with give to it.  Okay.",
+                "source": "ES2005c.D.argumentstructs.Erik.13",
+                "targets": [
+                    "ES2005c.C.argumentstructs.Erik.12",
+                    "ES2005c.D.argumentstructs.Erik.14",
+                    "ES2005c.D.argumentstructs.Erik.15"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 12,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.7",
+                    "speaker": "A",
+                    "start_time": 1127.12,
+                    "end_time": 1128.624,
+                    "sentence": "uh latex",
+                    "source": "ES2005c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.13",
+                    "speaker": "D",
+                    "start_time": 1129.01,
+                    "end_time": 1136.432,
+                    "sentence": "I like the rubber, the stress balls, I think, you know, that could be a bit of a gimmick like it's good to hold and",
+                    "source": "ES2005c.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.10",
+                        "ES2005c.A.argumentstructs.Erik.8",
+                        "ES2005c.C.argumentstructs.Erik.11",
+                        "ES2005c.A.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.10",
+                    "speaker": "C",
+                    "start_time": 1132.36,
+                    "end_time": 1132.98,
+                    "sentence": "Oh right, okay.",
+                    "source": "ES2005c.D.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.8",
+                    "speaker": "A",
+                    "start_time": 1134.58,
+                    "end_time": 1135.11,
+                    "sentence": "Oh right.",
+                    "source": "ES2005c.D.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.11",
+                    "speaker": "C",
+                    "start_time": 1134.68,
+                    "end_time": 1136.255,
+                    "sentence": "I don't know what that stuff is.",
+                    "source": "ES2005c.D.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005c.A.argumentstructs.Erik.9\n- Index: 17\n- Speaker: A\n- Sentence: \"So something with give to it.  Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.A.argumentstructs.Erik.7 (Index: 12, Speaker: A): \"uh latex\"\nAE_ID ES2005c.D.argumentstructs.Erik.13 (Index: 13, Speaker: D): \"I like the rubber, the stress balls, I think, you know, that could be a bit of a gimmick like it's good to hold and\"\nAE_ID ES2005c.C.argumentstructs.Erik.10 (Index: 14, Speaker: C): \"Oh right, okay.\"\nAE_ID ES2005c.A.argumentstructs.Erik.8 (Index: 15, Speaker: A): \"Oh right.\"\nAE_ID ES2005c.C.argumentstructs.Erik.11 (Index: 16, Speaker: C): \"I don't know what that stuff is.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.D.argumentstructs.Erik.13",
+            "ans": "ES2005c.D.argumentstructs.Erik.13",
+            "judgement": true
+        },
+        {
+            "turn_number": 13,
+            "current_node": {
+                "index": 18,
+                "ae_id": "ES2005c.C.argumentstructs.Erik.12",
+                "speaker": "C",
+                "start_time": 1138.63,
+                "end_time": 1139.06,
+                "sentence": "Yeah.",
+                "source": "ES2005c.A.argumentstructs.Erik.9",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 13,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.13",
+                    "speaker": "D",
+                    "start_time": 1129.01,
+                    "end_time": 1136.432,
+                    "sentence": "I like the rubber, the stress balls, I think, you know, that could be a bit of a gimmick like it's good to hold and",
+                    "source": "ES2005c.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.10",
+                        "ES2005c.A.argumentstructs.Erik.8",
+                        "ES2005c.C.argumentstructs.Erik.11",
+                        "ES2005c.A.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.10",
+                    "speaker": "C",
+                    "start_time": 1132.36,
+                    "end_time": 1132.98,
+                    "sentence": "Oh right, okay.",
+                    "source": "ES2005c.D.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.8",
+                    "speaker": "A",
+                    "start_time": 1134.58,
+                    "end_time": 1135.11,
+                    "sentence": "Oh right.",
+                    "source": "ES2005c.D.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.11",
+                    "speaker": "C",
+                    "start_time": 1134.68,
+                    "end_time": 1136.255,
+                    "sentence": "I don't know what that stuff is.",
+                    "source": "ES2005c.D.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.9",
+                    "speaker": "A",
+                    "start_time": 1137.03,
+                    "end_time": 1140.63,
+                    "sentence": "So something with give to it.  Okay.",
+                    "source": "ES2005c.D.argumentstructs.Erik.13",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.12",
+                        "ES2005c.D.argumentstructs.Erik.14",
+                        "ES2005c.D.argumentstructs.Erik.15"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005c.C.argumentstructs.Erik.12\n- Index: 18\n- Speaker: C\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.D.argumentstructs.Erik.13 (Index: 13, Speaker: D): \"I like the rubber, the stress balls, I think, you know, that could be a bit of a gimmick like it's good to hold and\"\nAE_ID ES2005c.C.argumentstructs.Erik.10 (Index: 14, Speaker: C): \"Oh right, okay.\"\nAE_ID ES2005c.A.argumentstructs.Erik.8 (Index: 15, Speaker: A): \"Oh right.\"\nAE_ID ES2005c.C.argumentstructs.Erik.11 (Index: 16, Speaker: C): \"I don't know what that stuff is.\"\nAE_ID ES2005c.A.argumentstructs.Erik.9 (Index: 17, Speaker: A): \"So something with give to it.  Okay.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.A.argumentstructs.Erik.9",
+            "ans": "ES2005c.A.argumentstructs.Erik.9",
+            "judgement": true
+        },
+        {
+            "turn_number": 14,
+            "current_node": {
+                "index": 19,
+                "ae_id": "ES2005c.D.argumentstructs.Erik.14",
+                "speaker": "D",
+                "start_time": 1138.71,
+                "end_time": 1139.08,
+                "sentence": "Yeah.",
+                "source": "ES2005c.A.argumentstructs.Erik.9",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 14,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.10",
+                    "speaker": "C",
+                    "start_time": 1132.36,
+                    "end_time": 1132.98,
+                    "sentence": "Oh right, okay.",
+                    "source": "ES2005c.D.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.8",
+                    "speaker": "A",
+                    "start_time": 1134.58,
+                    "end_time": 1135.11,
+                    "sentence": "Oh right.",
+                    "source": "ES2005c.D.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.11",
+                    "speaker": "C",
+                    "start_time": 1134.68,
+                    "end_time": 1136.255,
+                    "sentence": "I don't know what that stuff is.",
+                    "source": "ES2005c.D.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.9",
+                    "speaker": "A",
+                    "start_time": 1137.03,
+                    "end_time": 1140.63,
+                    "sentence": "So something with give to it.  Okay.",
+                    "source": "ES2005c.D.argumentstructs.Erik.13",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.12",
+                        "ES2005c.D.argumentstructs.Erik.14",
+                        "ES2005c.D.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.12",
+                    "speaker": "C",
+                    "start_time": 1138.63,
+                    "end_time": 1139.06,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.A.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005c.D.argumentstructs.Erik.14\n- Index: 19\n- Speaker: D\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.C.argumentstructs.Erik.10 (Index: 14, Speaker: C): \"Oh right, okay.\"\nAE_ID ES2005c.A.argumentstructs.Erik.8 (Index: 15, Speaker: A): \"Oh right.\"\nAE_ID ES2005c.C.argumentstructs.Erik.11 (Index: 16, Speaker: C): \"I don't know what that stuff is.\"\nAE_ID ES2005c.A.argumentstructs.Erik.9 (Index: 17, Speaker: A): \"So something with give to it.  Okay.\"\nAE_ID ES2005c.C.argumentstructs.Erik.12 (Index: 18, Speaker: C): \"Yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.C.argumentstructs.Erik.12",
+            "ans": "ES2005c.A.argumentstructs.Erik.9",
+            "judgement": false
+        },
+        {
+            "turn_number": 15,
+            "current_node": {
+                "index": 20,
+                "ae_id": "ES2005c.D.argumentstructs.Erik.15",
+                "speaker": "D",
+                "start_time": 1140.56,
+                "end_time": 1143.47,
+                "sentence": "And that might be quite durable and easy to chuck around.",
+                "source": "ES2005c.A.argumentstructs.Erik.9",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 15,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.8",
+                    "speaker": "A",
+                    "start_time": 1134.58,
+                    "end_time": 1135.11,
+                    "sentence": "Oh right.",
+                    "source": "ES2005c.D.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.11",
+                    "speaker": "C",
+                    "start_time": 1134.68,
+                    "end_time": 1136.255,
+                    "sentence": "I don't know what that stuff is.",
+                    "source": "ES2005c.D.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.9",
+                    "speaker": "A",
+                    "start_time": 1137.03,
+                    "end_time": 1140.63,
+                    "sentence": "So something with give to it.  Okay.",
+                    "source": "ES2005c.D.argumentstructs.Erik.13",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.12",
+                        "ES2005c.D.argumentstructs.Erik.14",
+                        "ES2005c.D.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.12",
+                    "speaker": "C",
+                    "start_time": 1138.63,
+                    "end_time": 1139.06,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.A.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.14",
+                    "speaker": "D",
+                    "start_time": 1138.71,
+                    "end_time": 1139.08,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.A.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005c.D.argumentstructs.Erik.15\n- Index: 20\n- Speaker: D\n- Sentence: \"And that might be quite durable and easy to chuck around.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.A.argumentstructs.Erik.8 (Index: 15, Speaker: A): \"Oh right.\"\nAE_ID ES2005c.C.argumentstructs.Erik.11 (Index: 16, Speaker: C): \"I don't know what that stuff is.\"\nAE_ID ES2005c.A.argumentstructs.Erik.9 (Index: 17, Speaker: A): \"So something with give to it.  Okay.\"\nAE_ID ES2005c.C.argumentstructs.Erik.12 (Index: 18, Speaker: C): \"Yeah.\"\nAE_ID ES2005c.D.argumentstructs.Erik.14 (Index: 19, Speaker: D): \"Yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.A.argumentstructs.Erik.9",
+            "ans": "ES2005c.A.argumentstructs.Erik.9",
+            "judgement": true
+        }
+    ]
+}

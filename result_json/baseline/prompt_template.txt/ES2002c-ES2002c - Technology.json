@@ -1156,7 +1156,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002c.B.argumentstructs.Erik.26:\n\"Okay.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2002c.A.argumentstructs.Erik.15 (Index: 11, Speaker: A): \"Yeah yeah.\"\nAE_ID ES2002c.A.argumentstructs.Erik.16 (Index: 14, Speaker: A): \"Or or there might be a light running through it like a mouse. You know you have cordless mice and they don't eat that much power right. So the power  the battery in that sense, maybe you have one or two stratig strategically placed lights that sort of\"\nAE_ID ES2002c.D.argumentstructs.Erik.25 (Index: 15, Speaker: D): \"Sure.\"\nAE_ID ES2002c.D.argumentstructs.Erik.26 (Index: 17, Speaker: D): \"Yeah they they emanate a light through it.\"\nAE_ID ES2002c.A.argumentstructs.Erik.17 (Index: 18, Speaker: A): \"Yeah but because the case is transparent so it gives it a little bit of a glow, doesn't make it freaky.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2002c.A.argumentstructs.Erik.17",
+            "gpt_ans": "ES2002c.A.argumentstructs.Erik.15",
             "ans": "ES2002c.A.argumentstructs.Erik.16",
             "judgement": false
         },

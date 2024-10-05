@@ -3,7 +3,7 @@
     "use_model": "gpt-4o-mini",
     "use_method": "baseline",
     "template": "prompt_template.txt",
-    "rate": 0.2413793103448276,
+    "rate": 0.3103448275862069,
     "total_node_count": 44,
     "removed_node_count": 14,
     "removed_node_list": [
@@ -340,9 +340,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002b.D.argumentstructs.Erik.10:\n\"Yeah. And who watches T_V_.\" Speaker: D\n\nPast dialogue turns:\nAE_ID ES2002b.B.argumentstructs.Erik.9 (Index: 0, Speaker: B): \"Well, um one of the things that we have to decide on by the end of the meeting is who we're gonna be um  who's our our target audience, our target market. Um, so if we want something that that looks good and is easy to use, but has y is fairly powerful product, whatever, who do we really want to aim that at ?\"\nAE_ID ES2002b.D.argumentstructs.Erik.9 (Index: 3, Speaker: D): \"Where's the money, maybe.\"\nAE_ID ES2002b.B.argumentstructs.Erik.10 (Index: 4, Speaker: B): \"Yeah, who wou who would have the money to spend. Well i if if like twenty five Euro is our is our selling price then you can imagine, well I don't  I'm not really sure how much that will retail at. But you want  it's somebody who's not gonna just use the remote that comes with their telly, I suppose, they're gonna actually go out and buy one. So, who do you think we're aiming this at ?\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2002b.B.argumentstructs.Erik.9",
+            "gpt_ans": "ES2002b.B.argumentstructs.Erik.10",
             "ans": "ES2002b.B.argumentstructs.Erik.10",
-            "judgement": false
+            "judgement": true
         },
         {
             "turn_number": 4,
@@ -910,9 +910,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002b.D.argumentstructs.Erik.12:\n\"Yeah. This this kinda touches on your comments there, David. These are the age groups which we have information on and these are  this is a table of h what people would pay more for a certain feature. Just gives us a rough idea of where the w the will to spend money on T_V_ equipment is.\" Speaker: D\n\nPast dialogue turns:\nAE_ID ES2002b.A.argumentstructs.Erik.1 (Index: 8, Speaker: A): \"Um, I think it'll be the mid range to the high end market, in terms of people.\"\nAE_ID ES2002b.A.argumentstructs.Erik.2 (Index: 9, Speaker: A): \"'Cause twenty five Euros for a remote, how much is that lo locally in pounds ?\"\nAE_ID ES2002b.B.argumentstructs.Erik.11 (Index: 10, Speaker: B): \"It's about sixteen, seventeen pounds, I think.\"\nAE_ID ES2002b.A.argumentstructs.Erik.3 (Index: 11, Speaker: A): \"Is that too  is that a lot of money to buy an extra remote or a replacement remote ? Right. Um so maybe not the high end range, but maybe middle, middle up-ish. Kind of. You know how much ? I dunno I guess you pay, what, ten ten quid for a remote ? Like a simple replacement, right. I mean if you lost your remote and the first thing you just wanna go out and get, would you  how much would you pay ?\"\nAE_ID ES2002b.B.argumentstructs.Erik.12 (Index: 12, Speaker: B): \"Yeah, okay.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2002b.A.argumentstructs.Erik.1",
+            "gpt_ans": "ES2002b.A.argumentstructs.Erik.3",
             "ans": "ES2002b.A.argumentstructs.Erik.3",
-            "judgement": false
+            "judgement": true
         },
         {
             "turn_number": 11,
@@ -992,7 +992,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002b.A.argumentstructs.Erik.4:\n\"Yeah.\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2002b.A.argumentstructs.Erik.2 (Index: 9, Speaker: A): \"'Cause twenty five Euros for a remote, how much is that lo locally in pounds ?\"\nAE_ID ES2002b.B.argumentstructs.Erik.11 (Index: 10, Speaker: B): \"It's about sixteen, seventeen pounds, I think.\"\nAE_ID ES2002b.A.argumentstructs.Erik.3 (Index: 11, Speaker: A): \"Is that too  is that a lot of money to buy an extra remote or a replacement remote ? Right. Um so maybe not the high end range, but maybe middle, middle up-ish. Kind of. You know how much ? I dunno I guess you pay, what, ten ten quid for a remote ? Like a simple replacement, right. I mean if you lost your remote and the first thing you just wanna go out and get, would you  how much would you pay ?\"\nAE_ID ES2002b.B.argumentstructs.Erik.12 (Index: 12, Speaker: B): \"Yeah, okay.\"\nAE_ID ES2002b.D.argumentstructs.Erik.12 (Index: 15, Speaker: D): \"Yeah. This this kinda touches on your comments there, David. These are the age groups which we have information on and these are  this is a table of h what people would pay more for a certain feature. Just gives us a rough idea of where the w the will to spend money on T_V_ equipment is.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2002b.B.argumentstructs.Erik.11",
+            "gpt_ans": "ES2002b.B.argumentstructs.Erik.12",
             "ans": "ES2002b.D.argumentstructs.Erik.13",
             "judgement": false
         },
@@ -1906,7 +1906,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002b.B.argumentstructs.Erik.19:\n\"I think we are gonna have to narrow it down, to say let's target these people and give them what they want and 'cause you know, there needs to be some kind of selling point to it. So um anybody  anything there to add  Just kind of young professionals, uh th like  if we are going to include speech recognition, it's kind of between fifteen and thirty five seems to be like a really high response to that. So we could say that was our target.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2002b.B.argumentstructs.Erik.16 (Index: 26, Speaker: B): \"Um do you think then uh voice recognition is something we should really seriously consider ?\"\nAE_ID ES2002b.B.argumentstructs.Erik.17 (Index: 27, Speaker: B): \"What what do you think, Craig ?\"\nAE_ID ES2002b.C.argumentstructs.Erik.7 (Index: 28, Speaker: C): \"Well, did you not say it was the the adults that were going for the the voice recognition ? Sort of the the older group.\"\nAE_ID ES2002b.D.argumentstructs.Erik.15 (Index: 29, Speaker: D): \"Yep. It does it does fit with the market that we're sort of identifying, in terms of\"\nAE_ID ES2002b.B.argumentstructs.Erik.18 (Index: 32, Speaker: B): \"yeah.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2002b.B.argumentstructs.Erik.17",
+            "gpt_ans": "ES2002b.B.argumentstructs.Erik.16",
             "ans": "ES2002b.C.argumentstructs.Erik.7",
             "judgement": false
         },

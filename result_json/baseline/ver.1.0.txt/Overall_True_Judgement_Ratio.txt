@@ -1,1 +1,3 @@
-Overall True Judgement Ratio: 46.96%
+Overall True Judgement Ratio: 43.96%
+Time: 946.27 seconds
+Total cost: $0.00086

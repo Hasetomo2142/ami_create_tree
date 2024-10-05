@@ -1295,7 +1295,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003c.A.argumentstructs.Erik.24:\n\"Mm-hmm.\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2003c.C.argumentstructs.Erik.24 (Index: 13, Speaker: C): \"Yeah.\"\nAE_ID ES2003c.A.argumentstructs.Erik.22 (Index: 15, Speaker: A): \"I  having it i having it sort of br bright yellow I think that's quite a good idea, though maybe we could have options for colours as well.\"\nAE_ID ES2003c.C.argumentstructs.Erik.25 (Index: 16, Speaker: C): \"Yeah.\"\nAE_ID ES2003c.A.argumentstructs.Erik.23 (Index: 17, Speaker: A): \"and again this has the advantage of being harder to lose.\"\nAE_ID ES2003c.C.argumentstructs.Erik.26 (Index: 18, Speaker: C): \"Sure. I mean we are trying to promote a remote control, but we wanna keep the company brand as well, so.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003c.C.argumentstructs.Erik.25",
+            "gpt_ans": "ES2003c.C.argumentstructs.Erik.24",
             "ans": "ES2003c.B.argumentstructs.Erik.18",
             "judgement": false
         },
@@ -1629,7 +1629,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003c.A.argumentstructs.Erik.26:\n\"Yeah. I was  like like I said before I I think we should have the R_R_ on the uh on the top function button.\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2003c.C.argumentstructs.Erik.26 (Index: 18, Speaker: C): \"Sure. I mean we are trying to promote a remote control, but we wanna keep the company brand as well, so.\"\nAE_ID ES2003c.A.argumentstructs.Erik.24 (Index: 19, Speaker: A): \"Mm-hmm.\"\nAE_ID ES2003c.B.argumentstructs.Erik.18 (Index: 20, Speaker: B): \"Yeah. So we always need to remember that somewhere we're meant to be getting the slogan on.\"\nAE_ID ES2003c.B.argumentstructs.Erik.19 (Index: 21, Speaker: B): \"Possibly I'm think I'm not sure but I'm seeing a little bit of space around maybe the joystick area which could be used. Um.\"\nAE_ID ES2003c.A.argumentstructs.Erik.25 (Index: 22, Speaker: A): \"Mm.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003c.A.argumentstructs.Erik.25",
+            "gpt_ans": "ES2003c.C.argumentstructs.Erik.26",
             "ans": "ES2003c.B.argumentstructs.Erik.19",
             "judgement": false
         },

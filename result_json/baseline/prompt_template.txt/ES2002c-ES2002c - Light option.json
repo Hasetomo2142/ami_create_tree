@@ -1642,7 +1642,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002c.B.argumentstructs.Erik.6:\n\"Okay.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2002c.B.argumentstructs.Erik.5 (Index: 19, Speaker: B): \"Yeah.\"\nAE_ID ES2002c.A.argumentstructs.Erik.4 (Index: 20, Speaker: A): \"Um that's why I think the option of the the kinetic thing which basically means as long as you shake it like a watch, like an automatic watch\"\nAE_ID ES2002c.D.argumentstructs.Erik.9 (Index: 21, Speaker: D): \"But are people gonna wanna shake their movie controller ?\"\nAE_ID ES2002c.A.argumentstructs.Erik.5 (Index: 23, Speaker: A): \"um it's probably sensitive enough when you fiddle it. So you could trigger that to a light, like I said the bouncing ball thing, or you could trigger that to use that to power the light as opposed to  so when they pick it up, right, and then that that sorta triggers the\"\nAE_ID ES2002c.D.argumentstructs.Erik.10 (Index: 24, Speaker: D): \"Right.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2002c.B.argumentstructs.Erik.5",
+            "gpt_ans": "ES2002c.D.argumentstructs.Erik.10",
             "ans": "ES2002c.A.argumentstructs.Erik.5",
             "judgement": false
         }

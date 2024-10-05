@@ -3,7 +3,7 @@
     "use_model": "gpt-4o-mini",
     "use_method": "baseline",
     "template": "prompt_template.txt",
-    "rate": 0.3157894736842105,
+    "rate": 0.2631578947368421,
     "total_node_count": 27,
     "removed_node_count": 7,
     "removed_node_list": [
@@ -576,7 +576,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2004a.D.argumentstructs.Erik.3:\n\"So that's a problem regardless of of any design modifications you you come up with, that's gonna be a problem anyway with the older generation perhaps, and that's another issue how we tackle that.\" Speaker: D\n\nPast dialogue turns:\nAE_ID ES2004a.C.argumentstructs.Erik.1 (Index: 3, Speaker: C): \"Yeah.\"\nAE_ID ES2004a.D.argumentstructs.Erik.1 (Index: 5, Speaker: D): \"Can he programme his remote control or is it basic with that too ?\"\nAE_ID ES2004a.B.argumentstructs.Erik.3 (Index: 6, Speaker: B): \"I don't think they tape things, I don't think they use\"\nAE_ID ES2004a.C.argumentstructs.Erik.2 (Index: 7, Speaker: C): \"Yeah, my grandad's actually better than me at using teletext, so.\"\nAE_ID ES2004a.D.argumentstructs.Erik.2 (Index: 8, Speaker: D): \"Right.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2004a.C.argumentstructs.Erik.2",
+            "gpt_ans": "ES2004a.D.argumentstructs.Erik.2",
             "ans": "ES2004a.B.argumentstructs.Erik.1",
             "judgement": false
         },
@@ -910,9 +910,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2004a.B.argumentstructs.Erik.5:\n\"I don't know, I d I don't like the, you know the new phones that have kind of got a Windows-based running system.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2004a.D.argumentstructs.Erik.2 (Index: 8, Speaker: D): \"Right.\"\nAE_ID ES2004a.D.argumentstructs.Erik.3 (Index: 10, Speaker: D): \"So that's a problem regardless of of any design modifications you you come up with, that's gonna be a problem anyway with the older generation perhaps, and that's another issue how we tackle that.\"\nAE_ID ES2004a.C.argumentstructs.Erik.3 (Index: 11, Speaker: C): \"Yeah.\"\nAE_ID ES2004a.B.argumentstructs.Erik.4 (Index: 12, Speaker: B): \"Mm, yeah, the age gap.\"\nAE_ID ES2004a.C.argumentstructs.Erik.4 (Index: 13, Speaker: C): \"Yeah, what it just needs to be  as long as it's sort of self-intuitive and you can can work out what everything's doing, 'cause I mean, menus on sort of new phones now they've sort of got all these pictures and stuff which makes it fairly obvious what you're trying to do.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2004a.C.argumentstructs.Erik.4",
+            "gpt_ans": "ES2004a.B.argumentstructs.Erik.4",
             "ans": "ES2004a.C.argumentstructs.Erik.4",
-            "judgement": true
+            "judgement": false
         },
         {
             "turn_number": 12,

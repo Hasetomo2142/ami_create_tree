@@ -3,7 +3,7 @@
     "use_model": "gpt-4o-mini",
     "use_method": "baseline",
     "template": "prompt_template.txt",
-    "rate": 0.38461538461538464,
+    "rate": 0.3076923076923077,
     "total_node_count": 20,
     "removed_node_count": 6,
     "removed_node_list": [
@@ -240,9 +240,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002d.B.argumentstructs.Erik.23:\n\"From like your personal coach person and stuff like that, do you think maybe ?\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2002d.B.argumentstructs.Erik.21 (Index: 1, Speaker: B): \"Um what about leadership ?\"\nAE_ID ES2002d.B.argumentstructs.Erik.22 (Index: 2, Speaker: B): \"I don't know if that means like, if I did a good job or something. I don't really know.\"\nAE_ID ES2002d.C.argumentstructs.Erik.15 (Index: 3, Speaker: C): \"Yeah, well well I mean my sense on that is sort of what kind of guidance and direction, encouragement\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2002d.C.argumentstructs.Erik.15",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.22",
             "ans": "ES2002d.C.argumentstructs.Erik.15",
-            "judgement": true
+            "judgement": false
         },
         {
             "turn_number": 4,
@@ -890,7 +890,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002d.A.argumentstructs.Erik.22:\n\"I think controlling is not the right word, I think the interactions are very structured. I think structure is probably what you're saying that, each individual is structured to one particular task, and one parti rather than controlling. I don't think there's a sense of control 'cause all the decisions have been made in terms of a, like a consensus right, we go around and we think about it, but that you know process actually says you have to do it in a certain way. It doesn't tell you, you know, some ways that you might wanna be a bit more creative in terms of the process you know, not the\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2002d.C.argumentstructs.Erik.17 (Index: 10, Speaker: C): \"you know, innovative thought with. In in reality I think here the the different elements of leadership such as the the original b briefing and then the personal coach and the and then you know having having you with your  the meeting agenda is actually quite a quite a  quite a con confining framework to work within. And so it is leadership almost to the point of sort of disempowering the the the team member, so\"\nAE_ID ES2002d.B.argumentstructs.Erik.25 (Index: 11, Speaker: B): \"Uh-huh, okay.\"\nAE_ID ES2002d.C.argumentstructs.Erik.18 (Index: 12, Speaker: C): \"But it's not bad leadership, it's just sort of s fairly strong, you know. It turns it turns the individual into more of like a um sort of a predetermined mechanism, as opposed to a sort of a free\"\nAE_ID ES2002d.B.argumentstructs.Erik.26 (Index: 13, Speaker: B): \"So you think maybe a little too controlling or\"\nAE_ID ES2002d.C.argumentstructs.Erik.19 (Index: 14, Speaker: C): \"Yeah, oh yeah, without without a doubt.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2002d.C.argumentstructs.Erik.18",
+            "gpt_ans": "ES2002d.C.argumentstructs.Erik.17",
             "ans": "ES2002d.B.argumentstructs.Erik.26",
             "judgement": false
         },

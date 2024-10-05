@@ -3,7 +3,7 @@
     "use_model": "gpt-4o-mini",
     "use_method": "baseline",
     "template": "prompt_template.txt",
-    "rate": 0.45,
+    "rate": 0.5,
     "total_node_count": 29,
     "removed_node_count": 8,
     "removed_node_list": [
@@ -418,9 +418,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002d.D.argumentstructs.Erik.7:\n\"Uh what can a T_V_ do ?\" Speaker: D\n\nPast dialogue turns:\nAE_ID ES2002d.B.argumentstructs.Erik.7 (Index: 0, Speaker: B): \"And what else do you do with the jog-dial ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.5 (Index: 2, Speaker: D): \"Um you can use it for um more advanced functions like contrast, colour and\"\nAE_ID ES2002d.B.argumentstructs.Erik.8 (Index: 3, Speaker: B): \"Contrast, brightness, yeah, and anything else ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.6 (Index: 5, Speaker: D): \"Um just whatever else we wanted to include as the advanced functions, um we didn't actually go through and specify the\"\nAE_ID ES2002d.B.argumentstructs.Erik.9 (Index: 6, Speaker: B): \"Well of the designers what are they ?\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2002d.D.argumentstructs.Erik.5",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.9",
             "ans": "ES2002d.B.argumentstructs.Erik.9",
-            "judgement": false
+            "judgement": true
         },
         {
             "turn_number": 6,

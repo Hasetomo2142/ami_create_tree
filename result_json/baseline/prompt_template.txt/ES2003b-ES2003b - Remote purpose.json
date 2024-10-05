@@ -3,7 +3,7 @@
     "use_model": "gpt-4o-mini",
     "use_method": "baseline",
     "template": "prompt_template.txt",
-    "rate": 0.3333333333333333,
+    "rate": 0.35555555555555557,
     "total_node_count": 64,
     "removed_node_count": 18,
     "removed_node_list": [
@@ -467,7 +467,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003b.A.argumentstructs.Erik.12:\n\"Yeah, I think that's\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2003b.B.argumentstructs.Erik.6 (Index: 0, Speaker: B): \"To go on from here. Um we have to decide exactly what we're going to do with the remote. Before we leave this meeting, it would be best to say this is what we're going  this is the design we're gonna try and get, this is how we're gonna make ourselves look unique.\"\nAE_ID ES2003b.B.argumentstructs.Erik.7 (Index: 1, Speaker: B): \"Do we go for maybe a remote contro uh sorry, we're gonna go for a remote control obviously, do we go for a small joystick that would operate say changing channels, up and down, and then, what, another button that would say that it's now being used to manoeuvre round the L_C_D_.\"\nAE_ID ES2003b.A.argumentstructs.Erik.11 (Index: 3, Speaker: A): \"Mm yeah.\"\nAE_ID ES2003b.D.argumentstructs.Erik.3 (Index: 4, Speaker: D): \"We're just saying volume. Should volume be important in the joystick, do you think ?\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003b.B.argumentstructs.Erik.7",
+            "gpt_ans": "ES2003b.B.argumentstructs.Erik.6",
             "ans": "ES2003b.D.argumentstructs.Erik.3",
             "judgement": false
         },
@@ -1639,7 +1639,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003b.B.argumentstructs.Erik.14:\n\"Okay.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2003b.C.argumentstructs.Erik.9 (Index: 17, Speaker: C): \"No, yeah, okay okay.\"\nAE_ID ES2003b.B.argumentstructs.Erik.12 (Index: 19, Speaker: B): \"So we  well, sorry, we could maybe even go as far as saying power button, small joystick, L_C_D_, and then what maybe is it one more button to say that you're using the menu system, and with the possibility of pushing down on the joystick to say okay ?\"\nAE_ID ES2003b.B.argumentstructs.Erik.13 (Index: 20, Speaker: B): \"So we're having very very few buttons involved, but navigation around a menu for most things.\"\nAE_ID ES2003b.A.argumentstructs.Erik.15 (Index: 22, Speaker: A): \"Actually I would say maybe two two function buttons, the  y we're now using the menus button and um and an og and an okay button.\"\nAE_ID ES2003b.A.argumentstructs.Erik.16 (Index: 23, Speaker: A): \"I mean certainly something I've found with the joystick on mo the joysticks on mobile phones is that a lot of the time th the device mistakes you trying to move it in one direction or the other for pushing down for okay.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003b.C.argumentstructs.Erik.9",
+            "gpt_ans": "ES2003b.A.argumentstructs.Erik.15",
             "ans": "ES2003b.A.argumentstructs.Erik.16",
             "judgement": false
         },
@@ -2485,9 +2485,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003b.C.argumentstructs.Erik.12:\n\"Yeah.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2003b.B.argumentstructs.Erik.17 (Index: 30, Speaker: B): \"Do we incorporate the idea of trying to f locate the remote control again via a beeping noise ?\"\nAE_ID ES2003b.D.argumentstructs.Erik.5 (Index: 31, Speaker: D): \"Yeah, think so.\"\nAE_ID ES2003b.B.argumentstructs.Erik.18 (Index: 32, Speaker: B): \"Do you mind looking  ?\"\nAE_ID ES2003b.C.argumentstructs.Erik.11 (Index: 33, Speaker: C): \"Um, I think because it's so small it might be an uh I mean if we only have like two three buttons it might be essential to have to have that\"\nAE_ID ES2003b.B.argumentstructs.Erik.19 (Index: 34, Speaker: B): \"The ability to locate it again. So that would require a um transmitter maybe attached to the T_V_, just so that it says find me, and  what, a basically a small microphone um on the actual unit, can maybe hide it in the base\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003b.C.argumentstructs.Erik.11",
+            "gpt_ans": "ES2003b.B.argumentstructs.Erik.19",
             "ans": "ES2003b.B.argumentstructs.Erik.19",
-            "judgement": false
+            "judgement": true
         },
         {
             "turn_number": 29,
@@ -2566,7 +2566,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003b.D.argumentstructs.Erik.6:\n\"Light bulb as well, no ?\" Speaker: D\n\nPast dialogue turns:\nAE_ID ES2003b.D.argumentstructs.Erik.5 (Index: 31, Speaker: D): \"Yeah, think so.\"\nAE_ID ES2003b.B.argumentstructs.Erik.18 (Index: 32, Speaker: B): \"Do you mind looking  ?\"\nAE_ID ES2003b.C.argumentstructs.Erik.11 (Index: 33, Speaker: C): \"Um, I think because it's so small it might be an uh I mean if we only have like two three buttons it might be essential to have to have that\"\nAE_ID ES2003b.B.argumentstructs.Erik.19 (Index: 34, Speaker: B): \"The ability to locate it again. So that would require a um transmitter maybe attached to the T_V_, just so that it says find me, and  what, a basically a small microphone um on the actual unit, can maybe hide it in the base\"\nAE_ID ES2003b.C.argumentstructs.Erik.12 (Index: 35, Speaker: C): \"Yeah.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003b.D.argumentstructs.Erik.5",
+            "gpt_ans": "ES2003b.B.argumentstructs.Erik.19",
             "ans": "ES2003b.B.argumentstructs.Erik.17",
             "judgement": false
         },
@@ -2649,7 +2649,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003b.A.argumentstructs.Erik.19:\n\"Oh. So  so a small speaker you mean.\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2003b.B.argumentstructs.Erik.18 (Index: 32, Speaker: B): \"Do you mind looking  ?\"\nAE_ID ES2003b.C.argumentstructs.Erik.11 (Index: 33, Speaker: C): \"Um, I think because it's so small it might be an uh I mean if we only have like two three buttons it might be essential to have to have that\"\nAE_ID ES2003b.B.argumentstructs.Erik.19 (Index: 34, Speaker: B): \"The ability to locate it again. So that would require a um transmitter maybe attached to the T_V_, just so that it says find me, and  what, a basically a small microphone um on the actual unit, can maybe hide it in the base\"\nAE_ID ES2003b.C.argumentstructs.Erik.12 (Index: 35, Speaker: C): \"Yeah.\"\nAE_ID ES2003b.D.argumentstructs.Erik.6 (Index: 36, Speaker: D): \"Light bulb as well, no ?\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003b.C.argumentstructs.Erik.11",
+            "gpt_ans": "ES2003b.B.argumentstructs.Erik.19",
             "ans": "ES2003b.B.argumentstructs.Erik.17",
             "judgement": false
         },
@@ -3906,7 +3906,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003b.C.argumentstructs.Erik.19:\n\"Okay.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2003b.A.argumentstructs.Erik.20 (Index: 53, Speaker: A): \"Mm-hmm. Blue ones particularly. Plus that's a nice wee design touch.\"\nAE_ID ES2003b.C.argumentstructs.Erik.18 (Index: 55, Speaker: C): \"Yeah.\"\nAE_ID ES2003b.B.argumentstructs.Erik.23 (Index: 56, Speaker: B): \"So by the sounds of it, with what we're suggesting so far, your design um the user interface is still quite open, you could go for quite an interesting design. Because we're only going to have a very few key and you've got you know a small L_C_D_, joystick, e I think it leaves you open to a a potential wide range of shapes, something that can make it stand out slightly. Um if you could look into what we've suggested so far, the feasibility of um small transmitter, um and such, maybe if an L_C_D_ screen requires too much power, or such.\"\nAE_ID ES2003b.A.argumentstructs.Erik.21 (Index: 58, Speaker: A): \"Mm-hmm.\"\nAE_ID ES2003b.B.argumentstructs.Erik.24 (Index: 60, Speaker: B): \"If, yeah if you could maybe as well see what people think about the idea of this minimalist approach that we've taken, where of a joystick to control the very basic functions, and then the idea of manipulating it like you would a mobile. I don't know how easy that will be within the time frame, but could be something we could maybe look into.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003b.A.argumentstructs.Erik.21",
+            "gpt_ans": "ES2003b.B.argumentstructs.Erik.23",
             "ans": "ES2003b.B.argumentstructs.Erik.24",
             "judgement": false
         }

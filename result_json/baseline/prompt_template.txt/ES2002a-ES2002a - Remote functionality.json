@@ -362,7 +362,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002a.C.argumentstructs.Erik.1:\n\"Yeah.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2002a.D.argumentstructs.Erik.13 (Index: 0, Speaker: D): \"Yeah, interesting thing about discussing um production of a remote control for me is that l as you point out, I just don't think of remote controls as somethin something people consciously assess in their purchasing habits. It's just like getting shoelaces with shoes or something. It just comes along.\"\nAE_ID ES2002a.B.argumentstructs.Erik.8 (Index: 1, Speaker: B): \"Yeah, yeah.\"\nAE_ID ES2002a.D.argumentstructs.Erik.14 (Index: 3, Speaker: D): \"Do you know what I mean ? Like so sort of like how do you I I mean one one way of looking at it would be, well the people producing television sets, maybe they have to buy remote controls. Or another way is maybe people who have T_V_ sets are really fed up with their remote control and they really want a better one or something.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2002a.D.argumentstructs.Erik.13",
+            "gpt_ans": "ES2002a.B.argumentstructs.Erik.8",
             "ans": "ES2002a.D.argumentstructs.Erik.14",
             "judgement": false
         },

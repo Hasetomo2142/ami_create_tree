@@ -1,6 +1,6 @@
 {
     "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2002a-ES2002a - Regions.csv",
-    "use_model": "gpt-4o",
+    "use_model": "gpt-4o-mini",
     "use_method": "baseline",
     "template": "ver.1.1.txt",
     "rate": 0.2857142857142857,
@@ -206,9 +206,9 @@
                 }
             ],
             "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 6):\n- AE_ID: ES2002a.D.argumentstructs.Erik.2\n- Speaker: D\n- Sentence: \"I don't know.\"\n\nPast Dialogue Turns:\nAE_ID ES2002a.D.argumentstructs.Erik.1 (Index: 0, Speaker: D): \"Well right away I'm wondering if there's um th th uh, like with D_V_D_ players, if there are zones. Um f frequencies or something um as well as uh characters, um different uh keypad styles and s symbols.\"\nAE_ID ES2002a.B.argumentstructs.Erik.3 (Index: 1, Speaker: B): \"Oh yeah, regions and stuff, yeah. Yeah. Okay.\"\nAE_ID ES2002a.B.argumentstructs.Erik.1 (Index: 4, Speaker: B): \"Well for a remote control, do you think that will be  I suppose it's depends on how complicated our remote control is.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
-            "gpt_ans": "ES2002a.D.argumentstructs.Erik.1",
+            "gpt_ans": "ES2002a.B.argumentstructs.Erik.1",
             "ans": "ES2002a.B.argumentstructs.Erik.1",
-            "judgement": false
+            "judgement": true
         },
         {
             "turn_number": 4,
@@ -363,7 +363,7 @@
                 }
             ],
             "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 8):\n- AE_ID: ES2002a.A.argumentstructs.Erik.1\n- Speaker: A\n- Sentence: \"It does make sense from maybe the design point of view 'cause you have more complicated characters like European languages, then you need more buttons.\"\n\nPast Dialogue Turns:\nAE_ID ES2002a.D.argumentstructs.Erik.1 (Index: 0, Speaker: D): \"Well right away I'm wondering if there's um th th uh, like with D_V_D_ players, if there are zones. Um f frequencies or something um as well as uh characters, um different uh keypad styles and s symbols.\"\nAE_ID ES2002a.B.argumentstructs.Erik.3 (Index: 1, Speaker: B): \"Oh yeah, regions and stuff, yeah. Yeah. Okay.\"\nAE_ID ES2002a.B.argumentstructs.Erik.1 (Index: 4, Speaker: B): \"Well for a remote control, do you think that will be  I suppose it's depends on how complicated our remote control is.\"\nAE_ID ES2002a.D.argumentstructs.Erik.2 (Index: 6, Speaker: D): \"I don't know.\"\nAE_ID ES2002a.D.argumentstructs.Erik.3 (Index: 7, Speaker: D): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
-            "gpt_ans": "ES2002a.B.argumentstructs.Erik.1",
+            "gpt_ans": "ES2002a.B.argumentstructs.Erik.4",
             "ans": "ES2002a.D.argumentstructs.Erik.1",
             "judgement": false
         },
@@ -446,9 +446,9 @@
                 }
             ],
             "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 9):\n- AE_ID: ES2002a.B.argumentstructs.Erik.2\n- Speaker: B\n- Sentence: \"Yeah, yeah. Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2002a.B.argumentstructs.Erik.3 (Index: 1, Speaker: B): \"Oh yeah, regions and stuff, yeah. Yeah. Okay.\"\nAE_ID ES2002a.B.argumentstructs.Erik.1 (Index: 4, Speaker: B): \"Well for a remote control, do you think that will be  I suppose it's depends on how complicated our remote control is.\"\nAE_ID ES2002a.D.argumentstructs.Erik.2 (Index: 6, Speaker: D): \"I don't know.\"\nAE_ID ES2002a.D.argumentstructs.Erik.3 (Index: 7, Speaker: D): \"Yeah.\"\nAE_ID ES2002a.A.argumentstructs.Erik.1 (Index: 8, Speaker: A): \"It does make sense from maybe the design point of view 'cause you have more complicated characters like European languages, then you need more buttons.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
-            "gpt_ans": "ES2002a.A.argumentstructs.Erik.1",
+            "gpt_ans": "ES2002a.B.argumentstructs.Erik.3",
             "ans": "ES2002a.A.argumentstructs.Erik.1",
-            "judgement": true
+            "judgement": false
         },
         {
             "turn_number": 7,

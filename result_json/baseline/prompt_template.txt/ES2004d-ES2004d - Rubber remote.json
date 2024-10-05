@@ -3,7 +3,7 @@
     "use_model": "gpt-4o-mini",
     "use_method": "baseline",
     "template": "prompt_template.txt",
-    "rate": 0.47619047619047616,
+    "rate": 0.42857142857142855,
     "total_node_count": 27,
     "removed_node_count": 5,
     "removed_node_list": [
@@ -1630,9 +1630,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2004d.B.argumentstructs.Erik.7:\n\"Or sh we should just put it in as one, because the plastic is zero anyway.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2004d.C.argumentstructs.Erik.5 (Index: 19, Speaker: C): \"No, no, that's  it's as an extra.\"\nAE_ID ES2004d.D.argumentstructs.Erik.2 (Index: 20, Speaker: D): \"Right, okay.\"\nAE_ID ES2004d.C.argumentstructs.Erik.6 (Index: 21, Speaker: C): \"So that shouldn't that shouldn't be actually on there, because that's not incorporated in the cost of the remote you get.\"\nAE_ID ES2004d.D.argumentstructs.Erik.3 (Index: 22, Speaker: D): \"But it is gonna be part of the total cost, and there's nowhere else we can we can put that in, is there ? There's nowhere else we can code for the the rubber used in the casing. So do we not have to account for it in the cost somewhere there ?\"\nAE_ID ES2004d.B.argumentstructs.Erik.6 (Index: 23, Speaker: B): \"Okay, we'll just put it in as we'll put in as half.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2004d.D.argumentstructs.Erik.3",
+            "gpt_ans": "ES2004d.B.argumentstructs.Erik.6",
             "ans": "ES2004d.D.argumentstructs.Erik.3",
-            "judgement": true
+            "judgement": false
         },
         {
             "turn_number": 21,

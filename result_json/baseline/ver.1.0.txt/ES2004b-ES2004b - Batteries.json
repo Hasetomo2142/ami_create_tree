@@ -1,0 +1,1189 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2004b-ES2004b - Batteries.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "ver.1.0.txt",
+    "rate": 0.5,
+    "total_node_count": 25,
+    "removed_node_count": 10,
+    "removed_node_list": [
+        {
+            "index": 0,
+            "ae_id": "ES2004b.B.argumentstructs.39",
+            "speaker": "B",
+            "start_time": 1844.07,
+            "end_time": 1861.23,
+            "sentence": "Mm. But we should focus on making the manual as user-friendly as possible because a lot of them are just tiny little writing and lots and lots of pages. It does, you just put it in the drawer until something goes wrong and then you try and search through it, so that should be something we think about.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 1,
+            "ae_id": "ES2004b.A.argumentstructs.19",
+            "speaker": "A",
+            "start_time": 1847.51,
+            "end_time": 1901.39,
+            "sentence": "Simple. Mm-hmm. Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 2,
+            "ae_id": "ES2004b.D.argumentstructs.29",
+            "speaker": "D",
+            "start_time": 1848.6,
+            "end_time": 1860.28,
+            "sentence": "Mm. Puts people off reading them so they just do the obvious, yes. Sure, okay.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 3,
+            "ae_id": "ES2004b.C.argumentstructs.36",
+            "speaker": "C",
+            "start_time": 1854.42,
+            "end_time": 1854.87,
+            "sentence": "yeah.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 7,
+            "ae_id": "ES2004b.C.argumentstructs.37",
+            "speaker": "C",
+            "start_time": 1891.37,
+            "end_time": 1891.86,
+            "sentence": "Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 9,
+            "ae_id": "ES2004b.C.argumentstructs.38",
+            "speaker": "C",
+            "start_time": 1900.46,
+            "end_time": 1905.32,
+            "sentence": "Yeah. Yeah.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 13,
+            "ae_id": "ES2004b.B.argumentstructs.40",
+            "speaker": "B",
+            "start_time": 1922.51,
+            "end_time": 1922.83,
+            "sentence": "S",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 18,
+            "ae_id": "ES2004b.A.argumentstructs.20",
+            "speaker": "A",
+            "start_time": 1927.74,
+            "end_time": 1928.16,
+            "sentence": "Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 19,
+            "ae_id": "ES2004b.B.argumentstructs.41",
+            "speaker": "B",
+            "start_time": 1930.74,
+            "end_time": 1932.61,
+            "sentence": "So the rechargeable which would be your",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 24,
+            "ae_id": "ES2004b.B.argumentstructs.42",
+            "speaker": "B",
+            "start_time": 1959.5,
+            "end_time": 1962.45,
+            "sentence": "how much you try and make it simple, um",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 4,
+                "ae_id": "ES2004b.B.argumentstructs.Erik.17",
+                "speaker": "B",
+                "start_time": 1861.23,
+                "end_time": 1879.22,
+                "sentence": "Um, what other functions ? We need  I'm not sure if we need a design um decision now, but we should think about  c 'cause you've got the dilemma between  oh batteries, that's what I was thinking about. Mobile phone batteries, what kinda battery is that ?",
+                "source": "NONE",
+                "targets": [
+                    "ES2004b.C.argumentstructs.Erik.20"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "NONE",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 5,
+                "ae_id": "ES2004b.C.argumentstructs.Erik.20",
+                "speaker": "C",
+                "start_time": 1879.56,
+                "end_time": 1889.877,
+                "sentence": "Um they're they're specially made for the for the mobile phones, but they come with a charger, I mean you could you could bundle a charger in with it but",
+                "source": "ES2004b.B.argumentstructs.Erik.17",
+                "targets": [
+                    "ES2004b.B.argumentstructs.Erik.18"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 4,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.17",
+                    "speaker": "B",
+                    "start_time": 1861.23,
+                    "end_time": 1879.22,
+                    "sentence": "Um, what other functions ? We need  I'm not sure if we need a design um decision now, but we should think about  c 'cause you've got the dilemma between  oh batteries, that's what I was thinking about. Mobile phone batteries, what kinda battery is that ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.20"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2004b.C.argumentstructs.Erik.20\n- Index: 5\n- Speaker: C\n- Sentence: \"Um they're they're specially made for the for the mobile phones, but they come with a charger, I mean you could you could bundle a charger in with it but\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.B.argumentstructs.Erik.17 (Index: 4, Speaker: B): \"Um, what other functions ? We need  I'm not sure if we need a design um decision now, but we should think about  c 'cause you've got the dilemma between  oh batteries, that's what I was thinking about. Mobile phone batteries, what kinda battery is that ?\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.B.argumentstructs.Erik.17",
+            "ans": "ES2004b.B.argumentstructs.Erik.17",
+            "judgement": true
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 6,
+                "ae_id": "ES2004b.B.argumentstructs.Erik.18",
+                "speaker": "B",
+                "start_time": 1888.54,
+                "end_time": 1910.03,
+                "sentence": "Well they la they they last quite a long time, and if you had uh  when you  th the thing that you get with mobile house phones, you sit it in its charger when you're not using it or t at night or something, but it doesn't really matter 'cause it never really runs out 'cause it lasts a long time once it is charged. Um, something like that should reduce the size of it.",
+                "source": "ES2004b.C.argumentstructs.Erik.20",
+                "targets": [
+                    "ES2004b.C.argumentstructs.Erik.21",
+                    "ES2004b.C.argumentstructs.Erik.22",
+                    "ES2004b.A.argumentstructs.Erik.8"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 4,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.17",
+                    "speaker": "B",
+                    "start_time": 1861.23,
+                    "end_time": 1879.22,
+                    "sentence": "Um, what other functions ? We need  I'm not sure if we need a design um decision now, but we should think about  c 'cause you've got the dilemma between  oh batteries, that's what I was thinking about. Mobile phone batteries, what kinda battery is that ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.20"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.20",
+                    "speaker": "C",
+                    "start_time": 1879.56,
+                    "end_time": 1889.877,
+                    "sentence": "Um they're they're specially made for the for the mobile phones, but they come with a charger, I mean you could you could bundle a charger in with it but",
+                    "source": "ES2004b.B.argumentstructs.Erik.17",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.18"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2004b.B.argumentstructs.Erik.18\n- Index: 6\n- Speaker: B\n- Sentence: \"Well they la they they last quite a long time, and if you had uh  when you  th the thing that you get with mobile house phones, you sit it in its charger when you're not using it or t at night or something, but it doesn't really matter 'cause it never really runs out 'cause it lasts a long time once it is charged. Um, something like that should reduce the size of it.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.B.argumentstructs.Erik.17 (Index: 4, Speaker: B): \"Um, what other functions ? We need  I'm not sure if we need a design um decision now, but we should think about  c 'cause you've got the dilemma between  oh batteries, that's what I was thinking about. Mobile phone batteries, what kinda battery is that ?\"\nAE_ID ES2004b.C.argumentstructs.Erik.20 (Index: 5, Speaker: C): \"Um they're they're specially made for the for the mobile phones, but they come with a charger, I mean you could you could bundle a charger in with it but\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.C.argumentstructs.Erik.20",
+            "ans": "ES2004b.C.argumentstructs.Erik.20",
+            "judgement": true
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 8,
+                "ae_id": "ES2004b.C.argumentstructs.Erik.21",
+                "speaker": "C",
+                "start_time": 1897.23,
+                "end_time": 1897.87,
+                "sentence": "Yeah.",
+                "source": "ES2004b.B.argumentstructs.Erik.18",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 4,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.17",
+                    "speaker": "B",
+                    "start_time": 1861.23,
+                    "end_time": 1879.22,
+                    "sentence": "Um, what other functions ? We need  I'm not sure if we need a design um decision now, but we should think about  c 'cause you've got the dilemma between  oh batteries, that's what I was thinking about. Mobile phone batteries, what kinda battery is that ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.20"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.20",
+                    "speaker": "C",
+                    "start_time": 1879.56,
+                    "end_time": 1889.877,
+                    "sentence": "Um they're they're specially made for the for the mobile phones, but they come with a charger, I mean you could you could bundle a charger in with it but",
+                    "source": "ES2004b.B.argumentstructs.Erik.17",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.18"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.18",
+                    "speaker": "B",
+                    "start_time": 1888.54,
+                    "end_time": 1910.03,
+                    "sentence": "Well they la they they last quite a long time, and if you had uh  when you  th the thing that you get with mobile house phones, you sit it in its charger when you're not using it or t at night or something, but it doesn't really matter 'cause it never really runs out 'cause it lasts a long time once it is charged. Um, something like that should reduce the size of it.",
+                    "source": "ES2004b.C.argumentstructs.Erik.20",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.21",
+                        "ES2004b.C.argumentstructs.Erik.22",
+                        "ES2004b.A.argumentstructs.Erik.8"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2004b.C.argumentstructs.Erik.21\n- Index: 8\n- Speaker: C\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.B.argumentstructs.Erik.17 (Index: 4, Speaker: B): \"Um, what other functions ? We need  I'm not sure if we need a design um decision now, but we should think about  c 'cause you've got the dilemma between  oh batteries, that's what I was thinking about. Mobile phone batteries, what kinda battery is that ?\"\nAE_ID ES2004b.C.argumentstructs.Erik.20 (Index: 5, Speaker: C): \"Um they're they're specially made for the for the mobile phones, but they come with a charger, I mean you could you could bundle a charger in with it but\"\nAE_ID ES2004b.B.argumentstructs.Erik.18 (Index: 6, Speaker: B): \"Well they la they they last quite a long time, and if you had uh  when you  th the thing that you get with mobile house phones, you sit it in its charger when you're not using it or t at night or something, but it doesn't really matter 'cause it never really runs out 'cause it lasts a long time once it is charged. Um, something like that should reduce the size of it.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.C.argumentstructs.Erik.20",
+            "ans": "ES2004b.B.argumentstructs.Erik.18",
+            "judgement": false
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 10,
+                "ae_id": "ES2004b.C.argumentstructs.Erik.22",
+                "speaker": "C",
+                "start_time": 1909.09,
+                "end_time": 1917.344,
+                "sentence": "Yeah and if  yeah if you if you had if you had one of those  uh just coming back to your other point about pressing the button and setting off the bleeper in the room that could uh",
+                "source": "ES2004b.B.argumentstructs.Erik.18",
+                "targets": [
+                    "ES2004b.B.argumentstructs.Erik.19"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 4,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.17",
+                    "speaker": "B",
+                    "start_time": 1861.23,
+                    "end_time": 1879.22,
+                    "sentence": "Um, what other functions ? We need  I'm not sure if we need a design um decision now, but we should think about  c 'cause you've got the dilemma between  oh batteries, that's what I was thinking about. Mobile phone batteries, what kinda battery is that ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.20"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.20",
+                    "speaker": "C",
+                    "start_time": 1879.56,
+                    "end_time": 1889.877,
+                    "sentence": "Um they're they're specially made for the for the mobile phones, but they come with a charger, I mean you could you could bundle a charger in with it but",
+                    "source": "ES2004b.B.argumentstructs.Erik.17",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.18"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.18",
+                    "speaker": "B",
+                    "start_time": 1888.54,
+                    "end_time": 1910.03,
+                    "sentence": "Well they la they they last quite a long time, and if you had uh  when you  th the thing that you get with mobile house phones, you sit it in its charger when you're not using it or t at night or something, but it doesn't really matter 'cause it never really runs out 'cause it lasts a long time once it is charged. Um, something like that should reduce the size of it.",
+                    "source": "ES2004b.C.argumentstructs.Erik.20",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.21",
+                        "ES2004b.C.argumentstructs.Erik.22",
+                        "ES2004b.A.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.21",
+                    "speaker": "C",
+                    "start_time": 1897.23,
+                    "end_time": 1897.87,
+                    "sentence": "Yeah.",
+                    "source": "ES2004b.B.argumentstructs.Erik.18",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2004b.C.argumentstructs.Erik.22\n- Index: 10\n- Speaker: C\n- Sentence: \"Yeah and if  yeah if you if you had if you had one of those  uh just coming back to your other point about pressing the button and setting off the bleeper in the room that could uh\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.B.argumentstructs.Erik.17 (Index: 4, Speaker: B): \"Um, what other functions ? We need  I'm not sure if we need a design um decision now, but we should think about  c 'cause you've got the dilemma between  oh batteries, that's what I was thinking about. Mobile phone batteries, what kinda battery is that ?\"\nAE_ID ES2004b.C.argumentstructs.Erik.20 (Index: 5, Speaker: C): \"Um they're they're specially made for the for the mobile phones, but they come with a charger, I mean you could you could bundle a charger in with it but\"\nAE_ID ES2004b.B.argumentstructs.Erik.18 (Index: 6, Speaker: B): \"Well they la they they last quite a long time, and if you had uh  when you  th the thing that you get with mobile house phones, you sit it in its charger when you're not using it or t at night or something, but it doesn't really matter 'cause it never really runs out 'cause it lasts a long time once it is charged. Um, something like that should reduce the size of it.\"\nAE_ID ES2004b.C.argumentstructs.Erik.21 (Index: 8, Speaker: C): \"Yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.B.argumentstructs.Erik.18",
+            "ans": "ES2004b.B.argumentstructs.Erik.18",
+            "judgement": true
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 11,
+                "ae_id": "ES2004b.B.argumentstructs.Erik.19",
+                "speaker": "B",
+                "start_time": 1918.2,
+                "end_time": 1921.07,
+                "sentence": "Yeah it could be on that  yeah, okay.",
+                "source": "ES2004b.C.argumentstructs.Erik.22",
+                "targets": [
+                    "ES2004b.C.argumentstructs.Erik.23"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 4,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.17",
+                    "speaker": "B",
+                    "start_time": 1861.23,
+                    "end_time": 1879.22,
+                    "sentence": "Um, what other functions ? We need  I'm not sure if we need a design um decision now, but we should think about  c 'cause you've got the dilemma between  oh batteries, that's what I was thinking about. Mobile phone batteries, what kinda battery is that ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.20"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.20",
+                    "speaker": "C",
+                    "start_time": 1879.56,
+                    "end_time": 1889.877,
+                    "sentence": "Um they're they're specially made for the for the mobile phones, but they come with a charger, I mean you could you could bundle a charger in with it but",
+                    "source": "ES2004b.B.argumentstructs.Erik.17",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.18"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.18",
+                    "speaker": "B",
+                    "start_time": 1888.54,
+                    "end_time": 1910.03,
+                    "sentence": "Well they la they they last quite a long time, and if you had uh  when you  th the thing that you get with mobile house phones, you sit it in its charger when you're not using it or t at night or something, but it doesn't really matter 'cause it never really runs out 'cause it lasts a long time once it is charged. Um, something like that should reduce the size of it.",
+                    "source": "ES2004b.C.argumentstructs.Erik.20",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.21",
+                        "ES2004b.C.argumentstructs.Erik.22",
+                        "ES2004b.A.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.21",
+                    "speaker": "C",
+                    "start_time": 1897.23,
+                    "end_time": 1897.87,
+                    "sentence": "Yeah.",
+                    "source": "ES2004b.B.argumentstructs.Erik.18",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.22",
+                    "speaker": "C",
+                    "start_time": 1909.09,
+                    "end_time": 1917.344,
+                    "sentence": "Yeah and if  yeah if you if you had if you had one of those  uh just coming back to your other point about pressing the button and setting off the bleeper in the room that could uh",
+                    "source": "ES2004b.B.argumentstructs.Erik.18",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.19"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2004b.B.argumentstructs.Erik.19\n- Index: 11\n- Speaker: B\n- Sentence: \"Yeah it could be on that  yeah, okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.B.argumentstructs.Erik.17 (Index: 4, Speaker: B): \"Um, what other functions ? We need  I'm not sure if we need a design um decision now, but we should think about  c 'cause you've got the dilemma between  oh batteries, that's what I was thinking about. Mobile phone batteries, what kinda battery is that ?\"\nAE_ID ES2004b.C.argumentstructs.Erik.20 (Index: 5, Speaker: C): \"Um they're they're specially made for the for the mobile phones, but they come with a charger, I mean you could you could bundle a charger in with it but\"\nAE_ID ES2004b.B.argumentstructs.Erik.18 (Index: 6, Speaker: B): \"Well they la they they last quite a long time, and if you had uh  when you  th the thing that you get with mobile house phones, you sit it in its charger when you're not using it or t at night or something, but it doesn't really matter 'cause it never really runs out 'cause it lasts a long time once it is charged. Um, something like that should reduce the size of it.\"\nAE_ID ES2004b.C.argumentstructs.Erik.21 (Index: 8, Speaker: C): \"Yeah.\"\nAE_ID ES2004b.C.argumentstructs.Erik.22 (Index: 10, Speaker: C): \"Yeah and if  yeah if you if you had if you had one of those  uh just coming back to your other point about pressing the button and setting off the bleeper in the room that could uh\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.B.argumentstructs.Erik.18",
+            "ans": "ES2004b.C.argumentstructs.Erik.22",
+            "judgement": false
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 12,
+                "ae_id": "ES2004b.C.argumentstructs.Erik.23",
+                "speaker": "C",
+                "start_time": 1919.28,
+                "end_time": 1920.56,
+                "sentence": "Yeah on that as well so.",
+                "source": "ES2004b.B.argumentstructs.Erik.19",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 5,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.20",
+                    "speaker": "C",
+                    "start_time": 1879.56,
+                    "end_time": 1889.877,
+                    "sentence": "Um they're they're specially made for the for the mobile phones, but they come with a charger, I mean you could you could bundle a charger in with it but",
+                    "source": "ES2004b.B.argumentstructs.Erik.17",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.18"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.18",
+                    "speaker": "B",
+                    "start_time": 1888.54,
+                    "end_time": 1910.03,
+                    "sentence": "Well they la they they last quite a long time, and if you had uh  when you  th the thing that you get with mobile house phones, you sit it in its charger when you're not using it or t at night or something, but it doesn't really matter 'cause it never really runs out 'cause it lasts a long time once it is charged. Um, something like that should reduce the size of it.",
+                    "source": "ES2004b.C.argumentstructs.Erik.20",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.21",
+                        "ES2004b.C.argumentstructs.Erik.22",
+                        "ES2004b.A.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.21",
+                    "speaker": "C",
+                    "start_time": 1897.23,
+                    "end_time": 1897.87,
+                    "sentence": "Yeah.",
+                    "source": "ES2004b.B.argumentstructs.Erik.18",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.22",
+                    "speaker": "C",
+                    "start_time": 1909.09,
+                    "end_time": 1917.344,
+                    "sentence": "Yeah and if  yeah if you if you had if you had one of those  uh just coming back to your other point about pressing the button and setting off the bleeper in the room that could uh",
+                    "source": "ES2004b.B.argumentstructs.Erik.18",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.19"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.19",
+                    "speaker": "B",
+                    "start_time": 1918.2,
+                    "end_time": 1921.07,
+                    "sentence": "Yeah it could be on that  yeah, okay.",
+                    "source": "ES2004b.C.argumentstructs.Erik.22",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.23"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2004b.C.argumentstructs.Erik.23\n- Index: 12\n- Speaker: C\n- Sentence: \"Yeah on that as well so.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.C.argumentstructs.Erik.20 (Index: 5, Speaker: C): \"Um they're they're specially made for the for the mobile phones, but they come with a charger, I mean you could you could bundle a charger in with it but\"\nAE_ID ES2004b.B.argumentstructs.Erik.18 (Index: 6, Speaker: B): \"Well they la they they last quite a long time, and if you had uh  when you  th the thing that you get with mobile house phones, you sit it in its charger when you're not using it or t at night or something, but it doesn't really matter 'cause it never really runs out 'cause it lasts a long time once it is charged. Um, something like that should reduce the size of it.\"\nAE_ID ES2004b.C.argumentstructs.Erik.21 (Index: 8, Speaker: C): \"Yeah.\"\nAE_ID ES2004b.C.argumentstructs.Erik.22 (Index: 10, Speaker: C): \"Yeah and if  yeah if you if you had if you had one of those  uh just coming back to your other point about pressing the button and setting off the bleeper in the room that could uh\"\nAE_ID ES2004b.B.argumentstructs.Erik.19 (Index: 11, Speaker: B): \"Yeah it could be on that  yeah, okay.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.B.argumentstructs.Erik.19",
+            "ans": "ES2004b.B.argumentstructs.Erik.19",
+            "judgement": true
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 14,
+                "ae_id": "ES2004b.A.argumentstructs.Erik.8",
+                "speaker": "A",
+                "start_time": 1922.53,
+                "end_time": 1926.16,
+                "sentence": "So are we talking of a concept of a rechargeable something on the remote ?",
+                "source": "ES2004b.B.argumentstructs.Erik.18",
+                "targets": [
+                    "ES2004b.C.argumentstructs.Erik.24",
+                    "ES2004b.B.argumentstructs.Erik.20"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 6,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.18",
+                    "speaker": "B",
+                    "start_time": 1888.54,
+                    "end_time": 1910.03,
+                    "sentence": "Well they la they they last quite a long time, and if you had uh  when you  th the thing that you get with mobile house phones, you sit it in its charger when you're not using it or t at night or something, but it doesn't really matter 'cause it never really runs out 'cause it lasts a long time once it is charged. Um, something like that should reduce the size of it.",
+                    "source": "ES2004b.C.argumentstructs.Erik.20",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.21",
+                        "ES2004b.C.argumentstructs.Erik.22",
+                        "ES2004b.A.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.21",
+                    "speaker": "C",
+                    "start_time": 1897.23,
+                    "end_time": 1897.87,
+                    "sentence": "Yeah.",
+                    "source": "ES2004b.B.argumentstructs.Erik.18",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.22",
+                    "speaker": "C",
+                    "start_time": 1909.09,
+                    "end_time": 1917.344,
+                    "sentence": "Yeah and if  yeah if you if you had if you had one of those  uh just coming back to your other point about pressing the button and setting off the bleeper in the room that could uh",
+                    "source": "ES2004b.B.argumentstructs.Erik.18",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.19"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.19",
+                    "speaker": "B",
+                    "start_time": 1918.2,
+                    "end_time": 1921.07,
+                    "sentence": "Yeah it could be on that  yeah, okay.",
+                    "source": "ES2004b.C.argumentstructs.Erik.22",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.23",
+                    "speaker": "C",
+                    "start_time": 1919.28,
+                    "end_time": 1920.56,
+                    "sentence": "Yeah on that as well so.",
+                    "source": "ES2004b.B.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2004b.A.argumentstructs.Erik.8\n- Index: 14\n- Speaker: A\n- Sentence: \"So are we talking of a concept of a rechargeable something on the remote ?\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.B.argumentstructs.Erik.18 (Index: 6, Speaker: B): \"Well they la they they last quite a long time, and if you had uh  when you  th the thing that you get with mobile house phones, you sit it in its charger when you're not using it or t at night or something, but it doesn't really matter 'cause it never really runs out 'cause it lasts a long time once it is charged. Um, something like that should reduce the size of it.\"\nAE_ID ES2004b.C.argumentstructs.Erik.21 (Index: 8, Speaker: C): \"Yeah.\"\nAE_ID ES2004b.C.argumentstructs.Erik.22 (Index: 10, Speaker: C): \"Yeah and if  yeah if you if you had if you had one of those  uh just coming back to your other point about pressing the button and setting off the bleeper in the room that could uh\"\nAE_ID ES2004b.B.argumentstructs.Erik.19 (Index: 11, Speaker: B): \"Yeah it could be on that  yeah, okay.\"\nAE_ID ES2004b.C.argumentstructs.Erik.23 (Index: 12, Speaker: C): \"Yeah on that as well so.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.B.argumentstructs.Erik.18",
+            "ans": "ES2004b.B.argumentstructs.Erik.18",
+            "judgement": true
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 15,
+                "ae_id": "ES2004b.C.argumentstructs.Erik.24",
+                "speaker": "C",
+                "start_time": 1925.52,
+                "end_time": 1929.7,
+                "sentence": "Yeah some sort of docking station or  yeah.",
+                "source": "ES2004b.A.argumentstructs.Erik.8",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 8,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.21",
+                    "speaker": "C",
+                    "start_time": 1897.23,
+                    "end_time": 1897.87,
+                    "sentence": "Yeah.",
+                    "source": "ES2004b.B.argumentstructs.Erik.18",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.22",
+                    "speaker": "C",
+                    "start_time": 1909.09,
+                    "end_time": 1917.344,
+                    "sentence": "Yeah and if  yeah if you if you had if you had one of those  uh just coming back to your other point about pressing the button and setting off the bleeper in the room that could uh",
+                    "source": "ES2004b.B.argumentstructs.Erik.18",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.19"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.19",
+                    "speaker": "B",
+                    "start_time": 1918.2,
+                    "end_time": 1921.07,
+                    "sentence": "Yeah it could be on that  yeah, okay.",
+                    "source": "ES2004b.C.argumentstructs.Erik.22",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.23",
+                    "speaker": "C",
+                    "start_time": 1919.28,
+                    "end_time": 1920.56,
+                    "sentence": "Yeah on that as well so.",
+                    "source": "ES2004b.B.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2004b.A.argumentstructs.Erik.8",
+                    "speaker": "A",
+                    "start_time": 1922.53,
+                    "end_time": 1926.16,
+                    "sentence": "So are we talking of a concept of a rechargeable something on the remote ?",
+                    "source": "ES2004b.B.argumentstructs.Erik.18",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.24",
+                        "ES2004b.B.argumentstructs.Erik.20"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2004b.C.argumentstructs.Erik.24\n- Index: 15\n- Speaker: C\n- Sentence: \"Yeah some sort of docking station or  yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.C.argumentstructs.Erik.21 (Index: 8, Speaker: C): \"Yeah.\"\nAE_ID ES2004b.C.argumentstructs.Erik.22 (Index: 10, Speaker: C): \"Yeah and if  yeah if you if you had if you had one of those  uh just coming back to your other point about pressing the button and setting off the bleeper in the room that could uh\"\nAE_ID ES2004b.B.argumentstructs.Erik.19 (Index: 11, Speaker: B): \"Yeah it could be on that  yeah, okay.\"\nAE_ID ES2004b.C.argumentstructs.Erik.23 (Index: 12, Speaker: C): \"Yeah on that as well so.\"\nAE_ID ES2004b.A.argumentstructs.Erik.8 (Index: 14, Speaker: A): \"So are we talking of a concept of a rechargeable something on the remote ?\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.A.argumentstructs.Erik.8",
+            "ans": "ES2004b.A.argumentstructs.Erik.8",
+            "judgement": true
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 16,
+                "ae_id": "ES2004b.B.argumentstructs.Erik.20",
+                "speaker": "B",
+                "start_time": 1926.1,
+                "end_time": 1926.66,
+                "sentence": "Yes.",
+                "source": "ES2004b.A.argumentstructs.Erik.8",
+                "targets": [
+                    "ES2004b.B.argumentstructs.Erik.21"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 10,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.22",
+                    "speaker": "C",
+                    "start_time": 1909.09,
+                    "end_time": 1917.344,
+                    "sentence": "Yeah and if  yeah if you if you had if you had one of those  uh just coming back to your other point about pressing the button and setting off the bleeper in the room that could uh",
+                    "source": "ES2004b.B.argumentstructs.Erik.18",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.19"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.19",
+                    "speaker": "B",
+                    "start_time": 1918.2,
+                    "end_time": 1921.07,
+                    "sentence": "Yeah it could be on that  yeah, okay.",
+                    "source": "ES2004b.C.argumentstructs.Erik.22",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.23",
+                    "speaker": "C",
+                    "start_time": 1919.28,
+                    "end_time": 1920.56,
+                    "sentence": "Yeah on that as well so.",
+                    "source": "ES2004b.B.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2004b.A.argumentstructs.Erik.8",
+                    "speaker": "A",
+                    "start_time": 1922.53,
+                    "end_time": 1926.16,
+                    "sentence": "So are we talking of a concept of a rechargeable something on the remote ?",
+                    "source": "ES2004b.B.argumentstructs.Erik.18",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.24",
+                        "ES2004b.B.argumentstructs.Erik.20"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.24",
+                    "speaker": "C",
+                    "start_time": 1925.52,
+                    "end_time": 1929.7,
+                    "sentence": "Yeah some sort of docking station or  yeah.",
+                    "source": "ES2004b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2004b.B.argumentstructs.Erik.20\n- Index: 16\n- Speaker: B\n- Sentence: \"Yes.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.C.argumentstructs.Erik.22 (Index: 10, Speaker: C): \"Yeah and if  yeah if you if you had if you had one of those  uh just coming back to your other point about pressing the button and setting off the bleeper in the room that could uh\"\nAE_ID ES2004b.B.argumentstructs.Erik.19 (Index: 11, Speaker: B): \"Yeah it could be on that  yeah, okay.\"\nAE_ID ES2004b.C.argumentstructs.Erik.23 (Index: 12, Speaker: C): \"Yeah on that as well so.\"\nAE_ID ES2004b.A.argumentstructs.Erik.8 (Index: 14, Speaker: A): \"So are we talking of a concept of a rechargeable something on the remote ?\"\nAE_ID ES2004b.C.argumentstructs.Erik.24 (Index: 15, Speaker: C): \"Yeah some sort of docking station or  yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.C.argumentstructs.Erik.24",
+            "ans": "ES2004b.A.argumentstructs.Erik.8",
+            "judgement": false
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 17,
+                "ae_id": "ES2004b.B.argumentstructs.Erik.21",
+                "speaker": "B",
+                "start_time": 1927.73,
+                "end_time": 1929.46,
+                "sentence": "Rechargeable with a docking station.",
+                "source": "ES2004b.B.argumentstructs.Erik.20",
+                "targets": [
+                    "ES2004b.B.argumentstructs.Erik.22"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 11,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.19",
+                    "speaker": "B",
+                    "start_time": 1918.2,
+                    "end_time": 1921.07,
+                    "sentence": "Yeah it could be on that  yeah, okay.",
+                    "source": "ES2004b.C.argumentstructs.Erik.22",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.23",
+                    "speaker": "C",
+                    "start_time": 1919.28,
+                    "end_time": 1920.56,
+                    "sentence": "Yeah on that as well so.",
+                    "source": "ES2004b.B.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2004b.A.argumentstructs.Erik.8",
+                    "speaker": "A",
+                    "start_time": 1922.53,
+                    "end_time": 1926.16,
+                    "sentence": "So are we talking of a concept of a rechargeable something on the remote ?",
+                    "source": "ES2004b.B.argumentstructs.Erik.18",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.24",
+                        "ES2004b.B.argumentstructs.Erik.20"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.24",
+                    "speaker": "C",
+                    "start_time": 1925.52,
+                    "end_time": 1929.7,
+                    "sentence": "Yeah some sort of docking station or  yeah.",
+                    "source": "ES2004b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.20",
+                    "speaker": "B",
+                    "start_time": 1926.1,
+                    "end_time": 1926.66,
+                    "sentence": "Yes.",
+                    "source": "ES2004b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.21"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2004b.B.argumentstructs.Erik.21\n- Index: 17\n- Speaker: B\n- Sentence: \"Rechargeable with a docking station.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.B.argumentstructs.Erik.19 (Index: 11, Speaker: B): \"Yeah it could be on that  yeah, okay.\"\nAE_ID ES2004b.C.argumentstructs.Erik.23 (Index: 12, Speaker: C): \"Yeah on that as well so.\"\nAE_ID ES2004b.A.argumentstructs.Erik.8 (Index: 14, Speaker: A): \"So are we talking of a concept of a rechargeable something on the remote ?\"\nAE_ID ES2004b.C.argumentstructs.Erik.24 (Index: 15, Speaker: C): \"Yeah some sort of docking station or  yeah.\"\nAE_ID ES2004b.B.argumentstructs.Erik.20 (Index: 16, Speaker: B): \"Yes.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.C.argumentstructs.Erik.24",
+            "ans": "ES2004b.B.argumentstructs.Erik.20",
+            "judgement": false
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 20,
+                "ae_id": "ES2004b.C.argumentstructs.Erik.25",
+                "speaker": "C",
+                "start_time": 1933.38,
+                "end_time": 1939.63,
+                "sentence": "Yeah yeah th yeah that that'd be fine, and also that would mean they wouldn't have to go out buying batteries all the time.",
+                "source": "ES2004b.B.argumentstructs.Erik.22",
+                "targets": [
+                    "ES2004b.B.argumentstructs.Erik.23",
+                    "ES2004b.B.argumentstructs.Erik.24"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 12,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.23",
+                    "speaker": "C",
+                    "start_time": 1919.28,
+                    "end_time": 1920.56,
+                    "sentence": "Yeah on that as well so.",
+                    "source": "ES2004b.B.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2004b.A.argumentstructs.Erik.8",
+                    "speaker": "A",
+                    "start_time": 1922.53,
+                    "end_time": 1926.16,
+                    "sentence": "So are we talking of a concept of a rechargeable something on the remote ?",
+                    "source": "ES2004b.B.argumentstructs.Erik.18",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.24",
+                        "ES2004b.B.argumentstructs.Erik.20"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.24",
+                    "speaker": "C",
+                    "start_time": 1925.52,
+                    "end_time": 1929.7,
+                    "sentence": "Yeah some sort of docking station or  yeah.",
+                    "source": "ES2004b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.20",
+                    "speaker": "B",
+                    "start_time": 1926.1,
+                    "end_time": 1926.66,
+                    "sentence": "Yes.",
+                    "source": "ES2004b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.21"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.21",
+                    "speaker": "B",
+                    "start_time": 1927.73,
+                    "end_time": 1929.46,
+                    "sentence": "Rechargeable with a docking station.",
+                    "source": "ES2004b.B.argumentstructs.Erik.20",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.22"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2004b.C.argumentstructs.Erik.25\n- Index: 20\n- Speaker: C\n- Sentence: \"Yeah yeah th yeah that that'd be fine, and also that would mean they wouldn't have to go out buying batteries all the time.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.C.argumentstructs.Erik.23 (Index: 12, Speaker: C): \"Yeah on that as well so.\"\nAE_ID ES2004b.A.argumentstructs.Erik.8 (Index: 14, Speaker: A): \"So are we talking of a concept of a rechargeable something on the remote ?\"\nAE_ID ES2004b.C.argumentstructs.Erik.24 (Index: 15, Speaker: C): \"Yeah some sort of docking station or  yeah.\"\nAE_ID ES2004b.B.argumentstructs.Erik.20 (Index: 16, Speaker: B): \"Yes.\"\nAE_ID ES2004b.B.argumentstructs.Erik.21 (Index: 17, Speaker: B): \"Rechargeable with a docking station.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.B.argumentstructs.Erik.21",
+            "ans": "ES2004b.B.argumentstructs.Erik.22",
+            "judgement": false
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 21,
+                "ae_id": "ES2004b.B.argumentstructs.Erik.22",
+                "speaker": "B",
+                "start_time": 1934.02,
+                "end_time": 1934.38,
+                "sentence": "field.",
+                "source": "ES2004b.B.argumentstructs.Erik.21",
+                "targets": [
+                    "ES2004b.C.argumentstructs.Erik.25"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 14,
+                    "ae_id": "ES2004b.A.argumentstructs.Erik.8",
+                    "speaker": "A",
+                    "start_time": 1922.53,
+                    "end_time": 1926.16,
+                    "sentence": "So are we talking of a concept of a rechargeable something on the remote ?",
+                    "source": "ES2004b.B.argumentstructs.Erik.18",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.24",
+                        "ES2004b.B.argumentstructs.Erik.20"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.24",
+                    "speaker": "C",
+                    "start_time": 1925.52,
+                    "end_time": 1929.7,
+                    "sentence": "Yeah some sort of docking station or  yeah.",
+                    "source": "ES2004b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.20",
+                    "speaker": "B",
+                    "start_time": 1926.1,
+                    "end_time": 1926.66,
+                    "sentence": "Yes.",
+                    "source": "ES2004b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.21"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.21",
+                    "speaker": "B",
+                    "start_time": 1927.73,
+                    "end_time": 1929.46,
+                    "sentence": "Rechargeable with a docking station.",
+                    "source": "ES2004b.B.argumentstructs.Erik.20",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.22"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.25",
+                    "speaker": "C",
+                    "start_time": 1933.38,
+                    "end_time": 1939.63,
+                    "sentence": "Yeah yeah th yeah that that'd be fine, and also that would mean they wouldn't have to go out buying batteries all the time.",
+                    "source": "ES2004b.B.argumentstructs.Erik.22",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.23",
+                        "ES2004b.B.argumentstructs.Erik.24"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2004b.B.argumentstructs.Erik.22\n- Index: 21\n- Speaker: B\n- Sentence: \"field.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.A.argumentstructs.Erik.8 (Index: 14, Speaker: A): \"So are we talking of a concept of a rechargeable something on the remote ?\"\nAE_ID ES2004b.C.argumentstructs.Erik.24 (Index: 15, Speaker: C): \"Yeah some sort of docking station or  yeah.\"\nAE_ID ES2004b.B.argumentstructs.Erik.20 (Index: 16, Speaker: B): \"Yes.\"\nAE_ID ES2004b.B.argumentstructs.Erik.21 (Index: 17, Speaker: B): \"Rechargeable with a docking station.\"\nAE_ID ES2004b.C.argumentstructs.Erik.25 (Index: 20, Speaker: C): \"Yeah yeah th yeah that that'd be fine, and also that would mean they wouldn't have to go out buying batteries all the time.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.B.argumentstructs.Erik.21",
+            "ans": "ES2004b.B.argumentstructs.Erik.21",
+            "judgement": true
+        },
+        {
+            "turn_number": 13,
+            "current_node": {
+                "index": 22,
+                "ae_id": "ES2004b.B.argumentstructs.Erik.23",
+                "speaker": "B",
+                "start_time": 1936.13,
+                "end_time": 1936.67,
+                "sentence": "Okay.",
+                "source": "ES2004b.C.argumentstructs.Erik.25",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 15,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.24",
+                    "speaker": "C",
+                    "start_time": 1925.52,
+                    "end_time": 1929.7,
+                    "sentence": "Yeah some sort of docking station or  yeah.",
+                    "source": "ES2004b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.20",
+                    "speaker": "B",
+                    "start_time": 1926.1,
+                    "end_time": 1926.66,
+                    "sentence": "Yes.",
+                    "source": "ES2004b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.21"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.21",
+                    "speaker": "B",
+                    "start_time": 1927.73,
+                    "end_time": 1929.46,
+                    "sentence": "Rechargeable with a docking station.",
+                    "source": "ES2004b.B.argumentstructs.Erik.20",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.22"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.25",
+                    "speaker": "C",
+                    "start_time": 1933.38,
+                    "end_time": 1939.63,
+                    "sentence": "Yeah yeah th yeah that that'd be fine, and also that would mean they wouldn't have to go out buying batteries all the time.",
+                    "source": "ES2004b.B.argumentstructs.Erik.22",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.23",
+                        "ES2004b.B.argumentstructs.Erik.24"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.22",
+                    "speaker": "B",
+                    "start_time": 1934.02,
+                    "end_time": 1934.38,
+                    "sentence": "field.",
+                    "source": "ES2004b.B.argumentstructs.Erik.21",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.25"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2004b.B.argumentstructs.Erik.23\n- Index: 22\n- Speaker: B\n- Sentence: \"Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.C.argumentstructs.Erik.24 (Index: 15, Speaker: C): \"Yeah some sort of docking station or  yeah.\"\nAE_ID ES2004b.B.argumentstructs.Erik.20 (Index: 16, Speaker: B): \"Yes.\"\nAE_ID ES2004b.B.argumentstructs.Erik.21 (Index: 17, Speaker: B): \"Rechargeable with a docking station.\"\nAE_ID ES2004b.C.argumentstructs.Erik.25 (Index: 20, Speaker: C): \"Yeah yeah th yeah that that'd be fine, and also that would mean they wouldn't have to go out buying batteries all the time.\"\nAE_ID ES2004b.B.argumentstructs.Erik.22 (Index: 21, Speaker: B): \"field.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.B.argumentstructs.Erik.22",
+            "ans": "ES2004b.C.argumentstructs.Erik.25",
+            "judgement": false
+        },
+        {
+            "turn_number": 14,
+            "current_node": {
+                "index": 23,
+                "ae_id": "ES2004b.B.argumentstructs.Erik.24",
+                "speaker": "B",
+                "start_time": 1939.52,
+                "end_time": 1942.91,
+                "sentence": "Yes, which it is cheaper in the long run as well",
+                "source": "ES2004b.C.argumentstructs.Erik.25",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 16,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.20",
+                    "speaker": "B",
+                    "start_time": 1926.1,
+                    "end_time": 1926.66,
+                    "sentence": "Yes.",
+                    "source": "ES2004b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.21"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.21",
+                    "speaker": "B",
+                    "start_time": 1927.73,
+                    "end_time": 1929.46,
+                    "sentence": "Rechargeable with a docking station.",
+                    "source": "ES2004b.B.argumentstructs.Erik.20",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.22"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.25",
+                    "speaker": "C",
+                    "start_time": 1933.38,
+                    "end_time": 1939.63,
+                    "sentence": "Yeah yeah th yeah that that'd be fine, and also that would mean they wouldn't have to go out buying batteries all the time.",
+                    "source": "ES2004b.B.argumentstructs.Erik.22",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.23",
+                        "ES2004b.B.argumentstructs.Erik.24"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.22",
+                    "speaker": "B",
+                    "start_time": 1934.02,
+                    "end_time": 1934.38,
+                    "sentence": "field.",
+                    "source": "ES2004b.B.argumentstructs.Erik.21",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.25"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.23",
+                    "speaker": "B",
+                    "start_time": 1936.13,
+                    "end_time": 1936.67,
+                    "sentence": "Okay.",
+                    "source": "ES2004b.C.argumentstructs.Erik.25",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2004b.B.argumentstructs.Erik.24\n- Index: 23\n- Speaker: B\n- Sentence: \"Yes, which it is cheaper in the long run as well\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.B.argumentstructs.Erik.20 (Index: 16, Speaker: B): \"Yes.\"\nAE_ID ES2004b.B.argumentstructs.Erik.21 (Index: 17, Speaker: B): \"Rechargeable with a docking station.\"\nAE_ID ES2004b.C.argumentstructs.Erik.25 (Index: 20, Speaker: C): \"Yeah yeah th yeah that that'd be fine, and also that would mean they wouldn't have to go out buying batteries all the time.\"\nAE_ID ES2004b.B.argumentstructs.Erik.22 (Index: 21, Speaker: B): \"field.\"\nAE_ID ES2004b.B.argumentstructs.Erik.23 (Index: 22, Speaker: B): \"Okay.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.B.argumentstructs.Erik.21",
+            "ans": "ES2004b.C.argumentstructs.Erik.25",
+            "judgement": false
+        }
+    ]
+}

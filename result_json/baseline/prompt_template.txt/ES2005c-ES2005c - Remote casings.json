@@ -3,7 +3,7 @@
     "use_model": "gpt-4o-mini",
     "use_method": "baseline",
     "template": "prompt_template.txt",
-    "rate": 0.22727272727272727,
+    "rate": 0.2727272727272727,
     "total_node_count": 30,
     "removed_node_count": 7,
     "removed_node_list": [
@@ -991,9 +991,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2005c.C.argumentstructs.Erik.20:\n\"You can standardise those, I mean.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2005c.D.argumentstructs.Erik.24 (Index: 10, Speaker: D): \"Yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.19 (Index: 11, Speaker: C): \"Like like mobiles, yeah.\"\nAE_ID ES2005c.D.argumentstructs.Erik.25 (Index: 12, Speaker: D): \"Yeah.\"\nAE_ID ES2005c.D.argumentstructs.Erik.26 (Index: 14, Speaker: D): \"Okay. We still need the buttons in the same places thought, don't we ?\"\nAE_ID ES2005c.B.argumentstructs.Erik.6 (Index: 15, Speaker: B): \"Yeah, button will be on the upper side, buttons will be the on the upper side. Yeah, buttons will be on the upper side, lower side we will just put the casing, so half of that will be look the  Yeah, not not the upper side. So from lower you can, it means while you are holding of  from this side you c you can have banana look or apple look, whatever. So in that way we need not to d have different different shape mobiles everything, we will just design casings fruit shape. And\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2005c.D.argumentstructs.Erik.26",
+            "gpt_ans": "ES2005c.B.argumentstructs.Erik.6",
             "ans": "ES2005c.B.argumentstructs.Erik.6",
-            "judgement": false
+            "judgement": true
         },
         {
             "turn_number": 13,
@@ -1243,7 +1243,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2005c.A.argumentstructs.Erik.15:\n\"Yeah yeah.\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2005c.D.argumentstructs.Erik.26 (Index: 14, Speaker: D): \"Okay. We still need the buttons in the same places thought, don't we ?\"\nAE_ID ES2005c.B.argumentstructs.Erik.6 (Index: 15, Speaker: B): \"Yeah, button will be on the upper side, buttons will be the on the upper side. Yeah, buttons will be on the upper side, lower side we will just put the casing, so half of that will be look the  Yeah, not not the upper side. So from lower you can, it means while you are holding of  from this side you c you can have banana look or apple look, whatever. So in that way we need not to d have different different shape mobiles everything, we will just design casings fruit shape. And\"\nAE_ID ES2005c.C.argumentstructs.Erik.20 (Index: 16, Speaker: C): \"You can standardise those, I mean.\"\nAE_ID ES2005c.D.argumentstructs.Erik.27 (Index: 17, Speaker: D): \"Oh, that's the other side. Oh, okay.\"\nAE_ID ES2005c.D.argumentstructs.Erik.28 (Index: 18, Speaker: D): \"Oh, half a fruit. Oh, okay, okay.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2005c.B.argumentstructs.Erik.6",
+            "gpt_ans": "ES2005c.D.argumentstructs.Erik.26",
             "ans": "ES2005c.D.argumentstructs.Erik.28",
             "judgement": false
         },
@@ -1491,7 +1491,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2005c.D.argumentstructs.Erik.29:\n\"Yeah.\" Speaker: D\n\nPast dialogue turns:\nAE_ID ES2005c.D.argumentstructs.Erik.27 (Index: 17, Speaker: D): \"Oh, that's the other side. Oh, okay.\"\nAE_ID ES2005c.D.argumentstructs.Erik.28 (Index: 18, Speaker: D): \"Oh, half a fruit. Oh, okay, okay.\"\nAE_ID ES2005c.A.argumentstructs.Erik.15 (Index: 20, Speaker: A): \"Yeah yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.21 (Index: 21, Speaker: C): \"I think tho I think if you're gonna have a facia then you'd want to have it so that it does go over the buttons, 'cause when  if you think about it if they're wanting it, 'cause they want to look at it, if they're using it, and what they want to look at is facing away from them.\"\nAE_ID ES2005c.C.argumentstructs.Erik.22 (Index: 23, Speaker: C): \"You know 'cause that'd be in the palm of their hand and they wouldn't be able to see it, unless you have sort of  you got the buttons options on one side, and you get the facia on the other side with a microphone so that you can place it face down.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2005c.D.argumentstructs.Erik.27",
+            "gpt_ans": "ES2005c.D.argumentstructs.Erik.28",
             "ans": "ES2005c.C.argumentstructs.Erik.22",
             "judgement": false
         },
@@ -1657,7 +1657,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2005c.C.argumentstructs.Erik.24:\n\"Maybe.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2005c.A.argumentstructs.Erik.15 (Index: 20, Speaker: A): \"Yeah yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.21 (Index: 21, Speaker: C): \"I think tho I think if you're gonna have a facia then you'd want to have it so that it does go over the buttons, 'cause when  if you think about it if they're wanting it, 'cause they want to look at it, if they're using it, and what they want to look at is facing away from them.\"\nAE_ID ES2005c.C.argumentstructs.Erik.22 (Index: 23, Speaker: C): \"You know 'cause that'd be in the palm of their hand and they wouldn't be able to see it, unless you have sort of  you got the buttons options on one side, and you get the facia on the other side with a microphone so that you can place it face down.\"\nAE_ID ES2005c.D.argumentstructs.Erik.29 (Index: 24, Speaker: D): \"Yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.23 (Index: 25, Speaker: C): \"And you've got the facia, and you can just talk at the\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2005c.C.argumentstructs.Erik.21",
+            "gpt_ans": "ES2005c.C.argumentstructs.Erik.22",
             "ans": "ES2005c.C.argumentstructs.Erik.23",
             "judgement": false
         },
@@ -1823,7 +1823,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2005c.C.argumentstructs.Erik.25:\n\"So you've narrowed it down to half a dozen options.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2005c.C.argumentstructs.Erik.22 (Index: 23, Speaker: C): \"You know 'cause that'd be in the palm of their hand and they wouldn't be able to see it, unless you have sort of  you got the buttons options on one side, and you get the facia on the other side with a microphone so that you can place it face down.\"\nAE_ID ES2005c.D.argumentstructs.Erik.29 (Index: 24, Speaker: D): \"Yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.23 (Index: 25, Speaker: C): \"And you've got the facia, and you can just talk at the\"\nAE_ID ES2005c.C.argumentstructs.Erik.24 (Index: 27, Speaker: C): \"Maybe.\"\nAE_ID ES2005c.A.argumentstructs.Erik.16 (Index: 28, Speaker: A): \"Okay, um so\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2005c.C.argumentstructs.Erik.23",
+            "gpt_ans": "ES2005c.C.argumentstructs.Erik.24",
             "ans": "ES2005c.A.argumentstructs.Erik.16",
             "judgement": false
         }

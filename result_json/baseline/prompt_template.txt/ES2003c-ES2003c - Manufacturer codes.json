@@ -3,7 +3,7 @@
     "use_model": "gpt-4o-mini",
     "use_method": "baseline",
     "template": "prompt_template.txt",
-    "rate": 0.3888888888888889,
+    "rate": 0.5555555555555556,
     "total_node_count": 27,
     "removed_node_count": 8,
     "removed_node_list": [
@@ -262,9 +262,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003c.C.argumentstructs.Erik.6:\n\"Yeah.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2003c.C.argumentstructs.Erik.4 (Index: 0, Speaker: C): \"S oh, I was gonna talk about the programmable remote control. Now I think it'd be cool if you had one remote control that could work with all T_V_s, you know you s you click a button and it finds the frequency that works with your particular television.\"\nAE_ID ES2003c.C.argumentstructs.Erik.5 (Index: 2, Speaker: C): \"But why you'd need to program it like as as a standard feature, I I don't know.\"\nAE_ID ES2003c.A.argumentstructs.Erik.2 (Index: 3, Speaker: A): \"Well basi  basically the um for  f for uh  I mean e each manufacturer will have a partic  will have a particular command set that uh the T_V_ responds to. It's not simply a matter of frequency.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003c.C.argumentstructs.Erik.5",
+            "gpt_ans": "ES2003c.A.argumentstructs.Erik.2",
             "ans": "ES2003c.A.argumentstructs.Erik.2",
-            "judgement": false
+            "judgement": true
         },
         {
             "turn_number": 4,
@@ -681,9 +681,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003c.B.argumentstructs.Erik.7:\n\"An interesting point is that if the person doesn't have the computer, we can still make the process easier because instead of having to look up codes, maybe we can have it that one of the options they have is that they look up the name of the company on the L_C_D_ and then they maybe look up different names of um  different actual units that have been produced. Or we have the remote control just go through them until it's like does this do the correct function, and such.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2003c.C.argumentstructs.Erik.6 (Index: 5, Speaker: C): \"Yeah.\"\nAE_ID ES2003c.A.argumentstructs.Erik.4 (Index: 7, Speaker: A): \"usually what's done is you have this big booklet full of different possi  you'll have all of them sort of programmed in to the uh remote, and you'll have this little booklet of codes you then find your um ma uh find your manufacturer and try the different codes that come under that manufacturer's name 'til you find the right one.\"\nAE_ID ES2003c.C.argumentstructs.Erik.7 (Index: 9, Speaker: C): \"That's because televisions, they don't give the remote control any type of feedback when you send it. Okay.\"\nAE_ID ES2003c.A.argumentstructs.Erik.5 (Index: 11, Speaker: A): \"Yeah, that's right.\"\nAE_ID ES2003c.A.argumentstructs.Erik.7 (Index: 12, Speaker: A): \"So that's that's quite annoying and we probably would still have to do that. But if we had um some sort of hook-up to your computer as an option, then if you've got a computer you can avoid that rather irritating thing.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003c.A.argumentstructs.Erik.5",
+            "gpt_ans": "ES2003c.A.argumentstructs.Erik.4",
             "ans": "ES2003c.A.argumentstructs.Erik.4",
-            "judgement": false
+            "judgement": true
         },
         {
             "turn_number": 9,
@@ -928,9 +928,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003c.A.argumentstructs.Erik.9:\n\"Um booklet.  Some pages.\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2003c.A.argumentstructs.Erik.5 (Index: 11, Speaker: A): \"Yeah, that's right.\"\nAE_ID ES2003c.A.argumentstructs.Erik.7 (Index: 12, Speaker: A): \"So that's that's quite annoying and we probably would still have to do that. But if we had um some sort of hook-up to your computer as an option, then if you've got a computer you can avoid that rather irritating thing.\"\nAE_ID ES2003c.B.argumentstructs.Erik.7 (Index: 13, Speaker: B): \"An interesting point is that if the person doesn't have the computer, we can still make the process easier because instead of having to look up codes, maybe we can have it that one of the options they have is that they look up the name of the company on the L_C_D_ and then they maybe look up different names of um  different actual units that have been produced. Or we have the remote control just go through them until it's like does this do the correct function, and such.\"\nAE_ID ES2003c.A.argumentstructs.Erik.8 (Index: 14, Speaker: A): \"Yeah\"\nAE_ID ES2003c.C.argumentstructs.Erik.8 (Index: 16, Speaker: C): \"Is it is it actually a book of names to digits, or is it like a few pages ?\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003c.A.argumentstructs.Erik.8",
+            "gpt_ans": "ES2003c.C.argumentstructs.Erik.8",
             "ans": "ES2003c.C.argumentstructs.Erik.8",
-            "judgement": false
+            "judgement": true
         },
         {
             "turn_number": 12,

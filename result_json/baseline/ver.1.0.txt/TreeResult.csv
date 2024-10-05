@@ -1,11 +1,51 @@
 file_name,rate,num_solved_problems,num_options_without_answer,build_tree_depth,real_tree_depth
-ES2002a - Regions,0.42857142857142855,8,0,4,2
-ES2002a - Remote design wrap up,0.5384615384615384,14,0,5,4
-ES2002a - Remote functionality,0.5,31,0,15,8
-ES2002b - Desired functions,0.5238095238095238,22,0,11,8
-ES2002b - Target audience,0.41379310344827586,30,0,14,6
-ES2002c - LCD display,0.5833333333333334,13,0,6,6
-ES2002c - Light option,0.5,21,0,8,11
-ES2002c - Remote shape,0.45454545454545453,23,0,11,7
-ES2002c - Technology,0.4,16,0,7,4
-ES2002d - Digital pens,0.3333333333333333,13,0,5,3
+ES2002a - Regions,42.86%,8,0,4,2
+ES2002a - Remote design wrap up,53.85%,14,0,5,4
+ES2002a - Remote functionality,43.33%,31,0,14,8
+ES2002b - Desired functions,52.38%,22,0,10,8
+ES2002b - Target audience,37.93%,30,0,11,6
+ES2002c - LCD display,41.67%,13,0,7,6
+ES2002c - Light option,50.00%,21,0,8,11
+ES2002c - Remote shape,50.00%,23,0,12,7
+ES2002c - Technology,33.33%,16,0,7,4
+ES2002d - Digital pens,33.33%,13,0,5,3
+ES2002d - Jog dial use,55.00%,21,0,8,7
+ES2002d - Leadership,46.15%,14,0,7,5
+ES2002d - Remote height,37.50%,17,0,6,8
+ES2002d - Remote size,80.00%,11,0,6,7
+ES2002d - Remote width,58.33%,13,0,4,5
+ES2002d - Teamwork,33.33%,25,0,8,6
+ES2003a - Marktpositie AB,28.57%,22,0,13,9
+ES2003a - User wishes,35.71%,15,0,7,5
+ES2003b - Joystick use,38.10%,22,0,7,9
+ES2003b - Remote purpose,53.33%,46,0,17,6
+ES2003c - Manufacturer codes,50.00%,19,0,7,6
+ES2003c - Remote design,40.91%,23,0,10,8
+ES2003c - Three types of batteries,33.33%,16,0,7,5
+ES2003c - USB functionality,39.13%,24,0,12,11
+ES2003d - Fashion score,55.00%,41,0,19,14
+ES2003d - Innovation score,33.33%,13,0,5,4
+ES2003d - Lost remote score,45.45%,23,0,7,5
+ES2003d - Remote cost,47.71%,110,0,19,6
+ES2004a - Older generation,52.63%,20,0,8,5
+ES2004b - Batteries,50.00%,15,0,7,8
+ES2004b - Combined remote,50.00%,19,0,8,7
+ES2004b - Remote design,41.18%,18,0,5,3
+ES2004b - Target audience,40.00%,6,0,4,2
+ES2004b - Touch screen,30.00%,11,0,3,3
+ES2004b - Video plus,38.89%,19,0,9,5
+ES2004c - Battery options,55.88%,35,0,15,7
+ES2004c - Different fasciae,38.46%,14,0,5,4
+ES2004d - Rubber remote,47.62%,22,0,11,9
+ES2005b - Lost remote,33.33%,19,0,7,5
+ES2005c - LCD screen,42.86%,22,0,9,6
+ES2005c - Rechargeable,27.50%,41,0,17,6
+ES2005c - Remote casing,40.00%,16,0,6,4
+ES2005c - Remote casings,54.55%,23,0,7,7
+ES2005c - Remote color,14.29%,15,0,6,10
+ES2005d - Trend score,50.00%,13,0,6,4
+ES2006a - Remote first ideas,42.86%,22,0,8,6
+ES2006b - Target audience,35.00%,21,0,9,6
+ES2006b - Voice recognition or buttons,54.55%,12,0,4,4
+ES2006b - Voice recognition,29.41%,18,0,7,7
+ES2006d - Flipping open,47.06%,18,0,6,9

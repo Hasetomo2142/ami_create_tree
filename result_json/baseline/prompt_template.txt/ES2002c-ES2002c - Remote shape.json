@@ -1156,7 +1156,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002c.B.argumentstructs.Erik.13:\n\"That's quite a distinctive shape, that would be good wouldn't it.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2002c.D.argumentstructs.Erik.13 (Index: 13, Speaker: D): \"what it is we're trying to achieve, so and then we have one one sorta theme that we stick with. Do you know what I mean ?\"\nAE_ID ES2002c.B.argumentstructs.Erik.11 (Index: 14, Speaker: B): \"Okay right well um so thoughts about the actual shape of the thing.\"\nAE_ID ES2002c.C.argumentstructs.Erik.1 (Index: 15, Speaker: C): \"I'd quite like a sort of uh snowman type shape.\"\nAE_ID ES2002c.B.argumentstructs.Erik.12 (Index: 16, Speaker: B): \"A snowman shape ?\"\nAE_ID ES2002c.C.argumentstructs.Erik.2 (Index: 17, Speaker: C): \"Um so a p sort of larger bit sits in your hand, and then you got maybe another bubble at the top for just any other function you need.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2002c.B.argumentstructs.Erik.12",
+            "gpt_ans": "ES2002c.B.argumentstructs.Erik.11",
             "ans": "ES2002c.C.argumentstructs.Erik.2",
             "judgement": false
         },
@@ -1575,7 +1575,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002c.C.argumentstructs.Erik.3:\n\"Um something like that um you got two groups there um maybe it could fold up and you get a third group inside or uh you have volume controls about there.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2002c.B.argumentstructs.Erik.13 (Index: 19, Speaker: B): \"That's quite a distinctive shape, that would be good wouldn't it.\"\nAE_ID ES2002c.D.argumentstructs.Erik.14 (Index: 20, Speaker: D): \"Right, sure.\"\nAE_ID ES2002c.B.argumentstructs.Erik.14 (Index: 22, Speaker: B): \"Yeah so yeah should we go with that ?\"\nAE_ID ES2002c.B.argumentstructs.Erik.15 (Index: 23, Speaker: B): \"Do you wanna draw it on the board ?\"\nAE_ID ES2002c.D.argumentstructs.Erik.15 (Index: 24, Speaker: D): \"Can you like  yeah just t we can visualize it.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2002c.B.argumentstructs.Erik.13",
+            "gpt_ans": "ES2002c.B.argumentstructs.Erik.14",
             "ans": "ES2002c.B.argumentstructs.Erik.15",
             "judgement": false
         },

@@ -3,7 +3,7 @@
     "use_model": "gpt-4o-mini",
     "use_method": "baseline",
     "template": "prompt_template.txt",
-    "rate": 0.3119266055045872,
+    "rate": 0.28440366972477066,
     "total_node_count": 144,
     "removed_node_count": 34,
     "removed_node_list": [
@@ -529,9 +529,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.B.argumentstructs.Erik.6:\n\"It blows a lot of our really good ideas kind of slightly to one side, for example the possibility of having a U_S_B_ connection is definitely not viable now. Um.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2003d.B.argumentstructs.Erik.4 (Index: 1, Speaker: B): \"Slight problem we had was that we have an amazing four Euros over budget for what we were hoping to do. Um most of it stems from the use of the L_C_D_ which I think in the end accounted for about half of our expenditure because of course we required a chip as well. Um the only way to get this down was either to ditch the a L_C_D_, at which point we've removed a large part of how we were gonna interface,  require more buttons, etcetera.\"\nAE_ID ES2003d.B.argumentstructs.Erik.5 (Index: 2, Speaker: B): \"Or what we did was that we um we as in I as I was quickly going over it was altering the actual structure. Um changing it to plastic and a solid unit with a single curve design would allow us to come back into the um proposed costs and we're just scraping it in, we've got point two of a Euro left over there. So we're just managing it really. Even then as well, um there was no criteria technically defined for a joystick so I've used what I think's appropriate. With any luck that won't mean that we've incurred more cost than we can actually afford to.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003d.B.argumentstructs.Erik.4",
+            "gpt_ans": "ES2003d.B.argumentstructs.Erik.5",
             "ans": "ES2003d.B.argumentstructs.Erik.4",
-            "judgement": true
+            "judgement": false
         },
         {
             "turn_number": 3,
@@ -592,9 +592,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.C.argumentstructs.Erik.12:\n\"Different languages ?\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2003d.B.argumentstructs.Erik.4 (Index: 1, Speaker: B): \"Slight problem we had was that we have an amazing four Euros over budget for what we were hoping to do. Um most of it stems from the use of the L_C_D_ which I think in the end accounted for about half of our expenditure because of course we required a chip as well. Um the only way to get this down was either to ditch the a L_C_D_, at which point we've removed a large part of how we were gonna interface,  require more buttons, etcetera.\"\nAE_ID ES2003d.B.argumentstructs.Erik.5 (Index: 2, Speaker: B): \"Or what we did was that we um we as in I as I was quickly going over it was altering the actual structure. Um changing it to plastic and a solid unit with a single curve design would allow us to come back into the um proposed costs and we're just scraping it in, we've got point two of a Euro left over there. So we're just managing it really. Even then as well, um there was no criteria technically defined for a joystick so I've used what I think's appropriate. With any luck that won't mean that we've incurred more cost than we can actually afford to.\"\nAE_ID ES2003d.B.argumentstructs.Erik.6 (Index: 3, Speaker: B): \"It blows a lot of our really good ideas kind of slightly to one side, for example the possibility of having a U_S_B_ connection is definitely not viable now. Um.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003d.B.argumentstructs.Erik.6",
+            "gpt_ans": "ES2003d.B.argumentstructs.Erik.4",
             "ans": "ES2003d.B.argumentstructs.Erik.6",
-            "judgement": true
+            "judgement": false
         },
         {
             "turn_number": 4,
@@ -836,7 +836,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.B.argumentstructs.Erik.8:\n\"Um but what's something we need to decide on is how we're gonna go from here.  We do need to try and come up with an idea which could be continued with other people if need be.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2003d.B.argumentstructs.Erik.5 (Index: 2, Speaker: B): \"Or what we did was that we um we as in I as I was quickly going over it was altering the actual structure. Um changing it to plastic and a solid unit with a single curve design would allow us to come back into the um proposed costs and we're just scraping it in, we've got point two of a Euro left over there. So we're just managing it really. Even then as well, um there was no criteria technically defined for a joystick so I've used what I think's appropriate. With any luck that won't mean that we've incurred more cost than we can actually afford to.\"\nAE_ID ES2003d.B.argumentstructs.Erik.6 (Index: 3, Speaker: B): \"It blows a lot of our really good ideas kind of slightly to one side, for example the possibility of having a U_S_B_ connection is definitely not viable now. Um.\"\nAE_ID ES2003d.C.argumentstructs.Erik.12 (Index: 4, Speaker: C): \"Different languages ?\"\nAE_ID ES2003d.B.argumentstructs.Erik.7 (Index: 5, Speaker: B): \"That should still be viable. We've got an advanced chip, we've got the use of the L_C_D_. So being able to communicate in multiple languages is still very much a possibility.\"\nAE_ID ES2003d.C.argumentstructs.Erik.13 (Index: 6, Speaker: C): \"Yeah.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003d.B.argumentstructs.Erik.5",
+            "gpt_ans": "ES2003d.B.argumentstructs.Erik.6",
             "ans": "ES2003d.B.argumentstructs.Erik.4",
             "judgement": false
         },
@@ -1087,7 +1087,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.B.argumentstructs.Erik.10:\n\"Okay.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2003d.B.argumentstructs.Erik.7 (Index: 5, Speaker: B): \"That should still be viable. We've got an advanced chip, we've got the use of the L_C_D_. So being able to communicate in multiple languages is still very much a possibility.\"\nAE_ID ES2003d.C.argumentstructs.Erik.13 (Index: 6, Speaker: C): \"Yeah.\"\nAE_ID ES2003d.B.argumentstructs.Erik.8 (Index: 7, Speaker: B): \"Um but what's something we need to decide on is how we're gonna go from here.  We do need to try and come up with an idea which could be continued with other people if need be.\"\nAE_ID ES2003d.B.argumentstructs.Erik.9 (Index: 9, Speaker: B): \"We can I can bring the excel up sheet up and uh show you if you wish um. I really think as m much as it pains me is that we might have to go with plastic and some kind of solid design, possibly meaning that the L_C_D_ wouldn't be in this perfect place. It might be s stuck like slightly between what would be good for left handed and what would be good for a right handed person.\"\nAE_ID ES2003d.A.argumentstructs.Erik.6 (Index: 10, Speaker: A): \"Mm-hmm I suppose o one thing that could be done is h  is have it um circular and have it s  so that the uh the pink  actually goes a bit over the pinkie finger. Mm. So that uh th\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003d.B.argumentstructs.Erik.9",
+            "gpt_ans": "ES2003d.B.argumentstructs.Erik.8",
             "ans": "ES2003d.A.argumentstructs.Erik.6",
             "judgement": false
         },
@@ -1171,9 +1171,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.C.argumentstructs.Erik.14:\n\"Mm.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2003d.C.argumentstructs.Erik.13 (Index: 6, Speaker: C): \"Yeah.\"\nAE_ID ES2003d.B.argumentstructs.Erik.8 (Index: 7, Speaker: B): \"Um but what's something we need to decide on is how we're gonna go from here.  We do need to try and come up with an idea which could be continued with other people if need be.\"\nAE_ID ES2003d.B.argumentstructs.Erik.9 (Index: 9, Speaker: B): \"We can I can bring the excel up sheet up and uh show you if you wish um. I really think as m much as it pains me is that we might have to go with plastic and some kind of solid design, possibly meaning that the L_C_D_ wouldn't be in this perfect place. It might be s stuck like slightly between what would be good for left handed and what would be good for a right handed person.\"\nAE_ID ES2003d.A.argumentstructs.Erik.6 (Index: 10, Speaker: A): \"Mm-hmm I suppose o one thing that could be done is h  is have it um circular and have it s  so that the uh the pink  actually goes a bit over the pinkie finger. Mm. So that uh th\"\nAE_ID ES2003d.B.argumentstructs.Erik.10 (Index: 11, Speaker: B): \"Okay.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003d.B.argumentstructs.Erik.10",
+            "gpt_ans": "ES2003d.A.argumentstructs.Erik.6",
             "ans": "ES2003d.A.argumentstructs.Erik.6",
-            "judgement": false
+            "judgement": true
         },
         {
             "turn_number": 11,
@@ -2327,9 +2327,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.C.argumentstructs.Erik.19:\n\"Yeah.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2003d.C.argumentstructs.Erik.17 (Index: 24, Speaker: C): \"Why would why would that be more expensive than an individual push button and scroll wheel together ?\"\nAE_ID ES2003d.C.argumentstructs.Erik.18 (Index: 25, Speaker: C): \"That's quite significantly expensive.\"\nAE_ID ES2003d.B.argumentstructs.Erik.16 (Index: 27, Speaker: B): \"that's something you'll have to take up with the bean counters.\"\nAE_ID ES2003d.A.argumentstructs.Erik.8 (Index: 30, Speaker: A): \"Mm.  yeah.\"\nAE_ID ES2003d.B.argumentstructs.Erik.17 (Index: 31, Speaker: B): \"as you can see I mean that's taken up well over half of the price. So um I'm very much open to suggestions of where we go, but because we need to shed what was four Euros off of the um the price of for what we really desired, this one comes in under price as you can see, but this was the one that sacrificed the material for the case and for the actual case design.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003d.B.argumentstructs.Erik.17",
+            "gpt_ans": "ES2003d.C.argumentstructs.Erik.18",
             "ans": "ES2003d.B.argumentstructs.Erik.17",
-            "judgement": true
+            "judgement": false
         },
         {
             "turn_number": 25,
@@ -2667,9 +2667,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.B.argumentstructs.Erik.19:\n\"That'll  it literally would just be a button.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2003d.B.argumentstructs.Erik.17 (Index: 31, Speaker: B): \"as you can see I mean that's taken up well over half of the price. So um I'm very much open to suggestions of where we go, but because we need to shed what was four Euros off of the um the price of for what we really desired, this one comes in under price as you can see, but this was the one that sacrificed the material for the case and for the actual case design.\"\nAE_ID ES2003d.C.argumentstructs.Erik.19 (Index: 32, Speaker: C): \"Yeah.\"\nAE_ID ES2003d.C.argumentstructs.Erik.20 (Index: 33, Speaker: C): \"We don't even have uh speakers here. The  like uh we uh  what about speakers and transmitters and stuff like that ? Have we factored that in ?\"\nAE_ID ES2003d.B.argumentstructs.Erik.18 (Index: 35, Speaker: B): \"Uh no, we haven't, not\"\nAE_ID ES2003d.C.argumentstructs.Erik.21 (Index: 36, Speaker: C): \"Transmitter, receiver, speakers. Plus the extra device itself that's gonna be on a T_V_. Is that gonna be a button, or\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003d.B.argumentstructs.Erik.18",
+            "gpt_ans": "ES2003d.C.argumentstructs.Erik.21",
             "ans": "ES2003d.C.argumentstructs.Erik.21",
-            "judgement": false
+            "judgement": true
         },
         {
             "turn_number": 29,
@@ -3007,7 +3007,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.B.argumentstructs.Erik.21:\n\"Oh good call, I missed that.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2003d.C.argumentstructs.Erik.21 (Index: 36, Speaker: C): \"Transmitter, receiver, speakers. Plus the extra device itself that's gonna be on a T_V_. Is that gonna be a button, or\"\nAE_ID ES2003d.B.argumentstructs.Erik.19 (Index: 37, Speaker: B): \"That'll  it literally would just be a button.\"\nAE_ID ES2003d.C.argumentstructs.Erik.22 (Index: 38, Speaker: C): \"Yeah.\"\nAE_ID ES2003d.D.argumentstructs.Erik.5 (Index: 39, Speaker: D): \"That's too expensive  isn't it ?\"\nAE_ID ES2003d.B.argumentstructs.Erik.20 (Index: 41, Speaker: B): \"It looks like almost nothing\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003d.B.argumentstructs.Erik.19",
+            "gpt_ans": "ES2003d.B.argumentstructs.Erik.20",
             "ans": "ES2003d.C.argumentstructs.Erik.21",
             "judgement": false
         },
@@ -3088,7 +3088,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.C.argumentstructs.Erik.23:\n\"I I mean it's not on here, but um.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2003d.B.argumentstructs.Erik.19 (Index: 37, Speaker: B): \"That'll  it literally would just be a button.\"\nAE_ID ES2003d.C.argumentstructs.Erik.22 (Index: 38, Speaker: C): \"Yeah.\"\nAE_ID ES2003d.D.argumentstructs.Erik.5 (Index: 39, Speaker: D): \"That's too expensive  isn't it ?\"\nAE_ID ES2003d.B.argumentstructs.Erik.20 (Index: 41, Speaker: B): \"It looks like almost nothing\"\nAE_ID ES2003d.B.argumentstructs.Erik.21 (Index: 43, Speaker: B): \"Oh good call, I missed that.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003d.B.argumentstructs.Erik.21",
+            "gpt_ans": "ES2003d.B.argumentstructs.Erik.20",
             "ans": "ES2003d.C.argumentstructs.Erik.21",
             "judgement": false
         },
@@ -3418,9 +3418,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.C.argumentstructs.Erik.25:\n\"Okay. Well that's  yeah.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2003d.B.argumentstructs.Erik.21 (Index: 43, Speaker: B): \"Oh good call, I missed that.\"\nAE_ID ES2003d.C.argumentstructs.Erik.23 (Index: 44, Speaker: C): \"I I mean it's not on here, but um.\"\nAE_ID ES2003d.B.argumentstructs.Erik.22 (Index: 45, Speaker: B): \"that's a very valid point.\"\nAE_ID ES2003d.C.argumentstructs.Erik.24 (Index: 46, Speaker: C): \"Did they s do we have to use an advanced chip for the L_C_D_ ?\"\nAE_ID ES2003d.D.argumentstructs.Erik.6 (Index: 47, Speaker: D): \"Yeah.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003d.C.argumentstructs.Erik.24",
+            "gpt_ans": "ES2003d.B.argumentstructs.Erik.22",
             "ans": "ES2003d.C.argumentstructs.Erik.24",
-            "judgement": true
+            "judgement": false
         },
         {
             "turn_number": 38,
@@ -3910,9 +3910,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.C.argumentstructs.Erik.28:\n\"Technology. Yeah.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2003d.B.argumentstructs.Erik.23 (Index: 49, Speaker: B): \"So if we're gonna go with the L_C_ display, then that's\"\nAE_ID ES2003d.C.argumentstructs.Erik.26 (Index: 50, Speaker: C): \"What's a hand dyna dynamo ?\"\nAE_ID ES2003d.C.argumentstructs.Erik.27 (Index: 51, Speaker: C): \"You have to wind it up ?\"\nAE_ID ES2003d.B.argumentstructs.Erik.24 (Index: 52, Speaker: B): \"I believe so, yeah.\"\nAE_ID ES2003d.B.argumentstructs.Erik.25 (Index: 53, Speaker: B): \"That would probably not be in keeping with the um the fashion statement and such, yeah.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003d.B.argumentstructs.Erik.24",
+            "gpt_ans": "ES2003d.B.argumentstructs.Erik.25",
             "ans": "ES2003d.B.argumentstructs.Erik.25",
-            "judgement": false
+            "judgement": true
         },
         {
             "turn_number": 44,
@@ -4072,7 +4072,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.C.argumentstructs.Erik.29:\n\"Okay.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2003d.C.argumentstructs.Erik.27 (Index: 51, Speaker: C): \"You have to wind it up ?\"\nAE_ID ES2003d.B.argumentstructs.Erik.24 (Index: 52, Speaker: B): \"I believe so, yeah.\"\nAE_ID ES2003d.B.argumentstructs.Erik.25 (Index: 53, Speaker: B): \"That would probably not be in keeping with the um the fashion statement and such, yeah.\"\nAE_ID ES2003d.C.argumentstructs.Erik.28 (Index: 54, Speaker: C): \"Technology. Yeah.\"\nAE_ID ES2003d.D.argumentstructs.Erik.7 (Index: 55, Speaker: D): \"Fashion.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003d.B.argumentstructs.Erik.24",
+            "gpt_ans": "ES2003d.C.argumentstructs.Erik.28",
             "ans": "ES2003d.D.argumentstructs.Erik.7",
             "judgement": false
         },
@@ -4900,7 +4900,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.D.argumentstructs.Erik.11:\n\"But that's what makes it uh original though, isn't it ?\" Speaker: D\n\nPast dialogue turns:\nAE_ID ES2003d.C.argumentstructs.Erik.30 (Index: 62, Speaker: C): \"And we couldn't replace the joystick, right ? Because we would need four extra buttons to replace it, up down left and right, and that would be more expensive than a\"\nAE_ID ES2003d.C.argumentstructs.Erik.31 (Index: 63, Speaker: C): \"but is a scroll wheel not just back and forward ?\"\nAE_ID ES2003d.B.argumentstructs.Erik.28 (Index: 65, Speaker: B): \"Yeah it's just because there was no actual definition for what a joystick might be, that that's what I've labelled it for the purposes of this evaluation.\"\nAE_ID ES2003d.D.argumentstructs.Erik.10 (Index: 67, Speaker: D): \"The L_C_D_ basically is the big selling point of the remote.\"\nAE_ID ES2003d.B.argumentstructs.Erik.29 (Index: 68, Speaker: B): \"If we remove the L_C_ display, we could save ourselves a fair amount.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003d.D.argumentstructs.Erik.10",
+            "gpt_ans": "ES2003d.B.argumentstructs.Erik.28",
             "ans": "ES2003d.B.argumentstructs.Erik.29",
             "judgement": false
         },
@@ -5062,7 +5062,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.C.argumentstructs.Erik.32:\n\"Yeah.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2003d.B.argumentstructs.Erik.28 (Index: 65, Speaker: B): \"Yeah it's just because there was no actual definition for what a joystick might be, that that's what I've labelled it for the purposes of this evaluation.\"\nAE_ID ES2003d.D.argumentstructs.Erik.10 (Index: 67, Speaker: D): \"The L_C_D_ basically is the big selling point of the remote.\"\nAE_ID ES2003d.B.argumentstructs.Erik.29 (Index: 68, Speaker: B): \"If we remove the L_C_ display, we could save ourselves a fair amount.\"\nAE_ID ES2003d.D.argumentstructs.Erik.11 (Index: 70, Speaker: D): \"But that's what makes it uh original though, isn't it ?\"\nAE_ID ES2003d.A.argumentstructs.Erik.9 (Index: 71, Speaker: A): \"Mm. I think  if we remove the the L_C_ display then there was absolutely no point to any of these meetings and we just  we could just put our branding on any other remote control.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003d.B.argumentstructs.Erik.28",
+            "gpt_ans": "ES2003d.B.argumentstructs.Erik.29",
             "ans": "ES2003d.A.argumentstructs.Erik.9",
             "judgement": false
         },
@@ -5803,9 +5803,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.A.argumentstructs.Erik.10:\n\"Mm-hmm. Um yeah\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2003d.B.argumentstructs.Erik.32 (Index: 78, Speaker: B): \"Again, you'll have to argue with the accountants on that one. Um but for the purposes of this meeting, I'm  we're gonna have to stick with these figures.\"\nAE_ID ES2003d.C.argumentstructs.Erik.34 (Index: 80, Speaker: C): \"'Kay.\"\nAE_ID ES2003d.B.argumentstructs.Erik.33 (Index: 81, Speaker: B): \"So, I would say that it would seem like the general opinion is we're gonna keep the L_C_ display 'cause it's about what really separates us,  despite the cost it's gonna incur.\"\nAE_ID ES2003d.C.argumentstructs.Erik.35 (Index: 82, Speaker: C): \"I think so.\"\nAE_ID ES2003d.B.argumentstructs.Erik.34 (Index: 84, Speaker: B): \"are people maybe not happy with, but are willing to go ahead with this in going for a plastic solid case, to keep the L_C_D_ ?\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003d.B.argumentstructs.Erik.34",
+            "gpt_ans": "ES2003d.B.argumentstructs.Erik.33",
             "ans": "ES2003d.B.argumentstructs.Erik.34",
-            "judgement": true
+            "judgement": false
         },
         {
             "turn_number": 67,
@@ -8542,7 +8542,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.C.argumentstructs.Erik.49:\n\"Okay.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2003d.B.argumentstructs.Erik.42 (Index: 122, Speaker: B): \"Yeah, that's voice recognition, so.\"\nAE_ID ES2003d.C.argumentstructs.Erik.47 (Index: 124, Speaker: C): \"Okay, okay.\"\nAE_ID ES2003d.C.argumentstructs.Erik.48 (Index: 126, Speaker: C): \"So it looks like we're gonna get rid of the whole loca  locator thing.\"\nAE_ID ES2003d.B.argumentstructs.Erik.43 (Index: 127, Speaker: B): \"It looks like it unless we can manage to put it in under point two Euros, um.\"\nAE_ID ES2003d.D.argumentstructs.Erik.14 (Index: 128, Speaker: D): \"Yeah.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003d.C.argumentstructs.Erik.47",
+            "gpt_ans": "ES2003d.C.argumentstructs.Erik.48",
             "ans": "ES2003d.B.argumentstructs.Erik.43",
             "judgement": false
         },
@@ -9047,9 +9047,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.D.argumentstructs.Erik.16:\n\"Well I was  for a case.\" Speaker: D\n\nPast dialogue turns:\nAE_ID ES2003d.B.argumentstructs.Erik.44 (Index: 131, Speaker: B): \"Maybe even slight well oh yeah, pretty much point two Euros, I'd say. So we'll leave that one for now.\"\nAE_ID ES2003d.D.argumentstructs.Erik.15 (Index: 133, Speaker: D): \"Are we going for a special colour at all ?\"\nAE_ID ES2003d.B.argumentstructs.Erik.45 (Index: 135, Speaker: B): \"I'm uh slightly unsure.\"\nAE_ID ES2003d.B.argumentstructs.Erik.46 (Index: 136, Speaker: B): \"One  point five of a Euro for one push button doesn't sound quite right. So maybe it's a case of a push button is maybe one or more.\"\nAE_ID ES2003d.A.argumentstructs.Erik.18 (Index: 138, Speaker: A): \"Mm.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003d.B.argumentstructs.Erik.46",
+            "gpt_ans": "ES2003d.B.argumentstructs.Erik.45",
             "ans": "ES2003d.B.argumentstructs.Erik.46",
-            "judgement": true
+            "judgement": false
         },
         {
             "turn_number": 106,

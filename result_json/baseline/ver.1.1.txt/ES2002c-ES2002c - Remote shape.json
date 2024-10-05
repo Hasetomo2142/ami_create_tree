@@ -3,7 +3,7 @@
     "use_model": "gpt-4o-mini",
     "use_method": "baseline",
     "template": "ver.1.1.txt",
-    "rate": 0.5909090909090909,
+    "rate": 0.6363636363636364,
     "total_node_count": 31,
     "removed_node_count": 8,
     "removed_node_list": [
@@ -334,9 +334,9 @@
                 }
             ],
             "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 4):\n- AE_ID: ES2002c.B.argumentstructs.Erik.8\n- Speaker: B\n- Sentence: \"Choice of material yeah. 'Cause I I I was kinda thinking about as well  you know how you get these shock resistant mobile phones, and they're plastic but then also have like rubber on the outside, and it kinda feels  it feels kind of warmer to the touch. It feels a bit more comfortable, and maybe we could incorporate plastic and rubber\"\n\nPast Dialogue Turns:\nAE_ID ES2002c.A.argumentstructs.Erik.6 (Index: 0, Speaker: A): \"Is there a particular shape that you're interested in ? Like does marketing have any research on  does it need to be long ? Does it need  with a square thing wha\"\nAE_ID ES2002c.B.argumentstructs.Erik.7 (Index: 1, Speaker: B): \"Oh you know like in circular in shape or\"\nAE_ID ES2002c.A.argumentstructs.Erik.7 (Index: 2, Speaker: A): \"Yeah 'cause that will n help narrow down the choice of\"\nAE_ID ES2002c.D.argumentstructs.Erik.11 (Index: 3, Speaker: D): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
-            "gpt_ans": "ES2002c.A.argumentstructs.Erik.6",
+            "gpt_ans": "ES2002c.A.argumentstructs.Erik.7",
             "ans": "ES2002c.A.argumentstructs.Erik.7",
-            "judgement": false
+            "judgement": true
         },
         {
             "turn_number": 5,
@@ -1156,7 +1156,7 @@
                 }
             ],
             "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 19):\n- AE_ID: ES2002c.B.argumentstructs.Erik.13\n- Speaker: B\n- Sentence: \"That's quite a distinctive shape, that would be good wouldn't it.\"\n\nPast Dialogue Turns:\nAE_ID ES2002c.D.argumentstructs.Erik.13 (Index: 13, Speaker: D): \"what it is we're trying to achieve, so and then we have one one sorta theme that we stick with. Do you know what I mean ?\"\nAE_ID ES2002c.B.argumentstructs.Erik.11 (Index: 14, Speaker: B): \"Okay right well um so thoughts about the actual shape of the thing.\"\nAE_ID ES2002c.C.argumentstructs.Erik.1 (Index: 15, Speaker: C): \"I'd quite like a sort of uh snowman type shape.\"\nAE_ID ES2002c.B.argumentstructs.Erik.12 (Index: 16, Speaker: B): \"A snowman shape ?\"\nAE_ID ES2002c.C.argumentstructs.Erik.2 (Index: 17, Speaker: C): \"Um so a p sort of larger bit sits in your hand, and then you got maybe another bubble at the top for just any other function you need.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
-            "gpt_ans": "ES2002c.B.argumentstructs.Erik.12",
+            "gpt_ans": "ES2002c.C.argumentstructs.Erik.1",
             "ans": "ES2002c.C.argumentstructs.Erik.2",
             "judgement": false
         },
@@ -1659,7 +1659,7 @@
                 }
             ],
             "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 26):\n- AE_ID: ES2002c.D.argumentstructs.Erik.16\n- Speaker: D\n- Sentence: \"Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2002c.D.argumentstructs.Erik.14 (Index: 20, Speaker: D): \"Right, sure.\"\nAE_ID ES2002c.B.argumentstructs.Erik.14 (Index: 22, Speaker: B): \"Yeah so yeah should we go with that ?\"\nAE_ID ES2002c.B.argumentstructs.Erik.15 (Index: 23, Speaker: B): \"Do you wanna draw it on the board ?\"\nAE_ID ES2002c.D.argumentstructs.Erik.15 (Index: 24, Speaker: D): \"Can you like  yeah just t we can visualize it.\"\nAE_ID ES2002c.C.argumentstructs.Erik.3 (Index: 25, Speaker: C): \"Um something like that um you got two groups there um maybe it could fold up and you get a third group inside or uh you have volume controls about there.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
-            "gpt_ans": "ES2002c.D.argumentstructs.Erik.15",
+            "gpt_ans": "ES2002c.B.argumentstructs.Erik.15",
             "ans": "ES2002c.C.argumentstructs.Erik.3",
             "judgement": false
         },

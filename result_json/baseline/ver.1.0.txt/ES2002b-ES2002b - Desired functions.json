@@ -922,7 +922,7 @@
                 }
             ],
             "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002b.D.argumentstructs.Erik.5\n- Index: 14\n- Speaker: D\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2002b.B.argumentstructs.Erik.2 (Index: 7, Speaker: B): \"God, I wou I would say that's required, I mean there's no way anybody's gonna buy a remote control these days when if you can't actually individually select channels\"\nAE_ID ES2002b.D.argumentstructs.Erik.3 (Index: 8, Speaker: D): \"Yeah.\"\nAE_ID ES2002b.B.argumentstructs.Erik.3 (Index: 10, Speaker: B): \"would anybody disagree with that ?\"\nAE_ID ES2002b.B.argumentstructs.Erik.4 (Index: 12, Speaker: B): \"Um, what else, uh   So don't need to worry about teletext, don't need to worry about V_C_R_, uh any kind of like display controls at all do you think we need to worry about, you know like brightness and contrast ?\"\nAE_ID ES2002b.D.argumentstructs.Erik.4 (Index: 13, Speaker: D): \"We don't ? No ?\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
-            "gpt_ans": "ES2002b.D.argumentstructs.Erik.4",
+            "gpt_ans": "ES2002b.D.argumentstructs.Erik.3",
             "ans": "ES2002b.B.argumentstructs.Erik.4",
             "judgement": false
         },

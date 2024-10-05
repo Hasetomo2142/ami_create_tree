@@ -3,7 +3,7 @@
     "use_model": "gpt-4o-mini",
     "use_method": "baseline",
     "template": "prompt_template.txt",
-    "rate": 0.19047619047619047,
+    "rate": 0.23809523809523808,
     "total_node_count": 34,
     "removed_node_count": 12,
     "removed_node_list": [
@@ -322,7 +322,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2005c.D.argumentstructs.Erik.3:\n\"And the speech recognition, 'cause I think we're definitely going for the speech recognition, are we ?\" Speaker: D\n\nPast dialogue turns:\nAE_ID ES2005c.D.argumentstructs.Erik.1 (Index: 1, Speaker: D): \"Uh personal preferences just some imagination, the raised symbols I thought were good, the L_C_D_, it does look smart, but I think maybe for our budget, do you think that would be a bit too expensive to have the\"\nAE_ID ES2005c.A.argumentstructs.Erik.1 (Index: 2, Speaker: A): \"The L_C_D_ and the other stuff uh, I think.\"\nAE_ID ES2005c.D.argumentstructs.Erik.2 (Index: 3, Speaker: D): \"Yeah.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2005c.D.argumentstructs.Erik.2",
+            "gpt_ans": "ES2005c.D.argumentstructs.Erik.1",
             "ans": "ES2005c.A.argumentstructs.Erik.1",
             "judgement": false
         },
@@ -981,7 +981,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2005c.C.argumentstructs.Erik.4:\n\"I can't see tha Although, th I mean to be to be sure they have got  I mean they are going crazy with the L_C_D_ technology now, so that you've got your L_C_D_ T_V_s and everything so maybe the small\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2005c.D.argumentstructs.Erik.4 (Index: 8, Speaker: D): \"Uh-huh. But our budget, we've  Yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.2 (Index: 9, Speaker: C): \"It's still it's still got to get within our twelve fifty, you know.\"\nAE_ID ES2005c.D.argumentstructs.Erik.5 (Index: 11, Speaker: D): \"Okay.\"\nAE_ID ES2005c.D.argumentstructs.Erik.6 (Index: 12, Speaker: D): \"I'm not sure if the  if  for twenty five Euros uh per uh twelve Euros fifty m manufacturing cost,.\"\nAE_ID ES2005c.C.argumentstructs.Erik.3 (Index: 13, Speaker: C): \"Okay.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2005c.C.argumentstructs.Erik.2",
+            "gpt_ans": "ES2005c.D.argumentstructs.Erik.4",
             "ans": "ES2005c.D.argumentstructs.Erik.1",
             "judgement": false
         },
@@ -1063,7 +1063,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2005c.D.argumentstructs.Erik.7:\n\"Yeah.\" Speaker: D\n\nPast dialogue turns:\nAE_ID ES2005c.C.argumentstructs.Erik.2 (Index: 9, Speaker: C): \"It's still it's still got to get within our twelve fifty, you know.\"\nAE_ID ES2005c.D.argumentstructs.Erik.5 (Index: 11, Speaker: D): \"Okay.\"\nAE_ID ES2005c.D.argumentstructs.Erik.6 (Index: 12, Speaker: D): \"I'm not sure if the  if  for twenty five Euros uh per uh twelve Euros fifty m manufacturing cost,.\"\nAE_ID ES2005c.C.argumentstructs.Erik.3 (Index: 13, Speaker: C): \"Okay.\"\nAE_ID ES2005c.C.argumentstructs.Erik.4 (Index: 15, Speaker: C): \"I can't see tha Although, th I mean to be to be sure they have got  I mean they are going crazy with the L_C_D_ technology now, so that you've got your L_C_D_ T_V_s and everything so maybe the small\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2005c.D.argumentstructs.Erik.5",
+            "gpt_ans": "ES2005c.C.argumentstructs.Erik.2",
             "ans": "ES2005c.C.argumentstructs.Erik.4",
             "judgement": false
         },
@@ -1722,9 +1722,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2005c.D.argumentstructs.Erik.9:\n\"That's true, yeah.\" Speaker: D\n\nPast dialogue turns:\nAE_ID ES2005c.A.argumentstructs.Erik.2 (Index: 22, Speaker: A): \"But uh price price not withstanding um, is it too complicated, is it gonna be too much just overload ?\"\nAE_ID ES2005c.B.argumentstructs.Erik.2 (Index: 25, Speaker: B): \"Uh i it will be easy because there will be, on L_C_D_ s screen, there will be different frent icons, they can just click ok okay, whatever they wa\"\nAE_ID ES2005c.C.argumentstructs.Erik.6 (Index: 26, Speaker: C): \"Possibly.\"\nAE_ID ES2005c.A.argumentstructs.Erik.3 (Index: 27, Speaker: A): \"But but the thing is when you use a remote control, you never look at it, right ? You're looking at the T_V_ and and it's uh  It just seems kind of like a a needless th\"\nAE_ID ES2005c.C.argumentstructs.Erik.7 (Index: 28, Speaker: C): \"Yeah.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2005c.A.argumentstructs.Erik.2",
+            "gpt_ans": "ES2005c.A.argumentstructs.Erik.3",
             "ans": "ES2005c.A.argumentstructs.Erik.3",
-            "judgement": false
+            "judgement": true
         },
         {
             "turn_number": 21,

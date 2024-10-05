@@ -3,7 +3,7 @@
     "use_model": "gpt-4o-mini",
     "use_method": "baseline",
     "template": "prompt_template.txt",
-    "rate": 0.4444444444444444,
+    "rate": 0.3888888888888889,
     "total_node_count": 28,
     "removed_node_count": 9,
     "removed_node_list": [
@@ -681,7 +681,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2004b.C.argumentstructs.Erik.1:\n\"yeah yeah.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2004b.D.argumentstructs.Erik.1 (Index: 6, Speaker: D): \"Mm-hmm, so can we not programme a video with this remote control ?\"\nAE_ID ES2004b.B.argumentstructs.Erik.3 (Index: 7, Speaker: B): \"It says for T_V_ only, so  looks like it's just  yeah, I think maybe Sky things like that might be incorporated into it\"\nAE_ID ES2004b.D.argumentstructs.Erik.2 (Index: 8, Speaker: D): \"Just channel-hopping.\"\nAE_ID ES2004b.B.argumentstructs.Erik.4 (Index: 10, Speaker: B): \"I don't know, what do you think ? It just said, for T_V_ only. But I mean, general T_V_ controls do do video as well.\"\nAE_ID ES2004b.D.argumentstructs.Erik.3 (Index: 11, Speaker: D): \"Would that imply video use ?\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2004b.B.argumentstructs.Erik.3",
+            "gpt_ans": "ES2004b.B.argumentstructs.Erik.4",
             "ans": "ES2004b.D.argumentstructs.Erik.3",
             "judgement": false
         },
@@ -847,9 +847,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2004b.C.argumentstructs.Erik.2:\n\"Yeah. If yeah  and if you got if you got a Sky box, they have one of those plus boxes, you can record straight off the T_V_ anyway so on to on to like the T_V_ hard drive or so.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2004b.D.argumentstructs.Erik.2 (Index: 8, Speaker: D): \"Just channel-hopping.\"\nAE_ID ES2004b.B.argumentstructs.Erik.4 (Index: 10, Speaker: B): \"I don't know, what do you think ? It just said, for T_V_ only. But I mean, general T_V_ controls do do video as well.\"\nAE_ID ES2004b.D.argumentstructs.Erik.3 (Index: 11, Speaker: D): \"Would that imply video use ?\"\nAE_ID ES2004b.C.argumentstructs.Erik.1 (Index: 13, Speaker: C): \"yeah yeah.\"\nAE_ID ES2004b.B.argumentstructs.Erik.5 (Index: 15, Speaker: B): \"I mean you bu well som you get com you get combined T_V_ and videos don't you ?\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2004b.B.argumentstructs.Erik.5",
+            "gpt_ans": "ES2004b.B.argumentstructs.Erik.4",
             "ans": "ES2004b.B.argumentstructs.Erik.5",
-            "judgement": true
+            "judgement": false
         },
         {
             "turn_number": 11,

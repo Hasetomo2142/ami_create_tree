@@ -3,7 +3,7 @@
     "use_model": "gpt-4o-mini",
     "use_method": "baseline",
     "template": "prompt_template.txt",
-    "rate": 0.45454545454545453,
+    "rate": 0.36363636363636365,
     "total_node_count": 30,
     "removed_node_count": 7,
     "removed_node_list": [
@@ -202,9 +202,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.C.argumentstructs.Erik.2:\n\"Sure.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2003d.C.argumentstructs.Erik.1 (Index: 1, Speaker: C): \"Okay, so we have to go through each point. If we imagine it's actually straight, and just give it a a score. So um how well would you say the prototype is uh how well have we realised the dream of being able to stop remotes from from being lost, or to be able to find them once they are lost. I mean, uh is the homing thing still  the locator, is that still\"\nAE_ID ES2003d.A.argumentstructs.Erik.1 (Index: 2, Speaker: A): \"Yeah, that's still part of the design.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003d.C.argumentstructs.Erik.1",
+            "gpt_ans": "ES2003d.A.argumentstructs.Erik.1",
             "ans": "ES2003d.C.argumentstructs.Erik.1",
-            "judgement": true
+            "judgement": false
         },
         {
             "turn_number": 3,
@@ -509,9 +509,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.C.argumentstructs.Erik.4:\n\"Okay.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2003d.A.argumentstructs.Erik.1 (Index: 2, Speaker: A): \"Yeah, that's still part of the design.\"\nAE_ID ES2003d.C.argumentstructs.Erik.2 (Index: 3, Speaker: C): \"Sure.\"\nAE_ID ES2003d.C.argumentstructs.Erik.3 (Index: 4, Speaker: C): \"And Adam, we can keep that in ?\"\nAE_ID ES2003d.B.argumentstructs.Erik.1 (Index: 5, Speaker: B): \"Yeah, I believe so.\"\nAE_ID ES2003d.B.argumentstructs.Erik.2 (Index: 6, Speaker: B): \"So I mean I don't think anybody could actually stop a remote being lost, 'cause that would mean doing something about the human element, but I'd like to think that we've done something about finding the damn thing once we have.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2003d.B.argumentstructs.Erik.2",
+            "gpt_ans": "ES2003d.B.argumentstructs.Erik.1",
             "ans": "ES2003d.B.argumentstructs.Erik.2",
-            "judgement": true
+            "judgement": false
         },
         {
             "turn_number": 7,

@@ -3,7 +3,7 @@
     "use_model": "gpt-4o-mini",
     "use_method": "baseline",
     "template": "prompt_template.txt",
-    "rate": 0.3333333333333333,
+    "rate": 0.2916666666666667,
     "total_node_count": 33,
     "removed_node_count": 8,
     "removed_node_list": [
@@ -1529,9 +1529,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002d.C.argumentstructs.Erik.28:\n\"Mm-hmm, mm-hmm, mm-hmm, exactly.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2002d.D.argumentstructs.Erik.13 (Index: 14, Speaker: D): \"Not just yet.\"\nAE_ID ES2002d.A.argumentstructs.Erik.24 (Index: 15, Speaker: A): \"Yeah.\"\nAE_ID ES2002d.C.argumentstructs.Erik.27 (Index: 17, Speaker: C): \"Yeah, got the email.\"\nAE_ID ES2002d.B.argumentstructs.Erik.32 (Index: 19, Speaker: B): \"Okay, um so um to s to to summarize the teamwork issue, saying that if we could communicate outside the meeting, you know just like quick questions, quick thoughts, whatever, it probably would be bit easier.\"\nAE_ID ES2002d.A.argumentstructs.Erik.25 (Index: 21, Speaker: A): \"I think the tools that they were given, the tool set that were given to us are fancy but they don't support collaboration, I think that's the word. They don't support the team working together, you know, they're still very individual tools.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2002d.A.argumentstructs.Erik.25",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.32",
             "ans": "ES2002d.A.argumentstructs.Erik.25",
-            "judgement": true
+            "judgement": false
         },
         {
             "turn_number": 19,
@@ -1946,7 +1946,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002d.B.argumentstructs.Erik.36:\n\"Right, uh anything else to say on teamwork at all ? Okay, um what about the you know how we used the whiteboard, the digital pens, the projector, stuff like that ? Um did anybody think anything was like really useful, anything was pretty un f\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2002d.C.argumentstructs.Erik.28 (Index: 22, Speaker: C): \"Mm-hmm, mm-hmm, mm-hmm, exactly.\"\nAE_ID ES2002d.B.argumentstructs.Erik.34 (Index: 23, Speaker: B): \"Oh right, okay.\"\nAE_ID ES2002d.C.argumentstructs.Erik.29 (Index: 26, Speaker: C): \"but um yeah, but um but actually if you if you imagine not entire the completely same task given to us but us said okay, first thing we have to do is come up with um let's say um a design concept, and we sit here together and do it, well that's what teamwork is. To s to say okay go off and don't talk to each other, it's actually p sort of predisposes you to quite the contrary of teamwork. Um not that we haven't done I think the best we could have done. I'm not dissatisfied with it.\"\nAE_ID ES2002d.A.argumentstructs.Erik.26 (Index: 27, Speaker: A): \"We had Play-Doh fun.\"\nAE_ID ES2002d.B.argumentstructs.Erik.35 (Index: 28, Speaker: B): \"Yeah.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2002d.B.argumentstructs.Erik.34",
+            "gpt_ans": "ES2002d.C.argumentstructs.Erik.29",
             "ans": "ES2002d.B.argumentstructs.Erik.29",
             "judgement": false
         },

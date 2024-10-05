@@ -239,7 +239,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006d.A.argumentstructs.Erik.2:\n\"Yeah yeah yeah, I mean  yeah. So you guys can decide wh whether\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2006d.B.argumentstructs.Erik.1 (Index: 1, Speaker: B): \"Okay.\"\nAE_ID ES2006d.A.argumentstructs.Erik.1 (Index: 2, Speaker: A): \"It might be a little clumsy when when it opens up, right, so it opens on the side. So\"\nAE_ID ES2006d.D.argumentstructs.Erik.1 (Index: 4, Speaker: D): \"No, yeah, but mm but we have it  nicely  with the hinges here  yeah. So it won't be a problem, it will be  and it will be  it won't be heavy.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2006d.A.argumentstructs.Erik.1",
+            "gpt_ans": "ES2006d.B.argumentstructs.Erik.1",
             "ans": "ES2006d.D.argumentstructs.Erik.1",
             "judgement": false
         },
@@ -311,9 +311,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006d.C.argumentstructs.Erik.1:\n\"Yeah.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2006d.B.argumentstructs.Erik.1 (Index: 1, Speaker: B): \"Okay.\"\nAE_ID ES2006d.A.argumentstructs.Erik.1 (Index: 2, Speaker: A): \"It might be a little clumsy when when it opens up, right, so it opens on the side. So\"\nAE_ID ES2006d.D.argumentstructs.Erik.1 (Index: 4, Speaker: D): \"No, yeah, but mm but we have it  nicely  with the hinges here  yeah. So it won't be a problem, it will be  and it will be  it won't be heavy.\"\nAE_ID ES2006d.A.argumentstructs.Erik.2 (Index: 5, Speaker: A): \"Yeah yeah yeah, I mean  yeah. So you guys can decide wh whether\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2006d.A.argumentstructs.Erik.2",
+            "gpt_ans": "ES2006d.A.argumentstructs.Erik.1",
             "ans": "ES2006d.A.argumentstructs.Erik.2",
-            "judgement": true
+            "judgement": false
         },
         {
             "turn_number": 5,
@@ -395,9 +395,9 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006d.B.argumentstructs.Erik.2:\n\"Yeah. Yeah.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2006d.B.argumentstructs.Erik.1 (Index: 1, Speaker: B): \"Okay.\"\nAE_ID ES2006d.A.argumentstructs.Erik.1 (Index: 2, Speaker: A): \"It might be a little clumsy when when it opens up, right, so it opens on the side. So\"\nAE_ID ES2006d.D.argumentstructs.Erik.1 (Index: 4, Speaker: D): \"No, yeah, but mm but we have it  nicely  with the hinges here  yeah. So it won't be a problem, it will be  and it will be  it won't be heavy.\"\nAE_ID ES2006d.A.argumentstructs.Erik.2 (Index: 5, Speaker: A): \"Yeah yeah yeah, I mean  yeah. So you guys can decide wh whether\"\nAE_ID ES2006d.C.argumentstructs.Erik.1 (Index: 6, Speaker: C): \"Yeah.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2006d.C.argumentstructs.Erik.1",
+            "gpt_ans": "ES2006d.A.argumentstructs.Erik.2",
             "ans": "ES2006d.A.argumentstructs.Erik.2",
-            "judgement": false
+            "judgement": true
         },
         {
             "turn_number": 6,
@@ -811,7 +811,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006d.B.argumentstructs.Erik.4:\n\"Yeah um\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2006d.B.argumentstructs.Erik.2 (Index: 7, Speaker: B): \"Yeah. Yeah.\"\nAE_ID ES2006d.B.argumentstructs.Erik.3 (Index: 9, Speaker: B): \"I th I think the alternative is flipping from the top.\"\nAE_ID ES2006d.D.argumentstructs.Erik.2 (Index: 10, Speaker: D): \"Yeah well yeah, but it's it's a bit long. It's a little bit long. Well, I mean it can be opened like this of course and yeah.\"\nAE_ID ES2006d.A.argumentstructs.Erik.3 (Index: 11, Speaker: A): \"Yeah, but we  which makes it kind of really big, yeah.\"\nAE_ID ES2006d.C.argumentstructs.Erik.2 (Index: 12, Speaker: C): \"The length is gonna be difficu\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2006d.B.argumentstructs.Erik.2",
+            "gpt_ans": "ES2006d.B.argumentstructs.Erik.3",
             "ans": "ES2006d.C.argumentstructs.Erik.2",
             "judgement": false
         },
@@ -1142,7 +1142,7 @@
                 }
             ],
             "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006d.D.argumentstructs.Erik.4:\n\"Yeah, but if we flip it open only as much as that.\" Speaker: D\n\nPast dialogue turns:\nAE_ID ES2006d.C.argumentstructs.Erik.2 (Index: 12, Speaker: C): \"The length is gonna be difficu\"\nAE_ID ES2006d.B.argumentstructs.Erik.4 (Index: 13, Speaker: B): \"Yeah um\"\nAE_ID ES2006d.B.argumentstructs.Erik.5 (Index: 14, Speaker: B): \"But you were thinking about making it smaller, yeah ?\"\nAE_ID ES2006d.D.argumentstructs.Erik.3 (Index: 17, Speaker: D): \"S uh slightly smaller.\"\nAE_ID ES2006d.B.argumentstructs.Erik.6 (Index: 19, Speaker: B): \"So you have to keep that side flat.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
-            "gpt_ans": "ES2006d.D.argumentstructs.Erik.3",
+            "gpt_ans": "ES2006d.B.argumentstructs.Erik.5",
             "ans": "ES2006d.B.argumentstructs.Erik.6",
             "judgement": false
         },
