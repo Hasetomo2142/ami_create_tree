@@ -73,8 +73,7 @@ class TreeResult:
             if one_turn_result.current_node.source != 'NONE':
                 gpt_ans_node = DialogueTurn.find_by_ae_id(one_turn_result.gpt_ans)
 
-                if gpt_ans_node is not None:
-                    gpt_ans_node_ae_id = gpt_ans_node.ae_id
+                if gpt_ans_node != "NONE":
 
                     # ノードがすでに追加されているか確認（ae_id で確認）
                     if not self.estimated_tree.has_node(gpt_ans_node.ae_id):
@@ -97,7 +96,7 @@ class TreeResult:
             if one_turn_result.current_node.source != 'NONE':
                 ans_node = DialogueTurn.find_by_ae_id(one_turn_result.ans)
 
-                if ans_node is not None:
+                if ans_node != "NONE":
 
                     # ノードがすでに追加されているか確認（ae_id で確認）
                     if not self.real_tree.has_node(ans_node.ae_id):

@@ -1,0 +1,1854 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2006a-ES2006a - Remote first ideas.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "prompt_template.txt",
+    "rate": 0.38095238095238093,
+    "total_node_count": 36,
+    "removed_node_count": 14,
+    "removed_node_list": [
+        {
+            "index": 0,
+            "ae_id": "ES2006a.C.argumentstructs.9",
+            "speaker": "C",
+            "start_time": 1007.83,
+            "end_time": 1012.84,
+            "sentence": "that's the last thing, okay. We've only got a couple of minutes.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 3,
+            "ae_id": "ES2006a.C.argumentstructs.10",
+            "speaker": "C",
+            "start_time": 1032.45,
+            "end_time": 1033.3,
+            "sentence": "Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 5,
+            "ae_id": "ES2006a.A.argumentstructs.7",
+            "speaker": "A",
+            "start_time": 1044.88,
+            "end_time": 1045.34,
+            "sentence": "Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 9,
+            "ae_id": "ES2006a.A.argumentstructs.8",
+            "speaker": "A",
+            "start_time": 1074.46,
+            "end_time": 1074.75,
+            "sentence": "Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 10,
+            "ae_id": "ES2006a.C.argumentstructs.11",
+            "speaker": "C",
+            "start_time": 1084.03,
+            "end_time": 1113.79,
+            "sentence": "Mm-hmm. Mm-hmm. Uh-huh. Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 13,
+            "ae_id": "ES2006a.A.argumentstructs.9",
+            "speaker": "A",
+            "start_time": 1115.29,
+            "end_time": 1116.25,
+            "sentence": "Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 14,
+            "ae_id": "ES2006a.B.argumentstructs.8",
+            "speaker": "B",
+            "start_time": 1115.31,
+            "end_time": 1115.75,
+            "sentence": "Okay.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 17,
+            "ae_id": "ES2006a.C.argumentstructs.12",
+            "speaker": "C",
+            "start_time": 1121.71,
+            "end_time": 1122.06,
+            "sentence": "Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 20,
+            "ae_id": "ES2006a.C.argumentstructs.13",
+            "speaker": "C",
+            "start_time": 1130.44,
+            "end_time": 1130.86,
+            "sentence": "Yeah.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 26,
+            "ae_id": "ES2006a.B.argumentstructs.9",
+            "speaker": "B",
+            "start_time": 1141.35,
+            "end_time": 1142.3,
+            "sentence": "maybe to do",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 29,
+            "ae_id": "ES2006a.D.argumentstructs.2",
+            "speaker": "D",
+            "start_time": 1144.87,
+            "end_time": 1145.31,
+            "sentence": "Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 32,
+            "ae_id": "ES2006a.A.argumentstructs.10",
+            "speaker": "A",
+            "start_time": 1150.51,
+            "end_time": 1150.87,
+            "sentence": "Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 33,
+            "ae_id": "ES2006a.C.argumentstructs.14",
+            "speaker": "C",
+            "start_time": 1155.9,
+            "end_time": 1156.32,
+            "sentence": "Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 34,
+            "ae_id": "ES2006a.B.argumentstructs.10",
+            "speaker": "B",
+            "start_time": 1157.06,
+            "end_time": 1157.26,
+            "sentence": "Hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2006a.C.argumentstructs.Erik.1",
+                "speaker": "C",
+                "start_time": 1012.84,
+                "end_time": 1021.29,
+                "sentence": "Does anyone have any first ideas to bounce around about um what we're thinking of this remote control ?",
+                "source": "NONE",
+                "targets": [
+                    "ES2006a.D.argumentstructs.Erik.1",
+                    "ES2006a.A.argumentstructs.Erik.1"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "NONE",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 2,
+                "ae_id": "ES2006a.D.argumentstructs.Erik.1",
+                "speaker": "D",
+                "start_time": 1020.27,
+                "end_time": 1032.2,
+                "sentence": "Yep. I'm just wondering whether whether there is like any special feature that we want to have  w want this remote control have as opposed to the already existing ones.",
+                "source": "ES2006a.C.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2006a.C.argumentstructs.Erik.2"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 1012.84,
+                    "end_time": 1021.29,
+                    "sentence": "Does anyone have any first ideas to bounce around about um what we're thinking of this remote control ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006a.D.argumentstructs.Erik.1",
+                        "ES2006a.A.argumentstructs.Erik.1"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006a.D.argumentstructs.Erik.1:\n\"Yep. I'm just wondering whether whether there is like any special feature that we want to have  w want this remote control have as opposed to the already existing ones.\" Speaker: D\n\nPast dialogue turns:\nAE_ID ES2006a.C.argumentstructs.Erik.1 (Index: 1, Speaker: C): \"Does anyone have any first ideas to bounce around about um what we're thinking of this remote control ?\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2006a.C.argumentstructs.Erik.1",
+            "ans": "ES2006a.C.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 4,
+                "ae_id": "ES2006a.C.argumentstructs.Erik.2",
+                "speaker": "C",
+                "start_time": 1040.05,
+                "end_time": 1057.03,
+                "sentence": "I think that's probably something that w it's best if we take away with us, but if we all have a think, when we go away from the meeting, what specific things could be um included in this remote control that that  are out of the ordinary.",
+                "source": "ES2006a.D.argumentstructs.Erik.1",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 1012.84,
+                    "end_time": 1021.29,
+                    "sentence": "Does anyone have any first ideas to bounce around about um what we're thinking of this remote control ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006a.D.argumentstructs.Erik.1",
+                        "ES2006a.A.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2006a.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1020.27,
+                    "end_time": 1032.2,
+                    "sentence": "Yep. I'm just wondering whether whether there is like any special feature that we want to have  w want this remote control have as opposed to the already existing ones.",
+                    "source": "ES2006a.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006a.C.argumentstructs.Erik.2"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006a.C.argumentstructs.Erik.2:\n\"I think that's probably something that w it's best if we take away with us, but if we all have a think, when we go away from the meeting, what specific things could be um included in this remote control that that  are out of the ordinary.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2006a.C.argumentstructs.Erik.1 (Index: 1, Speaker: C): \"Does anyone have any first ideas to bounce around about um what we're thinking of this remote control ?\"\nAE_ID ES2006a.D.argumentstructs.Erik.1 (Index: 2, Speaker: D): \"Yep. I'm just wondering whether whether there is like any special feature that we want to have  w want this remote control have as opposed to the already existing ones.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2006a.D.argumentstructs.Erik.1",
+            "ans": "ES2006a.D.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 6,
+                "ae_id": "ES2006a.A.argumentstructs.Erik.1",
+                "speaker": "A",
+                "start_time": 1055.43,
+                "end_time": 1072.89,
+                "sentence": "I think uh i in the beginning uh one thing was  that was mentioned was that it should be mm trendy, user friendly and original so um I think your point is relevant as far as the originality is concerned, that we should provide some features that are quite unique to this.",
+                "source": "ES2006a.C.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2006a.C.argumentstructs.Erik.3",
+                    "ES2006a.B.argumentstructs.Erik.1"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 1012.84,
+                    "end_time": 1021.29,
+                    "sentence": "Does anyone have any first ideas to bounce around about um what we're thinking of this remote control ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006a.D.argumentstructs.Erik.1",
+                        "ES2006a.A.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2006a.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1020.27,
+                    "end_time": 1032.2,
+                    "sentence": "Yep. I'm just wondering whether whether there is like any special feature that we want to have  w want this remote control have as opposed to the already existing ones.",
+                    "source": "ES2006a.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006a.C.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 1040.05,
+                    "end_time": 1057.03,
+                    "sentence": "I think that's probably something that w it's best if we take away with us, but if we all have a think, when we go away from the meeting, what specific things could be um included in this remote control that that  are out of the ordinary.",
+                    "source": "ES2006a.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006a.A.argumentstructs.Erik.1:\n\"I think uh i in the beginning uh one thing was  that was mentioned was that it should be mm trendy, user friendly and original so um I think your point is relevant as far as the originality is concerned, that we should provide some features that are quite unique to this.\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2006a.C.argumentstructs.Erik.1 (Index: 1, Speaker: C): \"Does anyone have any first ideas to bounce around about um what we're thinking of this remote control ?\"\nAE_ID ES2006a.D.argumentstructs.Erik.1 (Index: 2, Speaker: D): \"Yep. I'm just wondering whether whether there is like any special feature that we want to have  w want this remote control have as opposed to the already existing ones.\"\nAE_ID ES2006a.C.argumentstructs.Erik.2 (Index: 4, Speaker: C): \"I think that's probably something that w it's best if we take away with us, but if we all have a think, when we go away from the meeting, what specific things could be um included in this remote control that that  are out of the ordinary.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2006a.D.argumentstructs.Erik.1",
+            "ans": "ES2006a.C.argumentstructs.Erik.1",
+            "judgement": false
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 7,
+                "ae_id": "ES2006a.C.argumentstructs.Erik.3",
+                "speaker": "C",
+                "start_time": 1072.22,
+                "end_time": 1073.64,
+                "sentence": "Something something new.",
+                "source": "ES2006a.A.argumentstructs.Erik.1",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 1012.84,
+                    "end_time": 1021.29,
+                    "sentence": "Does anyone have any first ideas to bounce around about um what we're thinking of this remote control ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006a.D.argumentstructs.Erik.1",
+                        "ES2006a.A.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2006a.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1020.27,
+                    "end_time": 1032.2,
+                    "sentence": "Yep. I'm just wondering whether whether there is like any special feature that we want to have  w want this remote control have as opposed to the already existing ones.",
+                    "source": "ES2006a.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006a.C.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 1040.05,
+                    "end_time": 1057.03,
+                    "sentence": "I think that's probably something that w it's best if we take away with us, but if we all have a think, when we go away from the meeting, what specific things could be um included in this remote control that that  are out of the ordinary.",
+                    "source": "ES2006a.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1055.43,
+                    "end_time": 1072.89,
+                    "sentence": "I think uh i in the beginning uh one thing was  that was mentioned was that it should be mm trendy, user friendly and original so um I think your point is relevant as far as the originality is concerned, that we should provide some features that are quite unique to this.",
+                    "source": "ES2006a.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006a.C.argumentstructs.Erik.3",
+                        "ES2006a.B.argumentstructs.Erik.1"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006a.C.argumentstructs.Erik.3:\n\"Something something new.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2006a.C.argumentstructs.Erik.1 (Index: 1, Speaker: C): \"Does anyone have any first ideas to bounce around about um what we're thinking of this remote control ?\"\nAE_ID ES2006a.D.argumentstructs.Erik.1 (Index: 2, Speaker: D): \"Yep. I'm just wondering whether whether there is like any special feature that we want to have  w want this remote control have as opposed to the already existing ones.\"\nAE_ID ES2006a.C.argumentstructs.Erik.2 (Index: 4, Speaker: C): \"I think that's probably something that w it's best if we take away with us, but if we all have a think, when we go away from the meeting, what specific things could be um included in this remote control that that  are out of the ordinary.\"\nAE_ID ES2006a.A.argumentstructs.Erik.1 (Index: 6, Speaker: A): \"I think uh i in the beginning uh one thing was  that was mentioned was that it should be mm trendy, user friendly and original so um I think your point is relevant as far as the originality is concerned, that we should provide some features that are quite unique to this.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2006a.A.argumentstructs.Erik.1",
+            "ans": "ES2006a.A.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 8,
+                "ae_id": "ES2006a.B.argumentstructs.Erik.1",
+                "speaker": "B",
+                "start_time": 1073.8,
+                "end_time": 1103.75,
+                "sentence": "Yeah, I was looking at the website, and the other things that they've made and I like put down some like inspirational words like that I got from looking at the pictures. So the motto is um we put the fashion in electronics and um so it's something that is sleek and stylish but it's still functional, you know ? So I'm kind of thinking, you know like those phones that they have, the new generation ones, where they don't actually have any buttons on them and stuff like that.",
+                "source": "ES2006a.A.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2006a.A.argumentstructs.Erik.2",
+                    "ES2006a.B.argumentstructs.Erik.2",
+                    "ES2006a.C.argumentstructs.Erik.4"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 1012.84,
+                    "end_time": 1021.29,
+                    "sentence": "Does anyone have any first ideas to bounce around about um what we're thinking of this remote control ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006a.D.argumentstructs.Erik.1",
+                        "ES2006a.A.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2006a.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1020.27,
+                    "end_time": 1032.2,
+                    "sentence": "Yep. I'm just wondering whether whether there is like any special feature that we want to have  w want this remote control have as opposed to the already existing ones.",
+                    "source": "ES2006a.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006a.C.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 1040.05,
+                    "end_time": 1057.03,
+                    "sentence": "I think that's probably something that w it's best if we take away with us, but if we all have a think, when we go away from the meeting, what specific things could be um included in this remote control that that  are out of the ordinary.",
+                    "source": "ES2006a.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1055.43,
+                    "end_time": 1072.89,
+                    "sentence": "I think uh i in the beginning uh one thing was  that was mentioned was that it should be mm trendy, user friendly and original so um I think your point is relevant as far as the originality is concerned, that we should provide some features that are quite unique to this.",
+                    "source": "ES2006a.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006a.C.argumentstructs.Erik.3",
+                        "ES2006a.B.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 1072.22,
+                    "end_time": 1073.64,
+                    "sentence": "Something something new.",
+                    "source": "ES2006a.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006a.B.argumentstructs.Erik.1:\n\"Yeah, I was looking at the website, and the other things that they've made and I like put down some like inspirational words like that I got from looking at the pictures. So the motto is um we put the fashion in electronics and um so it's something that is sleek and stylish but it's still functional, you know ? So I'm kind of thinking, you know like those phones that they have, the new generation ones, where they don't actually have any buttons on them and stuff like that.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2006a.C.argumentstructs.Erik.1 (Index: 1, Speaker: C): \"Does anyone have any first ideas to bounce around about um what we're thinking of this remote control ?\"\nAE_ID ES2006a.D.argumentstructs.Erik.1 (Index: 2, Speaker: D): \"Yep. I'm just wondering whether whether there is like any special feature that we want to have  w want this remote control have as opposed to the already existing ones.\"\nAE_ID ES2006a.C.argumentstructs.Erik.2 (Index: 4, Speaker: C): \"I think that's probably something that w it's best if we take away with us, but if we all have a think, when we go away from the meeting, what specific things could be um included in this remote control that that  are out of the ordinary.\"\nAE_ID ES2006a.A.argumentstructs.Erik.1 (Index: 6, Speaker: A): \"I think uh i in the beginning uh one thing was  that was mentioned was that it should be mm trendy, user friendly and original so um I think your point is relevant as far as the originality is concerned, that we should provide some features that are quite unique to this.\"\nAE_ID ES2006a.C.argumentstructs.Erik.3 (Index: 7, Speaker: C): \"Something something new.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2006a.A.argumentstructs.Erik.1",
+            "ans": "ES2006a.A.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 11,
+                "ae_id": "ES2006a.A.argumentstructs.Erik.2",
+                "speaker": "A",
+                "start_time": 1104.28,
+                "end_time": 1104.69,
+                "sentence": "Alright.",
+                "source": "ES2006a.B.argumentstructs.Erik.1",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 2,
+                    "ae_id": "ES2006a.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1020.27,
+                    "end_time": 1032.2,
+                    "sentence": "Yep. I'm just wondering whether whether there is like any special feature that we want to have  w want this remote control have as opposed to the already existing ones.",
+                    "source": "ES2006a.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006a.C.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 1040.05,
+                    "end_time": 1057.03,
+                    "sentence": "I think that's probably something that w it's best if we take away with us, but if we all have a think, when we go away from the meeting, what specific things could be um included in this remote control that that  are out of the ordinary.",
+                    "source": "ES2006a.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1055.43,
+                    "end_time": 1072.89,
+                    "sentence": "I think uh i in the beginning uh one thing was  that was mentioned was that it should be mm trendy, user friendly and original so um I think your point is relevant as far as the originality is concerned, that we should provide some features that are quite unique to this.",
+                    "source": "ES2006a.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006a.C.argumentstructs.Erik.3",
+                        "ES2006a.B.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 1072.22,
+                    "end_time": 1073.64,
+                    "sentence": "Something something new.",
+                    "source": "ES2006a.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1073.8,
+                    "end_time": 1103.75,
+                    "sentence": "Yeah, I was looking at the website, and the other things that they've made and I like put down some like inspirational words like that I got from looking at the pictures. So the motto is um we put the fashion in electronics and um so it's something that is sleek and stylish but it's still functional, you know ? So I'm kind of thinking, you know like those phones that they have, the new generation ones, where they don't actually have any buttons on them and stuff like that.",
+                    "source": "ES2006a.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006a.A.argumentstructs.Erik.2",
+                        "ES2006a.B.argumentstructs.Erik.2",
+                        "ES2006a.C.argumentstructs.Erik.4"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006a.A.argumentstructs.Erik.2:\n\"Alright.\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2006a.D.argumentstructs.Erik.1 (Index: 2, Speaker: D): \"Yep. I'm just wondering whether whether there is like any special feature that we want to have  w want this remote control have as opposed to the already existing ones.\"\nAE_ID ES2006a.C.argumentstructs.Erik.2 (Index: 4, Speaker: C): \"I think that's probably something that w it's best if we take away with us, but if we all have a think, when we go away from the meeting, what specific things could be um included in this remote control that that  are out of the ordinary.\"\nAE_ID ES2006a.A.argumentstructs.Erik.1 (Index: 6, Speaker: A): \"I think uh i in the beginning uh one thing was  that was mentioned was that it should be mm trendy, user friendly and original so um I think your point is relevant as far as the originality is concerned, that we should provide some features that are quite unique to this.\"\nAE_ID ES2006a.C.argumentstructs.Erik.3 (Index: 7, Speaker: C): \"Something something new.\"\nAE_ID ES2006a.B.argumentstructs.Erik.1 (Index: 8, Speaker: B): \"Yeah, I was looking at the website, and the other things that they've made and I like put down some like inspirational words like that I got from looking at the pictures. So the motto is um we put the fashion in electronics and um so it's something that is sleek and stylish but it's still functional, you know ? So I'm kind of thinking, you know like those phones that they have, the new generation ones, where they don't actually have any buttons on them and stuff like that.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2006a.A.argumentstructs.Erik.1",
+            "ans": "ES2006a.B.argumentstructs.Erik.1",
+            "judgement": false
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 12,
+                "ae_id": "ES2006a.B.argumentstructs.Erik.2",
+                "speaker": "B",
+                "start_time": 1104.76,
+                "end_time": 1113.04,
+                "sentence": "You know, so something heading towards that, so it's not overly  I mean I don't know what h most of the buttons do on my remote controls, so I figure how many do you need, you know ?",
+                "source": "ES2006a.B.argumentstructs.Erik.1",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 4,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 1040.05,
+                    "end_time": 1057.03,
+                    "sentence": "I think that's probably something that w it's best if we take away with us, but if we all have a think, when we go away from the meeting, what specific things could be um included in this remote control that that  are out of the ordinary.",
+                    "source": "ES2006a.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1055.43,
+                    "end_time": 1072.89,
+                    "sentence": "I think uh i in the beginning uh one thing was  that was mentioned was that it should be mm trendy, user friendly and original so um I think your point is relevant as far as the originality is concerned, that we should provide some features that are quite unique to this.",
+                    "source": "ES2006a.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006a.C.argumentstructs.Erik.3",
+                        "ES2006a.B.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 1072.22,
+                    "end_time": 1073.64,
+                    "sentence": "Something something new.",
+                    "source": "ES2006a.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1073.8,
+                    "end_time": 1103.75,
+                    "sentence": "Yeah, I was looking at the website, and the other things that they've made and I like put down some like inspirational words like that I got from looking at the pictures. So the motto is um we put the fashion in electronics and um so it's something that is sleek and stylish but it's still functional, you know ? So I'm kind of thinking, you know like those phones that they have, the new generation ones, where they don't actually have any buttons on them and stuff like that.",
+                    "source": "ES2006a.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006a.A.argumentstructs.Erik.2",
+                        "ES2006a.B.argumentstructs.Erik.2",
+                        "ES2006a.C.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1104.28,
+                    "end_time": 1104.69,
+                    "sentence": "Alright.",
+                    "source": "ES2006a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006a.B.argumentstructs.Erik.2:\n\"You know, so something heading towards that, so it's not overly  I mean I don't know what h most of the buttons do on my remote controls, so I figure how many do you need, you know ?\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2006a.C.argumentstructs.Erik.2 (Index: 4, Speaker: C): \"I think that's probably something that w it's best if we take away with us, but if we all have a think, when we go away from the meeting, what specific things could be um included in this remote control that that  are out of the ordinary.\"\nAE_ID ES2006a.A.argumentstructs.Erik.1 (Index: 6, Speaker: A): \"I think uh i in the beginning uh one thing was  that was mentioned was that it should be mm trendy, user friendly and original so um I think your point is relevant as far as the originality is concerned, that we should provide some features that are quite unique to this.\"\nAE_ID ES2006a.C.argumentstructs.Erik.3 (Index: 7, Speaker: C): \"Something something new.\"\nAE_ID ES2006a.B.argumentstructs.Erik.1 (Index: 8, Speaker: B): \"Yeah, I was looking at the website, and the other things that they've made and I like put down some like inspirational words like that I got from looking at the pictures. So the motto is um we put the fashion in electronics and um so it's something that is sleek and stylish but it's still functional, you know ? So I'm kind of thinking, you know like those phones that they have, the new generation ones, where they don't actually have any buttons on them and stuff like that.\"\nAE_ID ES2006a.A.argumentstructs.Erik.2 (Index: 11, Speaker: A): \"Alright.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2006a.B.argumentstructs.Erik.1",
+            "ans": "ES2006a.B.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 15,
+                "ae_id": "ES2006a.C.argumentstructs.Erik.4",
+                "speaker": "C",
+                "start_time": 1115.45,
+                "end_time": 1117.43,
+                "sentence": "So perhaps some sort of menu-based thing,",
+                "source": "ES2006a.B.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2006a.B.argumentstructs.Erik.3",
+                    "ES2006a.C.argumentstructs.Erik.7"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 6,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1055.43,
+                    "end_time": 1072.89,
+                    "sentence": "I think uh i in the beginning uh one thing was  that was mentioned was that it should be mm trendy, user friendly and original so um I think your point is relevant as far as the originality is concerned, that we should provide some features that are quite unique to this.",
+                    "source": "ES2006a.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006a.C.argumentstructs.Erik.3",
+                        "ES2006a.B.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 1072.22,
+                    "end_time": 1073.64,
+                    "sentence": "Something something new.",
+                    "source": "ES2006a.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1073.8,
+                    "end_time": 1103.75,
+                    "sentence": "Yeah, I was looking at the website, and the other things that they've made and I like put down some like inspirational words like that I got from looking at the pictures. So the motto is um we put the fashion in electronics and um so it's something that is sleek and stylish but it's still functional, you know ? So I'm kind of thinking, you know like those phones that they have, the new generation ones, where they don't actually have any buttons on them and stuff like that.",
+                    "source": "ES2006a.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006a.A.argumentstructs.Erik.2",
+                        "ES2006a.B.argumentstructs.Erik.2",
+                        "ES2006a.C.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1104.28,
+                    "end_time": 1104.69,
+                    "sentence": "Alright.",
+                    "source": "ES2006a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1104.76,
+                    "end_time": 1113.04,
+                    "sentence": "You know, so something heading towards that, so it's not overly  I mean I don't know what h most of the buttons do on my remote controls, so I figure how many do you need, you know ?",
+                    "source": "ES2006a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006a.C.argumentstructs.Erik.4:\n\"So perhaps some sort of menu-based thing,\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2006a.A.argumentstructs.Erik.1 (Index: 6, Speaker: A): \"I think uh i in the beginning uh one thing was  that was mentioned was that it should be mm trendy, user friendly and original so um I think your point is relevant as far as the originality is concerned, that we should provide some features that are quite unique to this.\"\nAE_ID ES2006a.C.argumentstructs.Erik.3 (Index: 7, Speaker: C): \"Something something new.\"\nAE_ID ES2006a.B.argumentstructs.Erik.1 (Index: 8, Speaker: B): \"Yeah, I was looking at the website, and the other things that they've made and I like put down some like inspirational words like that I got from looking at the pictures. So the motto is um we put the fashion in electronics and um so it's something that is sleek and stylish but it's still functional, you know ? So I'm kind of thinking, you know like those phones that they have, the new generation ones, where they don't actually have any buttons on them and stuff like that.\"\nAE_ID ES2006a.A.argumentstructs.Erik.2 (Index: 11, Speaker: A): \"Alright.\"\nAE_ID ES2006a.B.argumentstructs.Erik.2 (Index: 12, Speaker: B): \"You know, so something heading towards that, so it's not overly  I mean I don't know what h most of the buttons do on my remote controls, so I figure how many do you need, you know ?\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2006a.B.argumentstructs.Erik.2",
+            "ans": "ES2006a.B.argumentstructs.Erik.1",
+            "judgement": false
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 16,
+                "ae_id": "ES2006a.B.argumentstructs.Erik.3",
+                "speaker": "B",
+                "start_time": 1119.58,
+                "end_time": 1134.42,
+                "sentence": "Something that's a little less crowded than this, like I mean you know, theoretically you can do all kinds of things with your T_V_, right ? But what do most people do ? They turn it on, they watch certain specified channels, you know, and then they turn it off again. Sometimes they play a movie.",
+                "source": "ES2006a.C.argumentstructs.Erik.4",
+                "targets": [
+                    "ES2006a.C.argumentstructs.Erik.5",
+                    "ES2006a.A.argumentstructs.Erik.3",
+                    "ES2006a.A.argumentstructs.Erik.4"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 7,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 1072.22,
+                    "end_time": 1073.64,
+                    "sentence": "Something something new.",
+                    "source": "ES2006a.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1073.8,
+                    "end_time": 1103.75,
+                    "sentence": "Yeah, I was looking at the website, and the other things that they've made and I like put down some like inspirational words like that I got from looking at the pictures. So the motto is um we put the fashion in electronics and um so it's something that is sleek and stylish but it's still functional, you know ? So I'm kind of thinking, you know like those phones that they have, the new generation ones, where they don't actually have any buttons on them and stuff like that.",
+                    "source": "ES2006a.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006a.A.argumentstructs.Erik.2",
+                        "ES2006a.B.argumentstructs.Erik.2",
+                        "ES2006a.C.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1104.28,
+                    "end_time": 1104.69,
+                    "sentence": "Alright.",
+                    "source": "ES2006a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1104.76,
+                    "end_time": 1113.04,
+                    "sentence": "You know, so something heading towards that, so it's not overly  I mean I don't know what h most of the buttons do on my remote controls, so I figure how many do you need, you know ?",
+                    "source": "ES2006a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.4",
+                    "speaker": "C",
+                    "start_time": 1115.45,
+                    "end_time": 1117.43,
+                    "sentence": "So perhaps some sort of menu-based thing,",
+                    "source": "ES2006a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006a.B.argumentstructs.Erik.3",
+                        "ES2006a.C.argumentstructs.Erik.7"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006a.B.argumentstructs.Erik.3:\n\"Something that's a little less crowded than this, like I mean you know, theoretically you can do all kinds of things with your T_V_, right ? But what do most people do ? They turn it on, they watch certain specified channels, you know, and then they turn it off again. Sometimes they play a movie.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2006a.C.argumentstructs.Erik.3 (Index: 7, Speaker: C): \"Something something new.\"\nAE_ID ES2006a.B.argumentstructs.Erik.1 (Index: 8, Speaker: B): \"Yeah, I was looking at the website, and the other things that they've made and I like put down some like inspirational words like that I got from looking at the pictures. So the motto is um we put the fashion in electronics and um so it's something that is sleek and stylish but it's still functional, you know ? So I'm kind of thinking, you know like those phones that they have, the new generation ones, where they don't actually have any buttons on them and stuff like that.\"\nAE_ID ES2006a.A.argumentstructs.Erik.2 (Index: 11, Speaker: A): \"Alright.\"\nAE_ID ES2006a.B.argumentstructs.Erik.2 (Index: 12, Speaker: B): \"You know, so something heading towards that, so it's not overly  I mean I don't know what h most of the buttons do on my remote controls, so I figure how many do you need, you know ?\"\nAE_ID ES2006a.C.argumentstructs.Erik.4 (Index: 15, Speaker: C): \"So perhaps some sort of menu-based thing,\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2006a.B.argumentstructs.Erik.2",
+            "ans": "ES2006a.C.argumentstructs.Erik.4",
+            "judgement": false
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 18,
+                "ae_id": "ES2006a.C.argumentstructs.Erik.5",
+                "speaker": "C",
+                "start_time": 1126.29,
+                "end_time": 1126.54,
+                "sentence": "Yeah.",
+                "source": "ES2006a.B.argumentstructs.Erik.3",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 8,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1073.8,
+                    "end_time": 1103.75,
+                    "sentence": "Yeah, I was looking at the website, and the other things that they've made and I like put down some like inspirational words like that I got from looking at the pictures. So the motto is um we put the fashion in electronics and um so it's something that is sleek and stylish but it's still functional, you know ? So I'm kind of thinking, you know like those phones that they have, the new generation ones, where they don't actually have any buttons on them and stuff like that.",
+                    "source": "ES2006a.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006a.A.argumentstructs.Erik.2",
+                        "ES2006a.B.argumentstructs.Erik.2",
+                        "ES2006a.C.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1104.28,
+                    "end_time": 1104.69,
+                    "sentence": "Alright.",
+                    "source": "ES2006a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1104.76,
+                    "end_time": 1113.04,
+                    "sentence": "You know, so something heading towards that, so it's not overly  I mean I don't know what h most of the buttons do on my remote controls, so I figure how many do you need, you know ?",
+                    "source": "ES2006a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.4",
+                    "speaker": "C",
+                    "start_time": 1115.45,
+                    "end_time": 1117.43,
+                    "sentence": "So perhaps some sort of menu-based thing,",
+                    "source": "ES2006a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006a.B.argumentstructs.Erik.3",
+                        "ES2006a.C.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1119.58,
+                    "end_time": 1134.42,
+                    "sentence": "Something that's a little less crowded than this, like I mean you know, theoretically you can do all kinds of things with your T_V_, right ? But what do most people do ? They turn it on, they watch certain specified channels, you know, and then they turn it off again. Sometimes they play a movie.",
+                    "source": "ES2006a.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006a.C.argumentstructs.Erik.5",
+                        "ES2006a.A.argumentstructs.Erik.3",
+                        "ES2006a.A.argumentstructs.Erik.4"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006a.C.argumentstructs.Erik.5:\n\"Yeah.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2006a.B.argumentstructs.Erik.1 (Index: 8, Speaker: B): \"Yeah, I was looking at the website, and the other things that they've made and I like put down some like inspirational words like that I got from looking at the pictures. So the motto is um we put the fashion in electronics and um so it's something that is sleek and stylish but it's still functional, you know ? So I'm kind of thinking, you know like those phones that they have, the new generation ones, where they don't actually have any buttons on them and stuff like that.\"\nAE_ID ES2006a.A.argumentstructs.Erik.2 (Index: 11, Speaker: A): \"Alright.\"\nAE_ID ES2006a.B.argumentstructs.Erik.2 (Index: 12, Speaker: B): \"You know, so something heading towards that, so it's not overly  I mean I don't know what h most of the buttons do on my remote controls, so I figure how many do you need, you know ?\"\nAE_ID ES2006a.C.argumentstructs.Erik.4 (Index: 15, Speaker: C): \"So perhaps some sort of menu-based thing,\"\nAE_ID ES2006a.B.argumentstructs.Erik.3 (Index: 16, Speaker: B): \"Something that's a little less crowded than this, like I mean you know, theoretically you can do all kinds of things with your T_V_, right ? But what do most people do ? They turn it on, they watch certain specified channels, you know, and then they turn it off again. Sometimes they play a movie.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2006a.B.argumentstructs.Erik.1",
+            "ans": "ES2006a.B.argumentstructs.Erik.3",
+            "judgement": false
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 19,
+                "ae_id": "ES2006a.A.argumentstructs.Erik.3",
+                "speaker": "A",
+                "start_time": 1128.64,
+                "end_time": 1128.99,
+                "sentence": "Yeah.",
+                "source": "ES2006a.B.argumentstructs.Erik.3",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 11,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1104.28,
+                    "end_time": 1104.69,
+                    "sentence": "Alright.",
+                    "source": "ES2006a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1104.76,
+                    "end_time": 1113.04,
+                    "sentence": "You know, so something heading towards that, so it's not overly  I mean I don't know what h most of the buttons do on my remote controls, so I figure how many do you need, you know ?",
+                    "source": "ES2006a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.4",
+                    "speaker": "C",
+                    "start_time": 1115.45,
+                    "end_time": 1117.43,
+                    "sentence": "So perhaps some sort of menu-based thing,",
+                    "source": "ES2006a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006a.B.argumentstructs.Erik.3",
+                        "ES2006a.C.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1119.58,
+                    "end_time": 1134.42,
+                    "sentence": "Something that's a little less crowded than this, like I mean you know, theoretically you can do all kinds of things with your T_V_, right ? But what do most people do ? They turn it on, they watch certain specified channels, you know, and then they turn it off again. Sometimes they play a movie.",
+                    "source": "ES2006a.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006a.C.argumentstructs.Erik.5",
+                        "ES2006a.A.argumentstructs.Erik.3",
+                        "ES2006a.A.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.5",
+                    "speaker": "C",
+                    "start_time": 1126.29,
+                    "end_time": 1126.54,
+                    "sentence": "Yeah.",
+                    "source": "ES2006a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006a.A.argumentstructs.Erik.3:\n\"Yeah.\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2006a.A.argumentstructs.Erik.2 (Index: 11, Speaker: A): \"Alright.\"\nAE_ID ES2006a.B.argumentstructs.Erik.2 (Index: 12, Speaker: B): \"You know, so something heading towards that, so it's not overly  I mean I don't know what h most of the buttons do on my remote controls, so I figure how many do you need, you know ?\"\nAE_ID ES2006a.C.argumentstructs.Erik.4 (Index: 15, Speaker: C): \"So perhaps some sort of menu-based thing,\"\nAE_ID ES2006a.B.argumentstructs.Erik.3 (Index: 16, Speaker: B): \"Something that's a little less crowded than this, like I mean you know, theoretically you can do all kinds of things with your T_V_, right ? But what do most people do ? They turn it on, they watch certain specified channels, you know, and then they turn it off again. Sometimes they play a movie.\"\nAE_ID ES2006a.C.argumentstructs.Erik.5 (Index: 18, Speaker: C): \"Yeah.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2006a.C.argumentstructs.Erik.5",
+            "ans": "ES2006a.B.argumentstructs.Erik.3",
+            "judgement": false
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 21,
+                "ae_id": "ES2006a.A.argumentstructs.Erik.4",
+                "speaker": "A",
+                "start_time": 1132.94,
+                "end_time": 1139.72,
+                "sentence": "There is a lot of functionality in there that is not used ninety percent of the time, but will be used ten percent of the time, yeah.",
+                "source": "ES2006a.B.argumentstructs.Erik.3",
+                "targets": [
+                    "ES2006a.B.argumentstructs.Erik.4",
+                    "ES2006a.C.argumentstructs.Erik.6",
+                    "ES2006a.B.argumentstructs.Erik.5"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 12,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1104.76,
+                    "end_time": 1113.04,
+                    "sentence": "You know, so something heading towards that, so it's not overly  I mean I don't know what h most of the buttons do on my remote controls, so I figure how many do you need, you know ?",
+                    "source": "ES2006a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.4",
+                    "speaker": "C",
+                    "start_time": 1115.45,
+                    "end_time": 1117.43,
+                    "sentence": "So perhaps some sort of menu-based thing,",
+                    "source": "ES2006a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006a.B.argumentstructs.Erik.3",
+                        "ES2006a.C.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1119.58,
+                    "end_time": 1134.42,
+                    "sentence": "Something that's a little less crowded than this, like I mean you know, theoretically you can do all kinds of things with your T_V_, right ? But what do most people do ? They turn it on, they watch certain specified channels, you know, and then they turn it off again. Sometimes they play a movie.",
+                    "source": "ES2006a.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006a.C.argumentstructs.Erik.5",
+                        "ES2006a.A.argumentstructs.Erik.3",
+                        "ES2006a.A.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.5",
+                    "speaker": "C",
+                    "start_time": 1126.29,
+                    "end_time": 1126.54,
+                    "sentence": "Yeah.",
+                    "source": "ES2006a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1128.64,
+                    "end_time": 1128.99,
+                    "sentence": "Yeah.",
+                    "source": "ES2006a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006a.A.argumentstructs.Erik.4:\n\"There is a lot of functionality in there that is not used ninety percent of the time, but will be used ten percent of the time, yeah.\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2006a.B.argumentstructs.Erik.2 (Index: 12, Speaker: B): \"You know, so something heading towards that, so it's not overly  I mean I don't know what h most of the buttons do on my remote controls, so I figure how many do you need, you know ?\"\nAE_ID ES2006a.C.argumentstructs.Erik.4 (Index: 15, Speaker: C): \"So perhaps some sort of menu-based thing,\"\nAE_ID ES2006a.B.argumentstructs.Erik.3 (Index: 16, Speaker: B): \"Something that's a little less crowded than this, like I mean you know, theoretically you can do all kinds of things with your T_V_, right ? But what do most people do ? They turn it on, they watch certain specified channels, you know, and then they turn it off again. Sometimes they play a movie.\"\nAE_ID ES2006a.C.argumentstructs.Erik.5 (Index: 18, Speaker: C): \"Yeah.\"\nAE_ID ES2006a.A.argumentstructs.Erik.3 (Index: 19, Speaker: A): \"Yeah.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2006a.B.argumentstructs.Erik.3",
+            "ans": "ES2006a.B.argumentstructs.Erik.3",
+            "judgement": true
+        },
+        {
+            "turn_number": 13,
+            "current_node": {
+                "index": 22,
+                "ae_id": "ES2006a.B.argumentstructs.Erik.4",
+                "speaker": "B",
+                "start_time": 1137.15,
+                "end_time": 1137.97,
+                "sentence": "Yeah, so",
+                "source": "ES2006a.A.argumentstructs.Erik.4",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 15,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.4",
+                    "speaker": "C",
+                    "start_time": 1115.45,
+                    "end_time": 1117.43,
+                    "sentence": "So perhaps some sort of menu-based thing,",
+                    "source": "ES2006a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006a.B.argumentstructs.Erik.3",
+                        "ES2006a.C.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1119.58,
+                    "end_time": 1134.42,
+                    "sentence": "Something that's a little less crowded than this, like I mean you know, theoretically you can do all kinds of things with your T_V_, right ? But what do most people do ? They turn it on, they watch certain specified channels, you know, and then they turn it off again. Sometimes they play a movie.",
+                    "source": "ES2006a.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006a.C.argumentstructs.Erik.5",
+                        "ES2006a.A.argumentstructs.Erik.3",
+                        "ES2006a.A.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.5",
+                    "speaker": "C",
+                    "start_time": 1126.29,
+                    "end_time": 1126.54,
+                    "sentence": "Yeah.",
+                    "source": "ES2006a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1128.64,
+                    "end_time": 1128.99,
+                    "sentence": "Yeah.",
+                    "source": "ES2006a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1132.94,
+                    "end_time": 1139.72,
+                    "sentence": "There is a lot of functionality in there that is not used ninety percent of the time, but will be used ten percent of the time, yeah.",
+                    "source": "ES2006a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2006a.B.argumentstructs.Erik.4",
+                        "ES2006a.C.argumentstructs.Erik.6",
+                        "ES2006a.B.argumentstructs.Erik.5"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006a.B.argumentstructs.Erik.4:\n\"Yeah, so\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2006a.C.argumentstructs.Erik.4 (Index: 15, Speaker: C): \"So perhaps some sort of menu-based thing,\"\nAE_ID ES2006a.B.argumentstructs.Erik.3 (Index: 16, Speaker: B): \"Something that's a little less crowded than this, like I mean you know, theoretically you can do all kinds of things with your T_V_, right ? But what do most people do ? They turn it on, they watch certain specified channels, you know, and then they turn it off again. Sometimes they play a movie.\"\nAE_ID ES2006a.C.argumentstructs.Erik.5 (Index: 18, Speaker: C): \"Yeah.\"\nAE_ID ES2006a.A.argumentstructs.Erik.3 (Index: 19, Speaker: A): \"Yeah.\"\nAE_ID ES2006a.A.argumentstructs.Erik.4 (Index: 21, Speaker: A): \"There is a lot of functionality in there that is not used ninety percent of the time, but will be used ten percent of the time, yeah.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2006a.B.argumentstructs.Erik.3",
+            "ans": "ES2006a.A.argumentstructs.Erik.4",
+            "judgement": false
+        },
+        {
+            "turn_number": 14,
+            "current_node": {
+                "index": 23,
+                "ae_id": "ES2006a.C.argumentstructs.Erik.6",
+                "speaker": "C",
+                "start_time": 1137.27,
+                "end_time": 1137.57,
+                "sentence": "Yeah.",
+                "source": "ES2006a.A.argumentstructs.Erik.4",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 16,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1119.58,
+                    "end_time": 1134.42,
+                    "sentence": "Something that's a little less crowded than this, like I mean you know, theoretically you can do all kinds of things with your T_V_, right ? But what do most people do ? They turn it on, they watch certain specified channels, you know, and then they turn it off again. Sometimes they play a movie.",
+                    "source": "ES2006a.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006a.C.argumentstructs.Erik.5",
+                        "ES2006a.A.argumentstructs.Erik.3",
+                        "ES2006a.A.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.5",
+                    "speaker": "C",
+                    "start_time": 1126.29,
+                    "end_time": 1126.54,
+                    "sentence": "Yeah.",
+                    "source": "ES2006a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1128.64,
+                    "end_time": 1128.99,
+                    "sentence": "Yeah.",
+                    "source": "ES2006a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1132.94,
+                    "end_time": 1139.72,
+                    "sentence": "There is a lot of functionality in there that is not used ninety percent of the time, but will be used ten percent of the time, yeah.",
+                    "source": "ES2006a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2006a.B.argumentstructs.Erik.4",
+                        "ES2006a.C.argumentstructs.Erik.6",
+                        "ES2006a.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1137.15,
+                    "end_time": 1137.97,
+                    "sentence": "Yeah, so",
+                    "source": "ES2006a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006a.C.argumentstructs.Erik.6:\n\"Yeah.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2006a.B.argumentstructs.Erik.3 (Index: 16, Speaker: B): \"Something that's a little less crowded than this, like I mean you know, theoretically you can do all kinds of things with your T_V_, right ? But what do most people do ? They turn it on, they watch certain specified channels, you know, and then they turn it off again. Sometimes they play a movie.\"\nAE_ID ES2006a.C.argumentstructs.Erik.5 (Index: 18, Speaker: C): \"Yeah.\"\nAE_ID ES2006a.A.argumentstructs.Erik.3 (Index: 19, Speaker: A): \"Yeah.\"\nAE_ID ES2006a.A.argumentstructs.Erik.4 (Index: 21, Speaker: A): \"There is a lot of functionality in there that is not used ninety percent of the time, but will be used ten percent of the time, yeah.\"\nAE_ID ES2006a.B.argumentstructs.Erik.4 (Index: 22, Speaker: B): \"Yeah, so\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2006a.C.argumentstructs.Erik.5",
+            "ans": "ES2006a.A.argumentstructs.Erik.4",
+            "judgement": false
+        },
+        {
+            "turn_number": 15,
+            "current_node": {
+                "index": 24,
+                "ae_id": "ES2006a.B.argumentstructs.Erik.5",
+                "speaker": "B",
+                "start_time": 1139.08,
+                "end_time": 1141.35,
+                "sentence": "there's no need to have buttons on it to do that,",
+                "source": "ES2006a.A.argumentstructs.Erik.4",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 18,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.5",
+                    "speaker": "C",
+                    "start_time": 1126.29,
+                    "end_time": 1126.54,
+                    "sentence": "Yeah.",
+                    "source": "ES2006a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1128.64,
+                    "end_time": 1128.99,
+                    "sentence": "Yeah.",
+                    "source": "ES2006a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1132.94,
+                    "end_time": 1139.72,
+                    "sentence": "There is a lot of functionality in there that is not used ninety percent of the time, but will be used ten percent of the time, yeah.",
+                    "source": "ES2006a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2006a.B.argumentstructs.Erik.4",
+                        "ES2006a.C.argumentstructs.Erik.6",
+                        "ES2006a.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1137.15,
+                    "end_time": 1137.97,
+                    "sentence": "Yeah, so",
+                    "source": "ES2006a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.6",
+                    "speaker": "C",
+                    "start_time": 1137.27,
+                    "end_time": 1137.57,
+                    "sentence": "Yeah.",
+                    "source": "ES2006a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006a.B.argumentstructs.Erik.5:\n\"there's no need to have buttons on it to do that,\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2006a.C.argumentstructs.Erik.5 (Index: 18, Speaker: C): \"Yeah.\"\nAE_ID ES2006a.A.argumentstructs.Erik.3 (Index: 19, Speaker: A): \"Yeah.\"\nAE_ID ES2006a.A.argumentstructs.Erik.4 (Index: 21, Speaker: A): \"There is a lot of functionality in there that is not used ninety percent of the time, but will be used ten percent of the time, yeah.\"\nAE_ID ES2006a.B.argumentstructs.Erik.4 (Index: 22, Speaker: B): \"Yeah, so\"\nAE_ID ES2006a.C.argumentstructs.Erik.6 (Index: 23, Speaker: C): \"Yeah.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2006a.A.argumentstructs.Erik.4",
+            "ans": "ES2006a.A.argumentstructs.Erik.4",
+            "judgement": true
+        },
+        {
+            "turn_number": 16,
+            "current_node": {
+                "index": 25,
+                "ae_id": "ES2006a.C.argumentstructs.Erik.7",
+                "speaker": "C",
+                "start_time": 1139.43,
+                "end_time": 1146.37,
+                "sentence": "So, no. It could be one button for a menu or something, if you really need to go and do that.",
+                "source": "ES2006a.C.argumentstructs.Erik.4",
+                "targets": [
+                    "ES2006a.A.argumentstructs.Erik.5",
+                    "ES2006a.B.argumentstructs.Erik.6",
+                    "ES2006a.A.argumentstructs.Erik.6",
+                    "ES2006a.B.argumentstructs.Erik.7"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 19,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1128.64,
+                    "end_time": 1128.99,
+                    "sentence": "Yeah.",
+                    "source": "ES2006a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1132.94,
+                    "end_time": 1139.72,
+                    "sentence": "There is a lot of functionality in there that is not used ninety percent of the time, but will be used ten percent of the time, yeah.",
+                    "source": "ES2006a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2006a.B.argumentstructs.Erik.4",
+                        "ES2006a.C.argumentstructs.Erik.6",
+                        "ES2006a.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1137.15,
+                    "end_time": 1137.97,
+                    "sentence": "Yeah, so",
+                    "source": "ES2006a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.6",
+                    "speaker": "C",
+                    "start_time": 1137.27,
+                    "end_time": 1137.57,
+                    "sentence": "Yeah.",
+                    "source": "ES2006a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1139.08,
+                    "end_time": 1141.35,
+                    "sentence": "there's no need to have buttons on it to do that,",
+                    "source": "ES2006a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006a.C.argumentstructs.Erik.7:\n\"So, no. It could be one button for a menu or something, if you really need to go and do that.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2006a.A.argumentstructs.Erik.3 (Index: 19, Speaker: A): \"Yeah.\"\nAE_ID ES2006a.A.argumentstructs.Erik.4 (Index: 21, Speaker: A): \"There is a lot of functionality in there that is not used ninety percent of the time, but will be used ten percent of the time, yeah.\"\nAE_ID ES2006a.B.argumentstructs.Erik.4 (Index: 22, Speaker: B): \"Yeah, so\"\nAE_ID ES2006a.C.argumentstructs.Erik.6 (Index: 23, Speaker: C): \"Yeah.\"\nAE_ID ES2006a.B.argumentstructs.Erik.5 (Index: 24, Speaker: B): \"there's no need to have buttons on it to do that,\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2006a.B.argumentstructs.Erik.5",
+            "ans": "ES2006a.C.argumentstructs.Erik.4",
+            "judgement": false
+        },
+        {
+            "turn_number": 17,
+            "current_node": {
+                "index": 27,
+                "ae_id": "ES2006a.A.argumentstructs.Erik.5",
+                "speaker": "A",
+                "start_time": 1141.87,
+                "end_time": 1142.09,
+                "sentence": "Yep.",
+                "source": "ES2006a.C.argumentstructs.Erik.7",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 21,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1132.94,
+                    "end_time": 1139.72,
+                    "sentence": "There is a lot of functionality in there that is not used ninety percent of the time, but will be used ten percent of the time, yeah.",
+                    "source": "ES2006a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2006a.B.argumentstructs.Erik.4",
+                        "ES2006a.C.argumentstructs.Erik.6",
+                        "ES2006a.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1137.15,
+                    "end_time": 1137.97,
+                    "sentence": "Yeah, so",
+                    "source": "ES2006a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.6",
+                    "speaker": "C",
+                    "start_time": 1137.27,
+                    "end_time": 1137.57,
+                    "sentence": "Yeah.",
+                    "source": "ES2006a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1139.08,
+                    "end_time": 1141.35,
+                    "sentence": "there's no need to have buttons on it to do that,",
+                    "source": "ES2006a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.7",
+                    "speaker": "C",
+                    "start_time": 1139.43,
+                    "end_time": 1146.37,
+                    "sentence": "So, no. It could be one button for a menu or something, if you really need to go and do that.",
+                    "source": "ES2006a.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006a.A.argumentstructs.Erik.5",
+                        "ES2006a.B.argumentstructs.Erik.6",
+                        "ES2006a.A.argumentstructs.Erik.6",
+                        "ES2006a.B.argumentstructs.Erik.7"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006a.A.argumentstructs.Erik.5:\n\"Yep.\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2006a.A.argumentstructs.Erik.4 (Index: 21, Speaker: A): \"There is a lot of functionality in there that is not used ninety percent of the time, but will be used ten percent of the time, yeah.\"\nAE_ID ES2006a.B.argumentstructs.Erik.4 (Index: 22, Speaker: B): \"Yeah, so\"\nAE_ID ES2006a.C.argumentstructs.Erik.6 (Index: 23, Speaker: C): \"Yeah.\"\nAE_ID ES2006a.B.argumentstructs.Erik.5 (Index: 24, Speaker: B): \"there's no need to have buttons on it to do that,\"\nAE_ID ES2006a.C.argumentstructs.Erik.7 (Index: 25, Speaker: C): \"So, no. It could be one button for a menu or something, if you really need to go and do that.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2006a.B.argumentstructs.Erik.4",
+            "ans": "ES2006a.C.argumentstructs.Erik.7",
+            "judgement": false
+        },
+        {
+            "turn_number": 18,
+            "current_node": {
+                "index": 28,
+                "ae_id": "ES2006a.B.argumentstructs.Erik.6",
+                "speaker": "B",
+                "start_time": 1144.63,
+                "end_time": 1145.07,
+                "sentence": "Yeah.",
+                "source": "ES2006a.C.argumentstructs.Erik.7",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 22,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1137.15,
+                    "end_time": 1137.97,
+                    "sentence": "Yeah, so",
+                    "source": "ES2006a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.6",
+                    "speaker": "C",
+                    "start_time": 1137.27,
+                    "end_time": 1137.57,
+                    "sentence": "Yeah.",
+                    "source": "ES2006a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1139.08,
+                    "end_time": 1141.35,
+                    "sentence": "there's no need to have buttons on it to do that,",
+                    "source": "ES2006a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.7",
+                    "speaker": "C",
+                    "start_time": 1139.43,
+                    "end_time": 1146.37,
+                    "sentence": "So, no. It could be one button for a menu or something, if you really need to go and do that.",
+                    "source": "ES2006a.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006a.A.argumentstructs.Erik.5",
+                        "ES2006a.B.argumentstructs.Erik.6",
+                        "ES2006a.A.argumentstructs.Erik.6",
+                        "ES2006a.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 27,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 1141.87,
+                    "end_time": 1142.09,
+                    "sentence": "Yep.",
+                    "source": "ES2006a.C.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006a.B.argumentstructs.Erik.6:\n\"Yeah.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2006a.B.argumentstructs.Erik.4 (Index: 22, Speaker: B): \"Yeah, so\"\nAE_ID ES2006a.C.argumentstructs.Erik.6 (Index: 23, Speaker: C): \"Yeah.\"\nAE_ID ES2006a.B.argumentstructs.Erik.5 (Index: 24, Speaker: B): \"there's no need to have buttons on it to do that,\"\nAE_ID ES2006a.C.argumentstructs.Erik.7 (Index: 25, Speaker: C): \"So, no. It could be one button for a menu or something, if you really need to go and do that.\"\nAE_ID ES2006a.A.argumentstructs.Erik.5 (Index: 27, Speaker: A): \"Yep.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2006a.C.argumentstructs.Erik.6",
+            "ans": "ES2006a.C.argumentstructs.Erik.7",
+            "judgement": false
+        },
+        {
+            "turn_number": 19,
+            "current_node": {
+                "index": 30,
+                "ae_id": "ES2006a.A.argumentstructs.Erik.6",
+                "speaker": "A",
+                "start_time": 1145.15,
+                "end_time": 1146.359,
+                "sentence": "And then use the",
+                "source": "ES2006a.C.argumentstructs.Erik.7",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 23,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.6",
+                    "speaker": "C",
+                    "start_time": 1137.27,
+                    "end_time": 1137.57,
+                    "sentence": "Yeah.",
+                    "source": "ES2006a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1139.08,
+                    "end_time": 1141.35,
+                    "sentence": "there's no need to have buttons on it to do that,",
+                    "source": "ES2006a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.7",
+                    "speaker": "C",
+                    "start_time": 1139.43,
+                    "end_time": 1146.37,
+                    "sentence": "So, no. It could be one button for a menu or something, if you really need to go and do that.",
+                    "source": "ES2006a.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006a.A.argumentstructs.Erik.5",
+                        "ES2006a.B.argumentstructs.Erik.6",
+                        "ES2006a.A.argumentstructs.Erik.6",
+                        "ES2006a.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 27,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 1141.87,
+                    "end_time": 1142.09,
+                    "sentence": "Yep.",
+                    "source": "ES2006a.C.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 28,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 1144.63,
+                    "end_time": 1145.07,
+                    "sentence": "Yeah.",
+                    "source": "ES2006a.C.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006a.A.argumentstructs.Erik.6:\n\"And then use the\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2006a.C.argumentstructs.Erik.6 (Index: 23, Speaker: C): \"Yeah.\"\nAE_ID ES2006a.B.argumentstructs.Erik.5 (Index: 24, Speaker: B): \"there's no need to have buttons on it to do that,\"\nAE_ID ES2006a.C.argumentstructs.Erik.7 (Index: 25, Speaker: C): \"So, no. It could be one button for a menu or something, if you really need to go and do that.\"\nAE_ID ES2006a.A.argumentstructs.Erik.5 (Index: 27, Speaker: A): \"Yep.\"\nAE_ID ES2006a.B.argumentstructs.Erik.6 (Index: 28, Speaker: B): \"Yeah.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2006a.B.argumentstructs.Erik.5",
+            "ans": "ES2006a.C.argumentstructs.Erik.7",
+            "judgement": false
+        },
+        {
+            "turn_number": 20,
+            "current_node": {
+                "index": 31,
+                "ae_id": "ES2006a.B.argumentstructs.Erik.7",
+                "speaker": "B",
+                "start_time": 1145.93,
+                "end_time": 1157.06,
+                "sentence": "So, if you're the kind of sad case that knows how your remote control works, then you know that's fine and you can do it on the screen rather than everybody else having to have those buttons, which just confuse them.",
+                "source": "ES2006a.C.argumentstructs.Erik.7",
+                "targets": [
+                    "ES2006a.C.argumentstructs.Erik.8"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 24,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1139.08,
+                    "end_time": 1141.35,
+                    "sentence": "there's no need to have buttons on it to do that,",
+                    "source": "ES2006a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.7",
+                    "speaker": "C",
+                    "start_time": 1139.43,
+                    "end_time": 1146.37,
+                    "sentence": "So, no. It could be one button for a menu or something, if you really need to go and do that.",
+                    "source": "ES2006a.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006a.A.argumentstructs.Erik.5",
+                        "ES2006a.B.argumentstructs.Erik.6",
+                        "ES2006a.A.argumentstructs.Erik.6",
+                        "ES2006a.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 27,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 1141.87,
+                    "end_time": 1142.09,
+                    "sentence": "Yep.",
+                    "source": "ES2006a.C.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 28,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 1144.63,
+                    "end_time": 1145.07,
+                    "sentence": "Yeah.",
+                    "source": "ES2006a.C.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 30,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 1145.15,
+                    "end_time": 1146.359,
+                    "sentence": "And then use the",
+                    "source": "ES2006a.C.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006a.B.argumentstructs.Erik.7:\n\"So, if you're the kind of sad case that knows how your remote control works, then you know that's fine and you can do it on the screen rather than everybody else having to have those buttons, which just confuse them.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2006a.B.argumentstructs.Erik.5 (Index: 24, Speaker: B): \"there's no need to have buttons on it to do that,\"\nAE_ID ES2006a.C.argumentstructs.Erik.7 (Index: 25, Speaker: C): \"So, no. It could be one button for a menu or something, if you really need to go and do that.\"\nAE_ID ES2006a.A.argumentstructs.Erik.5 (Index: 27, Speaker: A): \"Yep.\"\nAE_ID ES2006a.B.argumentstructs.Erik.6 (Index: 28, Speaker: B): \"Yeah.\"\nAE_ID ES2006a.A.argumentstructs.Erik.6 (Index: 30, Speaker: A): \"And then use the\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2006a.B.argumentstructs.Erik.5",
+            "ans": "ES2006a.C.argumentstructs.Erik.7",
+            "judgement": false
+        },
+        {
+            "turn_number": 21,
+            "current_node": {
+                "index": 35,
+                "ae_id": "ES2006a.C.argumentstructs.Erik.8",
+                "speaker": "C",
+                "start_time": 1157.8,
+                "end_time": 1158.41,
+                "sentence": "Excellent.",
+                "source": "ES2006a.B.argumentstructs.Erik.7",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 25,
+                    "ae_id": "ES2006a.C.argumentstructs.Erik.7",
+                    "speaker": "C",
+                    "start_time": 1139.43,
+                    "end_time": 1146.37,
+                    "sentence": "So, no. It could be one button for a menu or something, if you really need to go and do that.",
+                    "source": "ES2006a.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006a.A.argumentstructs.Erik.5",
+                        "ES2006a.B.argumentstructs.Erik.6",
+                        "ES2006a.A.argumentstructs.Erik.6",
+                        "ES2006a.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 27,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 1141.87,
+                    "end_time": 1142.09,
+                    "sentence": "Yep.",
+                    "source": "ES2006a.C.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 28,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 1144.63,
+                    "end_time": 1145.07,
+                    "sentence": "Yeah.",
+                    "source": "ES2006a.C.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 30,
+                    "ae_id": "ES2006a.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 1145.15,
+                    "end_time": 1146.359,
+                    "sentence": "And then use the",
+                    "source": "ES2006a.C.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 31,
+                    "ae_id": "ES2006a.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 1145.93,
+                    "end_time": 1157.06,
+                    "sentence": "So, if you're the kind of sad case that knows how your remote control works, then you know that's fine and you can do it on the screen rather than everybody else having to have those buttons, which just confuse them.",
+                    "source": "ES2006a.C.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2006a.C.argumentstructs.Erik.8"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2006a.C.argumentstructs.Erik.8:\n\"Excellent.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2006a.C.argumentstructs.Erik.7 (Index: 25, Speaker: C): \"So, no. It could be one button for a menu or something, if you really need to go and do that.\"\nAE_ID ES2006a.A.argumentstructs.Erik.5 (Index: 27, Speaker: A): \"Yep.\"\nAE_ID ES2006a.B.argumentstructs.Erik.6 (Index: 28, Speaker: B): \"Yeah.\"\nAE_ID ES2006a.A.argumentstructs.Erik.6 (Index: 30, Speaker: A): \"And then use the\"\nAE_ID ES2006a.B.argumentstructs.Erik.7 (Index: 31, Speaker: B): \"So, if you're the kind of sad case that knows how your remote control works, then you know that's fine and you can do it on the screen rather than everybody else having to have those buttons, which just confuse them.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2006a.B.argumentstructs.Erik.7",
+            "ans": "ES2006a.B.argumentstructs.Erik.7",
+            "judgement": true
+        }
+    ]
+}

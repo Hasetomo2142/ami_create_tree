@@ -1,0 +1,1064 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2002d-ES2002d - Leadership.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "prompt_template.txt",
+    "rate": 0.38461538461538464,
+    "total_node_count": 20,
+    "removed_node_count": 6,
+    "removed_node_list": [
+        {
+            "index": 0,
+            "ae_id": "ES2002d.B.argumentstructs.48",
+            "speaker": "B",
+            "start_time": 1654.52,
+            "end_time": 1655.52,
+            "sentence": "Very good.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 7,
+            "ae_id": "ES2002d.C.argumentstructs.40",
+            "speaker": "C",
+            "start_time": 1677.84,
+            "end_time": 1691.92,
+            "sentence": "Um yeah I think I think it's I think it's good. I mean my personal views on on leadership is that effective effective leadership sort of um gives people a certain room for freedom and delegation, but then to come back with something that they take great ownership and",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 8,
+            "ae_id": "ES2002d.A.argumentstructs.37",
+            "speaker": "A",
+            "start_time": 1680.15,
+            "end_time": 1680.52,
+            "sentence": "Excuse me.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 9,
+            "ae_id": "ES2002d.B.argumentstructs.49",
+            "speaker": "B",
+            "start_time": 1692.12,
+            "end_time": 1692.62,
+            "sentence": "Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 17,
+            "ae_id": "ES2002d.C.argumentstructs.41",
+            "speaker": "C",
+            "start_time": 1738.72,
+            "end_time": 1763.6,
+            "sentence": "Yeah. Yeah, yeah. Mm-hmm, mm-hmm. Mm-hmm. Mm-hmm. Mm-hmm, mm-hmm. Mm-hmm, mm-hmm. Mm-hmm. Mm. Mm-hmm, mm-hmm. Yeah.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 19,
+            "ae_id": "ES2002d.B.argumentstructs.50",
+            "speaker": "B",
+            "start_time": 1752.43,
+            "end_time": 1757.81,
+            "sentence": "Uh-huh. Okay.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.21",
+                "speaker": "B",
+                "start_time": 1655.52,
+                "end_time": 1657.55,
+                "sentence": "Um what about leadership ?",
+                "source": "NONE",
+                "targets": [
+                    "ES2002d.B.argumentstructs.Erik.22",
+                    "ES2002d.C.argumentstructs.Erik.15",
+                    "ES2002d.C.argumentstructs.Erik.17"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "NONE",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 2,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.22",
+                "speaker": "B",
+                "start_time": 1659.14,
+                "end_time": 1663.32,
+                "sentence": "I don't know if that means like, if I did a good job or something. I don't really know.",
+                "source": "ES2002d.B.argumentstructs.Erik.21",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.21",
+                    "speaker": "B",
+                    "start_time": 1655.52,
+                    "end_time": 1657.55,
+                    "sentence": "Um what about leadership ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.22",
+                        "ES2002d.C.argumentstructs.Erik.15",
+                        "ES2002d.C.argumentstructs.Erik.17"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002d.B.argumentstructs.Erik.22:\n\"I don't know if that means like, if I did a good job or something. I don't really know.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2002d.B.argumentstructs.Erik.21 (Index: 1, Speaker: B): \"Um what about leadership ?\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.21",
+            "ans": "ES2002d.B.argumentstructs.Erik.21",
+            "judgement": true
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 3,
+                "ae_id": "ES2002d.C.argumentstructs.Erik.15",
+                "speaker": "C",
+                "start_time": 1663.03,
+                "end_time": 1670.254,
+                "sentence": "Yeah, well well I mean my sense on that is sort of what kind of guidance and direction, encouragement",
+                "source": "ES2002d.B.argumentstructs.Erik.21",
+                "targets": [
+                    "ES2002d.B.argumentstructs.Erik.23"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.21",
+                    "speaker": "B",
+                    "start_time": 1655.52,
+                    "end_time": 1657.55,
+                    "sentence": "Um what about leadership ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.22",
+                        "ES2002d.C.argumentstructs.Erik.15",
+                        "ES2002d.C.argumentstructs.Erik.17"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.22",
+                    "speaker": "B",
+                    "start_time": 1659.14,
+                    "end_time": 1663.32,
+                    "sentence": "I don't know if that means like, if I did a good job or something. I don't really know.",
+                    "source": "ES2002d.B.argumentstructs.Erik.21",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002d.C.argumentstructs.Erik.15:\n\"Yeah, well well I mean my sense on that is sort of what kind of guidance and direction, encouragement\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2002d.B.argumentstructs.Erik.21 (Index: 1, Speaker: B): \"Um what about leadership ?\"\nAE_ID ES2002d.B.argumentstructs.Erik.22 (Index: 2, Speaker: B): \"I don't know if that means like, if I did a good job or something. I don't really know.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.21",
+            "ans": "ES2002d.B.argumentstructs.Erik.21",
+            "judgement": true
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 4,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.23",
+                "speaker": "B",
+                "start_time": 1669.6,
+                "end_time": 1673.33,
+                "sentence": "From like your personal coach person and stuff like that, do you think maybe ?",
+                "source": "ES2002d.C.argumentstructs.Erik.15",
+                "targets": [
+                    "ES2002d.C.argumentstructs.Erik.16"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.21",
+                    "speaker": "B",
+                    "start_time": 1655.52,
+                    "end_time": 1657.55,
+                    "sentence": "Um what about leadership ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.22",
+                        "ES2002d.C.argumentstructs.Erik.15",
+                        "ES2002d.C.argumentstructs.Erik.17"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.22",
+                    "speaker": "B",
+                    "start_time": 1659.14,
+                    "end_time": 1663.32,
+                    "sentence": "I don't know if that means like, if I did a good job or something. I don't really know.",
+                    "source": "ES2002d.B.argumentstructs.Erik.21",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.15",
+                    "speaker": "C",
+                    "start_time": 1663.03,
+                    "end_time": 1670.254,
+                    "sentence": "Yeah, well well I mean my sense on that is sort of what kind of guidance and direction, encouragement",
+                    "source": "ES2002d.B.argumentstructs.Erik.21",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.23"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002d.B.argumentstructs.Erik.23:\n\"From like your personal coach person and stuff like that, do you think maybe ?\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2002d.B.argumentstructs.Erik.21 (Index: 1, Speaker: B): \"Um what about leadership ?\"\nAE_ID ES2002d.B.argumentstructs.Erik.22 (Index: 2, Speaker: B): \"I don't know if that means like, if I did a good job or something. I don't really know.\"\nAE_ID ES2002d.C.argumentstructs.Erik.15 (Index: 3, Speaker: C): \"Yeah, well well I mean my sense on that is sort of what kind of guidance and direction, encouragement\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002d.C.argumentstructs.Erik.15",
+            "ans": "ES2002d.C.argumentstructs.Erik.15",
+            "judgement": true
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 5,
+                "ae_id": "ES2002d.C.argumentstructs.Erik.16",
+                "speaker": "C",
+                "start_time": 1673.08,
+                "end_time": 1676.67,
+                "sentence": "Yeah from  and you as well I think, just sort of acting as team leader.",
+                "source": "ES2002d.B.argumentstructs.Erik.23",
+                "targets": [
+                    "ES2002d.B.argumentstructs.Erik.24"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.21",
+                    "speaker": "B",
+                    "start_time": 1655.52,
+                    "end_time": 1657.55,
+                    "sentence": "Um what about leadership ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.22",
+                        "ES2002d.C.argumentstructs.Erik.15",
+                        "ES2002d.C.argumentstructs.Erik.17"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.22",
+                    "speaker": "B",
+                    "start_time": 1659.14,
+                    "end_time": 1663.32,
+                    "sentence": "I don't know if that means like, if I did a good job or something. I don't really know.",
+                    "source": "ES2002d.B.argumentstructs.Erik.21",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.15",
+                    "speaker": "C",
+                    "start_time": 1663.03,
+                    "end_time": 1670.254,
+                    "sentence": "Yeah, well well I mean my sense on that is sort of what kind of guidance and direction, encouragement",
+                    "source": "ES2002d.B.argumentstructs.Erik.21",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.23",
+                    "speaker": "B",
+                    "start_time": 1669.6,
+                    "end_time": 1673.33,
+                    "sentence": "From like your personal coach person and stuff like that, do you think maybe ?",
+                    "source": "ES2002d.C.argumentstructs.Erik.15",
+                    "targets": [
+                        "ES2002d.C.argumentstructs.Erik.16"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002d.C.argumentstructs.Erik.16:\n\"Yeah from  and you as well I think, just sort of acting as team leader.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2002d.B.argumentstructs.Erik.21 (Index: 1, Speaker: B): \"Um what about leadership ?\"\nAE_ID ES2002d.B.argumentstructs.Erik.22 (Index: 2, Speaker: B): \"I don't know if that means like, if I did a good job or something. I don't really know.\"\nAE_ID ES2002d.C.argumentstructs.Erik.15 (Index: 3, Speaker: C): \"Yeah, well well I mean my sense on that is sort of what kind of guidance and direction, encouragement\"\nAE_ID ES2002d.B.argumentstructs.Erik.23 (Index: 4, Speaker: B): \"From like your personal coach person and stuff like that, do you think maybe ?\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.21",
+            "ans": "ES2002d.B.argumentstructs.Erik.23",
+            "judgement": false
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 6,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.24",
+                "speaker": "B",
+                "start_time": 1677.16,
+                "end_time": 1677.69,
+                "sentence": "Okay.",
+                "source": "ES2002d.C.argumentstructs.Erik.16",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.21",
+                    "speaker": "B",
+                    "start_time": 1655.52,
+                    "end_time": 1657.55,
+                    "sentence": "Um what about leadership ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.22",
+                        "ES2002d.C.argumentstructs.Erik.15",
+                        "ES2002d.C.argumentstructs.Erik.17"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.22",
+                    "speaker": "B",
+                    "start_time": 1659.14,
+                    "end_time": 1663.32,
+                    "sentence": "I don't know if that means like, if I did a good job or something. I don't really know.",
+                    "source": "ES2002d.B.argumentstructs.Erik.21",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.15",
+                    "speaker": "C",
+                    "start_time": 1663.03,
+                    "end_time": 1670.254,
+                    "sentence": "Yeah, well well I mean my sense on that is sort of what kind of guidance and direction, encouragement",
+                    "source": "ES2002d.B.argumentstructs.Erik.21",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.23",
+                    "speaker": "B",
+                    "start_time": 1669.6,
+                    "end_time": 1673.33,
+                    "sentence": "From like your personal coach person and stuff like that, do you think maybe ?",
+                    "source": "ES2002d.C.argumentstructs.Erik.15",
+                    "targets": [
+                        "ES2002d.C.argumentstructs.Erik.16"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.16",
+                    "speaker": "C",
+                    "start_time": 1673.08,
+                    "end_time": 1676.67,
+                    "sentence": "Yeah from  and you as well I think, just sort of acting as team leader.",
+                    "source": "ES2002d.B.argumentstructs.Erik.23",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.24"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002d.B.argumentstructs.Erik.24:\n\"Okay.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2002d.B.argumentstructs.Erik.21 (Index: 1, Speaker: B): \"Um what about leadership ?\"\nAE_ID ES2002d.B.argumentstructs.Erik.22 (Index: 2, Speaker: B): \"I don't know if that means like, if I did a good job or something. I don't really know.\"\nAE_ID ES2002d.C.argumentstructs.Erik.15 (Index: 3, Speaker: C): \"Yeah, well well I mean my sense on that is sort of what kind of guidance and direction, encouragement\"\nAE_ID ES2002d.B.argumentstructs.Erik.23 (Index: 4, Speaker: B): \"From like your personal coach person and stuff like that, do you think maybe ?\"\nAE_ID ES2002d.C.argumentstructs.Erik.16 (Index: 5, Speaker: C): \"Yeah from  and you as well I think, just sort of acting as team leader.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.23",
+            "ans": "ES2002d.C.argumentstructs.Erik.16",
+            "judgement": false
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 10,
+                "ae_id": "ES2002d.C.argumentstructs.Erik.17",
+                "speaker": "C",
+                "start_time": 1692.57,
+                "end_time": 1718.259,
+                "sentence": "you know, innovative thought with. In in reality I think here the the different elements of leadership such as the the original b briefing and then the personal coach and the and then you know having having you with your  the meeting agenda is actually quite a quite a  quite a con confining framework to work within. And so it is leadership almost to the point of sort of disempowering the the the team member, so",
+                "source": "ES2002d.B.argumentstructs.Erik.21",
+                "targets": [
+                    "ES2002d.B.argumentstructs.Erik.25",
+                    "ES2002d.C.argumentstructs.Erik.18"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 2,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.22",
+                    "speaker": "B",
+                    "start_time": 1659.14,
+                    "end_time": 1663.32,
+                    "sentence": "I don't know if that means like, if I did a good job or something. I don't really know.",
+                    "source": "ES2002d.B.argumentstructs.Erik.21",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.15",
+                    "speaker": "C",
+                    "start_time": 1663.03,
+                    "end_time": 1670.254,
+                    "sentence": "Yeah, well well I mean my sense on that is sort of what kind of guidance and direction, encouragement",
+                    "source": "ES2002d.B.argumentstructs.Erik.21",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.23",
+                    "speaker": "B",
+                    "start_time": 1669.6,
+                    "end_time": 1673.33,
+                    "sentence": "From like your personal coach person and stuff like that, do you think maybe ?",
+                    "source": "ES2002d.C.argumentstructs.Erik.15",
+                    "targets": [
+                        "ES2002d.C.argumentstructs.Erik.16"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.16",
+                    "speaker": "C",
+                    "start_time": 1673.08,
+                    "end_time": 1676.67,
+                    "sentence": "Yeah from  and you as well I think, just sort of acting as team leader.",
+                    "source": "ES2002d.B.argumentstructs.Erik.23",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.24"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.24",
+                    "speaker": "B",
+                    "start_time": 1677.16,
+                    "end_time": 1677.69,
+                    "sentence": "Okay.",
+                    "source": "ES2002d.C.argumentstructs.Erik.16",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002d.C.argumentstructs.Erik.17:\n\"you know, innovative thought with. In in reality I think here the the different elements of leadership such as the the original b briefing and then the personal coach and the and then you know having having you with your  the meeting agenda is actually quite a quite a  quite a con confining framework to work within. And so it is leadership almost to the point of sort of disempowering the the the team member, so\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2002d.B.argumentstructs.Erik.22 (Index: 2, Speaker: B): \"I don't know if that means like, if I did a good job or something. I don't really know.\"\nAE_ID ES2002d.C.argumentstructs.Erik.15 (Index: 3, Speaker: C): \"Yeah, well well I mean my sense on that is sort of what kind of guidance and direction, encouragement\"\nAE_ID ES2002d.B.argumentstructs.Erik.23 (Index: 4, Speaker: B): \"From like your personal coach person and stuff like that, do you think maybe ?\"\nAE_ID ES2002d.C.argumentstructs.Erik.16 (Index: 5, Speaker: C): \"Yeah from  and you as well I think, just sort of acting as team leader.\"\nAE_ID ES2002d.B.argumentstructs.Erik.24 (Index: 6, Speaker: B): \"Okay.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002d.C.argumentstructs.Erik.16",
+            "ans": "ES2002d.B.argumentstructs.Erik.21",
+            "judgement": false
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 11,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.25",
+                "speaker": "B",
+                "start_time": 1717.76,
+                "end_time": 1719.64,
+                "sentence": "Uh-huh, okay.",
+                "source": "ES2002d.C.argumentstructs.Erik.17",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 3,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.15",
+                    "speaker": "C",
+                    "start_time": 1663.03,
+                    "end_time": 1670.254,
+                    "sentence": "Yeah, well well I mean my sense on that is sort of what kind of guidance and direction, encouragement",
+                    "source": "ES2002d.B.argumentstructs.Erik.21",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.23",
+                    "speaker": "B",
+                    "start_time": 1669.6,
+                    "end_time": 1673.33,
+                    "sentence": "From like your personal coach person and stuff like that, do you think maybe ?",
+                    "source": "ES2002d.C.argumentstructs.Erik.15",
+                    "targets": [
+                        "ES2002d.C.argumentstructs.Erik.16"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.16",
+                    "speaker": "C",
+                    "start_time": 1673.08,
+                    "end_time": 1676.67,
+                    "sentence": "Yeah from  and you as well I think, just sort of acting as team leader.",
+                    "source": "ES2002d.B.argumentstructs.Erik.23",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.24"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.24",
+                    "speaker": "B",
+                    "start_time": 1677.16,
+                    "end_time": 1677.69,
+                    "sentence": "Okay.",
+                    "source": "ES2002d.C.argumentstructs.Erik.16",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.17",
+                    "speaker": "C",
+                    "start_time": 1692.57,
+                    "end_time": 1718.259,
+                    "sentence": "you know, innovative thought with. In in reality I think here the the different elements of leadership such as the the original b briefing and then the personal coach and the and then you know having having you with your  the meeting agenda is actually quite a quite a  quite a con confining framework to work within. And so it is leadership almost to the point of sort of disempowering the the the team member, so",
+                    "source": "ES2002d.B.argumentstructs.Erik.21",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.25",
+                        "ES2002d.C.argumentstructs.Erik.18"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002d.B.argumentstructs.Erik.25:\n\"Uh-huh, okay.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2002d.C.argumentstructs.Erik.15 (Index: 3, Speaker: C): \"Yeah, well well I mean my sense on that is sort of what kind of guidance and direction, encouragement\"\nAE_ID ES2002d.B.argumentstructs.Erik.23 (Index: 4, Speaker: B): \"From like your personal coach person and stuff like that, do you think maybe ?\"\nAE_ID ES2002d.C.argumentstructs.Erik.16 (Index: 5, Speaker: C): \"Yeah from  and you as well I think, just sort of acting as team leader.\"\nAE_ID ES2002d.B.argumentstructs.Erik.24 (Index: 6, Speaker: B): \"Okay.\"\nAE_ID ES2002d.C.argumentstructs.Erik.17 (Index: 10, Speaker: C): \"you know, innovative thought with. In in reality I think here the the different elements of leadership such as the the original b briefing and then the personal coach and the and then you know having having you with your  the meeting agenda is actually quite a quite a  quite a con confining framework to work within. And so it is leadership almost to the point of sort of disempowering the the the team member, so\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.24",
+            "ans": "ES2002d.C.argumentstructs.Erik.17",
+            "judgement": false
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 12,
+                "ae_id": "ES2002d.C.argumentstructs.Erik.18",
+                "speaker": "C",
+                "start_time": 1719.44,
+                "end_time": 1731.56,
+                "sentence": "But it's not bad leadership, it's just sort of s fairly strong, you know. It turns it turns the individual into more of like a um sort of a predetermined mechanism, as opposed to a sort of a free",
+                "source": "ES2002d.C.argumentstructs.Erik.17",
+                "targets": [
+                    "ES2002d.B.argumentstructs.Erik.26"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 4,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.23",
+                    "speaker": "B",
+                    "start_time": 1669.6,
+                    "end_time": 1673.33,
+                    "sentence": "From like your personal coach person and stuff like that, do you think maybe ?",
+                    "source": "ES2002d.C.argumentstructs.Erik.15",
+                    "targets": [
+                        "ES2002d.C.argumentstructs.Erik.16"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.16",
+                    "speaker": "C",
+                    "start_time": 1673.08,
+                    "end_time": 1676.67,
+                    "sentence": "Yeah from  and you as well I think, just sort of acting as team leader.",
+                    "source": "ES2002d.B.argumentstructs.Erik.23",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.24"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.24",
+                    "speaker": "B",
+                    "start_time": 1677.16,
+                    "end_time": 1677.69,
+                    "sentence": "Okay.",
+                    "source": "ES2002d.C.argumentstructs.Erik.16",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.17",
+                    "speaker": "C",
+                    "start_time": 1692.57,
+                    "end_time": 1718.259,
+                    "sentence": "you know, innovative thought with. In in reality I think here the the different elements of leadership such as the the original b briefing and then the personal coach and the and then you know having having you with your  the meeting agenda is actually quite a quite a  quite a con confining framework to work within. And so it is leadership almost to the point of sort of disempowering the the the team member, so",
+                    "source": "ES2002d.B.argumentstructs.Erik.21",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.25",
+                        "ES2002d.C.argumentstructs.Erik.18"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.25",
+                    "speaker": "B",
+                    "start_time": 1717.76,
+                    "end_time": 1719.64,
+                    "sentence": "Uh-huh, okay.",
+                    "source": "ES2002d.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002d.C.argumentstructs.Erik.18:\n\"But it's not bad leadership, it's just sort of s fairly strong, you know. It turns it turns the individual into more of like a um sort of a predetermined mechanism, as opposed to a sort of a free\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2002d.B.argumentstructs.Erik.23 (Index: 4, Speaker: B): \"From like your personal coach person and stuff like that, do you think maybe ?\"\nAE_ID ES2002d.C.argumentstructs.Erik.16 (Index: 5, Speaker: C): \"Yeah from  and you as well I think, just sort of acting as team leader.\"\nAE_ID ES2002d.B.argumentstructs.Erik.24 (Index: 6, Speaker: B): \"Okay.\"\nAE_ID ES2002d.C.argumentstructs.Erik.17 (Index: 10, Speaker: C): \"you know, innovative thought with. In in reality I think here the the different elements of leadership such as the the original b briefing and then the personal coach and the and then you know having having you with your  the meeting agenda is actually quite a quite a  quite a con confining framework to work within. And so it is leadership almost to the point of sort of disempowering the the the team member, so\"\nAE_ID ES2002d.B.argumentstructs.Erik.25 (Index: 11, Speaker: B): \"Uh-huh, okay.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002d.C.argumentstructs.Erik.17",
+            "ans": "ES2002d.C.argumentstructs.Erik.17",
+            "judgement": true
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 13,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.26",
+                "speaker": "B",
+                "start_time": 1730.32,
+                "end_time": 1733.36,
+                "sentence": "So you think maybe a little too controlling or",
+                "source": "ES2002d.C.argumentstructs.Erik.18",
+                "targets": [
+                    "ES2002d.C.argumentstructs.Erik.19",
+                    "ES2002d.A.argumentstructs.Erik.22"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 5,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.16",
+                    "speaker": "C",
+                    "start_time": 1673.08,
+                    "end_time": 1676.67,
+                    "sentence": "Yeah from  and you as well I think, just sort of acting as team leader.",
+                    "source": "ES2002d.B.argumentstructs.Erik.23",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.24"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.24",
+                    "speaker": "B",
+                    "start_time": 1677.16,
+                    "end_time": 1677.69,
+                    "sentence": "Okay.",
+                    "source": "ES2002d.C.argumentstructs.Erik.16",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.17",
+                    "speaker": "C",
+                    "start_time": 1692.57,
+                    "end_time": 1718.259,
+                    "sentence": "you know, innovative thought with. In in reality I think here the the different elements of leadership such as the the original b briefing and then the personal coach and the and then you know having having you with your  the meeting agenda is actually quite a quite a  quite a con confining framework to work within. And so it is leadership almost to the point of sort of disempowering the the the team member, so",
+                    "source": "ES2002d.B.argumentstructs.Erik.21",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.25",
+                        "ES2002d.C.argumentstructs.Erik.18"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.25",
+                    "speaker": "B",
+                    "start_time": 1717.76,
+                    "end_time": 1719.64,
+                    "sentence": "Uh-huh, okay.",
+                    "source": "ES2002d.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.18",
+                    "speaker": "C",
+                    "start_time": 1719.44,
+                    "end_time": 1731.56,
+                    "sentence": "But it's not bad leadership, it's just sort of s fairly strong, you know. It turns it turns the individual into more of like a um sort of a predetermined mechanism, as opposed to a sort of a free",
+                    "source": "ES2002d.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.26"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002d.B.argumentstructs.Erik.26:\n\"So you think maybe a little too controlling or\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2002d.C.argumentstructs.Erik.16 (Index: 5, Speaker: C): \"Yeah from  and you as well I think, just sort of acting as team leader.\"\nAE_ID ES2002d.B.argumentstructs.Erik.24 (Index: 6, Speaker: B): \"Okay.\"\nAE_ID ES2002d.C.argumentstructs.Erik.17 (Index: 10, Speaker: C): \"you know, innovative thought with. In in reality I think here the the different elements of leadership such as the the original b briefing and then the personal coach and the and then you know having having you with your  the meeting agenda is actually quite a quite a  quite a con confining framework to work within. And so it is leadership almost to the point of sort of disempowering the the the team member, so\"\nAE_ID ES2002d.B.argumentstructs.Erik.25 (Index: 11, Speaker: B): \"Uh-huh, okay.\"\nAE_ID ES2002d.C.argumentstructs.Erik.18 (Index: 12, Speaker: C): \"But it's not bad leadership, it's just sort of s fairly strong, you know. It turns it turns the individual into more of like a um sort of a predetermined mechanism, as opposed to a sort of a free\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002d.C.argumentstructs.Erik.17",
+            "ans": "ES2002d.C.argumentstructs.Erik.18",
+            "judgement": false
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 14,
+                "ae_id": "ES2002d.C.argumentstructs.Erik.19",
+                "speaker": "C",
+                "start_time": 1733.44,
+                "end_time": 1735.48,
+                "sentence": "Yeah, oh yeah, without without a doubt.",
+                "source": "ES2002d.B.argumentstructs.Erik.26",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 6,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.24",
+                    "speaker": "B",
+                    "start_time": 1677.16,
+                    "end_time": 1677.69,
+                    "sentence": "Okay.",
+                    "source": "ES2002d.C.argumentstructs.Erik.16",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.17",
+                    "speaker": "C",
+                    "start_time": 1692.57,
+                    "end_time": 1718.259,
+                    "sentence": "you know, innovative thought with. In in reality I think here the the different elements of leadership such as the the original b briefing and then the personal coach and the and then you know having having you with your  the meeting agenda is actually quite a quite a  quite a con confining framework to work within. And so it is leadership almost to the point of sort of disempowering the the the team member, so",
+                    "source": "ES2002d.B.argumentstructs.Erik.21",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.25",
+                        "ES2002d.C.argumentstructs.Erik.18"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.25",
+                    "speaker": "B",
+                    "start_time": 1717.76,
+                    "end_time": 1719.64,
+                    "sentence": "Uh-huh, okay.",
+                    "source": "ES2002d.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.18",
+                    "speaker": "C",
+                    "start_time": 1719.44,
+                    "end_time": 1731.56,
+                    "sentence": "But it's not bad leadership, it's just sort of s fairly strong, you know. It turns it turns the individual into more of like a um sort of a predetermined mechanism, as opposed to a sort of a free",
+                    "source": "ES2002d.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.26"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.26",
+                    "speaker": "B",
+                    "start_time": 1730.32,
+                    "end_time": 1733.36,
+                    "sentence": "So you think maybe a little too controlling or",
+                    "source": "ES2002d.C.argumentstructs.Erik.18",
+                    "targets": [
+                        "ES2002d.C.argumentstructs.Erik.19",
+                        "ES2002d.A.argumentstructs.Erik.22"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002d.C.argumentstructs.Erik.19:\n\"Yeah, oh yeah, without without a doubt.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2002d.B.argumentstructs.Erik.24 (Index: 6, Speaker: B): \"Okay.\"\nAE_ID ES2002d.C.argumentstructs.Erik.17 (Index: 10, Speaker: C): \"you know, innovative thought with. In in reality I think here the the different elements of leadership such as the the original b briefing and then the personal coach and the and then you know having having you with your  the meeting agenda is actually quite a quite a  quite a con confining framework to work within. And so it is leadership almost to the point of sort of disempowering the the the team member, so\"\nAE_ID ES2002d.B.argumentstructs.Erik.25 (Index: 11, Speaker: B): \"Uh-huh, okay.\"\nAE_ID ES2002d.C.argumentstructs.Erik.18 (Index: 12, Speaker: C): \"But it's not bad leadership, it's just sort of s fairly strong, you know. It turns it turns the individual into more of like a um sort of a predetermined mechanism, as opposed to a sort of a free\"\nAE_ID ES2002d.B.argumentstructs.Erik.26 (Index: 13, Speaker: B): \"So you think maybe a little too controlling or\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.26",
+            "ans": "ES2002d.B.argumentstructs.Erik.26",
+            "judgement": true
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 15,
+                "ae_id": "ES2002d.A.argumentstructs.Erik.22",
+                "speaker": "A",
+                "start_time": 1734.72,
+                "end_time": 1763.952,
+                "sentence": "I think controlling is not the right word, I think the interactions are very structured. I think structure is probably what you're saying that, each individual is structured to one particular task, and one parti rather than controlling. I don't think there's a sense of control 'cause all the decisions have been made in terms of a, like a consensus right, we go around and we think about it, but that you know process actually says you have to do it in a certain way. It doesn't tell you, you know, some ways that you might wanna be a bit more creative in terms of the process you know, not the",
+                "source": "ES2002d.B.argumentstructs.Erik.26",
+                "targets": [
+                    "ES2002d.C.argumentstructs.Erik.20",
+                    "ES2002d.B.argumentstructs.Erik.28"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 10,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.17",
+                    "speaker": "C",
+                    "start_time": 1692.57,
+                    "end_time": 1718.259,
+                    "sentence": "you know, innovative thought with. In in reality I think here the the different elements of leadership such as the the original b briefing and then the personal coach and the and then you know having having you with your  the meeting agenda is actually quite a quite a  quite a con confining framework to work within. And so it is leadership almost to the point of sort of disempowering the the the team member, so",
+                    "source": "ES2002d.B.argumentstructs.Erik.21",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.25",
+                        "ES2002d.C.argumentstructs.Erik.18"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.25",
+                    "speaker": "B",
+                    "start_time": 1717.76,
+                    "end_time": 1719.64,
+                    "sentence": "Uh-huh, okay.",
+                    "source": "ES2002d.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.18",
+                    "speaker": "C",
+                    "start_time": 1719.44,
+                    "end_time": 1731.56,
+                    "sentence": "But it's not bad leadership, it's just sort of s fairly strong, you know. It turns it turns the individual into more of like a um sort of a predetermined mechanism, as opposed to a sort of a free",
+                    "source": "ES2002d.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.26"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.26",
+                    "speaker": "B",
+                    "start_time": 1730.32,
+                    "end_time": 1733.36,
+                    "sentence": "So you think maybe a little too controlling or",
+                    "source": "ES2002d.C.argumentstructs.Erik.18",
+                    "targets": [
+                        "ES2002d.C.argumentstructs.Erik.19",
+                        "ES2002d.A.argumentstructs.Erik.22"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.19",
+                    "speaker": "C",
+                    "start_time": 1733.44,
+                    "end_time": 1735.48,
+                    "sentence": "Yeah, oh yeah, without without a doubt.",
+                    "source": "ES2002d.B.argumentstructs.Erik.26",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002d.A.argumentstructs.Erik.22:\n\"I think controlling is not the right word, I think the interactions are very structured. I think structure is probably what you're saying that, each individual is structured to one particular task, and one parti rather than controlling. I don't think there's a sense of control 'cause all the decisions have been made in terms of a, like a consensus right, we go around and we think about it, but that you know process actually says you have to do it in a certain way. It doesn't tell you, you know, some ways that you might wanna be a bit more creative in terms of the process you know, not the\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2002d.C.argumentstructs.Erik.17 (Index: 10, Speaker: C): \"you know, innovative thought with. In in reality I think here the the different elements of leadership such as the the original b briefing and then the personal coach and the and then you know having having you with your  the meeting agenda is actually quite a quite a  quite a con confining framework to work within. And so it is leadership almost to the point of sort of disempowering the the the team member, so\"\nAE_ID ES2002d.B.argumentstructs.Erik.25 (Index: 11, Speaker: B): \"Uh-huh, okay.\"\nAE_ID ES2002d.C.argumentstructs.Erik.18 (Index: 12, Speaker: C): \"But it's not bad leadership, it's just sort of s fairly strong, you know. It turns it turns the individual into more of like a um sort of a predetermined mechanism, as opposed to a sort of a free\"\nAE_ID ES2002d.B.argumentstructs.Erik.26 (Index: 13, Speaker: B): \"So you think maybe a little too controlling or\"\nAE_ID ES2002d.C.argumentstructs.Erik.19 (Index: 14, Speaker: C): \"Yeah, oh yeah, without without a doubt.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002d.C.argumentstructs.Erik.18",
+            "ans": "ES2002d.B.argumentstructs.Erik.26",
+            "judgement": false
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 16,
+                "ae_id": "ES2002d.C.argumentstructs.Erik.20",
+                "speaker": "C",
+                "start_time": 1736.69,
+                "end_time": 1738.08,
+                "sentence": "Yeah maybe not co confining.",
+                "source": "ES2002d.A.argumentstructs.Erik.22",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 11,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.25",
+                    "speaker": "B",
+                    "start_time": 1717.76,
+                    "end_time": 1719.64,
+                    "sentence": "Uh-huh, okay.",
+                    "source": "ES2002d.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.18",
+                    "speaker": "C",
+                    "start_time": 1719.44,
+                    "end_time": 1731.56,
+                    "sentence": "But it's not bad leadership, it's just sort of s fairly strong, you know. It turns it turns the individual into more of like a um sort of a predetermined mechanism, as opposed to a sort of a free",
+                    "source": "ES2002d.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.26"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.26",
+                    "speaker": "B",
+                    "start_time": 1730.32,
+                    "end_time": 1733.36,
+                    "sentence": "So you think maybe a little too controlling or",
+                    "source": "ES2002d.C.argumentstructs.Erik.18",
+                    "targets": [
+                        "ES2002d.C.argumentstructs.Erik.19",
+                        "ES2002d.A.argumentstructs.Erik.22"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.19",
+                    "speaker": "C",
+                    "start_time": 1733.44,
+                    "end_time": 1735.48,
+                    "sentence": "Yeah, oh yeah, without without a doubt.",
+                    "source": "ES2002d.B.argumentstructs.Erik.26",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.22",
+                    "speaker": "A",
+                    "start_time": 1734.72,
+                    "end_time": 1763.952,
+                    "sentence": "I think controlling is not the right word, I think the interactions are very structured. I think structure is probably what you're saying that, each individual is structured to one particular task, and one parti rather than controlling. I don't think there's a sense of control 'cause all the decisions have been made in terms of a, like a consensus right, we go around and we think about it, but that you know process actually says you have to do it in a certain way. It doesn't tell you, you know, some ways that you might wanna be a bit more creative in terms of the process you know, not the",
+                    "source": "ES2002d.B.argumentstructs.Erik.26",
+                    "targets": [
+                        "ES2002d.C.argumentstructs.Erik.20",
+                        "ES2002d.B.argumentstructs.Erik.28"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002d.C.argumentstructs.Erik.20:\n\"Yeah maybe not co confining.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2002d.B.argumentstructs.Erik.25 (Index: 11, Speaker: B): \"Uh-huh, okay.\"\nAE_ID ES2002d.C.argumentstructs.Erik.18 (Index: 12, Speaker: C): \"But it's not bad leadership, it's just sort of s fairly strong, you know. It turns it turns the individual into more of like a um sort of a predetermined mechanism, as opposed to a sort of a free\"\nAE_ID ES2002d.B.argumentstructs.Erik.26 (Index: 13, Speaker: B): \"So you think maybe a little too controlling or\"\nAE_ID ES2002d.C.argumentstructs.Erik.19 (Index: 14, Speaker: C): \"Yeah, oh yeah, without without a doubt.\"\nAE_ID ES2002d.A.argumentstructs.Erik.22 (Index: 15, Speaker: A): \"I think controlling is not the right word, I think the interactions are very structured. I think structure is probably what you're saying that, each individual is structured to one particular task, and one parti rather than controlling. I don't think there's a sense of control 'cause all the decisions have been made in terms of a, like a consensus right, we go around and we think about it, but that you know process actually says you have to do it in a certain way. It doesn't tell you, you know, some ways that you might wanna be a bit more creative in terms of the process you know, not the\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.26",
+            "ans": "ES2002d.A.argumentstructs.Erik.22",
+            "judgement": false
+        },
+        {
+            "turn_number": 13,
+            "current_node": {
+                "index": 18,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.28",
+                "speaker": "B",
+                "start_time": 1744.24,
+                "end_time": 1744.83,
+                "sentence": "Okay.",
+                "source": "ES2002d.A.argumentstructs.Erik.22",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 12,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.18",
+                    "speaker": "C",
+                    "start_time": 1719.44,
+                    "end_time": 1731.56,
+                    "sentence": "But it's not bad leadership, it's just sort of s fairly strong, you know. It turns it turns the individual into more of like a um sort of a predetermined mechanism, as opposed to a sort of a free",
+                    "source": "ES2002d.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.26"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.26",
+                    "speaker": "B",
+                    "start_time": 1730.32,
+                    "end_time": 1733.36,
+                    "sentence": "So you think maybe a little too controlling or",
+                    "source": "ES2002d.C.argumentstructs.Erik.18",
+                    "targets": [
+                        "ES2002d.C.argumentstructs.Erik.19",
+                        "ES2002d.A.argumentstructs.Erik.22"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.19",
+                    "speaker": "C",
+                    "start_time": 1733.44,
+                    "end_time": 1735.48,
+                    "sentence": "Yeah, oh yeah, without without a doubt.",
+                    "source": "ES2002d.B.argumentstructs.Erik.26",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.22",
+                    "speaker": "A",
+                    "start_time": 1734.72,
+                    "end_time": 1763.952,
+                    "sentence": "I think controlling is not the right word, I think the interactions are very structured. I think structure is probably what you're saying that, each individual is structured to one particular task, and one parti rather than controlling. I don't think there's a sense of control 'cause all the decisions have been made in terms of a, like a consensus right, we go around and we think about it, but that you know process actually says you have to do it in a certain way. It doesn't tell you, you know, some ways that you might wanna be a bit more creative in terms of the process you know, not the",
+                    "source": "ES2002d.B.argumentstructs.Erik.26",
+                    "targets": [
+                        "ES2002d.C.argumentstructs.Erik.20",
+                        "ES2002d.B.argumentstructs.Erik.28"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.20",
+                    "speaker": "C",
+                    "start_time": 1736.69,
+                    "end_time": 1738.08,
+                    "sentence": "Yeah maybe not co confining.",
+                    "source": "ES2002d.A.argumentstructs.Erik.22",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002d.B.argumentstructs.Erik.28:\n\"Okay.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2002d.C.argumentstructs.Erik.18 (Index: 12, Speaker: C): \"But it's not bad leadership, it's just sort of s fairly strong, you know. It turns it turns the individual into more of like a um sort of a predetermined mechanism, as opposed to a sort of a free\"\nAE_ID ES2002d.B.argumentstructs.Erik.26 (Index: 13, Speaker: B): \"So you think maybe a little too controlling or\"\nAE_ID ES2002d.C.argumentstructs.Erik.19 (Index: 14, Speaker: C): \"Yeah, oh yeah, without without a doubt.\"\nAE_ID ES2002d.A.argumentstructs.Erik.22 (Index: 15, Speaker: A): \"I think controlling is not the right word, I think the interactions are very structured. I think structure is probably what you're saying that, each individual is structured to one particular task, and one parti rather than controlling. I don't think there's a sense of control 'cause all the decisions have been made in terms of a, like a consensus right, we go around and we think about it, but that you know process actually says you have to do it in a certain way. It doesn't tell you, you know, some ways that you might wanna be a bit more creative in terms of the process you know, not the\"\nAE_ID ES2002d.C.argumentstructs.Erik.20 (Index: 16, Speaker: C): \"Yeah maybe not co confining.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.26",
+            "ans": "ES2002d.A.argumentstructs.Erik.22",
+            "judgement": false
+        }
+    ]
+}

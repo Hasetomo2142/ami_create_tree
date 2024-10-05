@@ -92,6 +92,7 @@ class DialogueTurn:
             for turn in dialogue_turns:
                 if turn.ae_id == ae_id:
                     return turn
+        
         return 'NONE'
 
     # 自身の辞書型を返すメソッド

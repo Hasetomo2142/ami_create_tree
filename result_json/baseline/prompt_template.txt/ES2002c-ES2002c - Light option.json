@@ -1,0 +1,1650 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2002c-ES2002c - Light option.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "prompt_template.txt",
+    "rate": 0.4,
+    "total_node_count": 28,
+    "removed_node_count": 7,
+    "removed_node_list": [
+        {
+            "index": 2,
+            "ae_id": "ES2002c.B.argumentstructs.27",
+            "speaker": "B",
+            "start_time": 1339.11,
+            "end_time": 1339.53,
+            "sentence": "Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 6,
+            "ae_id": "ES2002c.D.argumentstructs.28",
+            "speaker": "D",
+            "start_time": 1348.36,
+            "end_time": 1349.8,
+            "sentence": "I mean I'm thinking it might be",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 8,
+            "ae_id": "ES2002c.B.argumentstructs.28",
+            "speaker": "B",
+            "start_time": 1353.43,
+            "end_time": 1353.84,
+            "sentence": "Uh-huh.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 15,
+            "ae_id": "ES2002c.A.argumentstructs.18",
+            "speaker": "A",
+            "start_time": 1386.42,
+            "end_time": 1391.72,
+            "sentence": "Okay. Okay.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 22,
+            "ae_id": "ES2002c.B.argumentstructs.29",
+            "speaker": "B",
+            "start_time": 1409.77,
+            "end_time": 1415.89,
+            "sentence": "Mm. Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 25,
+            "ae_id": "ES2002c.D.argumentstructs.29",
+            "speaker": "D",
+            "start_time": 1415.48,
+            "end_time": 1425.47,
+            "sentence": "Sure. Okay. Right. Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 27,
+            "ae_id": "ES2002c.B.argumentstructs.30",
+            "speaker": "B",
+            "start_time": 1423.8,
+            "end_time": 1424.27,
+            "sentence": "Okay.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 0,
+                "ae_id": "ES2002c.D.argumentstructs.Erik.1",
+                "speaker": "D",
+                "start_time": 1327.92,
+                "end_time": 1333.07,
+                "sentence": "Can we uh power a light in this ? Can we get a strong enough battery to power a light ?",
+                "source": "NONE",
+                "targets": [
+                    "ES2002c.A.argumentstructs.Erik.1",
+                    "ES2002c.B.argumentstructs.Erik.1"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "NONE",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2002c.A.argumentstructs.Erik.1",
+                "speaker": "A",
+                "start_time": 1333.28,
+                "end_time": 1340.532,
+                "sentence": "Um I think we could because the L_C_D_ panel requires power, and the L_C_D_ is a form of a light so that",
+                "source": "ES2002c.D.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2002c.D.argumentstructs.Erik.2"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1327.92,
+                    "end_time": 1333.07,
+                    "sentence": "Can we uh power a light in this ? Can we get a strong enough battery to power a light ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002c.A.argumentstructs.Erik.1",
+                        "ES2002c.B.argumentstructs.Erik.1"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002c.A.argumentstructs.Erik.1:\n\"Um I think we could because the L_C_D_ panel requires power, and the L_C_D_ is a form of a light so that\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2002c.D.argumentstructs.Erik.1 (Index: 0, Speaker: D): \"Can we uh power a light in this ? Can we get a strong enough battery to power a light ?\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002c.D.argumentstructs.Erik.1",
+            "ans": "ES2002c.D.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 3,
+                "ae_id": "ES2002c.D.argumentstructs.Erik.2",
+                "speaker": "D",
+                "start_time": 1339.12,
+                "end_time": 1339.38,
+                "sentence": "Okay.",
+                "source": "ES2002c.A.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2002c.D.argumentstructs.Erik.3"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1327.92,
+                    "end_time": 1333.07,
+                    "sentence": "Can we uh power a light in this ? Can we get a strong enough battery to power a light ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002c.A.argumentstructs.Erik.1",
+                        "ES2002c.B.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1333.28,
+                    "end_time": 1340.532,
+                    "sentence": "Um I think we could because the L_C_D_ panel requires power, and the L_C_D_ is a form of a light so that",
+                    "source": "ES2002c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.2"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002c.D.argumentstructs.Erik.2:\n\"Okay.\" Speaker: D\n\nPast dialogue turns:\nAE_ID ES2002c.D.argumentstructs.Erik.1 (Index: 0, Speaker: D): \"Can we uh power a light in this ? Can we get a strong enough battery to power a light ?\"\nAE_ID ES2002c.A.argumentstructs.Erik.1 (Index: 1, Speaker: A): \"Um I think we could because the L_C_D_ panel requires power, and the L_C_D_ is a form of a light so that\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002c.D.argumentstructs.Erik.1",
+            "ans": "ES2002c.A.argumentstructs.Erik.1",
+            "judgement": false
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 4,
+                "ae_id": "ES2002c.D.argumentstructs.Erik.3",
+                "speaker": "D",
+                "start_time": 1340.16,
+                "end_time": 1343.77,
+                "sentence": "So maybe one of the things we can just try and include is a really good battery.",
+                "source": "ES2002c.D.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1327.92,
+                    "end_time": 1333.07,
+                    "sentence": "Can we uh power a light in this ? Can we get a strong enough battery to power a light ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002c.A.argumentstructs.Erik.1",
+                        "ES2002c.B.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1333.28,
+                    "end_time": 1340.532,
+                    "sentence": "Um I think we could because the L_C_D_ panel requires power, and the L_C_D_ is a form of a light so that",
+                    "source": "ES2002c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1339.12,
+                    "end_time": 1339.38,
+                    "sentence": "Okay.",
+                    "source": "ES2002c.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.3"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002c.D.argumentstructs.Erik.3:\n\"So maybe one of the things we can just try and include is a really good battery.\" Speaker: D\n\nPast dialogue turns:\nAE_ID ES2002c.D.argumentstructs.Erik.1 (Index: 0, Speaker: D): \"Can we uh power a light in this ? Can we get a strong enough battery to power a light ?\"\nAE_ID ES2002c.A.argumentstructs.Erik.1 (Index: 1, Speaker: A): \"Um I think we could because the L_C_D_ panel requires power, and the L_C_D_ is a form of a light so that\"\nAE_ID ES2002c.D.argumentstructs.Erik.2 (Index: 3, Speaker: D): \"Okay.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002c.D.argumentstructs.Erik.1",
+            "ans": "ES2002c.D.argumentstructs.Erik.2",
+            "judgement": false
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 5,
+                "ae_id": "ES2002c.B.argumentstructs.Erik.1",
+                "speaker": "B",
+                "start_time": 1344.68,
+                "end_time": 1347.06,
+                "sentence": "Why what kind of light do you want  are you thinking of ?",
+                "source": "ES2002c.D.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2002c.D.argumentstructs.Erik.4",
+                    "ES2002c.A.argumentstructs.Erik.2"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1327.92,
+                    "end_time": 1333.07,
+                    "sentence": "Can we uh power a light in this ? Can we get a strong enough battery to power a light ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002c.A.argumentstructs.Erik.1",
+                        "ES2002c.B.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1333.28,
+                    "end_time": 1340.532,
+                    "sentence": "Um I think we could because the L_C_D_ panel requires power, and the L_C_D_ is a form of a light so that",
+                    "source": "ES2002c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1339.12,
+                    "end_time": 1339.38,
+                    "sentence": "Okay.",
+                    "source": "ES2002c.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 1340.16,
+                    "end_time": 1343.77,
+                    "sentence": "So maybe one of the things we can just try and include is a really good battery.",
+                    "source": "ES2002c.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002c.B.argumentstructs.Erik.1:\n\"Why what kind of light do you want  are you thinking of ?\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2002c.D.argumentstructs.Erik.1 (Index: 0, Speaker: D): \"Can we uh power a light in this ? Can we get a strong enough battery to power a light ?\"\nAE_ID ES2002c.A.argumentstructs.Erik.1 (Index: 1, Speaker: A): \"Um I think we could because the L_C_D_ panel requires power, and the L_C_D_ is a form of a light so that\"\nAE_ID ES2002c.D.argumentstructs.Erik.2 (Index: 3, Speaker: D): \"Okay.\"\nAE_ID ES2002c.D.argumentstructs.Erik.3 (Index: 4, Speaker: D): \"So maybe one of the things we can just try and include is a really good battery.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002c.D.argumentstructs.Erik.1",
+            "ans": "ES2002c.D.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 7,
+                "ae_id": "ES2002c.D.argumentstructs.Erik.4",
+                "speaker": "D",
+                "start_time": 1351.3,
+                "end_time": 1365.75,
+                "sentence": "That  for uh this to be a high-tech thing it's gonna have to have something high-tech about it and that's gonna take battery power, and to make that to make that a realistic goal I think one of the issues that will come up later is, can the battery power it ?",
+                "source": "ES2002c.B.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2002c.B.argumentstructs.Erik.2"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1327.92,
+                    "end_time": 1333.07,
+                    "sentence": "Can we uh power a light in this ? Can we get a strong enough battery to power a light ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002c.A.argumentstructs.Erik.1",
+                        "ES2002c.B.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1333.28,
+                    "end_time": 1340.532,
+                    "sentence": "Um I think we could because the L_C_D_ panel requires power, and the L_C_D_ is a form of a light so that",
+                    "source": "ES2002c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1339.12,
+                    "end_time": 1339.38,
+                    "sentence": "Okay.",
+                    "source": "ES2002c.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 1340.16,
+                    "end_time": 1343.77,
+                    "sentence": "So maybe one of the things we can just try and include is a really good battery.",
+                    "source": "ES2002c.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1344.68,
+                    "end_time": 1347.06,
+                    "sentence": "Why what kind of light do you want  are you thinking of ?",
+                    "source": "ES2002c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.4",
+                        "ES2002c.A.argumentstructs.Erik.2"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002c.D.argumentstructs.Erik.4:\n\"That  for uh this to be a high-tech thing it's gonna have to have something high-tech about it and that's gonna take battery power, and to make that to make that a realistic goal I think one of the issues that will come up later is, can the battery power it ?\" Speaker: D\n\nPast dialogue turns:\nAE_ID ES2002c.D.argumentstructs.Erik.1 (Index: 0, Speaker: D): \"Can we uh power a light in this ? Can we get a strong enough battery to power a light ?\"\nAE_ID ES2002c.A.argumentstructs.Erik.1 (Index: 1, Speaker: A): \"Um I think we could because the L_C_D_ panel requires power, and the L_C_D_ is a form of a light so that\"\nAE_ID ES2002c.D.argumentstructs.Erik.2 (Index: 3, Speaker: D): \"Okay.\"\nAE_ID ES2002c.D.argumentstructs.Erik.3 (Index: 4, Speaker: D): \"So maybe one of the things we can just try and include is a really good battery.\"\nAE_ID ES2002c.B.argumentstructs.Erik.1 (Index: 5, Speaker: B): \"Why what kind of light do you want  are you thinking of ?\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002c.D.argumentstructs.Erik.1",
+            "ans": "ES2002c.B.argumentstructs.Erik.1",
+            "judgement": false
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 9,
+                "ae_id": "ES2002c.B.argumentstructs.Erik.2",
+                "speaker": "B",
+                "start_time": 1356.05,
+                "end_time": 1356.41,
+                "sentence": "Yeah.",
+                "source": "ES2002c.D.argumentstructs.Erik.4",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1333.28,
+                    "end_time": 1340.532,
+                    "sentence": "Um I think we could because the L_C_D_ panel requires power, and the L_C_D_ is a form of a light so that",
+                    "source": "ES2002c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1339.12,
+                    "end_time": 1339.38,
+                    "sentence": "Okay.",
+                    "source": "ES2002c.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 1340.16,
+                    "end_time": 1343.77,
+                    "sentence": "So maybe one of the things we can just try and include is a really good battery.",
+                    "source": "ES2002c.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1344.68,
+                    "end_time": 1347.06,
+                    "sentence": "Why what kind of light do you want  are you thinking of ?",
+                    "source": "ES2002c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.4",
+                        "ES2002c.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 1351.3,
+                    "end_time": 1365.75,
+                    "sentence": "That  for uh this to be a high-tech thing it's gonna have to have something high-tech about it and that's gonna take battery power, and to make that to make that a realistic goal I think one of the issues that will come up later is, can the battery power it ?",
+                    "source": "ES2002c.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.B.argumentstructs.Erik.2"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002c.B.argumentstructs.Erik.2:\n\"Yeah.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2002c.A.argumentstructs.Erik.1 (Index: 1, Speaker: A): \"Um I think we could because the L_C_D_ panel requires power, and the L_C_D_ is a form of a light so that\"\nAE_ID ES2002c.D.argumentstructs.Erik.2 (Index: 3, Speaker: D): \"Okay.\"\nAE_ID ES2002c.D.argumentstructs.Erik.3 (Index: 4, Speaker: D): \"So maybe one of the things we can just try and include is a really good battery.\"\nAE_ID ES2002c.B.argumentstructs.Erik.1 (Index: 5, Speaker: B): \"Why what kind of light do you want  are you thinking of ?\"\nAE_ID ES2002c.D.argumentstructs.Erik.4 (Index: 7, Speaker: D): \"That  for uh this to be a high-tech thing it's gonna have to have something high-tech about it and that's gonna take battery power, and to make that to make that a realistic goal I think one of the issues that will come up later is, can the battery power it ?\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002c.D.argumentstructs.Erik.4",
+            "ans": "ES2002c.D.argumentstructs.Erik.4",
+            "judgement": true
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 10,
+                "ae_id": "ES2002c.A.argumentstructs.Erik.2",
+                "speaker": "A",
+                "start_time": 1364.68,
+                "end_time": 1375.5,
+                "sentence": "Are you thinking are you thinking of of a light in the sense of um a light light, or a light in the sense of it glows kind of you know Frankenstein, it's alive.",
+                "source": "ES2002c.B.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2002c.D.argumentstructs.Erik.5"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 3,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1339.12,
+                    "end_time": 1339.38,
+                    "sentence": "Okay.",
+                    "source": "ES2002c.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 1340.16,
+                    "end_time": 1343.77,
+                    "sentence": "So maybe one of the things we can just try and include is a really good battery.",
+                    "source": "ES2002c.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1344.68,
+                    "end_time": 1347.06,
+                    "sentence": "Why what kind of light do you want  are you thinking of ?",
+                    "source": "ES2002c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.4",
+                        "ES2002c.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 1351.3,
+                    "end_time": 1365.75,
+                    "sentence": "That  for uh this to be a high-tech thing it's gonna have to have something high-tech about it and that's gonna take battery power, and to make that to make that a realistic goal I think one of the issues that will come up later is, can the battery power it ?",
+                    "source": "ES2002c.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.B.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1356.05,
+                    "end_time": 1356.41,
+                    "sentence": "Yeah.",
+                    "source": "ES2002c.D.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002c.A.argumentstructs.Erik.2:\n\"Are you thinking are you thinking of of a light in the sense of um a light light, or a light in the sense of it glows kind of you know Frankenstein, it's alive.\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2002c.D.argumentstructs.Erik.2 (Index: 3, Speaker: D): \"Okay.\"\nAE_ID ES2002c.D.argumentstructs.Erik.3 (Index: 4, Speaker: D): \"So maybe one of the things we can just try and include is a really good battery.\"\nAE_ID ES2002c.B.argumentstructs.Erik.1 (Index: 5, Speaker: B): \"Why what kind of light do you want  are you thinking of ?\"\nAE_ID ES2002c.D.argumentstructs.Erik.4 (Index: 7, Speaker: D): \"That  for uh this to be a high-tech thing it's gonna have to have something high-tech about it and that's gonna take battery power, and to make that to make that a realistic goal I think one of the issues that will come up later is, can the battery power it ?\"\nAE_ID ES2002c.B.argumentstructs.Erik.2 (Index: 9, Speaker: B): \"Yeah.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002c.B.argumentstructs.Erik.1",
+            "ans": "ES2002c.B.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 11,
+                "ae_id": "ES2002c.D.argumentstructs.Erik.5",
+                "speaker": "D",
+                "start_time": 1371.73,
+                "end_time": 1374.08,
+                "sentence": "Illuminate the buttons. Yeah it glows.",
+                "source": "ES2002c.A.argumentstructs.Erik.2",
+                "targets": [
+                    "ES2002c.D.argumentstructs.Erik.6"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 4,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 1340.16,
+                    "end_time": 1343.77,
+                    "sentence": "So maybe one of the things we can just try and include is a really good battery.",
+                    "source": "ES2002c.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1344.68,
+                    "end_time": 1347.06,
+                    "sentence": "Why what kind of light do you want  are you thinking of ?",
+                    "source": "ES2002c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.4",
+                        "ES2002c.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 1351.3,
+                    "end_time": 1365.75,
+                    "sentence": "That  for uh this to be a high-tech thing it's gonna have to have something high-tech about it and that's gonna take battery power, and to make that to make that a realistic goal I think one of the issues that will come up later is, can the battery power it ?",
+                    "source": "ES2002c.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.B.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1356.05,
+                    "end_time": 1356.41,
+                    "sentence": "Yeah.",
+                    "source": "ES2002c.D.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1364.68,
+                    "end_time": 1375.5,
+                    "sentence": "Are you thinking are you thinking of of a light in the sense of um a light light, or a light in the sense of it glows kind of you know Frankenstein, it's alive.",
+                    "source": "ES2002c.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.5"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002c.D.argumentstructs.Erik.5:\n\"Illuminate the buttons. Yeah it glows.\" Speaker: D\n\nPast dialogue turns:\nAE_ID ES2002c.D.argumentstructs.Erik.3 (Index: 4, Speaker: D): \"So maybe one of the things we can just try and include is a really good battery.\"\nAE_ID ES2002c.B.argumentstructs.Erik.1 (Index: 5, Speaker: B): \"Why what kind of light do you want  are you thinking of ?\"\nAE_ID ES2002c.D.argumentstructs.Erik.4 (Index: 7, Speaker: D): \"That  for uh this to be a high-tech thing it's gonna have to have something high-tech about it and that's gonna take battery power, and to make that to make that a realistic goal I think one of the issues that will come up later is, can the battery power it ?\"\nAE_ID ES2002c.B.argumentstructs.Erik.2 (Index: 9, Speaker: B): \"Yeah.\"\nAE_ID ES2002c.A.argumentstructs.Erik.2 (Index: 10, Speaker: A): \"Are you thinking are you thinking of of a light in the sense of um a light light, or a light in the sense of it glows kind of you know Frankenstein, it's alive.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002c.D.argumentstructs.Erik.4",
+            "ans": "ES2002c.A.argumentstructs.Erik.2",
+            "judgement": false
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 12,
+                "ae_id": "ES2002c.D.argumentstructs.Erik.6",
+                "speaker": "D",
+                "start_time": 1375.0,
+                "end_time": 1390.63,
+                "sentence": "Well m I'm thinking along the lines of you're you're in the dark watching a D_V_D_ and you um you find the thing in the dark and you go like this, and that's what everybody does. Oh where's the volume button in the dark, and uh y you just touch it, or you just pick it up, and it lights up or something.",
+                "source": "ES2002c.D.argumentstructs.Erik.5",
+                "targets": [
+                    "ES2002c.A.argumentstructs.Erik.3",
+                    "ES2002c.B.argumentstructs.Erik.3",
+                    "ES2002c.B.argumentstructs.Erik.4"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 5,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1344.68,
+                    "end_time": 1347.06,
+                    "sentence": "Why what kind of light do you want  are you thinking of ?",
+                    "source": "ES2002c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.4",
+                        "ES2002c.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 1351.3,
+                    "end_time": 1365.75,
+                    "sentence": "That  for uh this to be a high-tech thing it's gonna have to have something high-tech about it and that's gonna take battery power, and to make that to make that a realistic goal I think one of the issues that will come up later is, can the battery power it ?",
+                    "source": "ES2002c.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.B.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1356.05,
+                    "end_time": 1356.41,
+                    "sentence": "Yeah.",
+                    "source": "ES2002c.D.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1364.68,
+                    "end_time": 1375.5,
+                    "sentence": "Are you thinking are you thinking of of a light in the sense of um a light light, or a light in the sense of it glows kind of you know Frankenstein, it's alive.",
+                    "source": "ES2002c.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 1371.73,
+                    "end_time": 1374.08,
+                    "sentence": "Illuminate the buttons. Yeah it glows.",
+                    "source": "ES2002c.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.6"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002c.D.argumentstructs.Erik.6:\n\"Well m I'm thinking along the lines of you're you're in the dark watching a D_V_D_ and you um you find the thing in the dark and you go like this, and that's what everybody does. Oh where's the volume button in the dark, and uh y you just touch it, or you just pick it up, and it lights up or something.\" Speaker: D\n\nPast dialogue turns:\nAE_ID ES2002c.B.argumentstructs.Erik.1 (Index: 5, Speaker: B): \"Why what kind of light do you want  are you thinking of ?\"\nAE_ID ES2002c.D.argumentstructs.Erik.4 (Index: 7, Speaker: D): \"That  for uh this to be a high-tech thing it's gonna have to have something high-tech about it and that's gonna take battery power, and to make that to make that a realistic goal I think one of the issues that will come up later is, can the battery power it ?\"\nAE_ID ES2002c.B.argumentstructs.Erik.2 (Index: 9, Speaker: B): \"Yeah.\"\nAE_ID ES2002c.A.argumentstructs.Erik.2 (Index: 10, Speaker: A): \"Are you thinking are you thinking of of a light in the sense of um a light light, or a light in the sense of it glows kind of you know Frankenstein, it's alive.\"\nAE_ID ES2002c.D.argumentstructs.Erik.5 (Index: 11, Speaker: D): \"Illuminate the buttons. Yeah it glows.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002c.D.argumentstructs.Erik.5",
+            "ans": "ES2002c.D.argumentstructs.Erik.5",
+            "judgement": true
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 13,
+                "ae_id": "ES2002c.A.argumentstructs.Erik.3",
+                "speaker": "A",
+                "start_time": 1379.04,
+                "end_time": 1379.39,
+                "sentence": "Okay.",
+                "source": "ES2002c.D.argumentstructs.Erik.6",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 7,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 1351.3,
+                    "end_time": 1365.75,
+                    "sentence": "That  for uh this to be a high-tech thing it's gonna have to have something high-tech about it and that's gonna take battery power, and to make that to make that a realistic goal I think one of the issues that will come up later is, can the battery power it ?",
+                    "source": "ES2002c.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.B.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1356.05,
+                    "end_time": 1356.41,
+                    "sentence": "Yeah.",
+                    "source": "ES2002c.D.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1364.68,
+                    "end_time": 1375.5,
+                    "sentence": "Are you thinking are you thinking of of a light in the sense of um a light light, or a light in the sense of it glows kind of you know Frankenstein, it's alive.",
+                    "source": "ES2002c.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 1371.73,
+                    "end_time": 1374.08,
+                    "sentence": "Illuminate the buttons. Yeah it glows.",
+                    "source": "ES2002c.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.6",
+                    "speaker": "D",
+                    "start_time": 1375.0,
+                    "end_time": 1390.63,
+                    "sentence": "Well m I'm thinking along the lines of you're you're in the dark watching a D_V_D_ and you um you find the thing in the dark and you go like this, and that's what everybody does. Oh where's the volume button in the dark, and uh y you just touch it, or you just pick it up, and it lights up or something.",
+                    "source": "ES2002c.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2002c.A.argumentstructs.Erik.3",
+                        "ES2002c.B.argumentstructs.Erik.3",
+                        "ES2002c.B.argumentstructs.Erik.4"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002c.A.argumentstructs.Erik.3:\n\"Okay.\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2002c.D.argumentstructs.Erik.4 (Index: 7, Speaker: D): \"That  for uh this to be a high-tech thing it's gonna have to have something high-tech about it and that's gonna take battery power, and to make that to make that a realistic goal I think one of the issues that will come up later is, can the battery power it ?\"\nAE_ID ES2002c.B.argumentstructs.Erik.2 (Index: 9, Speaker: B): \"Yeah.\"\nAE_ID ES2002c.A.argumentstructs.Erik.2 (Index: 10, Speaker: A): \"Are you thinking are you thinking of of a light in the sense of um a light light, or a light in the sense of it glows kind of you know Frankenstein, it's alive.\"\nAE_ID ES2002c.D.argumentstructs.Erik.5 (Index: 11, Speaker: D): \"Illuminate the buttons. Yeah it glows.\"\nAE_ID ES2002c.D.argumentstructs.Erik.6 (Index: 12, Speaker: D): \"Well m I'm thinking along the lines of you're you're in the dark watching a D_V_D_ and you um you find the thing in the dark and you go like this, and that's what everybody does. Oh where's the volume button in the dark, and uh y you just touch it, or you just pick it up, and it lights up or something.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002c.D.argumentstructs.Erik.6",
+            "ans": "ES2002c.D.argumentstructs.Erik.6",
+            "judgement": true
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 14,
+                "ae_id": "ES2002c.B.argumentstructs.Erik.3",
+                "speaker": "B",
+                "start_time": 1386.06,
+                "end_time": 1386.66,
+                "sentence": "Yeah yeah yeah.",
+                "source": "ES2002c.D.argumentstructs.Erik.6",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 9,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1356.05,
+                    "end_time": 1356.41,
+                    "sentence": "Yeah.",
+                    "source": "ES2002c.D.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1364.68,
+                    "end_time": 1375.5,
+                    "sentence": "Are you thinking are you thinking of of a light in the sense of um a light light, or a light in the sense of it glows kind of you know Frankenstein, it's alive.",
+                    "source": "ES2002c.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 1371.73,
+                    "end_time": 1374.08,
+                    "sentence": "Illuminate the buttons. Yeah it glows.",
+                    "source": "ES2002c.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.6",
+                    "speaker": "D",
+                    "start_time": 1375.0,
+                    "end_time": 1390.63,
+                    "sentence": "Well m I'm thinking along the lines of you're you're in the dark watching a D_V_D_ and you um you find the thing in the dark and you go like this, and that's what everybody does. Oh where's the volume button in the dark, and uh y you just touch it, or you just pick it up, and it lights up or something.",
+                    "source": "ES2002c.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2002c.A.argumentstructs.Erik.3",
+                        "ES2002c.B.argumentstructs.Erik.3",
+                        "ES2002c.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1379.04,
+                    "end_time": 1379.39,
+                    "sentence": "Okay.",
+                    "source": "ES2002c.D.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002c.B.argumentstructs.Erik.3:\n\"Yeah yeah yeah.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2002c.B.argumentstructs.Erik.2 (Index: 9, Speaker: B): \"Yeah.\"\nAE_ID ES2002c.A.argumentstructs.Erik.2 (Index: 10, Speaker: A): \"Are you thinking are you thinking of of a light in the sense of um a light light, or a light in the sense of it glows kind of you know Frankenstein, it's alive.\"\nAE_ID ES2002c.D.argumentstructs.Erik.5 (Index: 11, Speaker: D): \"Illuminate the buttons. Yeah it glows.\"\nAE_ID ES2002c.D.argumentstructs.Erik.6 (Index: 12, Speaker: D): \"Well m I'm thinking along the lines of you're you're in the dark watching a D_V_D_ and you um you find the thing in the dark and you go like this, and that's what everybody does. Oh where's the volume button in the dark, and uh y you just touch it, or you just pick it up, and it lights up or something.\"\nAE_ID ES2002c.A.argumentstructs.Erik.3 (Index: 13, Speaker: A): \"Okay.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002c.B.argumentstructs.Erik.2",
+            "ans": "ES2002c.D.argumentstructs.Erik.6",
+            "judgement": false
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 16,
+                "ae_id": "ES2002c.B.argumentstructs.Erik.4",
+                "speaker": "B",
+                "start_time": 1390.65,
+                "end_time": 1394.33,
+                "sentence": "Like a phone yeah, like the backlight in a phone. Okay cool.",
+                "source": "ES2002c.D.argumentstructs.Erik.6",
+                "targets": [
+                    "ES2002c.D.argumentstructs.Erik.7"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 10,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1364.68,
+                    "end_time": 1375.5,
+                    "sentence": "Are you thinking are you thinking of of a light in the sense of um a light light, or a light in the sense of it glows kind of you know Frankenstein, it's alive.",
+                    "source": "ES2002c.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 1371.73,
+                    "end_time": 1374.08,
+                    "sentence": "Illuminate the buttons. Yeah it glows.",
+                    "source": "ES2002c.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.6",
+                    "speaker": "D",
+                    "start_time": 1375.0,
+                    "end_time": 1390.63,
+                    "sentence": "Well m I'm thinking along the lines of you're you're in the dark watching a D_V_D_ and you um you find the thing in the dark and you go like this, and that's what everybody does. Oh where's the volume button in the dark, and uh y you just touch it, or you just pick it up, and it lights up or something.",
+                    "source": "ES2002c.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2002c.A.argumentstructs.Erik.3",
+                        "ES2002c.B.argumentstructs.Erik.3",
+                        "ES2002c.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1379.04,
+                    "end_time": 1379.39,
+                    "sentence": "Okay.",
+                    "source": "ES2002c.D.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1386.06,
+                    "end_time": 1386.66,
+                    "sentence": "Yeah yeah yeah.",
+                    "source": "ES2002c.D.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002c.B.argumentstructs.Erik.4:\n\"Like a phone yeah, like the backlight in a phone. Okay cool.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2002c.A.argumentstructs.Erik.2 (Index: 10, Speaker: A): \"Are you thinking are you thinking of of a light in the sense of um a light light, or a light in the sense of it glows kind of you know Frankenstein, it's alive.\"\nAE_ID ES2002c.D.argumentstructs.Erik.5 (Index: 11, Speaker: D): \"Illuminate the buttons. Yeah it glows.\"\nAE_ID ES2002c.D.argumentstructs.Erik.6 (Index: 12, Speaker: D): \"Well m I'm thinking along the lines of you're you're in the dark watching a D_V_D_ and you um you find the thing in the dark and you go like this, and that's what everybody does. Oh where's the volume button in the dark, and uh y you just touch it, or you just pick it up, and it lights up or something.\"\nAE_ID ES2002c.A.argumentstructs.Erik.3 (Index: 13, Speaker: A): \"Okay.\"\nAE_ID ES2002c.B.argumentstructs.Erik.3 (Index: 14, Speaker: B): \"Yeah yeah yeah.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002c.D.argumentstructs.Erik.5",
+            "ans": "ES2002c.D.argumentstructs.Erik.6",
+            "judgement": false
+        },
+        {
+            "turn_number": 13,
+            "current_node": {
+                "index": 17,
+                "ae_id": "ES2002c.D.argumentstructs.Erik.7",
+                "speaker": "D",
+                "start_time": 1391.73,
+                "end_time": 1393.07,
+                "sentence": "Like a phone, yeah yeah.",
+                "source": "ES2002c.B.argumentstructs.Erik.4",
+                "targets": [
+                    "ES2002c.D.argumentstructs.Erik.8"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 11,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 1371.73,
+                    "end_time": 1374.08,
+                    "sentence": "Illuminate the buttons. Yeah it glows.",
+                    "source": "ES2002c.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.6",
+                    "speaker": "D",
+                    "start_time": 1375.0,
+                    "end_time": 1390.63,
+                    "sentence": "Well m I'm thinking along the lines of you're you're in the dark watching a D_V_D_ and you um you find the thing in the dark and you go like this, and that's what everybody does. Oh where's the volume button in the dark, and uh y you just touch it, or you just pick it up, and it lights up or something.",
+                    "source": "ES2002c.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2002c.A.argumentstructs.Erik.3",
+                        "ES2002c.B.argumentstructs.Erik.3",
+                        "ES2002c.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1379.04,
+                    "end_time": 1379.39,
+                    "sentence": "Okay.",
+                    "source": "ES2002c.D.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1386.06,
+                    "end_time": 1386.66,
+                    "sentence": "Yeah yeah yeah.",
+                    "source": "ES2002c.D.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1390.65,
+                    "end_time": 1394.33,
+                    "sentence": "Like a phone yeah, like the backlight in a phone. Okay cool.",
+                    "source": "ES2002c.D.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.7"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002c.D.argumentstructs.Erik.7:\n\"Like a phone, yeah yeah.\" Speaker: D\n\nPast dialogue turns:\nAE_ID ES2002c.D.argumentstructs.Erik.5 (Index: 11, Speaker: D): \"Illuminate the buttons. Yeah it glows.\"\nAE_ID ES2002c.D.argumentstructs.Erik.6 (Index: 12, Speaker: D): \"Well m I'm thinking along the lines of you're you're in the dark watching a D_V_D_ and you um you find the thing in the dark and you go like this, and that's what everybody does. Oh where's the volume button in the dark, and uh y you just touch it, or you just pick it up, and it lights up or something.\"\nAE_ID ES2002c.A.argumentstructs.Erik.3 (Index: 13, Speaker: A): \"Okay.\"\nAE_ID ES2002c.B.argumentstructs.Erik.3 (Index: 14, Speaker: B): \"Yeah yeah yeah.\"\nAE_ID ES2002c.B.argumentstructs.Erik.4 (Index: 16, Speaker: B): \"Like a phone yeah, like the backlight in a phone. Okay cool.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002c.B.argumentstructs.Erik.4",
+            "ans": "ES2002c.B.argumentstructs.Erik.4",
+            "judgement": true
+        },
+        {
+            "turn_number": 14,
+            "current_node": {
+                "index": 18,
+                "ae_id": "ES2002c.D.argumentstructs.Erik.8",
+                "speaker": "D",
+                "start_time": 1394.12,
+                "end_time": 1404.5,
+                "sentence": "Whereas with phones, people charge them once a week. We're gonna need to put in a really good battery so people don't have to charge their r remote control every few days.",
+                "source": "ES2002c.D.argumentstructs.Erik.7",
+                "targets": [
+                    "ES2002c.B.argumentstructs.Erik.5",
+                    "ES2002c.A.argumentstructs.Erik.4"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 12,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.6",
+                    "speaker": "D",
+                    "start_time": 1375.0,
+                    "end_time": 1390.63,
+                    "sentence": "Well m I'm thinking along the lines of you're you're in the dark watching a D_V_D_ and you um you find the thing in the dark and you go like this, and that's what everybody does. Oh where's the volume button in the dark, and uh y you just touch it, or you just pick it up, and it lights up or something.",
+                    "source": "ES2002c.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2002c.A.argumentstructs.Erik.3",
+                        "ES2002c.B.argumentstructs.Erik.3",
+                        "ES2002c.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1379.04,
+                    "end_time": 1379.39,
+                    "sentence": "Okay.",
+                    "source": "ES2002c.D.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1386.06,
+                    "end_time": 1386.66,
+                    "sentence": "Yeah yeah yeah.",
+                    "source": "ES2002c.D.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1390.65,
+                    "end_time": 1394.33,
+                    "sentence": "Like a phone yeah, like the backlight in a phone. Okay cool.",
+                    "source": "ES2002c.D.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.7",
+                    "speaker": "D",
+                    "start_time": 1391.73,
+                    "end_time": 1393.07,
+                    "sentence": "Like a phone, yeah yeah.",
+                    "source": "ES2002c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.8"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002c.D.argumentstructs.Erik.8:\n\"Whereas with phones, people charge them once a week. We're gonna need to put in a really good battery so people don't have to charge their r remote control every few days.\" Speaker: D\n\nPast dialogue turns:\nAE_ID ES2002c.D.argumentstructs.Erik.6 (Index: 12, Speaker: D): \"Well m I'm thinking along the lines of you're you're in the dark watching a D_V_D_ and you um you find the thing in the dark and you go like this, and that's what everybody does. Oh where's the volume button in the dark, and uh y you just touch it, or you just pick it up, and it lights up or something.\"\nAE_ID ES2002c.A.argumentstructs.Erik.3 (Index: 13, Speaker: A): \"Okay.\"\nAE_ID ES2002c.B.argumentstructs.Erik.3 (Index: 14, Speaker: B): \"Yeah yeah yeah.\"\nAE_ID ES2002c.B.argumentstructs.Erik.4 (Index: 16, Speaker: B): \"Like a phone yeah, like the backlight in a phone. Okay cool.\"\nAE_ID ES2002c.D.argumentstructs.Erik.7 (Index: 17, Speaker: D): \"Like a phone, yeah yeah.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002c.B.argumentstructs.Erik.4",
+            "ans": "ES2002c.D.argumentstructs.Erik.7",
+            "judgement": false
+        },
+        {
+            "turn_number": 15,
+            "current_node": {
+                "index": 19,
+                "ae_id": "ES2002c.B.argumentstructs.Erik.5",
+                "speaker": "B",
+                "start_time": 1396.96,
+                "end_time": 1397.47,
+                "sentence": "Yeah.",
+                "source": "ES2002c.D.argumentstructs.Erik.8",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 13,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1379.04,
+                    "end_time": 1379.39,
+                    "sentence": "Okay.",
+                    "source": "ES2002c.D.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1386.06,
+                    "end_time": 1386.66,
+                    "sentence": "Yeah yeah yeah.",
+                    "source": "ES2002c.D.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1390.65,
+                    "end_time": 1394.33,
+                    "sentence": "Like a phone yeah, like the backlight in a phone. Okay cool.",
+                    "source": "ES2002c.D.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.7",
+                    "speaker": "D",
+                    "start_time": 1391.73,
+                    "end_time": 1393.07,
+                    "sentence": "Like a phone, yeah yeah.",
+                    "source": "ES2002c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 1394.12,
+                    "end_time": 1404.5,
+                    "sentence": "Whereas with phones, people charge them once a week. We're gonna need to put in a really good battery so people don't have to charge their r remote control every few days.",
+                    "source": "ES2002c.D.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002c.B.argumentstructs.Erik.5",
+                        "ES2002c.A.argumentstructs.Erik.4"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002c.B.argumentstructs.Erik.5:\n\"Yeah.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2002c.A.argumentstructs.Erik.3 (Index: 13, Speaker: A): \"Okay.\"\nAE_ID ES2002c.B.argumentstructs.Erik.3 (Index: 14, Speaker: B): \"Yeah yeah yeah.\"\nAE_ID ES2002c.B.argumentstructs.Erik.4 (Index: 16, Speaker: B): \"Like a phone yeah, like the backlight in a phone. Okay cool.\"\nAE_ID ES2002c.D.argumentstructs.Erik.7 (Index: 17, Speaker: D): \"Like a phone, yeah yeah.\"\nAE_ID ES2002c.D.argumentstructs.Erik.8 (Index: 18, Speaker: D): \"Whereas with phones, people charge them once a week. We're gonna need to put in a really good battery so people don't have to charge their r remote control every few days.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002c.B.argumentstructs.Erik.4",
+            "ans": "ES2002c.D.argumentstructs.Erik.8",
+            "judgement": false
+        },
+        {
+            "turn_number": 16,
+            "current_node": {
+                "index": 20,
+                "ae_id": "ES2002c.A.argumentstructs.Erik.4",
+                "speaker": "A",
+                "start_time": 1404.39,
+                "end_time": 1410.12,
+                "sentence": "Um that's why I think the option of the the kinetic thing which basically means as long as you shake it like a watch, like an automatic watch",
+                "source": "ES2002c.D.argumentstructs.Erik.8",
+                "targets": [
+                    "ES2002c.D.argumentstructs.Erik.9"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 14,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1386.06,
+                    "end_time": 1386.66,
+                    "sentence": "Yeah yeah yeah.",
+                    "source": "ES2002c.D.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1390.65,
+                    "end_time": 1394.33,
+                    "sentence": "Like a phone yeah, like the backlight in a phone. Okay cool.",
+                    "source": "ES2002c.D.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.7",
+                    "speaker": "D",
+                    "start_time": 1391.73,
+                    "end_time": 1393.07,
+                    "sentence": "Like a phone, yeah yeah.",
+                    "source": "ES2002c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 1394.12,
+                    "end_time": 1404.5,
+                    "sentence": "Whereas with phones, people charge them once a week. We're gonna need to put in a really good battery so people don't have to charge their r remote control every few days.",
+                    "source": "ES2002c.D.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002c.B.argumentstructs.Erik.5",
+                        "ES2002c.A.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1396.96,
+                    "end_time": 1397.47,
+                    "sentence": "Yeah.",
+                    "source": "ES2002c.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002c.A.argumentstructs.Erik.4:\n\"Um that's why I think the option of the the kinetic thing which basically means as long as you shake it like a watch, like an automatic watch\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2002c.B.argumentstructs.Erik.3 (Index: 14, Speaker: B): \"Yeah yeah yeah.\"\nAE_ID ES2002c.B.argumentstructs.Erik.4 (Index: 16, Speaker: B): \"Like a phone yeah, like the backlight in a phone. Okay cool.\"\nAE_ID ES2002c.D.argumentstructs.Erik.7 (Index: 17, Speaker: D): \"Like a phone, yeah yeah.\"\nAE_ID ES2002c.D.argumentstructs.Erik.8 (Index: 18, Speaker: D): \"Whereas with phones, people charge them once a week. We're gonna need to put in a really good battery so people don't have to charge their r remote control every few days.\"\nAE_ID ES2002c.B.argumentstructs.Erik.5 (Index: 19, Speaker: B): \"Yeah.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002c.B.argumentstructs.Erik.4",
+            "ans": "ES2002c.D.argumentstructs.Erik.8",
+            "judgement": false
+        },
+        {
+            "turn_number": 17,
+            "current_node": {
+                "index": 21,
+                "ae_id": "ES2002c.D.argumentstructs.Erik.9",
+                "speaker": "D",
+                "start_time": 1409.38,
+                "end_time": 1411.26,
+                "sentence": "But are people gonna wanna shake their movie controller ?",
+                "source": "ES2002c.A.argumentstructs.Erik.4",
+                "targets": [
+                    "ES2002c.A.argumentstructs.Erik.5"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 16,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1390.65,
+                    "end_time": 1394.33,
+                    "sentence": "Like a phone yeah, like the backlight in a phone. Okay cool.",
+                    "source": "ES2002c.D.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.7",
+                    "speaker": "D",
+                    "start_time": 1391.73,
+                    "end_time": 1393.07,
+                    "sentence": "Like a phone, yeah yeah.",
+                    "source": "ES2002c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 1394.12,
+                    "end_time": 1404.5,
+                    "sentence": "Whereas with phones, people charge them once a week. We're gonna need to put in a really good battery so people don't have to charge their r remote control every few days.",
+                    "source": "ES2002c.D.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002c.B.argumentstructs.Erik.5",
+                        "ES2002c.A.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1396.96,
+                    "end_time": 1397.47,
+                    "sentence": "Yeah.",
+                    "source": "ES2002c.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1404.39,
+                    "end_time": 1410.12,
+                    "sentence": "Um that's why I think the option of the the kinetic thing which basically means as long as you shake it like a watch, like an automatic watch",
+                    "source": "ES2002c.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.9"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002c.D.argumentstructs.Erik.9:\n\"But are people gonna wanna shake their movie controller ?\" Speaker: D\n\nPast dialogue turns:\nAE_ID ES2002c.B.argumentstructs.Erik.4 (Index: 16, Speaker: B): \"Like a phone yeah, like the backlight in a phone. Okay cool.\"\nAE_ID ES2002c.D.argumentstructs.Erik.7 (Index: 17, Speaker: D): \"Like a phone, yeah yeah.\"\nAE_ID ES2002c.D.argumentstructs.Erik.8 (Index: 18, Speaker: D): \"Whereas with phones, people charge them once a week. We're gonna need to put in a really good battery so people don't have to charge their r remote control every few days.\"\nAE_ID ES2002c.B.argumentstructs.Erik.5 (Index: 19, Speaker: B): \"Yeah.\"\nAE_ID ES2002c.A.argumentstructs.Erik.4 (Index: 20, Speaker: A): \"Um that's why I think the option of the the kinetic thing which basically means as long as you shake it like a watch, like an automatic watch\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002c.A.argumentstructs.Erik.4",
+            "ans": "ES2002c.A.argumentstructs.Erik.4",
+            "judgement": true
+        },
+        {
+            "turn_number": 18,
+            "current_node": {
+                "index": 23,
+                "ae_id": "ES2002c.A.argumentstructs.Erik.5",
+                "speaker": "A",
+                "start_time": 1411.56,
+                "end_time": 1425.69,
+                "sentence": "um it's probably sensitive enough when you fiddle it. So you could trigger that to a light, like I said the bouncing ball thing, or you could trigger that to use that to power the light as opposed to  so when they pick it up, right, and then that that sorta triggers the",
+                "source": "ES2002c.D.argumentstructs.Erik.9",
+                "targets": [
+                    "ES2002c.D.argumentstructs.Erik.10",
+                    "ES2002c.B.argumentstructs.Erik.6"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 17,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.7",
+                    "speaker": "D",
+                    "start_time": 1391.73,
+                    "end_time": 1393.07,
+                    "sentence": "Like a phone, yeah yeah.",
+                    "source": "ES2002c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 1394.12,
+                    "end_time": 1404.5,
+                    "sentence": "Whereas with phones, people charge them once a week. We're gonna need to put in a really good battery so people don't have to charge their r remote control every few days.",
+                    "source": "ES2002c.D.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002c.B.argumentstructs.Erik.5",
+                        "ES2002c.A.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1396.96,
+                    "end_time": 1397.47,
+                    "sentence": "Yeah.",
+                    "source": "ES2002c.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1404.39,
+                    "end_time": 1410.12,
+                    "sentence": "Um that's why I think the option of the the kinetic thing which basically means as long as you shake it like a watch, like an automatic watch",
+                    "source": "ES2002c.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.9",
+                    "speaker": "D",
+                    "start_time": 1409.38,
+                    "end_time": 1411.26,
+                    "sentence": "But are people gonna wanna shake their movie controller ?",
+                    "source": "ES2002c.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2002c.A.argumentstructs.Erik.5"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002c.A.argumentstructs.Erik.5:\n\"um it's probably sensitive enough when you fiddle it. So you could trigger that to a light, like I said the bouncing ball thing, or you could trigger that to use that to power the light as opposed to  so when they pick it up, right, and then that that sorta triggers the\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2002c.D.argumentstructs.Erik.7 (Index: 17, Speaker: D): \"Like a phone, yeah yeah.\"\nAE_ID ES2002c.D.argumentstructs.Erik.8 (Index: 18, Speaker: D): \"Whereas with phones, people charge them once a week. We're gonna need to put in a really good battery so people don't have to charge their r remote control every few days.\"\nAE_ID ES2002c.B.argumentstructs.Erik.5 (Index: 19, Speaker: B): \"Yeah.\"\nAE_ID ES2002c.A.argumentstructs.Erik.4 (Index: 20, Speaker: A): \"Um that's why I think the option of the the kinetic thing which basically means as long as you shake it like a watch, like an automatic watch\"\nAE_ID ES2002c.D.argumentstructs.Erik.9 (Index: 21, Speaker: D): \"But are people gonna wanna shake their movie controller ?\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002c.A.argumentstructs.Erik.4",
+            "ans": "ES2002c.D.argumentstructs.Erik.9",
+            "judgement": false
+        },
+        {
+            "turn_number": 19,
+            "current_node": {
+                "index": 24,
+                "ae_id": "ES2002c.D.argumentstructs.Erik.10",
+                "speaker": "D",
+                "start_time": 1414.29,
+                "end_time": 1414.53,
+                "sentence": "Right.",
+                "source": "ES2002c.A.argumentstructs.Erik.5",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 18,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 1394.12,
+                    "end_time": 1404.5,
+                    "sentence": "Whereas with phones, people charge them once a week. We're gonna need to put in a really good battery so people don't have to charge their r remote control every few days.",
+                    "source": "ES2002c.D.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002c.B.argumentstructs.Erik.5",
+                        "ES2002c.A.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1396.96,
+                    "end_time": 1397.47,
+                    "sentence": "Yeah.",
+                    "source": "ES2002c.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1404.39,
+                    "end_time": 1410.12,
+                    "sentence": "Um that's why I think the option of the the kinetic thing which basically means as long as you shake it like a watch, like an automatic watch",
+                    "source": "ES2002c.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.9",
+                    "speaker": "D",
+                    "start_time": 1409.38,
+                    "end_time": 1411.26,
+                    "sentence": "But are people gonna wanna shake their movie controller ?",
+                    "source": "ES2002c.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2002c.A.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 1411.56,
+                    "end_time": 1425.69,
+                    "sentence": "um it's probably sensitive enough when you fiddle it. So you could trigger that to a light, like I said the bouncing ball thing, or you could trigger that to use that to power the light as opposed to  so when they pick it up, right, and then that that sorta triggers the",
+                    "source": "ES2002c.D.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.10",
+                        "ES2002c.B.argumentstructs.Erik.6"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002c.D.argumentstructs.Erik.10:\n\"Right.\" Speaker: D\n\nPast dialogue turns:\nAE_ID ES2002c.D.argumentstructs.Erik.8 (Index: 18, Speaker: D): \"Whereas with phones, people charge them once a week. We're gonna need to put in a really good battery so people don't have to charge their r remote control every few days.\"\nAE_ID ES2002c.B.argumentstructs.Erik.5 (Index: 19, Speaker: B): \"Yeah.\"\nAE_ID ES2002c.A.argumentstructs.Erik.4 (Index: 20, Speaker: A): \"Um that's why I think the option of the the kinetic thing which basically means as long as you shake it like a watch, like an automatic watch\"\nAE_ID ES2002c.D.argumentstructs.Erik.9 (Index: 21, Speaker: D): \"But are people gonna wanna shake their movie controller ?\"\nAE_ID ES2002c.A.argumentstructs.Erik.5 (Index: 23, Speaker: A): \"um it's probably sensitive enough when you fiddle it. So you could trigger that to a light, like I said the bouncing ball thing, or you could trigger that to use that to power the light as opposed to  so when they pick it up, right, and then that that sorta triggers the\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002c.D.argumentstructs.Erik.9",
+            "ans": "ES2002c.A.argumentstructs.Erik.5",
+            "judgement": false
+        },
+        {
+            "turn_number": 20,
+            "current_node": {
+                "index": 26,
+                "ae_id": "ES2002c.B.argumentstructs.Erik.6",
+                "speaker": "B",
+                "start_time": 1418.8,
+                "end_time": 1419.2,
+                "sentence": "Okay.",
+                "source": "ES2002c.A.argumentstructs.Erik.5",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 19,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1396.96,
+                    "end_time": 1397.47,
+                    "sentence": "Yeah.",
+                    "source": "ES2002c.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1404.39,
+                    "end_time": 1410.12,
+                    "sentence": "Um that's why I think the option of the the kinetic thing which basically means as long as you shake it like a watch, like an automatic watch",
+                    "source": "ES2002c.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.9",
+                    "speaker": "D",
+                    "start_time": 1409.38,
+                    "end_time": 1411.26,
+                    "sentence": "But are people gonna wanna shake their movie controller ?",
+                    "source": "ES2002c.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2002c.A.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 1411.56,
+                    "end_time": 1425.69,
+                    "sentence": "um it's probably sensitive enough when you fiddle it. So you could trigger that to a light, like I said the bouncing ball thing, or you could trigger that to use that to power the light as opposed to  so when they pick it up, right, and then that that sorta triggers the",
+                    "source": "ES2002c.D.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.10",
+                        "ES2002c.B.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.10",
+                    "speaker": "D",
+                    "start_time": 1414.29,
+                    "end_time": 1414.53,
+                    "sentence": "Right.",
+                    "source": "ES2002c.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2002c.B.argumentstructs.Erik.6:\n\"Okay.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2002c.B.argumentstructs.Erik.5 (Index: 19, Speaker: B): \"Yeah.\"\nAE_ID ES2002c.A.argumentstructs.Erik.4 (Index: 20, Speaker: A): \"Um that's why I think the option of the the kinetic thing which basically means as long as you shake it like a watch, like an automatic watch\"\nAE_ID ES2002c.D.argumentstructs.Erik.9 (Index: 21, Speaker: D): \"But are people gonna wanna shake their movie controller ?\"\nAE_ID ES2002c.A.argumentstructs.Erik.5 (Index: 23, Speaker: A): \"um it's probably sensitive enough when you fiddle it. So you could trigger that to a light, like I said the bouncing ball thing, or you could trigger that to use that to power the light as opposed to  so when they pick it up, right, and then that that sorta triggers the\"\nAE_ID ES2002c.D.argumentstructs.Erik.10 (Index: 24, Speaker: D): \"Right.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2002c.B.argumentstructs.Erik.5",
+            "ans": "ES2002c.A.argumentstructs.Erik.5",
+            "judgement": false
+        }
+    ]
+}

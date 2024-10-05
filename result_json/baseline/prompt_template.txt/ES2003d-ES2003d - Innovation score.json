@@ -1,0 +1,944 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2003d-ES2003d - Innovation score.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "prompt_template.txt",
+    "rate": 0.5,
+    "total_node_count": 16,
+    "removed_node_count": 3,
+    "removed_node_list": [
+        {
+            "index": 0,
+            "ae_id": "ES2003d.C.argumentstructs.88",
+            "speaker": "C",
+            "start_time": 1441.99,
+            "end_time": 1446.89,
+            "sentence": "that's that's better too. More accurate numbers.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 5,
+            "ae_id": "ES2003d.C.argumentstructs.89",
+            "speaker": "C",
+            "start_time": 1458.896,
+            "end_time": 1458.896,
+            "sentence": ".",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 9,
+            "ae_id": "ES2003d.B.argumentstructs.76",
+            "speaker": "B",
+            "start_time": 1474.09,
+            "end_time": 1474.83,
+            "sentence": "Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2003d.C.argumentstructs.Erik.52",
+                "speaker": "C",
+                "start_time": 1446.89,
+                "end_time": 1456.273,
+                "sentence": "Technologically innovative. Well, we're getting rid of the locator thing which which yeah",
+                "source": "NONE",
+                "targets": [
+                    "ES2003d.B.argumentstructs.Erik.48",
+                    "ES2003d.A.argumentstructs.Erik.19",
+                    "ES2003d.D.argumentstructs.Erik.18",
+                    "ES2003d.C.argumentstructs.Erik.55"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "NONE",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 2,
+                "ae_id": "ES2003d.B.argumentstructs.Erik.48",
+                "speaker": "B",
+                "start_time": 1452.52,
+                "end_time": 1453.45,
+                "sentence": "Which is a shame.",
+                "source": "ES2003d.C.argumentstructs.Erik.52",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2003d.C.argumentstructs.Erik.52",
+                    "speaker": "C",
+                    "start_time": 1446.89,
+                    "end_time": 1456.273,
+                    "sentence": "Technologically innovative. Well, we're getting rid of the locator thing which which yeah",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003d.B.argumentstructs.Erik.48",
+                        "ES2003d.A.argumentstructs.Erik.19",
+                        "ES2003d.D.argumentstructs.Erik.18",
+                        "ES2003d.C.argumentstructs.Erik.55"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.B.argumentstructs.Erik.48:\n\"Which is a shame.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2003d.C.argumentstructs.Erik.52 (Index: 1, Speaker: C): \"Technologically innovative. Well, we're getting rid of the locator thing which which yeah\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2003d.C.argumentstructs.Erik.52",
+            "ans": "ES2003d.C.argumentstructs.Erik.52",
+            "judgement": true
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 3,
+                "ae_id": "ES2003d.A.argumentstructs.Erik.19",
+                "speaker": "A",
+                "start_time": 1454.32,
+                "end_time": 1458.97,
+                "sentence": "Mm. I'd give it a three for this  for that.",
+                "source": "ES2003d.C.argumentstructs.Erik.52",
+                "targets": [
+                    "ES2003d.A.argumentstructs.Erik.20"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2003d.C.argumentstructs.Erik.52",
+                    "speaker": "C",
+                    "start_time": 1446.89,
+                    "end_time": 1456.273,
+                    "sentence": "Technologically innovative. Well, we're getting rid of the locator thing which which yeah",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003d.B.argumentstructs.Erik.48",
+                        "ES2003d.A.argumentstructs.Erik.19",
+                        "ES2003d.D.argumentstructs.Erik.18",
+                        "ES2003d.C.argumentstructs.Erik.55"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2003d.B.argumentstructs.Erik.48",
+                    "speaker": "B",
+                    "start_time": 1452.52,
+                    "end_time": 1453.45,
+                    "sentence": "Which is a shame.",
+                    "source": "ES2003d.C.argumentstructs.Erik.52",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.A.argumentstructs.Erik.19:\n\"Mm. I'd give it a three for this  for that.\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2003d.C.argumentstructs.Erik.52 (Index: 1, Speaker: C): \"Technologically innovative. Well, we're getting rid of the locator thing which which yeah\"\nAE_ID ES2003d.B.argumentstructs.Erik.48 (Index: 2, Speaker: B): \"Which is a shame.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2003d.B.argumentstructs.Erik.48",
+            "ans": "ES2003d.C.argumentstructs.Erik.52",
+            "judgement": false
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 4,
+                "ae_id": "ES2003d.D.argumentstructs.Erik.18",
+                "speaker": "D",
+                "start_time": 1455.7,
+                "end_time": 1457.12,
+                "sentence": "No need for teletext.",
+                "source": "ES2003d.C.argumentstructs.Erik.52",
+                "targets": [
+                    "ES2003d.C.argumentstructs.Erik.53"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2003d.C.argumentstructs.Erik.52",
+                    "speaker": "C",
+                    "start_time": 1446.89,
+                    "end_time": 1456.273,
+                    "sentence": "Technologically innovative. Well, we're getting rid of the locator thing which which yeah",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003d.B.argumentstructs.Erik.48",
+                        "ES2003d.A.argumentstructs.Erik.19",
+                        "ES2003d.D.argumentstructs.Erik.18",
+                        "ES2003d.C.argumentstructs.Erik.55"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2003d.B.argumentstructs.Erik.48",
+                    "speaker": "B",
+                    "start_time": 1452.52,
+                    "end_time": 1453.45,
+                    "sentence": "Which is a shame.",
+                    "source": "ES2003d.C.argumentstructs.Erik.52",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2003d.A.argumentstructs.Erik.19",
+                    "speaker": "A",
+                    "start_time": 1454.32,
+                    "end_time": 1458.97,
+                    "sentence": "Mm. I'd give it a three for this  for that.",
+                    "source": "ES2003d.C.argumentstructs.Erik.52",
+                    "targets": [
+                        "ES2003d.A.argumentstructs.Erik.20"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.D.argumentstructs.Erik.18:\n\"No need for teletext.\" Speaker: D\n\nPast dialogue turns:\nAE_ID ES2003d.C.argumentstructs.Erik.52 (Index: 1, Speaker: C): \"Technologically innovative. Well, we're getting rid of the locator thing which which yeah\"\nAE_ID ES2003d.B.argumentstructs.Erik.48 (Index: 2, Speaker: B): \"Which is a shame.\"\nAE_ID ES2003d.A.argumentstructs.Erik.19 (Index: 3, Speaker: A): \"Mm. I'd give it a three for this  for that.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2003d.A.argumentstructs.Erik.19",
+            "ans": "ES2003d.C.argumentstructs.Erik.52",
+            "judgement": false
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 6,
+                "ae_id": "ES2003d.A.argumentstructs.Erik.20",
+                "speaker": "A",
+                "start_time": 1458.97,
+                "end_time": 1471.8,
+                "sentence": "Yeah. I mean the menus thing is something you don't normally see on um on a remote, but  you see it in a lot of other places.",
+                "source": "ES2003d.A.argumentstructs.Erik.19",
+                "targets": [
+                    "ES2003d.C.argumentstructs.Erik.54"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2003d.C.argumentstructs.Erik.52",
+                    "speaker": "C",
+                    "start_time": 1446.89,
+                    "end_time": 1456.273,
+                    "sentence": "Technologically innovative. Well, we're getting rid of the locator thing which which yeah",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003d.B.argumentstructs.Erik.48",
+                        "ES2003d.A.argumentstructs.Erik.19",
+                        "ES2003d.D.argumentstructs.Erik.18",
+                        "ES2003d.C.argumentstructs.Erik.55"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2003d.B.argumentstructs.Erik.48",
+                    "speaker": "B",
+                    "start_time": 1452.52,
+                    "end_time": 1453.45,
+                    "sentence": "Which is a shame.",
+                    "source": "ES2003d.C.argumentstructs.Erik.52",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2003d.A.argumentstructs.Erik.19",
+                    "speaker": "A",
+                    "start_time": 1454.32,
+                    "end_time": 1458.97,
+                    "sentence": "Mm. I'd give it a three for this  for that.",
+                    "source": "ES2003d.C.argumentstructs.Erik.52",
+                    "targets": [
+                        "ES2003d.A.argumentstructs.Erik.20"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2003d.D.argumentstructs.Erik.18",
+                    "speaker": "D",
+                    "start_time": 1455.7,
+                    "end_time": 1457.12,
+                    "sentence": "No need for teletext.",
+                    "source": "ES2003d.C.argumentstructs.Erik.52",
+                    "targets": [
+                        "ES2003d.C.argumentstructs.Erik.53"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.A.argumentstructs.Erik.20:\n\"Yeah. I mean the menus thing is something you don't normally see on um on a remote, but  you see it in a lot of other places.\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2003d.C.argumentstructs.Erik.52 (Index: 1, Speaker: C): \"Technologically innovative. Well, we're getting rid of the locator thing which which yeah\"\nAE_ID ES2003d.B.argumentstructs.Erik.48 (Index: 2, Speaker: B): \"Which is a shame.\"\nAE_ID ES2003d.A.argumentstructs.Erik.19 (Index: 3, Speaker: A): \"Mm. I'd give it a three for this  for that.\"\nAE_ID ES2003d.D.argumentstructs.Erik.18 (Index: 4, Speaker: D): \"No need for teletext.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2003d.A.argumentstructs.Erik.19",
+            "ans": "ES2003d.A.argumentstructs.Erik.19",
+            "judgement": true
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 7,
+                "ae_id": "ES2003d.C.argumentstructs.Erik.53",
+                "speaker": "C",
+                "start_time": 1460.09,
+                "end_time": 1460.32,
+                "sentence": "'Kay.",
+                "source": "ES2003d.D.argumentstructs.Erik.18",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2003d.C.argumentstructs.Erik.52",
+                    "speaker": "C",
+                    "start_time": 1446.89,
+                    "end_time": 1456.273,
+                    "sentence": "Technologically innovative. Well, we're getting rid of the locator thing which which yeah",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003d.B.argumentstructs.Erik.48",
+                        "ES2003d.A.argumentstructs.Erik.19",
+                        "ES2003d.D.argumentstructs.Erik.18",
+                        "ES2003d.C.argumentstructs.Erik.55"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2003d.B.argumentstructs.Erik.48",
+                    "speaker": "B",
+                    "start_time": 1452.52,
+                    "end_time": 1453.45,
+                    "sentence": "Which is a shame.",
+                    "source": "ES2003d.C.argumentstructs.Erik.52",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2003d.A.argumentstructs.Erik.19",
+                    "speaker": "A",
+                    "start_time": 1454.32,
+                    "end_time": 1458.97,
+                    "sentence": "Mm. I'd give it a three for this  for that.",
+                    "source": "ES2003d.C.argumentstructs.Erik.52",
+                    "targets": [
+                        "ES2003d.A.argumentstructs.Erik.20"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2003d.D.argumentstructs.Erik.18",
+                    "speaker": "D",
+                    "start_time": 1455.7,
+                    "end_time": 1457.12,
+                    "sentence": "No need for teletext.",
+                    "source": "ES2003d.C.argumentstructs.Erik.52",
+                    "targets": [
+                        "ES2003d.C.argumentstructs.Erik.53"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2003d.A.argumentstructs.Erik.20",
+                    "speaker": "A",
+                    "start_time": 1458.97,
+                    "end_time": 1471.8,
+                    "sentence": "Yeah. I mean the menus thing is something you don't normally see on um on a remote, but  you see it in a lot of other places.",
+                    "source": "ES2003d.A.argumentstructs.Erik.19",
+                    "targets": [
+                        "ES2003d.C.argumentstructs.Erik.54"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.C.argumentstructs.Erik.53:\n\"'Kay.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2003d.C.argumentstructs.Erik.52 (Index: 1, Speaker: C): \"Technologically innovative. Well, we're getting rid of the locator thing which which yeah\"\nAE_ID ES2003d.B.argumentstructs.Erik.48 (Index: 2, Speaker: B): \"Which is a shame.\"\nAE_ID ES2003d.A.argumentstructs.Erik.19 (Index: 3, Speaker: A): \"Mm. I'd give it a three for this  for that.\"\nAE_ID ES2003d.D.argumentstructs.Erik.18 (Index: 4, Speaker: D): \"No need for teletext.\"\nAE_ID ES2003d.A.argumentstructs.Erik.20 (Index: 6, Speaker: A): \"Yeah. I mean the menus thing is something you don't normally see on um on a remote, but  you see it in a lot of other places.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2003d.B.argumentstructs.Erik.48",
+            "ans": "ES2003d.D.argumentstructs.Erik.18",
+            "judgement": false
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 8,
+                "ae_id": "ES2003d.C.argumentstructs.Erik.54",
+                "speaker": "C",
+                "start_time": 1472.2,
+                "end_time": 1479.488,
+                "sentence": "Yeah, mobile phones. And y what you're doing is moving the menu from the television to the remote control, so it's",
+                "source": "ES2003d.A.argumentstructs.Erik.20",
+                "targets": [
+                    "ES2003d.A.argumentstructs.Erik.21"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 2,
+                    "ae_id": "ES2003d.B.argumentstructs.Erik.48",
+                    "speaker": "B",
+                    "start_time": 1452.52,
+                    "end_time": 1453.45,
+                    "sentence": "Which is a shame.",
+                    "source": "ES2003d.C.argumentstructs.Erik.52",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2003d.A.argumentstructs.Erik.19",
+                    "speaker": "A",
+                    "start_time": 1454.32,
+                    "end_time": 1458.97,
+                    "sentence": "Mm. I'd give it a three for this  for that.",
+                    "source": "ES2003d.C.argumentstructs.Erik.52",
+                    "targets": [
+                        "ES2003d.A.argumentstructs.Erik.20"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2003d.D.argumentstructs.Erik.18",
+                    "speaker": "D",
+                    "start_time": 1455.7,
+                    "end_time": 1457.12,
+                    "sentence": "No need for teletext.",
+                    "source": "ES2003d.C.argumentstructs.Erik.52",
+                    "targets": [
+                        "ES2003d.C.argumentstructs.Erik.53"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2003d.A.argumentstructs.Erik.20",
+                    "speaker": "A",
+                    "start_time": 1458.97,
+                    "end_time": 1471.8,
+                    "sentence": "Yeah. I mean the menus thing is something you don't normally see on um on a remote, but  you see it in a lot of other places.",
+                    "source": "ES2003d.A.argumentstructs.Erik.19",
+                    "targets": [
+                        "ES2003d.C.argumentstructs.Erik.54"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2003d.C.argumentstructs.Erik.53",
+                    "speaker": "C",
+                    "start_time": 1460.09,
+                    "end_time": 1460.32,
+                    "sentence": "'Kay.",
+                    "source": "ES2003d.D.argumentstructs.Erik.18",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.C.argumentstructs.Erik.54:\n\"Yeah, mobile phones. And y what you're doing is moving the menu from the television to the remote control, so it's\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2003d.B.argumentstructs.Erik.48 (Index: 2, Speaker: B): \"Which is a shame.\"\nAE_ID ES2003d.A.argumentstructs.Erik.19 (Index: 3, Speaker: A): \"Mm. I'd give it a three for this  for that.\"\nAE_ID ES2003d.D.argumentstructs.Erik.18 (Index: 4, Speaker: D): \"No need for teletext.\"\nAE_ID ES2003d.A.argumentstructs.Erik.20 (Index: 6, Speaker: A): \"Yeah. I mean the menus thing is something you don't normally see on um on a remote, but  you see it in a lot of other places.\"\nAE_ID ES2003d.C.argumentstructs.Erik.53 (Index: 7, Speaker: C): \"'Kay.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2003d.A.argumentstructs.Erik.20",
+            "ans": "ES2003d.A.argumentstructs.Erik.20",
+            "judgement": true
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 10,
+                "ae_id": "ES2003d.A.argumentstructs.Erik.21",
+                "speaker": "A",
+                "start_time": 1479.86,
+                "end_time": 1480.42,
+                "sentence": "Mm-hmm.",
+                "source": "ES2003d.C.argumentstructs.Erik.54",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 3,
+                    "ae_id": "ES2003d.A.argumentstructs.Erik.19",
+                    "speaker": "A",
+                    "start_time": 1454.32,
+                    "end_time": 1458.97,
+                    "sentence": "Mm. I'd give it a three for this  for that.",
+                    "source": "ES2003d.C.argumentstructs.Erik.52",
+                    "targets": [
+                        "ES2003d.A.argumentstructs.Erik.20"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2003d.D.argumentstructs.Erik.18",
+                    "speaker": "D",
+                    "start_time": 1455.7,
+                    "end_time": 1457.12,
+                    "sentence": "No need for teletext.",
+                    "source": "ES2003d.C.argumentstructs.Erik.52",
+                    "targets": [
+                        "ES2003d.C.argumentstructs.Erik.53"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2003d.A.argumentstructs.Erik.20",
+                    "speaker": "A",
+                    "start_time": 1458.97,
+                    "end_time": 1471.8,
+                    "sentence": "Yeah. I mean the menus thing is something you don't normally see on um on a remote, but  you see it in a lot of other places.",
+                    "source": "ES2003d.A.argumentstructs.Erik.19",
+                    "targets": [
+                        "ES2003d.C.argumentstructs.Erik.54"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2003d.C.argumentstructs.Erik.53",
+                    "speaker": "C",
+                    "start_time": 1460.09,
+                    "end_time": 1460.32,
+                    "sentence": "'Kay.",
+                    "source": "ES2003d.D.argumentstructs.Erik.18",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2003d.C.argumentstructs.Erik.54",
+                    "speaker": "C",
+                    "start_time": 1472.2,
+                    "end_time": 1479.488,
+                    "sentence": "Yeah, mobile phones. And y what you're doing is moving the menu from the television to the remote control, so it's",
+                    "source": "ES2003d.A.argumentstructs.Erik.20",
+                    "targets": [
+                        "ES2003d.A.argumentstructs.Erik.21"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.A.argumentstructs.Erik.21:\n\"Mm-hmm.\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2003d.A.argumentstructs.Erik.19 (Index: 3, Speaker: A): \"Mm. I'd give it a three for this  for that.\"\nAE_ID ES2003d.D.argumentstructs.Erik.18 (Index: 4, Speaker: D): \"No need for teletext.\"\nAE_ID ES2003d.A.argumentstructs.Erik.20 (Index: 6, Speaker: A): \"Yeah. I mean the menus thing is something you don't normally see on um on a remote, but  you see it in a lot of other places.\"\nAE_ID ES2003d.C.argumentstructs.Erik.53 (Index: 7, Speaker: C): \"'Kay.\"\nAE_ID ES2003d.C.argumentstructs.Erik.54 (Index: 8, Speaker: C): \"Yeah, mobile phones. And y what you're doing is moving the menu from the television to the remote control, so it's\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2003d.A.argumentstructs.Erik.20",
+            "ans": "ES2003d.C.argumentstructs.Erik.54",
+            "judgement": false
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 11,
+                "ae_id": "ES2003d.C.argumentstructs.Erik.55",
+                "speaker": "C",
+                "start_time": 1480.61,
+                "end_time": 1483.83,
+                "sentence": "You say three ? I might go as far as two on that. Three.",
+                "source": "ES2003d.C.argumentstructs.Erik.52",
+                "targets": [
+                    "ES2003d.A.argumentstructs.Erik.22",
+                    "ES2003d.B.argumentstructs.Erik.49"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 4,
+                    "ae_id": "ES2003d.D.argumentstructs.Erik.18",
+                    "speaker": "D",
+                    "start_time": 1455.7,
+                    "end_time": 1457.12,
+                    "sentence": "No need for teletext.",
+                    "source": "ES2003d.C.argumentstructs.Erik.52",
+                    "targets": [
+                        "ES2003d.C.argumentstructs.Erik.53"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2003d.A.argumentstructs.Erik.20",
+                    "speaker": "A",
+                    "start_time": 1458.97,
+                    "end_time": 1471.8,
+                    "sentence": "Yeah. I mean the menus thing is something you don't normally see on um on a remote, but  you see it in a lot of other places.",
+                    "source": "ES2003d.A.argumentstructs.Erik.19",
+                    "targets": [
+                        "ES2003d.C.argumentstructs.Erik.54"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2003d.C.argumentstructs.Erik.53",
+                    "speaker": "C",
+                    "start_time": 1460.09,
+                    "end_time": 1460.32,
+                    "sentence": "'Kay.",
+                    "source": "ES2003d.D.argumentstructs.Erik.18",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2003d.C.argumentstructs.Erik.54",
+                    "speaker": "C",
+                    "start_time": 1472.2,
+                    "end_time": 1479.488,
+                    "sentence": "Yeah, mobile phones. And y what you're doing is moving the menu from the television to the remote control, so it's",
+                    "source": "ES2003d.A.argumentstructs.Erik.20",
+                    "targets": [
+                        "ES2003d.A.argumentstructs.Erik.21"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2003d.A.argumentstructs.Erik.21",
+                    "speaker": "A",
+                    "start_time": 1479.86,
+                    "end_time": 1480.42,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003d.C.argumentstructs.Erik.54",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.C.argumentstructs.Erik.55:\n\"You say three ? I might go as far as two on that. Three.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2003d.D.argumentstructs.Erik.18 (Index: 4, Speaker: D): \"No need for teletext.\"\nAE_ID ES2003d.A.argumentstructs.Erik.20 (Index: 6, Speaker: A): \"Yeah. I mean the menus thing is something you don't normally see on um on a remote, but  you see it in a lot of other places.\"\nAE_ID ES2003d.C.argumentstructs.Erik.53 (Index: 7, Speaker: C): \"'Kay.\"\nAE_ID ES2003d.C.argumentstructs.Erik.54 (Index: 8, Speaker: C): \"Yeah, mobile phones. And y what you're doing is moving the menu from the television to the remote control, so it's\"\nAE_ID ES2003d.A.argumentstructs.Erik.21 (Index: 10, Speaker: A): \"Mm-hmm.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2003d.C.argumentstructs.Erik.54",
+            "ans": "ES2003d.C.argumentstructs.Erik.52",
+            "judgement": false
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 12,
+                "ae_id": "ES2003d.A.argumentstructs.Erik.22",
+                "speaker": "A",
+                "start_time": 1484.61,
+                "end_time": 1485.62,
+                "sentence": "I'd give it a three.",
+                "source": "ES2003d.C.argumentstructs.Erik.55",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 6,
+                    "ae_id": "ES2003d.A.argumentstructs.Erik.20",
+                    "speaker": "A",
+                    "start_time": 1458.97,
+                    "end_time": 1471.8,
+                    "sentence": "Yeah. I mean the menus thing is something you don't normally see on um on a remote, but  you see it in a lot of other places.",
+                    "source": "ES2003d.A.argumentstructs.Erik.19",
+                    "targets": [
+                        "ES2003d.C.argumentstructs.Erik.54"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2003d.C.argumentstructs.Erik.53",
+                    "speaker": "C",
+                    "start_time": 1460.09,
+                    "end_time": 1460.32,
+                    "sentence": "'Kay.",
+                    "source": "ES2003d.D.argumentstructs.Erik.18",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2003d.C.argumentstructs.Erik.54",
+                    "speaker": "C",
+                    "start_time": 1472.2,
+                    "end_time": 1479.488,
+                    "sentence": "Yeah, mobile phones. And y what you're doing is moving the menu from the television to the remote control, so it's",
+                    "source": "ES2003d.A.argumentstructs.Erik.20",
+                    "targets": [
+                        "ES2003d.A.argumentstructs.Erik.21"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2003d.A.argumentstructs.Erik.21",
+                    "speaker": "A",
+                    "start_time": 1479.86,
+                    "end_time": 1480.42,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003d.C.argumentstructs.Erik.54",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2003d.C.argumentstructs.Erik.55",
+                    "speaker": "C",
+                    "start_time": 1480.61,
+                    "end_time": 1483.83,
+                    "sentence": "You say three ? I might go as far as two on that. Three.",
+                    "source": "ES2003d.C.argumentstructs.Erik.52",
+                    "targets": [
+                        "ES2003d.A.argumentstructs.Erik.22",
+                        "ES2003d.B.argumentstructs.Erik.49"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.A.argumentstructs.Erik.22:\n\"I'd give it a three.\" Speaker: A\n\nPast dialogue turns:\nAE_ID ES2003d.A.argumentstructs.Erik.20 (Index: 6, Speaker: A): \"Yeah. I mean the menus thing is something you don't normally see on um on a remote, but  you see it in a lot of other places.\"\nAE_ID ES2003d.C.argumentstructs.Erik.53 (Index: 7, Speaker: C): \"'Kay.\"\nAE_ID ES2003d.C.argumentstructs.Erik.54 (Index: 8, Speaker: C): \"Yeah, mobile phones. And y what you're doing is moving the menu from the television to the remote control, so it's\"\nAE_ID ES2003d.A.argumentstructs.Erik.21 (Index: 10, Speaker: A): \"Mm-hmm.\"\nAE_ID ES2003d.C.argumentstructs.Erik.55 (Index: 11, Speaker: C): \"You say three ? I might go as far as two on that. Three.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2003d.C.argumentstructs.Erik.55",
+            "ans": "ES2003d.C.argumentstructs.Erik.55",
+            "judgement": true
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 13,
+                "ae_id": "ES2003d.B.argumentstructs.Erik.49",
+                "speaker": "B",
+                "start_time": 1484.85,
+                "end_time": 1487.31,
+                "sentence": "I'd be tempted with three, yeah.",
+                "source": "ES2003d.C.argumentstructs.Erik.55",
+                "targets": [
+                    "ES2003d.C.argumentstructs.Erik.56"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 7,
+                    "ae_id": "ES2003d.C.argumentstructs.Erik.53",
+                    "speaker": "C",
+                    "start_time": 1460.09,
+                    "end_time": 1460.32,
+                    "sentence": "'Kay.",
+                    "source": "ES2003d.D.argumentstructs.Erik.18",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2003d.C.argumentstructs.Erik.54",
+                    "speaker": "C",
+                    "start_time": 1472.2,
+                    "end_time": 1479.488,
+                    "sentence": "Yeah, mobile phones. And y what you're doing is moving the menu from the television to the remote control, so it's",
+                    "source": "ES2003d.A.argumentstructs.Erik.20",
+                    "targets": [
+                        "ES2003d.A.argumentstructs.Erik.21"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2003d.A.argumentstructs.Erik.21",
+                    "speaker": "A",
+                    "start_time": 1479.86,
+                    "end_time": 1480.42,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003d.C.argumentstructs.Erik.54",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2003d.C.argumentstructs.Erik.55",
+                    "speaker": "C",
+                    "start_time": 1480.61,
+                    "end_time": 1483.83,
+                    "sentence": "You say three ? I might go as far as two on that. Three.",
+                    "source": "ES2003d.C.argumentstructs.Erik.52",
+                    "targets": [
+                        "ES2003d.A.argumentstructs.Erik.22",
+                        "ES2003d.B.argumentstructs.Erik.49"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2003d.A.argumentstructs.Erik.22",
+                    "speaker": "A",
+                    "start_time": 1484.61,
+                    "end_time": 1485.62,
+                    "sentence": "I'd give it a three.",
+                    "source": "ES2003d.C.argumentstructs.Erik.55",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.B.argumentstructs.Erik.49:\n\"I'd be tempted with three, yeah.\" Speaker: B\n\nPast dialogue turns:\nAE_ID ES2003d.C.argumentstructs.Erik.53 (Index: 7, Speaker: C): \"'Kay.\"\nAE_ID ES2003d.C.argumentstructs.Erik.54 (Index: 8, Speaker: C): \"Yeah, mobile phones. And y what you're doing is moving the menu from the television to the remote control, so it's\"\nAE_ID ES2003d.A.argumentstructs.Erik.21 (Index: 10, Speaker: A): \"Mm-hmm.\"\nAE_ID ES2003d.C.argumentstructs.Erik.55 (Index: 11, Speaker: C): \"You say three ? I might go as far as two on that. Three.\"\nAE_ID ES2003d.A.argumentstructs.Erik.22 (Index: 12, Speaker: A): \"I'd give it a three.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2003d.C.argumentstructs.Erik.55",
+            "ans": "ES2003d.C.argumentstructs.Erik.55",
+            "judgement": true
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 14,
+                "ae_id": "ES2003d.C.argumentstructs.Erik.56",
+                "speaker": "C",
+                "start_time": 1486.49,
+                "end_time": 1487.31,
+                "sentence": "Three. Okay.",
+                "source": "ES2003d.B.argumentstructs.Erik.49",
+                "targets": [
+                    "ES2003d.C.argumentstructs.Erik.57"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 8,
+                    "ae_id": "ES2003d.C.argumentstructs.Erik.54",
+                    "speaker": "C",
+                    "start_time": 1472.2,
+                    "end_time": 1479.488,
+                    "sentence": "Yeah, mobile phones. And y what you're doing is moving the menu from the television to the remote control, so it's",
+                    "source": "ES2003d.A.argumentstructs.Erik.20",
+                    "targets": [
+                        "ES2003d.A.argumentstructs.Erik.21"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2003d.A.argumentstructs.Erik.21",
+                    "speaker": "A",
+                    "start_time": 1479.86,
+                    "end_time": 1480.42,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003d.C.argumentstructs.Erik.54",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2003d.C.argumentstructs.Erik.55",
+                    "speaker": "C",
+                    "start_time": 1480.61,
+                    "end_time": 1483.83,
+                    "sentence": "You say three ? I might go as far as two on that. Three.",
+                    "source": "ES2003d.C.argumentstructs.Erik.52",
+                    "targets": [
+                        "ES2003d.A.argumentstructs.Erik.22",
+                        "ES2003d.B.argumentstructs.Erik.49"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2003d.A.argumentstructs.Erik.22",
+                    "speaker": "A",
+                    "start_time": 1484.61,
+                    "end_time": 1485.62,
+                    "sentence": "I'd give it a three.",
+                    "source": "ES2003d.C.argumentstructs.Erik.55",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2003d.B.argumentstructs.Erik.49",
+                    "speaker": "B",
+                    "start_time": 1484.85,
+                    "end_time": 1487.31,
+                    "sentence": "I'd be tempted with three, yeah.",
+                    "source": "ES2003d.C.argumentstructs.Erik.55",
+                    "targets": [
+                        "ES2003d.C.argumentstructs.Erik.56"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.C.argumentstructs.Erik.56:\n\"Three. Okay.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2003d.C.argumentstructs.Erik.54 (Index: 8, Speaker: C): \"Yeah, mobile phones. And y what you're doing is moving the menu from the television to the remote control, so it's\"\nAE_ID ES2003d.A.argumentstructs.Erik.21 (Index: 10, Speaker: A): \"Mm-hmm.\"\nAE_ID ES2003d.C.argumentstructs.Erik.55 (Index: 11, Speaker: C): \"You say three ? I might go as far as two on that. Three.\"\nAE_ID ES2003d.A.argumentstructs.Erik.22 (Index: 12, Speaker: A): \"I'd give it a three.\"\nAE_ID ES2003d.B.argumentstructs.Erik.49 (Index: 13, Speaker: B): \"I'd be tempted with three, yeah.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2003d.C.argumentstructs.Erik.55",
+            "ans": "ES2003d.B.argumentstructs.Erik.49",
+            "judgement": false
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 15,
+                "ae_id": "ES2003d.C.argumentstructs.Erik.57",
+                "speaker": "C",
+                "start_time": 1489.87,
+                "end_time": 1490.53,
+                "sentence": "Okay.",
+                "source": "ES2003d.C.argumentstructs.Erik.56",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 10,
+                    "ae_id": "ES2003d.A.argumentstructs.Erik.21",
+                    "speaker": "A",
+                    "start_time": 1479.86,
+                    "end_time": 1480.42,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003d.C.argumentstructs.Erik.54",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2003d.C.argumentstructs.Erik.55",
+                    "speaker": "C",
+                    "start_time": 1480.61,
+                    "end_time": 1483.83,
+                    "sentence": "You say three ? I might go as far as two on that. Three.",
+                    "source": "ES2003d.C.argumentstructs.Erik.52",
+                    "targets": [
+                        "ES2003d.A.argumentstructs.Erik.22",
+                        "ES2003d.B.argumentstructs.Erik.49"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2003d.A.argumentstructs.Erik.22",
+                    "speaker": "A",
+                    "start_time": 1484.61,
+                    "end_time": 1485.62,
+                    "sentence": "I'd give it a three.",
+                    "source": "ES2003d.C.argumentstructs.Erik.55",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2003d.B.argumentstructs.Erik.49",
+                    "speaker": "B",
+                    "start_time": 1484.85,
+                    "end_time": 1487.31,
+                    "sentence": "I'd be tempted with three, yeah.",
+                    "source": "ES2003d.C.argumentstructs.Erik.55",
+                    "targets": [
+                        "ES2003d.C.argumentstructs.Erik.56"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2003d.C.argumentstructs.Erik.56",
+                    "speaker": "C",
+                    "start_time": 1486.49,
+                    "end_time": 1487.31,
+                    "sentence": "Three. Okay.",
+                    "source": "ES2003d.B.argumentstructs.Erik.49",
+                    "targets": [
+                        "ES2003d.C.argumentstructs.Erik.57"
+                    ]
+                }
+            ],
+            "prompt": "Analyze the following dialogue turn and identify any influencing past turns.\nPlease respond with only the AE_ID of the turns that influenced the current turn. Notice that there should be only one correct answer.\nDo not include any explanations or additional information.\n\nCurrent turn AE_ID ES2003d.C.argumentstructs.Erik.57:\n\"Okay.\" Speaker: C\n\nPast dialogue turns:\nAE_ID ES2003d.A.argumentstructs.Erik.21 (Index: 10, Speaker: A): \"Mm-hmm.\"\nAE_ID ES2003d.C.argumentstructs.Erik.55 (Index: 11, Speaker: C): \"You say three ? I might go as far as two on that. Three.\"\nAE_ID ES2003d.A.argumentstructs.Erik.22 (Index: 12, Speaker: A): \"I'd give it a three.\"\nAE_ID ES2003d.B.argumentstructs.Erik.49 (Index: 13, Speaker: B): \"I'd be tempted with three, yeah.\"\nAE_ID ES2003d.C.argumentstructs.Erik.56 (Index: 14, Speaker: C): \"Three. Okay.\"\n\nPlease answer only the ID consisting of alphabets and numbers.\nAnswer:\n",
+            "gpt_ans": "ES2003d.C.argumentstructs.Erik.56",
+            "ans": "ES2003d.C.argumentstructs.Erik.56",
+            "judgement": true
+        }
+    ]
+}

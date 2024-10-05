@@ -25,8 +25,8 @@ prompt_dir = os.path.join(dir_path, 'prompt')  # プロンプトファイルの�
 # 実験設定
 MODEL = "gpt-4o-mini"
 METHOD = "baseline"
-PROMPT = "ver.1.1.txt"
-COUNT = 2
+PROMPT = "prompt_template.txt"
+COUNT = 50
 
 
 def get_output_dir_path():
@@ -99,6 +99,9 @@ def main():
     overall_true_count = 0
     overall_total_count = 0
 
+    # 処理前の時刻を記録
+    start_time = time.time()
+
     # tqdmを使用してファイルの進行状況を表示
     for csv_file in tqdm(csv_file_list, desc="Processing CSV files"):
         tmp_turns = DialogueTurn.from_csv(csv_file)
@@ -112,9 +115,6 @@ def main():
 
         # APIのコスト計算クラスをインスタンス化
         gpt_cout_calculator = GPTCostCalculator(MODEL)
-
-        # 処理前の時刻を記録
-        start_time = time.time()
 
         for index, turn in tqdm(enumerate(dialogue_turns), total=len(dialogue_turns), desc=f"Processing {os.path.basename(csv_file)}", leave=False):
             if index > 0:
@@ -185,9 +185,9 @@ def main():
 
     #out_put_dir_pathにもOverall True Judgement Ratioを保存
     with open(os.path.join(out_put_dir_path, 'Overall_True_Judgement_Ratio.txt'), 'w') as f:
-        f.write(f"Overall True Judgement Ratio: {overall_true_ratio:.2%}")
-        f.write(f"Time: {elapsed_time:.2f} seconds")
-        f.write(f"Total cost: ${cost:.5f}")
+        f.write(f"Overall True Judgement Ratio: {overall_true_ratio:.2%}\n")
+        f.write(f"Time: {elapsed_time:.2f} seconds\n")
+        f.write(f"Total cost: ${cost:.5f}\n")
 
 
 if __name__ == '__main__':
