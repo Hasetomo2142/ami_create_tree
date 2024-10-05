@@ -62,7 +62,7 @@ class NodeResult:
 
     # CSVファイルのヘッダーを作成してCSVファイルに書き込む
     @staticmethod
-    def create_csv_header(use_method, template):
+    def create_csv_header(output_dir_path):
 
         header = [
             'file_name',
@@ -78,18 +78,8 @@ class NodeResult:
             'contains_answer'
         ]
 
-        # result_json_pathにuse_methodのディレクトリを作成
-        method_dir_path = os.path.join(result_json_path, use_method)
-        if not os.path.exists(method_dir_path):
-            os.makedirs(method_dir_path)
-
-        # use_methodのディレクトリにpromptのディレクトリを作成
-        prompt_dir_path = os.path.join(method_dir_path, template)
-        if not os.path.exists(prompt_dir_path):
-            os.makedirs(prompt_dir_path)
-
         #csvファイルを作成
-        csv_file_path = os.path.join(prompt_dir_path, 'NodeResult.csv')
+        csv_file_path = os.path.join(output_dir_path, 'NodeResult.csv')
         with open(csv_file_path, 'w', newline='') as f:
             writer = csv.writer(f)
             writer.writerow(header)
@@ -113,7 +103,7 @@ class NodeResult:
                 self.distance_from_ans,
                 self.contains_answer
             ])
-            
+
     @staticmethod
     def save_nodes_from_result_class(result, csv_file_path):
         node_results = []

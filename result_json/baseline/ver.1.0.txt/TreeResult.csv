@@ -1,2 +1,11 @@
-file_name,rate,num_solved_problems,num_options_without_answer,build_tree_depth,real_tree_depth,tree_edit_distance,edge_similarity,path_based_similarity
-ES2002a - Regions,0.42857142857142855,8,0,4,2,4.0,0.4285714285714285,0.8510649469101557
+file_name,rate,num_solved_problems,num_options_without_answer,build_tree_depth,real_tree_depth
+ES2002a - Regions,0.42857142857142855,8,0,4,2
+ES2002a - Remote design wrap up,0.5384615384615384,14,0,5,4
+ES2002a - Remote functionality,0.5,31,0,15,8
+ES2002b - Desired functions,0.5238095238095238,22,0,11,8
+ES2002b - Target audience,0.41379310344827586,30,0,14,6
+ES2002c - LCD display,0.5833333333333334,13,0,6,6
+ES2002c - Light option,0.5,21,0,8,11
+ES2002c - Remote shape,0.45454545454545453,23,0,11,7
+ES2002c - Technology,0.4,16,0,7,4
+ES2002d - Digital pens,0.3333333333333333,13,0,5,3

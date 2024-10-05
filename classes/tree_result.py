@@ -35,11 +35,14 @@ class TreeResult:
         self.rate = Result.rate
         self.num_solved_problems = Result.total_node_count - Result.removed_node_count
         self.num_options_without_answer = self.get_num_options_without_answer(Result)
+
+
         self.build_tree_depth = self.get_tree_depth(self.estimated_tree)
         self.real_tree_depth = self.get_tree_depth(self.real_tree)
-        self.tree_edit_distance = nx.graph_edit_distance(self.estimated_tree, self.real_tree)
-        self.edge_similarity = self.edge_similarity()
-        self.path_based_similarity = self.compute_path_based_similarity()
+
+        # self.tree_edit_distance = nx.graph_edit_distance(self.estimated_tree, self.real_tree, upper_bound=50)
+        # self.edge_similarity = self.edge_similarity()
+        # self.path_based_similarity = self.compute_path_based_similarity()
 
 
         # print(f"Estimated Tree - Nodes: {self.estimated_tree.number_of_nodes()}, Edges: {self.estimated_tree.number_of_edges()}")
@@ -75,34 +78,34 @@ class TreeResult:
 
                     # ノードがすでに追加されているか確認（ae_id で確認）
                     if not self.estimated_tree.has_node(gpt_ans_node.ae_id):
-                        self.estimated_tree.add_node(gpt_ans_node.ae_id)
+                        node_label = f"{gpt_ans_node.index + 1}: {self.wrap_and_truncate_text(gpt_ans_node.sentence)}"
+                        self.estimated_tree.add_node(gpt_ans_node.ae_id, label=node_label, color=self.color_map[DialogueTurn.find_by_ae_id(gpt_ans_node.ae_id).speaker])
 
                     # エッジを追加（ae_id を用いる）
                     self.estimated_tree.add_edge(gpt_ans_node.ae_id, current_node.ae_id)
 
     def build_real_tree(self, Result):
         one_turn_results = Result.one_turn_results
-
         for one_turn_result in one_turn_results:
-            current_node_ae_id = one_turn_result.current_node.ae_id
+            current_node = one_turn_result.current_node
 
-            # 現在のノードがすでに存在しているか確認（ae_id で照合）
-            if not self.real_tree.has_node(current_node_ae_id):
-                self.real_tree.add_node(current_node_ae_id)
+            if not self.real_tree.has_node(current_node.ae_id):
 
-            # 答えノードを取得し、エッジを追加（ae_id で処理）
+                node_label = f"{current_node.index + 1}: {self.wrap_and_truncate_text(current_node.sentence)}"
+                self.real_tree.add_node(current_node.ae_id, label=node_label, color=self.color_map[DialogueTurn.find_by_ae_id(current_node.ae_id).speaker])
+
             if one_turn_result.current_node.source != 'NONE':
                 ans_node = DialogueTurn.find_by_ae_id(one_turn_result.ans)
 
                 if ans_node is not None:
-                    ans_node_ae_id = ans_node.ae_id
 
                     # ノードがすでに追加されているか確認（ae_id で確認）
-                    if not self.real_tree.has_node(ans_node_ae_id):
-                        self.real_tree.add_node(ans_node_ae_id)
+                    if not self.real_tree.has_node(ans_node.ae_id):
+                        node_label = f"{ans_node.index + 1}: {self.wrap_and_truncate_text(ans_node.sentence)}"
+                        self.real_tree.add_node(ans_node.ae_id, label=node_label, color=self.color_map[DialogueTurn.find_by_ae_id(ans_node.ae_id).speaker])
 
                     # エッジを追加（ae_id を用いる）
-                    self.real_tree.add_edge(ans_node_ae_id, current_node_ae_id)
+                    self.real_tree.add_edge(ans_node.ae_id, current_node.ae_id)
 
     def edge_similarity(self):
         """
@@ -194,7 +197,7 @@ class TreeResult:
 
     # CSVファイルのヘッダーを作成してCSVファイルに書き込む
     @staticmethod
-    def create_csv_header(use_method, template):
+    def create_csv_header(out_put_dir_path):
         """
         CSVファイルのヘッダーを作成するメソッド。
         :return: ヘッダーのリスト
@@ -206,23 +209,12 @@ class TreeResult:
             'num_options_without_answer',
             'build_tree_depth',
             'real_tree_depth',
-            'tree_edit_distance',
-            'edge_similarity',
-            'path_based_similarity'
+            # 'tree_edit_distance',
+            # 'path_based_similarity'
         ]
 
-        # result_json_pathにuse_methodのディレクトリを作成
-        method_dir_path = os.path.join(result_json_path, use_method)
-        if not os.path.exists(method_dir_path):
-            os.makedirs(method_dir_path)
-
-        # use_methodのディレクトリにpromptのディレクトリを作成
-        prompt_dir_path = os.path.join(method_dir_path, template)
-        if not os.path.exists(prompt_dir_path):
-            os.makedirs(prompt_dir_path)
-
         #csvファイルを作成
-        csv_file_path = os.path.join(prompt_dir_path, 'TreeResult.csv')
+        csv_file_path = os.path.join(out_put_dir_path, 'TreeResult.csv')
         with open(csv_file_path, 'w', newline='') as f:
             writer = csv.writer(f)
             writer.writerow(header)
@@ -244,9 +236,8 @@ class TreeResult:
                 self.num_options_without_answer,
                 self.build_tree_depth,
                 self.real_tree_depth,
-                self.tree_edit_distance,
-                self.edge_similarity,
-                self.path_based_similarity
+                # self.tree_edit_distance,
+                # self.path_based_similarity
             ])
 
     @staticmethod
@@ -292,23 +283,19 @@ class TreeResult:
         legend_marker_size = max(300, 0.1 * width * 100)  # マーカーサイズはスケーリングを調整
         return legend_font_size, legend_marker_size
 
-    def draw_tree(self, use_method, template):
+    def draw_tree(self, output_dir_path, type):
 
-         # result_json_pathにuse_methodのディレクトリを作成
-        method_dir_path = os.path.join(result_json_path, use_method)
-        if not os.path.exists(method_dir_path):
-            os.makedirs(method_dir_path)
 
-        # use_methodのディレクトリにpromptのディレクトリを作成
-        prompt_dir_path = os.path.join(method_dir_path, template)
-        if not os.path.exists(prompt_dir_path):
-            os.makedirs(prompt_dir_path)
+        if type == 'estimated':
+            tree = self.estimated_tree
+            output_dir = os.path.join(output_dir_path, 'estimated_tree_images')
+        else:
+            tree = self.real_tree
+            output_dir = os.path.join(output_dir_path, 'real_tree_images')
 
-        tree = self.estimated_tree
         num_nodes = len(tree.nodes)
         figsize = self.calculate_figsize(num_nodes)  # 画像サイズを計算
         legend_font_size, legend_marker_size = self.calculate_legend_size(figsize)  # 凡例のサイズを計算
-        print(f"Generating graph with {num_nodes} nodes, figsize={figsize}, legend_font_size={legend_font_size}")
 
         # グラフを描画
         pos = graphviz_layout(tree, prog='dot')  # 'dot'レイアウトを使用
@@ -330,7 +317,6 @@ class TreeResult:
         plt.legend(title='Speaker Colors', loc='upper left', bbox_to_anchor=(1, 1), fontsize=legend_font_size)
 
         # 画像をファイルに保存
-        output_dir = os.path.join(prompt_dir_path, 'images')
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
 
