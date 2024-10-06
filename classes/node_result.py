@@ -104,6 +104,29 @@ class NodeResult:
                 self.contains_answer
             ])
 
+    # 書き出されたCSVファイルを読み込んで、NodeResultのリストを返す
+    @staticmethod
+    def load_from_csv(csv_file_path):
+        node_results = []
+        with open(csv_file_path, 'r') as f:
+            reader = csv.reader(f)
+            header = next(reader)
+            for row in reader:
+                node_result = NodeResult(None)
+                node_result.file_name = row[0]
+                node_result.turn_number = int(row[1])
+                node_result.current_node_id = row[2]
+                node_result.gpt_ans_node_id = row[3]
+                node_result.ans_node_id = row[4]
+                node_result.judgement = row[5]
+                node_result.current_node_id_index = int(row[6])
+                node_result.gpt_ans_node_id_index = int(row[7])
+                node_result.ans_node_id_index = int(row[8])
+                node_result.distance_from_ans = int(row[9])
+                node_result.contains_answer = row[10]
+                node_results.append(node_result)
+        return node_results
+
     @staticmethod
     def save_nodes_from_result_class(result, csv_file_path):
         node_results = []
