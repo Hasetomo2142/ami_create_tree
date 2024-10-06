@@ -40,6 +40,8 @@ class TreeResult:
         self.build_tree_depth = self.get_tree_depth(self.estimated_tree)
         self.real_tree_depth = self.get_tree_depth(self.real_tree)
 
+        # 以下の2つのメソッドは、計算に時間がかかるため、コメントアウト
+
         # self.tree_edit_distance = nx.graph_edit_distance(self.estimated_tree, self.real_tree, upper_bound=50)
         # self.edge_similarity = self.edge_similarity()
         # self.path_based_similarity = self.compute_path_based_similarity()
