@@ -131,7 +131,7 @@ def main():
                 result = "ROOT"
                 target_node_id_list = []
                 judgement = 'NONE'
-                one_turn_result_list.append(OneTurnResult(index, turn.ae_id, target_node_id_list, prompt, result, turn.source, judgement))
+                one_turn_result_list.append(OneTurnResult(index, turn.ae_id, target_node_id_list, prompt, result, turn.source, judgement, ae_id_to_index))
 
             else:
                 start_index = max(0, index - RECENT_TURNS)
@@ -162,8 +162,9 @@ def main():
                         prompt = prompt,
                         gpt_ans = result,
                         ans = turn.source,
-                        judgement = judgement
-                        ).reindex(ae_id_to_index)
+                        judgement = judgement,
+                        ae_id_to_index = ae_id_to_index
+                        ).reindex()
                     )
 
 
@@ -182,7 +183,7 @@ def main():
             template=template,
             rate=true_ratio,
             total_node_count=len(tmp_turns),
-            removed_node_count=len(tmp_turns)-len(dialogue_turns),
+            removed_node_count=len(removed_turns),
             removed_node_list=removed_turns,
             one_turn_results=one_turn_result_list
             )
