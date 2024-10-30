@@ -26,7 +26,10 @@ prompt_dir = os.path.join(dir_path, 'prompt')  # プロンプトファイルの�
 MODEL = "gpt-4o-mini"
 METHOD = "baseline"
 PROMPT = "ver.1.1.txt"
-COUNT = 50
+COUNT = 1
+
+# 参照する直近ノードの数
+RECENT_TURNS = 5
 
 
 def get_output_dir_path():
@@ -117,9 +120,21 @@ def main():
         # APIのコスト計算クラスをインスタンス化
         gpt_cout_calculator = GPTCostCalculator(MODEL)
 
+        # ae_idとindexの対応を保持する辞書
+        ae_id_to_index = {turn.ae_id: turn.index for turn in dialogue_turns}
+
         for index, turn in tqdm(enumerate(dialogue_turns), total=len(dialogue_turns), desc=f"Processing {os.path.basename(csv_file)}", leave=False):
-            if index > 0:
-                start_index = max(0, index - 4)
+            # ルートノードの処理
+            if index == 0:
+                previous_utterances = []
+                prompt = 'NONE'
+                result = "ROOT"
+                target_node_id_list = []
+                judgement = 'NONE'
+                one_turn_result_list.append(OneTurnResult(index, turn.ae_id, target_node_id_list, prompt, result, turn.source, judgement, ae_id_to_index))
+
+            else:
+                start_index = max(0, index - RECENT_TURNS)
                 previous_utterances = dialogue_turns[start_index:index]
 
                 # プロンプト生成
@@ -139,15 +154,19 @@ def main():
 
                 target_node_id_list = [turn.ae_id for turn in previous_utterances]
 
-                one_turn_result_list.append(OneTurnResult(index, turn.ae_id, target_node_id_list, prompt, result, turn.source, judgement))
+                one_turn_result_list.append(
+                    OneTurnResult(
+                        turn_number = index,
+                        current_node_id = turn.ae_id,
+                        target_node_id_list = target_node_id_list,
+                        prompt = prompt,
+                        gpt_ans = result,
+                        ans = turn.source,
+                        judgement = judgement,
+                        ae_id_to_index = ae_id_to_index
+                        ).reindex()
+                    )
 
-            else:
-                previous_utterances = []
-                prompt = 'NONE'
-                result = "ROOT"
-                target_node_id_list = []
-                judgement = 'NONE'
-                one_turn_result_list.append(OneTurnResult(index, turn.ae_id, target_node_id_list, prompt, result, turn.source, judgement))
 
         if total_count > 0:
             true_ratio = true_count / total_count
@@ -157,7 +176,17 @@ def main():
         # 処理後の時刻を記録
         end_time = time.time()
 
-        result = Result(file_name=csv_file, use_model=MODEL, use_method=METHOD, template=template,rate=true_ratio, total_node_count=len(tmp_turns), removed_node_count=len(tmp_turns)-len(dialogue_turns), removed_node_list=removed_turns, one_turn_results=one_turn_result_list)
+        result = Result(
+            file_name=csv_file,
+            use_model=MODEL,
+            use_method=METHOD,
+            template=template,
+            rate=true_ratio,
+            total_node_count=len(tmp_turns),
+            removed_node_count=len(removed_turns),
+            removed_node_list=removed_turns,
+            one_turn_results=one_turn_result_list
+            )
 
         overall_true_count += true_count
         overall_total_count += total_count

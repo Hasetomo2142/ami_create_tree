@@ -13,7 +13,7 @@ csv_topics_path = os.path.join(dir_path, 'CSV_topics')
 result_json_path = os.path.join(dir_path, 'result_json')
 
 class OneTurnResult:
-	def __init__(self, turn_number, current_node_id, target_node_id_list, prompt, gpt_ans, ans, judgement):
+	def __init__(self, turn_number, current_node_id, target_node_id_list, prompt, gpt_ans, ans, judgement, ae_id_to_index):
 		self.turn_number = turn_number
 		self.current_node = DialogueTurn.find_by_ae_id(current_node_id)
 		self.target_node_list = [DialogueTurn.find_by_ae_id(target_node_id) for target_node_id in target_node_id_list]
@@ -21,6 +21,7 @@ class OneTurnResult:
 		self.gpt_ans = gpt_ans
 		self.ans = ans
 		self.judgement = judgement
+		self.ae_id_to_index = ae_id_to_index
 
 		# 正解が含まれているか (True/False)　カラムとしては保持しない
 		self.contains_ans = self.ans in self.target_node_list
@@ -35,6 +36,14 @@ class OneTurnResult:
 			"ans": self.ans,
 			"judgement": self.judgement
 		}
+
+	# 再インデックスする
+	def reindex(self):
+		self.current_node.index = self.ae_id_to_index[self.current_node.ae_id]
+		for target_node in self.target_node_list:
+			target_node.index = self.ae_id_to_index[target_node.ae_id]
+		return self
+
 
 	@classmethod
 	def from_dict(cls, data):

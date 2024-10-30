@@ -28,7 +28,7 @@ class NodeResult:
         if current_result == "NONE":
             self.current_node_id_index = 0
         elif hasattr(current_result, 'index'):
-            self.current_node_id_index = current_result.index
+            self.current_node_id_index = OneTurnResult.ae_id_to_index[current_result.ae_id]
         else:
             raise ValueError(f"Unexpected result from find_by_ae_id for current_node_id: {self.current_node_id}, result: {current_result}")
 
@@ -38,7 +38,7 @@ class NodeResult:
         if gpt_ans_result == "NONE":
             self.gpt_ans_node_id_index = 0
         elif hasattr(gpt_ans_result, 'index'):
-            self.gpt_ans_node_id_index = gpt_ans_result.index
+            self.gpt_ans_node_id_index = OneTurnResult.ae_id_to_index[gpt_ans_result.ae_id]
         else:
             raise ValueError(f"Unexpected result from find_by_ae_id for gpt_ans_node_id: {self.gpt_ans_node_id}, result: {gpt_ans_result}")
 
@@ -48,7 +48,7 @@ class NodeResult:
         if ans_result == "NONE":
             self.ans_node_id_index = 0
         elif hasattr(ans_result, 'index'):
-            self.ans_node_id_index = ans_result.index
+            self.ans_node_id_index = OneTurnResult.ae_id_to_index[ans_result.ae_id]
         else:
             raise ValueError(f"Unexpected result from find_by_ae_id for ans_node_id: {self.ans_node_id}, result: {ans_result}")
 
