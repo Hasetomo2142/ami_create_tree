@@ -1,0 +1,1986 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2004b-ES2004b - Video plus.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "ver.1.1.txt",
+    "rate": 0.4444444444444444,
+    "total_node_count": 28,
+    "removed_node_count": 9,
+    "removed_node_list": [
+        {
+            "index": 1,
+            "ae_id": "ES2004b.A.argumentstructs.18",
+            "speaker": "A",
+            "start_time": 1612.5,
+            "end_time": 1636.89,
+            "sentence": "Mm-hmm. Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 5,
+            "ae_id": "ES2004b.D.argumentstructs.25",
+            "speaker": "D",
+            "start_time": 1635.41,
+            "end_time": 1635.6,
+            "sentence": "Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 7,
+            "ae_id": "ES2004b.C.argumentstructs.33",
+            "speaker": "C",
+            "start_time": 1657.68,
+            "end_time": 1658.94,
+            "sentence": "yeah.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 12,
+            "ae_id": "ES2004b.C.argumentstructs.34",
+            "speaker": "C",
+            "start_time": 1671.85,
+            "end_time": 1672.44,
+            "sentence": "It's not",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 14,
+            "ae_id": "ES2004b.D.argumentstructs.26",
+            "speaker": "D",
+            "start_time": 1679.6,
+            "end_time": 1680.27,
+            "sentence": "Ah, hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 19,
+            "ae_id": "ES2004b.D.argumentstructs.27",
+            "speaker": "D",
+            "start_time": 1700.76,
+            "end_time": 1701.18,
+            "sentence": "Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 20,
+            "ae_id": "ES2004b.C.argumentstructs.35",
+            "speaker": "C",
+            "start_time": 1702.08,
+            "end_time": 1703.3,
+            "sentence": "Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 23,
+            "ae_id": "ES2004b.B.argumentstructs.38",
+            "speaker": "B",
+            "start_time": 1711.46,
+            "end_time": 1711.79,
+            "sentence": "Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 24,
+            "ae_id": "ES2004b.D.argumentstructs.28",
+            "speaker": "D",
+            "start_time": 1711.5,
+            "end_time": 1718.01,
+            "sentence": "Right. Excellent, mm-hmm. Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 0,
+                "ae_id": "ES2004b.B.argumentstructs.Erik.11",
+                "speaker": "B",
+                "start_time": 1604.71,
+                "end_time": 1623.92,
+                "sentence": "Okay, so the remote control functions. Um we've got the T_V_, we've got the video, now there's um I can't remember what it's called, the little code at the end of programme details, yes.",
+                "source": "NONE",
+                "targets": [
+                    "ES2004b.C.argumentstructs.Erik.12",
+                    "ES2004b.B.argumentstructs.Erik.12"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "NONE",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 2,
+                "ae_id": "ES2004b.C.argumentstructs.Erik.12",
+                "speaker": "C",
+                "start_time": 1622.4,
+                "end_time": 1623.51,
+                "sentence": "Video plus.",
+                "source": "ES2004b.B.argumentstructs.Erik.11",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 1604.71,
+                    "end_time": 1623.92,
+                    "sentence": "Okay, so the remote control functions. Um we've got the T_V_, we've got the video, now there's um I can't remember what it's called, the little code at the end of programme details, yes.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.12",
+                        "ES2004b.B.argumentstructs.Erik.12"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 2):\n- AE_ID: ES2004b.C.argumentstructs.Erik.12\n- Speaker: C\n- Sentence: \"Video plus.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.B.argumentstructs.Erik.11 (Index: 0, Speaker: B): \"Okay, so the remote control functions. Um we've got the T_V_, we've got the video, now there's um I can't remember what it's called, the little code at the end of programme details, yes.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.B.argumentstructs.Erik.11",
+            "ans": "ES2004b.B.argumentstructs.Erik.11",
+            "judgement": true
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 3,
+                "ae_id": "ES2004b.B.argumentstructs.Erik.12",
+                "speaker": "B",
+                "start_time": 1625.8,
+                "end_time": 1658.77,
+                "sentence": "We could use that as an alternative to programming in times, things like that, is that  I always found that really easy when I discovered it, um because you've got your general record anyway so if you  there's a programme on you want to put record on, that's fine, but if you do want to tape something in two days time and you're not sure if you're going to, you put the number in and it's just a number, it's not a date, it's not a time, it's not a channel, it's not when it finishes, it's not anything like that, it's just a number.",
+                "source": "ES2004b.B.argumentstructs.Erik.11",
+                "targets": [
+                    "ES2004b.C.argumentstructs.Erik.13",
+                    "ES2004b.C.argumentstructs.Erik.14",
+                    "ES2004b.D.argumentstructs.Erik.10",
+                    "ES2004b.C.argumentstructs.Erik.18",
+                    "ES2004b.C.argumentstructs.Erik.19"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 1604.71,
+                    "end_time": 1623.92,
+                    "sentence": "Okay, so the remote control functions. Um we've got the T_V_, we've got the video, now there's um I can't remember what it's called, the little code at the end of programme details, yes.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.12",
+                        "ES2004b.B.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.12",
+                    "speaker": "C",
+                    "start_time": 1622.4,
+                    "end_time": 1623.51,
+                    "sentence": "Video plus.",
+                    "source": "ES2004b.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 3):\n- AE_ID: ES2004b.B.argumentstructs.Erik.12\n- Speaker: B\n- Sentence: \"We could use that as an alternative to programming in times, things like that, is that  I always found that really easy when I discovered it, um because you've got your general record anyway so if you  there's a programme on you want to put record on, that's fine, but if you do want to tape something in two days time and you're not sure if you're going to, you put the number in and it's just a number, it's not a date, it's not a time, it's not a channel, it's not when it finishes, it's not anything like that, it's just a number.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.B.argumentstructs.Erik.11 (Index: 0, Speaker: B): \"Okay, so the remote control functions. Um we've got the T_V_, we've got the video, now there's um I can't remember what it's called, the little code at the end of programme details, yes.\"\nAE_ID ES2004b.C.argumentstructs.Erik.12 (Index: 2, Speaker: C): \"Video plus.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.C.argumentstructs.Erik.12",
+            "ans": "ES2004b.B.argumentstructs.Erik.11",
+            "judgement": false
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 4,
+                "ae_id": "ES2004b.C.argumentstructs.Erik.13",
+                "speaker": "C",
+                "start_time": 1631.98,
+                "end_time": 1633.15,
+                "sentence": "Yeah yeah.",
+                "source": "ES2004b.B.argumentstructs.Erik.12",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 1604.71,
+                    "end_time": 1623.92,
+                    "sentence": "Okay, so the remote control functions. Um we've got the T_V_, we've got the video, now there's um I can't remember what it's called, the little code at the end of programme details, yes.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.12",
+                        "ES2004b.B.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.12",
+                    "speaker": "C",
+                    "start_time": 1622.4,
+                    "end_time": 1623.51,
+                    "sentence": "Video plus.",
+                    "source": "ES2004b.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 1625.8,
+                    "end_time": 1658.77,
+                    "sentence": "We could use that as an alternative to programming in times, things like that, is that  I always found that really easy when I discovered it, um because you've got your general record anyway so if you  there's a programme on you want to put record on, that's fine, but if you do want to tape something in two days time and you're not sure if you're going to, you put the number in and it's just a number, it's not a date, it's not a time, it's not a channel, it's not when it finishes, it's not anything like that, it's just a number.",
+                    "source": "ES2004b.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.13",
+                        "ES2004b.C.argumentstructs.Erik.14",
+                        "ES2004b.D.argumentstructs.Erik.10",
+                        "ES2004b.C.argumentstructs.Erik.18",
+                        "ES2004b.C.argumentstructs.Erik.19"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 4):\n- AE_ID: ES2004b.C.argumentstructs.Erik.13\n- Speaker: C\n- Sentence: \"Yeah yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.B.argumentstructs.Erik.11 (Index: 0, Speaker: B): \"Okay, so the remote control functions. Um we've got the T_V_, we've got the video, now there's um I can't remember what it's called, the little code at the end of programme details, yes.\"\nAE_ID ES2004b.C.argumentstructs.Erik.12 (Index: 2, Speaker: C): \"Video plus.\"\nAE_ID ES2004b.B.argumentstructs.Erik.12 (Index: 3, Speaker: B): \"We could use that as an alternative to programming in times, things like that, is that  I always found that really easy when I discovered it, um because you've got your general record anyway so if you  there's a programme on you want to put record on, that's fine, but if you do want to tape something in two days time and you're not sure if you're going to, you put the number in and it's just a number, it's not a date, it's not a time, it's not a channel, it's not when it finishes, it's not anything like that, it's just a number.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.B.argumentstructs.Erik.12",
+            "ans": "ES2004b.B.argumentstructs.Erik.12",
+            "judgement": true
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 6,
+                "ae_id": "ES2004b.C.argumentstructs.Erik.14",
+                "speaker": "C",
+                "start_time": 1647.81,
+                "end_time": 1649.11,
+                "sentence": "Just whack in the number.",
+                "source": "ES2004b.B.argumentstructs.Erik.12",
+                "targets": [
+                    "ES2004b.C.argumentstructs.Erik.15"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 1604.71,
+                    "end_time": 1623.92,
+                    "sentence": "Okay, so the remote control functions. Um we've got the T_V_, we've got the video, now there's um I can't remember what it's called, the little code at the end of programme details, yes.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.12",
+                        "ES2004b.B.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.12",
+                    "speaker": "C",
+                    "start_time": 1622.4,
+                    "end_time": 1623.51,
+                    "sentence": "Video plus.",
+                    "source": "ES2004b.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 1625.8,
+                    "end_time": 1658.77,
+                    "sentence": "We could use that as an alternative to programming in times, things like that, is that  I always found that really easy when I discovered it, um because you've got your general record anyway so if you  there's a programme on you want to put record on, that's fine, but if you do want to tape something in two days time and you're not sure if you're going to, you put the number in and it's just a number, it's not a date, it's not a time, it's not a channel, it's not when it finishes, it's not anything like that, it's just a number.",
+                    "source": "ES2004b.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.13",
+                        "ES2004b.C.argumentstructs.Erik.14",
+                        "ES2004b.D.argumentstructs.Erik.10",
+                        "ES2004b.C.argumentstructs.Erik.18",
+                        "ES2004b.C.argumentstructs.Erik.19"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.13",
+                    "speaker": "C",
+                    "start_time": 1631.98,
+                    "end_time": 1633.15,
+                    "sentence": "Yeah yeah.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 6):\n- AE_ID: ES2004b.C.argumentstructs.Erik.14\n- Speaker: C\n- Sentence: \"Just whack in the number.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.B.argumentstructs.Erik.11 (Index: 0, Speaker: B): \"Okay, so the remote control functions. Um we've got the T_V_, we've got the video, now there's um I can't remember what it's called, the little code at the end of programme details, yes.\"\nAE_ID ES2004b.C.argumentstructs.Erik.12 (Index: 2, Speaker: C): \"Video plus.\"\nAE_ID ES2004b.B.argumentstructs.Erik.12 (Index: 3, Speaker: B): \"We could use that as an alternative to programming in times, things like that, is that  I always found that really easy when I discovered it, um because you've got your general record anyway so if you  there's a programme on you want to put record on, that's fine, but if you do want to tape something in two days time and you're not sure if you're going to, you put the number in and it's just a number, it's not a date, it's not a time, it's not a channel, it's not when it finishes, it's not anything like that, it's just a number.\"\nAE_ID ES2004b.C.argumentstructs.Erik.13 (Index: 4, Speaker: C): \"Yeah yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.B.argumentstructs.Erik.12",
+            "ans": "ES2004b.B.argumentstructs.Erik.12",
+            "judgement": true
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 8,
+                "ae_id": "ES2004b.C.argumentstructs.Erik.15",
+                "speaker": "C",
+                "start_time": 1658.94,
+                "end_time": 1665.55,
+                "sentence": "And you wouldn't you wouldn't need uh a whole host of extra buttons for that, you just need one 'cause you've already got all the numbers there anyway, yeah.",
+                "source": "ES2004b.C.argumentstructs.Erik.14",
+                "targets": [
+                    "ES2004b.B.argumentstructs.Erik.13"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 1604.71,
+                    "end_time": 1623.92,
+                    "sentence": "Okay, so the remote control functions. Um we've got the T_V_, we've got the video, now there's um I can't remember what it's called, the little code at the end of programme details, yes.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.12",
+                        "ES2004b.B.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.12",
+                    "speaker": "C",
+                    "start_time": 1622.4,
+                    "end_time": 1623.51,
+                    "sentence": "Video plus.",
+                    "source": "ES2004b.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 1625.8,
+                    "end_time": 1658.77,
+                    "sentence": "We could use that as an alternative to programming in times, things like that, is that  I always found that really easy when I discovered it, um because you've got your general record anyway so if you  there's a programme on you want to put record on, that's fine, but if you do want to tape something in two days time and you're not sure if you're going to, you put the number in and it's just a number, it's not a date, it's not a time, it's not a channel, it's not when it finishes, it's not anything like that, it's just a number.",
+                    "source": "ES2004b.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.13",
+                        "ES2004b.C.argumentstructs.Erik.14",
+                        "ES2004b.D.argumentstructs.Erik.10",
+                        "ES2004b.C.argumentstructs.Erik.18",
+                        "ES2004b.C.argumentstructs.Erik.19"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.13",
+                    "speaker": "C",
+                    "start_time": 1631.98,
+                    "end_time": 1633.15,
+                    "sentence": "Yeah yeah.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.14",
+                    "speaker": "C",
+                    "start_time": 1647.81,
+                    "end_time": 1649.11,
+                    "sentence": "Just whack in the number.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.15"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 8):\n- AE_ID: ES2004b.C.argumentstructs.Erik.15\n- Speaker: C\n- Sentence: \"And you wouldn't you wouldn't need uh a whole host of extra buttons for that, you just need one 'cause you've already got all the numbers there anyway, yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.B.argumentstructs.Erik.11 (Index: 0, Speaker: B): \"Okay, so the remote control functions. Um we've got the T_V_, we've got the video, now there's um I can't remember what it's called, the little code at the end of programme details, yes.\"\nAE_ID ES2004b.C.argumentstructs.Erik.12 (Index: 2, Speaker: C): \"Video plus.\"\nAE_ID ES2004b.B.argumentstructs.Erik.12 (Index: 3, Speaker: B): \"We could use that as an alternative to programming in times, things like that, is that  I always found that really easy when I discovered it, um because you've got your general record anyway so if you  there's a programme on you want to put record on, that's fine, but if you do want to tape something in two days time and you're not sure if you're going to, you put the number in and it's just a number, it's not a date, it's not a time, it's not a channel, it's not when it finishes, it's not anything like that, it's just a number.\"\nAE_ID ES2004b.C.argumentstructs.Erik.13 (Index: 4, Speaker: C): \"Yeah yeah.\"\nAE_ID ES2004b.C.argumentstructs.Erik.14 (Index: 6, Speaker: C): \"Just whack in the number.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.B.argumentstructs.Erik.12",
+            "ans": "ES2004b.C.argumentstructs.Erik.14",
+            "judgement": false
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 9,
+                "ae_id": "ES2004b.B.argumentstructs.Erik.13",
+                "speaker": "B",
+                "start_time": 1662.48,
+                "end_time": 1666.41,
+                "sentence": "No. You've already got the numbers for typing in anyway.",
+                "source": "ES2004b.C.argumentstructs.Erik.15",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 1604.71,
+                    "end_time": 1623.92,
+                    "sentence": "Okay, so the remote control functions. Um we've got the T_V_, we've got the video, now there's um I can't remember what it's called, the little code at the end of programme details, yes.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.12",
+                        "ES2004b.B.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.12",
+                    "speaker": "C",
+                    "start_time": 1622.4,
+                    "end_time": 1623.51,
+                    "sentence": "Video plus.",
+                    "source": "ES2004b.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 1625.8,
+                    "end_time": 1658.77,
+                    "sentence": "We could use that as an alternative to programming in times, things like that, is that  I always found that really easy when I discovered it, um because you've got your general record anyway so if you  there's a programme on you want to put record on, that's fine, but if you do want to tape something in two days time and you're not sure if you're going to, you put the number in and it's just a number, it's not a date, it's not a time, it's not a channel, it's not when it finishes, it's not anything like that, it's just a number.",
+                    "source": "ES2004b.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.13",
+                        "ES2004b.C.argumentstructs.Erik.14",
+                        "ES2004b.D.argumentstructs.Erik.10",
+                        "ES2004b.C.argumentstructs.Erik.18",
+                        "ES2004b.C.argumentstructs.Erik.19"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.13",
+                    "speaker": "C",
+                    "start_time": 1631.98,
+                    "end_time": 1633.15,
+                    "sentence": "Yeah yeah.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.14",
+                    "speaker": "C",
+                    "start_time": 1647.81,
+                    "end_time": 1649.11,
+                    "sentence": "Just whack in the number.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.15",
+                    "speaker": "C",
+                    "start_time": 1658.94,
+                    "end_time": 1665.55,
+                    "sentence": "And you wouldn't you wouldn't need uh a whole host of extra buttons for that, you just need one 'cause you've already got all the numbers there anyway, yeah.",
+                    "source": "ES2004b.C.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.13"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 9):\n- AE_ID: ES2004b.B.argumentstructs.Erik.13\n- Speaker: B\n- Sentence: \"No. You've already got the numbers for typing in anyway.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.B.argumentstructs.Erik.11 (Index: 0, Speaker: B): \"Okay, so the remote control functions. Um we've got the T_V_, we've got the video, now there's um I can't remember what it's called, the little code at the end of programme details, yes.\"\nAE_ID ES2004b.C.argumentstructs.Erik.12 (Index: 2, Speaker: C): \"Video plus.\"\nAE_ID ES2004b.B.argumentstructs.Erik.12 (Index: 3, Speaker: B): \"We could use that as an alternative to programming in times, things like that, is that  I always found that really easy when I discovered it, um because you've got your general record anyway so if you  there's a programme on you want to put record on, that's fine, but if you do want to tape something in two days time and you're not sure if you're going to, you put the number in and it's just a number, it's not a date, it's not a time, it's not a channel, it's not when it finishes, it's not anything like that, it's just a number.\"\nAE_ID ES2004b.C.argumentstructs.Erik.13 (Index: 4, Speaker: C): \"Yeah yeah.\"\nAE_ID ES2004b.C.argumentstructs.Erik.14 (Index: 6, Speaker: C): \"Just whack in the number.\"\nAE_ID ES2004b.C.argumentstructs.Erik.15 (Index: 8, Speaker: C): \"And you wouldn't you wouldn't need uh a whole host of extra buttons for that, you just need one 'cause you've already got all the numbers there anyway, yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.C.argumentstructs.Erik.15",
+            "ans": "ES2004b.C.argumentstructs.Erik.15",
+            "judgement": true
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 10,
+                "ae_id": "ES2004b.D.argumentstructs.Erik.10",
+                "speaker": "D",
+                "start_time": 1665.69,
+                "end_time": 1670.39,
+                "sentence": "Right, I've not come across that function but it sounds wonderful.",
+                "source": "ES2004b.B.argumentstructs.Erik.12",
+                "targets": [
+                    "ES2004b.B.argumentstructs.Erik.14"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 1604.71,
+                    "end_time": 1623.92,
+                    "sentence": "Okay, so the remote control functions. Um we've got the T_V_, we've got the video, now there's um I can't remember what it's called, the little code at the end of programme details, yes.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.12",
+                        "ES2004b.B.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.12",
+                    "speaker": "C",
+                    "start_time": 1622.4,
+                    "end_time": 1623.51,
+                    "sentence": "Video plus.",
+                    "source": "ES2004b.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 1625.8,
+                    "end_time": 1658.77,
+                    "sentence": "We could use that as an alternative to programming in times, things like that, is that  I always found that really easy when I discovered it, um because you've got your general record anyway so if you  there's a programme on you want to put record on, that's fine, but if you do want to tape something in two days time and you're not sure if you're going to, you put the number in and it's just a number, it's not a date, it's not a time, it's not a channel, it's not when it finishes, it's not anything like that, it's just a number.",
+                    "source": "ES2004b.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.13",
+                        "ES2004b.C.argumentstructs.Erik.14",
+                        "ES2004b.D.argumentstructs.Erik.10",
+                        "ES2004b.C.argumentstructs.Erik.18",
+                        "ES2004b.C.argumentstructs.Erik.19"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.13",
+                    "speaker": "C",
+                    "start_time": 1631.98,
+                    "end_time": 1633.15,
+                    "sentence": "Yeah yeah.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.14",
+                    "speaker": "C",
+                    "start_time": 1647.81,
+                    "end_time": 1649.11,
+                    "sentence": "Just whack in the number.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.15",
+                    "speaker": "C",
+                    "start_time": 1658.94,
+                    "end_time": 1665.55,
+                    "sentence": "And you wouldn't you wouldn't need uh a whole host of extra buttons for that, you just need one 'cause you've already got all the numbers there anyway, yeah.",
+                    "source": "ES2004b.C.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 1662.48,
+                    "end_time": 1666.41,
+                    "sentence": "No. You've already got the numbers for typing in anyway.",
+                    "source": "ES2004b.C.argumentstructs.Erik.15",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 10):\n- AE_ID: ES2004b.D.argumentstructs.Erik.10\n- Speaker: D\n- Sentence: \"Right, I've not come across that function but it sounds wonderful.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.B.argumentstructs.Erik.11 (Index: 0, Speaker: B): \"Okay, so the remote control functions. Um we've got the T_V_, we've got the video, now there's um I can't remember what it's called, the little code at the end of programme details, yes.\"\nAE_ID ES2004b.C.argumentstructs.Erik.12 (Index: 2, Speaker: C): \"Video plus.\"\nAE_ID ES2004b.B.argumentstructs.Erik.12 (Index: 3, Speaker: B): \"We could use that as an alternative to programming in times, things like that, is that  I always found that really easy when I discovered it, um because you've got your general record anyway so if you  there's a programme on you want to put record on, that's fine, but if you do want to tape something in two days time and you're not sure if you're going to, you put the number in and it's just a number, it's not a date, it's not a time, it's not a channel, it's not when it finishes, it's not anything like that, it's just a number.\"\nAE_ID ES2004b.C.argumentstructs.Erik.13 (Index: 4, Speaker: C): \"Yeah yeah.\"\nAE_ID ES2004b.C.argumentstructs.Erik.14 (Index: 6, Speaker: C): \"Just whack in the number.\"\nAE_ID ES2004b.C.argumentstructs.Erik.15 (Index: 8, Speaker: C): \"And you wouldn't you wouldn't need uh a whole host of extra buttons for that, you just need one 'cause you've already got all the numbers there anyway, yeah.\"\nAE_ID ES2004b.B.argumentstructs.Erik.13 (Index: 9, Speaker: B): \"No. You've already got the numbers for typing in anyway.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.B.argumentstructs.Erik.12",
+            "ans": "ES2004b.B.argumentstructs.Erik.12",
+            "judgement": true
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 11,
+                "ae_id": "ES2004b.B.argumentstructs.Erik.14",
+                "speaker": "B",
+                "start_time": 1669.4,
+                "end_time": 1694.55,
+                "sentence": "It is after um  if you look in the newspaper, T_V_ guide or any T_V_ guide there's a five, six digit number afterwards and that's the number you put in and it's recorded that it's going to be on on Tuesdays at ten o'clock on the seventeenth so you don't have to worry about dates and you don't have to worry about times, um and it has been around for quite a long time.",
+                "source": "ES2004b.D.argumentstructs.Erik.10",
+                "targets": [
+                    "ES2004b.C.argumentstructs.Erik.16",
+                    "ES2004b.D.argumentstructs.Erik.11",
+                    "ES2004b.C.argumentstructs.Erik.17",
+                    "ES2004b.D.argumentstructs.Erik.12"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 1604.71,
+                    "end_time": 1623.92,
+                    "sentence": "Okay, so the remote control functions. Um we've got the T_V_, we've got the video, now there's um I can't remember what it's called, the little code at the end of programme details, yes.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.12",
+                        "ES2004b.B.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.12",
+                    "speaker": "C",
+                    "start_time": 1622.4,
+                    "end_time": 1623.51,
+                    "sentence": "Video plus.",
+                    "source": "ES2004b.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 1625.8,
+                    "end_time": 1658.77,
+                    "sentence": "We could use that as an alternative to programming in times, things like that, is that  I always found that really easy when I discovered it, um because you've got your general record anyway so if you  there's a programme on you want to put record on, that's fine, but if you do want to tape something in two days time and you're not sure if you're going to, you put the number in and it's just a number, it's not a date, it's not a time, it's not a channel, it's not when it finishes, it's not anything like that, it's just a number.",
+                    "source": "ES2004b.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.13",
+                        "ES2004b.C.argumentstructs.Erik.14",
+                        "ES2004b.D.argumentstructs.Erik.10",
+                        "ES2004b.C.argumentstructs.Erik.18",
+                        "ES2004b.C.argumentstructs.Erik.19"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.13",
+                    "speaker": "C",
+                    "start_time": 1631.98,
+                    "end_time": 1633.15,
+                    "sentence": "Yeah yeah.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.14",
+                    "speaker": "C",
+                    "start_time": 1647.81,
+                    "end_time": 1649.11,
+                    "sentence": "Just whack in the number.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.15",
+                    "speaker": "C",
+                    "start_time": 1658.94,
+                    "end_time": 1665.55,
+                    "sentence": "And you wouldn't you wouldn't need uh a whole host of extra buttons for that, you just need one 'cause you've already got all the numbers there anyway, yeah.",
+                    "source": "ES2004b.C.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 1662.48,
+                    "end_time": 1666.41,
+                    "sentence": "No. You've already got the numbers for typing in anyway.",
+                    "source": "ES2004b.C.argumentstructs.Erik.15",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.10",
+                    "speaker": "D",
+                    "start_time": 1665.69,
+                    "end_time": 1670.39,
+                    "sentence": "Right, I've not come across that function but it sounds wonderful.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.14"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 11):\n- AE_ID: ES2004b.B.argumentstructs.Erik.14\n- Speaker: B\n- Sentence: \"It is after um  if you look in the newspaper, T_V_ guide or any T_V_ guide there's a five, six digit number afterwards and that's the number you put in and it's recorded that it's going to be on on Tuesdays at ten o'clock on the seventeenth so you don't have to worry about dates and you don't have to worry about times, um and it has been around for quite a long time.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.B.argumentstructs.Erik.11 (Index: 0, Speaker: B): \"Okay, so the remote control functions. Um we've got the T_V_, we've got the video, now there's um I can't remember what it's called, the little code at the end of programme details, yes.\"\nAE_ID ES2004b.C.argumentstructs.Erik.12 (Index: 2, Speaker: C): \"Video plus.\"\nAE_ID ES2004b.B.argumentstructs.Erik.12 (Index: 3, Speaker: B): \"We could use that as an alternative to programming in times, things like that, is that  I always found that really easy when I discovered it, um because you've got your general record anyway so if you  there's a programme on you want to put record on, that's fine, but if you do want to tape something in two days time and you're not sure if you're going to, you put the number in and it's just a number, it's not a date, it's not a time, it's not a channel, it's not when it finishes, it's not anything like that, it's just a number.\"\nAE_ID ES2004b.C.argumentstructs.Erik.13 (Index: 4, Speaker: C): \"Yeah yeah.\"\nAE_ID ES2004b.C.argumentstructs.Erik.14 (Index: 6, Speaker: C): \"Just whack in the number.\"\nAE_ID ES2004b.C.argumentstructs.Erik.15 (Index: 8, Speaker: C): \"And you wouldn't you wouldn't need uh a whole host of extra buttons for that, you just need one 'cause you've already got all the numbers there anyway, yeah.\"\nAE_ID ES2004b.B.argumentstructs.Erik.13 (Index: 9, Speaker: B): \"No. You've already got the numbers for typing in anyway.\"\nAE_ID ES2004b.D.argumentstructs.Erik.10 (Index: 10, Speaker: D): \"Right, I've not come across that function but it sounds wonderful.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.B.argumentstructs.Erik.12",
+            "ans": "ES2004b.D.argumentstructs.Erik.10",
+            "judgement": false
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 13,
+                "ae_id": "ES2004b.C.argumentstructs.Erik.16",
+                "speaker": "C",
+                "start_time": 1675.91,
+                "end_time": 1676.4,
+                "sentence": "Yeah.",
+                "source": "ES2004b.B.argumentstructs.Erik.14",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 2,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.12",
+                    "speaker": "C",
+                    "start_time": 1622.4,
+                    "end_time": 1623.51,
+                    "sentence": "Video plus.",
+                    "source": "ES2004b.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 1625.8,
+                    "end_time": 1658.77,
+                    "sentence": "We could use that as an alternative to programming in times, things like that, is that  I always found that really easy when I discovered it, um because you've got your general record anyway so if you  there's a programme on you want to put record on, that's fine, but if you do want to tape something in two days time and you're not sure if you're going to, you put the number in and it's just a number, it's not a date, it's not a time, it's not a channel, it's not when it finishes, it's not anything like that, it's just a number.",
+                    "source": "ES2004b.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.13",
+                        "ES2004b.C.argumentstructs.Erik.14",
+                        "ES2004b.D.argumentstructs.Erik.10",
+                        "ES2004b.C.argumentstructs.Erik.18",
+                        "ES2004b.C.argumentstructs.Erik.19"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.13",
+                    "speaker": "C",
+                    "start_time": 1631.98,
+                    "end_time": 1633.15,
+                    "sentence": "Yeah yeah.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.14",
+                    "speaker": "C",
+                    "start_time": 1647.81,
+                    "end_time": 1649.11,
+                    "sentence": "Just whack in the number.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.15",
+                    "speaker": "C",
+                    "start_time": 1658.94,
+                    "end_time": 1665.55,
+                    "sentence": "And you wouldn't you wouldn't need uh a whole host of extra buttons for that, you just need one 'cause you've already got all the numbers there anyway, yeah.",
+                    "source": "ES2004b.C.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 1662.48,
+                    "end_time": 1666.41,
+                    "sentence": "No. You've already got the numbers for typing in anyway.",
+                    "source": "ES2004b.C.argumentstructs.Erik.15",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.10",
+                    "speaker": "D",
+                    "start_time": 1665.69,
+                    "end_time": 1670.39,
+                    "sentence": "Right, I've not come across that function but it sounds wonderful.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.14",
+                    "speaker": "B",
+                    "start_time": 1669.4,
+                    "end_time": 1694.55,
+                    "sentence": "It is after um  if you look in the newspaper, T_V_ guide or any T_V_ guide there's a five, six digit number afterwards and that's the number you put in and it's recorded that it's going to be on on Tuesdays at ten o'clock on the seventeenth so you don't have to worry about dates and you don't have to worry about times, um and it has been around for quite a long time.",
+                    "source": "ES2004b.D.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.16",
+                        "ES2004b.D.argumentstructs.Erik.11",
+                        "ES2004b.C.argumentstructs.Erik.17",
+                        "ES2004b.D.argumentstructs.Erik.12"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 13):\n- AE_ID: ES2004b.C.argumentstructs.Erik.16\n- Speaker: C\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.C.argumentstructs.Erik.12 (Index: 2, Speaker: C): \"Video plus.\"\nAE_ID ES2004b.B.argumentstructs.Erik.12 (Index: 3, Speaker: B): \"We could use that as an alternative to programming in times, things like that, is that  I always found that really easy when I discovered it, um because you've got your general record anyway so if you  there's a programme on you want to put record on, that's fine, but if you do want to tape something in two days time and you're not sure if you're going to, you put the number in and it's just a number, it's not a date, it's not a time, it's not a channel, it's not when it finishes, it's not anything like that, it's just a number.\"\nAE_ID ES2004b.C.argumentstructs.Erik.13 (Index: 4, Speaker: C): \"Yeah yeah.\"\nAE_ID ES2004b.C.argumentstructs.Erik.14 (Index: 6, Speaker: C): \"Just whack in the number.\"\nAE_ID ES2004b.C.argumentstructs.Erik.15 (Index: 8, Speaker: C): \"And you wouldn't you wouldn't need uh a whole host of extra buttons for that, you just need one 'cause you've already got all the numbers there anyway, yeah.\"\nAE_ID ES2004b.B.argumentstructs.Erik.13 (Index: 9, Speaker: B): \"No. You've already got the numbers for typing in anyway.\"\nAE_ID ES2004b.D.argumentstructs.Erik.10 (Index: 10, Speaker: D): \"Right, I've not come across that function but it sounds wonderful.\"\nAE_ID ES2004b.B.argumentstructs.Erik.14 (Index: 11, Speaker: B): \"It is after um  if you look in the newspaper, T_V_ guide or any T_V_ guide there's a five, six digit number afterwards and that's the number you put in and it's recorded that it's going to be on on Tuesdays at ten o'clock on the seventeenth so you don't have to worry about dates and you don't have to worry about times, um and it has been around for quite a long time.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.C.argumentstructs.Erik.14",
+            "ans": "ES2004b.B.argumentstructs.Erik.14",
+            "judgement": false
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 15,
+                "ae_id": "ES2004b.D.argumentstructs.Erik.11",
+                "speaker": "D",
+                "start_time": 1690.16,
+                "end_time": 1690.56,
+                "sentence": "Right.",
+                "source": "ES2004b.B.argumentstructs.Erik.14",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 3,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 1625.8,
+                    "end_time": 1658.77,
+                    "sentence": "We could use that as an alternative to programming in times, things like that, is that  I always found that really easy when I discovered it, um because you've got your general record anyway so if you  there's a programme on you want to put record on, that's fine, but if you do want to tape something in two days time and you're not sure if you're going to, you put the number in and it's just a number, it's not a date, it's not a time, it's not a channel, it's not when it finishes, it's not anything like that, it's just a number.",
+                    "source": "ES2004b.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.13",
+                        "ES2004b.C.argumentstructs.Erik.14",
+                        "ES2004b.D.argumentstructs.Erik.10",
+                        "ES2004b.C.argumentstructs.Erik.18",
+                        "ES2004b.C.argumentstructs.Erik.19"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.13",
+                    "speaker": "C",
+                    "start_time": 1631.98,
+                    "end_time": 1633.15,
+                    "sentence": "Yeah yeah.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.14",
+                    "speaker": "C",
+                    "start_time": 1647.81,
+                    "end_time": 1649.11,
+                    "sentence": "Just whack in the number.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.15",
+                    "speaker": "C",
+                    "start_time": 1658.94,
+                    "end_time": 1665.55,
+                    "sentence": "And you wouldn't you wouldn't need uh a whole host of extra buttons for that, you just need one 'cause you've already got all the numbers there anyway, yeah.",
+                    "source": "ES2004b.C.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 1662.48,
+                    "end_time": 1666.41,
+                    "sentence": "No. You've already got the numbers for typing in anyway.",
+                    "source": "ES2004b.C.argumentstructs.Erik.15",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.10",
+                    "speaker": "D",
+                    "start_time": 1665.69,
+                    "end_time": 1670.39,
+                    "sentence": "Right, I've not come across that function but it sounds wonderful.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.14",
+                    "speaker": "B",
+                    "start_time": 1669.4,
+                    "end_time": 1694.55,
+                    "sentence": "It is after um  if you look in the newspaper, T_V_ guide or any T_V_ guide there's a five, six digit number afterwards and that's the number you put in and it's recorded that it's going to be on on Tuesdays at ten o'clock on the seventeenth so you don't have to worry about dates and you don't have to worry about times, um and it has been around for quite a long time.",
+                    "source": "ES2004b.D.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.16",
+                        "ES2004b.D.argumentstructs.Erik.11",
+                        "ES2004b.C.argumentstructs.Erik.17",
+                        "ES2004b.D.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.16",
+                    "speaker": "C",
+                    "start_time": 1675.91,
+                    "end_time": 1676.4,
+                    "sentence": "Yeah.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 15):\n- AE_ID: ES2004b.D.argumentstructs.Erik.11\n- Speaker: D\n- Sentence: \"Right.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.B.argumentstructs.Erik.12 (Index: 3, Speaker: B): \"We could use that as an alternative to programming in times, things like that, is that  I always found that really easy when I discovered it, um because you've got your general record anyway so if you  there's a programme on you want to put record on, that's fine, but if you do want to tape something in two days time and you're not sure if you're going to, you put the number in and it's just a number, it's not a date, it's not a time, it's not a channel, it's not when it finishes, it's not anything like that, it's just a number.\"\nAE_ID ES2004b.C.argumentstructs.Erik.13 (Index: 4, Speaker: C): \"Yeah yeah.\"\nAE_ID ES2004b.C.argumentstructs.Erik.14 (Index: 6, Speaker: C): \"Just whack in the number.\"\nAE_ID ES2004b.C.argumentstructs.Erik.15 (Index: 8, Speaker: C): \"And you wouldn't you wouldn't need uh a whole host of extra buttons for that, you just need one 'cause you've already got all the numbers there anyway, yeah.\"\nAE_ID ES2004b.B.argumentstructs.Erik.13 (Index: 9, Speaker: B): \"No. You've already got the numbers for typing in anyway.\"\nAE_ID ES2004b.D.argumentstructs.Erik.10 (Index: 10, Speaker: D): \"Right, I've not come across that function but it sounds wonderful.\"\nAE_ID ES2004b.B.argumentstructs.Erik.14 (Index: 11, Speaker: B): \"It is after um  if you look in the newspaper, T_V_ guide or any T_V_ guide there's a five, six digit number afterwards and that's the number you put in and it's recorded that it's going to be on on Tuesdays at ten o'clock on the seventeenth so you don't have to worry about dates and you don't have to worry about times, um and it has been around for quite a long time.\"\nAE_ID ES2004b.C.argumentstructs.Erik.16 (Index: 13, Speaker: C): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.D.argumentstructs.Erik.10",
+            "ans": "ES2004b.B.argumentstructs.Erik.14",
+            "judgement": false
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 16,
+                "ae_id": "ES2004b.C.argumentstructs.Erik.17",
+                "speaker": "C",
+                "start_time": 1693.47,
+                "end_time": 1699.12,
+                "sentence": "It's been been around for a long time it's just it's not very well advertised as to how to use it and things.",
+                "source": "ES2004b.B.argumentstructs.Erik.14",
+                "targets": [
+                    "ES2004b.B.argumentstructs.Erik.15"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 4,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.13",
+                    "speaker": "C",
+                    "start_time": 1631.98,
+                    "end_time": 1633.15,
+                    "sentence": "Yeah yeah.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.14",
+                    "speaker": "C",
+                    "start_time": 1647.81,
+                    "end_time": 1649.11,
+                    "sentence": "Just whack in the number.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.15",
+                    "speaker": "C",
+                    "start_time": 1658.94,
+                    "end_time": 1665.55,
+                    "sentence": "And you wouldn't you wouldn't need uh a whole host of extra buttons for that, you just need one 'cause you've already got all the numbers there anyway, yeah.",
+                    "source": "ES2004b.C.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 1662.48,
+                    "end_time": 1666.41,
+                    "sentence": "No. You've already got the numbers for typing in anyway.",
+                    "source": "ES2004b.C.argumentstructs.Erik.15",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.10",
+                    "speaker": "D",
+                    "start_time": 1665.69,
+                    "end_time": 1670.39,
+                    "sentence": "Right, I've not come across that function but it sounds wonderful.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.14",
+                    "speaker": "B",
+                    "start_time": 1669.4,
+                    "end_time": 1694.55,
+                    "sentence": "It is after um  if you look in the newspaper, T_V_ guide or any T_V_ guide there's a five, six digit number afterwards and that's the number you put in and it's recorded that it's going to be on on Tuesdays at ten o'clock on the seventeenth so you don't have to worry about dates and you don't have to worry about times, um and it has been around for quite a long time.",
+                    "source": "ES2004b.D.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.16",
+                        "ES2004b.D.argumentstructs.Erik.11",
+                        "ES2004b.C.argumentstructs.Erik.17",
+                        "ES2004b.D.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.16",
+                    "speaker": "C",
+                    "start_time": 1675.91,
+                    "end_time": 1676.4,
+                    "sentence": "Yeah.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.11",
+                    "speaker": "D",
+                    "start_time": 1690.16,
+                    "end_time": 1690.56,
+                    "sentence": "Right.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 16):\n- AE_ID: ES2004b.C.argumentstructs.Erik.17\n- Speaker: C\n- Sentence: \"It's been been around for a long time it's just it's not very well advertised as to how to use it and things.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.C.argumentstructs.Erik.13 (Index: 4, Speaker: C): \"Yeah yeah.\"\nAE_ID ES2004b.C.argumentstructs.Erik.14 (Index: 6, Speaker: C): \"Just whack in the number.\"\nAE_ID ES2004b.C.argumentstructs.Erik.15 (Index: 8, Speaker: C): \"And you wouldn't you wouldn't need uh a whole host of extra buttons for that, you just need one 'cause you've already got all the numbers there anyway, yeah.\"\nAE_ID ES2004b.B.argumentstructs.Erik.13 (Index: 9, Speaker: B): \"No. You've already got the numbers for typing in anyway.\"\nAE_ID ES2004b.D.argumentstructs.Erik.10 (Index: 10, Speaker: D): \"Right, I've not come across that function but it sounds wonderful.\"\nAE_ID ES2004b.B.argumentstructs.Erik.14 (Index: 11, Speaker: B): \"It is after um  if you look in the newspaper, T_V_ guide or any T_V_ guide there's a five, six digit number afterwards and that's the number you put in and it's recorded that it's going to be on on Tuesdays at ten o'clock on the seventeenth so you don't have to worry about dates and you don't have to worry about times, um and it has been around for quite a long time.\"\nAE_ID ES2004b.C.argumentstructs.Erik.16 (Index: 13, Speaker: C): \"Yeah.\"\nAE_ID ES2004b.D.argumentstructs.Erik.11 (Index: 15, Speaker: D): \"Right.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.B.argumentstructs.Erik.14",
+            "ans": "ES2004b.B.argumentstructs.Erik.14",
+            "judgement": true
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 17,
+                "ae_id": "ES2004b.B.argumentstructs.Erik.15",
+                "speaker": "B",
+                "start_time": 1697.12,
+                "end_time": 1702.881,
+                "sentence": "No it's not um but I think if awareness was kind of brought to the forefront about that",
+                "source": "ES2004b.C.argumentstructs.Erik.17",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 6,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.14",
+                    "speaker": "C",
+                    "start_time": 1647.81,
+                    "end_time": 1649.11,
+                    "sentence": "Just whack in the number.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.15",
+                    "speaker": "C",
+                    "start_time": 1658.94,
+                    "end_time": 1665.55,
+                    "sentence": "And you wouldn't you wouldn't need uh a whole host of extra buttons for that, you just need one 'cause you've already got all the numbers there anyway, yeah.",
+                    "source": "ES2004b.C.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 1662.48,
+                    "end_time": 1666.41,
+                    "sentence": "No. You've already got the numbers for typing in anyway.",
+                    "source": "ES2004b.C.argumentstructs.Erik.15",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.10",
+                    "speaker": "D",
+                    "start_time": 1665.69,
+                    "end_time": 1670.39,
+                    "sentence": "Right, I've not come across that function but it sounds wonderful.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.14",
+                    "speaker": "B",
+                    "start_time": 1669.4,
+                    "end_time": 1694.55,
+                    "sentence": "It is after um  if you look in the newspaper, T_V_ guide or any T_V_ guide there's a five, six digit number afterwards and that's the number you put in and it's recorded that it's going to be on on Tuesdays at ten o'clock on the seventeenth so you don't have to worry about dates and you don't have to worry about times, um and it has been around for quite a long time.",
+                    "source": "ES2004b.D.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.16",
+                        "ES2004b.D.argumentstructs.Erik.11",
+                        "ES2004b.C.argumentstructs.Erik.17",
+                        "ES2004b.D.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.16",
+                    "speaker": "C",
+                    "start_time": 1675.91,
+                    "end_time": 1676.4,
+                    "sentence": "Yeah.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.11",
+                    "speaker": "D",
+                    "start_time": 1690.16,
+                    "end_time": 1690.56,
+                    "sentence": "Right.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.17",
+                    "speaker": "C",
+                    "start_time": 1693.47,
+                    "end_time": 1699.12,
+                    "sentence": "It's been been around for a long time it's just it's not very well advertised as to how to use it and things.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.15"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 17):\n- AE_ID: ES2004b.B.argumentstructs.Erik.15\n- Speaker: B\n- Sentence: \"No it's not um but I think if awareness was kind of brought to the forefront about that\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.C.argumentstructs.Erik.14 (Index: 6, Speaker: C): \"Just whack in the number.\"\nAE_ID ES2004b.C.argumentstructs.Erik.15 (Index: 8, Speaker: C): \"And you wouldn't you wouldn't need uh a whole host of extra buttons for that, you just need one 'cause you've already got all the numbers there anyway, yeah.\"\nAE_ID ES2004b.B.argumentstructs.Erik.13 (Index: 9, Speaker: B): \"No. You've already got the numbers for typing in anyway.\"\nAE_ID ES2004b.D.argumentstructs.Erik.10 (Index: 10, Speaker: D): \"Right, I've not come across that function but it sounds wonderful.\"\nAE_ID ES2004b.B.argumentstructs.Erik.14 (Index: 11, Speaker: B): \"It is after um  if you look in the newspaper, T_V_ guide or any T_V_ guide there's a five, six digit number afterwards and that's the number you put in and it's recorded that it's going to be on on Tuesdays at ten o'clock on the seventeenth so you don't have to worry about dates and you don't have to worry about times, um and it has been around for quite a long time.\"\nAE_ID ES2004b.C.argumentstructs.Erik.16 (Index: 13, Speaker: C): \"Yeah.\"\nAE_ID ES2004b.D.argumentstructs.Erik.11 (Index: 15, Speaker: D): \"Right.\"\nAE_ID ES2004b.C.argumentstructs.Erik.17 (Index: 16, Speaker: C): \"It's been been around for a long time it's just it's not very well advertised as to how to use it and things.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.C.argumentstructs.Erik.17",
+            "ans": "ES2004b.C.argumentstructs.Erik.17",
+            "judgement": true
+        },
+        {
+            "turn_number": 13,
+            "current_node": {
+                "index": 18,
+                "ae_id": "ES2004b.D.argumentstructs.Erik.12",
+                "speaker": "D",
+                "start_time": 1698.1,
+                "end_time": 1698.61,
+                "sentence": "Superb.",
+                "source": "ES2004b.B.argumentstructs.Erik.14",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 8,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.15",
+                    "speaker": "C",
+                    "start_time": 1658.94,
+                    "end_time": 1665.55,
+                    "sentence": "And you wouldn't you wouldn't need uh a whole host of extra buttons for that, you just need one 'cause you've already got all the numbers there anyway, yeah.",
+                    "source": "ES2004b.C.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 1662.48,
+                    "end_time": 1666.41,
+                    "sentence": "No. You've already got the numbers for typing in anyway.",
+                    "source": "ES2004b.C.argumentstructs.Erik.15",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.10",
+                    "speaker": "D",
+                    "start_time": 1665.69,
+                    "end_time": 1670.39,
+                    "sentence": "Right, I've not come across that function but it sounds wonderful.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.14",
+                    "speaker": "B",
+                    "start_time": 1669.4,
+                    "end_time": 1694.55,
+                    "sentence": "It is after um  if you look in the newspaper, T_V_ guide or any T_V_ guide there's a five, six digit number afterwards and that's the number you put in and it's recorded that it's going to be on on Tuesdays at ten o'clock on the seventeenth so you don't have to worry about dates and you don't have to worry about times, um and it has been around for quite a long time.",
+                    "source": "ES2004b.D.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.16",
+                        "ES2004b.D.argumentstructs.Erik.11",
+                        "ES2004b.C.argumentstructs.Erik.17",
+                        "ES2004b.D.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.16",
+                    "speaker": "C",
+                    "start_time": 1675.91,
+                    "end_time": 1676.4,
+                    "sentence": "Yeah.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.11",
+                    "speaker": "D",
+                    "start_time": 1690.16,
+                    "end_time": 1690.56,
+                    "sentence": "Right.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.17",
+                    "speaker": "C",
+                    "start_time": 1693.47,
+                    "end_time": 1699.12,
+                    "sentence": "It's been been around for a long time it's just it's not very well advertised as to how to use it and things.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.15",
+                    "speaker": "B",
+                    "start_time": 1697.12,
+                    "end_time": 1702.881,
+                    "sentence": "No it's not um but I think if awareness was kind of brought to the forefront about that",
+                    "source": "ES2004b.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 18):\n- AE_ID: ES2004b.D.argumentstructs.Erik.12\n- Speaker: D\n- Sentence: \"Superb.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.C.argumentstructs.Erik.15 (Index: 8, Speaker: C): \"And you wouldn't you wouldn't need uh a whole host of extra buttons for that, you just need one 'cause you've already got all the numbers there anyway, yeah.\"\nAE_ID ES2004b.B.argumentstructs.Erik.13 (Index: 9, Speaker: B): \"No. You've already got the numbers for typing in anyway.\"\nAE_ID ES2004b.D.argumentstructs.Erik.10 (Index: 10, Speaker: D): \"Right, I've not come across that function but it sounds wonderful.\"\nAE_ID ES2004b.B.argumentstructs.Erik.14 (Index: 11, Speaker: B): \"It is after um  if you look in the newspaper, T_V_ guide or any T_V_ guide there's a five, six digit number afterwards and that's the number you put in and it's recorded that it's going to be on on Tuesdays at ten o'clock on the seventeenth so you don't have to worry about dates and you don't have to worry about times, um and it has been around for quite a long time.\"\nAE_ID ES2004b.C.argumentstructs.Erik.16 (Index: 13, Speaker: C): \"Yeah.\"\nAE_ID ES2004b.D.argumentstructs.Erik.11 (Index: 15, Speaker: D): \"Right.\"\nAE_ID ES2004b.C.argumentstructs.Erik.17 (Index: 16, Speaker: C): \"It's been been around for a long time it's just it's not very well advertised as to how to use it and things.\"\nAE_ID ES2004b.B.argumentstructs.Erik.15 (Index: 17, Speaker: B): \"No it's not um but I think if awareness was kind of brought to the forefront about that\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.B.argumentstructs.Erik.15",
+            "ans": "ES2004b.B.argumentstructs.Erik.14",
+            "judgement": false
+        },
+        {
+            "turn_number": 14,
+            "current_node": {
+                "index": 21,
+                "ae_id": "ES2004b.D.argumentstructs.Erik.13",
+                "speaker": "D",
+                "start_time": 1702.49,
+                "end_time": 1703.17,
+                "sentence": "Yes.",
+                "source": "ES2004b.C.argumentstructs.Erik.18",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 9,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 1662.48,
+                    "end_time": 1666.41,
+                    "sentence": "No. You've already got the numbers for typing in anyway.",
+                    "source": "ES2004b.C.argumentstructs.Erik.15",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.10",
+                    "speaker": "D",
+                    "start_time": 1665.69,
+                    "end_time": 1670.39,
+                    "sentence": "Right, I've not come across that function but it sounds wonderful.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.14",
+                    "speaker": "B",
+                    "start_time": 1669.4,
+                    "end_time": 1694.55,
+                    "sentence": "It is after um  if you look in the newspaper, T_V_ guide or any T_V_ guide there's a five, six digit number afterwards and that's the number you put in and it's recorded that it's going to be on on Tuesdays at ten o'clock on the seventeenth so you don't have to worry about dates and you don't have to worry about times, um and it has been around for quite a long time.",
+                    "source": "ES2004b.D.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.16",
+                        "ES2004b.D.argumentstructs.Erik.11",
+                        "ES2004b.C.argumentstructs.Erik.17",
+                        "ES2004b.D.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.16",
+                    "speaker": "C",
+                    "start_time": 1675.91,
+                    "end_time": 1676.4,
+                    "sentence": "Yeah.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.11",
+                    "speaker": "D",
+                    "start_time": 1690.16,
+                    "end_time": 1690.56,
+                    "sentence": "Right.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.17",
+                    "speaker": "C",
+                    "start_time": 1693.47,
+                    "end_time": 1699.12,
+                    "sentence": "It's been been around for a long time it's just it's not very well advertised as to how to use it and things.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.15",
+                    "speaker": "B",
+                    "start_time": 1697.12,
+                    "end_time": 1702.881,
+                    "sentence": "No it's not um but I think if awareness was kind of brought to the forefront about that",
+                    "source": "ES2004b.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.12",
+                    "speaker": "D",
+                    "start_time": 1698.1,
+                    "end_time": 1698.61,
+                    "sentence": "Superb.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 21):\n- AE_ID: ES2004b.D.argumentstructs.Erik.13\n- Speaker: D\n- Sentence: \"Yes.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.B.argumentstructs.Erik.13 (Index: 9, Speaker: B): \"No. You've already got the numbers for typing in anyway.\"\nAE_ID ES2004b.D.argumentstructs.Erik.10 (Index: 10, Speaker: D): \"Right, I've not come across that function but it sounds wonderful.\"\nAE_ID ES2004b.B.argumentstructs.Erik.14 (Index: 11, Speaker: B): \"It is after um  if you look in the newspaper, T_V_ guide or any T_V_ guide there's a five, six digit number afterwards and that's the number you put in and it's recorded that it's going to be on on Tuesdays at ten o'clock on the seventeenth so you don't have to worry about dates and you don't have to worry about times, um and it has been around for quite a long time.\"\nAE_ID ES2004b.C.argumentstructs.Erik.16 (Index: 13, Speaker: C): \"Yeah.\"\nAE_ID ES2004b.D.argumentstructs.Erik.11 (Index: 15, Speaker: D): \"Right.\"\nAE_ID ES2004b.C.argumentstructs.Erik.17 (Index: 16, Speaker: C): \"It's been been around for a long time it's just it's not very well advertised as to how to use it and things.\"\nAE_ID ES2004b.B.argumentstructs.Erik.15 (Index: 17, Speaker: B): \"No it's not um but I think if awareness was kind of brought to the forefront about that\"\nAE_ID ES2004b.D.argumentstructs.Erik.12 (Index: 18, Speaker: D): \"Superb.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.D.argumentstructs.Erik.12",
+            "ans": "ES2004b.C.argumentstructs.Erik.18",
+            "judgement": false
+        },
+        {
+            "turn_number": 15,
+            "current_node": {
+                "index": 22,
+                "ae_id": "ES2004b.C.argumentstructs.Erik.18",
+                "speaker": "C",
+                "start_time": 1703.3,
+                "end_time": 1714.57,
+                "sentence": "Though if y if you've got something like Sky anyway you can just click on it  you can just press the button on the programme once and it'll record that programme when it's on and you press it on it twice and it'll record the whole series.",
+                "source": "ES2004b.B.argumentstructs.Erik.12",
+                "targets": [
+                    "ES2004b.D.argumentstructs.Erik.13"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 10,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.10",
+                    "speaker": "D",
+                    "start_time": 1665.69,
+                    "end_time": 1670.39,
+                    "sentence": "Right, I've not come across that function but it sounds wonderful.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.14",
+                    "speaker": "B",
+                    "start_time": 1669.4,
+                    "end_time": 1694.55,
+                    "sentence": "It is after um  if you look in the newspaper, T_V_ guide or any T_V_ guide there's a five, six digit number afterwards and that's the number you put in and it's recorded that it's going to be on on Tuesdays at ten o'clock on the seventeenth so you don't have to worry about dates and you don't have to worry about times, um and it has been around for quite a long time.",
+                    "source": "ES2004b.D.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.16",
+                        "ES2004b.D.argumentstructs.Erik.11",
+                        "ES2004b.C.argumentstructs.Erik.17",
+                        "ES2004b.D.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.16",
+                    "speaker": "C",
+                    "start_time": 1675.91,
+                    "end_time": 1676.4,
+                    "sentence": "Yeah.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.11",
+                    "speaker": "D",
+                    "start_time": 1690.16,
+                    "end_time": 1690.56,
+                    "sentence": "Right.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.17",
+                    "speaker": "C",
+                    "start_time": 1693.47,
+                    "end_time": 1699.12,
+                    "sentence": "It's been been around for a long time it's just it's not very well advertised as to how to use it and things.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.15",
+                    "speaker": "B",
+                    "start_time": 1697.12,
+                    "end_time": 1702.881,
+                    "sentence": "No it's not um but I think if awareness was kind of brought to the forefront about that",
+                    "source": "ES2004b.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.12",
+                    "speaker": "D",
+                    "start_time": 1698.1,
+                    "end_time": 1698.61,
+                    "sentence": "Superb.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.13",
+                    "speaker": "D",
+                    "start_time": 1702.49,
+                    "end_time": 1703.17,
+                    "sentence": "Yes.",
+                    "source": "ES2004b.C.argumentstructs.Erik.18",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 22):\n- AE_ID: ES2004b.C.argumentstructs.Erik.18\n- Speaker: C\n- Sentence: \"Though if y if you've got something like Sky anyway you can just click on it  you can just press the button on the programme once and it'll record that programme when it's on and you press it on it twice and it'll record the whole series.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.D.argumentstructs.Erik.10 (Index: 10, Speaker: D): \"Right, I've not come across that function but it sounds wonderful.\"\nAE_ID ES2004b.B.argumentstructs.Erik.14 (Index: 11, Speaker: B): \"It is after um  if you look in the newspaper, T_V_ guide or any T_V_ guide there's a five, six digit number afterwards and that's the number you put in and it's recorded that it's going to be on on Tuesdays at ten o'clock on the seventeenth so you don't have to worry about dates and you don't have to worry about times, um and it has been around for quite a long time.\"\nAE_ID ES2004b.C.argumentstructs.Erik.16 (Index: 13, Speaker: C): \"Yeah.\"\nAE_ID ES2004b.D.argumentstructs.Erik.11 (Index: 15, Speaker: D): \"Right.\"\nAE_ID ES2004b.C.argumentstructs.Erik.17 (Index: 16, Speaker: C): \"It's been been around for a long time it's just it's not very well advertised as to how to use it and things.\"\nAE_ID ES2004b.B.argumentstructs.Erik.15 (Index: 17, Speaker: B): \"No it's not um but I think if awareness was kind of brought to the forefront about that\"\nAE_ID ES2004b.D.argumentstructs.Erik.12 (Index: 18, Speaker: D): \"Superb.\"\nAE_ID ES2004b.D.argumentstructs.Erik.13 (Index: 21, Speaker: D): \"Yes.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.B.argumentstructs.Erik.14",
+            "ans": "ES2004b.B.argumentstructs.Erik.12",
+            "judgement": false
+        },
+        {
+            "turn_number": 16,
+            "current_node": {
+                "index": 25,
+                "ae_id": "ES2004b.C.argumentstructs.Erik.19",
+                "speaker": "C",
+                "start_time": 1716.08,
+                "end_time": 1722.03,
+                "sentence": "So that  yeah. But just to have that function would be would be really good.",
+                "source": "ES2004b.B.argumentstructs.Erik.12",
+                "targets": [
+                    "ES2004b.D.argumentstructs.Erik.14",
+                    "ES2004b.B.argumentstructs.Erik.16"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 11,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.14",
+                    "speaker": "B",
+                    "start_time": 1669.4,
+                    "end_time": 1694.55,
+                    "sentence": "It is after um  if you look in the newspaper, T_V_ guide or any T_V_ guide there's a five, six digit number afterwards and that's the number you put in and it's recorded that it's going to be on on Tuesdays at ten o'clock on the seventeenth so you don't have to worry about dates and you don't have to worry about times, um and it has been around for quite a long time.",
+                    "source": "ES2004b.D.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2004b.C.argumentstructs.Erik.16",
+                        "ES2004b.D.argumentstructs.Erik.11",
+                        "ES2004b.C.argumentstructs.Erik.17",
+                        "ES2004b.D.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.16",
+                    "speaker": "C",
+                    "start_time": 1675.91,
+                    "end_time": 1676.4,
+                    "sentence": "Yeah.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.11",
+                    "speaker": "D",
+                    "start_time": 1690.16,
+                    "end_time": 1690.56,
+                    "sentence": "Right.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.17",
+                    "speaker": "C",
+                    "start_time": 1693.47,
+                    "end_time": 1699.12,
+                    "sentence": "It's been been around for a long time it's just it's not very well advertised as to how to use it and things.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.15",
+                    "speaker": "B",
+                    "start_time": 1697.12,
+                    "end_time": 1702.881,
+                    "sentence": "No it's not um but I think if awareness was kind of brought to the forefront about that",
+                    "source": "ES2004b.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.12",
+                    "speaker": "D",
+                    "start_time": 1698.1,
+                    "end_time": 1698.61,
+                    "sentence": "Superb.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.13",
+                    "speaker": "D",
+                    "start_time": 1702.49,
+                    "end_time": 1703.17,
+                    "sentence": "Yes.",
+                    "source": "ES2004b.C.argumentstructs.Erik.18",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.18",
+                    "speaker": "C",
+                    "start_time": 1703.3,
+                    "end_time": 1714.57,
+                    "sentence": "Though if y if you've got something like Sky anyway you can just click on it  you can just press the button on the programme once and it'll record that programme when it's on and you press it on it twice and it'll record the whole series.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2004b.D.argumentstructs.Erik.13"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 25):\n- AE_ID: ES2004b.C.argumentstructs.Erik.19\n- Speaker: C\n- Sentence: \"So that  yeah. But just to have that function would be would be really good.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.B.argumentstructs.Erik.14 (Index: 11, Speaker: B): \"It is after um  if you look in the newspaper, T_V_ guide or any T_V_ guide there's a five, six digit number afterwards and that's the number you put in and it's recorded that it's going to be on on Tuesdays at ten o'clock on the seventeenth so you don't have to worry about dates and you don't have to worry about times, um and it has been around for quite a long time.\"\nAE_ID ES2004b.C.argumentstructs.Erik.16 (Index: 13, Speaker: C): \"Yeah.\"\nAE_ID ES2004b.D.argumentstructs.Erik.11 (Index: 15, Speaker: D): \"Right.\"\nAE_ID ES2004b.C.argumentstructs.Erik.17 (Index: 16, Speaker: C): \"It's been been around for a long time it's just it's not very well advertised as to how to use it and things.\"\nAE_ID ES2004b.B.argumentstructs.Erik.15 (Index: 17, Speaker: B): \"No it's not um but I think if awareness was kind of brought to the forefront about that\"\nAE_ID ES2004b.D.argumentstructs.Erik.12 (Index: 18, Speaker: D): \"Superb.\"\nAE_ID ES2004b.D.argumentstructs.Erik.13 (Index: 21, Speaker: D): \"Yes.\"\nAE_ID ES2004b.C.argumentstructs.Erik.18 (Index: 22, Speaker: C): \"Though if y if you've got something like Sky anyway you can just click on it  you can just press the button on the programme once and it'll record that programme when it's on and you press it on it twice and it'll record the whole series.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.C.argumentstructs.Erik.18",
+            "ans": "ES2004b.B.argumentstructs.Erik.12",
+            "judgement": false
+        },
+        {
+            "turn_number": 17,
+            "current_node": {
+                "index": 26,
+                "ae_id": "ES2004b.D.argumentstructs.Erik.14",
+                "speaker": "D",
+                "start_time": 1720.74,
+                "end_time": 1721.28,
+                "sentence": "Right.",
+                "source": "ES2004b.C.argumentstructs.Erik.19",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 13,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.16",
+                    "speaker": "C",
+                    "start_time": 1675.91,
+                    "end_time": 1676.4,
+                    "sentence": "Yeah.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.11",
+                    "speaker": "D",
+                    "start_time": 1690.16,
+                    "end_time": 1690.56,
+                    "sentence": "Right.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.17",
+                    "speaker": "C",
+                    "start_time": 1693.47,
+                    "end_time": 1699.12,
+                    "sentence": "It's been been around for a long time it's just it's not very well advertised as to how to use it and things.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.15",
+                    "speaker": "B",
+                    "start_time": 1697.12,
+                    "end_time": 1702.881,
+                    "sentence": "No it's not um but I think if awareness was kind of brought to the forefront about that",
+                    "source": "ES2004b.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.12",
+                    "speaker": "D",
+                    "start_time": 1698.1,
+                    "end_time": 1698.61,
+                    "sentence": "Superb.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.13",
+                    "speaker": "D",
+                    "start_time": 1702.49,
+                    "end_time": 1703.17,
+                    "sentence": "Yes.",
+                    "source": "ES2004b.C.argumentstructs.Erik.18",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.18",
+                    "speaker": "C",
+                    "start_time": 1703.3,
+                    "end_time": 1714.57,
+                    "sentence": "Though if y if you've got something like Sky anyway you can just click on it  you can just press the button on the programme once and it'll record that programme when it's on and you press it on it twice and it'll record the whole series.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2004b.D.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.19",
+                    "speaker": "C",
+                    "start_time": 1716.08,
+                    "end_time": 1722.03,
+                    "sentence": "So that  yeah. But just to have that function would be would be really good.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2004b.D.argumentstructs.Erik.14",
+                        "ES2004b.B.argumentstructs.Erik.16"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 26):\n- AE_ID: ES2004b.D.argumentstructs.Erik.14\n- Speaker: D\n- Sentence: \"Right.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.C.argumentstructs.Erik.16 (Index: 13, Speaker: C): \"Yeah.\"\nAE_ID ES2004b.D.argumentstructs.Erik.11 (Index: 15, Speaker: D): \"Right.\"\nAE_ID ES2004b.C.argumentstructs.Erik.17 (Index: 16, Speaker: C): \"It's been been around for a long time it's just it's not very well advertised as to how to use it and things.\"\nAE_ID ES2004b.B.argumentstructs.Erik.15 (Index: 17, Speaker: B): \"No it's not um but I think if awareness was kind of brought to the forefront about that\"\nAE_ID ES2004b.D.argumentstructs.Erik.12 (Index: 18, Speaker: D): \"Superb.\"\nAE_ID ES2004b.D.argumentstructs.Erik.13 (Index: 21, Speaker: D): \"Yes.\"\nAE_ID ES2004b.C.argumentstructs.Erik.18 (Index: 22, Speaker: C): \"Though if y if you've got something like Sky anyway you can just click on it  you can just press the button on the programme once and it'll record that programme when it's on and you press it on it twice and it'll record the whole series.\"\nAE_ID ES2004b.C.argumentstructs.Erik.19 (Index: 25, Speaker: C): \"So that  yeah. But just to have that function would be would be really good.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.C.argumentstructs.Erik.19",
+            "ans": "ES2004b.C.argumentstructs.Erik.19",
+            "judgement": true
+        },
+        {
+            "turn_number": 18,
+            "current_node": {
+                "index": 27,
+                "ae_id": "ES2004b.B.argumentstructs.Erik.16",
+                "speaker": "B",
+                "start_time": 1722.21,
+                "end_time": 1722.992,
+                "sentence": "Okay so",
+                "source": "ES2004b.C.argumentstructs.Erik.19",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 15,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.11",
+                    "speaker": "D",
+                    "start_time": 1690.16,
+                    "end_time": 1690.56,
+                    "sentence": "Right.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.17",
+                    "speaker": "C",
+                    "start_time": 1693.47,
+                    "end_time": 1699.12,
+                    "sentence": "It's been been around for a long time it's just it's not very well advertised as to how to use it and things.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2004b.B.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2004b.B.argumentstructs.Erik.15",
+                    "speaker": "B",
+                    "start_time": 1697.12,
+                    "end_time": 1702.881,
+                    "sentence": "No it's not um but I think if awareness was kind of brought to the forefront about that",
+                    "source": "ES2004b.C.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.12",
+                    "speaker": "D",
+                    "start_time": 1698.1,
+                    "end_time": 1698.61,
+                    "sentence": "Superb.",
+                    "source": "ES2004b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.13",
+                    "speaker": "D",
+                    "start_time": 1702.49,
+                    "end_time": 1703.17,
+                    "sentence": "Yes.",
+                    "source": "ES2004b.C.argumentstructs.Erik.18",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.18",
+                    "speaker": "C",
+                    "start_time": 1703.3,
+                    "end_time": 1714.57,
+                    "sentence": "Though if y if you've got something like Sky anyway you can just click on it  you can just press the button on the programme once and it'll record that programme when it's on and you press it on it twice and it'll record the whole series.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2004b.D.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.19",
+                    "speaker": "C",
+                    "start_time": 1716.08,
+                    "end_time": 1722.03,
+                    "sentence": "So that  yeah. But just to have that function would be would be really good.",
+                    "source": "ES2004b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2004b.D.argumentstructs.Erik.14",
+                        "ES2004b.B.argumentstructs.Erik.16"
+                    ]
+                },
+                {
+                    "index": 26,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.14",
+                    "speaker": "D",
+                    "start_time": 1720.74,
+                    "end_time": 1721.28,
+                    "sentence": "Right.",
+                    "source": "ES2004b.C.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 27):\n- AE_ID: ES2004b.B.argumentstructs.Erik.16\n- Speaker: B\n- Sentence: \"Okay so\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.D.argumentstructs.Erik.11 (Index: 15, Speaker: D): \"Right.\"\nAE_ID ES2004b.C.argumentstructs.Erik.17 (Index: 16, Speaker: C): \"It's been been around for a long time it's just it's not very well advertised as to how to use it and things.\"\nAE_ID ES2004b.B.argumentstructs.Erik.15 (Index: 17, Speaker: B): \"No it's not um but I think if awareness was kind of brought to the forefront about that\"\nAE_ID ES2004b.D.argumentstructs.Erik.12 (Index: 18, Speaker: D): \"Superb.\"\nAE_ID ES2004b.D.argumentstructs.Erik.13 (Index: 21, Speaker: D): \"Yes.\"\nAE_ID ES2004b.C.argumentstructs.Erik.18 (Index: 22, Speaker: C): \"Though if y if you've got something like Sky anyway you can just click on it  you can just press the button on the programme once and it'll record that programme when it's on and you press it on it twice and it'll record the whole series.\"\nAE_ID ES2004b.C.argumentstructs.Erik.19 (Index: 25, Speaker: C): \"So that  yeah. But just to have that function would be would be really good.\"\nAE_ID ES2004b.D.argumentstructs.Erik.14 (Index: 26, Speaker: D): \"Right.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.B.argumentstructs.Erik.15",
+            "ans": "ES2004b.C.argumentstructs.Erik.19",
+            "judgement": false
+        }
+    ]
+}

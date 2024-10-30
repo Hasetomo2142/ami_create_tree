@@ -1,0 +1,1516 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2003c-ES2003c - Three types of batteries.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "ver.1.1.txt",
+    "rate": 0.3333333333333333,
+    "total_node_count": 25,
+    "removed_node_count": 9,
+    "removed_node_list": [
+        {
+            "index": 2,
+            "ae_id": "ES2003c.D.argumentstructs.13",
+            "speaker": "D",
+            "start_time": 212.16,
+            "end_time": 213.13,
+            "sentence": "Um.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 4,
+            "ae_id": "ES2003c.C.argumentstructs.28",
+            "speaker": "C",
+            "start_time": 214.95,
+            "end_time": 215.85,
+            "sentence": "Cost is",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 8,
+            "ae_id": "ES2003c.A.argumentstructs.27",
+            "speaker": "A",
+            "start_time": 227.38,
+            "end_time": 227.79,
+            "sentence": "Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 11,
+            "ae_id": "ES2003c.D.argumentstructs.14",
+            "speaker": "D",
+            "start_time": 232.85,
+            "end_time": 233.52,
+            "sentence": "Uh.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 12,
+            "ae_id": "ES2003c.B.argumentstructs.21",
+            "speaker": "B",
+            "start_time": 235.6,
+            "end_time": 235.81,
+            "sentence": "W",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 15,
+            "ae_id": "ES2003c.D.argumentstructs.15",
+            "speaker": "D",
+            "start_time": 238.74,
+            "end_time": 239.23,
+            "sentence": "Um.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 18,
+            "ae_id": "ES2003c.D.argumentstructs.16",
+            "speaker": "D",
+            "start_time": 245.79,
+            "end_time": 246.21,
+            "sentence": "Uh.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 20,
+            "ae_id": "ES2003c.D.argumentstructs.17",
+            "speaker": "D",
+            "start_time": 252.1,
+            "end_time": 252.73,
+            "sentence": "Um,",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 23,
+            "ae_id": "ES2003c.D.argumentstructs.18",
+            "speaker": "D",
+            "start_time": 256.45,
+            "end_time": 256.88,
+            "sentence": "Um.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 0,
+                "ae_id": "ES2003c.D.argumentstructs.Erik.1",
+                "speaker": "D",
+                "start_time": 194.82,
+                "end_time": 211.01,
+                "sentence": "three different types of batteries. Um can either use a hand dynamo, or the kinetic type ones, you know that they use in watches, or else uh a solar powered one.",
+                "source": "NONE",
+                "targets": [
+                    "ES2003c.B.argumentstructs.Erik.1",
+                    "ES2003c.B.argumentstructs.Erik.2",
+                    "ES2003c.D.argumentstructs.Erik.4",
+                    "ES2003c.D.argumentstructs.Erik.5"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "NONE",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2003c.B.argumentstructs.Erik.1",
+                "speaker": "B",
+                "start_time": 208.55,
+                "end_time": 209.0,
+                "sentence": "Okay.",
+                "source": "ES2003c.D.argumentstructs.Erik.1",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 194.82,
+                    "end_time": 211.01,
+                    "sentence": "three different types of batteries. Um can either use a hand dynamo, or the kinetic type ones, you know that they use in watches, or else uh a solar powered one.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.1",
+                        "ES2003c.B.argumentstructs.Erik.2",
+                        "ES2003c.D.argumentstructs.Erik.4",
+                        "ES2003c.D.argumentstructs.Erik.5"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 1):\n- AE_ID: ES2003c.B.argumentstructs.Erik.1\n- Speaker: B\n- Sentence: \"Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.D.argumentstructs.Erik.1 (Index: 0, Speaker: D): \"three different types of batteries. Um can either use a hand dynamo, or the kinetic type ones, you know that they use in watches, or else uh a solar powered one.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.D.argumentstructs.Erik.1",
+            "ans": "ES2003c.D.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 3,
+                "ae_id": "ES2003c.B.argumentstructs.Erik.2",
+                "speaker": "B",
+                "start_time": 212.27,
+                "end_time": 219.48,
+                "sentence": "Now, the kinetic one, we've  'cause that's the ones where like you  the movement causes it.",
+                "source": "ES2003c.D.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2003c.B.argumentstructs.Erik.3"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 194.82,
+                    "end_time": 211.01,
+                    "sentence": "three different types of batteries. Um can either use a hand dynamo, or the kinetic type ones, you know that they use in watches, or else uh a solar powered one.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.1",
+                        "ES2003c.B.argumentstructs.Erik.2",
+                        "ES2003c.D.argumentstructs.Erik.4",
+                        "ES2003c.D.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 208.55,
+                    "end_time": 209.0,
+                    "sentence": "Okay.",
+                    "source": "ES2003c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 3):\n- AE_ID: ES2003c.B.argumentstructs.Erik.2\n- Speaker: B\n- Sentence: \"Now, the kinetic one, we've  'cause that's the ones where like you  the movement causes it.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.D.argumentstructs.Erik.1 (Index: 0, Speaker: D): \"three different types of batteries. Um can either use a hand dynamo, or the kinetic type ones, you know that they use in watches, or else uh a solar powered one.\"\nAE_ID ES2003c.B.argumentstructs.Erik.1 (Index: 1, Speaker: B): \"Okay.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.D.argumentstructs.Erik.1",
+            "ans": "ES2003c.D.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 5,
+                "ae_id": "ES2003c.C.argumentstructs.Erik.1",
+                "speaker": "C",
+                "start_time": 218.3,
+                "end_time": 218.56,
+                "sentence": "Yeah.",
+                "source": "ES2003c.B.argumentstructs.Erik.3",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 194.82,
+                    "end_time": 211.01,
+                    "sentence": "three different types of batteries. Um can either use a hand dynamo, or the kinetic type ones, you know that they use in watches, or else uh a solar powered one.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.1",
+                        "ES2003c.B.argumentstructs.Erik.2",
+                        "ES2003c.D.argumentstructs.Erik.4",
+                        "ES2003c.D.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 208.55,
+                    "end_time": 209.0,
+                    "sentence": "Okay.",
+                    "source": "ES2003c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 212.27,
+                    "end_time": 219.48,
+                    "sentence": "Now, the kinetic one, we've  'cause that's the ones where like you  the movement causes it.",
+                    "source": "ES2003c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.3"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 5):\n- AE_ID: ES2003c.C.argumentstructs.Erik.1\n- Speaker: C\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.D.argumentstructs.Erik.1 (Index: 0, Speaker: D): \"three different types of batteries. Um can either use a hand dynamo, or the kinetic type ones, you know that they use in watches, or else uh a solar powered one.\"\nAE_ID ES2003c.B.argumentstructs.Erik.1 (Index: 1, Speaker: B): \"Okay.\"\nAE_ID ES2003c.B.argumentstructs.Erik.2 (Index: 3, Speaker: B): \"Now, the kinetic one, we've  'cause that's the ones where like you  the movement causes it.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.D.argumentstructs.Erik.1",
+            "ans": "ES2003c.B.argumentstructs.Erik.3",
+            "judgement": false
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 6,
+                "ae_id": "ES2003c.D.argumentstructs.Erik.2",
+                "speaker": "D",
+                "start_time": 218.4,
+                "end_time": 218.83,
+                "sentence": "Yeah.",
+                "source": "ES2003c.B.argumentstructs.Erik.3",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 194.82,
+                    "end_time": 211.01,
+                    "sentence": "three different types of batteries. Um can either use a hand dynamo, or the kinetic type ones, you know that they use in watches, or else uh a solar powered one.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.1",
+                        "ES2003c.B.argumentstructs.Erik.2",
+                        "ES2003c.D.argumentstructs.Erik.4",
+                        "ES2003c.D.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 208.55,
+                    "end_time": 209.0,
+                    "sentence": "Okay.",
+                    "source": "ES2003c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 212.27,
+                    "end_time": 219.48,
+                    "sentence": "Now, the kinetic one, we've  'cause that's the ones where like you  the movement causes it.",
+                    "source": "ES2003c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 218.3,
+                    "end_time": 218.56,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 6):\n- AE_ID: ES2003c.D.argumentstructs.Erik.2\n- Speaker: D\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.D.argumentstructs.Erik.1 (Index: 0, Speaker: D): \"three different types of batteries. Um can either use a hand dynamo, or the kinetic type ones, you know that they use in watches, or else uh a solar powered one.\"\nAE_ID ES2003c.B.argumentstructs.Erik.1 (Index: 1, Speaker: B): \"Okay.\"\nAE_ID ES2003c.B.argumentstructs.Erik.2 (Index: 3, Speaker: B): \"Now, the kinetic one, we've  'cause that's the ones where like you  the movement causes it.\"\nAE_ID ES2003c.C.argumentstructs.Erik.1 (Index: 5, Speaker: C): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.C.argumentstructs.Erik.1",
+            "ans": "ES2003c.B.argumentstructs.Erik.3",
+            "judgement": false
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 7,
+                "ae_id": "ES2003c.B.argumentstructs.Erik.3",
+                "speaker": "B",
+                "start_time": 219.48,
+                "end_time": 231.53,
+                "sentence": "Um the bat uh the battery for a a watch wouldn't require a lot of power, would be my one query. Is a kinetic one going to be able to supply enough power ?",
+                "source": "ES2003c.B.argumentstructs.Erik.2",
+                "targets": [
+                    "ES2003c.D.argumentstructs.Erik.2",
+                    "ES2003c.C.argumentstructs.Erik.1",
+                    "ES2003c.A.argumentstructs.Erik.1"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 194.82,
+                    "end_time": 211.01,
+                    "sentence": "three different types of batteries. Um can either use a hand dynamo, or the kinetic type ones, you know that they use in watches, or else uh a solar powered one.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.1",
+                        "ES2003c.B.argumentstructs.Erik.2",
+                        "ES2003c.D.argumentstructs.Erik.4",
+                        "ES2003c.D.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 208.55,
+                    "end_time": 209.0,
+                    "sentence": "Okay.",
+                    "source": "ES2003c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 212.27,
+                    "end_time": 219.48,
+                    "sentence": "Now, the kinetic one, we've  'cause that's the ones where like you  the movement causes it.",
+                    "source": "ES2003c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 218.3,
+                    "end_time": 218.56,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 218.4,
+                    "end_time": 218.83,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 7):\n- AE_ID: ES2003c.B.argumentstructs.Erik.3\n- Speaker: B\n- Sentence: \"Um the bat uh the battery for a a watch wouldn't require a lot of power, would be my one query. Is a kinetic one going to be able to supply enough power ?\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.D.argumentstructs.Erik.1 (Index: 0, Speaker: D): \"three different types of batteries. Um can either use a hand dynamo, or the kinetic type ones, you know that they use in watches, or else uh a solar powered one.\"\nAE_ID ES2003c.B.argumentstructs.Erik.1 (Index: 1, Speaker: B): \"Okay.\"\nAE_ID ES2003c.B.argumentstructs.Erik.2 (Index: 3, Speaker: B): \"Now, the kinetic one, we've  'cause that's the ones where like you  the movement causes it.\"\nAE_ID ES2003c.C.argumentstructs.Erik.1 (Index: 5, Speaker: C): \"Yeah.\"\nAE_ID ES2003c.D.argumentstructs.Erik.2 (Index: 6, Speaker: D): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.D.argumentstructs.Erik.1",
+            "ans": "ES2003c.B.argumentstructs.Erik.2",
+            "judgement": false
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 9,
+                "ae_id": "ES2003c.A.argumentstructs.Erik.1",
+                "speaker": "A",
+                "start_time": 232.63,
+                "end_time": 234.77,
+                "sentence": "There's also a watch moves around a great deal more.",
+                "source": "ES2003c.B.argumentstructs.Erik.3",
+                "targets": [
+                    "ES2003c.B.argumentstructs.Erik.4"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 194.82,
+                    "end_time": 211.01,
+                    "sentence": "three different types of batteries. Um can either use a hand dynamo, or the kinetic type ones, you know that they use in watches, or else uh a solar powered one.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.1",
+                        "ES2003c.B.argumentstructs.Erik.2",
+                        "ES2003c.D.argumentstructs.Erik.4",
+                        "ES2003c.D.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 208.55,
+                    "end_time": 209.0,
+                    "sentence": "Okay.",
+                    "source": "ES2003c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 212.27,
+                    "end_time": 219.48,
+                    "sentence": "Now, the kinetic one, we've  'cause that's the ones where like you  the movement causes it.",
+                    "source": "ES2003c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 218.3,
+                    "end_time": 218.56,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 218.4,
+                    "end_time": 218.83,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 219.48,
+                    "end_time": 231.53,
+                    "sentence": "Um the bat uh the battery for a a watch wouldn't require a lot of power, would be my one query. Is a kinetic one going to be able to supply enough power ?",
+                    "source": "ES2003c.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.2",
+                        "ES2003c.C.argumentstructs.Erik.1",
+                        "ES2003c.A.argumentstructs.Erik.1"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 9):\n- AE_ID: ES2003c.A.argumentstructs.Erik.1\n- Speaker: A\n- Sentence: \"There's also a watch moves around a great deal more.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.D.argumentstructs.Erik.1 (Index: 0, Speaker: D): \"three different types of batteries. Um can either use a hand dynamo, or the kinetic type ones, you know that they use in watches, or else uh a solar powered one.\"\nAE_ID ES2003c.B.argumentstructs.Erik.1 (Index: 1, Speaker: B): \"Okay.\"\nAE_ID ES2003c.B.argumentstructs.Erik.2 (Index: 3, Speaker: B): \"Now, the kinetic one, we've  'cause that's the ones where like you  the movement causes it.\"\nAE_ID ES2003c.C.argumentstructs.Erik.1 (Index: 5, Speaker: C): \"Yeah.\"\nAE_ID ES2003c.D.argumentstructs.Erik.2 (Index: 6, Speaker: D): \"Yeah.\"\nAE_ID ES2003c.B.argumentstructs.Erik.3 (Index: 7, Speaker: B): \"Um the bat uh the battery for a a watch wouldn't require a lot of power, would be my one query. Is a kinetic one going to be able to supply enough power ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.B.argumentstructs.Erik.3",
+            "ans": "ES2003c.B.argumentstructs.Erik.3",
+            "judgement": true
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 10,
+                "ae_id": "ES2003c.B.argumentstructs.Erik.4",
+                "speaker": "B",
+                "start_time": 232.72,
+                "end_time": 233.18,
+                "sentence": "Do you think ?",
+                "source": "ES2003c.A.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2003c.C.argumentstructs.Erik.2",
+                    "ES2003c.D.argumentstructs.Erik.3"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 194.82,
+                    "end_time": 211.01,
+                    "sentence": "three different types of batteries. Um can either use a hand dynamo, or the kinetic type ones, you know that they use in watches, or else uh a solar powered one.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.1",
+                        "ES2003c.B.argumentstructs.Erik.2",
+                        "ES2003c.D.argumentstructs.Erik.4",
+                        "ES2003c.D.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 208.55,
+                    "end_time": 209.0,
+                    "sentence": "Okay.",
+                    "source": "ES2003c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 212.27,
+                    "end_time": 219.48,
+                    "sentence": "Now, the kinetic one, we've  'cause that's the ones where like you  the movement causes it.",
+                    "source": "ES2003c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 218.3,
+                    "end_time": 218.56,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 218.4,
+                    "end_time": 218.83,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 219.48,
+                    "end_time": 231.53,
+                    "sentence": "Um the bat uh the battery for a a watch wouldn't require a lot of power, would be my one query. Is a kinetic one going to be able to supply enough power ?",
+                    "source": "ES2003c.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.2",
+                        "ES2003c.C.argumentstructs.Erik.1",
+                        "ES2003c.A.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 232.63,
+                    "end_time": 234.77,
+                    "sentence": "There's also a watch moves around a great deal more.",
+                    "source": "ES2003c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.4"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 10):\n- AE_ID: ES2003c.B.argumentstructs.Erik.4\n- Speaker: B\n- Sentence: \"Do you think ?\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.D.argumentstructs.Erik.1 (Index: 0, Speaker: D): \"three different types of batteries. Um can either use a hand dynamo, or the kinetic type ones, you know that they use in watches, or else uh a solar powered one.\"\nAE_ID ES2003c.B.argumentstructs.Erik.1 (Index: 1, Speaker: B): \"Okay.\"\nAE_ID ES2003c.B.argumentstructs.Erik.2 (Index: 3, Speaker: B): \"Now, the kinetic one, we've  'cause that's the ones where like you  the movement causes it.\"\nAE_ID ES2003c.C.argumentstructs.Erik.1 (Index: 5, Speaker: C): \"Yeah.\"\nAE_ID ES2003c.D.argumentstructs.Erik.2 (Index: 6, Speaker: D): \"Yeah.\"\nAE_ID ES2003c.B.argumentstructs.Erik.3 (Index: 7, Speaker: B): \"Um the bat uh the battery for a a watch wouldn't require a lot of power, would be my one query. Is a kinetic one going to be able to supply enough power ?\"\nAE_ID ES2003c.A.argumentstructs.Erik.1 (Index: 9, Speaker: A): \"There's also a watch moves around a great deal more.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.B.argumentstructs.Erik.3",
+            "ans": "ES2003c.A.argumentstructs.Erik.1",
+            "judgement": false
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 13,
+                "ae_id": "ES2003c.D.argumentstructs.Erik.3",
+                "speaker": "D",
+                "start_time": 236.02,
+                "end_time": 238.74,
+                "sentence": "Yeah, I don't think it would.",
+                "source": "ES2003c.B.argumentstructs.Erik.4",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 208.55,
+                    "end_time": 209.0,
+                    "sentence": "Okay.",
+                    "source": "ES2003c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 212.27,
+                    "end_time": 219.48,
+                    "sentence": "Now, the kinetic one, we've  'cause that's the ones where like you  the movement causes it.",
+                    "source": "ES2003c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 218.3,
+                    "end_time": 218.56,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 218.4,
+                    "end_time": 218.83,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 219.48,
+                    "end_time": 231.53,
+                    "sentence": "Um the bat uh the battery for a a watch wouldn't require a lot of power, would be my one query. Is a kinetic one going to be able to supply enough power ?",
+                    "source": "ES2003c.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.2",
+                        "ES2003c.C.argumentstructs.Erik.1",
+                        "ES2003c.A.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 232.63,
+                    "end_time": 234.77,
+                    "sentence": "There's also a watch moves around a great deal more.",
+                    "source": "ES2003c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 232.72,
+                    "end_time": 233.18,
+                    "sentence": "Do you think ?",
+                    "source": "ES2003c.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.2",
+                        "ES2003c.D.argumentstructs.Erik.3"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 13):\n- AE_ID: ES2003c.D.argumentstructs.Erik.3\n- Speaker: D\n- Sentence: \"Yeah, I don't think it would.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.B.argumentstructs.Erik.1 (Index: 1, Speaker: B): \"Okay.\"\nAE_ID ES2003c.B.argumentstructs.Erik.2 (Index: 3, Speaker: B): \"Now, the kinetic one, we've  'cause that's the ones where like you  the movement causes it.\"\nAE_ID ES2003c.C.argumentstructs.Erik.1 (Index: 5, Speaker: C): \"Yeah.\"\nAE_ID ES2003c.D.argumentstructs.Erik.2 (Index: 6, Speaker: D): \"Yeah.\"\nAE_ID ES2003c.B.argumentstructs.Erik.3 (Index: 7, Speaker: B): \"Um the bat uh the battery for a a watch wouldn't require a lot of power, would be my one query. Is a kinetic one going to be able to supply enough power ?\"\nAE_ID ES2003c.A.argumentstructs.Erik.1 (Index: 9, Speaker: A): \"There's also a watch moves around a great deal more.\"\nAE_ID ES2003c.B.argumentstructs.Erik.4 (Index: 10, Speaker: B): \"Do you think ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.B.argumentstructs.Erik.3",
+            "ans": "ES2003c.B.argumentstructs.Erik.4",
+            "judgement": false
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 14,
+                "ae_id": "ES2003c.C.argumentstructs.Erik.2",
+                "speaker": "C",
+                "start_time": 236.16,
+                "end_time": 236.78,
+                "sentence": "Yeah.",
+                "source": "ES2003c.B.argumentstructs.Erik.4",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 3,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 212.27,
+                    "end_time": 219.48,
+                    "sentence": "Now, the kinetic one, we've  'cause that's the ones where like you  the movement causes it.",
+                    "source": "ES2003c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 218.3,
+                    "end_time": 218.56,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 218.4,
+                    "end_time": 218.83,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 219.48,
+                    "end_time": 231.53,
+                    "sentence": "Um the bat uh the battery for a a watch wouldn't require a lot of power, would be my one query. Is a kinetic one going to be able to supply enough power ?",
+                    "source": "ES2003c.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.2",
+                        "ES2003c.C.argumentstructs.Erik.1",
+                        "ES2003c.A.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 232.63,
+                    "end_time": 234.77,
+                    "sentence": "There's also a watch moves around a great deal more.",
+                    "source": "ES2003c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 232.72,
+                    "end_time": 233.18,
+                    "sentence": "Do you think ?",
+                    "source": "ES2003c.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.2",
+                        "ES2003c.D.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 236.02,
+                    "end_time": 238.74,
+                    "sentence": "Yeah, I don't think it would.",
+                    "source": "ES2003c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 14):\n- AE_ID: ES2003c.C.argumentstructs.Erik.2\n- Speaker: C\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.B.argumentstructs.Erik.2 (Index: 3, Speaker: B): \"Now, the kinetic one, we've  'cause that's the ones where like you  the movement causes it.\"\nAE_ID ES2003c.C.argumentstructs.Erik.1 (Index: 5, Speaker: C): \"Yeah.\"\nAE_ID ES2003c.D.argumentstructs.Erik.2 (Index: 6, Speaker: D): \"Yeah.\"\nAE_ID ES2003c.B.argumentstructs.Erik.3 (Index: 7, Speaker: B): \"Um the bat uh the battery for a a watch wouldn't require a lot of power, would be my one query. Is a kinetic one going to be able to supply enough power ?\"\nAE_ID ES2003c.A.argumentstructs.Erik.1 (Index: 9, Speaker: A): \"There's also a watch moves around a great deal more.\"\nAE_ID ES2003c.B.argumentstructs.Erik.4 (Index: 10, Speaker: B): \"Do you think ?\"\nAE_ID ES2003c.D.argumentstructs.Erik.3 (Index: 13, Speaker: D): \"Yeah, I don't think it would.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.D.argumentstructs.Erik.3",
+            "ans": "ES2003c.B.argumentstructs.Erik.4",
+            "judgement": false
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 16,
+                "ae_id": "ES2003c.D.argumentstructs.Erik.4",
+                "speaker": "D",
+                "start_time": 241.56,
+                "end_time": 243.9,
+                "sentence": "And solar cells, I dunno about that.",
+                "source": "ES2003c.D.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2003c.C.argumentstructs.Erik.3"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 5,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 218.3,
+                    "end_time": 218.56,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 218.4,
+                    "end_time": 218.83,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 219.48,
+                    "end_time": 231.53,
+                    "sentence": "Um the bat uh the battery for a a watch wouldn't require a lot of power, would be my one query. Is a kinetic one going to be able to supply enough power ?",
+                    "source": "ES2003c.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.2",
+                        "ES2003c.C.argumentstructs.Erik.1",
+                        "ES2003c.A.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 232.63,
+                    "end_time": 234.77,
+                    "sentence": "There's also a watch moves around a great deal more.",
+                    "source": "ES2003c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 232.72,
+                    "end_time": 233.18,
+                    "sentence": "Do you think ?",
+                    "source": "ES2003c.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.2",
+                        "ES2003c.D.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 236.02,
+                    "end_time": 238.74,
+                    "sentence": "Yeah, I don't think it would.",
+                    "source": "ES2003c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 236.16,
+                    "end_time": 236.78,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 16):\n- AE_ID: ES2003c.D.argumentstructs.Erik.4\n- Speaker: D\n- Sentence: \"And solar cells, I dunno about that.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.C.argumentstructs.Erik.1 (Index: 5, Speaker: C): \"Yeah.\"\nAE_ID ES2003c.D.argumentstructs.Erik.2 (Index: 6, Speaker: D): \"Yeah.\"\nAE_ID ES2003c.B.argumentstructs.Erik.3 (Index: 7, Speaker: B): \"Um the bat uh the battery for a a watch wouldn't require a lot of power, would be my one query. Is a kinetic one going to be able to supply enough power ?\"\nAE_ID ES2003c.A.argumentstructs.Erik.1 (Index: 9, Speaker: A): \"There's also a watch moves around a great deal more.\"\nAE_ID ES2003c.B.argumentstructs.Erik.4 (Index: 10, Speaker: B): \"Do you think ?\"\nAE_ID ES2003c.D.argumentstructs.Erik.3 (Index: 13, Speaker: D): \"Yeah, I don't think it would.\"\nAE_ID ES2003c.C.argumentstructs.Erik.2 (Index: 14, Speaker: C): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.D.argumentstructs.Erik.3",
+            "ans": "ES2003c.D.argumentstructs.Erik.1",
+            "judgement": false
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 17,
+                "ae_id": "ES2003c.C.argumentstructs.Erik.3",
+                "speaker": "C",
+                "start_time": 245.15,
+                "end_time": 245.31,
+                "sentence": "yeah.",
+                "source": "ES2003c.D.argumentstructs.Erik.4",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 6,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 218.4,
+                    "end_time": 218.83,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 219.48,
+                    "end_time": 231.53,
+                    "sentence": "Um the bat uh the battery for a a watch wouldn't require a lot of power, would be my one query. Is a kinetic one going to be able to supply enough power ?",
+                    "source": "ES2003c.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.2",
+                        "ES2003c.C.argumentstructs.Erik.1",
+                        "ES2003c.A.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 232.63,
+                    "end_time": 234.77,
+                    "sentence": "There's also a watch moves around a great deal more.",
+                    "source": "ES2003c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 232.72,
+                    "end_time": 233.18,
+                    "sentence": "Do you think ?",
+                    "source": "ES2003c.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.2",
+                        "ES2003c.D.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 236.02,
+                    "end_time": 238.74,
+                    "sentence": "Yeah, I don't think it would.",
+                    "source": "ES2003c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 236.16,
+                    "end_time": 236.78,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 241.56,
+                    "end_time": 243.9,
+                    "sentence": "And solar cells, I dunno about that.",
+                    "source": "ES2003c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.3"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 17):\n- AE_ID: ES2003c.C.argumentstructs.Erik.3\n- Speaker: C\n- Sentence: \"yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.D.argumentstructs.Erik.2 (Index: 6, Speaker: D): \"Yeah.\"\nAE_ID ES2003c.B.argumentstructs.Erik.3 (Index: 7, Speaker: B): \"Um the bat uh the battery for a a watch wouldn't require a lot of power, would be my one query. Is a kinetic one going to be able to supply enough power ?\"\nAE_ID ES2003c.A.argumentstructs.Erik.1 (Index: 9, Speaker: A): \"There's also a watch moves around a great deal more.\"\nAE_ID ES2003c.B.argumentstructs.Erik.4 (Index: 10, Speaker: B): \"Do you think ?\"\nAE_ID ES2003c.D.argumentstructs.Erik.3 (Index: 13, Speaker: D): \"Yeah, I don't think it would.\"\nAE_ID ES2003c.C.argumentstructs.Erik.2 (Index: 14, Speaker: C): \"Yeah.\"\nAE_ID ES2003c.D.argumentstructs.Erik.4 (Index: 16, Speaker: D): \"And solar cells, I dunno about that.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.D.argumentstructs.Erik.3",
+            "ans": "ES2003c.D.argumentstructs.Erik.4",
+            "judgement": false
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 19,
+                "ae_id": "ES2003c.D.argumentstructs.Erik.5",
+                "speaker": "D",
+                "start_time": 247.99,
+                "end_time": 251.15,
+                "sentence": "We should probably just use conventional batteries.",
+                "source": "ES2003c.D.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2003c.D.argumentstructs.Erik.6",
+                    "ES2003c.B.argumentstructs.Erik.5"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 7,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 219.48,
+                    "end_time": 231.53,
+                    "sentence": "Um the bat uh the battery for a a watch wouldn't require a lot of power, would be my one query. Is a kinetic one going to be able to supply enough power ?",
+                    "source": "ES2003c.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.2",
+                        "ES2003c.C.argumentstructs.Erik.1",
+                        "ES2003c.A.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 232.63,
+                    "end_time": 234.77,
+                    "sentence": "There's also a watch moves around a great deal more.",
+                    "source": "ES2003c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 232.72,
+                    "end_time": 233.18,
+                    "sentence": "Do you think ?",
+                    "source": "ES2003c.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.2",
+                        "ES2003c.D.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 236.02,
+                    "end_time": 238.74,
+                    "sentence": "Yeah, I don't think it would.",
+                    "source": "ES2003c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 236.16,
+                    "end_time": 236.78,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 241.56,
+                    "end_time": 243.9,
+                    "sentence": "And solar cells, I dunno about that.",
+                    "source": "ES2003c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 245.15,
+                    "end_time": 245.31,
+                    "sentence": "yeah.",
+                    "source": "ES2003c.D.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 19):\n- AE_ID: ES2003c.D.argumentstructs.Erik.5\n- Speaker: D\n- Sentence: \"We should probably just use conventional batteries.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.B.argumentstructs.Erik.3 (Index: 7, Speaker: B): \"Um the bat uh the battery for a a watch wouldn't require a lot of power, would be my one query. Is a kinetic one going to be able to supply enough power ?\"\nAE_ID ES2003c.A.argumentstructs.Erik.1 (Index: 9, Speaker: A): \"There's also a watch moves around a great deal more.\"\nAE_ID ES2003c.B.argumentstructs.Erik.4 (Index: 10, Speaker: B): \"Do you think ?\"\nAE_ID ES2003c.D.argumentstructs.Erik.3 (Index: 13, Speaker: D): \"Yeah, I don't think it would.\"\nAE_ID ES2003c.C.argumentstructs.Erik.2 (Index: 14, Speaker: C): \"Yeah.\"\nAE_ID ES2003c.D.argumentstructs.Erik.4 (Index: 16, Speaker: D): \"And solar cells, I dunno about that.\"\nAE_ID ES2003c.C.argumentstructs.Erik.3 (Index: 17, Speaker: C): \"yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.D.argumentstructs.Erik.4",
+            "ans": "ES2003c.D.argumentstructs.Erik.1",
+            "judgement": false
+        },
+        {
+            "turn_number": 13,
+            "current_node": {
+                "index": 21,
+                "ae_id": "ES2003c.D.argumentstructs.Erik.6",
+                "speaker": "D",
+                "start_time": 253.84,
+                "end_time": 255.36,
+                "sentence": "just like in usual remote controls.",
+                "source": "ES2003c.D.argumentstructs.Erik.5",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 9,
+                    "ae_id": "ES2003c.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 232.63,
+                    "end_time": 234.77,
+                    "sentence": "There's also a watch moves around a great deal more.",
+                    "source": "ES2003c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003c.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 232.72,
+                    "end_time": 233.18,
+                    "sentence": "Do you think ?",
+                    "source": "ES2003c.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.2",
+                        "ES2003c.D.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 236.02,
+                    "end_time": 238.74,
+                    "sentence": "Yeah, I don't think it would.",
+                    "source": "ES2003c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 236.16,
+                    "end_time": 236.78,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 241.56,
+                    "end_time": 243.9,
+                    "sentence": "And solar cells, I dunno about that.",
+                    "source": "ES2003c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 245.15,
+                    "end_time": 245.31,
+                    "sentence": "yeah.",
+                    "source": "ES2003c.D.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 247.99,
+                    "end_time": 251.15,
+                    "sentence": "We should probably just use conventional batteries.",
+                    "source": "ES2003c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.6",
+                        "ES2003c.B.argumentstructs.Erik.5"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 21):\n- AE_ID: ES2003c.D.argumentstructs.Erik.6\n- Speaker: D\n- Sentence: \"just like in usual remote controls.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.A.argumentstructs.Erik.1 (Index: 9, Speaker: A): \"There's also a watch moves around a great deal more.\"\nAE_ID ES2003c.B.argumentstructs.Erik.4 (Index: 10, Speaker: B): \"Do you think ?\"\nAE_ID ES2003c.D.argumentstructs.Erik.3 (Index: 13, Speaker: D): \"Yeah, I don't think it would.\"\nAE_ID ES2003c.C.argumentstructs.Erik.2 (Index: 14, Speaker: C): \"Yeah.\"\nAE_ID ES2003c.D.argumentstructs.Erik.4 (Index: 16, Speaker: D): \"And solar cells, I dunno about that.\"\nAE_ID ES2003c.C.argumentstructs.Erik.3 (Index: 17, Speaker: C): \"yeah.\"\nAE_ID ES2003c.D.argumentstructs.Erik.5 (Index: 19, Speaker: D): \"We should probably just use conventional batteries.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.D.argumentstructs.Erik.5",
+            "ans": "ES2003c.D.argumentstructs.Erik.5",
+            "judgement": true
+        },
+        {
+            "turn_number": 14,
+            "current_node": {
+                "index": 22,
+                "ae_id": "ES2003c.B.argumentstructs.Erik.5",
+                "speaker": "B",
+                "start_time": 256.16,
+                "end_time": 259.54,
+                "sentence": "Which I suppose as well would allow us to go off the shelf again, you'd say ?",
+                "source": "ES2003c.D.argumentstructs.Erik.5",
+                "targets": [
+                    "ES2003c.D.argumentstructs.Erik.7"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 10,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 232.72,
+                    "end_time": 233.18,
+                    "sentence": "Do you think ?",
+                    "source": "ES2003c.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.2",
+                        "ES2003c.D.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 236.02,
+                    "end_time": 238.74,
+                    "sentence": "Yeah, I don't think it would.",
+                    "source": "ES2003c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 236.16,
+                    "end_time": 236.78,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 241.56,
+                    "end_time": 243.9,
+                    "sentence": "And solar cells, I dunno about that.",
+                    "source": "ES2003c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 245.15,
+                    "end_time": 245.31,
+                    "sentence": "yeah.",
+                    "source": "ES2003c.D.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 247.99,
+                    "end_time": 251.15,
+                    "sentence": "We should probably just use conventional batteries.",
+                    "source": "ES2003c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.6",
+                        "ES2003c.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.6",
+                    "speaker": "D",
+                    "start_time": 253.84,
+                    "end_time": 255.36,
+                    "sentence": "just like in usual remote controls.",
+                    "source": "ES2003c.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 22):\n- AE_ID: ES2003c.B.argumentstructs.Erik.5\n- Speaker: B\n- Sentence: \"Which I suppose as well would allow us to go off the shelf again, you'd say ?\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.B.argumentstructs.Erik.4 (Index: 10, Speaker: B): \"Do you think ?\"\nAE_ID ES2003c.D.argumentstructs.Erik.3 (Index: 13, Speaker: D): \"Yeah, I don't think it would.\"\nAE_ID ES2003c.C.argumentstructs.Erik.2 (Index: 14, Speaker: C): \"Yeah.\"\nAE_ID ES2003c.D.argumentstructs.Erik.4 (Index: 16, Speaker: D): \"And solar cells, I dunno about that.\"\nAE_ID ES2003c.C.argumentstructs.Erik.3 (Index: 17, Speaker: C): \"yeah.\"\nAE_ID ES2003c.D.argumentstructs.Erik.5 (Index: 19, Speaker: D): \"We should probably just use conventional batteries.\"\nAE_ID ES2003c.D.argumentstructs.Erik.6 (Index: 21, Speaker: D): \"just like in usual remote controls.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.D.argumentstructs.Erik.5",
+            "ans": "ES2003c.D.argumentstructs.Erik.5",
+            "judgement": true
+        },
+        {
+            "turn_number": 15,
+            "current_node": {
+                "index": 24,
+                "ae_id": "ES2003c.D.argumentstructs.Erik.7",
+                "speaker": "D",
+                "start_time": 259.56,
+                "end_time": 259.79,
+                "sentence": "Yeah.",
+                "source": "ES2003c.B.argumentstructs.Erik.5",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 13,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 236.02,
+                    "end_time": 238.74,
+                    "sentence": "Yeah, I don't think it would.",
+                    "source": "ES2003c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 236.16,
+                    "end_time": 236.78,
+                    "sentence": "Yeah.",
+                    "source": "ES2003c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 241.56,
+                    "end_time": 243.9,
+                    "sentence": "And solar cells, I dunno about that.",
+                    "source": "ES2003c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003c.C.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2003c.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 245.15,
+                    "end_time": 245.31,
+                    "sentence": "yeah.",
+                    "source": "ES2003c.D.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 247.99,
+                    "end_time": 251.15,
+                    "sentence": "We should probably just use conventional batteries.",
+                    "source": "ES2003c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.6",
+                        "ES2003c.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2003c.D.argumentstructs.Erik.6",
+                    "speaker": "D",
+                    "start_time": 253.84,
+                    "end_time": 255.36,
+                    "sentence": "just like in usual remote controls.",
+                    "source": "ES2003c.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2003c.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 256.16,
+                    "end_time": 259.54,
+                    "sentence": "Which I suppose as well would allow us to go off the shelf again, you'd say ?",
+                    "source": "ES2003c.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2003c.D.argumentstructs.Erik.7"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 24):\n- AE_ID: ES2003c.D.argumentstructs.Erik.7\n- Speaker: D\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2003c.D.argumentstructs.Erik.3 (Index: 13, Speaker: D): \"Yeah, I don't think it would.\"\nAE_ID ES2003c.C.argumentstructs.Erik.2 (Index: 14, Speaker: C): \"Yeah.\"\nAE_ID ES2003c.D.argumentstructs.Erik.4 (Index: 16, Speaker: D): \"And solar cells, I dunno about that.\"\nAE_ID ES2003c.C.argumentstructs.Erik.3 (Index: 17, Speaker: C): \"yeah.\"\nAE_ID ES2003c.D.argumentstructs.Erik.5 (Index: 19, Speaker: D): \"We should probably just use conventional batteries.\"\nAE_ID ES2003c.D.argumentstructs.Erik.6 (Index: 21, Speaker: D): \"just like in usual remote controls.\"\nAE_ID ES2003c.B.argumentstructs.Erik.5 (Index: 22, Speaker: B): \"Which I suppose as well would allow us to go off the shelf again, you'd say ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003c.D.argumentstructs.Erik.5",
+            "ans": "ES2003c.B.argumentstructs.Erik.5",
+            "judgement": false
+        }
+    ]
+}

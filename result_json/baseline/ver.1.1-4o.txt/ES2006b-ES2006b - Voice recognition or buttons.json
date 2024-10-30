@@ -1,0 +1,918 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2006b-ES2006b - Voice recognition or buttons.csv",
+    "use_model": "gpt-4o",
+    "use_method": "baseline",
+    "template": "ver.1.1.txt",
+    "rate": 0.5454545454545454,
+    "total_node_count": 18,
+    "removed_node_count": 6,
+    "removed_node_list": [
+        {
+            "index": 3,
+            "ae_id": "ES2006b.A.argumentstructs.21",
+            "speaker": "A",
+            "start_time": 1849.04,
+            "end_time": 1849.33,
+            "sentence": "Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 4,
+            "ae_id": "ES2006b.C.argumentstructs.25",
+            "speaker": "C",
+            "start_time": 1849.36,
+            "end_time": 1874.43,
+            "sentence": "Mm. Uh-huh. Uh-huh.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 10,
+            "ae_id": "ES2006b.C.argumentstructs.26",
+            "speaker": "C",
+            "start_time": 1885.53,
+            "end_time": 1885.81,
+            "sentence": "Yeah.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 11,
+            "ae_id": "ES2006b.A.argumentstructs.22",
+            "speaker": "A",
+            "start_time": 1885.6,
+            "end_time": 1886.14,
+            "sentence": "Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 15,
+            "ae_id": "ES2006b.A.argumentstructs.23",
+            "speaker": "A",
+            "start_time": 1897.66,
+            "end_time": 1897.98,
+            "sentence": "Right.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 16,
+            "ae_id": "ES2006b.C.argumentstructs.27",
+            "speaker": "C",
+            "start_time": 1898.37,
+            "end_time": 1898.92,
+            "sentence": "Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 0,
+                "ae_id": "ES2006b.D.argumentstructs.Erik.8",
+                "speaker": "D",
+                "start_time": 1829.32,
+                "end_time": 1849.34,
+                "sentence": "Yeah, w well now the v the voice recognition if if it works wonderfully w we could possibly do away with all buttons, but I think this is not really the right moment yet, because people are just so used to buttons and um, yeah it's it's kind of safer, so we we need both, so the voice recognition would be just an extra, it wouldn't really reduce the size of the remote.",
+                "source": "NONE",
+                "targets": [
+                    "ES2006b.C.argumentstructs.Erik.11",
+                    "ES2006b.C.argumentstructs.Erik.12",
+                    "ES2006b.A.argumentstructs.Erik.12"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "NONE",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2006b.C.argumentstructs.Erik.11",
+                "speaker": "C",
+                "start_time": 1840.07,
+                "end_time": 1842.83,
+                "sentence": "Yeah, I think we need both.",
+                "source": "ES2006b.D.argumentstructs.Erik.8",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 1829.32,
+                    "end_time": 1849.34,
+                    "sentence": "Yeah, w well now the v the voice recognition if if it works wonderfully w we could possibly do away with all buttons, but I think this is not really the right moment yet, because people are just so used to buttons and um, yeah it's it's kind of safer, so we we need both, so the voice recognition would be just an extra, it wouldn't really reduce the size of the remote.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.11",
+                        "ES2006b.C.argumentstructs.Erik.12",
+                        "ES2006b.A.argumentstructs.Erik.12"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 1):\n- AE_ID: ES2006b.C.argumentstructs.Erik.11\n- Speaker: C\n- Sentence: \"Yeah, I think we need both.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.D.argumentstructs.Erik.8 (Index: 0, Speaker: D): \"Yeah, w well now the v the voice recognition if if it works wonderfully w we could possibly do away with all buttons, but I think this is not really the right moment yet, because people are just so used to buttons and um, yeah it's it's kind of safer, so we we need both, so the voice recognition would be just an extra, it wouldn't really reduce the size of the remote.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.D.argumentstructs.Erik.8",
+            "ans": "ES2006b.D.argumentstructs.Erik.8",
+            "judgement": true
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 2,
+                "ae_id": "ES2006b.C.argumentstructs.Erik.12",
+                "speaker": "C",
+                "start_time": 1847.49,
+                "end_time": 1847.76,
+                "sentence": "Yeah.",
+                "source": "ES2006b.D.argumentstructs.Erik.8",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 1829.32,
+                    "end_time": 1849.34,
+                    "sentence": "Yeah, w well now the v the voice recognition if if it works wonderfully w we could possibly do away with all buttons, but I think this is not really the right moment yet, because people are just so used to buttons and um, yeah it's it's kind of safer, so we we need both, so the voice recognition would be just an extra, it wouldn't really reduce the size of the remote.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.11",
+                        "ES2006b.C.argumentstructs.Erik.12",
+                        "ES2006b.A.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.11",
+                    "speaker": "C",
+                    "start_time": 1840.07,
+                    "end_time": 1842.83,
+                    "sentence": "Yeah, I think we need both.",
+                    "source": "ES2006b.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 2):\n- AE_ID: ES2006b.C.argumentstructs.Erik.12\n- Speaker: C\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.D.argumentstructs.Erik.8 (Index: 0, Speaker: D): \"Yeah, w well now the v the voice recognition if if it works wonderfully w we could possibly do away with all buttons, but I think this is not really the right moment yet, because people are just so used to buttons and um, yeah it's it's kind of safer, so we we need both, so the voice recognition would be just an extra, it wouldn't really reduce the size of the remote.\"\nAE_ID ES2006b.C.argumentstructs.Erik.11 (Index: 1, Speaker: C): \"Yeah, I think we need both.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.C.argumentstructs.Erik.11",
+            "ans": "ES2006b.D.argumentstructs.Erik.8",
+            "judgement": false
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 5,
+                "ae_id": "ES2006b.A.argumentstructs.Erik.12",
+                "speaker": "A",
+                "start_time": 1850.65,
+                "end_time": 1880.78,
+                "sentence": "What wh uh  what I was thinking is that there is this uh separation between what the channels are on T_V_ and how they are numbered on the remote control. If we can do with  away with that, our product can be really popular uh in the sense that uh a person can say, I want to watch uh I_T_V_ one instead of saying that I want to go onto channel number forty five. Yeah, so if uh if something like that can be incorporated,  some kind of",
+                "source": "ES2006b.D.argumentstructs.Erik.8",
+                "targets": [
+                    "ES2006b.B.argumentstructs.Erik.13",
+                    "ES2006b.C.argumentstructs.Erik.13"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 1829.32,
+                    "end_time": 1849.34,
+                    "sentence": "Yeah, w well now the v the voice recognition if if it works wonderfully w we could possibly do away with all buttons, but I think this is not really the right moment yet, because people are just so used to buttons and um, yeah it's it's kind of safer, so we we need both, so the voice recognition would be just an extra, it wouldn't really reduce the size of the remote.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.11",
+                        "ES2006b.C.argumentstructs.Erik.12",
+                        "ES2006b.A.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.11",
+                    "speaker": "C",
+                    "start_time": 1840.07,
+                    "end_time": 1842.83,
+                    "sentence": "Yeah, I think we need both.",
+                    "source": "ES2006b.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.12",
+                    "speaker": "C",
+                    "start_time": 1847.49,
+                    "end_time": 1847.76,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 5):\n- AE_ID: ES2006b.A.argumentstructs.Erik.12\n- Speaker: A\n- Sentence: \"What wh uh  what I was thinking is that there is this uh separation between what the channels are on T_V_ and how they are numbered on the remote control. If we can do with  away with that, our product can be really popular uh in the sense that uh a person can say, I want to watch uh I_T_V_ one instead of saying that I want to go onto channel number forty five. Yeah, so if uh if something like that can be incorporated,  some kind of\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.D.argumentstructs.Erik.8 (Index: 0, Speaker: D): \"Yeah, w well now the v the voice recognition if if it works wonderfully w we could possibly do away with all buttons, but I think this is not really the right moment yet, because people are just so used to buttons and um, yeah it's it's kind of safer, so we we need both, so the voice recognition would be just an extra, it wouldn't really reduce the size of the remote.\"\nAE_ID ES2006b.C.argumentstructs.Erik.11 (Index: 1, Speaker: C): \"Yeah, I think we need both.\"\nAE_ID ES2006b.C.argumentstructs.Erik.12 (Index: 2, Speaker: C): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.D.argumentstructs.Erik.8",
+            "ans": "ES2006b.D.argumentstructs.Erik.8",
+            "judgement": true
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 6,
+                "ae_id": "ES2006b.B.argumentstructs.Erik.13",
+                "speaker": "B",
+                "start_time": 1873.99,
+                "end_time": 1875.92,
+                "sentence": "Yeah, that would be another way to do it.",
+                "source": "ES2006b.A.argumentstructs.Erik.12",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 1829.32,
+                    "end_time": 1849.34,
+                    "sentence": "Yeah, w well now the v the voice recognition if if it works wonderfully w we could possibly do away with all buttons, but I think this is not really the right moment yet, because people are just so used to buttons and um, yeah it's it's kind of safer, so we we need both, so the voice recognition would be just an extra, it wouldn't really reduce the size of the remote.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.11",
+                        "ES2006b.C.argumentstructs.Erik.12",
+                        "ES2006b.A.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.11",
+                    "speaker": "C",
+                    "start_time": 1840.07,
+                    "end_time": 1842.83,
+                    "sentence": "Yeah, I think we need both.",
+                    "source": "ES2006b.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.12",
+                    "speaker": "C",
+                    "start_time": 1847.49,
+                    "end_time": 1847.76,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.12",
+                    "speaker": "A",
+                    "start_time": 1850.65,
+                    "end_time": 1880.78,
+                    "sentence": "What wh uh  what I was thinking is that there is this uh separation between what the channels are on T_V_ and how they are numbered on the remote control. If we can do with  away with that, our product can be really popular uh in the sense that uh a person can say, I want to watch uh I_T_V_ one instead of saying that I want to go onto channel number forty five. Yeah, so if uh if something like that can be incorporated,  some kind of",
+                    "source": "ES2006b.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.13",
+                        "ES2006b.C.argumentstructs.Erik.13"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 6):\n- AE_ID: ES2006b.B.argumentstructs.Erik.13\n- Speaker: B\n- Sentence: \"Yeah, that would be another way to do it.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.D.argumentstructs.Erik.8 (Index: 0, Speaker: D): \"Yeah, w well now the v the voice recognition if if it works wonderfully w we could possibly do away with all buttons, but I think this is not really the right moment yet, because people are just so used to buttons and um, yeah it's it's kind of safer, so we we need both, so the voice recognition would be just an extra, it wouldn't really reduce the size of the remote.\"\nAE_ID ES2006b.C.argumentstructs.Erik.11 (Index: 1, Speaker: C): \"Yeah, I think we need both.\"\nAE_ID ES2006b.C.argumentstructs.Erik.12 (Index: 2, Speaker: C): \"Yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.12 (Index: 5, Speaker: A): \"What wh uh  what I was thinking is that there is this uh separation between what the channels are on T_V_ and how they are numbered on the remote control. If we can do with  away with that, our product can be really popular uh in the sense that uh a person can say, I want to watch uh I_T_V_ one instead of saying that I want to go onto channel number forty five. Yeah, so if uh if something like that can be incorporated,  some kind of\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.A.argumentstructs.Erik.12",
+            "ans": "ES2006b.A.argumentstructs.Erik.12",
+            "judgement": true
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 7,
+                "ae_id": "ES2006b.C.argumentstructs.Erik.13",
+                "speaker": "C",
+                "start_time": 1877.35,
+                "end_time": 1880.77,
+                "sentence": "So that if that was in the the voice recognition, that would be great.",
+                "source": "ES2006b.A.argumentstructs.Erik.12",
+                "targets": [
+                    "ES2006b.B.argumentstructs.Erik.14"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 1829.32,
+                    "end_time": 1849.34,
+                    "sentence": "Yeah, w well now the v the voice recognition if if it works wonderfully w we could possibly do away with all buttons, but I think this is not really the right moment yet, because people are just so used to buttons and um, yeah it's it's kind of safer, so we we need both, so the voice recognition would be just an extra, it wouldn't really reduce the size of the remote.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.11",
+                        "ES2006b.C.argumentstructs.Erik.12",
+                        "ES2006b.A.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.11",
+                    "speaker": "C",
+                    "start_time": 1840.07,
+                    "end_time": 1842.83,
+                    "sentence": "Yeah, I think we need both.",
+                    "source": "ES2006b.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.12",
+                    "speaker": "C",
+                    "start_time": 1847.49,
+                    "end_time": 1847.76,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.12",
+                    "speaker": "A",
+                    "start_time": 1850.65,
+                    "end_time": 1880.78,
+                    "sentence": "What wh uh  what I was thinking is that there is this uh separation between what the channels are on T_V_ and how they are numbered on the remote control. If we can do with  away with that, our product can be really popular uh in the sense that uh a person can say, I want to watch uh I_T_V_ one instead of saying that I want to go onto channel number forty five. Yeah, so if uh if something like that can be incorporated,  some kind of",
+                    "source": "ES2006b.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.13",
+                        "ES2006b.C.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 1873.99,
+                    "end_time": 1875.92,
+                    "sentence": "Yeah, that would be another way to do it.",
+                    "source": "ES2006b.A.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 7):\n- AE_ID: ES2006b.C.argumentstructs.Erik.13\n- Speaker: C\n- Sentence: \"So that if that was in the the voice recognition, that would be great.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.D.argumentstructs.Erik.8 (Index: 0, Speaker: D): \"Yeah, w well now the v the voice recognition if if it works wonderfully w we could possibly do away with all buttons, but I think this is not really the right moment yet, because people are just so used to buttons and um, yeah it's it's kind of safer, so we we need both, so the voice recognition would be just an extra, it wouldn't really reduce the size of the remote.\"\nAE_ID ES2006b.C.argumentstructs.Erik.11 (Index: 1, Speaker: C): \"Yeah, I think we need both.\"\nAE_ID ES2006b.C.argumentstructs.Erik.12 (Index: 2, Speaker: C): \"Yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.12 (Index: 5, Speaker: A): \"What wh uh  what I was thinking is that there is this uh separation between what the channels are on T_V_ and how they are numbered on the remote control. If we can do with  away with that, our product can be really popular uh in the sense that uh a person can say, I want to watch uh I_T_V_ one instead of saying that I want to go onto channel number forty five. Yeah, so if uh if something like that can be incorporated,  some kind of\"\nAE_ID ES2006b.B.argumentstructs.Erik.13 (Index: 6, Speaker: B): \"Yeah, that would be another way to do it.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.D.argumentstructs.Erik.8",
+            "ans": "ES2006b.A.argumentstructs.Erik.12",
+            "judgement": false
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 8,
+                "ae_id": "ES2006b.B.argumentstructs.Erik.14",
+                "speaker": "B",
+                "start_time": 1880.15,
+                "end_time": 1893.58,
+                "sentence": "Yeah, but then the code word would be even more important, because  I mean Sky advertise on every channel, don't they, you know, so then it would be  you'd be watching Charmed, and then the Sky advert would come on and it would change to Sky.",
+                "source": "ES2006b.C.argumentstructs.Erik.13",
+                "targets": [
+                    "ES2006b.C.argumentstructs.Erik.14",
+                    "ES2006b.C.argumentstructs.Erik.15",
+                    "ES2006b.B.argumentstructs.Erik.15",
+                    "ES2006b.A.argumentstructs.Erik.13",
+                    "ES2006b.C.argumentstructs.Erik.16"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.11",
+                    "speaker": "C",
+                    "start_time": 1840.07,
+                    "end_time": 1842.83,
+                    "sentence": "Yeah, I think we need both.",
+                    "source": "ES2006b.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.12",
+                    "speaker": "C",
+                    "start_time": 1847.49,
+                    "end_time": 1847.76,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.12",
+                    "speaker": "A",
+                    "start_time": 1850.65,
+                    "end_time": 1880.78,
+                    "sentence": "What wh uh  what I was thinking is that there is this uh separation between what the channels are on T_V_ and how they are numbered on the remote control. If we can do with  away with that, our product can be really popular uh in the sense that uh a person can say, I want to watch uh I_T_V_ one instead of saying that I want to go onto channel number forty five. Yeah, so if uh if something like that can be incorporated,  some kind of",
+                    "source": "ES2006b.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.13",
+                        "ES2006b.C.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 1873.99,
+                    "end_time": 1875.92,
+                    "sentence": "Yeah, that would be another way to do it.",
+                    "source": "ES2006b.A.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.13",
+                    "speaker": "C",
+                    "start_time": 1877.35,
+                    "end_time": 1880.77,
+                    "sentence": "So that if that was in the the voice recognition, that would be great.",
+                    "source": "ES2006b.A.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.14"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 8):\n- AE_ID: ES2006b.B.argumentstructs.Erik.14\n- Speaker: B\n- Sentence: \"Yeah, but then the code word would be even more important, because  I mean Sky advertise on every channel, don't they, you know, so then it would be  you'd be watching Charmed, and then the Sky advert would come on and it would change to Sky.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.C.argumentstructs.Erik.11 (Index: 1, Speaker: C): \"Yeah, I think we need both.\"\nAE_ID ES2006b.C.argumentstructs.Erik.12 (Index: 2, Speaker: C): \"Yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.12 (Index: 5, Speaker: A): \"What wh uh  what I was thinking is that there is this uh separation between what the channels are on T_V_ and how they are numbered on the remote control. If we can do with  away with that, our product can be really popular uh in the sense that uh a person can say, I want to watch uh I_T_V_ one instead of saying that I want to go onto channel number forty five. Yeah, so if uh if something like that can be incorporated,  some kind of\"\nAE_ID ES2006b.B.argumentstructs.Erik.13 (Index: 6, Speaker: B): \"Yeah, that would be another way to do it.\"\nAE_ID ES2006b.C.argumentstructs.Erik.13 (Index: 7, Speaker: C): \"So that if that was in the the voice recognition, that would be great.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.B.argumentstructs.Erik.13",
+            "ans": "ES2006b.C.argumentstructs.Erik.13",
+            "judgement": false
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 9,
+                "ae_id": "ES2006b.C.argumentstructs.Erik.14",
+                "speaker": "C",
+                "start_time": 1883.69,
+                "end_time": 1884.03,
+                "sentence": "Yeah.",
+                "source": "ES2006b.B.argumentstructs.Erik.14",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 2,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.12",
+                    "speaker": "C",
+                    "start_time": 1847.49,
+                    "end_time": 1847.76,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.12",
+                    "speaker": "A",
+                    "start_time": 1850.65,
+                    "end_time": 1880.78,
+                    "sentence": "What wh uh  what I was thinking is that there is this uh separation between what the channels are on T_V_ and how they are numbered on the remote control. If we can do with  away with that, our product can be really popular uh in the sense that uh a person can say, I want to watch uh I_T_V_ one instead of saying that I want to go onto channel number forty five. Yeah, so if uh if something like that can be incorporated,  some kind of",
+                    "source": "ES2006b.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.13",
+                        "ES2006b.C.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 1873.99,
+                    "end_time": 1875.92,
+                    "sentence": "Yeah, that would be another way to do it.",
+                    "source": "ES2006b.A.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.13",
+                    "speaker": "C",
+                    "start_time": 1877.35,
+                    "end_time": 1880.77,
+                    "sentence": "So that if that was in the the voice recognition, that would be great.",
+                    "source": "ES2006b.A.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.14",
+                    "speaker": "B",
+                    "start_time": 1880.15,
+                    "end_time": 1893.58,
+                    "sentence": "Yeah, but then the code word would be even more important, because  I mean Sky advertise on every channel, don't they, you know, so then it would be  you'd be watching Charmed, and then the Sky advert would come on and it would change to Sky.",
+                    "source": "ES2006b.C.argumentstructs.Erik.13",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.14",
+                        "ES2006b.C.argumentstructs.Erik.15",
+                        "ES2006b.B.argumentstructs.Erik.15",
+                        "ES2006b.A.argumentstructs.Erik.13",
+                        "ES2006b.C.argumentstructs.Erik.16"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 9):\n- AE_ID: ES2006b.C.argumentstructs.Erik.14\n- Speaker: C\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.C.argumentstructs.Erik.12 (Index: 2, Speaker: C): \"Yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.12 (Index: 5, Speaker: A): \"What wh uh  what I was thinking is that there is this uh separation between what the channels are on T_V_ and how they are numbered on the remote control. If we can do with  away with that, our product can be really popular uh in the sense that uh a person can say, I want to watch uh I_T_V_ one instead of saying that I want to go onto channel number forty five. Yeah, so if uh if something like that can be incorporated,  some kind of\"\nAE_ID ES2006b.B.argumentstructs.Erik.13 (Index: 6, Speaker: B): \"Yeah, that would be another way to do it.\"\nAE_ID ES2006b.C.argumentstructs.Erik.13 (Index: 7, Speaker: C): \"So that if that was in the the voice recognition, that would be great.\"\nAE_ID ES2006b.B.argumentstructs.Erik.14 (Index: 8, Speaker: B): \"Yeah, but then the code word would be even more important, because  I mean Sky advertise on every channel, don't they, you know, so then it would be  you'd be watching Charmed, and then the Sky advert would come on and it would change to Sky.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.B.argumentstructs.Erik.14",
+            "ans": "ES2006b.B.argumentstructs.Erik.14",
+            "judgement": true
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 12,
+                "ae_id": "ES2006b.C.argumentstructs.Erik.15",
+                "speaker": "C",
+                "start_time": 1893.14,
+                "end_time": 1895.44,
+                "sentence": "Watch Sky and  yeah.",
+                "source": "ES2006b.B.argumentstructs.Erik.14",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 5,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.12",
+                    "speaker": "A",
+                    "start_time": 1850.65,
+                    "end_time": 1880.78,
+                    "sentence": "What wh uh  what I was thinking is that there is this uh separation between what the channels are on T_V_ and how they are numbered on the remote control. If we can do with  away with that, our product can be really popular uh in the sense that uh a person can say, I want to watch uh I_T_V_ one instead of saying that I want to go onto channel number forty five. Yeah, so if uh if something like that can be incorporated,  some kind of",
+                    "source": "ES2006b.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.13",
+                        "ES2006b.C.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 1873.99,
+                    "end_time": 1875.92,
+                    "sentence": "Yeah, that would be another way to do it.",
+                    "source": "ES2006b.A.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.13",
+                    "speaker": "C",
+                    "start_time": 1877.35,
+                    "end_time": 1880.77,
+                    "sentence": "So that if that was in the the voice recognition, that would be great.",
+                    "source": "ES2006b.A.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.14",
+                    "speaker": "B",
+                    "start_time": 1880.15,
+                    "end_time": 1893.58,
+                    "sentence": "Yeah, but then the code word would be even more important, because  I mean Sky advertise on every channel, don't they, you know, so then it would be  you'd be watching Charmed, and then the Sky advert would come on and it would change to Sky.",
+                    "source": "ES2006b.C.argumentstructs.Erik.13",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.14",
+                        "ES2006b.C.argumentstructs.Erik.15",
+                        "ES2006b.B.argumentstructs.Erik.15",
+                        "ES2006b.A.argumentstructs.Erik.13",
+                        "ES2006b.C.argumentstructs.Erik.16"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.14",
+                    "speaker": "C",
+                    "start_time": 1883.69,
+                    "end_time": 1884.03,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 12):\n- AE_ID: ES2006b.C.argumentstructs.Erik.15\n- Speaker: C\n- Sentence: \"Watch Sky and  yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.A.argumentstructs.Erik.12 (Index: 5, Speaker: A): \"What wh uh  what I was thinking is that there is this uh separation between what the channels are on T_V_ and how they are numbered on the remote control. If we can do with  away with that, our product can be really popular uh in the sense that uh a person can say, I want to watch uh I_T_V_ one instead of saying that I want to go onto channel number forty five. Yeah, so if uh if something like that can be incorporated,  some kind of\"\nAE_ID ES2006b.B.argumentstructs.Erik.13 (Index: 6, Speaker: B): \"Yeah, that would be another way to do it.\"\nAE_ID ES2006b.C.argumentstructs.Erik.13 (Index: 7, Speaker: C): \"So that if that was in the the voice recognition, that would be great.\"\nAE_ID ES2006b.B.argumentstructs.Erik.14 (Index: 8, Speaker: B): \"Yeah, but then the code word would be even more important, because  I mean Sky advertise on every channel, don't they, you know, so then it would be  you'd be watching Charmed, and then the Sky advert would come on and it would change to Sky.\"\nAE_ID ES2006b.C.argumentstructs.Erik.14 (Index: 9, Speaker: C): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.B.argumentstructs.Erik.14",
+            "ans": "ES2006b.B.argumentstructs.Erik.14",
+            "judgement": true
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 13,
+                "ae_id": "ES2006b.B.argumentstructs.Erik.15",
+                "speaker": "B",
+                "start_time": 1894.76,
+                "end_time": 1897.26,
+                "sentence": "Yeah, yeah, and that would be really annoying.",
+                "source": "ES2006b.B.argumentstructs.Erik.14",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 6,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 1873.99,
+                    "end_time": 1875.92,
+                    "sentence": "Yeah, that would be another way to do it.",
+                    "source": "ES2006b.A.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.13",
+                    "speaker": "C",
+                    "start_time": 1877.35,
+                    "end_time": 1880.77,
+                    "sentence": "So that if that was in the the voice recognition, that would be great.",
+                    "source": "ES2006b.A.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.14",
+                    "speaker": "B",
+                    "start_time": 1880.15,
+                    "end_time": 1893.58,
+                    "sentence": "Yeah, but then the code word would be even more important, because  I mean Sky advertise on every channel, don't they, you know, so then it would be  you'd be watching Charmed, and then the Sky advert would come on and it would change to Sky.",
+                    "source": "ES2006b.C.argumentstructs.Erik.13",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.14",
+                        "ES2006b.C.argumentstructs.Erik.15",
+                        "ES2006b.B.argumentstructs.Erik.15",
+                        "ES2006b.A.argumentstructs.Erik.13",
+                        "ES2006b.C.argumentstructs.Erik.16"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.14",
+                    "speaker": "C",
+                    "start_time": 1883.69,
+                    "end_time": 1884.03,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.15",
+                    "speaker": "C",
+                    "start_time": 1893.14,
+                    "end_time": 1895.44,
+                    "sentence": "Watch Sky and  yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 13):\n- AE_ID: ES2006b.B.argumentstructs.Erik.15\n- Speaker: B\n- Sentence: \"Yeah, yeah, and that would be really annoying.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.B.argumentstructs.Erik.13 (Index: 6, Speaker: B): \"Yeah, that would be another way to do it.\"\nAE_ID ES2006b.C.argumentstructs.Erik.13 (Index: 7, Speaker: C): \"So that if that was in the the voice recognition, that would be great.\"\nAE_ID ES2006b.B.argumentstructs.Erik.14 (Index: 8, Speaker: B): \"Yeah, but then the code word would be even more important, because  I mean Sky advertise on every channel, don't they, you know, so then it would be  you'd be watching Charmed, and then the Sky advert would come on and it would change to Sky.\"\nAE_ID ES2006b.C.argumentstructs.Erik.14 (Index: 9, Speaker: C): \"Yeah.\"\nAE_ID ES2006b.C.argumentstructs.Erik.15 (Index: 12, Speaker: C): \"Watch Sky and  yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.B.argumentstructs.Erik.14",
+            "ans": "ES2006b.B.argumentstructs.Erik.14",
+            "judgement": true
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 14,
+                "ae_id": "ES2006b.A.argumentstructs.Erik.13",
+                "speaker": "A",
+                "start_time": 1894.87,
+                "end_time": 1895.37,
+                "sentence": "Alright.",
+                "source": "ES2006b.B.argumentstructs.Erik.14",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 7,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.13",
+                    "speaker": "C",
+                    "start_time": 1877.35,
+                    "end_time": 1880.77,
+                    "sentence": "So that if that was in the the voice recognition, that would be great.",
+                    "source": "ES2006b.A.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.14",
+                    "speaker": "B",
+                    "start_time": 1880.15,
+                    "end_time": 1893.58,
+                    "sentence": "Yeah, but then the code word would be even more important, because  I mean Sky advertise on every channel, don't they, you know, so then it would be  you'd be watching Charmed, and then the Sky advert would come on and it would change to Sky.",
+                    "source": "ES2006b.C.argumentstructs.Erik.13",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.14",
+                        "ES2006b.C.argumentstructs.Erik.15",
+                        "ES2006b.B.argumentstructs.Erik.15",
+                        "ES2006b.A.argumentstructs.Erik.13",
+                        "ES2006b.C.argumentstructs.Erik.16"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.14",
+                    "speaker": "C",
+                    "start_time": 1883.69,
+                    "end_time": 1884.03,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.15",
+                    "speaker": "C",
+                    "start_time": 1893.14,
+                    "end_time": 1895.44,
+                    "sentence": "Watch Sky and  yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.15",
+                    "speaker": "B",
+                    "start_time": 1894.76,
+                    "end_time": 1897.26,
+                    "sentence": "Yeah, yeah, and that would be really annoying.",
+                    "source": "ES2006b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 14):\n- AE_ID: ES2006b.A.argumentstructs.Erik.13\n- Speaker: A\n- Sentence: \"Alright.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.C.argumentstructs.Erik.13 (Index: 7, Speaker: C): \"So that if that was in the the voice recognition, that would be great.\"\nAE_ID ES2006b.B.argumentstructs.Erik.14 (Index: 8, Speaker: B): \"Yeah, but then the code word would be even more important, because  I mean Sky advertise on every channel, don't they, you know, so then it would be  you'd be watching Charmed, and then the Sky advert would come on and it would change to Sky.\"\nAE_ID ES2006b.C.argumentstructs.Erik.14 (Index: 9, Speaker: C): \"Yeah.\"\nAE_ID ES2006b.C.argumentstructs.Erik.15 (Index: 12, Speaker: C): \"Watch Sky and  yeah.\"\nAE_ID ES2006b.B.argumentstructs.Erik.15 (Index: 13, Speaker: B): \"Yeah, yeah, and that would be really annoying.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.B.argumentstructs.Erik.15",
+            "ans": "ES2006b.B.argumentstructs.Erik.14",
+            "judgement": false
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 17,
+                "ae_id": "ES2006b.C.argumentstructs.Erik.16",
+                "speaker": "C",
+                "start_time": 1900.42,
+                "end_time": 1902.73,
+                "sentence": "But that's definitely a possibility.",
+                "source": "ES2006b.B.argumentstructs.Erik.14",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 8,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.14",
+                    "speaker": "B",
+                    "start_time": 1880.15,
+                    "end_time": 1893.58,
+                    "sentence": "Yeah, but then the code word would be even more important, because  I mean Sky advertise on every channel, don't they, you know, so then it would be  you'd be watching Charmed, and then the Sky advert would come on and it would change to Sky.",
+                    "source": "ES2006b.C.argumentstructs.Erik.13",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.14",
+                        "ES2006b.C.argumentstructs.Erik.15",
+                        "ES2006b.B.argumentstructs.Erik.15",
+                        "ES2006b.A.argumentstructs.Erik.13",
+                        "ES2006b.C.argumentstructs.Erik.16"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.14",
+                    "speaker": "C",
+                    "start_time": 1883.69,
+                    "end_time": 1884.03,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.15",
+                    "speaker": "C",
+                    "start_time": 1893.14,
+                    "end_time": 1895.44,
+                    "sentence": "Watch Sky and  yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.15",
+                    "speaker": "B",
+                    "start_time": 1894.76,
+                    "end_time": 1897.26,
+                    "sentence": "Yeah, yeah, and that would be really annoying.",
+                    "source": "ES2006b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.13",
+                    "speaker": "A",
+                    "start_time": 1894.87,
+                    "end_time": 1895.37,
+                    "sentence": "Alright.",
+                    "source": "ES2006b.B.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 17):\n- AE_ID: ES2006b.C.argumentstructs.Erik.16\n- Speaker: C\n- Sentence: \"But that's definitely a possibility.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.B.argumentstructs.Erik.14 (Index: 8, Speaker: B): \"Yeah, but then the code word would be even more important, because  I mean Sky advertise on every channel, don't they, you know, so then it would be  you'd be watching Charmed, and then the Sky advert would come on and it would change to Sky.\"\nAE_ID ES2006b.C.argumentstructs.Erik.14 (Index: 9, Speaker: C): \"Yeah.\"\nAE_ID ES2006b.C.argumentstructs.Erik.15 (Index: 12, Speaker: C): \"Watch Sky and  yeah.\"\nAE_ID ES2006b.B.argumentstructs.Erik.15 (Index: 13, Speaker: B): \"Yeah, yeah, and that would be really annoying.\"\nAE_ID ES2006b.A.argumentstructs.Erik.13 (Index: 14, Speaker: A): \"Alright.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.B.argumentstructs.Erik.15",
+            "ans": "ES2006b.B.argumentstructs.Erik.14",
+            "judgement": false
+        }
+    ]
+}

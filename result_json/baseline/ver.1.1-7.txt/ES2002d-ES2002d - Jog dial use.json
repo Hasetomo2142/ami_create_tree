@@ -1,0 +1,2032 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2002d-ES2002d - Jog dial use.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "ver.1.1.txt",
+    "rate": 0.55,
+    "total_node_count": 29,
+    "removed_node_count": 8,
+    "removed_node_list": [
+        {
+            "index": 1,
+            "ae_id": "ES2002d.C.argumentstructs.37",
+            "speaker": "C",
+            "start_time": 312.12,
+            "end_time": 348.29,
+            "sentence": "Mm-hmm. Mm-hmm, mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 4,
+            "ae_id": "ES2002d.D.argumentstructs.16",
+            "speaker": "D",
+            "start_time": 320.89,
+            "end_time": 321.85,
+            "sentence": "Um yeah.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 9,
+            "ae_id": "ES2002d.B.argumentstructs.47",
+            "speaker": "B",
+            "start_time": 338.31,
+            "end_time": 338.66,
+            "sentence": "Uh-huh.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 11,
+            "ae_id": "ES2002d.A.argumentstructs.33",
+            "speaker": "A",
+            "start_time": 342.9,
+            "end_time": 343.98,
+            "sentence": "Um.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 15,
+            "ae_id": "ES2002d.A.argumentstructs.34",
+            "speaker": "A",
+            "start_time": 350.88,
+            "end_time": 351.33,
+            "sentence": "Um.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 18,
+            "ae_id": "ES2002d.C.argumentstructs.38",
+            "speaker": "C",
+            "start_time": 360.06,
+            "end_time": 384.11,
+            "sentence": "Mm-hmm. Audio. Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 21,
+            "ae_id": "ES2002d.D.argumentstructs.17",
+            "speaker": "D",
+            "start_time": 366.83,
+            "end_time": 367.56,
+            "sentence": "Um.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 22,
+            "ae_id": "ES2002d.A.argumentstructs.35",
+            "speaker": "A",
+            "start_time": 371.3,
+            "end_time": 371.9,
+            "sentence": "Um.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 0,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.7",
+                "speaker": "B",
+                "start_time": 312.01,
+                "end_time": 313.57,
+                "sentence": "And what else do you do with the jog-dial ?",
+                "source": "NONE",
+                "targets": [
+                    "ES2002d.D.argumentstructs.Erik.5",
+                    "ES2002d.A.argumentstructs.Erik.11",
+                    "ES2002d.B.argumentstructs.Erik.13"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "NONE",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 2,
+                "ae_id": "ES2002d.D.argumentstructs.Erik.5",
+                "speaker": "D",
+                "start_time": 314.2,
+                "end_time": 318.336,
+                "sentence": "Um you can use it for um more advanced functions like contrast, colour and",
+                "source": "ES2002d.B.argumentstructs.Erik.7",
+                "targets": [
+                    "ES2002d.B.argumentstructs.Erik.8"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 312.01,
+                    "end_time": 313.57,
+                    "sentence": "And what else do you do with the jog-dial ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.5",
+                        "ES2002d.A.argumentstructs.Erik.11",
+                        "ES2002d.B.argumentstructs.Erik.13"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 2):\n- AE_ID: ES2002d.D.argumentstructs.Erik.5\n- Speaker: D\n- Sentence: \"Um you can use it for um more advanced functions like contrast, colour and\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.B.argumentstructs.Erik.7 (Index: 0, Speaker: B): \"And what else do you do with the jog-dial ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.7",
+            "ans": "ES2002d.B.argumentstructs.Erik.7",
+            "judgement": true
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 3,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.8",
+                "speaker": "B",
+                "start_time": 318.84,
+                "end_time": 324.19,
+                "sentence": "Contrast, brightness, yeah, and anything else ?",
+                "source": "ES2002d.D.argumentstructs.Erik.5",
+                "targets": [
+                    "ES2002d.D.argumentstructs.Erik.6"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 312.01,
+                    "end_time": 313.57,
+                    "sentence": "And what else do you do with the jog-dial ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.5",
+                        "ES2002d.A.argumentstructs.Erik.11",
+                        "ES2002d.B.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 314.2,
+                    "end_time": 318.336,
+                    "sentence": "Um you can use it for um more advanced functions like contrast, colour and",
+                    "source": "ES2002d.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.8"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 3):\n- AE_ID: ES2002d.B.argumentstructs.Erik.8\n- Speaker: B\n- Sentence: \"Contrast, brightness, yeah, and anything else ?\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.B.argumentstructs.Erik.7 (Index: 0, Speaker: B): \"And what else do you do with the jog-dial ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.5 (Index: 2, Speaker: D): \"Um you can use it for um more advanced functions like contrast, colour and\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.D.argumentstructs.Erik.5",
+            "ans": "ES2002d.D.argumentstructs.Erik.5",
+            "judgement": true
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 5,
+                "ae_id": "ES2002d.D.argumentstructs.Erik.6",
+                "speaker": "D",
+                "start_time": 324.79,
+                "end_time": 330.064,
+                "sentence": "Um just whatever else we wanted to include as the advanced functions, um we didn't actually go through and specify the",
+                "source": "ES2002d.B.argumentstructs.Erik.8",
+                "targets": [
+                    "ES2002d.B.argumentstructs.Erik.9"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 312.01,
+                    "end_time": 313.57,
+                    "sentence": "And what else do you do with the jog-dial ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.5",
+                        "ES2002d.A.argumentstructs.Erik.11",
+                        "ES2002d.B.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 314.2,
+                    "end_time": 318.336,
+                    "sentence": "Um you can use it for um more advanced functions like contrast, colour and",
+                    "source": "ES2002d.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.8",
+                    "speaker": "B",
+                    "start_time": 318.84,
+                    "end_time": 324.19,
+                    "sentence": "Contrast, brightness, yeah, and anything else ?",
+                    "source": "ES2002d.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.6"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 5):\n- AE_ID: ES2002d.D.argumentstructs.Erik.6\n- Speaker: D\n- Sentence: \"Um just whatever else we wanted to include as the advanced functions, um we didn't actually go through and specify the\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.B.argumentstructs.Erik.7 (Index: 0, Speaker: B): \"And what else do you do with the jog-dial ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.5 (Index: 2, Speaker: D): \"Um you can use it for um more advanced functions like contrast, colour and\"\nAE_ID ES2002d.B.argumentstructs.Erik.8 (Index: 3, Speaker: B): \"Contrast, brightness, yeah, and anything else ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.D.argumentstructs.Erik.5",
+            "ans": "ES2002d.B.argumentstructs.Erik.8",
+            "judgement": false
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 6,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.9",
+                "speaker": "B",
+                "start_time": 330.57,
+                "end_time": 332.89,
+                "sentence": "Well of the designers what are they ?",
+                "source": "ES2002d.D.argumentstructs.Erik.6",
+                "targets": [
+                    "ES2002d.D.argumentstructs.Erik.7"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 312.01,
+                    "end_time": 313.57,
+                    "sentence": "And what else do you do with the jog-dial ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.5",
+                        "ES2002d.A.argumentstructs.Erik.11",
+                        "ES2002d.B.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 314.2,
+                    "end_time": 318.336,
+                    "sentence": "Um you can use it for um more advanced functions like contrast, colour and",
+                    "source": "ES2002d.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.8",
+                    "speaker": "B",
+                    "start_time": 318.84,
+                    "end_time": 324.19,
+                    "sentence": "Contrast, brightness, yeah, and anything else ?",
+                    "source": "ES2002d.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.6",
+                    "speaker": "D",
+                    "start_time": 324.79,
+                    "end_time": 330.064,
+                    "sentence": "Um just whatever else we wanted to include as the advanced functions, um we didn't actually go through and specify the",
+                    "source": "ES2002d.B.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.9"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 6):\n- AE_ID: ES2002d.B.argumentstructs.Erik.9\n- Speaker: B\n- Sentence: \"Well of the designers what are they ?\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.B.argumentstructs.Erik.7 (Index: 0, Speaker: B): \"And what else do you do with the jog-dial ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.5 (Index: 2, Speaker: D): \"Um you can use it for um more advanced functions like contrast, colour and\"\nAE_ID ES2002d.B.argumentstructs.Erik.8 (Index: 3, Speaker: B): \"Contrast, brightness, yeah, and anything else ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.6 (Index: 5, Speaker: D): \"Um just whatever else we wanted to include as the advanced functions, um we didn't actually go through and specify the\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.8",
+            "ans": "ES2002d.D.argumentstructs.Erik.6",
+            "judgement": false
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 7,
+                "ae_id": "ES2002d.D.argumentstructs.Erik.7",
+                "speaker": "D",
+                "start_time": 332.96,
+                "end_time": 334.97,
+                "sentence": "Uh what can a T_V_ do ?",
+                "source": "ES2002d.B.argumentstructs.Erik.9",
+                "targets": [
+                    "ES2002d.A.argumentstructs.Erik.10"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 312.01,
+                    "end_time": 313.57,
+                    "sentence": "And what else do you do with the jog-dial ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.5",
+                        "ES2002d.A.argumentstructs.Erik.11",
+                        "ES2002d.B.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 314.2,
+                    "end_time": 318.336,
+                    "sentence": "Um you can use it for um more advanced functions like contrast, colour and",
+                    "source": "ES2002d.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.8",
+                    "speaker": "B",
+                    "start_time": 318.84,
+                    "end_time": 324.19,
+                    "sentence": "Contrast, brightness, yeah, and anything else ?",
+                    "source": "ES2002d.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.6",
+                    "speaker": "D",
+                    "start_time": 324.79,
+                    "end_time": 330.064,
+                    "sentence": "Um just whatever else we wanted to include as the advanced functions, um we didn't actually go through and specify the",
+                    "source": "ES2002d.B.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 330.57,
+                    "end_time": 332.89,
+                    "sentence": "Well of the designers what are they ?",
+                    "source": "ES2002d.D.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.7"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 7):\n- AE_ID: ES2002d.D.argumentstructs.Erik.7\n- Speaker: D\n- Sentence: \"Uh what can a T_V_ do ?\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.B.argumentstructs.Erik.7 (Index: 0, Speaker: B): \"And what else do you do with the jog-dial ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.5 (Index: 2, Speaker: D): \"Um you can use it for um more advanced functions like contrast, colour and\"\nAE_ID ES2002d.B.argumentstructs.Erik.8 (Index: 3, Speaker: B): \"Contrast, brightness, yeah, and anything else ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.6 (Index: 5, Speaker: D): \"Um just whatever else we wanted to include as the advanced functions, um we didn't actually go through and specify the\"\nAE_ID ES2002d.B.argumentstructs.Erik.9 (Index: 6, Speaker: B): \"Well of the designers what are they ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.9",
+            "ans": "ES2002d.B.argumentstructs.Erik.9",
+            "judgement": true
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 8,
+                "ae_id": "ES2002d.A.argumentstructs.Erik.10",
+                "speaker": "A",
+                "start_time": 335.83,
+                "end_time": 341.61,
+                "sentence": "Okay things like um brightness, contrast, um maybe tuning the channels.",
+                "source": "ES2002d.D.argumentstructs.Erik.7",
+                "targets": [
+                    "ES2002d.B.argumentstructs.Erik.10"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 312.01,
+                    "end_time": 313.57,
+                    "sentence": "And what else do you do with the jog-dial ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.5",
+                        "ES2002d.A.argumentstructs.Erik.11",
+                        "ES2002d.B.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 314.2,
+                    "end_time": 318.336,
+                    "sentence": "Um you can use it for um more advanced functions like contrast, colour and",
+                    "source": "ES2002d.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.8",
+                    "speaker": "B",
+                    "start_time": 318.84,
+                    "end_time": 324.19,
+                    "sentence": "Contrast, brightness, yeah, and anything else ?",
+                    "source": "ES2002d.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.6",
+                    "speaker": "D",
+                    "start_time": 324.79,
+                    "end_time": 330.064,
+                    "sentence": "Um just whatever else we wanted to include as the advanced functions, um we didn't actually go through and specify the",
+                    "source": "ES2002d.B.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 330.57,
+                    "end_time": 332.89,
+                    "sentence": "Well of the designers what are they ?",
+                    "source": "ES2002d.D.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.7",
+                    "speaker": "D",
+                    "start_time": 332.96,
+                    "end_time": 334.97,
+                    "sentence": "Uh what can a T_V_ do ?",
+                    "source": "ES2002d.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.10"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 8):\n- AE_ID: ES2002d.A.argumentstructs.Erik.10\n- Speaker: A\n- Sentence: \"Okay things like um brightness, contrast, um maybe tuning the channels.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.B.argumentstructs.Erik.7 (Index: 0, Speaker: B): \"And what else do you do with the jog-dial ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.5 (Index: 2, Speaker: D): \"Um you can use it for um more advanced functions like contrast, colour and\"\nAE_ID ES2002d.B.argumentstructs.Erik.8 (Index: 3, Speaker: B): \"Contrast, brightness, yeah, and anything else ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.6 (Index: 5, Speaker: D): \"Um just whatever else we wanted to include as the advanced functions, um we didn't actually go through and specify the\"\nAE_ID ES2002d.B.argumentstructs.Erik.9 (Index: 6, Speaker: B): \"Well of the designers what are they ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.7 (Index: 7, Speaker: D): \"Uh what can a T_V_ do ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.8",
+            "ans": "ES2002d.D.argumentstructs.Erik.7",
+            "judgement": false
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 10,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.10",
+                "speaker": "B",
+                "start_time": 342.18,
+                "end_time": 344.4,
+                "sentence": "Okay channel tuning. That's a good one.",
+                "source": "ES2002d.A.argumentstructs.Erik.10",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 312.01,
+                    "end_time": 313.57,
+                    "sentence": "And what else do you do with the jog-dial ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.5",
+                        "ES2002d.A.argumentstructs.Erik.11",
+                        "ES2002d.B.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 314.2,
+                    "end_time": 318.336,
+                    "sentence": "Um you can use it for um more advanced functions like contrast, colour and",
+                    "source": "ES2002d.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.8",
+                    "speaker": "B",
+                    "start_time": 318.84,
+                    "end_time": 324.19,
+                    "sentence": "Contrast, brightness, yeah, and anything else ?",
+                    "source": "ES2002d.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.6",
+                    "speaker": "D",
+                    "start_time": 324.79,
+                    "end_time": 330.064,
+                    "sentence": "Um just whatever else we wanted to include as the advanced functions, um we didn't actually go through and specify the",
+                    "source": "ES2002d.B.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 330.57,
+                    "end_time": 332.89,
+                    "sentence": "Well of the designers what are they ?",
+                    "source": "ES2002d.D.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.7",
+                    "speaker": "D",
+                    "start_time": 332.96,
+                    "end_time": 334.97,
+                    "sentence": "Uh what can a T_V_ do ?",
+                    "source": "ES2002d.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.10",
+                    "speaker": "A",
+                    "start_time": 335.83,
+                    "end_time": 341.61,
+                    "sentence": "Okay things like um brightness, contrast, um maybe tuning the channels.",
+                    "source": "ES2002d.D.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.10"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 10):\n- AE_ID: ES2002d.B.argumentstructs.Erik.10\n- Speaker: B\n- Sentence: \"Okay channel tuning. That's a good one.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.B.argumentstructs.Erik.7 (Index: 0, Speaker: B): \"And what else do you do with the jog-dial ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.5 (Index: 2, Speaker: D): \"Um you can use it for um more advanced functions like contrast, colour and\"\nAE_ID ES2002d.B.argumentstructs.Erik.8 (Index: 3, Speaker: B): \"Contrast, brightness, yeah, and anything else ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.6 (Index: 5, Speaker: D): \"Um just whatever else we wanted to include as the advanced functions, um we didn't actually go through and specify the\"\nAE_ID ES2002d.B.argumentstructs.Erik.9 (Index: 6, Speaker: B): \"Well of the designers what are they ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.7 (Index: 7, Speaker: D): \"Uh what can a T_V_ do ?\"\nAE_ID ES2002d.A.argumentstructs.Erik.10 (Index: 8, Speaker: A): \"Okay things like um brightness, contrast, um maybe tuning the channels.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.A.argumentstructs.Erik.10",
+            "ans": "ES2002d.A.argumentstructs.Erik.10",
+            "judgement": true
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 12,
+                "ae_id": "ES2002d.A.argumentstructs.Erik.11",
+                "speaker": "A",
+                "start_time": 345.08,
+                "end_time": 349.36,
+                "sentence": "What else ? Um the various inputs. Are you having a V_C_R_, are you having  you know which input do you have ?",
+                "source": "ES2002d.B.argumentstructs.Erik.7",
+                "targets": [
+                    "ES2002d.B.argumentstructs.Erik.11",
+                    "ES2002d.C.argumentstructs.Erik.9"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 2,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 314.2,
+                    "end_time": 318.336,
+                    "sentence": "Um you can use it for um more advanced functions like contrast, colour and",
+                    "source": "ES2002d.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.8",
+                    "speaker": "B",
+                    "start_time": 318.84,
+                    "end_time": 324.19,
+                    "sentence": "Contrast, brightness, yeah, and anything else ?",
+                    "source": "ES2002d.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.6",
+                    "speaker": "D",
+                    "start_time": 324.79,
+                    "end_time": 330.064,
+                    "sentence": "Um just whatever else we wanted to include as the advanced functions, um we didn't actually go through and specify the",
+                    "source": "ES2002d.B.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 330.57,
+                    "end_time": 332.89,
+                    "sentence": "Well of the designers what are they ?",
+                    "source": "ES2002d.D.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.7",
+                    "speaker": "D",
+                    "start_time": 332.96,
+                    "end_time": 334.97,
+                    "sentence": "Uh what can a T_V_ do ?",
+                    "source": "ES2002d.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.10",
+                    "speaker": "A",
+                    "start_time": 335.83,
+                    "end_time": 341.61,
+                    "sentence": "Okay things like um brightness, contrast, um maybe tuning the channels.",
+                    "source": "ES2002d.D.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 342.18,
+                    "end_time": 344.4,
+                    "sentence": "Okay channel tuning. That's a good one.",
+                    "source": "ES2002d.A.argumentstructs.Erik.10",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 12):\n- AE_ID: ES2002d.A.argumentstructs.Erik.11\n- Speaker: A\n- Sentence: \"What else ? Um the various inputs. Are you having a V_C_R_, are you having  you know which input do you have ?\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.D.argumentstructs.Erik.5 (Index: 2, Speaker: D): \"Um you can use it for um more advanced functions like contrast, colour and\"\nAE_ID ES2002d.B.argumentstructs.Erik.8 (Index: 3, Speaker: B): \"Contrast, brightness, yeah, and anything else ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.6 (Index: 5, Speaker: D): \"Um just whatever else we wanted to include as the advanced functions, um we didn't actually go through and specify the\"\nAE_ID ES2002d.B.argumentstructs.Erik.9 (Index: 6, Speaker: B): \"Well of the designers what are they ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.7 (Index: 7, Speaker: D): \"Uh what can a T_V_ do ?\"\nAE_ID ES2002d.A.argumentstructs.Erik.10 (Index: 8, Speaker: A): \"Okay things like um brightness, contrast, um maybe tuning the channels.\"\nAE_ID ES2002d.B.argumentstructs.Erik.10 (Index: 10, Speaker: B): \"Okay channel tuning. That's a good one.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.10",
+            "ans": "ES2002d.B.argumentstructs.Erik.7",
+            "judgement": false
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 13,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.11",
+                "speaker": "B",
+                "start_time": 349.43,
+                "end_time": 351.43,
+                "sentence": "Okay auxiliary inputs.",
+                "source": "ES2002d.A.argumentstructs.Erik.11",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 3,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.8",
+                    "speaker": "B",
+                    "start_time": 318.84,
+                    "end_time": 324.19,
+                    "sentence": "Contrast, brightness, yeah, and anything else ?",
+                    "source": "ES2002d.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.6",
+                    "speaker": "D",
+                    "start_time": 324.79,
+                    "end_time": 330.064,
+                    "sentence": "Um just whatever else we wanted to include as the advanced functions, um we didn't actually go through and specify the",
+                    "source": "ES2002d.B.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 330.57,
+                    "end_time": 332.89,
+                    "sentence": "Well of the designers what are they ?",
+                    "source": "ES2002d.D.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.7",
+                    "speaker": "D",
+                    "start_time": 332.96,
+                    "end_time": 334.97,
+                    "sentence": "Uh what can a T_V_ do ?",
+                    "source": "ES2002d.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.10",
+                    "speaker": "A",
+                    "start_time": 335.83,
+                    "end_time": 341.61,
+                    "sentence": "Okay things like um brightness, contrast, um maybe tuning the channels.",
+                    "source": "ES2002d.D.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 342.18,
+                    "end_time": 344.4,
+                    "sentence": "Okay channel tuning. That's a good one.",
+                    "source": "ES2002d.A.argumentstructs.Erik.10",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.11",
+                    "speaker": "A",
+                    "start_time": 345.08,
+                    "end_time": 349.36,
+                    "sentence": "What else ? Um the various inputs. Are you having a V_C_R_, are you having  you know which input do you have ?",
+                    "source": "ES2002d.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.11",
+                        "ES2002d.C.argumentstructs.Erik.9"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 13):\n- AE_ID: ES2002d.B.argumentstructs.Erik.11\n- Speaker: B\n- Sentence: \"Okay auxiliary inputs.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.B.argumentstructs.Erik.8 (Index: 3, Speaker: B): \"Contrast, brightness, yeah, and anything else ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.6 (Index: 5, Speaker: D): \"Um just whatever else we wanted to include as the advanced functions, um we didn't actually go through and specify the\"\nAE_ID ES2002d.B.argumentstructs.Erik.9 (Index: 6, Speaker: B): \"Well of the designers what are they ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.7 (Index: 7, Speaker: D): \"Uh what can a T_V_ do ?\"\nAE_ID ES2002d.A.argumentstructs.Erik.10 (Index: 8, Speaker: A): \"Okay things like um brightness, contrast, um maybe tuning the channels.\"\nAE_ID ES2002d.B.argumentstructs.Erik.10 (Index: 10, Speaker: B): \"Okay channel tuning. That's a good one.\"\nAE_ID ES2002d.A.argumentstructs.Erik.11 (Index: 12, Speaker: A): \"What else ? Um the various inputs. Are you having a V_C_R_, are you having  you know which input do you have ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.A.argumentstructs.Erik.11",
+            "ans": "ES2002d.A.argumentstructs.Erik.11",
+            "judgement": true
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 14,
+                "ae_id": "ES2002d.C.argumentstructs.Erik.9",
+                "speaker": "C",
+                "start_time": 350.26,
+                "end_time": 352.13,
+                "sentence": "Mm-hmm, probably colour or sharpness.",
+                "source": "ES2002d.A.argumentstructs.Erik.11",
+                "targets": [
+                    "ES2002d.A.argumentstructs.Erik.12",
+                    "ES2002d.B.argumentstructs.Erik.12"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 5,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.6",
+                    "speaker": "D",
+                    "start_time": 324.79,
+                    "end_time": 330.064,
+                    "sentence": "Um just whatever else we wanted to include as the advanced functions, um we didn't actually go through and specify the",
+                    "source": "ES2002d.B.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 330.57,
+                    "end_time": 332.89,
+                    "sentence": "Well of the designers what are they ?",
+                    "source": "ES2002d.D.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.7",
+                    "speaker": "D",
+                    "start_time": 332.96,
+                    "end_time": 334.97,
+                    "sentence": "Uh what can a T_V_ do ?",
+                    "source": "ES2002d.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.10",
+                    "speaker": "A",
+                    "start_time": 335.83,
+                    "end_time": 341.61,
+                    "sentence": "Okay things like um brightness, contrast, um maybe tuning the channels.",
+                    "source": "ES2002d.D.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 342.18,
+                    "end_time": 344.4,
+                    "sentence": "Okay channel tuning. That's a good one.",
+                    "source": "ES2002d.A.argumentstructs.Erik.10",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.11",
+                    "speaker": "A",
+                    "start_time": 345.08,
+                    "end_time": 349.36,
+                    "sentence": "What else ? Um the various inputs. Are you having a V_C_R_, are you having  you know which input do you have ?",
+                    "source": "ES2002d.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.11",
+                        "ES2002d.C.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 349.43,
+                    "end_time": 351.43,
+                    "sentence": "Okay auxiliary inputs.",
+                    "source": "ES2002d.A.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 14):\n- AE_ID: ES2002d.C.argumentstructs.Erik.9\n- Speaker: C\n- Sentence: \"Mm-hmm, probably colour or sharpness.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.D.argumentstructs.Erik.6 (Index: 5, Speaker: D): \"Um just whatever else we wanted to include as the advanced functions, um we didn't actually go through and specify the\"\nAE_ID ES2002d.B.argumentstructs.Erik.9 (Index: 6, Speaker: B): \"Well of the designers what are they ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.7 (Index: 7, Speaker: D): \"Uh what can a T_V_ do ?\"\nAE_ID ES2002d.A.argumentstructs.Erik.10 (Index: 8, Speaker: A): \"Okay things like um brightness, contrast, um maybe tuning the channels.\"\nAE_ID ES2002d.B.argumentstructs.Erik.10 (Index: 10, Speaker: B): \"Okay channel tuning. That's a good one.\"\nAE_ID ES2002d.A.argumentstructs.Erik.11 (Index: 12, Speaker: A): \"What else ? Um the various inputs. Are you having a V_C_R_, are you having  you know which input do you have ?\"\nAE_ID ES2002d.B.argumentstructs.Erik.11 (Index: 13, Speaker: B): \"Okay auxiliary inputs.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.A.argumentstructs.Erik.10",
+            "ans": "ES2002d.A.argumentstructs.Erik.11",
+            "judgement": false
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 16,
+                "ae_id": "ES2002d.A.argumentstructs.Erik.12",
+                "speaker": "A",
+                "start_time": 353.06,
+                "end_time": 359.87,
+                "sentence": "Yep, colour, sharpness. Um a lot of these things will have to be um free and open for users to define them.",
+                "source": "ES2002d.C.argumentstructs.Erik.9",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 6,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 330.57,
+                    "end_time": 332.89,
+                    "sentence": "Well of the designers what are they ?",
+                    "source": "ES2002d.D.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.7",
+                    "speaker": "D",
+                    "start_time": 332.96,
+                    "end_time": 334.97,
+                    "sentence": "Uh what can a T_V_ do ?",
+                    "source": "ES2002d.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.10",
+                    "speaker": "A",
+                    "start_time": 335.83,
+                    "end_time": 341.61,
+                    "sentence": "Okay things like um brightness, contrast, um maybe tuning the channels.",
+                    "source": "ES2002d.D.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 342.18,
+                    "end_time": 344.4,
+                    "sentence": "Okay channel tuning. That's a good one.",
+                    "source": "ES2002d.A.argumentstructs.Erik.10",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.11",
+                    "speaker": "A",
+                    "start_time": 345.08,
+                    "end_time": 349.36,
+                    "sentence": "What else ? Um the various inputs. Are you having a V_C_R_, are you having  you know which input do you have ?",
+                    "source": "ES2002d.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.11",
+                        "ES2002d.C.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 349.43,
+                    "end_time": 351.43,
+                    "sentence": "Okay auxiliary inputs.",
+                    "source": "ES2002d.A.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.9",
+                    "speaker": "C",
+                    "start_time": 350.26,
+                    "end_time": 352.13,
+                    "sentence": "Mm-hmm, probably colour or sharpness.",
+                    "source": "ES2002d.A.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.12",
+                        "ES2002d.B.argumentstructs.Erik.12"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 16):\n- AE_ID: ES2002d.A.argumentstructs.Erik.12\n- Speaker: A\n- Sentence: \"Yep, colour, sharpness. Um a lot of these things will have to be um free and open for users to define them.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.B.argumentstructs.Erik.9 (Index: 6, Speaker: B): \"Well of the designers what are they ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.7 (Index: 7, Speaker: D): \"Uh what can a T_V_ do ?\"\nAE_ID ES2002d.A.argumentstructs.Erik.10 (Index: 8, Speaker: A): \"Okay things like um brightness, contrast, um maybe tuning the channels.\"\nAE_ID ES2002d.B.argumentstructs.Erik.10 (Index: 10, Speaker: B): \"Okay channel tuning. That's a good one.\"\nAE_ID ES2002d.A.argumentstructs.Erik.11 (Index: 12, Speaker: A): \"What else ? Um the various inputs. Are you having a V_C_R_, are you having  you know which input do you have ?\"\nAE_ID ES2002d.B.argumentstructs.Erik.11 (Index: 13, Speaker: B): \"Okay auxiliary inputs.\"\nAE_ID ES2002d.C.argumentstructs.Erik.9 (Index: 14, Speaker: C): \"Mm-hmm, probably colour or sharpness.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.C.argumentstructs.Erik.9",
+            "ans": "ES2002d.C.argumentstructs.Erik.9",
+            "judgement": true
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 17,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.12",
+                "speaker": "B",
+                "start_time": 354.57,
+                "end_time": 355.66,
+                "sentence": "Sharpness.",
+                "source": "ES2002d.C.argumentstructs.Erik.9",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 7,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.7",
+                    "speaker": "D",
+                    "start_time": 332.96,
+                    "end_time": 334.97,
+                    "sentence": "Uh what can a T_V_ do ?",
+                    "source": "ES2002d.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.10",
+                    "speaker": "A",
+                    "start_time": 335.83,
+                    "end_time": 341.61,
+                    "sentence": "Okay things like um brightness, contrast, um maybe tuning the channels.",
+                    "source": "ES2002d.D.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 342.18,
+                    "end_time": 344.4,
+                    "sentence": "Okay channel tuning. That's a good one.",
+                    "source": "ES2002d.A.argumentstructs.Erik.10",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.11",
+                    "speaker": "A",
+                    "start_time": 345.08,
+                    "end_time": 349.36,
+                    "sentence": "What else ? Um the various inputs. Are you having a V_C_R_, are you having  you know which input do you have ?",
+                    "source": "ES2002d.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.11",
+                        "ES2002d.C.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 349.43,
+                    "end_time": 351.43,
+                    "sentence": "Okay auxiliary inputs.",
+                    "source": "ES2002d.A.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.9",
+                    "speaker": "C",
+                    "start_time": 350.26,
+                    "end_time": 352.13,
+                    "sentence": "Mm-hmm, probably colour or sharpness.",
+                    "source": "ES2002d.A.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.12",
+                        "ES2002d.B.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.12",
+                    "speaker": "A",
+                    "start_time": 353.06,
+                    "end_time": 359.87,
+                    "sentence": "Yep, colour, sharpness. Um a lot of these things will have to be um free and open for users to define them.",
+                    "source": "ES2002d.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 17):\n- AE_ID: ES2002d.B.argumentstructs.Erik.12\n- Speaker: B\n- Sentence: \"Sharpness.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.D.argumentstructs.Erik.7 (Index: 7, Speaker: D): \"Uh what can a T_V_ do ?\"\nAE_ID ES2002d.A.argumentstructs.Erik.10 (Index: 8, Speaker: A): \"Okay things like um brightness, contrast, um maybe tuning the channels.\"\nAE_ID ES2002d.B.argumentstructs.Erik.10 (Index: 10, Speaker: B): \"Okay channel tuning. That's a good one.\"\nAE_ID ES2002d.A.argumentstructs.Erik.11 (Index: 12, Speaker: A): \"What else ? Um the various inputs. Are you having a V_C_R_, are you having  you know which input do you have ?\"\nAE_ID ES2002d.B.argumentstructs.Erik.11 (Index: 13, Speaker: B): \"Okay auxiliary inputs.\"\nAE_ID ES2002d.C.argumentstructs.Erik.9 (Index: 14, Speaker: C): \"Mm-hmm, probably colour or sharpness.\"\nAE_ID ES2002d.A.argumentstructs.Erik.12 (Index: 16, Speaker: A): \"Yep, colour, sharpness. Um a lot of these things will have to be um free and open for users to define them.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.C.argumentstructs.Erik.9",
+            "ans": "ES2002d.C.argumentstructs.Erik.9",
+            "judgement": true
+        },
+        {
+            "turn_number": 13,
+            "current_node": {
+                "index": 19,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.13",
+                "speaker": "B",
+                "start_time": 360.15,
+                "end_time": 364.65,
+                "sentence": "Okay what about uh sound settings ? Uh d can you change any of those at all ?",
+                "source": "ES2002d.B.argumentstructs.Erik.7",
+                "targets": [
+                    "ES2002d.A.argumentstructs.Erik.13",
+                    "ES2002d.D.argumentstructs.Erik.8"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 8,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.10",
+                    "speaker": "A",
+                    "start_time": 335.83,
+                    "end_time": 341.61,
+                    "sentence": "Okay things like um brightness, contrast, um maybe tuning the channels.",
+                    "source": "ES2002d.D.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 342.18,
+                    "end_time": 344.4,
+                    "sentence": "Okay channel tuning. That's a good one.",
+                    "source": "ES2002d.A.argumentstructs.Erik.10",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.11",
+                    "speaker": "A",
+                    "start_time": 345.08,
+                    "end_time": 349.36,
+                    "sentence": "What else ? Um the various inputs. Are you having a V_C_R_, are you having  you know which input do you have ?",
+                    "source": "ES2002d.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.11",
+                        "ES2002d.C.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 349.43,
+                    "end_time": 351.43,
+                    "sentence": "Okay auxiliary inputs.",
+                    "source": "ES2002d.A.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.9",
+                    "speaker": "C",
+                    "start_time": 350.26,
+                    "end_time": 352.13,
+                    "sentence": "Mm-hmm, probably colour or sharpness.",
+                    "source": "ES2002d.A.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.12",
+                        "ES2002d.B.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.12",
+                    "speaker": "A",
+                    "start_time": 353.06,
+                    "end_time": 359.87,
+                    "sentence": "Yep, colour, sharpness. Um a lot of these things will have to be um free and open for users to define them.",
+                    "source": "ES2002d.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 354.57,
+                    "end_time": 355.66,
+                    "sentence": "Sharpness.",
+                    "source": "ES2002d.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 19):\n- AE_ID: ES2002d.B.argumentstructs.Erik.13\n- Speaker: B\n- Sentence: \"Okay what about uh sound settings ? Uh d can you change any of those at all ?\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.A.argumentstructs.Erik.10 (Index: 8, Speaker: A): \"Okay things like um brightness, contrast, um maybe tuning the channels.\"\nAE_ID ES2002d.B.argumentstructs.Erik.10 (Index: 10, Speaker: B): \"Okay channel tuning. That's a good one.\"\nAE_ID ES2002d.A.argumentstructs.Erik.11 (Index: 12, Speaker: A): \"What else ? Um the various inputs. Are you having a V_C_R_, are you having  you know which input do you have ?\"\nAE_ID ES2002d.B.argumentstructs.Erik.11 (Index: 13, Speaker: B): \"Okay auxiliary inputs.\"\nAE_ID ES2002d.C.argumentstructs.Erik.9 (Index: 14, Speaker: C): \"Mm-hmm, probably colour or sharpness.\"\nAE_ID ES2002d.A.argumentstructs.Erik.12 (Index: 16, Speaker: A): \"Yep, colour, sharpness. Um a lot of these things will have to be um free and open for users to define them.\"\nAE_ID ES2002d.B.argumentstructs.Erik.12 (Index: 17, Speaker: B): \"Sharpness.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.A.argumentstructs.Erik.12",
+            "ans": "ES2002d.B.argumentstructs.Erik.7",
+            "judgement": false
+        },
+        {
+            "turn_number": 14,
+            "current_node": {
+                "index": 20,
+                "ae_id": "ES2002d.A.argumentstructs.Erik.13",
+                "speaker": "A",
+                "start_time": 365.19,
+                "end_time": 370.05,
+                "sentence": "Audio, we have like your basic y your base, your mid-range, your high range.",
+                "source": "ES2002d.B.argumentstructs.Erik.13",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 10,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 342.18,
+                    "end_time": 344.4,
+                    "sentence": "Okay channel tuning. That's a good one.",
+                    "source": "ES2002d.A.argumentstructs.Erik.10",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.11",
+                    "speaker": "A",
+                    "start_time": 345.08,
+                    "end_time": 349.36,
+                    "sentence": "What else ? Um the various inputs. Are you having a V_C_R_, are you having  you know which input do you have ?",
+                    "source": "ES2002d.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.11",
+                        "ES2002d.C.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 349.43,
+                    "end_time": 351.43,
+                    "sentence": "Okay auxiliary inputs.",
+                    "source": "ES2002d.A.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.9",
+                    "speaker": "C",
+                    "start_time": 350.26,
+                    "end_time": 352.13,
+                    "sentence": "Mm-hmm, probably colour or sharpness.",
+                    "source": "ES2002d.A.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.12",
+                        "ES2002d.B.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.12",
+                    "speaker": "A",
+                    "start_time": 353.06,
+                    "end_time": 359.87,
+                    "sentence": "Yep, colour, sharpness. Um a lot of these things will have to be um free and open for users to define them.",
+                    "source": "ES2002d.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 354.57,
+                    "end_time": 355.66,
+                    "sentence": "Sharpness.",
+                    "source": "ES2002d.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 360.15,
+                    "end_time": 364.65,
+                    "sentence": "Okay what about uh sound settings ? Uh d can you change any of those at all ?",
+                    "source": "ES2002d.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.13",
+                        "ES2002d.D.argumentstructs.Erik.8"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 20):\n- AE_ID: ES2002d.A.argumentstructs.Erik.13\n- Speaker: A\n- Sentence: \"Audio, we have like your basic y your base, your mid-range, your high range.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.B.argumentstructs.Erik.10 (Index: 10, Speaker: B): \"Okay channel tuning. That's a good one.\"\nAE_ID ES2002d.A.argumentstructs.Erik.11 (Index: 12, Speaker: A): \"What else ? Um the various inputs. Are you having a V_C_R_, are you having  you know which input do you have ?\"\nAE_ID ES2002d.B.argumentstructs.Erik.11 (Index: 13, Speaker: B): \"Okay auxiliary inputs.\"\nAE_ID ES2002d.C.argumentstructs.Erik.9 (Index: 14, Speaker: C): \"Mm-hmm, probably colour or sharpness.\"\nAE_ID ES2002d.A.argumentstructs.Erik.12 (Index: 16, Speaker: A): \"Yep, colour, sharpness. Um a lot of these things will have to be um free and open for users to define them.\"\nAE_ID ES2002d.B.argumentstructs.Erik.12 (Index: 17, Speaker: B): \"Sharpness.\"\nAE_ID ES2002d.B.argumentstructs.Erik.13 (Index: 19, Speaker: B): \"Okay what about uh sound settings ? Uh d can you change any of those at all ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.13",
+            "ans": "ES2002d.B.argumentstructs.Erik.13",
+            "judgement": true
+        },
+        {
+            "turn_number": 15,
+            "current_node": {
+                "index": 23,
+                "ae_id": "ES2002d.D.argumentstructs.Erik.8",
+                "speaker": "D",
+                "start_time": 371.92,
+                "end_time": 373.22,
+                "sentence": "the the balance hmm.",
+                "source": "ES2002d.B.argumentstructs.Erik.13",
+                "targets": [
+                    "ES2002d.A.argumentstructs.Erik.14"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 12,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.11",
+                    "speaker": "A",
+                    "start_time": 345.08,
+                    "end_time": 349.36,
+                    "sentence": "What else ? Um the various inputs. Are you having a V_C_R_, are you having  you know which input do you have ?",
+                    "source": "ES2002d.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.11",
+                        "ES2002d.C.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 349.43,
+                    "end_time": 351.43,
+                    "sentence": "Okay auxiliary inputs.",
+                    "source": "ES2002d.A.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.9",
+                    "speaker": "C",
+                    "start_time": 350.26,
+                    "end_time": 352.13,
+                    "sentence": "Mm-hmm, probably colour or sharpness.",
+                    "source": "ES2002d.A.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.12",
+                        "ES2002d.B.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.12",
+                    "speaker": "A",
+                    "start_time": 353.06,
+                    "end_time": 359.87,
+                    "sentence": "Yep, colour, sharpness. Um a lot of these things will have to be um free and open for users to define them.",
+                    "source": "ES2002d.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 354.57,
+                    "end_time": 355.66,
+                    "sentence": "Sharpness.",
+                    "source": "ES2002d.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 360.15,
+                    "end_time": 364.65,
+                    "sentence": "Okay what about uh sound settings ? Uh d can you change any of those at all ?",
+                    "source": "ES2002d.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.13",
+                        "ES2002d.D.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.13",
+                    "speaker": "A",
+                    "start_time": 365.19,
+                    "end_time": 370.05,
+                    "sentence": "Audio, we have like your basic y your base, your mid-range, your high range.",
+                    "source": "ES2002d.B.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 23):\n- AE_ID: ES2002d.D.argumentstructs.Erik.8\n- Speaker: D\n- Sentence: \"the the balance hmm.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.A.argumentstructs.Erik.11 (Index: 12, Speaker: A): \"What else ? Um the various inputs. Are you having a V_C_R_, are you having  you know which input do you have ?\"\nAE_ID ES2002d.B.argumentstructs.Erik.11 (Index: 13, Speaker: B): \"Okay auxiliary inputs.\"\nAE_ID ES2002d.C.argumentstructs.Erik.9 (Index: 14, Speaker: C): \"Mm-hmm, probably colour or sharpness.\"\nAE_ID ES2002d.A.argumentstructs.Erik.12 (Index: 16, Speaker: A): \"Yep, colour, sharpness. Um a lot of these things will have to be um free and open for users to define them.\"\nAE_ID ES2002d.B.argumentstructs.Erik.12 (Index: 17, Speaker: B): \"Sharpness.\"\nAE_ID ES2002d.B.argumentstructs.Erik.13 (Index: 19, Speaker: B): \"Okay what about uh sound settings ? Uh d can you change any of those at all ?\"\nAE_ID ES2002d.A.argumentstructs.Erik.13 (Index: 20, Speaker: A): \"Audio, we have like your basic y your base, your mid-range, your high range.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.13",
+            "ans": "ES2002d.B.argumentstructs.Erik.13",
+            "judgement": true
+        },
+        {
+            "turn_number": 16,
+            "current_node": {
+                "index": 24,
+                "ae_id": "ES2002d.A.argumentstructs.Erik.14",
+                "speaker": "A",
+                "start_time": 373.4,
+                "end_time": 388.33,
+                "sentence": "Yep, left-right balance, um maybe even pre-programmed sound modes, like um the user could determine like a series of sound modes, and then what could happen would be um when you click on that then it would go to that setting.",
+                "source": "ES2002d.D.argumentstructs.Erik.8",
+                "targets": [
+                    "ES2002d.B.argumentstructs.Erik.14",
+                    "ES2002d.B.argumentstructs.Erik.15",
+                    "ES2002d.C.argumentstructs.Erik.10",
+                    "ES2002d.A.argumentstructs.Erik.15"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 13,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 349.43,
+                    "end_time": 351.43,
+                    "sentence": "Okay auxiliary inputs.",
+                    "source": "ES2002d.A.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.9",
+                    "speaker": "C",
+                    "start_time": 350.26,
+                    "end_time": 352.13,
+                    "sentence": "Mm-hmm, probably colour or sharpness.",
+                    "source": "ES2002d.A.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.12",
+                        "ES2002d.B.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.12",
+                    "speaker": "A",
+                    "start_time": 353.06,
+                    "end_time": 359.87,
+                    "sentence": "Yep, colour, sharpness. Um a lot of these things will have to be um free and open for users to define them.",
+                    "source": "ES2002d.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 354.57,
+                    "end_time": 355.66,
+                    "sentence": "Sharpness.",
+                    "source": "ES2002d.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 360.15,
+                    "end_time": 364.65,
+                    "sentence": "Okay what about uh sound settings ? Uh d can you change any of those at all ?",
+                    "source": "ES2002d.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.13",
+                        "ES2002d.D.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.13",
+                    "speaker": "A",
+                    "start_time": 365.19,
+                    "end_time": 370.05,
+                    "sentence": "Audio, we have like your basic y your base, your mid-range, your high range.",
+                    "source": "ES2002d.B.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 371.92,
+                    "end_time": 373.22,
+                    "sentence": "the the balance hmm.",
+                    "source": "ES2002d.B.argumentstructs.Erik.13",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.14"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 24):\n- AE_ID: ES2002d.A.argumentstructs.Erik.14\n- Speaker: A\n- Sentence: \"Yep, left-right balance, um maybe even pre-programmed sound modes, like um the user could determine like a series of sound modes, and then what could happen would be um when you click on that then it would go to that setting.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.B.argumentstructs.Erik.11 (Index: 13, Speaker: B): \"Okay auxiliary inputs.\"\nAE_ID ES2002d.C.argumentstructs.Erik.9 (Index: 14, Speaker: C): \"Mm-hmm, probably colour or sharpness.\"\nAE_ID ES2002d.A.argumentstructs.Erik.12 (Index: 16, Speaker: A): \"Yep, colour, sharpness. Um a lot of these things will have to be um free and open for users to define them.\"\nAE_ID ES2002d.B.argumentstructs.Erik.12 (Index: 17, Speaker: B): \"Sharpness.\"\nAE_ID ES2002d.B.argumentstructs.Erik.13 (Index: 19, Speaker: B): \"Okay what about uh sound settings ? Uh d can you change any of those at all ?\"\nAE_ID ES2002d.A.argumentstructs.Erik.13 (Index: 20, Speaker: A): \"Audio, we have like your basic y your base, your mid-range, your high range.\"\nAE_ID ES2002d.D.argumentstructs.Erik.8 (Index: 23, Speaker: D): \"the the balance hmm.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.13",
+            "ans": "ES2002d.D.argumentstructs.Erik.8",
+            "judgement": false
+        },
+        {
+            "turn_number": 17,
+            "current_node": {
+                "index": 25,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.14",
+                "speaker": "B",
+                "start_time": 378.48,
+                "end_time": 379.08,
+                "sentence": "Okay.",
+                "source": "ES2002d.A.argumentstructs.Erik.14",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 14,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.9",
+                    "speaker": "C",
+                    "start_time": 350.26,
+                    "end_time": 352.13,
+                    "sentence": "Mm-hmm, probably colour or sharpness.",
+                    "source": "ES2002d.A.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.12",
+                        "ES2002d.B.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.12",
+                    "speaker": "A",
+                    "start_time": 353.06,
+                    "end_time": 359.87,
+                    "sentence": "Yep, colour, sharpness. Um a lot of these things will have to be um free and open for users to define them.",
+                    "source": "ES2002d.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 354.57,
+                    "end_time": 355.66,
+                    "sentence": "Sharpness.",
+                    "source": "ES2002d.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 360.15,
+                    "end_time": 364.65,
+                    "sentence": "Okay what about uh sound settings ? Uh d can you change any of those at all ?",
+                    "source": "ES2002d.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.13",
+                        "ES2002d.D.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.13",
+                    "speaker": "A",
+                    "start_time": 365.19,
+                    "end_time": 370.05,
+                    "sentence": "Audio, we have like your basic y your base, your mid-range, your high range.",
+                    "source": "ES2002d.B.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 371.92,
+                    "end_time": 373.22,
+                    "sentence": "the the balance hmm.",
+                    "source": "ES2002d.B.argumentstructs.Erik.13",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.14",
+                    "speaker": "A",
+                    "start_time": 373.4,
+                    "end_time": 388.33,
+                    "sentence": "Yep, left-right balance, um maybe even pre-programmed sound modes, like um the user could determine like a series of sound modes, and then what could happen would be um when you click on that then it would go to that setting.",
+                    "source": "ES2002d.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.14",
+                        "ES2002d.B.argumentstructs.Erik.15",
+                        "ES2002d.C.argumentstructs.Erik.10",
+                        "ES2002d.A.argumentstructs.Erik.15"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 25):\n- AE_ID: ES2002d.B.argumentstructs.Erik.14\n- Speaker: B\n- Sentence: \"Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.C.argumentstructs.Erik.9 (Index: 14, Speaker: C): \"Mm-hmm, probably colour or sharpness.\"\nAE_ID ES2002d.A.argumentstructs.Erik.12 (Index: 16, Speaker: A): \"Yep, colour, sharpness. Um a lot of these things will have to be um free and open for users to define them.\"\nAE_ID ES2002d.B.argumentstructs.Erik.12 (Index: 17, Speaker: B): \"Sharpness.\"\nAE_ID ES2002d.B.argumentstructs.Erik.13 (Index: 19, Speaker: B): \"Okay what about uh sound settings ? Uh d can you change any of those at all ?\"\nAE_ID ES2002d.A.argumentstructs.Erik.13 (Index: 20, Speaker: A): \"Audio, we have like your basic y your base, your mid-range, your high range.\"\nAE_ID ES2002d.D.argumentstructs.Erik.8 (Index: 23, Speaker: D): \"the the balance hmm.\"\nAE_ID ES2002d.A.argumentstructs.Erik.14 (Index: 24, Speaker: A): \"Yep, left-right balance, um maybe even pre-programmed sound modes, like um the user could determine like a series of sound modes, and then what could happen would be um when you click on that then it would go to that setting.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.A.argumentstructs.Erik.14",
+            "ans": "ES2002d.A.argumentstructs.Erik.14",
+            "judgement": true
+        },
+        {
+            "turn_number": 18,
+            "current_node": {
+                "index": 26,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.15",
+                "speaker": "B",
+                "start_time": 388.79,
+                "end_time": 391.75,
+                "sentence": "Okay, is there anything else at all it can do ?",
+                "source": "ES2002d.A.argumentstructs.Erik.14",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 16,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.12",
+                    "speaker": "A",
+                    "start_time": 353.06,
+                    "end_time": 359.87,
+                    "sentence": "Yep, colour, sharpness. Um a lot of these things will have to be um free and open for users to define them.",
+                    "source": "ES2002d.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 354.57,
+                    "end_time": 355.66,
+                    "sentence": "Sharpness.",
+                    "source": "ES2002d.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 360.15,
+                    "end_time": 364.65,
+                    "sentence": "Okay what about uh sound settings ? Uh d can you change any of those at all ?",
+                    "source": "ES2002d.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.13",
+                        "ES2002d.D.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.13",
+                    "speaker": "A",
+                    "start_time": 365.19,
+                    "end_time": 370.05,
+                    "sentence": "Audio, we have like your basic y your base, your mid-range, your high range.",
+                    "source": "ES2002d.B.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 371.92,
+                    "end_time": 373.22,
+                    "sentence": "the the balance hmm.",
+                    "source": "ES2002d.B.argumentstructs.Erik.13",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.14",
+                    "speaker": "A",
+                    "start_time": 373.4,
+                    "end_time": 388.33,
+                    "sentence": "Yep, left-right balance, um maybe even pre-programmed sound modes, like um the user could determine like a series of sound modes, and then what could happen would be um when you click on that then it would go to that setting.",
+                    "source": "ES2002d.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.14",
+                        "ES2002d.B.argumentstructs.Erik.15",
+                        "ES2002d.C.argumentstructs.Erik.10",
+                        "ES2002d.A.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.14",
+                    "speaker": "B",
+                    "start_time": 378.48,
+                    "end_time": 379.08,
+                    "sentence": "Okay.",
+                    "source": "ES2002d.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 26):\n- AE_ID: ES2002d.B.argumentstructs.Erik.15\n- Speaker: B\n- Sentence: \"Okay, is there anything else at all it can do ?\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.A.argumentstructs.Erik.12 (Index: 16, Speaker: A): \"Yep, colour, sharpness. Um a lot of these things will have to be um free and open for users to define them.\"\nAE_ID ES2002d.B.argumentstructs.Erik.12 (Index: 17, Speaker: B): \"Sharpness.\"\nAE_ID ES2002d.B.argumentstructs.Erik.13 (Index: 19, Speaker: B): \"Okay what about uh sound settings ? Uh d can you change any of those at all ?\"\nAE_ID ES2002d.A.argumentstructs.Erik.13 (Index: 20, Speaker: A): \"Audio, we have like your basic y your base, your mid-range, your high range.\"\nAE_ID ES2002d.D.argumentstructs.Erik.8 (Index: 23, Speaker: D): \"the the balance hmm.\"\nAE_ID ES2002d.A.argumentstructs.Erik.14 (Index: 24, Speaker: A): \"Yep, left-right balance, um maybe even pre-programmed sound modes, like um the user could determine like a series of sound modes, and then what could happen would be um when you click on that then it would go to that setting.\"\nAE_ID ES2002d.B.argumentstructs.Erik.14 (Index: 25, Speaker: B): \"Okay.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.A.argumentstructs.Erik.14",
+            "ans": "ES2002d.A.argumentstructs.Erik.14",
+            "judgement": true
+        },
+        {
+            "turn_number": 19,
+            "current_node": {
+                "index": 27,
+                "ae_id": "ES2002d.C.argumentstructs.Erik.10",
+                "speaker": "C",
+                "start_time": 388.95,
+                "end_time": 389.27,
+                "sentence": "Mm 'kay.",
+                "source": "ES2002d.A.argumentstructs.Erik.14",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 17,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 354.57,
+                    "end_time": 355.66,
+                    "sentence": "Sharpness.",
+                    "source": "ES2002d.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 360.15,
+                    "end_time": 364.65,
+                    "sentence": "Okay what about uh sound settings ? Uh d can you change any of those at all ?",
+                    "source": "ES2002d.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.13",
+                        "ES2002d.D.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.13",
+                    "speaker": "A",
+                    "start_time": 365.19,
+                    "end_time": 370.05,
+                    "sentence": "Audio, we have like your basic y your base, your mid-range, your high range.",
+                    "source": "ES2002d.B.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 371.92,
+                    "end_time": 373.22,
+                    "sentence": "the the balance hmm.",
+                    "source": "ES2002d.B.argumentstructs.Erik.13",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.14",
+                    "speaker": "A",
+                    "start_time": 373.4,
+                    "end_time": 388.33,
+                    "sentence": "Yep, left-right balance, um maybe even pre-programmed sound modes, like um the user could determine like a series of sound modes, and then what could happen would be um when you click on that then it would go to that setting.",
+                    "source": "ES2002d.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.14",
+                        "ES2002d.B.argumentstructs.Erik.15",
+                        "ES2002d.C.argumentstructs.Erik.10",
+                        "ES2002d.A.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.14",
+                    "speaker": "B",
+                    "start_time": 378.48,
+                    "end_time": 379.08,
+                    "sentence": "Okay.",
+                    "source": "ES2002d.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 26,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.15",
+                    "speaker": "B",
+                    "start_time": 388.79,
+                    "end_time": 391.75,
+                    "sentence": "Okay, is there anything else at all it can do ?",
+                    "source": "ES2002d.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 27):\n- AE_ID: ES2002d.C.argumentstructs.Erik.10\n- Speaker: C\n- Sentence: \"Mm 'kay.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.B.argumentstructs.Erik.12 (Index: 17, Speaker: B): \"Sharpness.\"\nAE_ID ES2002d.B.argumentstructs.Erik.13 (Index: 19, Speaker: B): \"Okay what about uh sound settings ? Uh d can you change any of those at all ?\"\nAE_ID ES2002d.A.argumentstructs.Erik.13 (Index: 20, Speaker: A): \"Audio, we have like your basic y your base, your mid-range, your high range.\"\nAE_ID ES2002d.D.argumentstructs.Erik.8 (Index: 23, Speaker: D): \"the the balance hmm.\"\nAE_ID ES2002d.A.argumentstructs.Erik.14 (Index: 24, Speaker: A): \"Yep, left-right balance, um maybe even pre-programmed sound modes, like um the user could determine like a series of sound modes, and then what could happen would be um when you click on that then it would go to that setting.\"\nAE_ID ES2002d.B.argumentstructs.Erik.14 (Index: 25, Speaker: B): \"Okay.\"\nAE_ID ES2002d.B.argumentstructs.Erik.15 (Index: 26, Speaker: B): \"Okay, is there anything else at all it can do ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.15",
+            "ans": "ES2002d.A.argumentstructs.Erik.14",
+            "judgement": false
+        },
+        {
+            "turn_number": 20,
+            "current_node": {
+                "index": 28,
+                "ae_id": "ES2002d.A.argumentstructs.Erik.15",
+                "speaker": "A",
+                "start_time": 389.74,
+                "end_time": 389.96,
+                "sentence": "Yeah.",
+                "source": "ES2002d.A.argumentstructs.Erik.14",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 19,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 360.15,
+                    "end_time": 364.65,
+                    "sentence": "Okay what about uh sound settings ? Uh d can you change any of those at all ?",
+                    "source": "ES2002d.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.13",
+                        "ES2002d.D.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.13",
+                    "speaker": "A",
+                    "start_time": 365.19,
+                    "end_time": 370.05,
+                    "sentence": "Audio, we have like your basic y your base, your mid-range, your high range.",
+                    "source": "ES2002d.B.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 371.92,
+                    "end_time": 373.22,
+                    "sentence": "the the balance hmm.",
+                    "source": "ES2002d.B.argumentstructs.Erik.13",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.14",
+                    "speaker": "A",
+                    "start_time": 373.4,
+                    "end_time": 388.33,
+                    "sentence": "Yep, left-right balance, um maybe even pre-programmed sound modes, like um the user could determine like a series of sound modes, and then what could happen would be um when you click on that then it would go to that setting.",
+                    "source": "ES2002d.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.14",
+                        "ES2002d.B.argumentstructs.Erik.15",
+                        "ES2002d.C.argumentstructs.Erik.10",
+                        "ES2002d.A.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.14",
+                    "speaker": "B",
+                    "start_time": 378.48,
+                    "end_time": 379.08,
+                    "sentence": "Okay.",
+                    "source": "ES2002d.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 26,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.15",
+                    "speaker": "B",
+                    "start_time": 388.79,
+                    "end_time": 391.75,
+                    "sentence": "Okay, is there anything else at all it can do ?",
+                    "source": "ES2002d.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 27,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.10",
+                    "speaker": "C",
+                    "start_time": 388.95,
+                    "end_time": 389.27,
+                    "sentence": "Mm 'kay.",
+                    "source": "ES2002d.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 28):\n- AE_ID: ES2002d.A.argumentstructs.Erik.15\n- Speaker: A\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.B.argumentstructs.Erik.13 (Index: 19, Speaker: B): \"Okay what about uh sound settings ? Uh d can you change any of those at all ?\"\nAE_ID ES2002d.A.argumentstructs.Erik.13 (Index: 20, Speaker: A): \"Audio, we have like your basic y your base, your mid-range, your high range.\"\nAE_ID ES2002d.D.argumentstructs.Erik.8 (Index: 23, Speaker: D): \"the the balance hmm.\"\nAE_ID ES2002d.A.argumentstructs.Erik.14 (Index: 24, Speaker: A): \"Yep, left-right balance, um maybe even pre-programmed sound modes, like um the user could determine like a series of sound modes, and then what could happen would be um when you click on that then it would go to that setting.\"\nAE_ID ES2002d.B.argumentstructs.Erik.14 (Index: 25, Speaker: B): \"Okay.\"\nAE_ID ES2002d.B.argumentstructs.Erik.15 (Index: 26, Speaker: B): \"Okay, is there anything else at all it can do ?\"\nAE_ID ES2002d.C.argumentstructs.Erik.10 (Index: 27, Speaker: C): \"Mm 'kay.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.15",
+            "ans": "ES2002d.A.argumentstructs.Erik.14",
+            "judgement": false
+        }
+    ]
+}

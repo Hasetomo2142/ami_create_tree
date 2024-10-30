@@ -1,0 +1,402 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2004b-ES2004b - Target audience.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "ver.1.1.txt",
+    "rate": 0.4,
+    "total_node_count": 12,
+    "removed_node_count": 6,
+    "removed_node_list": [
+        {
+            "index": 0,
+            "ae_id": "ES2004b.D.argumentstructs.22",
+            "speaker": "D",
+            "start_time": 1522.11,
+            "end_time": 1528.75,
+            "sentence": "Do we have to initially um, you know looking at the findings here, focus on",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 2,
+            "ae_id": "ES2004b.C.argumentstructs.32",
+            "speaker": "C",
+            "start_time": 1537.12,
+            "end_time": 1541.43,
+            "sentence": "Mm. Ge uh",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 4,
+            "ae_id": "ES2004b.D.argumentstructs.23",
+            "speaker": "D",
+            "start_time": 1537.57,
+            "end_time": 1540.2,
+            "sentence": "Um. Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 7,
+            "ae_id": "ES2004b.B.argumentstructs.37",
+            "speaker": "B",
+            "start_time": 1561.79,
+            "end_time": 1579.83,
+            "sentence": "associate that with the older generations. Now with the baby boomers, the older generations are actually larger, they have a greater population than us young people, but I don't think we're focusing on that, I think we are focusing on a sort of mid-range um,",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 9,
+            "ae_id": "ES2004b.A.argumentstructs.17",
+            "speaker": "A",
+            "start_time": 1572.74,
+            "end_time": 1573.04,
+            "sentence": "Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 10,
+            "ae_id": "ES2004b.D.argumentstructs.24",
+            "speaker": "D",
+            "start_time": 1573.94,
+            "end_time": 1579.18,
+            "sentence": ". Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2004b.D.argumentstructs.Erik.8",
+                "speaker": "D",
+                "start_time": 1530.2,
+                "end_time": 1537.57,
+                "sentence": "a younger age group initially and then broaden out the market later. Do we really have to go for everyone right away ?",
+                "source": "NONE",
+                "targets": [
+                    "ES2004b.A.argumentstructs.Erik.6",
+                    "ES2004b.D.argumentstructs.Erik.9",
+                    "ES2004b.B.argumentstructs.Erik.10"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "NONE",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 3,
+                "ae_id": "ES2004b.A.argumentstructs.Erik.6",
+                "speaker": "A",
+                "start_time": 1537.5,
+                "end_time": 1539.4,
+                "sentence": "We could focus on the biggest market.",
+                "source": "ES2004b.D.argumentstructs.Erik.8",
+                "targets": [
+                    "ES2004b.A.argumentstructs.Erik.7"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 1530.2,
+                    "end_time": 1537.57,
+                    "sentence": "a younger age group initially and then broaden out the market later. Do we really have to go for everyone right away ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004b.A.argumentstructs.Erik.6",
+                        "ES2004b.D.argumentstructs.Erik.9",
+                        "ES2004b.B.argumentstructs.Erik.10"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 3):\n- AE_ID: ES2004b.A.argumentstructs.Erik.6\n- Speaker: A\n- Sentence: \"We could focus on the biggest market.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.D.argumentstructs.Erik.8 (Index: 1, Speaker: D): \"a younger age group initially and then broaden out the market later. Do we really have to go for everyone right away ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.D.argumentstructs.Erik.8",
+            "ans": "ES2004b.D.argumentstructs.Erik.8",
+            "judgement": true
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 5,
+                "ae_id": "ES2004b.A.argumentstructs.Erik.7",
+                "speaker": "A",
+                "start_time": 1540.4,
+                "end_time": 1543.64,
+                "sentence": "If say people between age group of twenty to thirty five are the biggest market ?",
+                "source": "ES2004b.A.argumentstructs.Erik.6",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 3,
+                    "ae_id": "ES2004b.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 1537.5,
+                    "end_time": 1539.4,
+                    "sentence": "We could focus on the biggest market.",
+                    "source": "ES2004b.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2004b.A.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 1530.2,
+                    "end_time": 1537.57,
+                    "sentence": "a younger age group initially and then broaden out the market later. Do we really have to go for everyone right away ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004b.A.argumentstructs.Erik.6",
+                        "ES2004b.D.argumentstructs.Erik.9",
+                        "ES2004b.B.argumentstructs.Erik.10"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 5):\n- AE_ID: ES2004b.A.argumentstructs.Erik.7\n- Speaker: A\n- Sentence: \"If say people between age group of twenty to thirty five are the biggest market ?\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.A.argumentstructs.Erik.6 (Index: 3, Speaker: A): \"We could focus on the biggest market.\"\nAE_ID ES2004b.D.argumentstructs.Erik.8 (Index: 1, Speaker: D): \"a younger age group initially and then broaden out the market later. Do we really have to go for everyone right away ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.A.argumentstructs.Erik.6",
+            "ans": "ES2004b.A.argumentstructs.Erik.6",
+            "judgement": true
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 6,
+                "ae_id": "ES2004b.D.argumentstructs.Erik.9",
+                "speaker": "D",
+                "start_time": 1542.65,
+                "end_time": 1547.87,
+                "sentence": "And when we've been throwing up our ideas we're automatically talking about business people, young people, trendy people.",
+                "source": "ES2004b.D.argumentstructs.Erik.8",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 1530.2,
+                    "end_time": 1537.57,
+                    "sentence": "a younger age group initially and then broaden out the market later. Do we really have to go for everyone right away ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004b.A.argumentstructs.Erik.6",
+                        "ES2004b.D.argumentstructs.Erik.9",
+                        "ES2004b.B.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2004b.A.argumentstructs.Erik.7",
+                    "speaker": "A",
+                    "start_time": 1540.4,
+                    "end_time": 1543.64,
+                    "sentence": "If say people between age group of twenty to thirty five are the biggest market ?",
+                    "source": "ES2004b.A.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2004b.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 1537.5,
+                    "end_time": 1539.4,
+                    "sentence": "We could focus on the biggest market.",
+                    "source": "ES2004b.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2004b.A.argumentstructs.Erik.7"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 6):\n- AE_ID: ES2004b.D.argumentstructs.Erik.9\n- Speaker: D\n- Sentence: \"And when we've been throwing up our ideas we're automatically talking about business people, young people, trendy people.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.D.argumentstructs.Erik.8 (Index: 1, Speaker: D): \"a younger age group initially and then broaden out the market later. Do we really have to go for everyone right away ?\"\nAE_ID ES2004b.A.argumentstructs.Erik.7 (Index: 5, Speaker: A): \"If say people between age group of twenty to thirty five are the biggest market ?\"\nAE_ID ES2004b.A.argumentstructs.Erik.6 (Index: 3, Speaker: A): \"We could focus on the biggest market.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.A.argumentstructs.Erik.7",
+            "ans": "ES2004b.D.argumentstructs.Erik.8",
+            "judgement": false
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 8,
+                "ae_id": "ES2004b.C.argumentstructs.Erik.11",
+                "speaker": "C",
+                "start_time": 1571.95,
+                "end_time": 1572.37,
+                "sentence": "Yeah.",
+                "source": "ES2004b.B.argumentstructs.Erik.10",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 1530.2,
+                    "end_time": 1537.57,
+                    "sentence": "a younger age group initially and then broaden out the market later. Do we really have to go for everyone right away ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004b.A.argumentstructs.Erik.6",
+                        "ES2004b.D.argumentstructs.Erik.9",
+                        "ES2004b.B.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2004b.A.argumentstructs.Erik.7",
+                    "speaker": "A",
+                    "start_time": 1540.4,
+                    "end_time": 1543.64,
+                    "sentence": "If say people between age group of twenty to thirty five are the biggest market ?",
+                    "source": "ES2004b.A.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2004b.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 1537.5,
+                    "end_time": 1539.4,
+                    "sentence": "We could focus on the biggest market.",
+                    "source": "ES2004b.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2004b.A.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.9",
+                    "speaker": "D",
+                    "start_time": 1542.65,
+                    "end_time": 1547.87,
+                    "sentence": "And when we've been throwing up our ideas we're automatically talking about business people, young people, trendy people.",
+                    "source": "ES2004b.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 8):\n- AE_ID: ES2004b.C.argumentstructs.Erik.11\n- Speaker: C\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.D.argumentstructs.Erik.8 (Index: 1, Speaker: D): \"a younger age group initially and then broaden out the market later. Do we really have to go for everyone right away ?\"\nAE_ID ES2004b.A.argumentstructs.Erik.7 (Index: 5, Speaker: A): \"If say people between age group of twenty to thirty five are the biggest market ?\"\nAE_ID ES2004b.A.argumentstructs.Erik.6 (Index: 3, Speaker: A): \"We could focus on the biggest market.\"\nAE_ID ES2004b.D.argumentstructs.Erik.9 (Index: 6, Speaker: D): \"And when we've been throwing up our ideas we're automatically talking about business people, young people, trendy people.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.D.argumentstructs.Erik.9",
+            "ans": "ES2004b.B.argumentstructs.Erik.10",
+            "judgement": false
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 11,
+                "ae_id": "ES2004b.B.argumentstructs.Erik.10",
+                "speaker": "B",
+                "start_time": 1581.24,
+                "end_time": 1583.61,
+                "sentence": "business kind of class type people.",
+                "source": "ES2004b.D.argumentstructs.Erik.8",
+                "targets": [
+                    "ES2004b.C.argumentstructs.Erik.11"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 8,
+                    "ae_id": "ES2004b.C.argumentstructs.Erik.11",
+                    "speaker": "C",
+                    "start_time": 1571.95,
+                    "end_time": 1572.37,
+                    "sentence": "Yeah.",
+                    "source": "ES2004b.B.argumentstructs.Erik.10",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2004b.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 1537.5,
+                    "end_time": 1539.4,
+                    "sentence": "We could focus on the biggest market.",
+                    "source": "ES2004b.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2004b.A.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.9",
+                    "speaker": "D",
+                    "start_time": 1542.65,
+                    "end_time": 1547.87,
+                    "sentence": "And when we've been throwing up our ideas we're automatically talking about business people, young people, trendy people.",
+                    "source": "ES2004b.D.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2004b.A.argumentstructs.Erik.7",
+                    "speaker": "A",
+                    "start_time": 1540.4,
+                    "end_time": 1543.64,
+                    "sentence": "If say people between age group of twenty to thirty five are the biggest market ?",
+                    "source": "ES2004b.A.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2004b.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 1530.2,
+                    "end_time": 1537.57,
+                    "sentence": "a younger age group initially and then broaden out the market later. Do we really have to go for everyone right away ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004b.A.argumentstructs.Erik.6",
+                        "ES2004b.D.argumentstructs.Erik.9",
+                        "ES2004b.B.argumentstructs.Erik.10"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 11):\n- AE_ID: ES2004b.B.argumentstructs.Erik.10\n- Speaker: B\n- Sentence: \"business kind of class type people.\"\n\nPast Dialogue Turns:\nAE_ID ES2004b.C.argumentstructs.Erik.11 (Index: 8, Speaker: C): \"Yeah.\"\nAE_ID ES2004b.A.argumentstructs.Erik.6 (Index: 3, Speaker: A): \"We could focus on the biggest market.\"\nAE_ID ES2004b.D.argumentstructs.Erik.9 (Index: 6, Speaker: D): \"And when we've been throwing up our ideas we're automatically talking about business people, young people, trendy people.\"\nAE_ID ES2004b.A.argumentstructs.Erik.7 (Index: 5, Speaker: A): \"If say people between age group of twenty to thirty five are the biggest market ?\"\nAE_ID ES2004b.D.argumentstructs.Erik.8 (Index: 1, Speaker: D): \"a younger age group initially and then broaden out the market later. Do we really have to go for everyone right away ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004b.D.argumentstructs.Erik.9",
+            "ans": "ES2004b.D.argumentstructs.Erik.8",
+            "judgement": false
+        }
+    ]
+}

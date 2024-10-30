@@ -1,0 +1,2241 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2005c-ES2005c - Remote casings.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "ver.1.1.txt",
+    "rate": 0.5,
+    "total_node_count": 30,
+    "removed_node_count": 7,
+    "removed_node_list": [
+        {
+            "index": 0,
+            "ae_id": "ES2005c.B.argumentstructs.17",
+            "speaker": "B",
+            "start_time": 1592.33,
+            "end_time": 1594.65,
+            "sentence": "we can do one thing,",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 2,
+            "ae_id": "ES2005c.D.argumentstructs.49",
+            "speaker": "D",
+            "start_time": 1601.08,
+            "end_time": 1613.74,
+            "sentence": "Mm-hmm. Mm-hmm. Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 4,
+            "ae_id": "ES2005c.B.argumentstructs.18",
+            "speaker": "B",
+            "start_time": 1615.43,
+            "end_time": 1617.45,
+            "sentence": "Uh yeah. In that w",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 13,
+            "ae_id": "ES2005c.D.argumentstructs.50",
+            "speaker": "D",
+            "start_time": 1650.81,
+            "end_time": 1651.16,
+            "sentence": "Okay.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 19,
+            "ae_id": "ES2005c.D.argumentstructs.51",
+            "speaker": "D",
+            "start_time": 1677.1,
+            "end_time": 1700.68,
+            "sentence": "Okay, okay. Okay. Mm mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 22,
+            "ae_id": "ES2005c.C.argumentstructs.47",
+            "speaker": "C",
+            "start_time": 1699.37,
+            "end_time": 1700.12,
+            "sentence": "It doesn't really",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 26,
+            "ae_id": "ES2005c.D.argumentstructs.52",
+            "speaker": "D",
+            "start_time": 1719.56,
+            "end_time": 1719.88,
+            "sentence": "Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2005c.B.argumentstructs.Erik.3",
+                "speaker": "B",
+                "start_time": 1594.65,
+                "end_time": 1615.43,
+                "sentence": "we can just have a remote control and casings of different different shapes, different fruit shapes in such a way that a any casing can be could be fit into this mobile general piece. So whatever people want, like if somebody want it in banana shape, we will put that casing onto that mobile phone, okay, it will look l",
+                "source": "NONE",
+                "targets": [
+                    "ES2005c.C.argumentstructs.Erik.17",
+                    "ES2005c.D.argumentstructs.Erik.22",
+                    "ES2005c.D.argumentstructs.Erik.26"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "NONE",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 3,
+                "ae_id": "ES2005c.C.argumentstructs.Erik.17",
+                "speaker": "C",
+                "start_time": 1613.33,
+                "end_time": 1614.93,
+                "sentence": "So a selection of casings.",
+                "source": "ES2005c.B.argumentstructs.Erik.3",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1594.65,
+                    "end_time": 1615.43,
+                    "sentence": "we can just have a remote control and casings of different different shapes, different fruit shapes in such a way that a any casing can be could be fit into this mobile general piece. So whatever people want, like if somebody want it in banana shape, we will put that casing onto that mobile phone, okay, it will look l",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.17",
+                        "ES2005c.D.argumentstructs.Erik.22",
+                        "ES2005c.D.argumentstructs.Erik.26"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 3):\n- AE_ID: ES2005c.C.argumentstructs.Erik.17\n- Speaker: C\n- Sentence: \"So a selection of casings.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.B.argumentstructs.Erik.3 (Index: 1, Speaker: B): \"we can just have a remote control and casings of different different shapes, different fruit shapes in such a way that a any casing can be could be fit into this mobile general piece. So whatever people want, like if somebody want it in banana shape, we will put that casing onto that mobile phone, okay, it will look l\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.B.argumentstructs.Erik.3",
+            "ans": "ES2005c.B.argumentstructs.Erik.3",
+            "judgement": true
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 5,
+                "ae_id": "ES2005c.D.argumentstructs.Erik.22",
+                "speaker": "D",
+                "start_time": 1616.84,
+                "end_time": 1618.95,
+                "sentence": "Yeah, 'cause you said about disposable, didn't you ?",
+                "source": "ES2005c.B.argumentstructs.Erik.3",
+                "targets": [
+                    "ES2005c.C.argumentstructs.Erik.18",
+                    "ES2005c.B.argumentstructs.Erik.4"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1594.65,
+                    "end_time": 1615.43,
+                    "sentence": "we can just have a remote control and casings of different different shapes, different fruit shapes in such a way that a any casing can be could be fit into this mobile general piece. So whatever people want, like if somebody want it in banana shape, we will put that casing onto that mobile phone, okay, it will look l",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.17",
+                        "ES2005c.D.argumentstructs.Erik.22",
+                        "ES2005c.D.argumentstructs.Erik.26"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.17",
+                    "speaker": "C",
+                    "start_time": 1613.33,
+                    "end_time": 1614.93,
+                    "sentence": "So a selection of casings.",
+                    "source": "ES2005c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 5):\n- AE_ID: ES2005c.D.argumentstructs.Erik.22\n- Speaker: D\n- Sentence: \"Yeah, 'cause you said about disposable, didn't you ?\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.B.argumentstructs.Erik.3 (Index: 1, Speaker: B): \"we can just have a remote control and casings of different different shapes, different fruit shapes in such a way that a any casing can be could be fit into this mobile general piece. So whatever people want, like if somebody want it in banana shape, we will put that casing onto that mobile phone, okay, it will look l\"\nAE_ID ES2005c.C.argumentstructs.Erik.17 (Index: 3, Speaker: C): \"So a selection of casings.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.B.argumentstructs.Erik.3",
+            "ans": "ES2005c.B.argumentstructs.Erik.3",
+            "judgement": true
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 6,
+                "ae_id": "ES2005c.C.argumentstructs.Erik.18",
+                "speaker": "C",
+                "start_time": 1616.89,
+                "end_time": 1619.706,
+                "sentence": "It kind of fi it fits with f fits with marketing um",
+                "source": "ES2005c.D.argumentstructs.Erik.22",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1594.65,
+                    "end_time": 1615.43,
+                    "sentence": "we can just have a remote control and casings of different different shapes, different fruit shapes in such a way that a any casing can be could be fit into this mobile general piece. So whatever people want, like if somebody want it in banana shape, we will put that casing onto that mobile phone, okay, it will look l",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.17",
+                        "ES2005c.D.argumentstructs.Erik.22",
+                        "ES2005c.D.argumentstructs.Erik.26"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.17",
+                    "speaker": "C",
+                    "start_time": 1613.33,
+                    "end_time": 1614.93,
+                    "sentence": "So a selection of casings.",
+                    "source": "ES2005c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.22",
+                    "speaker": "D",
+                    "start_time": 1616.84,
+                    "end_time": 1618.95,
+                    "sentence": "Yeah, 'cause you said about disposable, didn't you ?",
+                    "source": "ES2005c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.18",
+                        "ES2005c.B.argumentstructs.Erik.4"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 6):\n- AE_ID: ES2005c.C.argumentstructs.Erik.18\n- Speaker: C\n- Sentence: \"It kind of fi it fits with f fits with marketing um\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.B.argumentstructs.Erik.3 (Index: 1, Speaker: B): \"we can just have a remote control and casings of different different shapes, different fruit shapes in such a way that a any casing can be could be fit into this mobile general piece. So whatever people want, like if somebody want it in banana shape, we will put that casing onto that mobile phone, okay, it will look l\"\nAE_ID ES2005c.C.argumentstructs.Erik.17 (Index: 3, Speaker: C): \"So a selection of casings.\"\nAE_ID ES2005c.D.argumentstructs.Erik.22 (Index: 5, Speaker: D): \"Yeah, 'cause you said about disposable, didn't you ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.C.argumentstructs.Erik.17",
+            "ans": "ES2005c.D.argumentstructs.Erik.22",
+            "judgement": false
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 7,
+                "ae_id": "ES2005c.B.argumentstructs.Erik.4",
+                "speaker": "B",
+                "start_time": 1618.76,
+                "end_time": 1620.27,
+                "sentence": "S s sorry ?",
+                "source": "ES2005c.D.argumentstructs.Erik.22",
+                "targets": [
+                    "ES2005c.D.argumentstructs.Erik.23"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1594.65,
+                    "end_time": 1615.43,
+                    "sentence": "we can just have a remote control and casings of different different shapes, different fruit shapes in such a way that a any casing can be could be fit into this mobile general piece. So whatever people want, like if somebody want it in banana shape, we will put that casing onto that mobile phone, okay, it will look l",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.17",
+                        "ES2005c.D.argumentstructs.Erik.22",
+                        "ES2005c.D.argumentstructs.Erik.26"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.17",
+                    "speaker": "C",
+                    "start_time": 1613.33,
+                    "end_time": 1614.93,
+                    "sentence": "So a selection of casings.",
+                    "source": "ES2005c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.22",
+                    "speaker": "D",
+                    "start_time": 1616.84,
+                    "end_time": 1618.95,
+                    "sentence": "Yeah, 'cause you said about disposable, didn't you ?",
+                    "source": "ES2005c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.18",
+                        "ES2005c.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.18",
+                    "speaker": "C",
+                    "start_time": 1616.89,
+                    "end_time": 1619.706,
+                    "sentence": "It kind of fi it fits with f fits with marketing um",
+                    "source": "ES2005c.D.argumentstructs.Erik.22",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 7):\n- AE_ID: ES2005c.B.argumentstructs.Erik.4\n- Speaker: B\n- Sentence: \"S s sorry ?\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.B.argumentstructs.Erik.3 (Index: 1, Speaker: B): \"we can just have a remote control and casings of different different shapes, different fruit shapes in such a way that a any casing can be could be fit into this mobile general piece. So whatever people want, like if somebody want it in banana shape, we will put that casing onto that mobile phone, okay, it will look l\"\nAE_ID ES2005c.C.argumentstructs.Erik.17 (Index: 3, Speaker: C): \"So a selection of casings.\"\nAE_ID ES2005c.D.argumentstructs.Erik.22 (Index: 5, Speaker: D): \"Yeah, 'cause you said about disposable, didn't you ?\"\nAE_ID ES2005c.C.argumentstructs.Erik.18 (Index: 6, Speaker: C): \"It kind of fi it fits with f fits with marketing um\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.D.argumentstructs.Erik.22",
+            "ans": "ES2005c.D.argumentstructs.Erik.22",
+            "judgement": true
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 8,
+                "ae_id": "ES2005c.D.argumentstructs.Erik.23",
+                "speaker": "D",
+                "start_time": 1620.37,
+                "end_time": 1625.44,
+                "sentence": "You said about disposable earli people want disposable things so we could do that, like have a choice.",
+                "source": "ES2005c.B.argumentstructs.Erik.4",
+                "targets": [
+                    "ES2005c.B.argumentstructs.Erik.5"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1594.65,
+                    "end_time": 1615.43,
+                    "sentence": "we can just have a remote control and casings of different different shapes, different fruit shapes in such a way that a any casing can be could be fit into this mobile general piece. So whatever people want, like if somebody want it in banana shape, we will put that casing onto that mobile phone, okay, it will look l",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.17",
+                        "ES2005c.D.argumentstructs.Erik.22",
+                        "ES2005c.D.argumentstructs.Erik.26"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.17",
+                    "speaker": "C",
+                    "start_time": 1613.33,
+                    "end_time": 1614.93,
+                    "sentence": "So a selection of casings.",
+                    "source": "ES2005c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.22",
+                    "speaker": "D",
+                    "start_time": 1616.84,
+                    "end_time": 1618.95,
+                    "sentence": "Yeah, 'cause you said about disposable, didn't you ?",
+                    "source": "ES2005c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.18",
+                        "ES2005c.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.18",
+                    "speaker": "C",
+                    "start_time": 1616.89,
+                    "end_time": 1619.706,
+                    "sentence": "It kind of fi it fits with f fits with marketing um",
+                    "source": "ES2005c.D.argumentstructs.Erik.22",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1618.76,
+                    "end_time": 1620.27,
+                    "sentence": "S s sorry ?",
+                    "source": "ES2005c.D.argumentstructs.Erik.22",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.23"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 8):\n- AE_ID: ES2005c.D.argumentstructs.Erik.23\n- Speaker: D\n- Sentence: \"You said about disposable earli people want disposable things so we could do that, like have a choice.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.B.argumentstructs.Erik.3 (Index: 1, Speaker: B): \"we can just have a remote control and casings of different different shapes, different fruit shapes in such a way that a any casing can be could be fit into this mobile general piece. So whatever people want, like if somebody want it in banana shape, we will put that casing onto that mobile phone, okay, it will look l\"\nAE_ID ES2005c.C.argumentstructs.Erik.17 (Index: 3, Speaker: C): \"So a selection of casings.\"\nAE_ID ES2005c.D.argumentstructs.Erik.22 (Index: 5, Speaker: D): \"Yeah, 'cause you said about disposable, didn't you ?\"\nAE_ID ES2005c.C.argumentstructs.Erik.18 (Index: 6, Speaker: C): \"It kind of fi it fits with f fits with marketing um\"\nAE_ID ES2005c.B.argumentstructs.Erik.4 (Index: 7, Speaker: B): \"S s sorry ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.D.argumentstructs.Erik.22",
+            "ans": "ES2005c.B.argumentstructs.Erik.4",
+            "judgement": false
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 9,
+                "ae_id": "ES2005c.B.argumentstructs.Erik.5",
+                "speaker": "B",
+                "start_time": 1623.72,
+                "end_time": 1656.34,
+                "sentence": "Uh like if this is a like if this is a mobile phone uh we will design casing in such a way like half of, we need not to have a full cover, we will just have a half of cover, okay ? If somebody wants it i in banana shape, we will fit banana shape casing onto that, so it will give a banana shape look. If somebody wanted in apple shape we will design that, we will put  we will put apple shape casing on that. It will give apple shape look. So in that way you can have any, that means whatever you want, without  uh yeah.",
+                "source": "ES2005c.D.argumentstructs.Erik.23",
+                "targets": [
+                    "ES2005c.D.argumentstructs.Erik.24",
+                    "ES2005c.C.argumentstructs.Erik.19"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1594.65,
+                    "end_time": 1615.43,
+                    "sentence": "we can just have a remote control and casings of different different shapes, different fruit shapes in such a way that a any casing can be could be fit into this mobile general piece. So whatever people want, like if somebody want it in banana shape, we will put that casing onto that mobile phone, okay, it will look l",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.17",
+                        "ES2005c.D.argumentstructs.Erik.22",
+                        "ES2005c.D.argumentstructs.Erik.26"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.17",
+                    "speaker": "C",
+                    "start_time": 1613.33,
+                    "end_time": 1614.93,
+                    "sentence": "So a selection of casings.",
+                    "source": "ES2005c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.22",
+                    "speaker": "D",
+                    "start_time": 1616.84,
+                    "end_time": 1618.95,
+                    "sentence": "Yeah, 'cause you said about disposable, didn't you ?",
+                    "source": "ES2005c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.18",
+                        "ES2005c.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.18",
+                    "speaker": "C",
+                    "start_time": 1616.89,
+                    "end_time": 1619.706,
+                    "sentence": "It kind of fi it fits with f fits with marketing um",
+                    "source": "ES2005c.D.argumentstructs.Erik.22",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1618.76,
+                    "end_time": 1620.27,
+                    "sentence": "S s sorry ?",
+                    "source": "ES2005c.D.argumentstructs.Erik.22",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.23",
+                    "speaker": "D",
+                    "start_time": 1620.37,
+                    "end_time": 1625.44,
+                    "sentence": "You said about disposable earli people want disposable things so we could do that, like have a choice.",
+                    "source": "ES2005c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2005c.B.argumentstructs.Erik.5"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 9):\n- AE_ID: ES2005c.B.argumentstructs.Erik.5\n- Speaker: B\n- Sentence: \"Uh like if this is a like if this is a mobile phone uh we will design casing in such a way like half of, we need not to have a full cover, we will just have a half of cover, okay ? If somebody wants it i in banana shape, we will fit banana shape casing onto that, so it will give a banana shape look. If somebody wanted in apple shape we will design that, we will put  we will put apple shape casing on that. It will give apple shape look. So in that way you can have any, that means whatever you want, without  uh yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.B.argumentstructs.Erik.3 (Index: 1, Speaker: B): \"we can just have a remote control and casings of different different shapes, different fruit shapes in such a way that a any casing can be could be fit into this mobile general piece. So whatever people want, like if somebody want it in banana shape, we will put that casing onto that mobile phone, okay, it will look l\"\nAE_ID ES2005c.C.argumentstructs.Erik.17 (Index: 3, Speaker: C): \"So a selection of casings.\"\nAE_ID ES2005c.D.argumentstructs.Erik.22 (Index: 5, Speaker: D): \"Yeah, 'cause you said about disposable, didn't you ?\"\nAE_ID ES2005c.C.argumentstructs.Erik.18 (Index: 6, Speaker: C): \"It kind of fi it fits with f fits with marketing um\"\nAE_ID ES2005c.B.argumentstructs.Erik.4 (Index: 7, Speaker: B): \"S s sorry ?\"\nAE_ID ES2005c.D.argumentstructs.Erik.23 (Index: 8, Speaker: D): \"You said about disposable earli people want disposable things so we could do that, like have a choice.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.B.argumentstructs.Erik.3",
+            "ans": "ES2005c.D.argumentstructs.Erik.23",
+            "judgement": false
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 10,
+                "ae_id": "ES2005c.D.argumentstructs.Erik.24",
+                "speaker": "D",
+                "start_time": 1633.09,
+                "end_time": 1633.48,
+                "sentence": "Yeah.",
+                "source": "ES2005c.B.argumentstructs.Erik.5",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1594.65,
+                    "end_time": 1615.43,
+                    "sentence": "we can just have a remote control and casings of different different shapes, different fruit shapes in such a way that a any casing can be could be fit into this mobile general piece. So whatever people want, like if somebody want it in banana shape, we will put that casing onto that mobile phone, okay, it will look l",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.17",
+                        "ES2005c.D.argumentstructs.Erik.22",
+                        "ES2005c.D.argumentstructs.Erik.26"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.17",
+                    "speaker": "C",
+                    "start_time": 1613.33,
+                    "end_time": 1614.93,
+                    "sentence": "So a selection of casings.",
+                    "source": "ES2005c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.22",
+                    "speaker": "D",
+                    "start_time": 1616.84,
+                    "end_time": 1618.95,
+                    "sentence": "Yeah, 'cause you said about disposable, didn't you ?",
+                    "source": "ES2005c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.18",
+                        "ES2005c.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.18",
+                    "speaker": "C",
+                    "start_time": 1616.89,
+                    "end_time": 1619.706,
+                    "sentence": "It kind of fi it fits with f fits with marketing um",
+                    "source": "ES2005c.D.argumentstructs.Erik.22",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1618.76,
+                    "end_time": 1620.27,
+                    "sentence": "S s sorry ?",
+                    "source": "ES2005c.D.argumentstructs.Erik.22",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.23",
+                    "speaker": "D",
+                    "start_time": 1620.37,
+                    "end_time": 1625.44,
+                    "sentence": "You said about disposable earli people want disposable things so we could do that, like have a choice.",
+                    "source": "ES2005c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2005c.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1623.72,
+                    "end_time": 1656.34,
+                    "sentence": "Uh like if this is a like if this is a mobile phone uh we will design casing in such a way like half of, we need not to have a full cover, we will just have a half of cover, okay ? If somebody wants it i in banana shape, we will fit banana shape casing onto that, so it will give a banana shape look. If somebody wanted in apple shape we will design that, we will put  we will put apple shape casing on that. It will give apple shape look. So in that way you can have any, that means whatever you want, without  uh yeah.",
+                    "source": "ES2005c.D.argumentstructs.Erik.23",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.24",
+                        "ES2005c.C.argumentstructs.Erik.19"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 10):\n- AE_ID: ES2005c.D.argumentstructs.Erik.24\n- Speaker: D\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.B.argumentstructs.Erik.3 (Index: 1, Speaker: B): \"we can just have a remote control and casings of different different shapes, different fruit shapes in such a way that a any casing can be could be fit into this mobile general piece. So whatever people want, like if somebody want it in banana shape, we will put that casing onto that mobile phone, okay, it will look l\"\nAE_ID ES2005c.C.argumentstructs.Erik.17 (Index: 3, Speaker: C): \"So a selection of casings.\"\nAE_ID ES2005c.D.argumentstructs.Erik.22 (Index: 5, Speaker: D): \"Yeah, 'cause you said about disposable, didn't you ?\"\nAE_ID ES2005c.C.argumentstructs.Erik.18 (Index: 6, Speaker: C): \"It kind of fi it fits with f fits with marketing um\"\nAE_ID ES2005c.B.argumentstructs.Erik.4 (Index: 7, Speaker: B): \"S s sorry ?\"\nAE_ID ES2005c.D.argumentstructs.Erik.23 (Index: 8, Speaker: D): \"You said about disposable earli people want disposable things so we could do that, like have a choice.\"\nAE_ID ES2005c.B.argumentstructs.Erik.5 (Index: 9, Speaker: B): \"Uh like if this is a like if this is a mobile phone uh we will design casing in such a way like half of, we need not to have a full cover, we will just have a half of cover, okay ? If somebody wants it i in banana shape, we will fit banana shape casing onto that, so it will give a banana shape look. If somebody wanted in apple shape we will design that, we will put  we will put apple shape casing on that. It will give apple shape look. So in that way you can have any, that means whatever you want, without  uh yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.D.argumentstructs.Erik.23",
+            "ans": "ES2005c.B.argumentstructs.Erik.5",
+            "judgement": false
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 11,
+                "ae_id": "ES2005c.C.argumentstructs.Erik.19",
+                "speaker": "C",
+                "start_time": 1635.35,
+                "end_time": 1636.81,
+                "sentence": "Like like mobiles, yeah.",
+                "source": "ES2005c.B.argumentstructs.Erik.5",
+                "targets": [
+                    "ES2005c.D.argumentstructs.Erik.25"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 3,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.17",
+                    "speaker": "C",
+                    "start_time": 1613.33,
+                    "end_time": 1614.93,
+                    "sentence": "So a selection of casings.",
+                    "source": "ES2005c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.22",
+                    "speaker": "D",
+                    "start_time": 1616.84,
+                    "end_time": 1618.95,
+                    "sentence": "Yeah, 'cause you said about disposable, didn't you ?",
+                    "source": "ES2005c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.18",
+                        "ES2005c.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.18",
+                    "speaker": "C",
+                    "start_time": 1616.89,
+                    "end_time": 1619.706,
+                    "sentence": "It kind of fi it fits with f fits with marketing um",
+                    "source": "ES2005c.D.argumentstructs.Erik.22",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1618.76,
+                    "end_time": 1620.27,
+                    "sentence": "S s sorry ?",
+                    "source": "ES2005c.D.argumentstructs.Erik.22",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.23",
+                    "speaker": "D",
+                    "start_time": 1620.37,
+                    "end_time": 1625.44,
+                    "sentence": "You said about disposable earli people want disposable things so we could do that, like have a choice.",
+                    "source": "ES2005c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2005c.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1623.72,
+                    "end_time": 1656.34,
+                    "sentence": "Uh like if this is a like if this is a mobile phone uh we will design casing in such a way like half of, we need not to have a full cover, we will just have a half of cover, okay ? If somebody wants it i in banana shape, we will fit banana shape casing onto that, so it will give a banana shape look. If somebody wanted in apple shape we will design that, we will put  we will put apple shape casing on that. It will give apple shape look. So in that way you can have any, that means whatever you want, without  uh yeah.",
+                    "source": "ES2005c.D.argumentstructs.Erik.23",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.24",
+                        "ES2005c.C.argumentstructs.Erik.19"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.24",
+                    "speaker": "D",
+                    "start_time": 1633.09,
+                    "end_time": 1633.48,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 11):\n- AE_ID: ES2005c.C.argumentstructs.Erik.19\n- Speaker: C\n- Sentence: \"Like like mobiles, yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.C.argumentstructs.Erik.17 (Index: 3, Speaker: C): \"So a selection of casings.\"\nAE_ID ES2005c.D.argumentstructs.Erik.22 (Index: 5, Speaker: D): \"Yeah, 'cause you said about disposable, didn't you ?\"\nAE_ID ES2005c.C.argumentstructs.Erik.18 (Index: 6, Speaker: C): \"It kind of fi it fits with f fits with marketing um\"\nAE_ID ES2005c.B.argumentstructs.Erik.4 (Index: 7, Speaker: B): \"S s sorry ?\"\nAE_ID ES2005c.D.argumentstructs.Erik.23 (Index: 8, Speaker: D): \"You said about disposable earli people want disposable things so we could do that, like have a choice.\"\nAE_ID ES2005c.B.argumentstructs.Erik.5 (Index: 9, Speaker: B): \"Uh like if this is a like if this is a mobile phone uh we will design casing in such a way like half of, we need not to have a full cover, we will just have a half of cover, okay ? If somebody wants it i in banana shape, we will fit banana shape casing onto that, so it will give a banana shape look. If somebody wanted in apple shape we will design that, we will put  we will put apple shape casing on that. It will give apple shape look. So in that way you can have any, that means whatever you want, without  uh yeah.\"\nAE_ID ES2005c.D.argumentstructs.Erik.24 (Index: 10, Speaker: D): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.D.argumentstructs.Erik.24",
+            "ans": "ES2005c.B.argumentstructs.Erik.5",
+            "judgement": false
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 12,
+                "ae_id": "ES2005c.D.argumentstructs.Erik.25",
+                "speaker": "D",
+                "start_time": 1636.48,
+                "end_time": 1636.89,
+                "sentence": "Yeah.",
+                "source": "ES2005c.C.argumentstructs.Erik.19",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 5,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.22",
+                    "speaker": "D",
+                    "start_time": 1616.84,
+                    "end_time": 1618.95,
+                    "sentence": "Yeah, 'cause you said about disposable, didn't you ?",
+                    "source": "ES2005c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.18",
+                        "ES2005c.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.18",
+                    "speaker": "C",
+                    "start_time": 1616.89,
+                    "end_time": 1619.706,
+                    "sentence": "It kind of fi it fits with f fits with marketing um",
+                    "source": "ES2005c.D.argumentstructs.Erik.22",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1618.76,
+                    "end_time": 1620.27,
+                    "sentence": "S s sorry ?",
+                    "source": "ES2005c.D.argumentstructs.Erik.22",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.23",
+                    "speaker": "D",
+                    "start_time": 1620.37,
+                    "end_time": 1625.44,
+                    "sentence": "You said about disposable earli people want disposable things so we could do that, like have a choice.",
+                    "source": "ES2005c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2005c.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1623.72,
+                    "end_time": 1656.34,
+                    "sentence": "Uh like if this is a like if this is a mobile phone uh we will design casing in such a way like half of, we need not to have a full cover, we will just have a half of cover, okay ? If somebody wants it i in banana shape, we will fit banana shape casing onto that, so it will give a banana shape look. If somebody wanted in apple shape we will design that, we will put  we will put apple shape casing on that. It will give apple shape look. So in that way you can have any, that means whatever you want, without  uh yeah.",
+                    "source": "ES2005c.D.argumentstructs.Erik.23",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.24",
+                        "ES2005c.C.argumentstructs.Erik.19"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.24",
+                    "speaker": "D",
+                    "start_time": 1633.09,
+                    "end_time": 1633.48,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.19",
+                    "speaker": "C",
+                    "start_time": 1635.35,
+                    "end_time": 1636.81,
+                    "sentence": "Like like mobiles, yeah.",
+                    "source": "ES2005c.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.25"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 12):\n- AE_ID: ES2005c.D.argumentstructs.Erik.25\n- Speaker: D\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.D.argumentstructs.Erik.22 (Index: 5, Speaker: D): \"Yeah, 'cause you said about disposable, didn't you ?\"\nAE_ID ES2005c.C.argumentstructs.Erik.18 (Index: 6, Speaker: C): \"It kind of fi it fits with f fits with marketing um\"\nAE_ID ES2005c.B.argumentstructs.Erik.4 (Index: 7, Speaker: B): \"S s sorry ?\"\nAE_ID ES2005c.D.argumentstructs.Erik.23 (Index: 8, Speaker: D): \"You said about disposable earli people want disposable things so we could do that, like have a choice.\"\nAE_ID ES2005c.B.argumentstructs.Erik.5 (Index: 9, Speaker: B): \"Uh like if this is a like if this is a mobile phone uh we will design casing in such a way like half of, we need not to have a full cover, we will just have a half of cover, okay ? If somebody wants it i in banana shape, we will fit banana shape casing onto that, so it will give a banana shape look. If somebody wanted in apple shape we will design that, we will put  we will put apple shape casing on that. It will give apple shape look. So in that way you can have any, that means whatever you want, without  uh yeah.\"\nAE_ID ES2005c.D.argumentstructs.Erik.24 (Index: 10, Speaker: D): \"Yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.19 (Index: 11, Speaker: C): \"Like like mobiles, yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.D.argumentstructs.Erik.24",
+            "ans": "ES2005c.C.argumentstructs.Erik.19",
+            "judgement": false
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 14,
+                "ae_id": "ES2005c.D.argumentstructs.Erik.26",
+                "speaker": "D",
+                "start_time": 1654.47,
+                "end_time": 1659.06,
+                "sentence": "Okay. We still need the buttons in the same places thought, don't we ?",
+                "source": "ES2005c.B.argumentstructs.Erik.3",
+                "targets": [
+                    "ES2005c.B.argumentstructs.Erik.6"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 6,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.18",
+                    "speaker": "C",
+                    "start_time": 1616.89,
+                    "end_time": 1619.706,
+                    "sentence": "It kind of fi it fits with f fits with marketing um",
+                    "source": "ES2005c.D.argumentstructs.Erik.22",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1618.76,
+                    "end_time": 1620.27,
+                    "sentence": "S s sorry ?",
+                    "source": "ES2005c.D.argumentstructs.Erik.22",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.23",
+                    "speaker": "D",
+                    "start_time": 1620.37,
+                    "end_time": 1625.44,
+                    "sentence": "You said about disposable earli people want disposable things so we could do that, like have a choice.",
+                    "source": "ES2005c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2005c.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1623.72,
+                    "end_time": 1656.34,
+                    "sentence": "Uh like if this is a like if this is a mobile phone uh we will design casing in such a way like half of, we need not to have a full cover, we will just have a half of cover, okay ? If somebody wants it i in banana shape, we will fit banana shape casing onto that, so it will give a banana shape look. If somebody wanted in apple shape we will design that, we will put  we will put apple shape casing on that. It will give apple shape look. So in that way you can have any, that means whatever you want, without  uh yeah.",
+                    "source": "ES2005c.D.argumentstructs.Erik.23",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.24",
+                        "ES2005c.C.argumentstructs.Erik.19"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.24",
+                    "speaker": "D",
+                    "start_time": 1633.09,
+                    "end_time": 1633.48,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.19",
+                    "speaker": "C",
+                    "start_time": 1635.35,
+                    "end_time": 1636.81,
+                    "sentence": "Like like mobiles, yeah.",
+                    "source": "ES2005c.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.25"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.25",
+                    "speaker": "D",
+                    "start_time": 1636.48,
+                    "end_time": 1636.89,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.C.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 14):\n- AE_ID: ES2005c.D.argumentstructs.Erik.26\n- Speaker: D\n- Sentence: \"Okay. We still need the buttons in the same places thought, don't we ?\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.C.argumentstructs.Erik.18 (Index: 6, Speaker: C): \"It kind of fi it fits with f fits with marketing um\"\nAE_ID ES2005c.B.argumentstructs.Erik.4 (Index: 7, Speaker: B): \"S s sorry ?\"\nAE_ID ES2005c.D.argumentstructs.Erik.23 (Index: 8, Speaker: D): \"You said about disposable earli people want disposable things so we could do that, like have a choice.\"\nAE_ID ES2005c.B.argumentstructs.Erik.5 (Index: 9, Speaker: B): \"Uh like if this is a like if this is a mobile phone uh we will design casing in such a way like half of, we need not to have a full cover, we will just have a half of cover, okay ? If somebody wants it i in banana shape, we will fit banana shape casing onto that, so it will give a banana shape look. If somebody wanted in apple shape we will design that, we will put  we will put apple shape casing on that. It will give apple shape look. So in that way you can have any, that means whatever you want, without  uh yeah.\"\nAE_ID ES2005c.D.argumentstructs.Erik.24 (Index: 10, Speaker: D): \"Yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.19 (Index: 11, Speaker: C): \"Like like mobiles, yeah.\"\nAE_ID ES2005c.D.argumentstructs.Erik.25 (Index: 12, Speaker: D): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.D.argumentstructs.Erik.24",
+            "ans": "ES2005c.B.argumentstructs.Erik.3",
+            "judgement": false
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 15,
+                "ae_id": "ES2005c.B.argumentstructs.Erik.6",
+                "speaker": "B",
+                "start_time": 1658.22,
+                "end_time": 1686.576,
+                "sentence": "Yeah, button will be on the upper side, buttons will be the on the upper side. Yeah, buttons will be on the upper side, lower side we will just put the casing, so half of that will be look the  Yeah, not not the upper side. So from lower you can, it means while you are holding of  from this side you c you can have banana look or apple look, whatever. So in that way we need not to d have different different shape mobiles everything, we will just design casings fruit shape. And",
+                "source": "ES2005c.D.argumentstructs.Erik.26",
+                "targets": [
+                    "ES2005c.C.argumentstructs.Erik.20",
+                    "ES2005c.D.argumentstructs.Erik.27",
+                    "ES2005c.D.argumentstructs.Erik.28",
+                    "ES2005c.C.argumentstructs.Erik.21"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 7,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1618.76,
+                    "end_time": 1620.27,
+                    "sentence": "S s sorry ?",
+                    "source": "ES2005c.D.argumentstructs.Erik.22",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.23",
+                    "speaker": "D",
+                    "start_time": 1620.37,
+                    "end_time": 1625.44,
+                    "sentence": "You said about disposable earli people want disposable things so we could do that, like have a choice.",
+                    "source": "ES2005c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2005c.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1623.72,
+                    "end_time": 1656.34,
+                    "sentence": "Uh like if this is a like if this is a mobile phone uh we will design casing in such a way like half of, we need not to have a full cover, we will just have a half of cover, okay ? If somebody wants it i in banana shape, we will fit banana shape casing onto that, so it will give a banana shape look. If somebody wanted in apple shape we will design that, we will put  we will put apple shape casing on that. It will give apple shape look. So in that way you can have any, that means whatever you want, without  uh yeah.",
+                    "source": "ES2005c.D.argumentstructs.Erik.23",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.24",
+                        "ES2005c.C.argumentstructs.Erik.19"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.24",
+                    "speaker": "D",
+                    "start_time": 1633.09,
+                    "end_time": 1633.48,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.19",
+                    "speaker": "C",
+                    "start_time": 1635.35,
+                    "end_time": 1636.81,
+                    "sentence": "Like like mobiles, yeah.",
+                    "source": "ES2005c.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.25"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.25",
+                    "speaker": "D",
+                    "start_time": 1636.48,
+                    "end_time": 1636.89,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.C.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.26",
+                    "speaker": "D",
+                    "start_time": 1654.47,
+                    "end_time": 1659.06,
+                    "sentence": "Okay. We still need the buttons in the same places thought, don't we ?",
+                    "source": "ES2005c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2005c.B.argumentstructs.Erik.6"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 15):\n- AE_ID: ES2005c.B.argumentstructs.Erik.6\n- Speaker: B\n- Sentence: \"Yeah, button will be on the upper side, buttons will be the on the upper side. Yeah, buttons will be on the upper side, lower side we will just put the casing, so half of that will be look the  Yeah, not not the upper side. So from lower you can, it means while you are holding of  from this side you c you can have banana look or apple look, whatever. So in that way we need not to d have different different shape mobiles everything, we will just design casings fruit shape. And\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.B.argumentstructs.Erik.4 (Index: 7, Speaker: B): \"S s sorry ?\"\nAE_ID ES2005c.D.argumentstructs.Erik.23 (Index: 8, Speaker: D): \"You said about disposable earli people want disposable things so we could do that, like have a choice.\"\nAE_ID ES2005c.B.argumentstructs.Erik.5 (Index: 9, Speaker: B): \"Uh like if this is a like if this is a mobile phone uh we will design casing in such a way like half of, we need not to have a full cover, we will just have a half of cover, okay ? If somebody wants it i in banana shape, we will fit banana shape casing onto that, so it will give a banana shape look. If somebody wanted in apple shape we will design that, we will put  we will put apple shape casing on that. It will give apple shape look. So in that way you can have any, that means whatever you want, without  uh yeah.\"\nAE_ID ES2005c.D.argumentstructs.Erik.24 (Index: 10, Speaker: D): \"Yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.19 (Index: 11, Speaker: C): \"Like like mobiles, yeah.\"\nAE_ID ES2005c.D.argumentstructs.Erik.25 (Index: 12, Speaker: D): \"Yeah.\"\nAE_ID ES2005c.D.argumentstructs.Erik.26 (Index: 14, Speaker: D): \"Okay. We still need the buttons in the same places thought, don't we ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.D.argumentstructs.Erik.26",
+            "ans": "ES2005c.D.argumentstructs.Erik.26",
+            "judgement": true
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 16,
+                "ae_id": "ES2005c.C.argumentstructs.Erik.20",
+                "speaker": "C",
+                "start_time": 1659.06,
+                "end_time": 1660.6,
+                "sentence": "You can standardise those, I mean.",
+                "source": "ES2005c.B.argumentstructs.Erik.6",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 8,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.23",
+                    "speaker": "D",
+                    "start_time": 1620.37,
+                    "end_time": 1625.44,
+                    "sentence": "You said about disposable earli people want disposable things so we could do that, like have a choice.",
+                    "source": "ES2005c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2005c.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1623.72,
+                    "end_time": 1656.34,
+                    "sentence": "Uh like if this is a like if this is a mobile phone uh we will design casing in such a way like half of, we need not to have a full cover, we will just have a half of cover, okay ? If somebody wants it i in banana shape, we will fit banana shape casing onto that, so it will give a banana shape look. If somebody wanted in apple shape we will design that, we will put  we will put apple shape casing on that. It will give apple shape look. So in that way you can have any, that means whatever you want, without  uh yeah.",
+                    "source": "ES2005c.D.argumentstructs.Erik.23",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.24",
+                        "ES2005c.C.argumentstructs.Erik.19"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.24",
+                    "speaker": "D",
+                    "start_time": 1633.09,
+                    "end_time": 1633.48,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.19",
+                    "speaker": "C",
+                    "start_time": 1635.35,
+                    "end_time": 1636.81,
+                    "sentence": "Like like mobiles, yeah.",
+                    "source": "ES2005c.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.25"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.25",
+                    "speaker": "D",
+                    "start_time": 1636.48,
+                    "end_time": 1636.89,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.C.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.26",
+                    "speaker": "D",
+                    "start_time": 1654.47,
+                    "end_time": 1659.06,
+                    "sentence": "Okay. We still need the buttons in the same places thought, don't we ?",
+                    "source": "ES2005c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2005c.B.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 1658.22,
+                    "end_time": 1686.576,
+                    "sentence": "Yeah, button will be on the upper side, buttons will be the on the upper side. Yeah, buttons will be on the upper side, lower side we will just put the casing, so half of that will be look the  Yeah, not not the upper side. So from lower you can, it means while you are holding of  from this side you c you can have banana look or apple look, whatever. So in that way we need not to d have different different shape mobiles everything, we will just design casings fruit shape. And",
+                    "source": "ES2005c.D.argumentstructs.Erik.26",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.20",
+                        "ES2005c.D.argumentstructs.Erik.27",
+                        "ES2005c.D.argumentstructs.Erik.28",
+                        "ES2005c.C.argumentstructs.Erik.21"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 16):\n- AE_ID: ES2005c.C.argumentstructs.Erik.20\n- Speaker: C\n- Sentence: \"You can standardise those, I mean.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.D.argumentstructs.Erik.23 (Index: 8, Speaker: D): \"You said about disposable earli people want disposable things so we could do that, like have a choice.\"\nAE_ID ES2005c.B.argumentstructs.Erik.5 (Index: 9, Speaker: B): \"Uh like if this is a like if this is a mobile phone uh we will design casing in such a way like half of, we need not to have a full cover, we will just have a half of cover, okay ? If somebody wants it i in banana shape, we will fit banana shape casing onto that, so it will give a banana shape look. If somebody wanted in apple shape we will design that, we will put  we will put apple shape casing on that. It will give apple shape look. So in that way you can have any, that means whatever you want, without  uh yeah.\"\nAE_ID ES2005c.D.argumentstructs.Erik.24 (Index: 10, Speaker: D): \"Yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.19 (Index: 11, Speaker: C): \"Like like mobiles, yeah.\"\nAE_ID ES2005c.D.argumentstructs.Erik.25 (Index: 12, Speaker: D): \"Yeah.\"\nAE_ID ES2005c.D.argumentstructs.Erik.26 (Index: 14, Speaker: D): \"Okay. We still need the buttons in the same places thought, don't we ?\"\nAE_ID ES2005c.B.argumentstructs.Erik.6 (Index: 15, Speaker: B): \"Yeah, button will be on the upper side, buttons will be the on the upper side. Yeah, buttons will be on the upper side, lower side we will just put the casing, so half of that will be look the  Yeah, not not the upper side. So from lower you can, it means while you are holding of  from this side you c you can have banana look or apple look, whatever. So in that way we need not to d have different different shape mobiles everything, we will just design casings fruit shape. And\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.B.argumentstructs.Erik.6",
+            "ans": "ES2005c.B.argumentstructs.Erik.6",
+            "judgement": true
+        },
+        {
+            "turn_number": 13,
+            "current_node": {
+                "index": 17,
+                "ae_id": "ES2005c.D.argumentstructs.Erik.27",
+                "speaker": "D",
+                "start_time": 1661.99,
+                "end_time": 1663.6,
+                "sentence": "Oh, that's the other side. Oh, okay.",
+                "source": "ES2005c.B.argumentstructs.Erik.6",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 9,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1623.72,
+                    "end_time": 1656.34,
+                    "sentence": "Uh like if this is a like if this is a mobile phone uh we will design casing in such a way like half of, we need not to have a full cover, we will just have a half of cover, okay ? If somebody wants it i in banana shape, we will fit banana shape casing onto that, so it will give a banana shape look. If somebody wanted in apple shape we will design that, we will put  we will put apple shape casing on that. It will give apple shape look. So in that way you can have any, that means whatever you want, without  uh yeah.",
+                    "source": "ES2005c.D.argumentstructs.Erik.23",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.24",
+                        "ES2005c.C.argumentstructs.Erik.19"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.24",
+                    "speaker": "D",
+                    "start_time": 1633.09,
+                    "end_time": 1633.48,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.19",
+                    "speaker": "C",
+                    "start_time": 1635.35,
+                    "end_time": 1636.81,
+                    "sentence": "Like like mobiles, yeah.",
+                    "source": "ES2005c.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.25"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.25",
+                    "speaker": "D",
+                    "start_time": 1636.48,
+                    "end_time": 1636.89,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.C.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.26",
+                    "speaker": "D",
+                    "start_time": 1654.47,
+                    "end_time": 1659.06,
+                    "sentence": "Okay. We still need the buttons in the same places thought, don't we ?",
+                    "source": "ES2005c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2005c.B.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 1658.22,
+                    "end_time": 1686.576,
+                    "sentence": "Yeah, button will be on the upper side, buttons will be the on the upper side. Yeah, buttons will be on the upper side, lower side we will just put the casing, so half of that will be look the  Yeah, not not the upper side. So from lower you can, it means while you are holding of  from this side you c you can have banana look or apple look, whatever. So in that way we need not to d have different different shape mobiles everything, we will just design casings fruit shape. And",
+                    "source": "ES2005c.D.argumentstructs.Erik.26",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.20",
+                        "ES2005c.D.argumentstructs.Erik.27",
+                        "ES2005c.D.argumentstructs.Erik.28",
+                        "ES2005c.C.argumentstructs.Erik.21"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.20",
+                    "speaker": "C",
+                    "start_time": 1659.06,
+                    "end_time": 1660.6,
+                    "sentence": "You can standardise those, I mean.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 17):\n- AE_ID: ES2005c.D.argumentstructs.Erik.27\n- Speaker: D\n- Sentence: \"Oh, that's the other side. Oh, okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.B.argumentstructs.Erik.5 (Index: 9, Speaker: B): \"Uh like if this is a like if this is a mobile phone uh we will design casing in such a way like half of, we need not to have a full cover, we will just have a half of cover, okay ? If somebody wants it i in banana shape, we will fit banana shape casing onto that, so it will give a banana shape look. If somebody wanted in apple shape we will design that, we will put  we will put apple shape casing on that. It will give apple shape look. So in that way you can have any, that means whatever you want, without  uh yeah.\"\nAE_ID ES2005c.D.argumentstructs.Erik.24 (Index: 10, Speaker: D): \"Yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.19 (Index: 11, Speaker: C): \"Like like mobiles, yeah.\"\nAE_ID ES2005c.D.argumentstructs.Erik.25 (Index: 12, Speaker: D): \"Yeah.\"\nAE_ID ES2005c.D.argumentstructs.Erik.26 (Index: 14, Speaker: D): \"Okay. We still need the buttons in the same places thought, don't we ?\"\nAE_ID ES2005c.B.argumentstructs.Erik.6 (Index: 15, Speaker: B): \"Yeah, button will be on the upper side, buttons will be the on the upper side. Yeah, buttons will be on the upper side, lower side we will just put the casing, so half of that will be look the  Yeah, not not the upper side. So from lower you can, it means while you are holding of  from this side you c you can have banana look or apple look, whatever. So in that way we need not to d have different different shape mobiles everything, we will just design casings fruit shape. And\"\nAE_ID ES2005c.C.argumentstructs.Erik.20 (Index: 16, Speaker: C): \"You can standardise those, I mean.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.B.argumentstructs.Erik.6",
+            "ans": "ES2005c.B.argumentstructs.Erik.6",
+            "judgement": true
+        },
+        {
+            "turn_number": 14,
+            "current_node": {
+                "index": 18,
+                "ae_id": "ES2005c.D.argumentstructs.Erik.28",
+                "speaker": "D",
+                "start_time": 1667.97,
+                "end_time": 1670.56,
+                "sentence": "Oh, half a fruit. Oh, okay, okay.",
+                "source": "ES2005c.B.argumentstructs.Erik.6",
+                "targets": [
+                    "ES2005c.A.argumentstructs.Erik.15"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 10,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.24",
+                    "speaker": "D",
+                    "start_time": 1633.09,
+                    "end_time": 1633.48,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.19",
+                    "speaker": "C",
+                    "start_time": 1635.35,
+                    "end_time": 1636.81,
+                    "sentence": "Like like mobiles, yeah.",
+                    "source": "ES2005c.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.25"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.25",
+                    "speaker": "D",
+                    "start_time": 1636.48,
+                    "end_time": 1636.89,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.C.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.26",
+                    "speaker": "D",
+                    "start_time": 1654.47,
+                    "end_time": 1659.06,
+                    "sentence": "Okay. We still need the buttons in the same places thought, don't we ?",
+                    "source": "ES2005c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2005c.B.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 1658.22,
+                    "end_time": 1686.576,
+                    "sentence": "Yeah, button will be on the upper side, buttons will be the on the upper side. Yeah, buttons will be on the upper side, lower side we will just put the casing, so half of that will be look the  Yeah, not not the upper side. So from lower you can, it means while you are holding of  from this side you c you can have banana look or apple look, whatever. So in that way we need not to d have different different shape mobiles everything, we will just design casings fruit shape. And",
+                    "source": "ES2005c.D.argumentstructs.Erik.26",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.20",
+                        "ES2005c.D.argumentstructs.Erik.27",
+                        "ES2005c.D.argumentstructs.Erik.28",
+                        "ES2005c.C.argumentstructs.Erik.21"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.20",
+                    "speaker": "C",
+                    "start_time": 1659.06,
+                    "end_time": 1660.6,
+                    "sentence": "You can standardise those, I mean.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.27",
+                    "speaker": "D",
+                    "start_time": 1661.99,
+                    "end_time": 1663.6,
+                    "sentence": "Oh, that's the other side. Oh, okay.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 18):\n- AE_ID: ES2005c.D.argumentstructs.Erik.28\n- Speaker: D\n- Sentence: \"Oh, half a fruit. Oh, okay, okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.D.argumentstructs.Erik.24 (Index: 10, Speaker: D): \"Yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.19 (Index: 11, Speaker: C): \"Like like mobiles, yeah.\"\nAE_ID ES2005c.D.argumentstructs.Erik.25 (Index: 12, Speaker: D): \"Yeah.\"\nAE_ID ES2005c.D.argumentstructs.Erik.26 (Index: 14, Speaker: D): \"Okay. We still need the buttons in the same places thought, don't we ?\"\nAE_ID ES2005c.B.argumentstructs.Erik.6 (Index: 15, Speaker: B): \"Yeah, button will be on the upper side, buttons will be the on the upper side. Yeah, buttons will be on the upper side, lower side we will just put the casing, so half of that will be look the  Yeah, not not the upper side. So from lower you can, it means while you are holding of  from this side you c you can have banana look or apple look, whatever. So in that way we need not to d have different different shape mobiles everything, we will just design casings fruit shape. And\"\nAE_ID ES2005c.C.argumentstructs.Erik.20 (Index: 16, Speaker: C): \"You can standardise those, I mean.\"\nAE_ID ES2005c.D.argumentstructs.Erik.27 (Index: 17, Speaker: D): \"Oh, that's the other side. Oh, okay.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.D.argumentstructs.Erik.27",
+            "ans": "ES2005c.B.argumentstructs.Erik.6",
+            "judgement": false
+        },
+        {
+            "turn_number": 15,
+            "current_node": {
+                "index": 20,
+                "ae_id": "ES2005c.A.argumentstructs.Erik.15",
+                "speaker": "A",
+                "start_time": 1686.07,
+                "end_time": 1686.73,
+                "sentence": "Yeah yeah.",
+                "source": "ES2005c.D.argumentstructs.Erik.28",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 11,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.19",
+                    "speaker": "C",
+                    "start_time": 1635.35,
+                    "end_time": 1636.81,
+                    "sentence": "Like like mobiles, yeah.",
+                    "source": "ES2005c.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.25"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.25",
+                    "speaker": "D",
+                    "start_time": 1636.48,
+                    "end_time": 1636.89,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.C.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.26",
+                    "speaker": "D",
+                    "start_time": 1654.47,
+                    "end_time": 1659.06,
+                    "sentence": "Okay. We still need the buttons in the same places thought, don't we ?",
+                    "source": "ES2005c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2005c.B.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 1658.22,
+                    "end_time": 1686.576,
+                    "sentence": "Yeah, button will be on the upper side, buttons will be the on the upper side. Yeah, buttons will be on the upper side, lower side we will just put the casing, so half of that will be look the  Yeah, not not the upper side. So from lower you can, it means while you are holding of  from this side you c you can have banana look or apple look, whatever. So in that way we need not to d have different different shape mobiles everything, we will just design casings fruit shape. And",
+                    "source": "ES2005c.D.argumentstructs.Erik.26",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.20",
+                        "ES2005c.D.argumentstructs.Erik.27",
+                        "ES2005c.D.argumentstructs.Erik.28",
+                        "ES2005c.C.argumentstructs.Erik.21"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.20",
+                    "speaker": "C",
+                    "start_time": 1659.06,
+                    "end_time": 1660.6,
+                    "sentence": "You can standardise those, I mean.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.27",
+                    "speaker": "D",
+                    "start_time": 1661.99,
+                    "end_time": 1663.6,
+                    "sentence": "Oh, that's the other side. Oh, okay.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.28",
+                    "speaker": "D",
+                    "start_time": 1667.97,
+                    "end_time": 1670.56,
+                    "sentence": "Oh, half a fruit. Oh, okay, okay.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2005c.A.argumentstructs.Erik.15"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 20):\n- AE_ID: ES2005c.A.argumentstructs.Erik.15\n- Speaker: A\n- Sentence: \"Yeah yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.C.argumentstructs.Erik.19 (Index: 11, Speaker: C): \"Like like mobiles, yeah.\"\nAE_ID ES2005c.D.argumentstructs.Erik.25 (Index: 12, Speaker: D): \"Yeah.\"\nAE_ID ES2005c.D.argumentstructs.Erik.26 (Index: 14, Speaker: D): \"Okay. We still need the buttons in the same places thought, don't we ?\"\nAE_ID ES2005c.B.argumentstructs.Erik.6 (Index: 15, Speaker: B): \"Yeah, button will be on the upper side, buttons will be the on the upper side. Yeah, buttons will be on the upper side, lower side we will just put the casing, so half of that will be look the  Yeah, not not the upper side. So from lower you can, it means while you are holding of  from this side you c you can have banana look or apple look, whatever. So in that way we need not to d have different different shape mobiles everything, we will just design casings fruit shape. And\"\nAE_ID ES2005c.C.argumentstructs.Erik.20 (Index: 16, Speaker: C): \"You can standardise those, I mean.\"\nAE_ID ES2005c.D.argumentstructs.Erik.27 (Index: 17, Speaker: D): \"Oh, that's the other side. Oh, okay.\"\nAE_ID ES2005c.D.argumentstructs.Erik.28 (Index: 18, Speaker: D): \"Oh, half a fruit. Oh, okay, okay.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.C.argumentstructs.Erik.20",
+            "ans": "ES2005c.D.argumentstructs.Erik.28",
+            "judgement": false
+        },
+        {
+            "turn_number": 16,
+            "current_node": {
+                "index": 21,
+                "ae_id": "ES2005c.C.argumentstructs.Erik.21",
+                "speaker": "C",
+                "start_time": 1686.23,
+                "end_time": 1699.37,
+                "sentence": "I think tho I think if you're gonna have a facia then you'd want to have it so that it does go over the buttons, 'cause when  if you think about it if they're wanting it, 'cause they want to look at it, if they're using it, and what they want to look at is facing away from them.",
+                "source": "ES2005c.B.argumentstructs.Erik.6",
+                "targets": [
+                    "ES2005c.C.argumentstructs.Erik.22"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 12,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.25",
+                    "speaker": "D",
+                    "start_time": 1636.48,
+                    "end_time": 1636.89,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.C.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.26",
+                    "speaker": "D",
+                    "start_time": 1654.47,
+                    "end_time": 1659.06,
+                    "sentence": "Okay. We still need the buttons in the same places thought, don't we ?",
+                    "source": "ES2005c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2005c.B.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 1658.22,
+                    "end_time": 1686.576,
+                    "sentence": "Yeah, button will be on the upper side, buttons will be the on the upper side. Yeah, buttons will be on the upper side, lower side we will just put the casing, so half of that will be look the  Yeah, not not the upper side. So from lower you can, it means while you are holding of  from this side you c you can have banana look or apple look, whatever. So in that way we need not to d have different different shape mobiles everything, we will just design casings fruit shape. And",
+                    "source": "ES2005c.D.argumentstructs.Erik.26",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.20",
+                        "ES2005c.D.argumentstructs.Erik.27",
+                        "ES2005c.D.argumentstructs.Erik.28",
+                        "ES2005c.C.argumentstructs.Erik.21"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.20",
+                    "speaker": "C",
+                    "start_time": 1659.06,
+                    "end_time": 1660.6,
+                    "sentence": "You can standardise those, I mean.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.27",
+                    "speaker": "D",
+                    "start_time": 1661.99,
+                    "end_time": 1663.6,
+                    "sentence": "Oh, that's the other side. Oh, okay.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.28",
+                    "speaker": "D",
+                    "start_time": 1667.97,
+                    "end_time": 1670.56,
+                    "sentence": "Oh, half a fruit. Oh, okay, okay.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2005c.A.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.15",
+                    "speaker": "A",
+                    "start_time": 1686.07,
+                    "end_time": 1686.73,
+                    "sentence": "Yeah yeah.",
+                    "source": "ES2005c.D.argumentstructs.Erik.28",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 21):\n- AE_ID: ES2005c.C.argumentstructs.Erik.21\n- Speaker: C\n- Sentence: \"I think tho I think if you're gonna have a facia then you'd want to have it so that it does go over the buttons, 'cause when  if you think about it if they're wanting it, 'cause they want to look at it, if they're using it, and what they want to look at is facing away from them.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.D.argumentstructs.Erik.25 (Index: 12, Speaker: D): \"Yeah.\"\nAE_ID ES2005c.D.argumentstructs.Erik.26 (Index: 14, Speaker: D): \"Okay. We still need the buttons in the same places thought, don't we ?\"\nAE_ID ES2005c.B.argumentstructs.Erik.6 (Index: 15, Speaker: B): \"Yeah, button will be on the upper side, buttons will be the on the upper side. Yeah, buttons will be on the upper side, lower side we will just put the casing, so half of that will be look the  Yeah, not not the upper side. So from lower you can, it means while you are holding of  from this side you c you can have banana look or apple look, whatever. So in that way we need not to d have different different shape mobiles everything, we will just design casings fruit shape. And\"\nAE_ID ES2005c.C.argumentstructs.Erik.20 (Index: 16, Speaker: C): \"You can standardise those, I mean.\"\nAE_ID ES2005c.D.argumentstructs.Erik.27 (Index: 17, Speaker: D): \"Oh, that's the other side. Oh, okay.\"\nAE_ID ES2005c.D.argumentstructs.Erik.28 (Index: 18, Speaker: D): \"Oh, half a fruit. Oh, okay, okay.\"\nAE_ID ES2005c.A.argumentstructs.Erik.15 (Index: 20, Speaker: A): \"Yeah yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.C.argumentstructs.Erik.20",
+            "ans": "ES2005c.B.argumentstructs.Erik.6",
+            "judgement": false
+        },
+        {
+            "turn_number": 17,
+            "current_node": {
+                "index": 23,
+                "ae_id": "ES2005c.C.argumentstructs.Erik.22",
+                "speaker": "C",
+                "start_time": 1702.76,
+                "end_time": 1713.68,
+                "sentence": "You know 'cause that'd be in the palm of their hand and they wouldn't be able to see it, unless you have sort of  you got the buttons options on one side, and you get the facia on the other side with a microphone so that you can place it face down.",
+                "source": "ES2005c.C.argumentstructs.Erik.21",
+                "targets": [
+                    "ES2005c.D.argumentstructs.Erik.29",
+                    "ES2005c.C.argumentstructs.Erik.23"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 14,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.26",
+                    "speaker": "D",
+                    "start_time": 1654.47,
+                    "end_time": 1659.06,
+                    "sentence": "Okay. We still need the buttons in the same places thought, don't we ?",
+                    "source": "ES2005c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2005c.B.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 1658.22,
+                    "end_time": 1686.576,
+                    "sentence": "Yeah, button will be on the upper side, buttons will be the on the upper side. Yeah, buttons will be on the upper side, lower side we will just put the casing, so half of that will be look the  Yeah, not not the upper side. So from lower you can, it means while you are holding of  from this side you c you can have banana look or apple look, whatever. So in that way we need not to d have different different shape mobiles everything, we will just design casings fruit shape. And",
+                    "source": "ES2005c.D.argumentstructs.Erik.26",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.20",
+                        "ES2005c.D.argumentstructs.Erik.27",
+                        "ES2005c.D.argumentstructs.Erik.28",
+                        "ES2005c.C.argumentstructs.Erik.21"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.20",
+                    "speaker": "C",
+                    "start_time": 1659.06,
+                    "end_time": 1660.6,
+                    "sentence": "You can standardise those, I mean.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.27",
+                    "speaker": "D",
+                    "start_time": 1661.99,
+                    "end_time": 1663.6,
+                    "sentence": "Oh, that's the other side. Oh, okay.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.28",
+                    "speaker": "D",
+                    "start_time": 1667.97,
+                    "end_time": 1670.56,
+                    "sentence": "Oh, half a fruit. Oh, okay, okay.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2005c.A.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.15",
+                    "speaker": "A",
+                    "start_time": 1686.07,
+                    "end_time": 1686.73,
+                    "sentence": "Yeah yeah.",
+                    "source": "ES2005c.D.argumentstructs.Erik.28",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.21",
+                    "speaker": "C",
+                    "start_time": 1686.23,
+                    "end_time": 1699.37,
+                    "sentence": "I think tho I think if you're gonna have a facia then you'd want to have it so that it does go over the buttons, 'cause when  if you think about it if they're wanting it, 'cause they want to look at it, if they're using it, and what they want to look at is facing away from them.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.22"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 23):\n- AE_ID: ES2005c.C.argumentstructs.Erik.22\n- Speaker: C\n- Sentence: \"You know 'cause that'd be in the palm of their hand and they wouldn't be able to see it, unless you have sort of  you got the buttons options on one side, and you get the facia on the other side with a microphone so that you can place it face down.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.D.argumentstructs.Erik.26 (Index: 14, Speaker: D): \"Okay. We still need the buttons in the same places thought, don't we ?\"\nAE_ID ES2005c.B.argumentstructs.Erik.6 (Index: 15, Speaker: B): \"Yeah, button will be on the upper side, buttons will be the on the upper side. Yeah, buttons will be on the upper side, lower side we will just put the casing, so half of that will be look the  Yeah, not not the upper side. So from lower you can, it means while you are holding of  from this side you c you can have banana look or apple look, whatever. So in that way we need not to d have different different shape mobiles everything, we will just design casings fruit shape. And\"\nAE_ID ES2005c.C.argumentstructs.Erik.20 (Index: 16, Speaker: C): \"You can standardise those, I mean.\"\nAE_ID ES2005c.D.argumentstructs.Erik.27 (Index: 17, Speaker: D): \"Oh, that's the other side. Oh, okay.\"\nAE_ID ES2005c.D.argumentstructs.Erik.28 (Index: 18, Speaker: D): \"Oh, half a fruit. Oh, okay, okay.\"\nAE_ID ES2005c.A.argumentstructs.Erik.15 (Index: 20, Speaker: A): \"Yeah yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.21 (Index: 21, Speaker: C): \"I think tho I think if you're gonna have a facia then you'd want to have it so that it does go over the buttons, 'cause when  if you think about it if they're wanting it, 'cause they want to look at it, if they're using it, and what they want to look at is facing away from them.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.C.argumentstructs.Erik.21",
+            "ans": "ES2005c.C.argumentstructs.Erik.21",
+            "judgement": true
+        },
+        {
+            "turn_number": 18,
+            "current_node": {
+                "index": 24,
+                "ae_id": "ES2005c.D.argumentstructs.Erik.29",
+                "speaker": "D",
+                "start_time": 1705.08,
+                "end_time": 1705.53,
+                "sentence": "Yeah.",
+                "source": "ES2005c.C.argumentstructs.Erik.22",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 15,
+                    "ae_id": "ES2005c.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 1658.22,
+                    "end_time": 1686.576,
+                    "sentence": "Yeah, button will be on the upper side, buttons will be the on the upper side. Yeah, buttons will be on the upper side, lower side we will just put the casing, so half of that will be look the  Yeah, not not the upper side. So from lower you can, it means while you are holding of  from this side you c you can have banana look or apple look, whatever. So in that way we need not to d have different different shape mobiles everything, we will just design casings fruit shape. And",
+                    "source": "ES2005c.D.argumentstructs.Erik.26",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.20",
+                        "ES2005c.D.argumentstructs.Erik.27",
+                        "ES2005c.D.argumentstructs.Erik.28",
+                        "ES2005c.C.argumentstructs.Erik.21"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.20",
+                    "speaker": "C",
+                    "start_time": 1659.06,
+                    "end_time": 1660.6,
+                    "sentence": "You can standardise those, I mean.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.27",
+                    "speaker": "D",
+                    "start_time": 1661.99,
+                    "end_time": 1663.6,
+                    "sentence": "Oh, that's the other side. Oh, okay.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.28",
+                    "speaker": "D",
+                    "start_time": 1667.97,
+                    "end_time": 1670.56,
+                    "sentence": "Oh, half a fruit. Oh, okay, okay.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2005c.A.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.15",
+                    "speaker": "A",
+                    "start_time": 1686.07,
+                    "end_time": 1686.73,
+                    "sentence": "Yeah yeah.",
+                    "source": "ES2005c.D.argumentstructs.Erik.28",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.21",
+                    "speaker": "C",
+                    "start_time": 1686.23,
+                    "end_time": 1699.37,
+                    "sentence": "I think tho I think if you're gonna have a facia then you'd want to have it so that it does go over the buttons, 'cause when  if you think about it if they're wanting it, 'cause they want to look at it, if they're using it, and what they want to look at is facing away from them.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.22"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.22",
+                    "speaker": "C",
+                    "start_time": 1702.76,
+                    "end_time": 1713.68,
+                    "sentence": "You know 'cause that'd be in the palm of their hand and they wouldn't be able to see it, unless you have sort of  you got the buttons options on one side, and you get the facia on the other side with a microphone so that you can place it face down.",
+                    "source": "ES2005c.C.argumentstructs.Erik.21",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.29",
+                        "ES2005c.C.argumentstructs.Erik.23"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 24):\n- AE_ID: ES2005c.D.argumentstructs.Erik.29\n- Speaker: D\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.B.argumentstructs.Erik.6 (Index: 15, Speaker: B): \"Yeah, button will be on the upper side, buttons will be the on the upper side. Yeah, buttons will be on the upper side, lower side we will just put the casing, so half of that will be look the  Yeah, not not the upper side. So from lower you can, it means while you are holding of  from this side you c you can have banana look or apple look, whatever. So in that way we need not to d have different different shape mobiles everything, we will just design casings fruit shape. And\"\nAE_ID ES2005c.C.argumentstructs.Erik.20 (Index: 16, Speaker: C): \"You can standardise those, I mean.\"\nAE_ID ES2005c.D.argumentstructs.Erik.27 (Index: 17, Speaker: D): \"Oh, that's the other side. Oh, okay.\"\nAE_ID ES2005c.D.argumentstructs.Erik.28 (Index: 18, Speaker: D): \"Oh, half a fruit. Oh, okay, okay.\"\nAE_ID ES2005c.A.argumentstructs.Erik.15 (Index: 20, Speaker: A): \"Yeah yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.21 (Index: 21, Speaker: C): \"I think tho I think if you're gonna have a facia then you'd want to have it so that it does go over the buttons, 'cause when  if you think about it if they're wanting it, 'cause they want to look at it, if they're using it, and what they want to look at is facing away from them.\"\nAE_ID ES2005c.C.argumentstructs.Erik.22 (Index: 23, Speaker: C): \"You know 'cause that'd be in the palm of their hand and they wouldn't be able to see it, unless you have sort of  you got the buttons options on one side, and you get the facia on the other side with a microphone so that you can place it face down.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.C.argumentstructs.Erik.22",
+            "ans": "ES2005c.C.argumentstructs.Erik.22",
+            "judgement": true
+        },
+        {
+            "turn_number": 19,
+            "current_node": {
+                "index": 25,
+                "ae_id": "ES2005c.C.argumentstructs.Erik.23",
+                "speaker": "C",
+                "start_time": 1714.85,
+                "end_time": 1717.744,
+                "sentence": "And you've got the facia, and you can just talk at the",
+                "source": "ES2005c.C.argumentstructs.Erik.22",
+                "targets": [
+                    "ES2005c.C.argumentstructs.Erik.24",
+                    "ES2005c.A.argumentstructs.Erik.16"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 16,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.20",
+                    "speaker": "C",
+                    "start_time": 1659.06,
+                    "end_time": 1660.6,
+                    "sentence": "You can standardise those, I mean.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.27",
+                    "speaker": "D",
+                    "start_time": 1661.99,
+                    "end_time": 1663.6,
+                    "sentence": "Oh, that's the other side. Oh, okay.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.28",
+                    "speaker": "D",
+                    "start_time": 1667.97,
+                    "end_time": 1670.56,
+                    "sentence": "Oh, half a fruit. Oh, okay, okay.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2005c.A.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.15",
+                    "speaker": "A",
+                    "start_time": 1686.07,
+                    "end_time": 1686.73,
+                    "sentence": "Yeah yeah.",
+                    "source": "ES2005c.D.argumentstructs.Erik.28",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.21",
+                    "speaker": "C",
+                    "start_time": 1686.23,
+                    "end_time": 1699.37,
+                    "sentence": "I think tho I think if you're gonna have a facia then you'd want to have it so that it does go over the buttons, 'cause when  if you think about it if they're wanting it, 'cause they want to look at it, if they're using it, and what they want to look at is facing away from them.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.22"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.22",
+                    "speaker": "C",
+                    "start_time": 1702.76,
+                    "end_time": 1713.68,
+                    "sentence": "You know 'cause that'd be in the palm of their hand and they wouldn't be able to see it, unless you have sort of  you got the buttons options on one side, and you get the facia on the other side with a microphone so that you can place it face down.",
+                    "source": "ES2005c.C.argumentstructs.Erik.21",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.29",
+                        "ES2005c.C.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.29",
+                    "speaker": "D",
+                    "start_time": 1705.08,
+                    "end_time": 1705.53,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.C.argumentstructs.Erik.22",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 25):\n- AE_ID: ES2005c.C.argumentstructs.Erik.23\n- Speaker: C\n- Sentence: \"And you've got the facia, and you can just talk at the\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.C.argumentstructs.Erik.20 (Index: 16, Speaker: C): \"You can standardise those, I mean.\"\nAE_ID ES2005c.D.argumentstructs.Erik.27 (Index: 17, Speaker: D): \"Oh, that's the other side. Oh, okay.\"\nAE_ID ES2005c.D.argumentstructs.Erik.28 (Index: 18, Speaker: D): \"Oh, half a fruit. Oh, okay, okay.\"\nAE_ID ES2005c.A.argumentstructs.Erik.15 (Index: 20, Speaker: A): \"Yeah yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.21 (Index: 21, Speaker: C): \"I think tho I think if you're gonna have a facia then you'd want to have it so that it does go over the buttons, 'cause when  if you think about it if they're wanting it, 'cause they want to look at it, if they're using it, and what they want to look at is facing away from them.\"\nAE_ID ES2005c.C.argumentstructs.Erik.22 (Index: 23, Speaker: C): \"You know 'cause that'd be in the palm of their hand and they wouldn't be able to see it, unless you have sort of  you got the buttons options on one side, and you get the facia on the other side with a microphone so that you can place it face down.\"\nAE_ID ES2005c.D.argumentstructs.Erik.29 (Index: 24, Speaker: D): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.C.argumentstructs.Erik.22",
+            "ans": "ES2005c.C.argumentstructs.Erik.22",
+            "judgement": true
+        },
+        {
+            "turn_number": 20,
+            "current_node": {
+                "index": 27,
+                "ae_id": "ES2005c.C.argumentstructs.Erik.24",
+                "speaker": "C",
+                "start_time": 1720.58,
+                "end_time": 1724.12,
+                "sentence": "Maybe.",
+                "source": "ES2005c.C.argumentstructs.Erik.23",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 17,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.27",
+                    "speaker": "D",
+                    "start_time": 1661.99,
+                    "end_time": 1663.6,
+                    "sentence": "Oh, that's the other side. Oh, okay.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.28",
+                    "speaker": "D",
+                    "start_time": 1667.97,
+                    "end_time": 1670.56,
+                    "sentence": "Oh, half a fruit. Oh, okay, okay.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2005c.A.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.15",
+                    "speaker": "A",
+                    "start_time": 1686.07,
+                    "end_time": 1686.73,
+                    "sentence": "Yeah yeah.",
+                    "source": "ES2005c.D.argumentstructs.Erik.28",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.21",
+                    "speaker": "C",
+                    "start_time": 1686.23,
+                    "end_time": 1699.37,
+                    "sentence": "I think tho I think if you're gonna have a facia then you'd want to have it so that it does go over the buttons, 'cause when  if you think about it if they're wanting it, 'cause they want to look at it, if they're using it, and what they want to look at is facing away from them.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.22"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.22",
+                    "speaker": "C",
+                    "start_time": 1702.76,
+                    "end_time": 1713.68,
+                    "sentence": "You know 'cause that'd be in the palm of their hand and they wouldn't be able to see it, unless you have sort of  you got the buttons options on one side, and you get the facia on the other side with a microphone so that you can place it face down.",
+                    "source": "ES2005c.C.argumentstructs.Erik.21",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.29",
+                        "ES2005c.C.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.29",
+                    "speaker": "D",
+                    "start_time": 1705.08,
+                    "end_time": 1705.53,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.C.argumentstructs.Erik.22",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.23",
+                    "speaker": "C",
+                    "start_time": 1714.85,
+                    "end_time": 1717.744,
+                    "sentence": "And you've got the facia, and you can just talk at the",
+                    "source": "ES2005c.C.argumentstructs.Erik.22",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.24",
+                        "ES2005c.A.argumentstructs.Erik.16"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 27):\n- AE_ID: ES2005c.C.argumentstructs.Erik.24\n- Speaker: C\n- Sentence: \"Maybe.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.D.argumentstructs.Erik.27 (Index: 17, Speaker: D): \"Oh, that's the other side. Oh, okay.\"\nAE_ID ES2005c.D.argumentstructs.Erik.28 (Index: 18, Speaker: D): \"Oh, half a fruit. Oh, okay, okay.\"\nAE_ID ES2005c.A.argumentstructs.Erik.15 (Index: 20, Speaker: A): \"Yeah yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.21 (Index: 21, Speaker: C): \"I think tho I think if you're gonna have a facia then you'd want to have it so that it does go over the buttons, 'cause when  if you think about it if they're wanting it, 'cause they want to look at it, if they're using it, and what they want to look at is facing away from them.\"\nAE_ID ES2005c.C.argumentstructs.Erik.22 (Index: 23, Speaker: C): \"You know 'cause that'd be in the palm of their hand and they wouldn't be able to see it, unless you have sort of  you got the buttons options on one side, and you get the facia on the other side with a microphone so that you can place it face down.\"\nAE_ID ES2005c.D.argumentstructs.Erik.29 (Index: 24, Speaker: D): \"Yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.23 (Index: 25, Speaker: C): \"And you've got the facia, and you can just talk at the\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.C.argumentstructs.Erik.23",
+            "ans": "ES2005c.C.argumentstructs.Erik.23",
+            "judgement": true
+        },
+        {
+            "turn_number": 21,
+            "current_node": {
+                "index": 28,
+                "ae_id": "ES2005c.A.argumentstructs.Erik.16",
+                "speaker": "A",
+                "start_time": 1724.13,
+                "end_time": 1725.824,
+                "sentence": "Okay, um so",
+                "source": "ES2005c.C.argumentstructs.Erik.23",
+                "targets": [
+                    "ES2005c.C.argumentstructs.Erik.25"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 18,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.28",
+                    "speaker": "D",
+                    "start_time": 1667.97,
+                    "end_time": 1670.56,
+                    "sentence": "Oh, half a fruit. Oh, okay, okay.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2005c.A.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.15",
+                    "speaker": "A",
+                    "start_time": 1686.07,
+                    "end_time": 1686.73,
+                    "sentence": "Yeah yeah.",
+                    "source": "ES2005c.D.argumentstructs.Erik.28",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.21",
+                    "speaker": "C",
+                    "start_time": 1686.23,
+                    "end_time": 1699.37,
+                    "sentence": "I think tho I think if you're gonna have a facia then you'd want to have it so that it does go over the buttons, 'cause when  if you think about it if they're wanting it, 'cause they want to look at it, if they're using it, and what they want to look at is facing away from them.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.22"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.22",
+                    "speaker": "C",
+                    "start_time": 1702.76,
+                    "end_time": 1713.68,
+                    "sentence": "You know 'cause that'd be in the palm of their hand and they wouldn't be able to see it, unless you have sort of  you got the buttons options on one side, and you get the facia on the other side with a microphone so that you can place it face down.",
+                    "source": "ES2005c.C.argumentstructs.Erik.21",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.29",
+                        "ES2005c.C.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.29",
+                    "speaker": "D",
+                    "start_time": 1705.08,
+                    "end_time": 1705.53,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.C.argumentstructs.Erik.22",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.23",
+                    "speaker": "C",
+                    "start_time": 1714.85,
+                    "end_time": 1717.744,
+                    "sentence": "And you've got the facia, and you can just talk at the",
+                    "source": "ES2005c.C.argumentstructs.Erik.22",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.24",
+                        "ES2005c.A.argumentstructs.Erik.16"
+                    ]
+                },
+                {
+                    "index": 27,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.24",
+                    "speaker": "C",
+                    "start_time": 1720.58,
+                    "end_time": 1724.12,
+                    "sentence": "Maybe.",
+                    "source": "ES2005c.C.argumentstructs.Erik.23",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 28):\n- AE_ID: ES2005c.A.argumentstructs.Erik.16\n- Speaker: A\n- Sentence: \"Okay, um so\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.D.argumentstructs.Erik.28 (Index: 18, Speaker: D): \"Oh, half a fruit. Oh, okay, okay.\"\nAE_ID ES2005c.A.argumentstructs.Erik.15 (Index: 20, Speaker: A): \"Yeah yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.21 (Index: 21, Speaker: C): \"I think tho I think if you're gonna have a facia then you'd want to have it so that it does go over the buttons, 'cause when  if you think about it if they're wanting it, 'cause they want to look at it, if they're using it, and what they want to look at is facing away from them.\"\nAE_ID ES2005c.C.argumentstructs.Erik.22 (Index: 23, Speaker: C): \"You know 'cause that'd be in the palm of their hand and they wouldn't be able to see it, unless you have sort of  you got the buttons options on one side, and you get the facia on the other side with a microphone so that you can place it face down.\"\nAE_ID ES2005c.D.argumentstructs.Erik.29 (Index: 24, Speaker: D): \"Yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.23 (Index: 25, Speaker: C): \"And you've got the facia, and you can just talk at the\"\nAE_ID ES2005c.C.argumentstructs.Erik.24 (Index: 27, Speaker: C): \"Maybe.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.C.argumentstructs.Erik.24",
+            "ans": "ES2005c.C.argumentstructs.Erik.23",
+            "judgement": false
+        },
+        {
+            "turn_number": 22,
+            "current_node": {
+                "index": 29,
+                "ae_id": "ES2005c.C.argumentstructs.Erik.25",
+                "speaker": "C",
+                "start_time": 1727.48,
+                "end_time": 1731.14,
+                "sentence": "So you've narrowed it down to half a dozen options.",
+                "source": "ES2005c.A.argumentstructs.Erik.16",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 20,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.15",
+                    "speaker": "A",
+                    "start_time": 1686.07,
+                    "end_time": 1686.73,
+                    "sentence": "Yeah yeah.",
+                    "source": "ES2005c.D.argumentstructs.Erik.28",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.21",
+                    "speaker": "C",
+                    "start_time": 1686.23,
+                    "end_time": 1699.37,
+                    "sentence": "I think tho I think if you're gonna have a facia then you'd want to have it so that it does go over the buttons, 'cause when  if you think about it if they're wanting it, 'cause they want to look at it, if they're using it, and what they want to look at is facing away from them.",
+                    "source": "ES2005c.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.22"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.22",
+                    "speaker": "C",
+                    "start_time": 1702.76,
+                    "end_time": 1713.68,
+                    "sentence": "You know 'cause that'd be in the palm of their hand and they wouldn't be able to see it, unless you have sort of  you got the buttons options on one side, and you get the facia on the other side with a microphone so that you can place it face down.",
+                    "source": "ES2005c.C.argumentstructs.Erik.21",
+                    "targets": [
+                        "ES2005c.D.argumentstructs.Erik.29",
+                        "ES2005c.C.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2005c.D.argumentstructs.Erik.29",
+                    "speaker": "D",
+                    "start_time": 1705.08,
+                    "end_time": 1705.53,
+                    "sentence": "Yeah.",
+                    "source": "ES2005c.C.argumentstructs.Erik.22",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.23",
+                    "speaker": "C",
+                    "start_time": 1714.85,
+                    "end_time": 1717.744,
+                    "sentence": "And you've got the facia, and you can just talk at the",
+                    "source": "ES2005c.C.argumentstructs.Erik.22",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.24",
+                        "ES2005c.A.argumentstructs.Erik.16"
+                    ]
+                },
+                {
+                    "index": 27,
+                    "ae_id": "ES2005c.C.argumentstructs.Erik.24",
+                    "speaker": "C",
+                    "start_time": 1720.58,
+                    "end_time": 1724.12,
+                    "sentence": "Maybe.",
+                    "source": "ES2005c.C.argumentstructs.Erik.23",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 28,
+                    "ae_id": "ES2005c.A.argumentstructs.Erik.16",
+                    "speaker": "A",
+                    "start_time": 1724.13,
+                    "end_time": 1725.824,
+                    "sentence": "Okay, um so",
+                    "source": "ES2005c.C.argumentstructs.Erik.23",
+                    "targets": [
+                        "ES2005c.C.argumentstructs.Erik.25"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 29):\n- AE_ID: ES2005c.C.argumentstructs.Erik.25\n- Speaker: C\n- Sentence: \"So you've narrowed it down to half a dozen options.\"\n\nPast Dialogue Turns:\nAE_ID ES2005c.A.argumentstructs.Erik.15 (Index: 20, Speaker: A): \"Yeah yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.21 (Index: 21, Speaker: C): \"I think tho I think if you're gonna have a facia then you'd want to have it so that it does go over the buttons, 'cause when  if you think about it if they're wanting it, 'cause they want to look at it, if they're using it, and what they want to look at is facing away from them.\"\nAE_ID ES2005c.C.argumentstructs.Erik.22 (Index: 23, Speaker: C): \"You know 'cause that'd be in the palm of their hand and they wouldn't be able to see it, unless you have sort of  you got the buttons options on one side, and you get the facia on the other side with a microphone so that you can place it face down.\"\nAE_ID ES2005c.D.argumentstructs.Erik.29 (Index: 24, Speaker: D): \"Yeah.\"\nAE_ID ES2005c.C.argumentstructs.Erik.23 (Index: 25, Speaker: C): \"And you've got the facia, and you can just talk at the\"\nAE_ID ES2005c.C.argumentstructs.Erik.24 (Index: 27, Speaker: C): \"Maybe.\"\nAE_ID ES2005c.A.argumentstructs.Erik.16 (Index: 28, Speaker: A): \"Okay, um so\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005c.A.argumentstructs.Erik.16",
+            "ans": "ES2005c.A.argumentstructs.Erik.16",
+            "judgement": true
+        }
+    ]
+}

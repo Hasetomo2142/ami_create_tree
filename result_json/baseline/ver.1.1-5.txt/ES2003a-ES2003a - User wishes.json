@@ -1,0 +1,1101 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2003a-ES2003a - User wishes.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "ver.1.1.txt",
+    "rate": 0.5,
+    "total_node_count": 17,
+    "removed_node_count": 2,
+    "removed_node_list": [
+        {
+            "index": 1,
+            "ae_id": "ES2003a.C.argumentstructs.10",
+            "speaker": "C",
+            "start_time": 993.45,
+            "end_time": 993.78,
+            "sentence": "Okay.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 8,
+            "ae_id": "ES2003a.B.argumentstructs.20",
+            "speaker": "B",
+            "start_time": 1030.74,
+            "end_time": 1031.32,
+            "sentence": "Um",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 0,
+                "ae_id": "ES2003a.B.argumentstructs.Erik.11",
+                "speaker": "B",
+                "start_time": 992.08,
+                "end_time": 1001.2,
+                "sentence": "what the user wants, yes. Um, right. Has anybody got anything they'd like to add at this stage, anything they think that might have been missed so far ?",
+                "source": "NONE",
+                "targets": [
+                    "ES2003a.D.argumentstructs.Erik.2",
+                    "ES2003a.A.argumentstructs.Erik.9"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "NONE",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 2,
+                "ae_id": "ES2003a.D.argumentstructs.Erik.2",
+                "speaker": "D",
+                "start_time": 1002.36,
+                "end_time": 1009.3,
+                "sentence": "Well when you're talking about gaming and stuff, do you think they should have some sort of stick on it, rather than buttons ?",
+                "source": "ES2003a.B.argumentstructs.Erik.11",
+                "targets": [
+                    "ES2003a.D.argumentstructs.Erik.3",
+                    "ES2003a.C.argumentstructs.Erik.7"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 992.08,
+                    "end_time": 1001.2,
+                    "sentence": "what the user wants, yes. Um, right. Has anybody got anything they'd like to add at this stage, anything they think that might have been missed so far ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003a.D.argumentstructs.Erik.2",
+                        "ES2003a.A.argumentstructs.Erik.9"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 2):\n- AE_ID: ES2003a.D.argumentstructs.Erik.2\n- Speaker: D\n- Sentence: \"Well when you're talking about gaming and stuff, do you think they should have some sort of stick on it, rather than buttons ?\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.B.argumentstructs.Erik.11 (Index: 0, Speaker: B): \"what the user wants, yes. Um, right. Has anybody got anything they'd like to add at this stage, anything they think that might have been missed so far ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.B.argumentstructs.Erik.11",
+            "ans": "ES2003a.B.argumentstructs.Erik.11",
+            "judgement": true
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 3,
+                "ae_id": "ES2003a.C.argumentstructs.Erik.7",
+                "speaker": "C",
+                "start_time": 1008.75,
+                "end_time": 1010.32,
+                "sentence": "Oh. Okay,.",
+                "source": "ES2003a.D.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 992.08,
+                    "end_time": 1001.2,
+                    "sentence": "what the user wants, yes. Um, right. Has anybody got anything they'd like to add at this stage, anything they think that might have been missed so far ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003a.D.argumentstructs.Erik.2",
+                        "ES2003a.A.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2003a.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1002.36,
+                    "end_time": 1009.3,
+                    "sentence": "Well when you're talking about gaming and stuff, do you think they should have some sort of stick on it, rather than buttons ?",
+                    "source": "ES2003a.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2003a.D.argumentstructs.Erik.3",
+                        "ES2003a.C.argumentstructs.Erik.7"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 3):\n- AE_ID: ES2003a.C.argumentstructs.Erik.7\n- Speaker: C\n- Sentence: \"Oh. Okay,.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.B.argumentstructs.Erik.11 (Index: 0, Speaker: B): \"what the user wants, yes. Um, right. Has anybody got anything they'd like to add at this stage, anything they think that might have been missed so far ?\"\nAE_ID ES2003a.D.argumentstructs.Erik.2 (Index: 2, Speaker: D): \"Well when you're talking about gaming and stuff, do you think they should have some sort of stick on it, rather than buttons ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.B.argumentstructs.Erik.11",
+            "ans": "ES2003a.D.argumentstructs.Erik.2",
+            "judgement": false
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 4,
+                "ae_id": "ES2003a.D.argumentstructs.Erik.3",
+                "speaker": "D",
+                "start_time": 1010.16,
+                "end_time": 1015.808,
+                "sentence": "Like uh control pads, you know of games, but  or is that a bit ridiculous ?",
+                "source": "ES2003a.D.argumentstructs.Erik.2",
+                "targets": [
+                    "ES2003a.C.argumentstructs.Erik.8",
+                    "ES2003a.B.argumentstructs.Erik.12"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 992.08,
+                    "end_time": 1001.2,
+                    "sentence": "what the user wants, yes. Um, right. Has anybody got anything they'd like to add at this stage, anything they think that might have been missed so far ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003a.D.argumentstructs.Erik.2",
+                        "ES2003a.A.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2003a.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1002.36,
+                    "end_time": 1009.3,
+                    "sentence": "Well when you're talking about gaming and stuff, do you think they should have some sort of stick on it, rather than buttons ?",
+                    "source": "ES2003a.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2003a.D.argumentstructs.Erik.3",
+                        "ES2003a.C.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2003a.C.argumentstructs.Erik.7",
+                    "speaker": "C",
+                    "start_time": 1008.75,
+                    "end_time": 1010.32,
+                    "sentence": "Oh. Okay,.",
+                    "source": "ES2003a.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 4):\n- AE_ID: ES2003a.D.argumentstructs.Erik.3\n- Speaker: D\n- Sentence: \"Like uh control pads, you know of games, but  or is that a bit ridiculous ?\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.B.argumentstructs.Erik.11 (Index: 0, Speaker: B): \"what the user wants, yes. Um, right. Has anybody got anything they'd like to add at this stage, anything they think that might have been missed so far ?\"\nAE_ID ES2003a.D.argumentstructs.Erik.2 (Index: 2, Speaker: D): \"Well when you're talking about gaming and stuff, do you think they should have some sort of stick on it, rather than buttons ?\"\nAE_ID ES2003a.C.argumentstructs.Erik.7 (Index: 3, Speaker: C): \"Oh. Okay,.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.D.argumentstructs.Erik.2",
+            "ans": "ES2003a.D.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 5,
+                "ae_id": "ES2003a.C.argumentstructs.Erik.8",
+                "speaker": "C",
+                "start_time": 1013.59,
+                "end_time": 1013.84,
+                "sentence": "Mm-hmm.",
+                "source": "ES2003a.D.argumentstructs.Erik.3",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 992.08,
+                    "end_time": 1001.2,
+                    "sentence": "what the user wants, yes. Um, right. Has anybody got anything they'd like to add at this stage, anything they think that might have been missed so far ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003a.D.argumentstructs.Erik.2",
+                        "ES2003a.A.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2003a.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1002.36,
+                    "end_time": 1009.3,
+                    "sentence": "Well when you're talking about gaming and stuff, do you think they should have some sort of stick on it, rather than buttons ?",
+                    "source": "ES2003a.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2003a.D.argumentstructs.Erik.3",
+                        "ES2003a.C.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2003a.C.argumentstructs.Erik.7",
+                    "speaker": "C",
+                    "start_time": 1008.75,
+                    "end_time": 1010.32,
+                    "sentence": "Oh. Okay,.",
+                    "source": "ES2003a.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2003a.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 1010.16,
+                    "end_time": 1015.808,
+                    "sentence": "Like uh control pads, you know of games, but  or is that a bit ridiculous ?",
+                    "source": "ES2003a.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003a.C.argumentstructs.Erik.8",
+                        "ES2003a.B.argumentstructs.Erik.12"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 5):\n- AE_ID: ES2003a.C.argumentstructs.Erik.8\n- Speaker: C\n- Sentence: \"Mm-hmm.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.B.argumentstructs.Erik.11 (Index: 0, Speaker: B): \"what the user wants, yes. Um, right. Has anybody got anything they'd like to add at this stage, anything they think that might have been missed so far ?\"\nAE_ID ES2003a.D.argumentstructs.Erik.2 (Index: 2, Speaker: D): \"Well when you're talking about gaming and stuff, do you think they should have some sort of stick on it, rather than buttons ?\"\nAE_ID ES2003a.C.argumentstructs.Erik.7 (Index: 3, Speaker: C): \"Oh. Okay,.\"\nAE_ID ES2003a.D.argumentstructs.Erik.3 (Index: 4, Speaker: D): \"Like uh control pads, you know of games, but  or is that a bit ridiculous ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.D.argumentstructs.Erik.3",
+            "ans": "ES2003a.D.argumentstructs.Erik.3",
+            "judgement": true
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 6,
+                "ae_id": "ES2003a.B.argumentstructs.Erik.12",
+                "speaker": "B",
+                "start_time": 1016.96,
+                "end_time": 1030.74,
+                "sentence": "I I don't see why not, almost everybody is probably used to a console by now, and all of them incorporate small keypads on them, in fact even the mobile phones these days are beginning to use them as well, so it's probably an interface that most people are used to.",
+                "source": "ES2003a.D.argumentstructs.Erik.3",
+                "targets": [
+                    "ES2003a.D.argumentstructs.Erik.4",
+                    "ES2003a.B.argumentstructs.Erik.13"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 992.08,
+                    "end_time": 1001.2,
+                    "sentence": "what the user wants, yes. Um, right. Has anybody got anything they'd like to add at this stage, anything they think that might have been missed so far ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003a.D.argumentstructs.Erik.2",
+                        "ES2003a.A.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2003a.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1002.36,
+                    "end_time": 1009.3,
+                    "sentence": "Well when you're talking about gaming and stuff, do you think they should have some sort of stick on it, rather than buttons ?",
+                    "source": "ES2003a.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2003a.D.argumentstructs.Erik.3",
+                        "ES2003a.C.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2003a.C.argumentstructs.Erik.7",
+                    "speaker": "C",
+                    "start_time": 1008.75,
+                    "end_time": 1010.32,
+                    "sentence": "Oh. Okay,.",
+                    "source": "ES2003a.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2003a.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 1010.16,
+                    "end_time": 1015.808,
+                    "sentence": "Like uh control pads, you know of games, but  or is that a bit ridiculous ?",
+                    "source": "ES2003a.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003a.C.argumentstructs.Erik.8",
+                        "ES2003a.B.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2003a.C.argumentstructs.Erik.8",
+                    "speaker": "C",
+                    "start_time": 1013.59,
+                    "end_time": 1013.84,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 6):\n- AE_ID: ES2003a.B.argumentstructs.Erik.12\n- Speaker: B\n- Sentence: \"I I don't see why not, almost everybody is probably used to a console by now, and all of them incorporate small keypads on them, in fact even the mobile phones these days are beginning to use them as well, so it's probably an interface that most people are used to.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.B.argumentstructs.Erik.11 (Index: 0, Speaker: B): \"what the user wants, yes. Um, right. Has anybody got anything they'd like to add at this stage, anything they think that might have been missed so far ?\"\nAE_ID ES2003a.D.argumentstructs.Erik.2 (Index: 2, Speaker: D): \"Well when you're talking about gaming and stuff, do you think they should have some sort of stick on it, rather than buttons ?\"\nAE_ID ES2003a.C.argumentstructs.Erik.7 (Index: 3, Speaker: C): \"Oh. Okay,.\"\nAE_ID ES2003a.D.argumentstructs.Erik.3 (Index: 4, Speaker: D): \"Like uh control pads, you know of games, but  or is that a bit ridiculous ?\"\nAE_ID ES2003a.C.argumentstructs.Erik.8 (Index: 5, Speaker: C): \"Mm-hmm.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.D.argumentstructs.Erik.2",
+            "ans": "ES2003a.D.argumentstructs.Erik.3",
+            "judgement": false
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 7,
+                "ae_id": "ES2003a.D.argumentstructs.Erik.4",
+                "speaker": "D",
+                "start_time": 1026.16,
+                "end_time": 1026.51,
+                "sentence": "Yeah.",
+                "source": "ES2003a.B.argumentstructs.Erik.12",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 2,
+                    "ae_id": "ES2003a.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1002.36,
+                    "end_time": 1009.3,
+                    "sentence": "Well when you're talking about gaming and stuff, do you think they should have some sort of stick on it, rather than buttons ?",
+                    "source": "ES2003a.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2003a.D.argumentstructs.Erik.3",
+                        "ES2003a.C.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2003a.C.argumentstructs.Erik.7",
+                    "speaker": "C",
+                    "start_time": 1008.75,
+                    "end_time": 1010.32,
+                    "sentence": "Oh. Okay,.",
+                    "source": "ES2003a.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2003a.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 1010.16,
+                    "end_time": 1015.808,
+                    "sentence": "Like uh control pads, you know of games, but  or is that a bit ridiculous ?",
+                    "source": "ES2003a.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003a.C.argumentstructs.Erik.8",
+                        "ES2003a.B.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2003a.C.argumentstructs.Erik.8",
+                    "speaker": "C",
+                    "start_time": 1013.59,
+                    "end_time": 1013.84,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 1016.96,
+                    "end_time": 1030.74,
+                    "sentence": "I I don't see why not, almost everybody is probably used to a console by now, and all of them incorporate small keypads on them, in fact even the mobile phones these days are beginning to use them as well, so it's probably an interface that most people are used to.",
+                    "source": "ES2003a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003a.D.argumentstructs.Erik.4",
+                        "ES2003a.B.argumentstructs.Erik.13"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 7):\n- AE_ID: ES2003a.D.argumentstructs.Erik.4\n- Speaker: D\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.D.argumentstructs.Erik.2 (Index: 2, Speaker: D): \"Well when you're talking about gaming and stuff, do you think they should have some sort of stick on it, rather than buttons ?\"\nAE_ID ES2003a.C.argumentstructs.Erik.7 (Index: 3, Speaker: C): \"Oh. Okay,.\"\nAE_ID ES2003a.D.argumentstructs.Erik.3 (Index: 4, Speaker: D): \"Like uh control pads, you know of games, but  or is that a bit ridiculous ?\"\nAE_ID ES2003a.C.argumentstructs.Erik.8 (Index: 5, Speaker: C): \"Mm-hmm.\"\nAE_ID ES2003a.B.argumentstructs.Erik.12 (Index: 6, Speaker: B): \"I I don't see why not, almost everybody is probably used to a console by now, and all of them incorporate small keypads on them, in fact even the mobile phones these days are beginning to use them as well, so it's probably an interface that most people are used to.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.B.argumentstructs.Erik.12",
+            "ans": "ES2003a.B.argumentstructs.Erik.12",
+            "judgement": true
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 9,
+                "ae_id": "ES2003a.B.argumentstructs.Erik.13",
+                "speaker": "B",
+                "start_time": 1033.18,
+                "end_time": 1037.74,
+                "sentence": "and that could allow n easy navigation, used as a joystick as well.",
+                "source": "ES2003a.B.argumentstructs.Erik.12",
+                "targets": [
+                    "ES2003a.A.argumentstructs.Erik.8"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 3,
+                    "ae_id": "ES2003a.C.argumentstructs.Erik.7",
+                    "speaker": "C",
+                    "start_time": 1008.75,
+                    "end_time": 1010.32,
+                    "sentence": "Oh. Okay,.",
+                    "source": "ES2003a.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2003a.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 1010.16,
+                    "end_time": 1015.808,
+                    "sentence": "Like uh control pads, you know of games, but  or is that a bit ridiculous ?",
+                    "source": "ES2003a.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003a.C.argumentstructs.Erik.8",
+                        "ES2003a.B.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2003a.C.argumentstructs.Erik.8",
+                    "speaker": "C",
+                    "start_time": 1013.59,
+                    "end_time": 1013.84,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 1016.96,
+                    "end_time": 1030.74,
+                    "sentence": "I I don't see why not, almost everybody is probably used to a console by now, and all of them incorporate small keypads on them, in fact even the mobile phones these days are beginning to use them as well, so it's probably an interface that most people are used to.",
+                    "source": "ES2003a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003a.D.argumentstructs.Erik.4",
+                        "ES2003a.B.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2003a.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 1026.16,
+                    "end_time": 1026.51,
+                    "sentence": "Yeah.",
+                    "source": "ES2003a.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 9):\n- AE_ID: ES2003a.B.argumentstructs.Erik.13\n- Speaker: B\n- Sentence: \"and that could allow n easy navigation, used as a joystick as well.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.C.argumentstructs.Erik.7 (Index: 3, Speaker: C): \"Oh. Okay,.\"\nAE_ID ES2003a.D.argumentstructs.Erik.3 (Index: 4, Speaker: D): \"Like uh control pads, you know of games, but  or is that a bit ridiculous ?\"\nAE_ID ES2003a.C.argumentstructs.Erik.8 (Index: 5, Speaker: C): \"Mm-hmm.\"\nAE_ID ES2003a.B.argumentstructs.Erik.12 (Index: 6, Speaker: B): \"I I don't see why not, almost everybody is probably used to a console by now, and all of them incorporate small keypads on them, in fact even the mobile phones these days are beginning to use them as well, so it's probably an interface that most people are used to.\"\nAE_ID ES2003a.D.argumentstructs.Erik.4 (Index: 7, Speaker: D): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.B.argumentstructs.Erik.12",
+            "ans": "ES2003a.B.argumentstructs.Erik.12",
+            "judgement": true
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 10,
+                "ae_id": "ES2003a.A.argumentstructs.Erik.8",
+                "speaker": "A",
+                "start_time": 1045.78,
+                "end_time": 1046.04,
+                "sentence": "Mm-hmm.",
+                "source": "ES2003a.B.argumentstructs.Erik.13",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 4,
+                    "ae_id": "ES2003a.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 1010.16,
+                    "end_time": 1015.808,
+                    "sentence": "Like uh control pads, you know of games, but  or is that a bit ridiculous ?",
+                    "source": "ES2003a.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003a.C.argumentstructs.Erik.8",
+                        "ES2003a.B.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2003a.C.argumentstructs.Erik.8",
+                    "speaker": "C",
+                    "start_time": 1013.59,
+                    "end_time": 1013.84,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 1016.96,
+                    "end_time": 1030.74,
+                    "sentence": "I I don't see why not, almost everybody is probably used to a console by now, and all of them incorporate small keypads on them, in fact even the mobile phones these days are beginning to use them as well, so it's probably an interface that most people are used to.",
+                    "source": "ES2003a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003a.D.argumentstructs.Erik.4",
+                        "ES2003a.B.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2003a.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 1026.16,
+                    "end_time": 1026.51,
+                    "sentence": "Yeah.",
+                    "source": "ES2003a.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 1033.18,
+                    "end_time": 1037.74,
+                    "sentence": "and that could allow n easy navigation, used as a joystick as well.",
+                    "source": "ES2003a.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.8"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 10):\n- AE_ID: ES2003a.A.argumentstructs.Erik.8\n- Speaker: A\n- Sentence: \"Mm-hmm.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.D.argumentstructs.Erik.3 (Index: 4, Speaker: D): \"Like uh control pads, you know of games, but  or is that a bit ridiculous ?\"\nAE_ID ES2003a.C.argumentstructs.Erik.8 (Index: 5, Speaker: C): \"Mm-hmm.\"\nAE_ID ES2003a.B.argumentstructs.Erik.12 (Index: 6, Speaker: B): \"I I don't see why not, almost everybody is probably used to a console by now, and all of them incorporate small keypads on them, in fact even the mobile phones these days are beginning to use them as well, so it's probably an interface that most people are used to.\"\nAE_ID ES2003a.D.argumentstructs.Erik.4 (Index: 7, Speaker: D): \"Yeah.\"\nAE_ID ES2003a.B.argumentstructs.Erik.13 (Index: 9, Speaker: B): \"and that could allow n easy navigation, used as a joystick as well.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.C.argumentstructs.Erik.8",
+            "ans": "ES2003a.B.argumentstructs.Erik.13",
+            "judgement": false
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 11,
+                "ae_id": "ES2003a.A.argumentstructs.Erik.9",
+                "speaker": "A",
+                "start_time": 1046.04,
+                "end_time": 1074.55,
+                "sentence": "The other key feature that uh that would be a good idea built into it is t is is to make something you know fairly sort of ergonomic, something that just fits  fits as comfortably as possible into the hand. But of course, uh al al also allows for  the possibility of a more sort of slightly unconventional or attractive uh sha shape for it overall,.",
+                "source": "ES2003a.B.argumentstructs.Erik.11",
+                "targets": [
+                    "ES2003a.B.argumentstructs.Erik.14",
+                    "ES2003a.B.argumentstructs.Erik.15"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 5,
+                    "ae_id": "ES2003a.C.argumentstructs.Erik.8",
+                    "speaker": "C",
+                    "start_time": 1013.59,
+                    "end_time": 1013.84,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 1016.96,
+                    "end_time": 1030.74,
+                    "sentence": "I I don't see why not, almost everybody is probably used to a console by now, and all of them incorporate small keypads on them, in fact even the mobile phones these days are beginning to use them as well, so it's probably an interface that most people are used to.",
+                    "source": "ES2003a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003a.D.argumentstructs.Erik.4",
+                        "ES2003a.B.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2003a.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 1026.16,
+                    "end_time": 1026.51,
+                    "sentence": "Yeah.",
+                    "source": "ES2003a.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 1033.18,
+                    "end_time": 1037.74,
+                    "sentence": "and that could allow n easy navigation, used as a joystick as well.",
+                    "source": "ES2003a.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.8",
+                    "speaker": "A",
+                    "start_time": 1045.78,
+                    "end_time": 1046.04,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003a.B.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 11):\n- AE_ID: ES2003a.A.argumentstructs.Erik.9\n- Speaker: A\n- Sentence: \"The other key feature that uh that would be a good idea built into it is t is is to make something you know fairly sort of ergonomic, something that just fits  fits as comfortably as possible into the hand. But of course, uh al al also allows for  the possibility of a more sort of slightly unconventional or attractive uh sha shape for it overall,.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.C.argumentstructs.Erik.8 (Index: 5, Speaker: C): \"Mm-hmm.\"\nAE_ID ES2003a.B.argumentstructs.Erik.12 (Index: 6, Speaker: B): \"I I don't see why not, almost everybody is probably used to a console by now, and all of them incorporate small keypads on them, in fact even the mobile phones these days are beginning to use them as well, so it's probably an interface that most people are used to.\"\nAE_ID ES2003a.D.argumentstructs.Erik.4 (Index: 7, Speaker: D): \"Yeah.\"\nAE_ID ES2003a.B.argumentstructs.Erik.13 (Index: 9, Speaker: B): \"and that could allow n easy navigation, used as a joystick as well.\"\nAE_ID ES2003a.A.argumentstructs.Erik.8 (Index: 10, Speaker: A): \"Mm-hmm.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.B.argumentstructs.Erik.12",
+            "ans": "ES2003a.B.argumentstructs.Erik.11",
+            "judgement": false
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 12,
+                "ae_id": "ES2003a.B.argumentstructs.Erik.14",
+                "speaker": "B",
+                "start_time": 1072.5,
+                "end_time": 1072.89,
+                "sentence": "Okay.",
+                "source": "ES2003a.A.argumentstructs.Erik.9",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 6,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 1016.96,
+                    "end_time": 1030.74,
+                    "sentence": "I I don't see why not, almost everybody is probably used to a console by now, and all of them incorporate small keypads on them, in fact even the mobile phones these days are beginning to use them as well, so it's probably an interface that most people are used to.",
+                    "source": "ES2003a.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003a.D.argumentstructs.Erik.4",
+                        "ES2003a.B.argumentstructs.Erik.13"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2003a.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 1026.16,
+                    "end_time": 1026.51,
+                    "sentence": "Yeah.",
+                    "source": "ES2003a.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 1033.18,
+                    "end_time": 1037.74,
+                    "sentence": "and that could allow n easy navigation, used as a joystick as well.",
+                    "source": "ES2003a.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.8",
+                    "speaker": "A",
+                    "start_time": 1045.78,
+                    "end_time": 1046.04,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003a.B.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.9",
+                    "speaker": "A",
+                    "start_time": 1046.04,
+                    "end_time": 1074.55,
+                    "sentence": "The other key feature that uh that would be a good idea built into it is t is is to make something you know fairly sort of ergonomic, something that just fits  fits as comfortably as possible into the hand. But of course, uh al al also allows for  the possibility of a more sort of slightly unconventional or attractive uh sha shape for it overall,.",
+                    "source": "ES2003a.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2003a.B.argumentstructs.Erik.14",
+                        "ES2003a.B.argumentstructs.Erik.15"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 12):\n- AE_ID: ES2003a.B.argumentstructs.Erik.14\n- Speaker: B\n- Sentence: \"Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.B.argumentstructs.Erik.12 (Index: 6, Speaker: B): \"I I don't see why not, almost everybody is probably used to a console by now, and all of them incorporate small keypads on them, in fact even the mobile phones these days are beginning to use them as well, so it's probably an interface that most people are used to.\"\nAE_ID ES2003a.D.argumentstructs.Erik.4 (Index: 7, Speaker: D): \"Yeah.\"\nAE_ID ES2003a.B.argumentstructs.Erik.13 (Index: 9, Speaker: B): \"and that could allow n easy navigation, used as a joystick as well.\"\nAE_ID ES2003a.A.argumentstructs.Erik.8 (Index: 10, Speaker: A): \"Mm-hmm.\"\nAE_ID ES2003a.A.argumentstructs.Erik.9 (Index: 11, Speaker: A): \"The other key feature that uh that would be a good idea built into it is t is is to make something you know fairly sort of ergonomic, something that just fits  fits as comfortably as possible into the hand. But of course, uh al al also allows for  the possibility of a more sort of slightly unconventional or attractive uh sha shape for it overall,.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.B.argumentstructs.Erik.13",
+            "ans": "ES2003a.A.argumentstructs.Erik.9",
+            "judgement": false
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 13,
+                "ae_id": "ES2003a.B.argumentstructs.Erik.15",
+                "speaker": "B",
+                "start_time": 1075.58,
+                "end_time": 1081.24,
+                "sentence": "So, small, stylish, and something that's just a little different.",
+                "source": "ES2003a.A.argumentstructs.Erik.9",
+                "targets": [
+                    "ES2003a.A.argumentstructs.Erik.10"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 7,
+                    "ae_id": "ES2003a.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 1026.16,
+                    "end_time": 1026.51,
+                    "sentence": "Yeah.",
+                    "source": "ES2003a.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 1033.18,
+                    "end_time": 1037.74,
+                    "sentence": "and that could allow n easy navigation, used as a joystick as well.",
+                    "source": "ES2003a.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.8",
+                    "speaker": "A",
+                    "start_time": 1045.78,
+                    "end_time": 1046.04,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003a.B.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.9",
+                    "speaker": "A",
+                    "start_time": 1046.04,
+                    "end_time": 1074.55,
+                    "sentence": "The other key feature that uh that would be a good idea built into it is t is is to make something you know fairly sort of ergonomic, something that just fits  fits as comfortably as possible into the hand. But of course, uh al al also allows for  the possibility of a more sort of slightly unconventional or attractive uh sha shape for it overall,.",
+                    "source": "ES2003a.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2003a.B.argumentstructs.Erik.14",
+                        "ES2003a.B.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.14",
+                    "speaker": "B",
+                    "start_time": 1072.5,
+                    "end_time": 1072.89,
+                    "sentence": "Okay.",
+                    "source": "ES2003a.A.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 13):\n- AE_ID: ES2003a.B.argumentstructs.Erik.15\n- Speaker: B\n- Sentence: \"So, small, stylish, and something that's just a little different.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.D.argumentstructs.Erik.4 (Index: 7, Speaker: D): \"Yeah.\"\nAE_ID ES2003a.B.argumentstructs.Erik.13 (Index: 9, Speaker: B): \"and that could allow n easy navigation, used as a joystick as well.\"\nAE_ID ES2003a.A.argumentstructs.Erik.8 (Index: 10, Speaker: A): \"Mm-hmm.\"\nAE_ID ES2003a.A.argumentstructs.Erik.9 (Index: 11, Speaker: A): \"The other key feature that uh that would be a good idea built into it is t is is to make something you know fairly sort of ergonomic, something that just fits  fits as comfortably as possible into the hand. But of course, uh al al also allows for  the possibility of a more sort of slightly unconventional or attractive uh sha shape for it overall,.\"\nAE_ID ES2003a.B.argumentstructs.Erik.14 (Index: 12, Speaker: B): \"Okay.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.A.argumentstructs.Erik.9",
+            "ans": "ES2003a.A.argumentstructs.Erik.9",
+            "judgement": true
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 14,
+                "ae_id": "ES2003a.A.argumentstructs.Erik.10",
+                "speaker": "A",
+                "start_time": 1077.09,
+                "end_time": 1088.16,
+                "sentence": "A curve, mm-hmm. Something sort of sort of sl slightly sort of biomorphic in form,  uh which it would need to be to sort of conform to the shape of the hand more efficiently anyway.",
+                "source": "ES2003a.B.argumentstructs.Erik.15",
+                "targets": [
+                    "ES2003a.B.argumentstructs.Erik.16"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 9,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.13",
+                    "speaker": "B",
+                    "start_time": 1033.18,
+                    "end_time": 1037.74,
+                    "sentence": "and that could allow n easy navigation, used as a joystick as well.",
+                    "source": "ES2003a.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.8",
+                    "speaker": "A",
+                    "start_time": 1045.78,
+                    "end_time": 1046.04,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003a.B.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.9",
+                    "speaker": "A",
+                    "start_time": 1046.04,
+                    "end_time": 1074.55,
+                    "sentence": "The other key feature that uh that would be a good idea built into it is t is is to make something you know fairly sort of ergonomic, something that just fits  fits as comfortably as possible into the hand. But of course, uh al al also allows for  the possibility of a more sort of slightly unconventional or attractive uh sha shape for it overall,.",
+                    "source": "ES2003a.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2003a.B.argumentstructs.Erik.14",
+                        "ES2003a.B.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.14",
+                    "speaker": "B",
+                    "start_time": 1072.5,
+                    "end_time": 1072.89,
+                    "sentence": "Okay.",
+                    "source": "ES2003a.A.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.15",
+                    "speaker": "B",
+                    "start_time": 1075.58,
+                    "end_time": 1081.24,
+                    "sentence": "So, small, stylish, and something that's just a little different.",
+                    "source": "ES2003a.A.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.10"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 14):\n- AE_ID: ES2003a.A.argumentstructs.Erik.10\n- Speaker: A\n- Sentence: \"A curve, mm-hmm. Something sort of sort of sl slightly sort of biomorphic in form,  uh which it would need to be to sort of conform to the shape of the hand more efficiently anyway.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.B.argumentstructs.Erik.13 (Index: 9, Speaker: B): \"and that could allow n easy navigation, used as a joystick as well.\"\nAE_ID ES2003a.A.argumentstructs.Erik.8 (Index: 10, Speaker: A): \"Mm-hmm.\"\nAE_ID ES2003a.A.argumentstructs.Erik.9 (Index: 11, Speaker: A): \"The other key feature that uh that would be a good idea built into it is t is is to make something you know fairly sort of ergonomic, something that just fits  fits as comfortably as possible into the hand. But of course, uh al al also allows for  the possibility of a more sort of slightly unconventional or attractive uh sha shape for it overall,.\"\nAE_ID ES2003a.B.argumentstructs.Erik.14 (Index: 12, Speaker: B): \"Okay.\"\nAE_ID ES2003a.B.argumentstructs.Erik.15 (Index: 13, Speaker: B): \"So, small, stylish, and something that's just a little different.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.A.argumentstructs.Erik.9",
+            "ans": "ES2003a.B.argumentstructs.Erik.15",
+            "judgement": false
+        },
+        {
+            "turn_number": 13,
+            "current_node": {
+                "index": 15,
+                "ae_id": "ES2003a.B.argumentstructs.Erik.16",
+                "speaker": "B",
+                "start_time": 1088.53,
+                "end_time": 1092.2,
+                "sentence": "Okay. That's definitely something that we should be able to do quite easily.",
+                "source": "ES2003a.A.argumentstructs.Erik.10",
+                "targets": [
+                    "ES2003a.B.argumentstructs.Erik.17"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 10,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.8",
+                    "speaker": "A",
+                    "start_time": 1045.78,
+                    "end_time": 1046.04,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003a.B.argumentstructs.Erik.13",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.9",
+                    "speaker": "A",
+                    "start_time": 1046.04,
+                    "end_time": 1074.55,
+                    "sentence": "The other key feature that uh that would be a good idea built into it is t is is to make something you know fairly sort of ergonomic, something that just fits  fits as comfortably as possible into the hand. But of course, uh al al also allows for  the possibility of a more sort of slightly unconventional or attractive uh sha shape for it overall,.",
+                    "source": "ES2003a.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2003a.B.argumentstructs.Erik.14",
+                        "ES2003a.B.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.14",
+                    "speaker": "B",
+                    "start_time": 1072.5,
+                    "end_time": 1072.89,
+                    "sentence": "Okay.",
+                    "source": "ES2003a.A.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.15",
+                    "speaker": "B",
+                    "start_time": 1075.58,
+                    "end_time": 1081.24,
+                    "sentence": "So, small, stylish, and something that's just a little different.",
+                    "source": "ES2003a.A.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.10",
+                    "speaker": "A",
+                    "start_time": 1077.09,
+                    "end_time": 1088.16,
+                    "sentence": "A curve, mm-hmm. Something sort of sort of sl slightly sort of biomorphic in form,  uh which it would need to be to sort of conform to the shape of the hand more efficiently anyway.",
+                    "source": "ES2003a.B.argumentstructs.Erik.15",
+                    "targets": [
+                        "ES2003a.B.argumentstructs.Erik.16"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 15):\n- AE_ID: ES2003a.B.argumentstructs.Erik.16\n- Speaker: B\n- Sentence: \"Okay. That's definitely something that we should be able to do quite easily.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.A.argumentstructs.Erik.8 (Index: 10, Speaker: A): \"Mm-hmm.\"\nAE_ID ES2003a.A.argumentstructs.Erik.9 (Index: 11, Speaker: A): \"The other key feature that uh that would be a good idea built into it is t is is to make something you know fairly sort of ergonomic, something that just fits  fits as comfortably as possible into the hand. But of course, uh al al also allows for  the possibility of a more sort of slightly unconventional or attractive uh sha shape for it overall,.\"\nAE_ID ES2003a.B.argumentstructs.Erik.14 (Index: 12, Speaker: B): \"Okay.\"\nAE_ID ES2003a.B.argumentstructs.Erik.15 (Index: 13, Speaker: B): \"So, small, stylish, and something that's just a little different.\"\nAE_ID ES2003a.A.argumentstructs.Erik.10 (Index: 14, Speaker: A): \"A curve, mm-hmm. Something sort of sort of sl slightly sort of biomorphic in form,  uh which it would need to be to sort of conform to the shape of the hand more efficiently anyway.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.B.argumentstructs.Erik.15",
+            "ans": "ES2003a.A.argumentstructs.Erik.10",
+            "judgement": false
+        },
+        {
+            "turn_number": 14,
+            "current_node": {
+                "index": 16,
+                "ae_id": "ES2003a.B.argumentstructs.Erik.17",
+                "speaker": "B",
+                "start_time": 1093.27,
+                "end_time": 1096.92,
+                "sentence": "I would I would have hoped so anyway. Um, right.",
+                "source": "ES2003a.B.argumentstructs.Erik.16",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 11,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.9",
+                    "speaker": "A",
+                    "start_time": 1046.04,
+                    "end_time": 1074.55,
+                    "sentence": "The other key feature that uh that would be a good idea built into it is t is is to make something you know fairly sort of ergonomic, something that just fits  fits as comfortably as possible into the hand. But of course, uh al al also allows for  the possibility of a more sort of slightly unconventional or attractive uh sha shape for it overall,.",
+                    "source": "ES2003a.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2003a.B.argumentstructs.Erik.14",
+                        "ES2003a.B.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.14",
+                    "speaker": "B",
+                    "start_time": 1072.5,
+                    "end_time": 1072.89,
+                    "sentence": "Okay.",
+                    "source": "ES2003a.A.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.15",
+                    "speaker": "B",
+                    "start_time": 1075.58,
+                    "end_time": 1081.24,
+                    "sentence": "So, small, stylish, and something that's just a little different.",
+                    "source": "ES2003a.A.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.10",
+                    "speaker": "A",
+                    "start_time": 1077.09,
+                    "end_time": 1088.16,
+                    "sentence": "A curve, mm-hmm. Something sort of sort of sl slightly sort of biomorphic in form,  uh which it would need to be to sort of conform to the shape of the hand more efficiently anyway.",
+                    "source": "ES2003a.B.argumentstructs.Erik.15",
+                    "targets": [
+                        "ES2003a.B.argumentstructs.Erik.16"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.16",
+                    "speaker": "B",
+                    "start_time": 1088.53,
+                    "end_time": 1092.2,
+                    "sentence": "Okay. That's definitely something that we should be able to do quite easily.",
+                    "source": "ES2003a.A.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2003a.B.argumentstructs.Erik.17"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 16):\n- AE_ID: ES2003a.B.argumentstructs.Erik.17\n- Speaker: B\n- Sentence: \"I would I would have hoped so anyway. Um, right.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.A.argumentstructs.Erik.9 (Index: 11, Speaker: A): \"The other key feature that uh that would be a good idea built into it is t is is to make something you know fairly sort of ergonomic, something that just fits  fits as comfortably as possible into the hand. But of course, uh al al also allows for  the possibility of a more sort of slightly unconventional or attractive uh sha shape for it overall,.\"\nAE_ID ES2003a.B.argumentstructs.Erik.14 (Index: 12, Speaker: B): \"Okay.\"\nAE_ID ES2003a.B.argumentstructs.Erik.15 (Index: 13, Speaker: B): \"So, small, stylish, and something that's just a little different.\"\nAE_ID ES2003a.A.argumentstructs.Erik.10 (Index: 14, Speaker: A): \"A curve, mm-hmm. Something sort of sort of sl slightly sort of biomorphic in form,  uh which it would need to be to sort of conform to the shape of the hand more efficiently anyway.\"\nAE_ID ES2003a.B.argumentstructs.Erik.16 (Index: 15, Speaker: B): \"Okay. That's definitely something that we should be able to do quite easily.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.B.argumentstructs.Erik.16",
+            "ans": "ES2003a.B.argumentstructs.Erik.16",
+            "judgement": true
+        }
+    ]
+}

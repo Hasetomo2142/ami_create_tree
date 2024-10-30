@@ -1,0 +1,2078 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2006b-ES2006b - Target audience.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "ver.1.1.txt",
+    "rate": 0.4,
+    "total_node_count": 33,
+    "removed_node_count": 12,
+    "removed_node_list": [
+        {
+            "index": 1,
+            "ae_id": "ES2006b.B.argumentstructs.16",
+            "speaker": "B",
+            "start_time": 1515.98,
+            "end_time": 1515.98,
+            "sentence": ".",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 2,
+            "ae_id": "ES2006b.A.argumentstructs.14",
+            "speaker": "A",
+            "start_time": 1548.08,
+            "end_time": 1554.29,
+            "sentence": "Um. Right.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 3,
+            "ae_id": "ES2006b.C.argumentstructs.17",
+            "speaker": "C",
+            "start_time": 1548.34,
+            "end_time": 1548.96,
+            "sentence": "Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 7,
+            "ae_id": "ES2006b.D.argumentstructs.9",
+            "speaker": "D",
+            "start_time": 1562.89,
+            "end_time": 1563.37,
+            "sentence": "Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 8,
+            "ae_id": "ES2006b.C.argumentstructs.18",
+            "speaker": "C",
+            "start_time": 1570.55,
+            "end_time": 1570.93,
+            "sentence": "Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 10,
+            "ae_id": "ES2006b.A.argumentstructs.15",
+            "speaker": "A",
+            "start_time": 1582.67,
+            "end_time": 1583.59,
+            "sentence": "Right, and",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 13,
+            "ae_id": "ES2006b.A.argumentstructs.16",
+            "speaker": "A",
+            "start_time": 1587.25,
+            "end_time": 1587.53,
+            "sentence": "Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 18,
+            "ae_id": "ES2006b.C.argumentstructs.19",
+            "speaker": "C",
+            "start_time": 1610.69,
+            "end_time": 1634.71,
+            "sentence": "Yeah. Mm-hmm. Yeah. Yeah, they've got no commitments and",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 19,
+            "ae_id": "ES2006b.B.argumentstructs.17",
+            "speaker": "B",
+            "start_time": 1610.93,
+            "end_time": 1611.33,
+            "sentence": "Yeah.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 23,
+            "ae_id": "ES2006b.B.argumentstructs.18",
+            "speaker": "B",
+            "start_time": 1632.0,
+            "end_time": 1638.16,
+            "sentence": "I mean, you know, if you're at university, you're paying your rent, but you don't have a mortgage, you don't have a life insurance policy, you don't",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 27,
+            "ae_id": "ES2006b.C.argumentstructs.20",
+            "speaker": "C",
+            "start_time": 1640.87,
+            "end_time": 1642.12,
+            "sentence": "Kids. Yeah.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 28,
+            "ae_id": "ES2006b.A.argumentstructs.17",
+            "speaker": "A",
+            "start_time": 1640.88,
+            "end_time": 1645.09,
+            "sentence": "Yeah. So you're more likely to b Yeah.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 0,
+                "ae_id": "ES2006b.A.argumentstructs.Erik.1",
+                "speaker": "A",
+                "start_time": 1508.02,
+                "end_time": 1548.08,
+                "sentence": "I think one of the very interesting things that came up in um  uh Ka Kate Cat Cat's uh presentation was um  uh this this issue of uh uh like voice recognition being more popular with uh younger people. So if we need to have a target group um then uh  I think as far as the m motto of our company is concerned, if we want to have something sleek and uh you know, good looking uh we are better off targeting a younger audience then um you know, people who are comparatively elderly.",
+                "source": "NONE",
+                "targets": [
+                    "ES2006b.B.argumentstructs.Erik.1",
+                    "ES2006b.A.argumentstructs.Erik.4",
+                    "ES2006b.B.argumentstructs.Erik.7"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "NONE",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 4,
+                "ae_id": "ES2006b.B.argumentstructs.Erik.1",
+                "speaker": "B",
+                "start_time": 1549.66,
+                "end_time": 1561.9,
+                "sentence": "Yeah, I mean that's the thing is that it didn't say in the survey, you know, whether, you know, these are the people that will pay more for a more stylish remote control, but I'm assuming, you know, yes.",
+                "source": "ES2006b.A.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2006b.A.argumentstructs.Erik.2"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1508.02,
+                    "end_time": 1548.08,
+                    "sentence": "I think one of the very interesting things that came up in um  uh Ka Kate Cat Cat's uh presentation was um  uh this this issue of uh uh like voice recognition being more popular with uh younger people. So if we need to have a target group um then uh  I think as far as the m motto of our company is concerned, if we want to have something sleek and uh you know, good looking uh we are better off targeting a younger audience then um you know, people who are comparatively elderly.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.1",
+                        "ES2006b.A.argumentstructs.Erik.4",
+                        "ES2006b.B.argumentstructs.Erik.7"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 4):\n- AE_ID: ES2006b.B.argumentstructs.Erik.1\n- Speaker: B\n- Sentence: \"Yeah, I mean that's the thing is that it didn't say in the survey, you know, whether, you know, these are the people that will pay more for a more stylish remote control, but I'm assuming, you know, yes.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.A.argumentstructs.Erik.1 (Index: 0, Speaker: A): \"I think one of the very interesting things that came up in um  uh Ka Kate Cat Cat's uh presentation was um  uh this this issue of uh uh like voice recognition being more popular with uh younger people. So if we need to have a target group um then uh  I think as far as the m motto of our company is concerned, if we want to have something sleek and uh you know, good looking uh we are better off targeting a younger audience then um you know, people who are comparatively elderly.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.A.argumentstructs.Erik.1",
+            "ans": "ES2006b.A.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 5,
+                "ae_id": "ES2006b.A.argumentstructs.Erik.2",
+                "speaker": "A",
+                "start_time": 1561.54,
+                "end_time": 1575.84,
+                "sentence": "Right. Bu but but the survey did say that f things like voice recognition are more popular with them, so if you want to put in something stylish, then uh th it'll certainly be more popular with this i ye with the younger people as compared to older people, yeah.",
+                "source": "ES2006b.B.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2006b.C.argumentstructs.Erik.1",
+                    "ES2006b.C.argumentstructs.Erik.2"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1508.02,
+                    "end_time": 1548.08,
+                    "sentence": "I think one of the very interesting things that came up in um  uh Ka Kate Cat Cat's uh presentation was um  uh this this issue of uh uh like voice recognition being more popular with uh younger people. So if we need to have a target group um then uh  I think as far as the m motto of our company is concerned, if we want to have something sleek and uh you know, good looking uh we are better off targeting a younger audience then um you know, people who are comparatively elderly.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.1",
+                        "ES2006b.A.argumentstructs.Erik.4",
+                        "ES2006b.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1549.66,
+                    "end_time": 1561.9,
+                    "sentence": "Yeah, I mean that's the thing is that it didn't say in the survey, you know, whether, you know, these are the people that will pay more for a more stylish remote control, but I'm assuming, you know, yes.",
+                    "source": "ES2006b.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.A.argumentstructs.Erik.2"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 5):\n- AE_ID: ES2006b.A.argumentstructs.Erik.2\n- Speaker: A\n- Sentence: \"Right. Bu but but the survey did say that f things like voice recognition are more popular with them, so if you want to put in something stylish, then uh th it'll certainly be more popular with this i ye with the younger people as compared to older people, yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.A.argumentstructs.Erik.1 (Index: 0, Speaker: A): \"I think one of the very interesting things that came up in um  uh Ka Kate Cat Cat's uh presentation was um  uh this this issue of uh uh like voice recognition being more popular with uh younger people. So if we need to have a target group um then uh  I think as far as the m motto of our company is concerned, if we want to have something sleek and uh you know, good looking uh we are better off targeting a younger audience then um you know, people who are comparatively elderly.\"\nAE_ID ES2006b.B.argumentstructs.Erik.1 (Index: 4, Speaker: B): \"Yeah, I mean that's the thing is that it didn't say in the survey, you know, whether, you know, these are the people that will pay more for a more stylish remote control, but I'm assuming, you know, yes.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.A.argumentstructs.Erik.1",
+            "ans": "ES2006b.B.argumentstructs.Erik.1",
+            "judgement": false
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 6,
+                "ae_id": "ES2006b.C.argumentstructs.Erik.1",
+                "speaker": "C",
+                "start_time": 1562.55,
+                "end_time": 1562.95,
+                "sentence": "Yeah.",
+                "source": "ES2006b.A.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1508.02,
+                    "end_time": 1548.08,
+                    "sentence": "I think one of the very interesting things that came up in um  uh Ka Kate Cat Cat's uh presentation was um  uh this this issue of uh uh like voice recognition being more popular with uh younger people. So if we need to have a target group um then uh  I think as far as the m motto of our company is concerned, if we want to have something sleek and uh you know, good looking uh we are better off targeting a younger audience then um you know, people who are comparatively elderly.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.1",
+                        "ES2006b.A.argumentstructs.Erik.4",
+                        "ES2006b.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1549.66,
+                    "end_time": 1561.9,
+                    "sentence": "Yeah, I mean that's the thing is that it didn't say in the survey, you know, whether, you know, these are the people that will pay more for a more stylish remote control, but I'm assuming, you know, yes.",
+                    "source": "ES2006b.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1561.54,
+                    "end_time": 1575.84,
+                    "sentence": "Right. Bu but but the survey did say that f things like voice recognition are more popular with them, so if you want to put in something stylish, then uh th it'll certainly be more popular with this i ye with the younger people as compared to older people, yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.1",
+                        "ES2006b.C.argumentstructs.Erik.2"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 6):\n- AE_ID: ES2006b.C.argumentstructs.Erik.1\n- Speaker: C\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.A.argumentstructs.Erik.1 (Index: 0, Speaker: A): \"I think one of the very interesting things that came up in um  uh Ka Kate Cat Cat's uh presentation was um  uh this this issue of uh uh like voice recognition being more popular with uh younger people. So if we need to have a target group um then uh  I think as far as the m motto of our company is concerned, if we want to have something sleek and uh you know, good looking uh we are better off targeting a younger audience then um you know, people who are comparatively elderly.\"\nAE_ID ES2006b.B.argumentstructs.Erik.1 (Index: 4, Speaker: B): \"Yeah, I mean that's the thing is that it didn't say in the survey, you know, whether, you know, these are the people that will pay more for a more stylish remote control, but I'm assuming, you know, yes.\"\nAE_ID ES2006b.A.argumentstructs.Erik.2 (Index: 5, Speaker: A): \"Right. Bu but but the survey did say that f things like voice recognition are more popular with them, so if you want to put in something stylish, then uh th it'll certainly be more popular with this i ye with the younger people as compared to older people, yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.A.argumentstructs.Erik.2",
+            "ans": "ES2006b.A.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 9,
+                "ae_id": "ES2006b.C.argumentstructs.Erik.2",
+                "speaker": "C",
+                "start_time": 1574.92,
+                "end_time": 1586.76,
+                "sentence": "Yeah. Then again I guess the th where it was most popular was the fifteen to twenty five bracket and the  I don't know how often they're buying televisions.",
+                "source": "ES2006b.A.argumentstructs.Erik.2",
+                "targets": [
+                    "ES2006b.A.argumentstructs.Erik.3",
+                    "ES2006b.B.argumentstructs.Erik.2"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1508.02,
+                    "end_time": 1548.08,
+                    "sentence": "I think one of the very interesting things that came up in um  uh Ka Kate Cat Cat's uh presentation was um  uh this this issue of uh uh like voice recognition being more popular with uh younger people. So if we need to have a target group um then uh  I think as far as the m motto of our company is concerned, if we want to have something sleek and uh you know, good looking uh we are better off targeting a younger audience then um you know, people who are comparatively elderly.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.1",
+                        "ES2006b.A.argumentstructs.Erik.4",
+                        "ES2006b.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1549.66,
+                    "end_time": 1561.9,
+                    "sentence": "Yeah, I mean that's the thing is that it didn't say in the survey, you know, whether, you know, these are the people that will pay more for a more stylish remote control, but I'm assuming, you know, yes.",
+                    "source": "ES2006b.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1561.54,
+                    "end_time": 1575.84,
+                    "sentence": "Right. Bu but but the survey did say that f things like voice recognition are more popular with them, so if you want to put in something stylish, then uh th it'll certainly be more popular with this i ye with the younger people as compared to older people, yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.1",
+                        "ES2006b.C.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 1562.55,
+                    "end_time": 1562.95,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 9):\n- AE_ID: ES2006b.C.argumentstructs.Erik.2\n- Speaker: C\n- Sentence: \"Yeah. Then again I guess the th where it was most popular was the fifteen to twenty five bracket and the  I don't know how often they're buying televisions.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.A.argumentstructs.Erik.1 (Index: 0, Speaker: A): \"I think one of the very interesting things that came up in um  uh Ka Kate Cat Cat's uh presentation was um  uh this this issue of uh uh like voice recognition being more popular with uh younger people. So if we need to have a target group um then uh  I think as far as the m motto of our company is concerned, if we want to have something sleek and uh you know, good looking uh we are better off targeting a younger audience then um you know, people who are comparatively elderly.\"\nAE_ID ES2006b.B.argumentstructs.Erik.1 (Index: 4, Speaker: B): \"Yeah, I mean that's the thing is that it didn't say in the survey, you know, whether, you know, these are the people that will pay more for a more stylish remote control, but I'm assuming, you know, yes.\"\nAE_ID ES2006b.A.argumentstructs.Erik.2 (Index: 5, Speaker: A): \"Right. Bu but but the survey did say that f things like voice recognition are more popular with them, so if you want to put in something stylish, then uh th it'll certainly be more popular with this i ye with the younger people as compared to older people, yeah.\"\nAE_ID ES2006b.C.argumentstructs.Erik.1 (Index: 6, Speaker: C): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.A.argumentstructs.Erik.1",
+            "ans": "ES2006b.A.argumentstructs.Erik.2",
+            "judgement": false
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 11,
+                "ae_id": "ES2006b.A.argumentstructs.Erik.3",
+                "speaker": "A",
+                "start_time": 1585.56,
+                "end_time": 1585.88,
+                "sentence": "Right.",
+                "source": "ES2006b.C.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1508.02,
+                    "end_time": 1548.08,
+                    "sentence": "I think one of the very interesting things that came up in um  uh Ka Kate Cat Cat's uh presentation was um  uh this this issue of uh uh like voice recognition being more popular with uh younger people. So if we need to have a target group um then uh  I think as far as the m motto of our company is concerned, if we want to have something sleek and uh you know, good looking uh we are better off targeting a younger audience then um you know, people who are comparatively elderly.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.1",
+                        "ES2006b.A.argumentstructs.Erik.4",
+                        "ES2006b.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1549.66,
+                    "end_time": 1561.9,
+                    "sentence": "Yeah, I mean that's the thing is that it didn't say in the survey, you know, whether, you know, these are the people that will pay more for a more stylish remote control, but I'm assuming, you know, yes.",
+                    "source": "ES2006b.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1561.54,
+                    "end_time": 1575.84,
+                    "sentence": "Right. Bu but but the survey did say that f things like voice recognition are more popular with them, so if you want to put in something stylish, then uh th it'll certainly be more popular with this i ye with the younger people as compared to older people, yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.1",
+                        "ES2006b.C.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 1562.55,
+                    "end_time": 1562.95,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 1574.92,
+                    "end_time": 1586.76,
+                    "sentence": "Yeah. Then again I guess the th where it was most popular was the fifteen to twenty five bracket and the  I don't know how often they're buying televisions.",
+                    "source": "ES2006b.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006b.A.argumentstructs.Erik.3",
+                        "ES2006b.B.argumentstructs.Erik.2"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 11):\n- AE_ID: ES2006b.A.argumentstructs.Erik.3\n- Speaker: A\n- Sentence: \"Right.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.A.argumentstructs.Erik.1 (Index: 0, Speaker: A): \"I think one of the very interesting things that came up in um  uh Ka Kate Cat Cat's uh presentation was um  uh this this issue of uh uh like voice recognition being more popular with uh younger people. So if we need to have a target group um then uh  I think as far as the m motto of our company is concerned, if we want to have something sleek and uh you know, good looking uh we are better off targeting a younger audience then um you know, people who are comparatively elderly.\"\nAE_ID ES2006b.B.argumentstructs.Erik.1 (Index: 4, Speaker: B): \"Yeah, I mean that's the thing is that it didn't say in the survey, you know, whether, you know, these are the people that will pay more for a more stylish remote control, but I'm assuming, you know, yes.\"\nAE_ID ES2006b.A.argumentstructs.Erik.2 (Index: 5, Speaker: A): \"Right. Bu but but the survey did say that f things like voice recognition are more popular with them, so if you want to put in something stylish, then uh th it'll certainly be more popular with this i ye with the younger people as compared to older people, yeah.\"\nAE_ID ES2006b.C.argumentstructs.Erik.1 (Index: 6, Speaker: C): \"Yeah.\"\nAE_ID ES2006b.C.argumentstructs.Erik.2 (Index: 9, Speaker: C): \"Yeah. Then again I guess the th where it was most popular was the fifteen to twenty five bracket and the  I don't know how often they're buying televisions.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.A.argumentstructs.Erik.2",
+            "ans": "ES2006b.C.argumentstructs.Erik.2",
+            "judgement": false
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 12,
+                "ae_id": "ES2006b.B.argumentstructs.Erik.2",
+                "speaker": "B",
+                "start_time": 1586.95,
+                "end_time": 1590.91,
+                "sentence": "Well, that's when you go to uni, isn't it ? So, you know",
+                "source": "ES2006b.C.argumentstructs.Erik.2",
+                "targets": [
+                    "ES2006b.C.argumentstructs.Erik.3"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1508.02,
+                    "end_time": 1548.08,
+                    "sentence": "I think one of the very interesting things that came up in um  uh Ka Kate Cat Cat's uh presentation was um  uh this this issue of uh uh like voice recognition being more popular with uh younger people. So if we need to have a target group um then uh  I think as far as the m motto of our company is concerned, if we want to have something sleek and uh you know, good looking uh we are better off targeting a younger audience then um you know, people who are comparatively elderly.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.1",
+                        "ES2006b.A.argumentstructs.Erik.4",
+                        "ES2006b.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1549.66,
+                    "end_time": 1561.9,
+                    "sentence": "Yeah, I mean that's the thing is that it didn't say in the survey, you know, whether, you know, these are the people that will pay more for a more stylish remote control, but I'm assuming, you know, yes.",
+                    "source": "ES2006b.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1561.54,
+                    "end_time": 1575.84,
+                    "sentence": "Right. Bu but but the survey did say that f things like voice recognition are more popular with them, so if you want to put in something stylish, then uh th it'll certainly be more popular with this i ye with the younger people as compared to older people, yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.1",
+                        "ES2006b.C.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 1562.55,
+                    "end_time": 1562.95,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 1574.92,
+                    "end_time": 1586.76,
+                    "sentence": "Yeah. Then again I guess the th where it was most popular was the fifteen to twenty five bracket and the  I don't know how often they're buying televisions.",
+                    "source": "ES2006b.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006b.A.argumentstructs.Erik.3",
+                        "ES2006b.B.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1585.56,
+                    "end_time": 1585.88,
+                    "sentence": "Right.",
+                    "source": "ES2006b.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 12):\n- AE_ID: ES2006b.B.argumentstructs.Erik.2\n- Speaker: B\n- Sentence: \"Well, that's when you go to uni, isn't it ? So, you know\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.A.argumentstructs.Erik.1 (Index: 0, Speaker: A): \"I think one of the very interesting things that came up in um  uh Ka Kate Cat Cat's uh presentation was um  uh this this issue of uh uh like voice recognition being more popular with uh younger people. So if we need to have a target group um then uh  I think as far as the m motto of our company is concerned, if we want to have something sleek and uh you know, good looking uh we are better off targeting a younger audience then um you know, people who are comparatively elderly.\"\nAE_ID ES2006b.B.argumentstructs.Erik.1 (Index: 4, Speaker: B): \"Yeah, I mean that's the thing is that it didn't say in the survey, you know, whether, you know, these are the people that will pay more for a more stylish remote control, but I'm assuming, you know, yes.\"\nAE_ID ES2006b.A.argumentstructs.Erik.2 (Index: 5, Speaker: A): \"Right. Bu but but the survey did say that f things like voice recognition are more popular with them, so if you want to put in something stylish, then uh th it'll certainly be more popular with this i ye with the younger people as compared to older people, yeah.\"\nAE_ID ES2006b.C.argumentstructs.Erik.1 (Index: 6, Speaker: C): \"Yeah.\"\nAE_ID ES2006b.C.argumentstructs.Erik.2 (Index: 9, Speaker: C): \"Yeah. Then again I guess the th where it was most popular was the fifteen to twenty five bracket and the  I don't know how often they're buying televisions.\"\nAE_ID ES2006b.A.argumentstructs.Erik.3 (Index: 11, Speaker: A): \"Right.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.A.argumentstructs.Erik.3",
+            "ans": "ES2006b.C.argumentstructs.Erik.2",
+            "judgement": false
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 14,
+                "ae_id": "ES2006b.C.argumentstructs.Erik.3",
+                "speaker": "C",
+                "start_time": 1589.19,
+                "end_time": 1600.8,
+                "sentence": "Yeah, but you don't have much money, generally. I would've thought it's it's more that twenty five to thirty five, when people are really moving out and they've got their first job and they want their nice toys and",
+                "source": "ES2006b.B.argumentstructs.Erik.2",
+                "targets": [
+                    "ES2006b.D.argumentstructs.Erik.1"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1508.02,
+                    "end_time": 1548.08,
+                    "sentence": "I think one of the very interesting things that came up in um  uh Ka Kate Cat Cat's uh presentation was um  uh this this issue of uh uh like voice recognition being more popular with uh younger people. So if we need to have a target group um then uh  I think as far as the m motto of our company is concerned, if we want to have something sleek and uh you know, good looking uh we are better off targeting a younger audience then um you know, people who are comparatively elderly.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.1",
+                        "ES2006b.A.argumentstructs.Erik.4",
+                        "ES2006b.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1549.66,
+                    "end_time": 1561.9,
+                    "sentence": "Yeah, I mean that's the thing is that it didn't say in the survey, you know, whether, you know, these are the people that will pay more for a more stylish remote control, but I'm assuming, you know, yes.",
+                    "source": "ES2006b.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1561.54,
+                    "end_time": 1575.84,
+                    "sentence": "Right. Bu but but the survey did say that f things like voice recognition are more popular with them, so if you want to put in something stylish, then uh th it'll certainly be more popular with this i ye with the younger people as compared to older people, yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.1",
+                        "ES2006b.C.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 1562.55,
+                    "end_time": 1562.95,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 1574.92,
+                    "end_time": 1586.76,
+                    "sentence": "Yeah. Then again I guess the th where it was most popular was the fifteen to twenty five bracket and the  I don't know how often they're buying televisions.",
+                    "source": "ES2006b.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006b.A.argumentstructs.Erik.3",
+                        "ES2006b.B.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1585.56,
+                    "end_time": 1585.88,
+                    "sentence": "Right.",
+                    "source": "ES2006b.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1586.95,
+                    "end_time": 1590.91,
+                    "sentence": "Well, that's when you go to uni, isn't it ? So, you know",
+                    "source": "ES2006b.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.3"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 14):\n- AE_ID: ES2006b.C.argumentstructs.Erik.3\n- Speaker: C\n- Sentence: \"Yeah, but you don't have much money, generally. I would've thought it's it's more that twenty five to thirty five, when people are really moving out and they've got their first job and they want their nice toys and\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.A.argumentstructs.Erik.1 (Index: 0, Speaker: A): \"I think one of the very interesting things that came up in um  uh Ka Kate Cat Cat's uh presentation was um  uh this this issue of uh uh like voice recognition being more popular with uh younger people. So if we need to have a target group um then uh  I think as far as the m motto of our company is concerned, if we want to have something sleek and uh you know, good looking uh we are better off targeting a younger audience then um you know, people who are comparatively elderly.\"\nAE_ID ES2006b.B.argumentstructs.Erik.1 (Index: 4, Speaker: B): \"Yeah, I mean that's the thing is that it didn't say in the survey, you know, whether, you know, these are the people that will pay more for a more stylish remote control, but I'm assuming, you know, yes.\"\nAE_ID ES2006b.A.argumentstructs.Erik.2 (Index: 5, Speaker: A): \"Right. Bu but but the survey did say that f things like voice recognition are more popular with them, so if you want to put in something stylish, then uh th it'll certainly be more popular with this i ye with the younger people as compared to older people, yeah.\"\nAE_ID ES2006b.C.argumentstructs.Erik.1 (Index: 6, Speaker: C): \"Yeah.\"\nAE_ID ES2006b.C.argumentstructs.Erik.2 (Index: 9, Speaker: C): \"Yeah. Then again I guess the th where it was most popular was the fifteen to twenty five bracket and the  I don't know how often they're buying televisions.\"\nAE_ID ES2006b.A.argumentstructs.Erik.3 (Index: 11, Speaker: A): \"Right.\"\nAE_ID ES2006b.B.argumentstructs.Erik.2 (Index: 12, Speaker: B): \"Well, that's when you go to uni, isn't it ? So, you know\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.B.argumentstructs.Erik.2",
+            "ans": "ES2006b.B.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 15,
+                "ae_id": "ES2006b.D.argumentstructs.Erik.1",
+                "speaker": "D",
+                "start_time": 1591.51,
+                "end_time": 1595.3,
+                "sentence": "Yeah. Yeah, you share a television or something that  yeah.",
+                "source": "ES2006b.C.argumentstructs.Erik.3",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 4,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1549.66,
+                    "end_time": 1561.9,
+                    "sentence": "Yeah, I mean that's the thing is that it didn't say in the survey, you know, whether, you know, these are the people that will pay more for a more stylish remote control, but I'm assuming, you know, yes.",
+                    "source": "ES2006b.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1561.54,
+                    "end_time": 1575.84,
+                    "sentence": "Right. Bu but but the survey did say that f things like voice recognition are more popular with them, so if you want to put in something stylish, then uh th it'll certainly be more popular with this i ye with the younger people as compared to older people, yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.1",
+                        "ES2006b.C.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 1562.55,
+                    "end_time": 1562.95,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 1574.92,
+                    "end_time": 1586.76,
+                    "sentence": "Yeah. Then again I guess the th where it was most popular was the fifteen to twenty five bracket and the  I don't know how often they're buying televisions.",
+                    "source": "ES2006b.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006b.A.argumentstructs.Erik.3",
+                        "ES2006b.B.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1585.56,
+                    "end_time": 1585.88,
+                    "sentence": "Right.",
+                    "source": "ES2006b.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1586.95,
+                    "end_time": 1590.91,
+                    "sentence": "Well, that's when you go to uni, isn't it ? So, you know",
+                    "source": "ES2006b.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 1589.19,
+                    "end_time": 1600.8,
+                    "sentence": "Yeah, but you don't have much money, generally. I would've thought it's it's more that twenty five to thirty five, when people are really moving out and they've got their first job and they want their nice toys and",
+                    "source": "ES2006b.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006b.D.argumentstructs.Erik.1"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 15):\n- AE_ID: ES2006b.D.argumentstructs.Erik.1\n- Speaker: D\n- Sentence: \"Yeah. Yeah, you share a television or something that  yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.B.argumentstructs.Erik.1 (Index: 4, Speaker: B): \"Yeah, I mean that's the thing is that it didn't say in the survey, you know, whether, you know, these are the people that will pay more for a more stylish remote control, but I'm assuming, you know, yes.\"\nAE_ID ES2006b.A.argumentstructs.Erik.2 (Index: 5, Speaker: A): \"Right. Bu but but the survey did say that f things like voice recognition are more popular with them, so if you want to put in something stylish, then uh th it'll certainly be more popular with this i ye with the younger people as compared to older people, yeah.\"\nAE_ID ES2006b.C.argumentstructs.Erik.1 (Index: 6, Speaker: C): \"Yeah.\"\nAE_ID ES2006b.C.argumentstructs.Erik.2 (Index: 9, Speaker: C): \"Yeah. Then again I guess the th where it was most popular was the fifteen to twenty five bracket and the  I don't know how often they're buying televisions.\"\nAE_ID ES2006b.A.argumentstructs.Erik.3 (Index: 11, Speaker: A): \"Right.\"\nAE_ID ES2006b.B.argumentstructs.Erik.2 (Index: 12, Speaker: B): \"Well, that's when you go to uni, isn't it ? So, you know\"\nAE_ID ES2006b.C.argumentstructs.Erik.3 (Index: 14, Speaker: C): \"Yeah, but you don't have much money, generally. I would've thought it's it's more that twenty five to thirty five, when people are really moving out and they've got their first job and they want their nice toys and\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.C.argumentstructs.Erik.3",
+            "ans": "ES2006b.C.argumentstructs.Erik.3",
+            "judgement": true
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 16,
+                "ae_id": "ES2006b.A.argumentstructs.Erik.4",
+                "speaker": "A",
+                "start_time": 1601.04,
+                "end_time": 1623.35,
+                "sentence": "Right. But uh still, if if you can go back to that slide and uh, how popular was it ? Oh, oh, okay.  That's alright, if you can just look it up on your computer, wh uh um people between twenty five to thirty five, uh how popular was  so it was sti still still quite popular amongst them. So even they are seventy six percent, is that high amount ?",
+                "source": "ES2006b.A.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2006b.B.argumentstructs.Erik.3",
+                    "ES2006b.D.argumentstructs.Erik.2"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 5,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1561.54,
+                    "end_time": 1575.84,
+                    "sentence": "Right. Bu but but the survey did say that f things like voice recognition are more popular with them, so if you want to put in something stylish, then uh th it'll certainly be more popular with this i ye with the younger people as compared to older people, yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.1",
+                        "ES2006b.C.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 1562.55,
+                    "end_time": 1562.95,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 1574.92,
+                    "end_time": 1586.76,
+                    "sentence": "Yeah. Then again I guess the th where it was most popular was the fifteen to twenty five bracket and the  I don't know how often they're buying televisions.",
+                    "source": "ES2006b.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006b.A.argumentstructs.Erik.3",
+                        "ES2006b.B.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1585.56,
+                    "end_time": 1585.88,
+                    "sentence": "Right.",
+                    "source": "ES2006b.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1586.95,
+                    "end_time": 1590.91,
+                    "sentence": "Well, that's when you go to uni, isn't it ? So, you know",
+                    "source": "ES2006b.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 1589.19,
+                    "end_time": 1600.8,
+                    "sentence": "Yeah, but you don't have much money, generally. I would've thought it's it's more that twenty five to thirty five, when people are really moving out and they've got their first job and they want their nice toys and",
+                    "source": "ES2006b.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006b.D.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1591.51,
+                    "end_time": 1595.3,
+                    "sentence": "Yeah. Yeah, you share a television or something that  yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 16):\n- AE_ID: ES2006b.A.argumentstructs.Erik.4\n- Speaker: A\n- Sentence: \"Right. But uh still, if if you can go back to that slide and uh, how popular was it ? Oh, oh, okay.  That's alright, if you can just look it up on your computer, wh uh um people between twenty five to thirty five, uh how popular was  so it was sti still still quite popular amongst them. So even they are seventy six percent, is that high amount ?\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.A.argumentstructs.Erik.2 (Index: 5, Speaker: A): \"Right. Bu but but the survey did say that f things like voice recognition are more popular with them, so if you want to put in something stylish, then uh th it'll certainly be more popular with this i ye with the younger people as compared to older people, yeah.\"\nAE_ID ES2006b.C.argumentstructs.Erik.1 (Index: 6, Speaker: C): \"Yeah.\"\nAE_ID ES2006b.C.argumentstructs.Erik.2 (Index: 9, Speaker: C): \"Yeah. Then again I guess the th where it was most popular was the fifteen to twenty five bracket and the  I don't know how often they're buying televisions.\"\nAE_ID ES2006b.A.argumentstructs.Erik.3 (Index: 11, Speaker: A): \"Right.\"\nAE_ID ES2006b.B.argumentstructs.Erik.2 (Index: 12, Speaker: B): \"Well, that's when you go to uni, isn't it ? So, you know\"\nAE_ID ES2006b.C.argumentstructs.Erik.3 (Index: 14, Speaker: C): \"Yeah, but you don't have much money, generally. I would've thought it's it's more that twenty five to thirty five, when people are really moving out and they've got their first job and they want their nice toys and\"\nAE_ID ES2006b.D.argumentstructs.Erik.1 (Index: 15, Speaker: D): \"Yeah. Yeah, you share a television or something that  yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.C.argumentstructs.Erik.2",
+            "ans": "ES2006b.A.argumentstructs.Erik.1",
+            "judgement": false
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 17,
+                "ae_id": "ES2006b.B.argumentstructs.Erik.3",
+                "speaker": "B",
+                "start_time": 1601.27,
+                "end_time": 1601.82,
+                "sentence": "Yeah.",
+                "source": "ES2006b.A.argumentstructs.Erik.4",
+                "targets": [
+                    "ES2006b.B.argumentstructs.Erik.5"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 6,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 1562.55,
+                    "end_time": 1562.95,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 1574.92,
+                    "end_time": 1586.76,
+                    "sentence": "Yeah. Then again I guess the th where it was most popular was the fifteen to twenty five bracket and the  I don't know how often they're buying televisions.",
+                    "source": "ES2006b.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006b.A.argumentstructs.Erik.3",
+                        "ES2006b.B.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1585.56,
+                    "end_time": 1585.88,
+                    "sentence": "Right.",
+                    "source": "ES2006b.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1586.95,
+                    "end_time": 1590.91,
+                    "sentence": "Well, that's when you go to uni, isn't it ? So, you know",
+                    "source": "ES2006b.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 1589.19,
+                    "end_time": 1600.8,
+                    "sentence": "Yeah, but you don't have much money, generally. I would've thought it's it's more that twenty five to thirty five, when people are really moving out and they've got their first job and they want their nice toys and",
+                    "source": "ES2006b.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006b.D.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1591.51,
+                    "end_time": 1595.3,
+                    "sentence": "Yeah. Yeah, you share a television or something that  yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1601.04,
+                    "end_time": 1623.35,
+                    "sentence": "Right. But uh still, if if you can go back to that slide and uh, how popular was it ? Oh, oh, okay.  That's alright, if you can just look it up on your computer, wh uh um people between twenty five to thirty five, uh how popular was  so it was sti still still quite popular amongst them. So even they are seventy six percent, is that high amount ?",
+                    "source": "ES2006b.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.3",
+                        "ES2006b.D.argumentstructs.Erik.2"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 17):\n- AE_ID: ES2006b.B.argumentstructs.Erik.3\n- Speaker: B\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.C.argumentstructs.Erik.1 (Index: 6, Speaker: C): \"Yeah.\"\nAE_ID ES2006b.C.argumentstructs.Erik.2 (Index: 9, Speaker: C): \"Yeah. Then again I guess the th where it was most popular was the fifteen to twenty five bracket and the  I don't know how often they're buying televisions.\"\nAE_ID ES2006b.A.argumentstructs.Erik.3 (Index: 11, Speaker: A): \"Right.\"\nAE_ID ES2006b.B.argumentstructs.Erik.2 (Index: 12, Speaker: B): \"Well, that's when you go to uni, isn't it ? So, you know\"\nAE_ID ES2006b.C.argumentstructs.Erik.3 (Index: 14, Speaker: C): \"Yeah, but you don't have much money, generally. I would've thought it's it's more that twenty five to thirty five, when people are really moving out and they've got their first job and they want their nice toys and\"\nAE_ID ES2006b.D.argumentstructs.Erik.1 (Index: 15, Speaker: D): \"Yeah. Yeah, you share a television or something that  yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.4 (Index: 16, Speaker: A): \"Right. But uh still, if if you can go back to that slide and uh, how popular was it ? Oh, oh, okay.  That's alright, if you can just look it up on your computer, wh uh um people between twenty five to thirty five, uh how popular was  so it was sti still still quite popular amongst them. So even they are seventy six percent, is that high amount ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.D.argumentstructs.Erik.1",
+            "ans": "ES2006b.A.argumentstructs.Erik.4",
+            "judgement": false
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 20,
+                "ae_id": "ES2006b.B.argumentstructs.Erik.5",
+                "speaker": "B",
+                "start_time": 1616.17,
+                "end_time": 1618.7,
+                "sentence": "Seventy six point three percent.",
+                "source": "ES2006b.B.argumentstructs.Erik.3",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 9,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 1574.92,
+                    "end_time": 1586.76,
+                    "sentence": "Yeah. Then again I guess the th where it was most popular was the fifteen to twenty five bracket and the  I don't know how often they're buying televisions.",
+                    "source": "ES2006b.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006b.A.argumentstructs.Erik.3",
+                        "ES2006b.B.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1585.56,
+                    "end_time": 1585.88,
+                    "sentence": "Right.",
+                    "source": "ES2006b.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1586.95,
+                    "end_time": 1590.91,
+                    "sentence": "Well, that's when you go to uni, isn't it ? So, you know",
+                    "source": "ES2006b.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 1589.19,
+                    "end_time": 1600.8,
+                    "sentence": "Yeah, but you don't have much money, generally. I would've thought it's it's more that twenty five to thirty five, when people are really moving out and they've got their first job and they want their nice toys and",
+                    "source": "ES2006b.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006b.D.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1591.51,
+                    "end_time": 1595.3,
+                    "sentence": "Yeah. Yeah, you share a television or something that  yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1601.04,
+                    "end_time": 1623.35,
+                    "sentence": "Right. But uh still, if if you can go back to that slide and uh, how popular was it ? Oh, oh, okay.  That's alright, if you can just look it up on your computer, wh uh um people between twenty five to thirty five, uh how popular was  so it was sti still still quite popular amongst them. So even they are seventy six percent, is that high amount ?",
+                    "source": "ES2006b.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.3",
+                        "ES2006b.D.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1601.27,
+                    "end_time": 1601.82,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.5"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 20):\n- AE_ID: ES2006b.B.argumentstructs.Erik.5\n- Speaker: B\n- Sentence: \"Seventy six point three percent.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.C.argumentstructs.Erik.2 (Index: 9, Speaker: C): \"Yeah. Then again I guess the th where it was most popular was the fifteen to twenty five bracket and the  I don't know how often they're buying televisions.\"\nAE_ID ES2006b.A.argumentstructs.Erik.3 (Index: 11, Speaker: A): \"Right.\"\nAE_ID ES2006b.B.argumentstructs.Erik.2 (Index: 12, Speaker: B): \"Well, that's when you go to uni, isn't it ? So, you know\"\nAE_ID ES2006b.C.argumentstructs.Erik.3 (Index: 14, Speaker: C): \"Yeah, but you don't have much money, generally. I would've thought it's it's more that twenty five to thirty five, when people are really moving out and they've got their first job and they want their nice toys and\"\nAE_ID ES2006b.D.argumentstructs.Erik.1 (Index: 15, Speaker: D): \"Yeah. Yeah, you share a television or something that  yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.4 (Index: 16, Speaker: A): \"Right. But uh still, if if you can go back to that slide and uh, how popular was it ? Oh, oh, okay.  That's alright, if you can just look it up on your computer, wh uh um people between twenty five to thirty five, uh how popular was  so it was sti still still quite popular amongst them. So even they are seventy six percent, is that high amount ?\"\nAE_ID ES2006b.B.argumentstructs.Erik.3 (Index: 17, Speaker: B): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.A.argumentstructs.Erik.4",
+            "ans": "ES2006b.B.argumentstructs.Erik.3",
+            "judgement": false
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 21,
+                "ae_id": "ES2006b.D.argumentstructs.Erik.2",
+                "speaker": "D",
+                "start_time": 1616.98,
+                "end_time": 1619.56,
+                "sentence": "It was seventy something, yeah, yeah.",
+                "source": "ES2006b.A.argumentstructs.Erik.4",
+                "targets": [
+                    "ES2006b.B.argumentstructs.Erik.6"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 11,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1585.56,
+                    "end_time": 1585.88,
+                    "sentence": "Right.",
+                    "source": "ES2006b.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1586.95,
+                    "end_time": 1590.91,
+                    "sentence": "Well, that's when you go to uni, isn't it ? So, you know",
+                    "source": "ES2006b.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 1589.19,
+                    "end_time": 1600.8,
+                    "sentence": "Yeah, but you don't have much money, generally. I would've thought it's it's more that twenty five to thirty five, when people are really moving out and they've got their first job and they want their nice toys and",
+                    "source": "ES2006b.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006b.D.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1591.51,
+                    "end_time": 1595.3,
+                    "sentence": "Yeah. Yeah, you share a television or something that  yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1601.04,
+                    "end_time": 1623.35,
+                    "sentence": "Right. But uh still, if if you can go back to that slide and uh, how popular was it ? Oh, oh, okay.  That's alright, if you can just look it up on your computer, wh uh um people between twenty five to thirty five, uh how popular was  so it was sti still still quite popular amongst them. So even they are seventy six percent, is that high amount ?",
+                    "source": "ES2006b.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.3",
+                        "ES2006b.D.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1601.27,
+                    "end_time": 1601.82,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1616.17,
+                    "end_time": 1618.7,
+                    "sentence": "Seventy six point three percent.",
+                    "source": "ES2006b.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 21):\n- AE_ID: ES2006b.D.argumentstructs.Erik.2\n- Speaker: D\n- Sentence: \"It was seventy something, yeah, yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.A.argumentstructs.Erik.3 (Index: 11, Speaker: A): \"Right.\"\nAE_ID ES2006b.B.argumentstructs.Erik.2 (Index: 12, Speaker: B): \"Well, that's when you go to uni, isn't it ? So, you know\"\nAE_ID ES2006b.C.argumentstructs.Erik.3 (Index: 14, Speaker: C): \"Yeah, but you don't have much money, generally. I would've thought it's it's more that twenty five to thirty five, when people are really moving out and they've got their first job and they want their nice toys and\"\nAE_ID ES2006b.D.argumentstructs.Erik.1 (Index: 15, Speaker: D): \"Yeah. Yeah, you share a television or something that  yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.4 (Index: 16, Speaker: A): \"Right. But uh still, if if you can go back to that slide and uh, how popular was it ? Oh, oh, okay.  That's alright, if you can just look it up on your computer, wh uh um people between twenty five to thirty five, uh how popular was  so it was sti still still quite popular amongst them. So even they are seventy six percent, is that high amount ?\"\nAE_ID ES2006b.B.argumentstructs.Erik.3 (Index: 17, Speaker: B): \"Yeah.\"\nAE_ID ES2006b.B.argumentstructs.Erik.5 (Index: 20, Speaker: B): \"Seventy six point three percent.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.B.argumentstructs.Erik.5",
+            "ans": "ES2006b.A.argumentstructs.Erik.4",
+            "judgement": false
+        },
+        {
+            "turn_number": 13,
+            "current_node": {
+                "index": 22,
+                "ae_id": "ES2006b.B.argumentstructs.Erik.6",
+                "speaker": "B",
+                "start_time": 1620.16,
+                "end_time": 1620.3,
+                "sentence": "Yeah.",
+                "source": "ES2006b.D.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 12,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1586.95,
+                    "end_time": 1590.91,
+                    "sentence": "Well, that's when you go to uni, isn't it ? So, you know",
+                    "source": "ES2006b.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 1589.19,
+                    "end_time": 1600.8,
+                    "sentence": "Yeah, but you don't have much money, generally. I would've thought it's it's more that twenty five to thirty five, when people are really moving out and they've got their first job and they want their nice toys and",
+                    "source": "ES2006b.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006b.D.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1591.51,
+                    "end_time": 1595.3,
+                    "sentence": "Yeah. Yeah, you share a television or something that  yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1601.04,
+                    "end_time": 1623.35,
+                    "sentence": "Right. But uh still, if if you can go back to that slide and uh, how popular was it ? Oh, oh, okay.  That's alright, if you can just look it up on your computer, wh uh um people between twenty five to thirty five, uh how popular was  so it was sti still still quite popular amongst them. So even they are seventy six percent, is that high amount ?",
+                    "source": "ES2006b.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.3",
+                        "ES2006b.D.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1601.27,
+                    "end_time": 1601.82,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1616.17,
+                    "end_time": 1618.7,
+                    "sentence": "Seventy six point three percent.",
+                    "source": "ES2006b.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1616.98,
+                    "end_time": 1619.56,
+                    "sentence": "It was seventy something, yeah, yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.6"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 22):\n- AE_ID: ES2006b.B.argumentstructs.Erik.6\n- Speaker: B\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.B.argumentstructs.Erik.2 (Index: 12, Speaker: B): \"Well, that's when you go to uni, isn't it ? So, you know\"\nAE_ID ES2006b.C.argumentstructs.Erik.3 (Index: 14, Speaker: C): \"Yeah, but you don't have much money, generally. I would've thought it's it's more that twenty five to thirty five, when people are really moving out and they've got their first job and they want their nice toys and\"\nAE_ID ES2006b.D.argumentstructs.Erik.1 (Index: 15, Speaker: D): \"Yeah. Yeah, you share a television or something that  yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.4 (Index: 16, Speaker: A): \"Right. But uh still, if if you can go back to that slide and uh, how popular was it ? Oh, oh, okay.  That's alright, if you can just look it up on your computer, wh uh um people between twenty five to thirty five, uh how popular was  so it was sti still still quite popular amongst them. So even they are seventy six percent, is that high amount ?\"\nAE_ID ES2006b.B.argumentstructs.Erik.3 (Index: 17, Speaker: B): \"Yeah.\"\nAE_ID ES2006b.B.argumentstructs.Erik.5 (Index: 20, Speaker: B): \"Seventy six point three percent.\"\nAE_ID ES2006b.D.argumentstructs.Erik.2 (Index: 21, Speaker: D): \"It was seventy something, yeah, yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.D.argumentstructs.Erik.2",
+            "ans": "ES2006b.D.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 14,
+            "current_node": {
+                "index": 24,
+                "ae_id": "ES2006b.A.argumentstructs.Erik.5",
+                "speaker": "A",
+                "start_time": 1637.13,
+                "end_time": 1637.46,
+                "sentence": "Alright.",
+                "source": "ES2006b.B.argumentstructs.Erik.7",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 14,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 1589.19,
+                    "end_time": 1600.8,
+                    "sentence": "Yeah, but you don't have much money, generally. I would've thought it's it's more that twenty five to thirty five, when people are really moving out and they've got their first job and they want their nice toys and",
+                    "source": "ES2006b.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006b.D.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1591.51,
+                    "end_time": 1595.3,
+                    "sentence": "Yeah. Yeah, you share a television or something that  yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1601.04,
+                    "end_time": 1623.35,
+                    "sentence": "Right. But uh still, if if you can go back to that slide and uh, how popular was it ? Oh, oh, okay.  That's alright, if you can just look it up on your computer, wh uh um people between twenty five to thirty five, uh how popular was  so it was sti still still quite popular amongst them. So even they are seventy six percent, is that high amount ?",
+                    "source": "ES2006b.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.3",
+                        "ES2006b.D.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1601.27,
+                    "end_time": 1601.82,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1616.17,
+                    "end_time": 1618.7,
+                    "sentence": "Seventy six point three percent.",
+                    "source": "ES2006b.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1616.98,
+                    "end_time": 1619.56,
+                    "sentence": "It was seventy something, yeah, yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 1620.16,
+                    "end_time": 1620.3,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 24):\n- AE_ID: ES2006b.A.argumentstructs.Erik.5\n- Speaker: A\n- Sentence: \"Alright.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.C.argumentstructs.Erik.3 (Index: 14, Speaker: C): \"Yeah, but you don't have much money, generally. I would've thought it's it's more that twenty five to thirty five, when people are really moving out and they've got their first job and they want their nice toys and\"\nAE_ID ES2006b.D.argumentstructs.Erik.1 (Index: 15, Speaker: D): \"Yeah. Yeah, you share a television or something that  yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.4 (Index: 16, Speaker: A): \"Right. But uh still, if if you can go back to that slide and uh, how popular was it ? Oh, oh, okay.  That's alright, if you can just look it up on your computer, wh uh um people between twenty five to thirty five, uh how popular was  so it was sti still still quite popular amongst them. So even they are seventy six percent, is that high amount ?\"\nAE_ID ES2006b.B.argumentstructs.Erik.3 (Index: 17, Speaker: B): \"Yeah.\"\nAE_ID ES2006b.B.argumentstructs.Erik.5 (Index: 20, Speaker: B): \"Seventy six point three percent.\"\nAE_ID ES2006b.D.argumentstructs.Erik.2 (Index: 21, Speaker: D): \"It was seventy something, yeah, yeah.\"\nAE_ID ES2006b.B.argumentstructs.Erik.6 (Index: 22, Speaker: B): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.A.argumentstructs.Erik.4",
+            "ans": "ES2006b.B.argumentstructs.Erik.7",
+            "judgement": false
+        },
+        {
+            "turn_number": 15,
+            "current_node": {
+                "index": 25,
+                "ae_id": "ES2006b.C.argumentstructs.Erik.4",
+                "speaker": "C",
+                "start_time": 1637.7,
+                "end_time": 1639.86,
+                "sentence": "usually not a car and all of those things.",
+                "source": "ES2006b.B.argumentstructs.Erik.7",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 15,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1591.51,
+                    "end_time": 1595.3,
+                    "sentence": "Yeah. Yeah, you share a television or something that  yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1601.04,
+                    "end_time": 1623.35,
+                    "sentence": "Right. But uh still, if if you can go back to that slide and uh, how popular was it ? Oh, oh, okay.  That's alright, if you can just look it up on your computer, wh uh um people between twenty five to thirty five, uh how popular was  so it was sti still still quite popular amongst them. So even they are seventy six percent, is that high amount ?",
+                    "source": "ES2006b.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.3",
+                        "ES2006b.D.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1601.27,
+                    "end_time": 1601.82,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1616.17,
+                    "end_time": 1618.7,
+                    "sentence": "Seventy six point three percent.",
+                    "source": "ES2006b.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1616.98,
+                    "end_time": 1619.56,
+                    "sentence": "It was seventy something, yeah, yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 1620.16,
+                    "end_time": 1620.3,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 1637.13,
+                    "end_time": 1637.46,
+                    "sentence": "Alright.",
+                    "source": "ES2006b.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 25):\n- AE_ID: ES2006b.C.argumentstructs.Erik.4\n- Speaker: C\n- Sentence: \"usually not a car and all of those things.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.D.argumentstructs.Erik.1 (Index: 15, Speaker: D): \"Yeah. Yeah, you share a television or something that  yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.4 (Index: 16, Speaker: A): \"Right. But uh still, if if you can go back to that slide and uh, how popular was it ? Oh, oh, okay.  That's alright, if you can just look it up on your computer, wh uh um people between twenty five to thirty five, uh how popular was  so it was sti still still quite popular amongst them. So even they are seventy six percent, is that high amount ?\"\nAE_ID ES2006b.B.argumentstructs.Erik.3 (Index: 17, Speaker: B): \"Yeah.\"\nAE_ID ES2006b.B.argumentstructs.Erik.5 (Index: 20, Speaker: B): \"Seventy six point three percent.\"\nAE_ID ES2006b.D.argumentstructs.Erik.2 (Index: 21, Speaker: D): \"It was seventy something, yeah, yeah.\"\nAE_ID ES2006b.B.argumentstructs.Erik.6 (Index: 22, Speaker: B): \"Yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.5 (Index: 24, Speaker: A): \"Alright.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.A.argumentstructs.Erik.4",
+            "ans": "ES2006b.B.argumentstructs.Erik.7",
+            "judgement": false
+        },
+        {
+            "turn_number": 16,
+            "current_node": {
+                "index": 26,
+                "ae_id": "ES2006b.B.argumentstructs.Erik.7",
+                "speaker": "B",
+                "start_time": 1639.09,
+                "end_time": 1650.32,
+                "sentence": "normally have a car, yeah, so. You're still learning to drive actually, so that just costs more than a car,  but yeah. Um so I mean like it is an age group to target, really, I think.",
+                "source": "ES2006b.A.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2006b.C.argumentstructs.Erik.4",
+                    "ES2006b.A.argumentstructs.Erik.5",
+                    "ES2006b.C.argumentstructs.Erik.5"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 16,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1601.04,
+                    "end_time": 1623.35,
+                    "sentence": "Right. But uh still, if if you can go back to that slide and uh, how popular was it ? Oh, oh, okay.  That's alright, if you can just look it up on your computer, wh uh um people between twenty five to thirty five, uh how popular was  so it was sti still still quite popular amongst them. So even they are seventy six percent, is that high amount ?",
+                    "source": "ES2006b.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.3",
+                        "ES2006b.D.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1601.27,
+                    "end_time": 1601.82,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1616.17,
+                    "end_time": 1618.7,
+                    "sentence": "Seventy six point three percent.",
+                    "source": "ES2006b.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1616.98,
+                    "end_time": 1619.56,
+                    "sentence": "It was seventy something, yeah, yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 1620.16,
+                    "end_time": 1620.3,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 1637.13,
+                    "end_time": 1637.46,
+                    "sentence": "Alright.",
+                    "source": "ES2006b.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.4",
+                    "speaker": "C",
+                    "start_time": 1637.7,
+                    "end_time": 1639.86,
+                    "sentence": "usually not a car and all of those things.",
+                    "source": "ES2006b.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 26):\n- AE_ID: ES2006b.B.argumentstructs.Erik.7\n- Speaker: B\n- Sentence: \"normally have a car, yeah, so. You're still learning to drive actually, so that just costs more than a car,  but yeah. Um so I mean like it is an age group to target, really, I think.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.A.argumentstructs.Erik.4 (Index: 16, Speaker: A): \"Right. But uh still, if if you can go back to that slide and uh, how popular was it ? Oh, oh, okay.  That's alright, if you can just look it up on your computer, wh uh um people between twenty five to thirty five, uh how popular was  so it was sti still still quite popular amongst them. So even they are seventy six percent, is that high amount ?\"\nAE_ID ES2006b.B.argumentstructs.Erik.3 (Index: 17, Speaker: B): \"Yeah.\"\nAE_ID ES2006b.B.argumentstructs.Erik.5 (Index: 20, Speaker: B): \"Seventy six point three percent.\"\nAE_ID ES2006b.D.argumentstructs.Erik.2 (Index: 21, Speaker: D): \"It was seventy something, yeah, yeah.\"\nAE_ID ES2006b.B.argumentstructs.Erik.6 (Index: 22, Speaker: B): \"Yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.5 (Index: 24, Speaker: A): \"Alright.\"\nAE_ID ES2006b.C.argumentstructs.Erik.4 (Index: 25, Speaker: C): \"usually not a car and all of those things.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.C.argumentstructs.Erik.4",
+            "ans": "ES2006b.A.argumentstructs.Erik.1",
+            "judgement": false
+        },
+        {
+            "turn_number": 17,
+            "current_node": {
+                "index": 29,
+                "ae_id": "ES2006b.C.argumentstructs.Erik.5",
+                "speaker": "C",
+                "start_time": 1649.97,
+                "end_time": 1657.41,
+                "sentence": "Yeah, and if we're if we're talking twenty five Euros as a price, that's not unaffordable, even for young people.",
+                "source": "ES2006b.B.argumentstructs.Erik.7",
+                "targets": [
+                    "ES2006b.B.argumentstructs.Erik.8"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 17,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1601.27,
+                    "end_time": 1601.82,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1616.17,
+                    "end_time": 1618.7,
+                    "sentence": "Seventy six point three percent.",
+                    "source": "ES2006b.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1616.98,
+                    "end_time": 1619.56,
+                    "sentence": "It was seventy something, yeah, yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 1620.16,
+                    "end_time": 1620.3,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 1637.13,
+                    "end_time": 1637.46,
+                    "sentence": "Alright.",
+                    "source": "ES2006b.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.4",
+                    "speaker": "C",
+                    "start_time": 1637.7,
+                    "end_time": 1639.86,
+                    "sentence": "usually not a car and all of those things.",
+                    "source": "ES2006b.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 26,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 1639.09,
+                    "end_time": 1650.32,
+                    "sentence": "normally have a car, yeah, so. You're still learning to drive actually, so that just costs more than a car,  but yeah. Um so I mean like it is an age group to target, really, I think.",
+                    "source": "ES2006b.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.4",
+                        "ES2006b.A.argumentstructs.Erik.5",
+                        "ES2006b.C.argumentstructs.Erik.5"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 29):\n- AE_ID: ES2006b.C.argumentstructs.Erik.5\n- Speaker: C\n- Sentence: \"Yeah, and if we're if we're talking twenty five Euros as a price, that's not unaffordable, even for young people.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.B.argumentstructs.Erik.3 (Index: 17, Speaker: B): \"Yeah.\"\nAE_ID ES2006b.B.argumentstructs.Erik.5 (Index: 20, Speaker: B): \"Seventy six point three percent.\"\nAE_ID ES2006b.D.argumentstructs.Erik.2 (Index: 21, Speaker: D): \"It was seventy something, yeah, yeah.\"\nAE_ID ES2006b.B.argumentstructs.Erik.6 (Index: 22, Speaker: B): \"Yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.5 (Index: 24, Speaker: A): \"Alright.\"\nAE_ID ES2006b.C.argumentstructs.Erik.4 (Index: 25, Speaker: C): \"usually not a car and all of those things.\"\nAE_ID ES2006b.B.argumentstructs.Erik.7 (Index: 26, Speaker: B): \"normally have a car, yeah, so. You're still learning to drive actually, so that just costs more than a car,  but yeah. Um so I mean like it is an age group to target, really, I think.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.B.argumentstructs.Erik.7",
+            "ans": "ES2006b.B.argumentstructs.Erik.7",
+            "judgement": true
+        },
+        {
+            "turn_number": 18,
+            "current_node": {
+                "index": 30,
+                "ae_id": "ES2006b.B.argumentstructs.Erik.8",
+                "speaker": "B",
+                "start_time": 1656.08,
+                "end_time": 1660.35,
+                "sentence": "No, I mean that's what, that's like fifteen Pounds ? You know, I think",
+                "source": "ES2006b.C.argumentstructs.Erik.5",
+                "targets": [
+                    "ES2006b.C.argumentstructs.Erik.6",
+                    "ES2006b.D.argumentstructs.Erik.3"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 20,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1616.17,
+                    "end_time": 1618.7,
+                    "sentence": "Seventy six point three percent.",
+                    "source": "ES2006b.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1616.98,
+                    "end_time": 1619.56,
+                    "sentence": "It was seventy something, yeah, yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 1620.16,
+                    "end_time": 1620.3,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 1637.13,
+                    "end_time": 1637.46,
+                    "sentence": "Alright.",
+                    "source": "ES2006b.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.4",
+                    "speaker": "C",
+                    "start_time": 1637.7,
+                    "end_time": 1639.86,
+                    "sentence": "usually not a car and all of those things.",
+                    "source": "ES2006b.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 26,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 1639.09,
+                    "end_time": 1650.32,
+                    "sentence": "normally have a car, yeah, so. You're still learning to drive actually, so that just costs more than a car,  but yeah. Um so I mean like it is an age group to target, really, I think.",
+                    "source": "ES2006b.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.4",
+                        "ES2006b.A.argumentstructs.Erik.5",
+                        "ES2006b.C.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 29,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.5",
+                    "speaker": "C",
+                    "start_time": 1649.97,
+                    "end_time": 1657.41,
+                    "sentence": "Yeah, and if we're if we're talking twenty five Euros as a price, that's not unaffordable, even for young people.",
+                    "source": "ES2006b.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.8"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 30):\n- AE_ID: ES2006b.B.argumentstructs.Erik.8\n- Speaker: B\n- Sentence: \"No, I mean that's what, that's like fifteen Pounds ? You know, I think\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.B.argumentstructs.Erik.5 (Index: 20, Speaker: B): \"Seventy six point three percent.\"\nAE_ID ES2006b.D.argumentstructs.Erik.2 (Index: 21, Speaker: D): \"It was seventy something, yeah, yeah.\"\nAE_ID ES2006b.B.argumentstructs.Erik.6 (Index: 22, Speaker: B): \"Yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.5 (Index: 24, Speaker: A): \"Alright.\"\nAE_ID ES2006b.C.argumentstructs.Erik.4 (Index: 25, Speaker: C): \"usually not a car and all of those things.\"\nAE_ID ES2006b.B.argumentstructs.Erik.7 (Index: 26, Speaker: B): \"normally have a car, yeah, so. You're still learning to drive actually, so that just costs more than a car,  but yeah. Um so I mean like it is an age group to target, really, I think.\"\nAE_ID ES2006b.C.argumentstructs.Erik.5 (Index: 29, Speaker: C): \"Yeah, and if we're if we're talking twenty five Euros as a price, that's not unaffordable, even for young people.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.C.argumentstructs.Erik.5",
+            "ans": "ES2006b.C.argumentstructs.Erik.5",
+            "judgement": true
+        },
+        {
+            "turn_number": 19,
+            "current_node": {
+                "index": 31,
+                "ae_id": "ES2006b.C.argumentstructs.Erik.6",
+                "speaker": "C",
+                "start_time": 1658.53,
+                "end_time": 1658.82,
+                "sentence": "Yeah.",
+                "source": "ES2006b.B.argumentstructs.Erik.8",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 21,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1616.98,
+                    "end_time": 1619.56,
+                    "sentence": "It was seventy something, yeah, yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 1620.16,
+                    "end_time": 1620.3,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 1637.13,
+                    "end_time": 1637.46,
+                    "sentence": "Alright.",
+                    "source": "ES2006b.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.4",
+                    "speaker": "C",
+                    "start_time": 1637.7,
+                    "end_time": 1639.86,
+                    "sentence": "usually not a car and all of those things.",
+                    "source": "ES2006b.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 26,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 1639.09,
+                    "end_time": 1650.32,
+                    "sentence": "normally have a car, yeah, so. You're still learning to drive actually, so that just costs more than a car,  but yeah. Um so I mean like it is an age group to target, really, I think.",
+                    "source": "ES2006b.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.4",
+                        "ES2006b.A.argumentstructs.Erik.5",
+                        "ES2006b.C.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 29,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.5",
+                    "speaker": "C",
+                    "start_time": 1649.97,
+                    "end_time": 1657.41,
+                    "sentence": "Yeah, and if we're if we're talking twenty five Euros as a price, that's not unaffordable, even for young people.",
+                    "source": "ES2006b.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 30,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.8",
+                    "speaker": "B",
+                    "start_time": 1656.08,
+                    "end_time": 1660.35,
+                    "sentence": "No, I mean that's what, that's like fifteen Pounds ? You know, I think",
+                    "source": "ES2006b.C.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.6",
+                        "ES2006b.D.argumentstructs.Erik.3"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 31):\n- AE_ID: ES2006b.C.argumentstructs.Erik.6\n- Speaker: C\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.D.argumentstructs.Erik.2 (Index: 21, Speaker: D): \"It was seventy something, yeah, yeah.\"\nAE_ID ES2006b.B.argumentstructs.Erik.6 (Index: 22, Speaker: B): \"Yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.5 (Index: 24, Speaker: A): \"Alright.\"\nAE_ID ES2006b.C.argumentstructs.Erik.4 (Index: 25, Speaker: C): \"usually not a car and all of those things.\"\nAE_ID ES2006b.B.argumentstructs.Erik.7 (Index: 26, Speaker: B): \"normally have a car, yeah, so. You're still learning to drive actually, so that just costs more than a car,  but yeah. Um so I mean like it is an age group to target, really, I think.\"\nAE_ID ES2006b.C.argumentstructs.Erik.5 (Index: 29, Speaker: C): \"Yeah, and if we're if we're talking twenty five Euros as a price, that's not unaffordable, even for young people.\"\nAE_ID ES2006b.B.argumentstructs.Erik.8 (Index: 30, Speaker: B): \"No, I mean that's what, that's like fifteen Pounds ? You know, I think\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.B.argumentstructs.Erik.8",
+            "ans": "ES2006b.B.argumentstructs.Erik.8",
+            "judgement": true
+        },
+        {
+            "turn_number": 20,
+            "current_node": {
+                "index": 32,
+                "ae_id": "ES2006b.D.argumentstructs.Erik.3",
+                "speaker": "D",
+                "start_time": 1659.24,
+                "end_time": 1666.191,
+                "sentence": "Yeah this this is not  unaffordable, but the problem is whether people need it, whether they do have a T_V_  to use its full",
+                "source": "ES2006b.B.argumentstructs.Erik.8",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 22,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 1620.16,
+                    "end_time": 1620.3,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 1637.13,
+                    "end_time": 1637.46,
+                    "sentence": "Alright.",
+                    "source": "ES2006b.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.4",
+                    "speaker": "C",
+                    "start_time": 1637.7,
+                    "end_time": 1639.86,
+                    "sentence": "usually not a car and all of those things.",
+                    "source": "ES2006b.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 26,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 1639.09,
+                    "end_time": 1650.32,
+                    "sentence": "normally have a car, yeah, so. You're still learning to drive actually, so that just costs more than a car,  but yeah. Um so I mean like it is an age group to target, really, I think.",
+                    "source": "ES2006b.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.4",
+                        "ES2006b.A.argumentstructs.Erik.5",
+                        "ES2006b.C.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 29,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.5",
+                    "speaker": "C",
+                    "start_time": 1649.97,
+                    "end_time": 1657.41,
+                    "sentence": "Yeah, and if we're if we're talking twenty five Euros as a price, that's not unaffordable, even for young people.",
+                    "source": "ES2006b.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 30,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.8",
+                    "speaker": "B",
+                    "start_time": 1656.08,
+                    "end_time": 1660.35,
+                    "sentence": "No, I mean that's what, that's like fifteen Pounds ? You know, I think",
+                    "source": "ES2006b.C.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.6",
+                        "ES2006b.D.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 31,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.6",
+                    "speaker": "C",
+                    "start_time": 1658.53,
+                    "end_time": 1658.82,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 32):\n- AE_ID: ES2006b.D.argumentstructs.Erik.3\n- Speaker: D\n- Sentence: \"Yeah this this is not  unaffordable, but the problem is whether people need it, whether they do have a T_V_  to use its full\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.B.argumentstructs.Erik.6 (Index: 22, Speaker: B): \"Yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.5 (Index: 24, Speaker: A): \"Alright.\"\nAE_ID ES2006b.C.argumentstructs.Erik.4 (Index: 25, Speaker: C): \"usually not a car and all of those things.\"\nAE_ID ES2006b.B.argumentstructs.Erik.7 (Index: 26, Speaker: B): \"normally have a car, yeah, so. You're still learning to drive actually, so that just costs more than a car,  but yeah. Um so I mean like it is an age group to target, really, I think.\"\nAE_ID ES2006b.C.argumentstructs.Erik.5 (Index: 29, Speaker: C): \"Yeah, and if we're if we're talking twenty five Euros as a price, that's not unaffordable, even for young people.\"\nAE_ID ES2006b.B.argumentstructs.Erik.8 (Index: 30, Speaker: B): \"No, I mean that's what, that's like fifteen Pounds ? You know, I think\"\nAE_ID ES2006b.C.argumentstructs.Erik.6 (Index: 31, Speaker: C): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.C.argumentstructs.Erik.5",
+            "ans": "ES2006b.B.argumentstructs.Erik.8",
+            "judgement": false
+        }
+    ]
+}

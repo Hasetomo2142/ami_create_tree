@@ -1,0 +1,1509 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2004d-ES2004d - Rubber remote.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "ver.1.1.txt",
+    "rate": 0.6666666666666666,
+    "total_node_count": 27,
+    "removed_node_count": 5,
+    "removed_node_list": [
+        {
+            "index": 1,
+            "ae_id": "ES2004d.C.argumentstructs.8",
+            "speaker": "C",
+            "start_time": 1217.76,
+            "end_time": 1218.46,
+            "sentence": "a plastic.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 5,
+            "ae_id": "ES2004d.B.argumentstructs.8",
+            "speaker": "B",
+            "start_time": 1225.458,
+            "end_time": 1228.14,
+            "sentence": ". Um",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 16,
+            "ae_id": "ES2004d.B.argumentstructs.9",
+            "speaker": "B",
+            "start_time": 1250.74,
+            "end_time": 1252.62,
+            "sentence": "See, it says case material.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 17,
+            "ae_id": "ES2004d.D.argumentstructs.4",
+            "speaker": "D",
+            "start_time": 1253.4,
+            "end_time": 1253.76,
+            "sentence": "Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 24,
+            "ae_id": "ES2004d.D.argumentstructs.5",
+            "speaker": "D",
+            "start_time": 1281.25,
+            "end_time": 1281.47,
+            "sentence": "Okay.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 0,
+                "ae_id": "ES2004d.B.argumentstructs.Erik.1",
+                "speaker": "B",
+                "start_time": 1216.97,
+                "end_time": 1220.35,
+                "sentence": "Um we've got plastic and rubber, haven't we ?",
+                "source": "NONE",
+                "targets": [
+                    "ES2004d.C.argumentstructs.Erik.1",
+                    "ES2004d.A.argumentstructs.Erik.1"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "NONE",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 2,
+                "ae_id": "ES2004d.C.argumentstructs.Erik.1",
+                "speaker": "C",
+                "start_time": 1220.58,
+                "end_time": 1220.8,
+                "sentence": "Yeah.",
+                "source": "ES2004d.B.argumentstructs.Erik.1",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2004d.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1216.97,
+                    "end_time": 1220.35,
+                    "sentence": "Um we've got plastic and rubber, haven't we ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004d.C.argumentstructs.Erik.1",
+                        "ES2004d.A.argumentstructs.Erik.1"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 2):\n- AE_ID: ES2004d.C.argumentstructs.Erik.1\n- Speaker: C\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2004d.B.argumentstructs.Erik.1 (Index: 0, Speaker: B): \"Um we've got plastic and rubber, haven't we ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004d.B.argumentstructs.Erik.1",
+            "ans": "ES2004d.B.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 3,
+                "ae_id": "ES2004d.A.argumentstructs.Erik.1",
+                "speaker": "A",
+                "start_time": 1221.03,
+                "end_time": 1224.45,
+                "sentence": "Yeah. Plastic one and maybe rubber point five.",
+                "source": "ES2004d.B.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2004d.C.argumentstructs.Erik.2",
+                    "ES2004d.D.argumentstructs.Erik.1"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2004d.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1216.97,
+                    "end_time": 1220.35,
+                    "sentence": "Um we've got plastic and rubber, haven't we ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004d.C.argumentstructs.Erik.1",
+                        "ES2004d.A.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2004d.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 1220.58,
+                    "end_time": 1220.8,
+                    "sentence": "Yeah.",
+                    "source": "ES2004d.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 3):\n- AE_ID: ES2004d.A.argumentstructs.Erik.1\n- Speaker: A\n- Sentence: \"Yeah. Plastic one and maybe rubber point five.\"\n\nPast Dialogue Turns:\nAE_ID ES2004d.B.argumentstructs.Erik.1 (Index: 0, Speaker: B): \"Um we've got plastic and rubber, haven't we ?\"\nAE_ID ES2004d.C.argumentstructs.Erik.1 (Index: 2, Speaker: C): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004d.B.argumentstructs.Erik.1",
+            "ans": "ES2004d.B.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 4,
+                "ae_id": "ES2004d.C.argumentstructs.Erik.2",
+                "speaker": "C",
+                "start_time": 1223.18,
+                "end_time": 1224.13,
+                "sentence": "And special colour.",
+                "source": "ES2004d.A.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2004d.A.argumentstructs.Erik.2"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2004d.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1216.97,
+                    "end_time": 1220.35,
+                    "sentence": "Um we've got plastic and rubber, haven't we ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004d.C.argumentstructs.Erik.1",
+                        "ES2004d.A.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2004d.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 1220.58,
+                    "end_time": 1220.8,
+                    "sentence": "Yeah.",
+                    "source": "ES2004d.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2004d.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1221.03,
+                    "end_time": 1224.45,
+                    "sentence": "Yeah. Plastic one and maybe rubber point five.",
+                    "source": "ES2004d.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004d.C.argumentstructs.Erik.2",
+                        "ES2004d.D.argumentstructs.Erik.1"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 4):\n- AE_ID: ES2004d.C.argumentstructs.Erik.2\n- Speaker: C\n- Sentence: \"And special colour.\"\n\nPast Dialogue Turns:\nAE_ID ES2004d.B.argumentstructs.Erik.1 (Index: 0, Speaker: B): \"Um we've got plastic and rubber, haven't we ?\"\nAE_ID ES2004d.C.argumentstructs.Erik.1 (Index: 2, Speaker: C): \"Yeah.\"\nAE_ID ES2004d.A.argumentstructs.Erik.1 (Index: 3, Speaker: A): \"Yeah. Plastic one and maybe rubber point five.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004d.A.argumentstructs.Erik.1",
+            "ans": "ES2004d.A.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 6,
+                "ae_id": "ES2004d.A.argumentstructs.Erik.2",
+                "speaker": "A",
+                "start_time": 1227.56,
+                "end_time": 1230.99,
+                "sentence": "No I think rubber, since it's being used just as a casing, we can put point five.",
+                "source": "ES2004d.C.argumentstructs.Erik.2",
+                "targets": [
+                    "ES2004d.C.argumentstructs.Erik.3",
+                    "ES2004d.B.argumentstructs.Erik.2"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2004d.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1216.97,
+                    "end_time": 1220.35,
+                    "sentence": "Um we've got plastic and rubber, haven't we ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004d.C.argumentstructs.Erik.1",
+                        "ES2004d.A.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2004d.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 1220.58,
+                    "end_time": 1220.8,
+                    "sentence": "Yeah.",
+                    "source": "ES2004d.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2004d.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1221.03,
+                    "end_time": 1224.45,
+                    "sentence": "Yeah. Plastic one and maybe rubber point five.",
+                    "source": "ES2004d.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004d.C.argumentstructs.Erik.2",
+                        "ES2004d.D.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2004d.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 1223.18,
+                    "end_time": 1224.13,
+                    "sentence": "And special colour.",
+                    "source": "ES2004d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004d.A.argumentstructs.Erik.2"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 6):\n- AE_ID: ES2004d.A.argumentstructs.Erik.2\n- Speaker: A\n- Sentence: \"No I think rubber, since it's being used just as a casing, we can put point five.\"\n\nPast Dialogue Turns:\nAE_ID ES2004d.B.argumentstructs.Erik.1 (Index: 0, Speaker: B): \"Um we've got plastic and rubber, haven't we ?\"\nAE_ID ES2004d.C.argumentstructs.Erik.1 (Index: 2, Speaker: C): \"Yeah.\"\nAE_ID ES2004d.A.argumentstructs.Erik.1 (Index: 3, Speaker: A): \"Yeah. Plastic one and maybe rubber point five.\"\nAE_ID ES2004d.C.argumentstructs.Erik.2 (Index: 4, Speaker: C): \"And special colour.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004d.A.argumentstructs.Erik.1",
+            "ans": "ES2004d.C.argumentstructs.Erik.2",
+            "judgement": false
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 7,
+                "ae_id": "ES2004d.C.argumentstructs.Erik.3",
+                "speaker": "C",
+                "start_time": 1232.31,
+                "end_time": 1233.05,
+                "sentence": "Yeah.",
+                "source": "ES2004d.A.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 2,
+                    "ae_id": "ES2004d.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 1220.58,
+                    "end_time": 1220.8,
+                    "sentence": "Yeah.",
+                    "source": "ES2004d.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2004d.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1221.03,
+                    "end_time": 1224.45,
+                    "sentence": "Yeah. Plastic one and maybe rubber point five.",
+                    "source": "ES2004d.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004d.C.argumentstructs.Erik.2",
+                        "ES2004d.D.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2004d.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 1223.18,
+                    "end_time": 1224.13,
+                    "sentence": "And special colour.",
+                    "source": "ES2004d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004d.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2004d.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1227.56,
+                    "end_time": 1230.99,
+                    "sentence": "No I think rubber, since it's being used just as a casing, we can put point five.",
+                    "source": "ES2004d.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004d.C.argumentstructs.Erik.3",
+                        "ES2004d.B.argumentstructs.Erik.2"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 7):\n- AE_ID: ES2004d.C.argumentstructs.Erik.3\n- Speaker: C\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2004d.C.argumentstructs.Erik.1 (Index: 2, Speaker: C): \"Yeah.\"\nAE_ID ES2004d.A.argumentstructs.Erik.1 (Index: 3, Speaker: A): \"Yeah. Plastic one and maybe rubber point five.\"\nAE_ID ES2004d.C.argumentstructs.Erik.2 (Index: 4, Speaker: C): \"And special colour.\"\nAE_ID ES2004d.A.argumentstructs.Erik.2 (Index: 6, Speaker: A): \"No I think rubber, since it's being used just as a casing, we can put point five.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004d.A.argumentstructs.Erik.2",
+            "ans": "ES2004d.A.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 8,
+                "ae_id": "ES2004d.B.argumentstructs.Erik.2",
+                "speaker": "B",
+                "start_time": 1232.9,
+                "end_time": 1233.29,
+                "sentence": "Do you think ?",
+                "source": "ES2004d.A.argumentstructs.Erik.2",
+                "targets": [
+                    "ES2004d.A.argumentstructs.Erik.3",
+                    "ES2004d.A.argumentstructs.Erik.4"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 3,
+                    "ae_id": "ES2004d.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1221.03,
+                    "end_time": 1224.45,
+                    "sentence": "Yeah. Plastic one and maybe rubber point five.",
+                    "source": "ES2004d.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004d.C.argumentstructs.Erik.2",
+                        "ES2004d.D.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2004d.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 1223.18,
+                    "end_time": 1224.13,
+                    "sentence": "And special colour.",
+                    "source": "ES2004d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004d.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2004d.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1227.56,
+                    "end_time": 1230.99,
+                    "sentence": "No I think rubber, since it's being used just as a casing, we can put point five.",
+                    "source": "ES2004d.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004d.C.argumentstructs.Erik.3",
+                        "ES2004d.B.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2004d.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 1232.31,
+                    "end_time": 1233.05,
+                    "sentence": "Yeah.",
+                    "source": "ES2004d.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 8):\n- AE_ID: ES2004d.B.argumentstructs.Erik.2\n- Speaker: B\n- Sentence: \"Do you think ?\"\n\nPast Dialogue Turns:\nAE_ID ES2004d.A.argumentstructs.Erik.1 (Index: 3, Speaker: A): \"Yeah. Plastic one and maybe rubber point five.\"\nAE_ID ES2004d.C.argumentstructs.Erik.2 (Index: 4, Speaker: C): \"And special colour.\"\nAE_ID ES2004d.A.argumentstructs.Erik.2 (Index: 6, Speaker: A): \"No I think rubber, since it's being used just as a casing, we can put point five.\"\nAE_ID ES2004d.C.argumentstructs.Erik.3 (Index: 7, Speaker: C): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004d.C.argumentstructs.Erik.3",
+            "ans": "ES2004d.A.argumentstructs.Erik.2",
+            "judgement": false
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 9,
+                "ae_id": "ES2004d.A.argumentstructs.Erik.3",
+                "speaker": "A",
+                "start_time": 1233.49,
+                "end_time": 1234.432,
+                "sentence": "Yeah, because there are",
+                "source": "ES2004d.B.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 4,
+                    "ae_id": "ES2004d.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 1223.18,
+                    "end_time": 1224.13,
+                    "sentence": "And special colour.",
+                    "source": "ES2004d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004d.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2004d.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1227.56,
+                    "end_time": 1230.99,
+                    "sentence": "No I think rubber, since it's being used just as a casing, we can put point five.",
+                    "source": "ES2004d.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004d.C.argumentstructs.Erik.3",
+                        "ES2004d.B.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2004d.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 1232.31,
+                    "end_time": 1233.05,
+                    "sentence": "Yeah.",
+                    "source": "ES2004d.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2004d.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1232.9,
+                    "end_time": 1233.29,
+                    "sentence": "Do you think ?",
+                    "source": "ES2004d.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004d.A.argumentstructs.Erik.3",
+                        "ES2004d.A.argumentstructs.Erik.4"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 9):\n- AE_ID: ES2004d.A.argumentstructs.Erik.3\n- Speaker: A\n- Sentence: \"Yeah, because there are\"\n\nPast Dialogue Turns:\nAE_ID ES2004d.C.argumentstructs.Erik.2 (Index: 4, Speaker: C): \"And special colour.\"\nAE_ID ES2004d.A.argumentstructs.Erik.2 (Index: 6, Speaker: A): \"No I think rubber, since it's being used just as a casing, we can put point five.\"\nAE_ID ES2004d.C.argumentstructs.Erik.3 (Index: 7, Speaker: C): \"Yeah.\"\nAE_ID ES2004d.B.argumentstructs.Erik.2 (Index: 8, Speaker: B): \"Do you think ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004d.B.argumentstructs.Erik.2",
+            "ans": "ES2004d.B.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 10,
+                "ae_id": "ES2004d.A.argumentstructs.Erik.4",
+                "speaker": "A",
+                "start_time": 1235.49,
+                "end_time": 1238.94,
+                "sentence": "I think it allows the point five, yeah. We can use that.",
+                "source": "ES2004d.B.argumentstructs.Erik.2",
+                "targets": [
+                    "ES2004d.C.argumentstructs.Erik.4",
+                    "ES2004d.B.argumentstructs.Erik.3"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 6,
+                    "ae_id": "ES2004d.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1227.56,
+                    "end_time": 1230.99,
+                    "sentence": "No I think rubber, since it's being used just as a casing, we can put point five.",
+                    "source": "ES2004d.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004d.C.argumentstructs.Erik.3",
+                        "ES2004d.B.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2004d.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 1232.31,
+                    "end_time": 1233.05,
+                    "sentence": "Yeah.",
+                    "source": "ES2004d.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2004d.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1232.9,
+                    "end_time": 1233.29,
+                    "sentence": "Do you think ?",
+                    "source": "ES2004d.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004d.A.argumentstructs.Erik.3",
+                        "ES2004d.A.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2004d.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1233.49,
+                    "end_time": 1234.432,
+                    "sentence": "Yeah, because there are",
+                    "source": "ES2004d.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 10):\n- AE_ID: ES2004d.A.argumentstructs.Erik.4\n- Speaker: A\n- Sentence: \"I think it allows the point five, yeah. We can use that.\"\n\nPast Dialogue Turns:\nAE_ID ES2004d.A.argumentstructs.Erik.2 (Index: 6, Speaker: A): \"No I think rubber, since it's being used just as a casing, we can put point five.\"\nAE_ID ES2004d.C.argumentstructs.Erik.3 (Index: 7, Speaker: C): \"Yeah.\"\nAE_ID ES2004d.B.argumentstructs.Erik.2 (Index: 8, Speaker: B): \"Do you think ?\"\nAE_ID ES2004d.A.argumentstructs.Erik.3 (Index: 9, Speaker: A): \"Yeah, because there are\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004d.A.argumentstructs.Erik.3",
+            "ans": "ES2004d.B.argumentstructs.Erik.2",
+            "judgement": false
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 11,
+                "ae_id": "ES2004d.C.argumentstructs.Erik.4",
+                "speaker": "C",
+                "start_time": 1239.12,
+                "end_time": 1239.8,
+                "sentence": "Yeah.",
+                "source": "ES2004d.A.argumentstructs.Erik.4",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 7,
+                    "ae_id": "ES2004d.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 1232.31,
+                    "end_time": 1233.05,
+                    "sentence": "Yeah.",
+                    "source": "ES2004d.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2004d.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1232.9,
+                    "end_time": 1233.29,
+                    "sentence": "Do you think ?",
+                    "source": "ES2004d.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004d.A.argumentstructs.Erik.3",
+                        "ES2004d.A.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2004d.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1233.49,
+                    "end_time": 1234.432,
+                    "sentence": "Yeah, because there are",
+                    "source": "ES2004d.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2004d.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1235.49,
+                    "end_time": 1238.94,
+                    "sentence": "I think it allows the point five, yeah. We can use that.",
+                    "source": "ES2004d.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004d.C.argumentstructs.Erik.4",
+                        "ES2004d.B.argumentstructs.Erik.3"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 11):\n- AE_ID: ES2004d.C.argumentstructs.Erik.4\n- Speaker: C\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2004d.C.argumentstructs.Erik.3 (Index: 7, Speaker: C): \"Yeah.\"\nAE_ID ES2004d.B.argumentstructs.Erik.2 (Index: 8, Speaker: B): \"Do you think ?\"\nAE_ID ES2004d.A.argumentstructs.Erik.3 (Index: 9, Speaker: A): \"Yeah, because there are\"\nAE_ID ES2004d.A.argumentstructs.Erik.4 (Index: 10, Speaker: A): \"I think it allows the point five, yeah. We can use that.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004d.A.argumentstructs.Erik.4",
+            "ans": "ES2004d.A.argumentstructs.Erik.4",
+            "judgement": true
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 12,
+                "ae_id": "ES2004d.B.argumentstructs.Erik.3",
+                "speaker": "B",
+                "start_time": 1239.32,
+                "end_time": 1239.72,
+                "sentence": "Okay.",
+                "source": "ES2004d.A.argumentstructs.Erik.4",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 8,
+                    "ae_id": "ES2004d.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1232.9,
+                    "end_time": 1233.29,
+                    "sentence": "Do you think ?",
+                    "source": "ES2004d.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004d.A.argumentstructs.Erik.3",
+                        "ES2004d.A.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2004d.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1233.49,
+                    "end_time": 1234.432,
+                    "sentence": "Yeah, because there are",
+                    "source": "ES2004d.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2004d.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1235.49,
+                    "end_time": 1238.94,
+                    "sentence": "I think it allows the point five, yeah. We can use that.",
+                    "source": "ES2004d.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004d.C.argumentstructs.Erik.4",
+                        "ES2004d.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2004d.C.argumentstructs.Erik.4",
+                    "speaker": "C",
+                    "start_time": 1239.12,
+                    "end_time": 1239.8,
+                    "sentence": "Yeah.",
+                    "source": "ES2004d.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 12):\n- AE_ID: ES2004d.B.argumentstructs.Erik.3\n- Speaker: B\n- Sentence: \"Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2004d.B.argumentstructs.Erik.2 (Index: 8, Speaker: B): \"Do you think ?\"\nAE_ID ES2004d.A.argumentstructs.Erik.3 (Index: 9, Speaker: A): \"Yeah, because there are\"\nAE_ID ES2004d.A.argumentstructs.Erik.4 (Index: 10, Speaker: A): \"I think it allows the point five, yeah. We can use that.\"\nAE_ID ES2004d.C.argumentstructs.Erik.4 (Index: 11, Speaker: C): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004d.C.argumentstructs.Erik.4",
+            "ans": "ES2004d.A.argumentstructs.Erik.4",
+            "judgement": false
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 13,
+                "ae_id": "ES2004d.D.argumentstructs.Erik.1",
+                "speaker": "D",
+                "start_time": 1240.69,
+                "end_time": 1242.47,
+                "sentence": "What does it mean if you put point five for that ?",
+                "source": "ES2004d.A.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2004d.A.argumentstructs.Erik.5",
+                    "ES2004d.B.argumentstructs.Erik.4"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 9,
+                    "ae_id": "ES2004d.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1233.49,
+                    "end_time": 1234.432,
+                    "sentence": "Yeah, because there are",
+                    "source": "ES2004d.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2004d.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1235.49,
+                    "end_time": 1238.94,
+                    "sentence": "I think it allows the point five, yeah. We can use that.",
+                    "source": "ES2004d.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004d.C.argumentstructs.Erik.4",
+                        "ES2004d.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2004d.C.argumentstructs.Erik.4",
+                    "speaker": "C",
+                    "start_time": 1239.12,
+                    "end_time": 1239.8,
+                    "sentence": "Yeah.",
+                    "source": "ES2004d.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2004d.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1239.32,
+                    "end_time": 1239.72,
+                    "sentence": "Okay.",
+                    "source": "ES2004d.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 13):\n- AE_ID: ES2004d.D.argumentstructs.Erik.1\n- Speaker: D\n- Sentence: \"What does it mean if you put point five for that ?\"\n\nPast Dialogue Turns:\nAE_ID ES2004d.A.argumentstructs.Erik.3 (Index: 9, Speaker: A): \"Yeah, because there are\"\nAE_ID ES2004d.A.argumentstructs.Erik.4 (Index: 10, Speaker: A): \"I think it allows the point five, yeah. We can use that.\"\nAE_ID ES2004d.C.argumentstructs.Erik.4 (Index: 11, Speaker: C): \"Yeah.\"\nAE_ID ES2004d.B.argumentstructs.Erik.3 (Index: 12, Speaker: B): \"Okay.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004d.A.argumentstructs.Erik.4",
+            "ans": "ES2004d.A.argumentstructs.Erik.1",
+            "judgement": false
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 14,
+                "ae_id": "ES2004d.A.argumentstructs.Erik.5",
+                "speaker": "A",
+                "start_time": 1242.52,
+                "end_time": 1249.56,
+                "sentence": "It means we are not using a lot of rubber actually. We're using just a very low quantity of rubber compared to plastic.",
+                "source": "ES2004d.D.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2004d.B.argumentstructs.Erik.5"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 10,
+                    "ae_id": "ES2004d.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1235.49,
+                    "end_time": 1238.94,
+                    "sentence": "I think it allows the point five, yeah. We can use that.",
+                    "source": "ES2004d.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004d.C.argumentstructs.Erik.4",
+                        "ES2004d.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2004d.C.argumentstructs.Erik.4",
+                    "speaker": "C",
+                    "start_time": 1239.12,
+                    "end_time": 1239.8,
+                    "sentence": "Yeah.",
+                    "source": "ES2004d.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2004d.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1239.32,
+                    "end_time": 1239.72,
+                    "sentence": "Okay.",
+                    "source": "ES2004d.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2004d.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1240.69,
+                    "end_time": 1242.47,
+                    "sentence": "What does it mean if you put point five for that ?",
+                    "source": "ES2004d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004d.A.argumentstructs.Erik.5",
+                        "ES2004d.B.argumentstructs.Erik.4"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 14):\n- AE_ID: ES2004d.A.argumentstructs.Erik.5\n- Speaker: A\n- Sentence: \"It means we are not using a lot of rubber actually. We're using just a very low quantity of rubber compared to plastic.\"\n\nPast Dialogue Turns:\nAE_ID ES2004d.A.argumentstructs.Erik.4 (Index: 10, Speaker: A): \"I think it allows the point five, yeah. We can use that.\"\nAE_ID ES2004d.C.argumentstructs.Erik.4 (Index: 11, Speaker: C): \"Yeah.\"\nAE_ID ES2004d.B.argumentstructs.Erik.3 (Index: 12, Speaker: B): \"Okay.\"\nAE_ID ES2004d.D.argumentstructs.Erik.1 (Index: 13, Speaker: D): \"What does it mean if you put point five for that ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004d.D.argumentstructs.Erik.1",
+            "ans": "ES2004d.D.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 13,
+            "current_node": {
+                "index": 15,
+                "ae_id": "ES2004d.B.argumentstructs.Erik.4",
+                "speaker": "B",
+                "start_time": 1244.84,
+                "end_time": 1246.48,
+                "sentence": "It would be like saying we're using",
+                "source": "ES2004d.D.argumentstructs.Erik.1",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 11,
+                    "ae_id": "ES2004d.C.argumentstructs.Erik.4",
+                    "speaker": "C",
+                    "start_time": 1239.12,
+                    "end_time": 1239.8,
+                    "sentence": "Yeah.",
+                    "source": "ES2004d.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2004d.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1239.32,
+                    "end_time": 1239.72,
+                    "sentence": "Okay.",
+                    "source": "ES2004d.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2004d.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1240.69,
+                    "end_time": 1242.47,
+                    "sentence": "What does it mean if you put point five for that ?",
+                    "source": "ES2004d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004d.A.argumentstructs.Erik.5",
+                        "ES2004d.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2004d.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 1242.52,
+                    "end_time": 1249.56,
+                    "sentence": "It means we are not using a lot of rubber actually. We're using just a very low quantity of rubber compared to plastic.",
+                    "source": "ES2004d.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004d.B.argumentstructs.Erik.5"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 15):\n- AE_ID: ES2004d.B.argumentstructs.Erik.4\n- Speaker: B\n- Sentence: \"It would be like saying we're using\"\n\nPast Dialogue Turns:\nAE_ID ES2004d.C.argumentstructs.Erik.4 (Index: 11, Speaker: C): \"Yeah.\"\nAE_ID ES2004d.B.argumentstructs.Erik.3 (Index: 12, Speaker: B): \"Okay.\"\nAE_ID ES2004d.D.argumentstructs.Erik.1 (Index: 13, Speaker: D): \"What does it mean if you put point five for that ?\"\nAE_ID ES2004d.A.argumentstructs.Erik.5 (Index: 14, Speaker: A): \"It means we are not using a lot of rubber actually. We're using just a very low quantity of rubber compared to plastic.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004d.A.argumentstructs.Erik.5",
+            "ans": "ES2004d.D.argumentstructs.Erik.1",
+            "judgement": false
+        },
+        {
+            "turn_number": 14,
+            "current_node": {
+                "index": 18,
+                "ae_id": "ES2004d.B.argumentstructs.Erik.5",
+                "speaker": "B",
+                "start_time": 1253.86,
+                "end_time": 1260.08,
+                "sentence": "So we're not actually using plastic in the case, are we ? It's including, it's including.",
+                "source": "ES2004d.A.argumentstructs.Erik.5",
+                "targets": [
+                    "ES2004d.C.argumentstructs.Erik.5"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 12,
+                    "ae_id": "ES2004d.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1239.32,
+                    "end_time": 1239.72,
+                    "sentence": "Okay.",
+                    "source": "ES2004d.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2004d.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1240.69,
+                    "end_time": 1242.47,
+                    "sentence": "What does it mean if you put point five for that ?",
+                    "source": "ES2004d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004d.A.argumentstructs.Erik.5",
+                        "ES2004d.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2004d.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 1242.52,
+                    "end_time": 1249.56,
+                    "sentence": "It means we are not using a lot of rubber actually. We're using just a very low quantity of rubber compared to plastic.",
+                    "source": "ES2004d.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004d.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2004d.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1244.84,
+                    "end_time": 1246.48,
+                    "sentence": "It would be like saying we're using",
+                    "source": "ES2004d.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 18):\n- AE_ID: ES2004d.B.argumentstructs.Erik.5\n- Speaker: B\n- Sentence: \"So we're not actually using plastic in the case, are we ? It's including, it's including.\"\n\nPast Dialogue Turns:\nAE_ID ES2004d.B.argumentstructs.Erik.3 (Index: 12, Speaker: B): \"Okay.\"\nAE_ID ES2004d.D.argumentstructs.Erik.1 (Index: 13, Speaker: D): \"What does it mean if you put point five for that ?\"\nAE_ID ES2004d.A.argumentstructs.Erik.5 (Index: 14, Speaker: A): \"It means we are not using a lot of rubber actually. We're using just a very low quantity of rubber compared to plastic.\"\nAE_ID ES2004d.B.argumentstructs.Erik.4 (Index: 15, Speaker: B): \"It would be like saying we're using\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004d.A.argumentstructs.Erik.5",
+            "ans": "ES2004d.A.argumentstructs.Erik.5",
+            "judgement": true
+        },
+        {
+            "turn_number": 15,
+            "current_node": {
+                "index": 19,
+                "ae_id": "ES2004d.C.argumentstructs.Erik.5",
+                "speaker": "C",
+                "start_time": 1257.14,
+                "end_time": 1259.31,
+                "sentence": "No, no, that's  it's as an extra.",
+                "source": "ES2004d.B.argumentstructs.Erik.5",
+                "targets": [
+                    "ES2004d.D.argumentstructs.Erik.2",
+                    "ES2004d.C.argumentstructs.Erik.6"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 13,
+                    "ae_id": "ES2004d.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1240.69,
+                    "end_time": 1242.47,
+                    "sentence": "What does it mean if you put point five for that ?",
+                    "source": "ES2004d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004d.A.argumentstructs.Erik.5",
+                        "ES2004d.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2004d.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 1242.52,
+                    "end_time": 1249.56,
+                    "sentence": "It means we are not using a lot of rubber actually. We're using just a very low quantity of rubber compared to plastic.",
+                    "source": "ES2004d.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004d.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2004d.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1244.84,
+                    "end_time": 1246.48,
+                    "sentence": "It would be like saying we're using",
+                    "source": "ES2004d.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2004d.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1253.86,
+                    "end_time": 1260.08,
+                    "sentence": "So we're not actually using plastic in the case, are we ? It's including, it's including.",
+                    "source": "ES2004d.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2004d.C.argumentstructs.Erik.5"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 19):\n- AE_ID: ES2004d.C.argumentstructs.Erik.5\n- Speaker: C\n- Sentence: \"No, no, that's  it's as an extra.\"\n\nPast Dialogue Turns:\nAE_ID ES2004d.D.argumentstructs.Erik.1 (Index: 13, Speaker: D): \"What does it mean if you put point five for that ?\"\nAE_ID ES2004d.A.argumentstructs.Erik.5 (Index: 14, Speaker: A): \"It means we are not using a lot of rubber actually. We're using just a very low quantity of rubber compared to plastic.\"\nAE_ID ES2004d.B.argumentstructs.Erik.4 (Index: 15, Speaker: B): \"It would be like saying we're using\"\nAE_ID ES2004d.B.argumentstructs.Erik.5 (Index: 18, Speaker: B): \"So we're not actually using plastic in the case, are we ? It's including, it's including.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004d.B.argumentstructs.Erik.5",
+            "ans": "ES2004d.B.argumentstructs.Erik.5",
+            "judgement": true
+        },
+        {
+            "turn_number": 16,
+            "current_node": {
+                "index": 20,
+                "ae_id": "ES2004d.D.argumentstructs.Erik.2",
+                "speaker": "D",
+                "start_time": 1259.48,
+                "end_time": 1260.93,
+                "sentence": "Right, okay.",
+                "source": "ES2004d.C.argumentstructs.Erik.5",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 14,
+                    "ae_id": "ES2004d.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 1242.52,
+                    "end_time": 1249.56,
+                    "sentence": "It means we are not using a lot of rubber actually. We're using just a very low quantity of rubber compared to plastic.",
+                    "source": "ES2004d.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004d.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2004d.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1244.84,
+                    "end_time": 1246.48,
+                    "sentence": "It would be like saying we're using",
+                    "source": "ES2004d.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2004d.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1253.86,
+                    "end_time": 1260.08,
+                    "sentence": "So we're not actually using plastic in the case, are we ? It's including, it's including.",
+                    "source": "ES2004d.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2004d.C.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2004d.C.argumentstructs.Erik.5",
+                    "speaker": "C",
+                    "start_time": 1257.14,
+                    "end_time": 1259.31,
+                    "sentence": "No, no, that's  it's as an extra.",
+                    "source": "ES2004d.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2004d.D.argumentstructs.Erik.2",
+                        "ES2004d.C.argumentstructs.Erik.6"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 20):\n- AE_ID: ES2004d.D.argumentstructs.Erik.2\n- Speaker: D\n- Sentence: \"Right, okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2004d.A.argumentstructs.Erik.5 (Index: 14, Speaker: A): \"It means we are not using a lot of rubber actually. We're using just a very low quantity of rubber compared to plastic.\"\nAE_ID ES2004d.B.argumentstructs.Erik.4 (Index: 15, Speaker: B): \"It would be like saying we're using\"\nAE_ID ES2004d.B.argumentstructs.Erik.5 (Index: 18, Speaker: B): \"So we're not actually using plastic in the case, are we ? It's including, it's including.\"\nAE_ID ES2004d.C.argumentstructs.Erik.5 (Index: 19, Speaker: C): \"No, no, that's  it's as an extra.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004d.C.argumentstructs.Erik.5",
+            "ans": "ES2004d.C.argumentstructs.Erik.5",
+            "judgement": true
+        },
+        {
+            "turn_number": 17,
+            "current_node": {
+                "index": 21,
+                "ae_id": "ES2004d.C.argumentstructs.Erik.6",
+                "speaker": "C",
+                "start_time": 1260.45,
+                "end_time": 1266.79,
+                "sentence": "So that shouldn't that shouldn't be actually on there, because that's not incorporated in the cost of the remote you get.",
+                "source": "ES2004d.C.argumentstructs.Erik.5",
+                "targets": [
+                    "ES2004d.D.argumentstructs.Erik.3"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 15,
+                    "ae_id": "ES2004d.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1244.84,
+                    "end_time": 1246.48,
+                    "sentence": "It would be like saying we're using",
+                    "source": "ES2004d.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2004d.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1253.86,
+                    "end_time": 1260.08,
+                    "sentence": "So we're not actually using plastic in the case, are we ? It's including, it's including.",
+                    "source": "ES2004d.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2004d.C.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2004d.C.argumentstructs.Erik.5",
+                    "speaker": "C",
+                    "start_time": 1257.14,
+                    "end_time": 1259.31,
+                    "sentence": "No, no, that's  it's as an extra.",
+                    "source": "ES2004d.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2004d.D.argumentstructs.Erik.2",
+                        "ES2004d.C.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2004d.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1259.48,
+                    "end_time": 1260.93,
+                    "sentence": "Right, okay.",
+                    "source": "ES2004d.C.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 21):\n- AE_ID: ES2004d.C.argumentstructs.Erik.6\n- Speaker: C\n- Sentence: \"So that shouldn't that shouldn't be actually on there, because that's not incorporated in the cost of the remote you get.\"\n\nPast Dialogue Turns:\nAE_ID ES2004d.B.argumentstructs.Erik.4 (Index: 15, Speaker: B): \"It would be like saying we're using\"\nAE_ID ES2004d.B.argumentstructs.Erik.5 (Index: 18, Speaker: B): \"So we're not actually using plastic in the case, are we ? It's including, it's including.\"\nAE_ID ES2004d.C.argumentstructs.Erik.5 (Index: 19, Speaker: C): \"No, no, that's  it's as an extra.\"\nAE_ID ES2004d.D.argumentstructs.Erik.2 (Index: 20, Speaker: D): \"Right, okay.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004d.C.argumentstructs.Erik.5",
+            "ans": "ES2004d.C.argumentstructs.Erik.5",
+            "judgement": true
+        },
+        {
+            "turn_number": 18,
+            "current_node": {
+                "index": 22,
+                "ae_id": "ES2004d.D.argumentstructs.Erik.3",
+                "speaker": "D",
+                "start_time": 1267.28,
+                "end_time": 1276.76,
+                "sentence": "But it is gonna be part of the total cost, and there's nowhere else we can we can put that in, is there ? There's nowhere else we can code for the the rubber used in the casing. So do we not have to account for it in the cost somewhere there ?",
+                "source": "ES2004d.C.argumentstructs.Erik.6",
+                "targets": [
+                    "ES2004d.B.argumentstructs.Erik.6",
+                    "ES2004d.B.argumentstructs.Erik.7"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 18,
+                    "ae_id": "ES2004d.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1253.86,
+                    "end_time": 1260.08,
+                    "sentence": "So we're not actually using plastic in the case, are we ? It's including, it's including.",
+                    "source": "ES2004d.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2004d.C.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2004d.C.argumentstructs.Erik.5",
+                    "speaker": "C",
+                    "start_time": 1257.14,
+                    "end_time": 1259.31,
+                    "sentence": "No, no, that's  it's as an extra.",
+                    "source": "ES2004d.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2004d.D.argumentstructs.Erik.2",
+                        "ES2004d.C.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2004d.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1259.48,
+                    "end_time": 1260.93,
+                    "sentence": "Right, okay.",
+                    "source": "ES2004d.C.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2004d.C.argumentstructs.Erik.6",
+                    "speaker": "C",
+                    "start_time": 1260.45,
+                    "end_time": 1266.79,
+                    "sentence": "So that shouldn't that shouldn't be actually on there, because that's not incorporated in the cost of the remote you get.",
+                    "source": "ES2004d.C.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2004d.D.argumentstructs.Erik.3"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 22):\n- AE_ID: ES2004d.D.argumentstructs.Erik.3\n- Speaker: D\n- Sentence: \"But it is gonna be part of the total cost, and there's nowhere else we can we can put that in, is there ? There's nowhere else we can code for the the rubber used in the casing. So do we not have to account for it in the cost somewhere there ?\"\n\nPast Dialogue Turns:\nAE_ID ES2004d.B.argumentstructs.Erik.5 (Index: 18, Speaker: B): \"So we're not actually using plastic in the case, are we ? It's including, it's including.\"\nAE_ID ES2004d.C.argumentstructs.Erik.5 (Index: 19, Speaker: C): \"No, no, that's  it's as an extra.\"\nAE_ID ES2004d.D.argumentstructs.Erik.2 (Index: 20, Speaker: D): \"Right, okay.\"\nAE_ID ES2004d.C.argumentstructs.Erik.6 (Index: 21, Speaker: C): \"So that shouldn't that shouldn't be actually on there, because that's not incorporated in the cost of the remote you get.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004d.C.argumentstructs.Erik.6",
+            "ans": "ES2004d.C.argumentstructs.Erik.6",
+            "judgement": true
+        },
+        {
+            "turn_number": 19,
+            "current_node": {
+                "index": 23,
+                "ae_id": "ES2004d.B.argumentstructs.Erik.6",
+                "speaker": "B",
+                "start_time": 1278.4,
+                "end_time": 1281.24,
+                "sentence": "Okay, we'll just put it in as we'll put in as half.",
+                "source": "ES2004d.D.argumentstructs.Erik.3",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 19,
+                    "ae_id": "ES2004d.C.argumentstructs.Erik.5",
+                    "speaker": "C",
+                    "start_time": 1257.14,
+                    "end_time": 1259.31,
+                    "sentence": "No, no, that's  it's as an extra.",
+                    "source": "ES2004d.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2004d.D.argumentstructs.Erik.2",
+                        "ES2004d.C.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2004d.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1259.48,
+                    "end_time": 1260.93,
+                    "sentence": "Right, okay.",
+                    "source": "ES2004d.C.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2004d.C.argumentstructs.Erik.6",
+                    "speaker": "C",
+                    "start_time": 1260.45,
+                    "end_time": 1266.79,
+                    "sentence": "So that shouldn't that shouldn't be actually on there, because that's not incorporated in the cost of the remote you get.",
+                    "source": "ES2004d.C.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2004d.D.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2004d.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 1267.28,
+                    "end_time": 1276.76,
+                    "sentence": "But it is gonna be part of the total cost, and there's nowhere else we can we can put that in, is there ? There's nowhere else we can code for the the rubber used in the casing. So do we not have to account for it in the cost somewhere there ?",
+                    "source": "ES2004d.C.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2004d.B.argumentstructs.Erik.6",
+                        "ES2004d.B.argumentstructs.Erik.7"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 23):\n- AE_ID: ES2004d.B.argumentstructs.Erik.6\n- Speaker: B\n- Sentence: \"Okay, we'll just put it in as we'll put in as half.\"\n\nPast Dialogue Turns:\nAE_ID ES2004d.C.argumentstructs.Erik.5 (Index: 19, Speaker: C): \"No, no, that's  it's as an extra.\"\nAE_ID ES2004d.D.argumentstructs.Erik.2 (Index: 20, Speaker: D): \"Right, okay.\"\nAE_ID ES2004d.C.argumentstructs.Erik.6 (Index: 21, Speaker: C): \"So that shouldn't that shouldn't be actually on there, because that's not incorporated in the cost of the remote you get.\"\nAE_ID ES2004d.D.argumentstructs.Erik.3 (Index: 22, Speaker: D): \"But it is gonna be part of the total cost, and there's nowhere else we can we can put that in, is there ? There's nowhere else we can code for the the rubber used in the casing. So do we not have to account for it in the cost somewhere there ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004d.D.argumentstructs.Erik.3",
+            "ans": "ES2004d.D.argumentstructs.Erik.3",
+            "judgement": true
+        },
+        {
+            "turn_number": 20,
+            "current_node": {
+                "index": 25,
+                "ae_id": "ES2004d.B.argumentstructs.Erik.7",
+                "speaker": "B",
+                "start_time": 1283.57,
+                "end_time": 1286.37,
+                "sentence": "Or sh we should just put it in as one, because the plastic is zero anyway.",
+                "source": "ES2004d.D.argumentstructs.Erik.3",
+                "targets": [
+                    "ES2004d.C.argumentstructs.Erik.7"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 20,
+                    "ae_id": "ES2004d.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1259.48,
+                    "end_time": 1260.93,
+                    "sentence": "Right, okay.",
+                    "source": "ES2004d.C.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2004d.C.argumentstructs.Erik.6",
+                    "speaker": "C",
+                    "start_time": 1260.45,
+                    "end_time": 1266.79,
+                    "sentence": "So that shouldn't that shouldn't be actually on there, because that's not incorporated in the cost of the remote you get.",
+                    "source": "ES2004d.C.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2004d.D.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2004d.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 1267.28,
+                    "end_time": 1276.76,
+                    "sentence": "But it is gonna be part of the total cost, and there's nowhere else we can we can put that in, is there ? There's nowhere else we can code for the the rubber used in the casing. So do we not have to account for it in the cost somewhere there ?",
+                    "source": "ES2004d.C.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2004d.B.argumentstructs.Erik.6",
+                        "ES2004d.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2004d.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 1278.4,
+                    "end_time": 1281.24,
+                    "sentence": "Okay, we'll just put it in as we'll put in as half.",
+                    "source": "ES2004d.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 25):\n- AE_ID: ES2004d.B.argumentstructs.Erik.7\n- Speaker: B\n- Sentence: \"Or sh we should just put it in as one, because the plastic is zero anyway.\"\n\nPast Dialogue Turns:\nAE_ID ES2004d.D.argumentstructs.Erik.2 (Index: 20, Speaker: D): \"Right, okay.\"\nAE_ID ES2004d.C.argumentstructs.Erik.6 (Index: 21, Speaker: C): \"So that shouldn't that shouldn't be actually on there, because that's not incorporated in the cost of the remote you get.\"\nAE_ID ES2004d.D.argumentstructs.Erik.3 (Index: 22, Speaker: D): \"But it is gonna be part of the total cost, and there's nowhere else we can we can put that in, is there ? There's nowhere else we can code for the the rubber used in the casing. So do we not have to account for it in the cost somewhere there ?\"\nAE_ID ES2004d.B.argumentstructs.Erik.6 (Index: 23, Speaker: B): \"Okay, we'll just put it in as we'll put in as half.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004d.B.argumentstructs.Erik.6",
+            "ans": "ES2004d.D.argumentstructs.Erik.3",
+            "judgement": false
+        },
+        {
+            "turn_number": 21,
+            "current_node": {
+                "index": 26,
+                "ae_id": "ES2004d.C.argumentstructs.Erik.7",
+                "speaker": "C",
+                "start_time": 1286.34,
+                "end_time": 1287.64,
+                "sentence": "Yeah, okay.",
+                "source": "ES2004d.B.argumentstructs.Erik.7",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 21,
+                    "ae_id": "ES2004d.C.argumentstructs.Erik.6",
+                    "speaker": "C",
+                    "start_time": 1260.45,
+                    "end_time": 1266.79,
+                    "sentence": "So that shouldn't that shouldn't be actually on there, because that's not incorporated in the cost of the remote you get.",
+                    "source": "ES2004d.C.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2004d.D.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2004d.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 1267.28,
+                    "end_time": 1276.76,
+                    "sentence": "But it is gonna be part of the total cost, and there's nowhere else we can we can put that in, is there ? There's nowhere else we can code for the the rubber used in the casing. So do we not have to account for it in the cost somewhere there ?",
+                    "source": "ES2004d.C.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2004d.B.argumentstructs.Erik.6",
+                        "ES2004d.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2004d.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 1278.4,
+                    "end_time": 1281.24,
+                    "sentence": "Okay, we'll just put it in as we'll put in as half.",
+                    "source": "ES2004d.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2004d.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 1283.57,
+                    "end_time": 1286.37,
+                    "sentence": "Or sh we should just put it in as one, because the plastic is zero anyway.",
+                    "source": "ES2004d.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2004d.C.argumentstructs.Erik.7"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 26):\n- AE_ID: ES2004d.C.argumentstructs.Erik.7\n- Speaker: C\n- Sentence: \"Yeah, okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2004d.C.argumentstructs.Erik.6 (Index: 21, Speaker: C): \"So that shouldn't that shouldn't be actually on there, because that's not incorporated in the cost of the remote you get.\"\nAE_ID ES2004d.D.argumentstructs.Erik.3 (Index: 22, Speaker: D): \"But it is gonna be part of the total cost, and there's nowhere else we can we can put that in, is there ? There's nowhere else we can code for the the rubber used in the casing. So do we not have to account for it in the cost somewhere there ?\"\nAE_ID ES2004d.B.argumentstructs.Erik.6 (Index: 23, Speaker: B): \"Okay, we'll just put it in as we'll put in as half.\"\nAE_ID ES2004d.B.argumentstructs.Erik.7 (Index: 25, Speaker: B): \"Or sh we should just put it in as one, because the plastic is zero anyway.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004d.B.argumentstructs.Erik.7",
+            "ans": "ES2004d.B.argumentstructs.Erik.7",
+            "judgement": true
+        }
+    ]
+}

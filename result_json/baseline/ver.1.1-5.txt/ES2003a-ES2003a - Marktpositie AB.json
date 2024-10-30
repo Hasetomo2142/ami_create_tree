@@ -1,0 +1,1716 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2003a-ES2003a - Marktpositie AB.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "ver.1.1.txt",
+    "rate": 0.47619047619047616,
+    "total_node_count": 25,
+    "removed_node_count": 3,
+    "removed_node_list": [
+        {
+            "index": 6,
+            "ae_id": "ES2003a.C.argumentstructs.9",
+            "speaker": "C",
+            "start_time": 820.69,
+            "end_time": 820.86,
+            "sentence": "Oh.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 13,
+            "ae_id": "ES2003a.B.argumentstructs.18",
+            "speaker": "B",
+            "start_time": 874.81,
+            "end_time": 875.32,
+            "sentence": "Um",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 17,
+            "ae_id": "ES2003a.B.argumentstructs.19",
+            "speaker": "B",
+            "start_time": 903.32,
+            "end_time": 903.67,
+            "sentence": "Okay.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 0,
+                "ae_id": "ES2003a.B.argumentstructs.Erik.1",
+                "speaker": "B",
+                "start_time": 730.78,
+                "end_time": 735.08,
+                "sentence": "Any ideas of where you think a new remote control could go into this market ?",
+                "source": "NONE",
+                "targets": [
+                    "ES2003a.A.argumentstructs.Erik.1"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "NONE",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2003a.A.argumentstructs.Erik.1",
+                "speaker": "A",
+                "start_time": 736.97,
+                "end_time": 790.71,
+                "sentence": "Well, one thing I'm aware of is, th there uh um at the sort of v very high price end of the market there's there's a em emerging market for sort of touch screen L_C_D_ remotes that can be uh programmed in m much more sophisticated ways than sort of conventional models, so you get the sort of you get um you  you can redesign the interface to your own needs, you can programme in macros, and you get a much greater degree um um I mean you get in these sort of  three in one, five in one, whatevers, but you can get integration between the different uh the the the diff the different things that it's designed to control, to a much greater extent, and you can have one uh you know one macro to turn the uh you know turn the T_V_ to the right channel, get the uh re uh rewind the tape in the V_C_R_ and get it to play once it's rewound, for instance.",
+                "source": "ES2003a.B.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2003a.A.argumentstructs.Erik.2"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 730.78,
+                    "end_time": 735.08,
+                    "sentence": "Any ideas of where you think a new remote control could go into this market ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.1"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 1):\n- AE_ID: ES2003a.A.argumentstructs.Erik.1\n- Speaker: A\n- Sentence: \"Well, one thing I'm aware of is, th there uh um at the sort of v very high price end of the market there's there's a em emerging market for sort of touch screen L_C_D_ remotes that can be uh programmed in m much more sophisticated ways than sort of conventional models, so you get the sort of you get um you  you can redesign the interface to your own needs, you can programme in macros, and you get a much greater degree um um I mean you get in these sort of  three in one, five in one, whatevers, but you can get integration between the different uh the the the diff the different things that it's designed to control, to a much greater extent, and you can have one uh you know one macro to turn the uh you know turn the T_V_ to the right channel, get the uh re uh rewind the tape in the V_C_R_ and get it to play once it's rewound, for instance.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.B.argumentstructs.Erik.1 (Index: 0, Speaker: B): \"Any ideas of where you think a new remote control could go into this market ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.B.argumentstructs.Erik.1",
+            "ans": "ES2003a.B.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 2,
+                "ae_id": "ES2003a.B.argumentstructs.Erik.2",
+                "speaker": "B",
+                "start_time": 790.07,
+                "end_time": 790.66,
+                "sentence": "Okay.",
+                "source": "ES2003a.A.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 730.78,
+                    "end_time": 735.08,
+                    "sentence": "Any ideas of where you think a new remote control could go into this market ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 736.97,
+                    "end_time": 790.71,
+                    "sentence": "Well, one thing I'm aware of is, th there uh um at the sort of v very high price end of the market there's there's a em emerging market for sort of touch screen L_C_D_ remotes that can be uh programmed in m much more sophisticated ways than sort of conventional models, so you get the sort of you get um you  you can redesign the interface to your own needs, you can programme in macros, and you get a much greater degree um um I mean you get in these sort of  three in one, five in one, whatevers, but you can get integration between the different uh the the the diff the different things that it's designed to control, to a much greater extent, and you can have one uh you know one macro to turn the uh you know turn the T_V_ to the right channel, get the uh re uh rewind the tape in the V_C_R_ and get it to play once it's rewound, for instance.",
+                    "source": "ES2003a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.2"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 2):\n- AE_ID: ES2003a.B.argumentstructs.Erik.2\n- Speaker: B\n- Sentence: \"Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.B.argumentstructs.Erik.1 (Index: 0, Speaker: B): \"Any ideas of where you think a new remote control could go into this market ?\"\nAE_ID ES2003a.A.argumentstructs.Erik.1 (Index: 1, Speaker: A): \"Well, one thing I'm aware of is, th there uh um at the sort of v very high price end of the market there's there's a em emerging market for sort of touch screen L_C_D_ remotes that can be uh programmed in m much more sophisticated ways than sort of conventional models, so you get the sort of you get um you  you can redesign the interface to your own needs, you can programme in macros, and you get a much greater degree um um I mean you get in these sort of  three in one, five in one, whatevers, but you can get integration between the different uh the the the diff the different things that it's designed to control, to a much greater extent, and you can have one uh you know one macro to turn the uh you know turn the T_V_ to the right channel, get the uh re uh rewind the tape in the V_C_R_ and get it to play once it's rewound, for instance.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.A.argumentstructs.Erik.1",
+            "ans": "ES2003a.A.argumentstructs.Erik.2",
+            "judgement": false
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 3,
+                "ae_id": "ES2003a.A.argumentstructs.Erik.2",
+                "speaker": "A",
+                "start_time": 790.71,
+                "end_time": 811.36,
+                "sentence": "Um b it occurs to me there might be a niche for uh for a remote that aimed towards some of that sort of functionality but using a just conventional push button design. And therefore putting it into a um well much lower price bracket.",
+                "source": "ES2003a.A.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2003a.B.argumentstructs.Erik.2",
+                    "ES2003a.B.argumentstructs.Erik.3",
+                    "ES2003a.B.argumentstructs.Erik.4"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 730.78,
+                    "end_time": 735.08,
+                    "sentence": "Any ideas of where you think a new remote control could go into this market ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 736.97,
+                    "end_time": 790.71,
+                    "sentence": "Well, one thing I'm aware of is, th there uh um at the sort of v very high price end of the market there's there's a em emerging market for sort of touch screen L_C_D_ remotes that can be uh programmed in m much more sophisticated ways than sort of conventional models, so you get the sort of you get um you  you can redesign the interface to your own needs, you can programme in macros, and you get a much greater degree um um I mean you get in these sort of  three in one, five in one, whatevers, but you can get integration between the different uh the the the diff the different things that it's designed to control, to a much greater extent, and you can have one uh you know one macro to turn the uh you know turn the T_V_ to the right channel, get the uh re uh rewind the tape in the V_C_R_ and get it to play once it's rewound, for instance.",
+                    "source": "ES2003a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 790.07,
+                    "end_time": 790.66,
+                    "sentence": "Okay.",
+                    "source": "ES2003a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 3):\n- AE_ID: ES2003a.A.argumentstructs.Erik.2\n- Speaker: A\n- Sentence: \"Um b it occurs to me there might be a niche for uh for a remote that aimed towards some of that sort of functionality but using a just conventional push button design. And therefore putting it into a um well much lower price bracket.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.B.argumentstructs.Erik.1 (Index: 0, Speaker: B): \"Any ideas of where you think a new remote control could go into this market ?\"\nAE_ID ES2003a.A.argumentstructs.Erik.1 (Index: 1, Speaker: A): \"Well, one thing I'm aware of is, th there uh um at the sort of v very high price end of the market there's there's a em emerging market for sort of touch screen L_C_D_ remotes that can be uh programmed in m much more sophisticated ways than sort of conventional models, so you get the sort of you get um you  you can redesign the interface to your own needs, you can programme in macros, and you get a much greater degree um um I mean you get in these sort of  three in one, five in one, whatevers, but you can get integration between the different uh the the the diff the different things that it's designed to control, to a much greater extent, and you can have one uh you know one macro to turn the uh you know turn the T_V_ to the right channel, get the uh re uh rewind the tape in the V_C_R_ and get it to play once it's rewound, for instance.\"\nAE_ID ES2003a.B.argumentstructs.Erik.2 (Index: 2, Speaker: B): \"Okay.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.B.argumentstructs.Erik.1",
+            "ans": "ES2003a.A.argumentstructs.Erik.1",
+            "judgement": false
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 4,
+                "ae_id": "ES2003a.B.argumentstructs.Erik.3",
+                "speaker": "B",
+                "start_time": 812.69,
+                "end_time": 821.2,
+                "sentence": "Okay, yeah, tha that's true, with the price range we're looking at, going for a touch screen would probably be possibly out of our  yeah.",
+                "source": "ES2003a.A.argumentstructs.Erik.2",
+                "targets": [
+                    "ES2003a.A.argumentstructs.Erik.3"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 730.78,
+                    "end_time": 735.08,
+                    "sentence": "Any ideas of where you think a new remote control could go into this market ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 736.97,
+                    "end_time": 790.71,
+                    "sentence": "Well, one thing I'm aware of is, th there uh um at the sort of v very high price end of the market there's there's a em emerging market for sort of touch screen L_C_D_ remotes that can be uh programmed in m much more sophisticated ways than sort of conventional models, so you get the sort of you get um you  you can redesign the interface to your own needs, you can programme in macros, and you get a much greater degree um um I mean you get in these sort of  three in one, five in one, whatevers, but you can get integration between the different uh the the the diff the different things that it's designed to control, to a much greater extent, and you can have one uh you know one macro to turn the uh you know turn the T_V_ to the right channel, get the uh re uh rewind the tape in the V_C_R_ and get it to play once it's rewound, for instance.",
+                    "source": "ES2003a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 790.07,
+                    "end_time": 790.66,
+                    "sentence": "Okay.",
+                    "source": "ES2003a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 790.71,
+                    "end_time": 811.36,
+                    "sentence": "Um b it occurs to me there might be a niche for uh for a remote that aimed towards some of that sort of functionality but using a just conventional push button design. And therefore putting it into a um well much lower price bracket.",
+                    "source": "ES2003a.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003a.B.argumentstructs.Erik.2",
+                        "ES2003a.B.argumentstructs.Erik.3",
+                        "ES2003a.B.argumentstructs.Erik.4"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 4):\n- AE_ID: ES2003a.B.argumentstructs.Erik.3\n- Speaker: B\n- Sentence: \"Okay, yeah, tha that's true, with the price range we're looking at, going for a touch screen would probably be possibly out of our  yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.B.argumentstructs.Erik.1 (Index: 0, Speaker: B): \"Any ideas of where you think a new remote control could go into this market ?\"\nAE_ID ES2003a.A.argumentstructs.Erik.1 (Index: 1, Speaker: A): \"Well, one thing I'm aware of is, th there uh um at the sort of v very high price end of the market there's there's a em emerging market for sort of touch screen L_C_D_ remotes that can be uh programmed in m much more sophisticated ways than sort of conventional models, so you get the sort of you get um you  you can redesign the interface to your own needs, you can programme in macros, and you get a much greater degree um um I mean you get in these sort of  three in one, five in one, whatevers, but you can get integration between the different uh the the the diff the different things that it's designed to control, to a much greater extent, and you can have one uh you know one macro to turn the uh you know turn the T_V_ to the right channel, get the uh re uh rewind the tape in the V_C_R_ and get it to play once it's rewound, for instance.\"\nAE_ID ES2003a.B.argumentstructs.Erik.2 (Index: 2, Speaker: B): \"Okay.\"\nAE_ID ES2003a.A.argumentstructs.Erik.2 (Index: 3, Speaker: A): \"Um b it occurs to me there might be a niche for uh for a remote that aimed towards some of that sort of functionality but using a just conventional push button design. And therefore putting it into a um well much lower price bracket.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.A.argumentstructs.Erik.2",
+            "ans": "ES2003a.A.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 5,
+                "ae_id": "ES2003a.A.argumentstructs.Erik.3",
+                "speaker": "A",
+                "start_time": 819.18,
+                "end_time": 821.06,
+                "sentence": "Absolutely prohibitive, yeah.",
+                "source": "ES2003a.B.argumentstructs.Erik.3",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 730.78,
+                    "end_time": 735.08,
+                    "sentence": "Any ideas of where you think a new remote control could go into this market ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 736.97,
+                    "end_time": 790.71,
+                    "sentence": "Well, one thing I'm aware of is, th there uh um at the sort of v very high price end of the market there's there's a em emerging market for sort of touch screen L_C_D_ remotes that can be uh programmed in m much more sophisticated ways than sort of conventional models, so you get the sort of you get um you  you can redesign the interface to your own needs, you can programme in macros, and you get a much greater degree um um I mean you get in these sort of  three in one, five in one, whatevers, but you can get integration between the different uh the the the diff the different things that it's designed to control, to a much greater extent, and you can have one uh you know one macro to turn the uh you know turn the T_V_ to the right channel, get the uh re uh rewind the tape in the V_C_R_ and get it to play once it's rewound, for instance.",
+                    "source": "ES2003a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 790.07,
+                    "end_time": 790.66,
+                    "sentence": "Okay.",
+                    "source": "ES2003a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 790.71,
+                    "end_time": 811.36,
+                    "sentence": "Um b it occurs to me there might be a niche for uh for a remote that aimed towards some of that sort of functionality but using a just conventional push button design. And therefore putting it into a um well much lower price bracket.",
+                    "source": "ES2003a.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003a.B.argumentstructs.Erik.2",
+                        "ES2003a.B.argumentstructs.Erik.3",
+                        "ES2003a.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 812.69,
+                    "end_time": 821.2,
+                    "sentence": "Okay, yeah, tha that's true, with the price range we're looking at, going for a touch screen would probably be possibly out of our  yeah.",
+                    "source": "ES2003a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.3"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 5):\n- AE_ID: ES2003a.A.argumentstructs.Erik.3\n- Speaker: A\n- Sentence: \"Absolutely prohibitive, yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.B.argumentstructs.Erik.1 (Index: 0, Speaker: B): \"Any ideas of where you think a new remote control could go into this market ?\"\nAE_ID ES2003a.A.argumentstructs.Erik.1 (Index: 1, Speaker: A): \"Well, one thing I'm aware of is, th there uh um at the sort of v very high price end of the market there's there's a em emerging market for sort of touch screen L_C_D_ remotes that can be uh programmed in m much more sophisticated ways than sort of conventional models, so you get the sort of you get um you  you can redesign the interface to your own needs, you can programme in macros, and you get a much greater degree um um I mean you get in these sort of  three in one, five in one, whatevers, but you can get integration between the different uh the the the diff the different things that it's designed to control, to a much greater extent, and you can have one uh you know one macro to turn the uh you know turn the T_V_ to the right channel, get the uh re uh rewind the tape in the V_C_R_ and get it to play once it's rewound, for instance.\"\nAE_ID ES2003a.B.argumentstructs.Erik.2 (Index: 2, Speaker: B): \"Okay.\"\nAE_ID ES2003a.A.argumentstructs.Erik.2 (Index: 3, Speaker: A): \"Um b it occurs to me there might be a niche for uh for a remote that aimed towards some of that sort of functionality but using a just conventional push button design. And therefore putting it into a um well much lower price bracket.\"\nAE_ID ES2003a.B.argumentstructs.Erik.3 (Index: 4, Speaker: B): \"Okay, yeah, tha that's true, with the price range we're looking at, going for a touch screen would probably be possibly out of our  yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.B.argumentstructs.Erik.3",
+            "ans": "ES2003a.B.argumentstructs.Erik.3",
+            "judgement": true
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 7,
+                "ae_id": "ES2003a.B.argumentstructs.Erik.4",
+                "speaker": "B",
+                "start_time": 821.2,
+                "end_time": 825.7,
+                "sentence": "But you think uh again something to control multiple units in uh a simple fashion.",
+                "source": "ES2003a.A.argumentstructs.Erik.2",
+                "targets": [
+                    "ES2003a.A.argumentstructs.Erik.4"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 736.97,
+                    "end_time": 790.71,
+                    "sentence": "Well, one thing I'm aware of is, th there uh um at the sort of v very high price end of the market there's there's a em emerging market for sort of touch screen L_C_D_ remotes that can be uh programmed in m much more sophisticated ways than sort of conventional models, so you get the sort of you get um you  you can redesign the interface to your own needs, you can programme in macros, and you get a much greater degree um um I mean you get in these sort of  three in one, five in one, whatevers, but you can get integration between the different uh the the the diff the different things that it's designed to control, to a much greater extent, and you can have one uh you know one macro to turn the uh you know turn the T_V_ to the right channel, get the uh re uh rewind the tape in the V_C_R_ and get it to play once it's rewound, for instance.",
+                    "source": "ES2003a.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 790.07,
+                    "end_time": 790.66,
+                    "sentence": "Okay.",
+                    "source": "ES2003a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 790.71,
+                    "end_time": 811.36,
+                    "sentence": "Um b it occurs to me there might be a niche for uh for a remote that aimed towards some of that sort of functionality but using a just conventional push button design. And therefore putting it into a um well much lower price bracket.",
+                    "source": "ES2003a.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003a.B.argumentstructs.Erik.2",
+                        "ES2003a.B.argumentstructs.Erik.3",
+                        "ES2003a.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 812.69,
+                    "end_time": 821.2,
+                    "sentence": "Okay, yeah, tha that's true, with the price range we're looking at, going for a touch screen would probably be possibly out of our  yeah.",
+                    "source": "ES2003a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 819.18,
+                    "end_time": 821.06,
+                    "sentence": "Absolutely prohibitive, yeah.",
+                    "source": "ES2003a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 7):\n- AE_ID: ES2003a.B.argumentstructs.Erik.4\n- Speaker: B\n- Sentence: \"But you think uh again something to control multiple units in uh a simple fashion.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.A.argumentstructs.Erik.1 (Index: 1, Speaker: A): \"Well, one thing I'm aware of is, th there uh um at the sort of v very high price end of the market there's there's a em emerging market for sort of touch screen L_C_D_ remotes that can be uh programmed in m much more sophisticated ways than sort of conventional models, so you get the sort of you get um you  you can redesign the interface to your own needs, you can programme in macros, and you get a much greater degree um um I mean you get in these sort of  three in one, five in one, whatevers, but you can get integration between the different uh the the the diff the different things that it's designed to control, to a much greater extent, and you can have one uh you know one macro to turn the uh you know turn the T_V_ to the right channel, get the uh re uh rewind the tape in the V_C_R_ and get it to play once it's rewound, for instance.\"\nAE_ID ES2003a.B.argumentstructs.Erik.2 (Index: 2, Speaker: B): \"Okay.\"\nAE_ID ES2003a.A.argumentstructs.Erik.2 (Index: 3, Speaker: A): \"Um b it occurs to me there might be a niche for uh for a remote that aimed towards some of that sort of functionality but using a just conventional push button design. And therefore putting it into a um well much lower price bracket.\"\nAE_ID ES2003a.B.argumentstructs.Erik.3 (Index: 4, Speaker: B): \"Okay, yeah, tha that's true, with the price range we're looking at, going for a touch screen would probably be possibly out of our  yeah.\"\nAE_ID ES2003a.A.argumentstructs.Erik.3 (Index: 5, Speaker: A): \"Absolutely prohibitive, yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.A.argumentstructs.Erik.3",
+            "ans": "ES2003a.A.argumentstructs.Erik.2",
+            "judgement": false
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 8,
+                "ae_id": "ES2003a.A.argumentstructs.Erik.4",
+                "speaker": "A",
+                "start_time": 825.96,
+                "end_time": 844.61,
+                "sentence": "Yeah, I mean I wouldn't like to say you g  I mean you get ones that you can switch between multiple units, but something that could um operate between multiple units in a more integrated fashion. Some  and ideally something into which it would have some at least limited facility for  um running macros.",
+                "source": "ES2003a.B.argumentstructs.Erik.4",
+                "targets": [
+                    "ES2003a.B.argumentstructs.Erik.5",
+                    "ES2003a.A.argumentstructs.Erik.5"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 2,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 790.07,
+                    "end_time": 790.66,
+                    "sentence": "Okay.",
+                    "source": "ES2003a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 790.71,
+                    "end_time": 811.36,
+                    "sentence": "Um b it occurs to me there might be a niche for uh for a remote that aimed towards some of that sort of functionality but using a just conventional push button design. And therefore putting it into a um well much lower price bracket.",
+                    "source": "ES2003a.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003a.B.argumentstructs.Erik.2",
+                        "ES2003a.B.argumentstructs.Erik.3",
+                        "ES2003a.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 812.69,
+                    "end_time": 821.2,
+                    "sentence": "Okay, yeah, tha that's true, with the price range we're looking at, going for a touch screen would probably be possibly out of our  yeah.",
+                    "source": "ES2003a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 819.18,
+                    "end_time": 821.06,
+                    "sentence": "Absolutely prohibitive, yeah.",
+                    "source": "ES2003a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 821.2,
+                    "end_time": 825.7,
+                    "sentence": "But you think uh again something to control multiple units in uh a simple fashion.",
+                    "source": "ES2003a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.4"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 8):\n- AE_ID: ES2003a.A.argumentstructs.Erik.4\n- Speaker: A\n- Sentence: \"Yeah, I mean I wouldn't like to say you g  I mean you get ones that you can switch between multiple units, but something that could um operate between multiple units in a more integrated fashion. Some  and ideally something into which it would have some at least limited facility for  um running macros.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.B.argumentstructs.Erik.2 (Index: 2, Speaker: B): \"Okay.\"\nAE_ID ES2003a.A.argumentstructs.Erik.2 (Index: 3, Speaker: A): \"Um b it occurs to me there might be a niche for uh for a remote that aimed towards some of that sort of functionality but using a just conventional push button design. And therefore putting it into a um well much lower price bracket.\"\nAE_ID ES2003a.B.argumentstructs.Erik.3 (Index: 4, Speaker: B): \"Okay, yeah, tha that's true, with the price range we're looking at, going for a touch screen would probably be possibly out of our  yeah.\"\nAE_ID ES2003a.A.argumentstructs.Erik.3 (Index: 5, Speaker: A): \"Absolutely prohibitive, yeah.\"\nAE_ID ES2003a.B.argumentstructs.Erik.4 (Index: 7, Speaker: B): \"But you think uh again something to control multiple units in uh a simple fashion.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.B.argumentstructs.Erik.4",
+            "ans": "ES2003a.B.argumentstructs.Erik.4",
+            "judgement": true
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 9,
+                "ae_id": "ES2003a.B.argumentstructs.Erik.5",
+                "speaker": "B",
+                "start_time": 845.65,
+                "end_time": 854.395,
+                "sentence": "Would the the idea something along the lines of, one on button would turn on say the video recorder, the T_V_, maybe the sound system as well, all in one go, is that kind of",
+                "source": "ES2003a.A.argumentstructs.Erik.4",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 3,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 790.71,
+                    "end_time": 811.36,
+                    "sentence": "Um b it occurs to me there might be a niche for uh for a remote that aimed towards some of that sort of functionality but using a just conventional push button design. And therefore putting it into a um well much lower price bracket.",
+                    "source": "ES2003a.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003a.B.argumentstructs.Erik.2",
+                        "ES2003a.B.argumentstructs.Erik.3",
+                        "ES2003a.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 812.69,
+                    "end_time": 821.2,
+                    "sentence": "Okay, yeah, tha that's true, with the price range we're looking at, going for a touch screen would probably be possibly out of our  yeah.",
+                    "source": "ES2003a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 819.18,
+                    "end_time": 821.06,
+                    "sentence": "Absolutely prohibitive, yeah.",
+                    "source": "ES2003a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 821.2,
+                    "end_time": 825.7,
+                    "sentence": "But you think uh again something to control multiple units in uh a simple fashion.",
+                    "source": "ES2003a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 825.96,
+                    "end_time": 844.61,
+                    "sentence": "Yeah, I mean I wouldn't like to say you g  I mean you get ones that you can switch between multiple units, but something that could um operate between multiple units in a more integrated fashion. Some  and ideally something into which it would have some at least limited facility for  um running macros.",
+                    "source": "ES2003a.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2003a.B.argumentstructs.Erik.5",
+                        "ES2003a.A.argumentstructs.Erik.5"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 9):\n- AE_ID: ES2003a.B.argumentstructs.Erik.5\n- Speaker: B\n- Sentence: \"Would the the idea something along the lines of, one on button would turn on say the video recorder, the T_V_, maybe the sound system as well, all in one go, is that kind of\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.A.argumentstructs.Erik.2 (Index: 3, Speaker: A): \"Um b it occurs to me there might be a niche for uh for a remote that aimed towards some of that sort of functionality but using a just conventional push button design. And therefore putting it into a um well much lower price bracket.\"\nAE_ID ES2003a.B.argumentstructs.Erik.3 (Index: 4, Speaker: B): \"Okay, yeah, tha that's true, with the price range we're looking at, going for a touch screen would probably be possibly out of our  yeah.\"\nAE_ID ES2003a.A.argumentstructs.Erik.3 (Index: 5, Speaker: A): \"Absolutely prohibitive, yeah.\"\nAE_ID ES2003a.B.argumentstructs.Erik.4 (Index: 7, Speaker: B): \"But you think uh again something to control multiple units in uh a simple fashion.\"\nAE_ID ES2003a.A.argumentstructs.Erik.4 (Index: 8, Speaker: A): \"Yeah, I mean I wouldn't like to say you g  I mean you get ones that you can switch between multiple units, but something that could um operate between multiple units in a more integrated fashion. Some  and ideally something into which it would have some at least limited facility for  um running macros.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.A.argumentstructs.Erik.4",
+            "ans": "ES2003a.A.argumentstructs.Erik.4",
+            "judgement": true
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 10,
+                "ae_id": "ES2003a.A.argumentstructs.Erik.5",
+                "speaker": "A",
+                "start_time": 853.68,
+                "end_time": 869.67,
+                "sentence": "For instance, um let's say oh oh um, or um you know you pr uh you press uh say the play button for the D_V_D_ player and it turns the T_V_ on and onto the right channel as well, um",
+                "source": "ES2003a.A.argumentstructs.Erik.4",
+                "targets": [
+                    "ES2003a.B.argumentstructs.Erik.6",
+                    "ES2003a.C.argumentstructs.Erik.1",
+                    "ES2003a.B.argumentstructs.Erik.7"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 4,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 812.69,
+                    "end_time": 821.2,
+                    "sentence": "Okay, yeah, tha that's true, with the price range we're looking at, going for a touch screen would probably be possibly out of our  yeah.",
+                    "source": "ES2003a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 819.18,
+                    "end_time": 821.06,
+                    "sentence": "Absolutely prohibitive, yeah.",
+                    "source": "ES2003a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 821.2,
+                    "end_time": 825.7,
+                    "sentence": "But you think uh again something to control multiple units in uh a simple fashion.",
+                    "source": "ES2003a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 825.96,
+                    "end_time": 844.61,
+                    "sentence": "Yeah, I mean I wouldn't like to say you g  I mean you get ones that you can switch between multiple units, but something that could um operate between multiple units in a more integrated fashion. Some  and ideally something into which it would have some at least limited facility for  um running macros.",
+                    "source": "ES2003a.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2003a.B.argumentstructs.Erik.5",
+                        "ES2003a.A.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 845.65,
+                    "end_time": 854.395,
+                    "sentence": "Would the the idea something along the lines of, one on button would turn on say the video recorder, the T_V_, maybe the sound system as well, all in one go, is that kind of",
+                    "source": "ES2003a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 10):\n- AE_ID: ES2003a.A.argumentstructs.Erik.5\n- Speaker: A\n- Sentence: \"For instance, um let's say oh oh um, or um you know you pr uh you press uh say the play button for the D_V_D_ player and it turns the T_V_ on and onto the right channel as well, um\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.B.argumentstructs.Erik.3 (Index: 4, Speaker: B): \"Okay, yeah, tha that's true, with the price range we're looking at, going for a touch screen would probably be possibly out of our  yeah.\"\nAE_ID ES2003a.A.argumentstructs.Erik.3 (Index: 5, Speaker: A): \"Absolutely prohibitive, yeah.\"\nAE_ID ES2003a.B.argumentstructs.Erik.4 (Index: 7, Speaker: B): \"But you think uh again something to control multiple units in uh a simple fashion.\"\nAE_ID ES2003a.A.argumentstructs.Erik.4 (Index: 8, Speaker: A): \"Yeah, I mean I wouldn't like to say you g  I mean you get ones that you can switch between multiple units, but something that could um operate between multiple units in a more integrated fashion. Some  and ideally something into which it would have some at least limited facility for  um running macros.\"\nAE_ID ES2003a.B.argumentstructs.Erik.5 (Index: 9, Speaker: B): \"Would the the idea something along the lines of, one on button would turn on say the video recorder, the T_V_, maybe the sound system as well, all in one go, is that kind of\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.B.argumentstructs.Erik.5",
+            "ans": "ES2003a.A.argumentstructs.Erik.4",
+            "judgement": false
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 11,
+                "ae_id": "ES2003a.B.argumentstructs.Erik.6",
+                "speaker": "B",
+                "start_time": 870.89,
+                "end_time": 874.81,
+                "sentence": "Okay, that sounds like a a good strong idea.",
+                "source": "ES2003a.A.argumentstructs.Erik.5",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 5,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 819.18,
+                    "end_time": 821.06,
+                    "sentence": "Absolutely prohibitive, yeah.",
+                    "source": "ES2003a.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 821.2,
+                    "end_time": 825.7,
+                    "sentence": "But you think uh again something to control multiple units in uh a simple fashion.",
+                    "source": "ES2003a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 825.96,
+                    "end_time": 844.61,
+                    "sentence": "Yeah, I mean I wouldn't like to say you g  I mean you get ones that you can switch between multiple units, but something that could um operate between multiple units in a more integrated fashion. Some  and ideally something into which it would have some at least limited facility for  um running macros.",
+                    "source": "ES2003a.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2003a.B.argumentstructs.Erik.5",
+                        "ES2003a.A.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 845.65,
+                    "end_time": 854.395,
+                    "sentence": "Would the the idea something along the lines of, one on button would turn on say the video recorder, the T_V_, maybe the sound system as well, all in one go, is that kind of",
+                    "source": "ES2003a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 853.68,
+                    "end_time": 869.67,
+                    "sentence": "For instance, um let's say oh oh um, or um you know you pr uh you press uh say the play button for the D_V_D_ player and it turns the T_V_ on and onto the right channel as well, um",
+                    "source": "ES2003a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2003a.B.argumentstructs.Erik.6",
+                        "ES2003a.C.argumentstructs.Erik.1",
+                        "ES2003a.B.argumentstructs.Erik.7"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 11):\n- AE_ID: ES2003a.B.argumentstructs.Erik.6\n- Speaker: B\n- Sentence: \"Okay, that sounds like a a good strong idea.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.A.argumentstructs.Erik.3 (Index: 5, Speaker: A): \"Absolutely prohibitive, yeah.\"\nAE_ID ES2003a.B.argumentstructs.Erik.4 (Index: 7, Speaker: B): \"But you think uh again something to control multiple units in uh a simple fashion.\"\nAE_ID ES2003a.A.argumentstructs.Erik.4 (Index: 8, Speaker: A): \"Yeah, I mean I wouldn't like to say you g  I mean you get ones that you can switch between multiple units, but something that could um operate between multiple units in a more integrated fashion. Some  and ideally something into which it would have some at least limited facility for  um running macros.\"\nAE_ID ES2003a.B.argumentstructs.Erik.5 (Index: 9, Speaker: B): \"Would the the idea something along the lines of, one on button would turn on say the video recorder, the T_V_, maybe the sound system as well, all in one go, is that kind of\"\nAE_ID ES2003a.A.argumentstructs.Erik.5 (Index: 10, Speaker: A): \"For instance, um let's say oh oh um, or um you know you pr uh you press uh say the play button for the D_V_D_ player and it turns the T_V_ on and onto the right channel as well, um\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.A.argumentstructs.Erik.5",
+            "ans": "ES2003a.A.argumentstructs.Erik.5",
+            "judgement": true
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 12,
+                "ae_id": "ES2003a.C.argumentstructs.Erik.1",
+                "speaker": "C",
+                "start_time": 871.65,
+                "end_time": 871.94,
+                "sentence": "'Kay",
+                "source": "ES2003a.A.argumentstructs.Erik.5",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 7,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 821.2,
+                    "end_time": 825.7,
+                    "sentence": "But you think uh again something to control multiple units in uh a simple fashion.",
+                    "source": "ES2003a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 825.96,
+                    "end_time": 844.61,
+                    "sentence": "Yeah, I mean I wouldn't like to say you g  I mean you get ones that you can switch between multiple units, but something that could um operate between multiple units in a more integrated fashion. Some  and ideally something into which it would have some at least limited facility for  um running macros.",
+                    "source": "ES2003a.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2003a.B.argumentstructs.Erik.5",
+                        "ES2003a.A.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 845.65,
+                    "end_time": 854.395,
+                    "sentence": "Would the the idea something along the lines of, one on button would turn on say the video recorder, the T_V_, maybe the sound system as well, all in one go, is that kind of",
+                    "source": "ES2003a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 853.68,
+                    "end_time": 869.67,
+                    "sentence": "For instance, um let's say oh oh um, or um you know you pr uh you press uh say the play button for the D_V_D_ player and it turns the T_V_ on and onto the right channel as well, um",
+                    "source": "ES2003a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2003a.B.argumentstructs.Erik.6",
+                        "ES2003a.C.argumentstructs.Erik.1",
+                        "ES2003a.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 870.89,
+                    "end_time": 874.81,
+                    "sentence": "Okay, that sounds like a a good strong idea.",
+                    "source": "ES2003a.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 12):\n- AE_ID: ES2003a.C.argumentstructs.Erik.1\n- Speaker: C\n- Sentence: \"'Kay\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.B.argumentstructs.Erik.4 (Index: 7, Speaker: B): \"But you think uh again something to control multiple units in uh a simple fashion.\"\nAE_ID ES2003a.A.argumentstructs.Erik.4 (Index: 8, Speaker: A): \"Yeah, I mean I wouldn't like to say you g  I mean you get ones that you can switch between multiple units, but something that could um operate between multiple units in a more integrated fashion. Some  and ideally something into which it would have some at least limited facility for  um running macros.\"\nAE_ID ES2003a.B.argumentstructs.Erik.5 (Index: 9, Speaker: B): \"Would the the idea something along the lines of, one on button would turn on say the video recorder, the T_V_, maybe the sound system as well, all in one go, is that kind of\"\nAE_ID ES2003a.A.argumentstructs.Erik.5 (Index: 10, Speaker: A): \"For instance, um let's say oh oh um, or um you know you pr uh you press uh say the play button for the D_V_D_ player and it turns the T_V_ on and onto the right channel as well, um\"\nAE_ID ES2003a.B.argumentstructs.Erik.6 (Index: 11, Speaker: B): \"Okay, that sounds like a a good strong idea.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.B.argumentstructs.Erik.6",
+            "ans": "ES2003a.A.argumentstructs.Erik.5",
+            "judgement": false
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 14,
+                "ae_id": "ES2003a.B.argumentstructs.Erik.7",
+                "speaker": "B",
+                "start_time": 877.7,
+                "end_time": 879.72,
+                "sentence": "Any takes on this ?",
+                "source": "ES2003a.A.argumentstructs.Erik.5",
+                "targets": [
+                    "ES2003a.C.argumentstructs.Erik.2"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 8,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 825.96,
+                    "end_time": 844.61,
+                    "sentence": "Yeah, I mean I wouldn't like to say you g  I mean you get ones that you can switch between multiple units, but something that could um operate between multiple units in a more integrated fashion. Some  and ideally something into which it would have some at least limited facility for  um running macros.",
+                    "source": "ES2003a.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2003a.B.argumentstructs.Erik.5",
+                        "ES2003a.A.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 845.65,
+                    "end_time": 854.395,
+                    "sentence": "Would the the idea something along the lines of, one on button would turn on say the video recorder, the T_V_, maybe the sound system as well, all in one go, is that kind of",
+                    "source": "ES2003a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 853.68,
+                    "end_time": 869.67,
+                    "sentence": "For instance, um let's say oh oh um, or um you know you pr uh you press uh say the play button for the D_V_D_ player and it turns the T_V_ on and onto the right channel as well, um",
+                    "source": "ES2003a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2003a.B.argumentstructs.Erik.6",
+                        "ES2003a.C.argumentstructs.Erik.1",
+                        "ES2003a.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 870.89,
+                    "end_time": 874.81,
+                    "sentence": "Okay, that sounds like a a good strong idea.",
+                    "source": "ES2003a.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2003a.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 871.65,
+                    "end_time": 871.94,
+                    "sentence": "'Kay",
+                    "source": "ES2003a.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 14):\n- AE_ID: ES2003a.B.argumentstructs.Erik.7\n- Speaker: B\n- Sentence: \"Any takes on this ?\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.A.argumentstructs.Erik.4 (Index: 8, Speaker: A): \"Yeah, I mean I wouldn't like to say you g  I mean you get ones that you can switch between multiple units, but something that could um operate between multiple units in a more integrated fashion. Some  and ideally something into which it would have some at least limited facility for  um running macros.\"\nAE_ID ES2003a.B.argumentstructs.Erik.5 (Index: 9, Speaker: B): \"Would the the idea something along the lines of, one on button would turn on say the video recorder, the T_V_, maybe the sound system as well, all in one go, is that kind of\"\nAE_ID ES2003a.A.argumentstructs.Erik.5 (Index: 10, Speaker: A): \"For instance, um let's say oh oh um, or um you know you pr uh you press uh say the play button for the D_V_D_ player and it turns the T_V_ on and onto the right channel as well, um\"\nAE_ID ES2003a.B.argumentstructs.Erik.6 (Index: 11, Speaker: B): \"Okay, that sounds like a a good strong idea.\"\nAE_ID ES2003a.C.argumentstructs.Erik.1 (Index: 12, Speaker: C): \"'Kay\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.B.argumentstructs.Erik.6",
+            "ans": "ES2003a.A.argumentstructs.Erik.5",
+            "judgement": false
+        },
+        {
+            "turn_number": 13,
+            "current_node": {
+                "index": 15,
+                "ae_id": "ES2003a.C.argumentstructs.Erik.2",
+                "speaker": "C",
+                "start_time": 879.52,
+                "end_time": 927.776,
+                "sentence": "Well um I've noticed that uh gaming c is becoming quite popular with television, um when I was younger we used to e play games using our cable, using the cable subscribed the cable providers, but our remote controls would get worn out really easily, and  the remote control was not a great kind of keyboar, um keypad, for playing games. So perhaps one that was more um specialised for game playing or interactive television.  They they've recently brought out this new remote control, for people to set their favourite channels, or um to record things. Instead of people entering in what time things start, you simply stri slide a bar to say what time it begins, and slide another bar to say what time it ends, you know that's",
+                "source": "ES2003a.B.argumentstructs.Erik.7",
+                "targets": [
+                    "ES2003a.A.argumentstructs.Erik.6",
+                    "ES2003a.B.argumentstructs.Erik.9",
+                    "ES2003a.B.argumentstructs.Erik.10",
+                    "ES2003a.C.argumentstructs.Erik.6",
+                    "ES2003a.C.argumentstructs.Erik.5"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 9,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 845.65,
+                    "end_time": 854.395,
+                    "sentence": "Would the the idea something along the lines of, one on button would turn on say the video recorder, the T_V_, maybe the sound system as well, all in one go, is that kind of",
+                    "source": "ES2003a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 853.68,
+                    "end_time": 869.67,
+                    "sentence": "For instance, um let's say oh oh um, or um you know you pr uh you press uh say the play button for the D_V_D_ player and it turns the T_V_ on and onto the right channel as well, um",
+                    "source": "ES2003a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2003a.B.argumentstructs.Erik.6",
+                        "ES2003a.C.argumentstructs.Erik.1",
+                        "ES2003a.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 870.89,
+                    "end_time": 874.81,
+                    "sentence": "Okay, that sounds like a a good strong idea.",
+                    "source": "ES2003a.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2003a.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 871.65,
+                    "end_time": 871.94,
+                    "sentence": "'Kay",
+                    "source": "ES2003a.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 877.7,
+                    "end_time": 879.72,
+                    "sentence": "Any takes on this ?",
+                    "source": "ES2003a.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2003a.C.argumentstructs.Erik.2"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 15):\n- AE_ID: ES2003a.C.argumentstructs.Erik.2\n- Speaker: C\n- Sentence: \"Well um I've noticed that uh gaming c is becoming quite popular with television, um when I was younger we used to e play games using our cable, using the cable subscribed the cable providers, but our remote controls would get worn out really easily, and  the remote control was not a great kind of keyboar, um keypad, for playing games. So perhaps one that was more um specialised for game playing or interactive television.  They they've recently brought out this new remote control, for people to set their favourite channels, or um to record things. Instead of people entering in what time things start, you simply stri slide a bar to say what time it begins, and slide another bar to say what time it ends, you know that's\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.B.argumentstructs.Erik.5 (Index: 9, Speaker: B): \"Would the the idea something along the lines of, one on button would turn on say the video recorder, the T_V_, maybe the sound system as well, all in one go, is that kind of\"\nAE_ID ES2003a.A.argumentstructs.Erik.5 (Index: 10, Speaker: A): \"For instance, um let's say oh oh um, or um you know you pr uh you press uh say the play button for the D_V_D_ player and it turns the T_V_ on and onto the right channel as well, um\"\nAE_ID ES2003a.B.argumentstructs.Erik.6 (Index: 11, Speaker: B): \"Okay, that sounds like a a good strong idea.\"\nAE_ID ES2003a.C.argumentstructs.Erik.1 (Index: 12, Speaker: C): \"'Kay\"\nAE_ID ES2003a.B.argumentstructs.Erik.7 (Index: 14, Speaker: B): \"Any takes on this ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.B.argumentstructs.Erik.7",
+            "ans": "ES2003a.B.argumentstructs.Erik.7",
+            "judgement": true
+        },
+        {
+            "turn_number": 14,
+            "current_node": {
+                "index": 16,
+                "ae_id": "ES2003a.A.argumentstructs.Erik.6",
+                "speaker": "A",
+                "start_time": 894.13,
+                "end_time": 894.44,
+                "sentence": "Mm-hmm.",
+                "source": "ES2003a.C.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 10,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 853.68,
+                    "end_time": 869.67,
+                    "sentence": "For instance, um let's say oh oh um, or um you know you pr uh you press uh say the play button for the D_V_D_ player and it turns the T_V_ on and onto the right channel as well, um",
+                    "source": "ES2003a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2003a.B.argumentstructs.Erik.6",
+                        "ES2003a.C.argumentstructs.Erik.1",
+                        "ES2003a.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 870.89,
+                    "end_time": 874.81,
+                    "sentence": "Okay, that sounds like a a good strong idea.",
+                    "source": "ES2003a.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2003a.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 871.65,
+                    "end_time": 871.94,
+                    "sentence": "'Kay",
+                    "source": "ES2003a.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 877.7,
+                    "end_time": 879.72,
+                    "sentence": "Any takes on this ?",
+                    "source": "ES2003a.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2003a.C.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2003a.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 879.52,
+                    "end_time": 927.776,
+                    "sentence": "Well um I've noticed that uh gaming c is becoming quite popular with television, um when I was younger we used to e play games using our cable, using the cable subscribed the cable providers, but our remote controls would get worn out really easily, and  the remote control was not a great kind of keyboar, um keypad, for playing games. So perhaps one that was more um specialised for game playing or interactive television.  They they've recently brought out this new remote control, for people to set their favourite channels, or um to record things. Instead of people entering in what time things start, you simply stri slide a bar to say what time it begins, and slide another bar to say what time it ends, you know that's",
+                    "source": "ES2003a.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.6",
+                        "ES2003a.B.argumentstructs.Erik.9",
+                        "ES2003a.B.argumentstructs.Erik.10",
+                        "ES2003a.C.argumentstructs.Erik.6",
+                        "ES2003a.C.argumentstructs.Erik.5"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 16):\n- AE_ID: ES2003a.A.argumentstructs.Erik.6\n- Speaker: A\n- Sentence: \"Mm-hmm.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.A.argumentstructs.Erik.5 (Index: 10, Speaker: A): \"For instance, um let's say oh oh um, or um you know you pr uh you press uh say the play button for the D_V_D_ player and it turns the T_V_ on and onto the right channel as well, um\"\nAE_ID ES2003a.B.argumentstructs.Erik.6 (Index: 11, Speaker: B): \"Okay, that sounds like a a good strong idea.\"\nAE_ID ES2003a.C.argumentstructs.Erik.1 (Index: 12, Speaker: C): \"'Kay\"\nAE_ID ES2003a.B.argumentstructs.Erik.7 (Index: 14, Speaker: B): \"Any takes on this ?\"\nAE_ID ES2003a.C.argumentstructs.Erik.2 (Index: 15, Speaker: C): \"Well um I've noticed that uh gaming c is becoming quite popular with television, um when I was younger we used to e play games using our cable, using the cable subscribed the cable providers, but our remote controls would get worn out really easily, and  the remote control was not a great kind of keyboar, um keypad, for playing games. So perhaps one that was more um specialised for game playing or interactive television.  They they've recently brought out this new remote control, for people to set their favourite channels, or um to record things. Instead of people entering in what time things start, you simply stri slide a bar to say what time it begins, and slide another bar to say what time it ends, you know that's\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.C.argumentstructs.Erik.2",
+            "ans": "ES2003a.C.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 15,
+            "current_node": {
+                "index": 18,
+                "ae_id": "ES2003a.B.argumentstructs.Erik.9",
+                "speaker": "B",
+                "start_time": 925.19,
+                "end_time": 925.56,
+                "sentence": "Okay.",
+                "source": "ES2003a.C.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 11,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 870.89,
+                    "end_time": 874.81,
+                    "sentence": "Okay, that sounds like a a good strong idea.",
+                    "source": "ES2003a.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2003a.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 871.65,
+                    "end_time": 871.94,
+                    "sentence": "'Kay",
+                    "source": "ES2003a.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 877.7,
+                    "end_time": 879.72,
+                    "sentence": "Any takes on this ?",
+                    "source": "ES2003a.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2003a.C.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2003a.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 879.52,
+                    "end_time": 927.776,
+                    "sentence": "Well um I've noticed that uh gaming c is becoming quite popular with television, um when I was younger we used to e play games using our cable, using the cable subscribed the cable providers, but our remote controls would get worn out really easily, and  the remote control was not a great kind of keyboar, um keypad, for playing games. So perhaps one that was more um specialised for game playing or interactive television.  They they've recently brought out this new remote control, for people to set their favourite channels, or um to record things. Instead of people entering in what time things start, you simply stri slide a bar to say what time it begins, and slide another bar to say what time it ends, you know that's",
+                    "source": "ES2003a.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.6",
+                        "ES2003a.B.argumentstructs.Erik.9",
+                        "ES2003a.B.argumentstructs.Erik.10",
+                        "ES2003a.C.argumentstructs.Erik.6",
+                        "ES2003a.C.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 894.13,
+                    "end_time": 894.44,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003a.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 18):\n- AE_ID: ES2003a.B.argumentstructs.Erik.9\n- Speaker: B\n- Sentence: \"Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.B.argumentstructs.Erik.6 (Index: 11, Speaker: B): \"Okay, that sounds like a a good strong idea.\"\nAE_ID ES2003a.C.argumentstructs.Erik.1 (Index: 12, Speaker: C): \"'Kay\"\nAE_ID ES2003a.B.argumentstructs.Erik.7 (Index: 14, Speaker: B): \"Any takes on this ?\"\nAE_ID ES2003a.C.argumentstructs.Erik.2 (Index: 15, Speaker: C): \"Well um I've noticed that uh gaming c is becoming quite popular with television, um when I was younger we used to e play games using our cable, using the cable subscribed the cable providers, but our remote controls would get worn out really easily, and  the remote control was not a great kind of keyboar, um keypad, for playing games. So perhaps one that was more um specialised for game playing or interactive television.  They they've recently brought out this new remote control, for people to set their favourite channels, or um to record things. Instead of people entering in what time things start, you simply stri slide a bar to say what time it begins, and slide another bar to say what time it ends, you know that's\"\nAE_ID ES2003a.A.argumentstructs.Erik.6 (Index: 16, Speaker: A): \"Mm-hmm.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.C.argumentstructs.Erik.2",
+            "ans": "ES2003a.C.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 16,
+            "current_node": {
+                "index": 19,
+                "ae_id": "ES2003a.B.argumentstructs.Erik.10",
+                "speaker": "B",
+                "start_time": 927.99,
+                "end_time": 930.25,
+                "sentence": "Yeah I've heard  I've seen the bar-code design before, yeah.",
+                "source": "ES2003a.C.argumentstructs.Erik.2",
+                "targets": [
+                    "ES2003a.D.argumentstructs.Erik.1",
+                    "ES2003a.A.argumentstructs.Erik.7",
+                    "ES2003a.C.argumentstructs.Erik.3"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 12,
+                    "ae_id": "ES2003a.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 871.65,
+                    "end_time": 871.94,
+                    "sentence": "'Kay",
+                    "source": "ES2003a.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 877.7,
+                    "end_time": 879.72,
+                    "sentence": "Any takes on this ?",
+                    "source": "ES2003a.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2003a.C.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2003a.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 879.52,
+                    "end_time": 927.776,
+                    "sentence": "Well um I've noticed that uh gaming c is becoming quite popular with television, um when I was younger we used to e play games using our cable, using the cable subscribed the cable providers, but our remote controls would get worn out really easily, and  the remote control was not a great kind of keyboar, um keypad, for playing games. So perhaps one that was more um specialised for game playing or interactive television.  They they've recently brought out this new remote control, for people to set their favourite channels, or um to record things. Instead of people entering in what time things start, you simply stri slide a bar to say what time it begins, and slide another bar to say what time it ends, you know that's",
+                    "source": "ES2003a.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.6",
+                        "ES2003a.B.argumentstructs.Erik.9",
+                        "ES2003a.B.argumentstructs.Erik.10",
+                        "ES2003a.C.argumentstructs.Erik.6",
+                        "ES2003a.C.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 894.13,
+                    "end_time": 894.44,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003a.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 925.19,
+                    "end_time": 925.56,
+                    "sentence": "Okay.",
+                    "source": "ES2003a.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 19):\n- AE_ID: ES2003a.B.argumentstructs.Erik.10\n- Speaker: B\n- Sentence: \"Yeah I've heard  I've seen the bar-code design before, yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.C.argumentstructs.Erik.1 (Index: 12, Speaker: C): \"'Kay\"\nAE_ID ES2003a.B.argumentstructs.Erik.7 (Index: 14, Speaker: B): \"Any takes on this ?\"\nAE_ID ES2003a.C.argumentstructs.Erik.2 (Index: 15, Speaker: C): \"Well um I've noticed that uh gaming c is becoming quite popular with television, um when I was younger we used to e play games using our cable, using the cable subscribed the cable providers, but our remote controls would get worn out really easily, and  the remote control was not a great kind of keyboar, um keypad, for playing games. So perhaps one that was more um specialised for game playing or interactive television.  They they've recently brought out this new remote control, for people to set their favourite channels, or um to record things. Instead of people entering in what time things start, you simply stri slide a bar to say what time it begins, and slide another bar to say what time it ends, you know that's\"\nAE_ID ES2003a.A.argumentstructs.Erik.6 (Index: 16, Speaker: A): \"Mm-hmm.\"\nAE_ID ES2003a.B.argumentstructs.Erik.9 (Index: 18, Speaker: B): \"Okay.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.C.argumentstructs.Erik.2",
+            "ans": "ES2003a.C.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 17,
+            "current_node": {
+                "index": 20,
+                "ae_id": "ES2003a.D.argumentstructs.Erik.1",
+                "speaker": "D",
+                "start_time": 928.82,
+                "end_time": 929.23,
+                "sentence": "Mm.",
+                "source": "ES2003a.B.argumentstructs.Erik.10",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 14,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 877.7,
+                    "end_time": 879.72,
+                    "sentence": "Any takes on this ?",
+                    "source": "ES2003a.A.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2003a.C.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2003a.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 879.52,
+                    "end_time": 927.776,
+                    "sentence": "Well um I've noticed that uh gaming c is becoming quite popular with television, um when I was younger we used to e play games using our cable, using the cable subscribed the cable providers, but our remote controls would get worn out really easily, and  the remote control was not a great kind of keyboar, um keypad, for playing games. So perhaps one that was more um specialised for game playing or interactive television.  They they've recently brought out this new remote control, for people to set their favourite channels, or um to record things. Instead of people entering in what time things start, you simply stri slide a bar to say what time it begins, and slide another bar to say what time it ends, you know that's",
+                    "source": "ES2003a.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.6",
+                        "ES2003a.B.argumentstructs.Erik.9",
+                        "ES2003a.B.argumentstructs.Erik.10",
+                        "ES2003a.C.argumentstructs.Erik.6",
+                        "ES2003a.C.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 894.13,
+                    "end_time": 894.44,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003a.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 925.19,
+                    "end_time": 925.56,
+                    "sentence": "Okay.",
+                    "source": "ES2003a.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 927.99,
+                    "end_time": 930.25,
+                    "sentence": "Yeah I've heard  I've seen the bar-code design before, yeah.",
+                    "source": "ES2003a.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003a.D.argumentstructs.Erik.1",
+                        "ES2003a.A.argumentstructs.Erik.7",
+                        "ES2003a.C.argumentstructs.Erik.3"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 20):\n- AE_ID: ES2003a.D.argumentstructs.Erik.1\n- Speaker: D\n- Sentence: \"Mm.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.B.argumentstructs.Erik.7 (Index: 14, Speaker: B): \"Any takes on this ?\"\nAE_ID ES2003a.C.argumentstructs.Erik.2 (Index: 15, Speaker: C): \"Well um I've noticed that uh gaming c is becoming quite popular with television, um when I was younger we used to e play games using our cable, using the cable subscribed the cable providers, but our remote controls would get worn out really easily, and  the remote control was not a great kind of keyboar, um keypad, for playing games. So perhaps one that was more um specialised for game playing or interactive television.  They they've recently brought out this new remote control, for people to set their favourite channels, or um to record things. Instead of people entering in what time things start, you simply stri slide a bar to say what time it begins, and slide another bar to say what time it ends, you know that's\"\nAE_ID ES2003a.A.argumentstructs.Erik.6 (Index: 16, Speaker: A): \"Mm-hmm.\"\nAE_ID ES2003a.B.argumentstructs.Erik.9 (Index: 18, Speaker: B): \"Okay.\"\nAE_ID ES2003a.B.argumentstructs.Erik.10 (Index: 19, Speaker: B): \"Yeah I've heard  I've seen the bar-code design before, yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.B.argumentstructs.Erik.9",
+            "ans": "ES2003a.B.argumentstructs.Erik.10",
+            "judgement": false
+        },
+        {
+            "turn_number": 18,
+            "current_node": {
+                "index": 21,
+                "ae_id": "ES2003a.A.argumentstructs.Erik.7",
+                "speaker": "A",
+                "start_time": 930.23,
+                "end_time": 930.51,
+                "sentence": "Mm-hmm.",
+                "source": "ES2003a.B.argumentstructs.Erik.10",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 15,
+                    "ae_id": "ES2003a.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 879.52,
+                    "end_time": 927.776,
+                    "sentence": "Well um I've noticed that uh gaming c is becoming quite popular with television, um when I was younger we used to e play games using our cable, using the cable subscribed the cable providers, but our remote controls would get worn out really easily, and  the remote control was not a great kind of keyboar, um keypad, for playing games. So perhaps one that was more um specialised for game playing or interactive television.  They they've recently brought out this new remote control, for people to set their favourite channels, or um to record things. Instead of people entering in what time things start, you simply stri slide a bar to say what time it begins, and slide another bar to say what time it ends, you know that's",
+                    "source": "ES2003a.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2003a.A.argumentstructs.Erik.6",
+                        "ES2003a.B.argumentstructs.Erik.9",
+                        "ES2003a.B.argumentstructs.Erik.10",
+                        "ES2003a.C.argumentstructs.Erik.6",
+                        "ES2003a.C.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 894.13,
+                    "end_time": 894.44,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003a.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 925.19,
+                    "end_time": 925.56,
+                    "sentence": "Okay.",
+                    "source": "ES2003a.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 927.99,
+                    "end_time": 930.25,
+                    "sentence": "Yeah I've heard  I've seen the bar-code design before, yeah.",
+                    "source": "ES2003a.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003a.D.argumentstructs.Erik.1",
+                        "ES2003a.A.argumentstructs.Erik.7",
+                        "ES2003a.C.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2003a.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 928.82,
+                    "end_time": 929.23,
+                    "sentence": "Mm.",
+                    "source": "ES2003a.B.argumentstructs.Erik.10",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 21):\n- AE_ID: ES2003a.A.argumentstructs.Erik.7\n- Speaker: A\n- Sentence: \"Mm-hmm.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.C.argumentstructs.Erik.2 (Index: 15, Speaker: C): \"Well um I've noticed that uh gaming c is becoming quite popular with television, um when I was younger we used to e play games using our cable, using the cable subscribed the cable providers, but our remote controls would get worn out really easily, and  the remote control was not a great kind of keyboar, um keypad, for playing games. So perhaps one that was more um specialised for game playing or interactive television.  They they've recently brought out this new remote control, for people to set their favourite channels, or um to record things. Instead of people entering in what time things start, you simply stri slide a bar to say what time it begins, and slide another bar to say what time it ends, you know that's\"\nAE_ID ES2003a.A.argumentstructs.Erik.6 (Index: 16, Speaker: A): \"Mm-hmm.\"\nAE_ID ES2003a.B.argumentstructs.Erik.9 (Index: 18, Speaker: B): \"Okay.\"\nAE_ID ES2003a.B.argumentstructs.Erik.10 (Index: 19, Speaker: B): \"Yeah I've heard  I've seen the bar-code design before, yeah.\"\nAE_ID ES2003a.D.argumentstructs.Erik.1 (Index: 20, Speaker: D): \"Mm.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.D.argumentstructs.Erik.1",
+            "ans": "ES2003a.B.argumentstructs.Erik.10",
+            "judgement": false
+        },
+        {
+            "turn_number": 19,
+            "current_node": {
+                "index": 22,
+                "ae_id": "ES2003a.C.argumentstructs.Erik.3",
+                "speaker": "C",
+                "start_time": 930.48,
+                "end_time": 932.416,
+                "sentence": "Yeah, it's it's taken out the",
+                "source": "ES2003a.B.argumentstructs.Erik.10",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 16,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 894.13,
+                    "end_time": 894.44,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003a.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 925.19,
+                    "end_time": 925.56,
+                    "sentence": "Okay.",
+                    "source": "ES2003a.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 927.99,
+                    "end_time": 930.25,
+                    "sentence": "Yeah I've heard  I've seen the bar-code design before, yeah.",
+                    "source": "ES2003a.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003a.D.argumentstructs.Erik.1",
+                        "ES2003a.A.argumentstructs.Erik.7",
+                        "ES2003a.C.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2003a.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 928.82,
+                    "end_time": 929.23,
+                    "sentence": "Mm.",
+                    "source": "ES2003a.B.argumentstructs.Erik.10",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.7",
+                    "speaker": "A",
+                    "start_time": 930.23,
+                    "end_time": 930.51,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003a.B.argumentstructs.Erik.10",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 22):\n- AE_ID: ES2003a.C.argumentstructs.Erik.3\n- Speaker: C\n- Sentence: \"Yeah, it's it's taken out the\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.A.argumentstructs.Erik.6 (Index: 16, Speaker: A): \"Mm-hmm.\"\nAE_ID ES2003a.B.argumentstructs.Erik.9 (Index: 18, Speaker: B): \"Okay.\"\nAE_ID ES2003a.B.argumentstructs.Erik.10 (Index: 19, Speaker: B): \"Yeah I've heard  I've seen the bar-code design before, yeah.\"\nAE_ID ES2003a.D.argumentstructs.Erik.1 (Index: 20, Speaker: D): \"Mm.\"\nAE_ID ES2003a.A.argumentstructs.Erik.7 (Index: 21, Speaker: A): \"Mm-hmm.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.A.argumentstructs.Erik.7",
+            "ans": "ES2003a.B.argumentstructs.Erik.10",
+            "judgement": false
+        },
+        {
+            "turn_number": 20,
+            "current_node": {
+                "index": 23,
+                "ae_id": "ES2003a.C.argumentstructs.Erik.6",
+                "speaker": "C",
+                "start_time": 933.87,
+                "end_time": 942.58,
+                "sentence": "Y you don't have to be uh really clever to use a remote control. I think for gaming, you know you want you want some big buttons for up, down, left and right, shoot.",
+                "source": "ES2003a.C.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 18,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 925.19,
+                    "end_time": 925.56,
+                    "sentence": "Okay.",
+                    "source": "ES2003a.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 927.99,
+                    "end_time": 930.25,
+                    "sentence": "Yeah I've heard  I've seen the bar-code design before, yeah.",
+                    "source": "ES2003a.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003a.D.argumentstructs.Erik.1",
+                        "ES2003a.A.argumentstructs.Erik.7",
+                        "ES2003a.C.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2003a.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 928.82,
+                    "end_time": 929.23,
+                    "sentence": "Mm.",
+                    "source": "ES2003a.B.argumentstructs.Erik.10",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.7",
+                    "speaker": "A",
+                    "start_time": 930.23,
+                    "end_time": 930.51,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003a.B.argumentstructs.Erik.10",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2003a.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 930.48,
+                    "end_time": 932.416,
+                    "sentence": "Yeah, it's it's taken out the",
+                    "source": "ES2003a.B.argumentstructs.Erik.10",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 23):\n- AE_ID: ES2003a.C.argumentstructs.Erik.6\n- Speaker: C\n- Sentence: \"Y you don't have to be uh really clever to use a remote control. I think for gaming, you know you want you want some big buttons for up, down, left and right, shoot.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.B.argumentstructs.Erik.9 (Index: 18, Speaker: B): \"Okay.\"\nAE_ID ES2003a.B.argumentstructs.Erik.10 (Index: 19, Speaker: B): \"Yeah I've heard  I've seen the bar-code design before, yeah.\"\nAE_ID ES2003a.D.argumentstructs.Erik.1 (Index: 20, Speaker: D): \"Mm.\"\nAE_ID ES2003a.A.argumentstructs.Erik.7 (Index: 21, Speaker: A): \"Mm-hmm.\"\nAE_ID ES2003a.C.argumentstructs.Erik.3 (Index: 22, Speaker: C): \"Yeah, it's it's taken out the\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.C.argumentstructs.Erik.3",
+            "ans": "ES2003a.C.argumentstructs.Erik.2",
+            "judgement": false
+        },
+        {
+            "turn_number": 21,
+            "current_node": {
+                "index": 24,
+                "ae_id": "ES2003a.C.argumentstructs.Erik.5",
+                "speaker": "C",
+                "start_time": 944.45,
+                "end_time": 952.37,
+                "sentence": "Uh, you wanna be able to change angles in interactive television, so you need buttons to change the television angle, the camera angles and stuff like that.",
+                "source": "ES2003a.C.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 19,
+                    "ae_id": "ES2003a.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 927.99,
+                    "end_time": 930.25,
+                    "sentence": "Yeah I've heard  I've seen the bar-code design before, yeah.",
+                    "source": "ES2003a.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003a.D.argumentstructs.Erik.1",
+                        "ES2003a.A.argumentstructs.Erik.7",
+                        "ES2003a.C.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2003a.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 928.82,
+                    "end_time": 929.23,
+                    "sentence": "Mm.",
+                    "source": "ES2003a.B.argumentstructs.Erik.10",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2003a.A.argumentstructs.Erik.7",
+                    "speaker": "A",
+                    "start_time": 930.23,
+                    "end_time": 930.51,
+                    "sentence": "Mm-hmm.",
+                    "source": "ES2003a.B.argumentstructs.Erik.10",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2003a.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 930.48,
+                    "end_time": 932.416,
+                    "sentence": "Yeah, it's it's taken out the",
+                    "source": "ES2003a.B.argumentstructs.Erik.10",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2003a.C.argumentstructs.Erik.6",
+                    "speaker": "C",
+                    "start_time": 933.87,
+                    "end_time": 942.58,
+                    "sentence": "Y you don't have to be uh really clever to use a remote control. I think for gaming, you know you want you want some big buttons for up, down, left and right, shoot.",
+                    "source": "ES2003a.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 24):\n- AE_ID: ES2003a.C.argumentstructs.Erik.5\n- Speaker: C\n- Sentence: \"Uh, you wanna be able to change angles in interactive television, so you need buttons to change the television angle, the camera angles and stuff like that.\"\n\nPast Dialogue Turns:\nAE_ID ES2003a.B.argumentstructs.Erik.10 (Index: 19, Speaker: B): \"Yeah I've heard  I've seen the bar-code design before, yeah.\"\nAE_ID ES2003a.D.argumentstructs.Erik.1 (Index: 20, Speaker: D): \"Mm.\"\nAE_ID ES2003a.A.argumentstructs.Erik.7 (Index: 21, Speaker: A): \"Mm-hmm.\"\nAE_ID ES2003a.C.argumentstructs.Erik.3 (Index: 22, Speaker: C): \"Yeah, it's it's taken out the\"\nAE_ID ES2003a.C.argumentstructs.Erik.6 (Index: 23, Speaker: C): \"Y you don't have to be uh really clever to use a remote control. I think for gaming, you know you want you want some big buttons for up, down, left and right, shoot.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003a.C.argumentstructs.Erik.6",
+            "ans": "ES2003a.C.argumentstructs.Erik.2",
+            "judgement": false
+        }
+    ]
+}

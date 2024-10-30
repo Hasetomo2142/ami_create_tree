@@ -83,7 +83,7 @@ def get_chat_response(prompt):
         messages=[
             {"role": "user", "content": prompt}
         ],
-        temperature=1
+        temperature=0.0,
     )
     return completion.choices[0].message.content
 
@@ -95,6 +95,7 @@ def main():
     print(f"Count: {COUNT}")
 
     csv_file_list = get_csv_files(csv_topics_path)[:COUNT]
+    # csv_file_list = get_csv_files(csv_topics_path)
 
     overall_true_count = 0
     overall_total_count = 0
@@ -118,7 +119,7 @@ def main():
 
         for index, turn in tqdm(enumerate(dialogue_turns), total=len(dialogue_turns), desc=f"Processing {os.path.basename(csv_file)}", leave=False):
             if index > 0:
-                start_index = max(0, index - 5)
+                start_index = max(0, index - 4)
                 previous_utterances = dialogue_turns[start_index:index]
 
                 # プロンプト生成
@@ -185,9 +186,14 @@ def main():
 
     #out_put_dir_pathにもOverall True Judgement Ratioを保存
     with open(os.path.join(out_put_dir_path, 'Overall_True_Judgement_Ratio.txt'), 'w') as f:
+        f.write(f"Model: {MODEL}\n")
+        f.write(f"Method: {METHOD}\n")
+        f.write(f"Prompt: {PROMPT}\n")
+        f.write(f"Count: {COUNT}\n")
         f.write(f"Overall True Judgement Ratio: {overall_true_ratio:.2%}\n")
         f.write(f"Time: {elapsed_time:.2f} seconds\n")
         f.write(f"Total cost: ${cost:.5f}\n")
+
 
 
 if __name__ == '__main__':

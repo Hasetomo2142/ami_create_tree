@@ -47,18 +47,21 @@ def plot_node_index_distribution(file_path, output_image_path):
 
     # ヒストグラムを描画して保存
     sns.histplot(node_index_list, bins=range(min(node_index_list), max(node_index_list) + 2, 1))
+    plt.xlabel('Distance')  # 横軸にラベルを追加
     plt.savefig(output_image_path)
     plt.close()
 
 # メイン処理
 if __name__ == '__main__':
-    csv_file_path = '/home/hasegawa_tomokazu/create_tree/result_json/baseline/ver.1.1-4o-mini.txt/NodeResult.csv'
+    csv_file_path = '/home/hasegawa_tomokazu/create_tree/result_json/baseline/ver.1.1-20.txt/NodeResult.csv'
     output_image_path = '/home/hasegawa_tomokazu/create_tree/node_index_distribution.png'
 
     # 全ノード数と回答が含まれていないノード数のカウント
     all_node_count, not_contains_answer_count = count_node_results(csv_file_path)
     print(f"All nodes: {all_node_count}")
     print(f"Nodes without answer: {not_contains_answer_count}")
+
+    print(f"{(all_node_count - not_contains_answer_count) / all_node_count:.1%}")
 
     # ノードインデックスの分布を画像に保存
     plot_node_index_distribution(csv_file_path, output_image_path)

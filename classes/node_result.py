@@ -112,7 +112,7 @@ class NodeResult:
             reader = csv.reader(f)
             header = next(reader)
             for row in reader:
-                node_result = NodeResult(None)
+                node_result = NodeResult.__new__(NodeResult)  # Create an uninitialized instance
                 node_result.file_name = row[0]
                 node_result.turn_number = int(row[1])
                 node_result.current_node_id = row[2]

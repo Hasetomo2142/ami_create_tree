@@ -1,0 +1,1086 @@
+file_name,turn_number,current_node_id,gpt_ans_node_id,ans_node_id,judgement,current_node_id_index,gpt_ans_node_id_index,ans_node_id_index,distance_from_ans,contains_answer
+ES2002a - Regions,0,ES2002a.D.argumentstructs.Erik.1,ROOT,NONE,NONE,0,0,0,0,False
+ES2002a - Regions,1,ES2002a.B.argumentstructs.Erik.3,ES2002a.D.argumentstructs.Erik.1,ES2002a.D.argumentstructs.Erik.1,True,1,0,0,1,True
+ES2002a - Regions,2,ES2002a.B.argumentstructs.Erik.1,ES2002a.B.argumentstructs.Erik.3,ES2002a.D.argumentstructs.Erik.1,False,4,1,0,4,True
+ES2002a - Regions,3,ES2002a.D.argumentstructs.Erik.2,ES2002a.B.argumentstructs.Erik.1,ES2002a.B.argumentstructs.Erik.1,True,6,4,4,2,True
+ES2002a - Regions,4,ES2002a.D.argumentstructs.Erik.3,ES2002a.B.argumentstructs.Erik.3,ES2002a.B.argumentstructs.Erik.1,False,7,1,4,3,True
+ES2002a - Regions,5,ES2002a.A.argumentstructs.Erik.1,ES2002a.B.argumentstructs.Erik.4,ES2002a.D.argumentstructs.Erik.1,False,8,4,0,8,True
+ES2002a - Regions,6,ES2002a.B.argumentstructs.Erik.2,ES2002a.B.argumentstructs.Erik.3,ES2002a.A.argumentstructs.Erik.1,False,9,1,8,1,True
+ES2002a - Regions,7,ES2002a.D.argumentstructs.Erik.4,ES2002a.B.argumentstructs.Erik.2,ES2002a.A.argumentstructs.Erik.1,False,10,9,8,2,True
+ES2002a - Remote design wrap up,0,ES2002a.D.argumentstructs.Erik.5,ROOT,NONE,NONE,0,0,0,0,False
+ES2002a - Remote design wrap up,1,ES2002a.D.argumentstructs.Erik.6,ES2002a.D.argumentstructs.Erik.5,ES2002a.D.argumentstructs.Erik.5,True,1,0,0,1,True
+ES2002a - Remote design wrap up,2,ES2002a.D.argumentstructs.Erik.7,ES2002a.D.argumentstructs.Erik.6,ES2002a.B.argumentstructs.Erik.4,False,3,1,4,1,False
+ES2002a - Remote design wrap up,3,ES2002a.B.argumentstructs.Erik.4,ES2002a.D.argumentstructs.Erik.5,ES2002a.D.argumentstructs.Erik.5,True,4,0,0,4,True
+ES2002a - Remote design wrap up,4,ES2002a.D.argumentstructs.Erik.8,ES2002a.B.argumentstructs.Erik.4,ES2002a.B.argumentstructs.Erik.4,True,5,4,4,1,True
+ES2002a - Remote design wrap up,5,ES2002a.A.argumentstructs.Erik.2,ES2002a.B.argumentstructs.Erik.4,ES2002a.D.argumentstructs.Erik.5,False,6,4,0,6,True
+ES2002a - Remote design wrap up,6,ES2002a.D.argumentstructs.Erik.9,ES2002a.D.argumentstructs.Erik.8,ES2002a.A.argumentstructs.Erik.2,False,7,5,6,1,True
+ES2002a - Remote design wrap up,7,ES2002a.A.argumentstructs.Erik.3,ES2002a.A.argumentstructs.Erik.2,ES2002a.A.argumentstructs.Erik.2,True,8,6,6,2,True
+ES2002a - Remote design wrap up,8,ES2002a.B.argumentstructs.Erik.5,ES2002a.D.argumentstructs.Erik.9,ES2002a.A.argumentstructs.Erik.3,False,9,7,8,1,True
+ES2002a - Remote design wrap up,9,ES2002a.D.argumentstructs.Erik.10,ES2002a.D.argumentstructs.Erik.9,ES2002a.A.argumentstructs.Erik.3,False,10,7,8,2,True
+ES2002a - Remote design wrap up,10,ES2002a.A.argumentstructs.Erik.4,ES2002a.A.argumentstructs.Erik.3,ES2002a.A.argumentstructs.Erik.2,False,14,8,6,8,True
+ES2002a - Remote design wrap up,11,ES2002a.B.argumentstructs.Erik.7,ES2002a.D.argumentstructs.Erik.10,ES2002a.A.argumentstructs.Erik.4,False,15,10,14,1,True
+ES2002a - Remote design wrap up,12,ES2002a.D.argumentstructs.Erik.11,ES2002a.B.argumentstructs.Erik.7,ES2002a.A.argumentstructs.Erik.4,False,16,15,14,2,True
+ES2002a - Remote design wrap up,13,ES2002a.D.argumentstructs.Erik.12,ES2002a.B.argumentstructs.Erik.7,ES2002a.B.argumentstructs.Erik.7,True,17,15,15,2,True
+ES2002a - Remote functionality,0,ES2002a.D.argumentstructs.Erik.13,ROOT,NONE,NONE,0,0,0,0,False
+ES2002a - Remote functionality,1,ES2002a.B.argumentstructs.Erik.8,ES2002a.D.argumentstructs.Erik.13,ES2002a.D.argumentstructs.Erik.13,True,1,0,0,1,True
+ES2002a - Remote functionality,2,ES2002a.D.argumentstructs.Erik.14,ES2002a.D.argumentstructs.Erik.13,ES2002a.D.argumentstructs.Erik.13,True,3,0,0,3,True
+ES2002a - Remote functionality,3,ES2002a.C.argumentstructs.Erik.1,ES2002a.D.argumentstructs.Erik.14,ES2002a.D.argumentstructs.Erik.14,True,4,3,3,1,True
+ES2002a - Remote functionality,4,ES2002a.A.argumentstructs.Erik.5,ES2002a.C.argumentstructs.Erik.1,ES2002a.D.argumentstructs.Erik.14,False,5,4,3,2,True
+ES2002a - Remote functionality,5,ES2002a.C.argumentstructs.Erik.2,ES2002a.D.argumentstructs.Erik.14,ES2002a.D.argumentstructs.Erik.13,False,7,3,0,7,True
+ES2002a - Remote functionality,6,ES2002a.D.argumentstructs.Erik.15,ES2002a.C.argumentstructs.Erik.2,ES2002a.C.argumentstructs.Erik.2,True,9,7,7,2,True
+ES2002a - Remote functionality,7,ES2002a.D.argumentstructs.Erik.16,ES2002a.D.argumentstructs.Erik.15,ES2002a.C.argumentstructs.Erik.2,False,10,9,7,3,True
+ES2002a - Remote functionality,8,ES2002a.B.argumentstructs.Erik.9,ES2002a.D.argumentstructs.Erik.16,ES2002a.D.argumentstructs.Erik.16,True,11,10,10,1,True
+ES2002a - Remote functionality,9,ES2002a.B.argumentstructs.Erik.10,ES2002a.C.argumentstructs.Erik.2,ES2002a.C.argumentstructs.Erik.2,True,12,7,7,5,True
+ES2002a - Remote functionality,10,ES2002a.D.argumentstructs.Erik.17,ES2002a.B.argumentstructs.Erik.10,ES2002a.B.argumentstructs.Erik.10,True,13,12,12,1,True
+ES2002a - Remote functionality,11,ES2002a.D.argumentstructs.Erik.18,ES2002a.B.argumentstructs.Erik.10,ES2002a.B.argumentstructs.Erik.10,True,15,12,12,3,True
+ES2002a - Remote functionality,12,ES2002a.B.argumentstructs.Erik.11,ES2002a.D.argumentstructs.Erik.17,ES2002a.D.argumentstructs.Erik.18,False,17,13,15,2,True
+ES2002a - Remote functionality,13,ES2002a.B.argumentstructs.Erik.12,ES2002a.D.argumentstructs.Erik.18,ES2002a.D.argumentstructs.Erik.18,True,19,15,15,4,True
+ES2002a - Remote functionality,14,ES2002a.D.argumentstructs.Erik.19,ES2002a.D.argumentstructs.Erik.17,ES2002a.B.argumentstructs.Erik.12,False,20,13,19,1,True
+ES2002a - Remote functionality,15,ES2002a.D.argumentstructs.Erik.20,ES2002a.D.argumentstructs.Erik.18,ES2002a.B.argumentstructs.Erik.10,False,22,15,12,10,False
+ES2002a - Remote functionality,16,ES2002a.B.argumentstructs.Erik.13,ES2002a.B.argumentstructs.Erik.12,ES2002a.D.argumentstructs.Erik.20,False,24,19,22,2,True
+ES2002a - Remote functionality,17,ES2002a.A.argumentstructs.Erik.6,ES2002a.B.argumentstructs.Erik.13,ES2002a.B.argumentstructs.Erik.13,True,25,24,24,1,True
+ES2002a - Remote functionality,18,ES2002a.B.argumentstructs.Erik.14,ES2002a.A.argumentstructs.Erik.6,ES2002a.A.argumentstructs.Erik.6,True,26,25,25,1,True
+ES2002a - Remote functionality,19,ES2002a.A.argumentstructs.Erik.7,ES2002a.A.argumentstructs.Erik.6,ES2002a.A.argumentstructs.Erik.6,True,28,25,25,3,True
+ES2002a - Remote functionality,20,ES2002a.B.argumentstructs.Erik.15,ES2002a.B.argumentstructs.Erik.14,ES2002a.A.argumentstructs.Erik.7,False,29,26,28,1,True
+ES2002a - Remote functionality,21,ES2002a.D.argumentstructs.Erik.21,ES2002a.B.argumentstructs.Erik.15,ES2002a.B.argumentstructs.Erik.15,True,30,29,29,1,True
+ES2002a - Remote functionality,22,ES2002a.D.argumentstructs.Erik.22,ES2002a.B.argumentstructs.Erik.15,ES2002a.B.argumentstructs.Erik.15,True,33,29,29,4,True
+ES2002a - Remote functionality,23,ES2002a.D.argumentstructs.Erik.23,ES2002a.B.argumentstructs.Erik.15,ES2002a.B.argumentstructs.Erik.13,False,35,29,24,11,False
+ES2002a - Remote functionality,24,ES2002a.B.argumentstructs.Erik.16,ES2002a.B.argumentstructs.Erik.15,ES2002a.D.argumentstructs.Erik.23,False,36,29,35,1,True
+ES2002a - Remote functionality,25,ES2002a.B.argumentstructs.Erik.17,ES2002a.B.argumentstructs.Erik.15,ES2002a.B.argumentstructs.Erik.13,False,38,29,24,14,False
+ES2002a - Remote functionality,26,ES2002a.D.argumentstructs.Erik.24,ES2002a.B.argumentstructs.Erik.17,ES2002a.B.argumentstructs.Erik.17,True,39,38,38,1,True
+ES2002a - Remote functionality,27,ES2002a.B.argumentstructs.Erik.18,ES2002a.B.argumentstructs.Erik.17,ES2002a.D.argumentstructs.Erik.24,False,41,38,39,2,True
+ES2002a - Remote functionality,28,ES2002a.D.argumentstructs.Erik.25,ES2002a.B.argumentstructs.Erik.18,ES2002a.D.argumentstructs.Erik.24,False,42,41,39,3,True
+ES2002a - Remote functionality,29,ES2002a.B.argumentstructs.Erik.19,ES2002a.D.argumentstructs.Erik.25,ES2002a.D.argumentstructs.Erik.25,True,43,42,42,1,True
+ES2002a - Remote functionality,30,ES2002a.B.argumentstructs.Erik.20,ES2002a.B.argumentstructs.Erik.19,ES2002a.D.argumentstructs.Erik.25,False,44,43,42,2,True
+ES2002b - Desired functions,0,ES2002b.C.argumentstructs.Erik.1,ROOT,NONE,NONE,0,0,0,0,False
+ES2002b - Desired functions,1,ES2002b.C.argumentstructs.Erik.2,ES2002b.C.argumentstructs.Erik.1,ES2002b.C.argumentstructs.Erik.1,True,1,0,0,1,True
+ES2002b - Desired functions,2,ES2002b.B.argumentstructs.Erik.1,ES2002b.C.argumentstructs.Erik.2,ES2002b.C.argumentstructs.Erik.1,False,3,1,0,3,True
+ES2002b - Desired functions,3,ES2002b.C.argumentstructs.Erik.3,ES2002b.B.argumentstructs.Erik.1,ES2002b.B.argumentstructs.Erik.1,True,4,3,3,1,True
+ES2002b - Desired functions,4,ES2002b.D.argumentstructs.Erik.1,ES2002b.C.argumentstructs.Erik.3,ES2002b.C.argumentstructs.Erik.3,True,5,4,4,1,True
+ES2002b - Desired functions,5,ES2002b.D.argumentstructs.Erik.2,ES2002b.C.argumentstructs.Erik.2,ES2002b.D.argumentstructs.Erik.1,False,6,1,5,1,True
+ES2002b - Desired functions,6,ES2002b.B.argumentstructs.Erik.2,ES2002b.C.argumentstructs.Erik.3,ES2002b.C.argumentstructs.Erik.3,True,7,4,4,3,True
+ES2002b - Desired functions,7,ES2002b.D.argumentstructs.Erik.3,ES2002b.B.argumentstructs.Erik.2,ES2002b.B.argumentstructs.Erik.2,True,8,7,7,1,True
+ES2002b - Desired functions,8,ES2002b.B.argumentstructs.Erik.3,ES2002b.B.argumentstructs.Erik.2,ES2002b.B.argumentstructs.Erik.2,True,10,7,7,3,True
+ES2002b - Desired functions,9,ES2002b.B.argumentstructs.Erik.4,ES2002b.B.argumentstructs.Erik.3,ES2002b.C.argumentstructs.Erik.1,False,12,10,0,12,False
+ES2002b - Desired functions,10,ES2002b.D.argumentstructs.Erik.4,ES2002b.B.argumentstructs.Erik.4,ES2002b.B.argumentstructs.Erik.4,True,13,12,12,1,True
+ES2002b - Desired functions,11,ES2002b.D.argumentstructs.Erik.5,ES2002b.D.argumentstructs.Erik.4,ES2002b.B.argumentstructs.Erik.4,False,14,13,12,2,True
+ES2002b - Desired functions,12,ES2002b.D.argumentstructs.Erik.6,ES2002b.D.argumentstructs.Erik.5,ES2002b.B.argumentstructs.Erik.4,False,15,14,12,3,True
+ES2002b - Desired functions,13,ES2002b.B.argumentstructs.Erik.5,ES2002b.D.argumentstructs.Erik.5,ES2002b.D.argumentstructs.Erik.7,False,17,14,19,2,False
+ES2002b - Desired functions,14,ES2002b.C.argumentstructs.Erik.4,ES2002b.B.argumentstructs.Erik.5,ES2002b.D.argumentstructs.Erik.7,False,18,17,19,1,False
+ES2002b - Desired functions,15,ES2002b.D.argumentstructs.Erik.7,ES2002b.D.argumentstructs.Erik.6,ES2002b.D.argumentstructs.Erik.6,True,19,15,15,4,True
+ES2002b - Desired functions,16,ES2002b.B.argumentstructs.Erik.6,ES2002b.D.argumentstructs.Erik.6,ES2002b.D.argumentstructs.Erik.7,False,21,15,19,2,True
+ES2002b - Desired functions,17,ES2002b.C.argumentstructs.Erik.5,ES2002b.B.argumentstructs.Erik.6,ES2002b.B.argumentstructs.Erik.6,True,22,21,21,1,True
+ES2002b - Desired functions,18,ES2002b.B.argumentstructs.Erik.7,ES2002b.B.argumentstructs.Erik.6,ES2002b.C.argumentstructs.Erik.5,False,24,21,22,2,True
+ES2002b - Desired functions,19,ES2002b.D.argumentstructs.Erik.8,ES2002b.B.argumentstructs.Erik.7,ES2002b.B.argumentstructs.Erik.7,True,25,24,24,1,True
+ES2002b - Desired functions,20,ES2002b.C.argumentstructs.Erik.6,ES2002b.B.argumentstructs.Erik.7,ES2002b.B.argumentstructs.Erik.7,True,27,24,24,3,True
+ES2002b - Desired functions,21,ES2002b.B.argumentstructs.Erik.8,ES2002b.B.argumentstructs.Erik.7,ES2002b.C.argumentstructs.Erik.6,False,28,24,27,1,True
+ES2002b - Target audience,0,ES2002b.B.argumentstructs.Erik.9,ROOT,NONE,NONE,0,0,0,0,False
+ES2002b - Target audience,1,ES2002b.D.argumentstructs.Erik.9,ES2002b.B.argumentstructs.Erik.9,ES2002b.B.argumentstructs.Erik.9,True,3,0,0,3,True
+ES2002b - Target audience,2,ES2002b.B.argumentstructs.Erik.10,ES2002b.B.argumentstructs.Erik.9,ES2002b.D.argumentstructs.Erik.9,False,4,0,3,1,True
+ES2002b - Target audience,3,ES2002b.D.argumentstructs.Erik.10,ES2002b.B.argumentstructs.Erik.10,ES2002b.B.argumentstructs.Erik.10,True,5,4,4,1,True
+ES2002b - Target audience,4,ES2002b.D.argumentstructs.Erik.11,ES2002b.D.argumentstructs.Erik.10,ES2002b.B.argumentstructs.Erik.10,False,7,5,4,3,True
+ES2002b - Target audience,5,ES2002b.A.argumentstructs.Erik.1,ES2002b.B.argumentstructs.Erik.10,ES2002b.B.argumentstructs.Erik.9,False,8,4,0,8,True
+ES2002b - Target audience,6,ES2002b.A.argumentstructs.Erik.2,ES2002b.A.argumentstructs.Erik.1,ES2002b.A.argumentstructs.Erik.1,True,9,8,8,1,True
+ES2002b - Target audience,7,ES2002b.B.argumentstructs.Erik.11,ES2002b.A.argumentstructs.Erik.2,ES2002b.A.argumentstructs.Erik.2,True,10,9,9,1,True
+ES2002b - Target audience,8,ES2002b.A.argumentstructs.Erik.3,ES2002b.A.argumentstructs.Erik.2,ES2002b.B.argumentstructs.Erik.11,False,11,9,10,1,True
+ES2002b - Target audience,9,ES2002b.B.argumentstructs.Erik.12,ES2002b.A.argumentstructs.Erik.3,ES2002b.A.argumentstructs.Erik.3,True,12,11,11,1,True
+ES2002b - Target audience,10,ES2002b.D.argumentstructs.Erik.12,ES2002b.A.argumentstructs.Erik.3,ES2002b.A.argumentstructs.Erik.3,True,15,11,11,4,True
+ES2002b - Target audience,11,ES2002b.A.argumentstructs.Erik.4,ES2002b.B.argumentstructs.Erik.12,ES2002b.D.argumentstructs.Erik.13,False,16,12,19,3,False
+ES2002b - Target audience,12,ES2002b.B.argumentstructs.Erik.13,ES2002b.B.argumentstructs.Erik.12,ES2002b.D.argumentstructs.Erik.13,False,17,12,19,2,False
+ES2002b - Target audience,13,ES2002b.D.argumentstructs.Erik.13,ES2002b.D.argumentstructs.Erik.12,ES2002b.B.argumentstructs.Erik.10,False,19,15,4,15,False
+ES2002b - Target audience,14,ES2002b.B.argumentstructs.Erik.14,ES2002b.D.argumentstructs.Erik.13,ES2002b.D.argumentstructs.Erik.13,True,20,19,19,1,True
+ES2002b - Target audience,15,ES2002b.D.argumentstructs.Erik.14,ES2002b.B.argumentstructs.Erik.14,ES2002b.B.argumentstructs.Erik.14,True,22,20,20,2,True
+ES2002b - Target audience,16,ES2002b.B.argumentstructs.Erik.15,ES2002b.D.argumentstructs.Erik.14,ES2002b.D.argumentstructs.Erik.14,True,23,22,22,1,True
+ES2002b - Target audience,17,ES2002b.B.argumentstructs.Erik.16,ES2002b.D.argumentstructs.Erik.14,ES2002b.B.argumentstructs.Erik.9,False,26,22,0,26,False
+ES2002b - Target audience,18,ES2002b.B.argumentstructs.Erik.17,ES2002b.B.argumentstructs.Erik.16,ES2002b.B.argumentstructs.Erik.16,True,27,26,26,1,True
+ES2002b - Target audience,19,ES2002b.C.argumentstructs.Erik.7,ES2002b.B.argumentstructs.Erik.17,ES2002b.B.argumentstructs.Erik.17,True,28,27,27,1,True
+ES2002b - Target audience,20,ES2002b.D.argumentstructs.Erik.15,ES2002b.C.argumentstructs.Erik.7,ES2002b.C.argumentstructs.Erik.7,True,29,28,28,1,True
+ES2002b - Target audience,21,ES2002b.B.argumentstructs.Erik.18,ES2002b.B.argumentstructs.Erik.16,ES2002b.D.argumentstructs.Erik.15,False,32,26,29,3,True
+ES2002b - Target audience,22,ES2002b.B.argumentstructs.Erik.19,ES2002b.C.argumentstructs.Erik.7,ES2002b.C.argumentstructs.Erik.7,True,33,28,28,5,True
+ES2002b - Target audience,23,ES2002b.D.argumentstructs.Erik.16,ES2002b.B.argumentstructs.Erik.19,ES2002b.B.argumentstructs.Erik.19,True,34,33,33,1,True
+ES2002b - Target audience,24,ES2002b.A.argumentstructs.Erik.5,ES2002b.B.argumentstructs.Erik.19,ES2002b.B.argumentstructs.Erik.19,True,36,33,33,3,True
+ES2002b - Target audience,25,ES2002b.B.argumentstructs.Erik.20,ES2002b.A.argumentstructs.Erik.5,ES2002b.A.argumentstructs.Erik.5,True,37,36,36,1,True
+ES2002b - Target audience,26,ES2002b.D.argumentstructs.Erik.17,ES2002b.B.argumentstructs.Erik.20,ES2002b.A.argumentstructs.Erik.5,False,38,37,36,2,True
+ES2002b - Target audience,27,ES2002b.B.argumentstructs.Erik.21,ES2002b.B.argumentstructs.Erik.19,ES2002b.C.argumentstructs.Erik.7,False,40,33,28,12,False
+ES2002b - Target audience,28,ES2002b.D.argumentstructs.Erik.18,ES2002b.B.argumentstructs.Erik.20,ES2002b.B.argumentstructs.Erik.21,False,41,37,40,1,True
+ES2002b - Target audience,29,ES2002b.A.argumentstructs.Erik.6,ES2002b.D.argumentstructs.Erik.18,ES2002b.B.argumentstructs.Erik.21,False,42,41,40,2,True
+ES2002c - LCD display,0,ES2002c.B.argumentstructs.Erik.18,ROOT,NONE,NONE,1,0,0,1,False
+ES2002c - LCD display,1,ES2002c.A.argumentstructs.Erik.9,ES2002c.B.argumentstructs.Erik.18,ES2002c.B.argumentstructs.Erik.18,True,3,1,1,2,True
+ES2002c - LCD display,2,ES2002c.A.argumentstructs.Erik.10,ES2002c.A.argumentstructs.Erik.9,ES2002c.A.argumentstructs.Erik.9,True,4,3,3,1,True
+ES2002c - LCD display,3,ES2002c.B.argumentstructs.Erik.19,ES2002c.A.argumentstructs.Erik.10,ES2002c.A.argumentstructs.Erik.9,False,5,4,3,2,True
+ES2002c - LCD display,4,ES2002c.A.argumentstructs.Erik.11,ES2002c.B.argumentstructs.Erik.19,ES2002c.B.argumentstructs.Erik.19,True,6,5,5,1,True
+ES2002c - LCD display,5,ES2002c.D.argumentstructs.Erik.17,ES2002c.A.argumentstructs.Erik.11,ES2002c.A.argumentstructs.Erik.9,False,7,6,3,4,True
+ES2002c - LCD display,6,ES2002c.D.argumentstructs.Erik.18,ES2002c.D.argumentstructs.Erik.17,ES2002c.D.argumentstructs.Erik.17,True,9,7,7,2,True
+ES2002c - LCD display,7,ES2002c.B.argumentstructs.Erik.20,ES2002c.D.argumentstructs.Erik.17,ES2002c.D.argumentstructs.Erik.18,False,10,7,9,1,True
+ES2002c - LCD display,8,ES2002c.A.argumentstructs.Erik.12,ES2002c.D.argumentstructs.Erik.18,ES2002c.D.argumentstructs.Erik.18,True,12,9,9,3,True
+ES2002c - LCD display,9,ES2002c.D.argumentstructs.Erik.19,ES2002c.A.argumentstructs.Erik.12,ES2002c.A.argumentstructs.Erik.12,True,13,12,12,1,True
+ES2002c - LCD display,10,ES2002c.B.argumentstructs.Erik.21,ES2002c.D.argumentstructs.Erik.19,ES2002c.A.argumentstructs.Erik.12,False,14,13,12,2,True
+ES2002c - LCD display,11,ES2002c.B.argumentstructs.Erik.22,ES2002c.A.argumentstructs.Erik.12,ES2002c.A.argumentstructs.Erik.12,True,17,12,12,5,True
+ES2002c - LCD display,12,ES2002c.A.argumentstructs.Erik.13,ES2002c.B.argumentstructs.Erik.22,ES2002c.B.argumentstructs.Erik.22,True,18,17,17,1,True
+ES2002c - Light option,0,ES2002c.D.argumentstructs.Erik.1,ROOT,NONE,NONE,0,0,0,0,False
+ES2002c - Light option,1,ES2002c.A.argumentstructs.Erik.1,ES2002c.D.argumentstructs.Erik.1,ES2002c.D.argumentstructs.Erik.1,True,1,0,0,1,True
+ES2002c - Light option,2,ES2002c.D.argumentstructs.Erik.2,ES2002c.A.argumentstructs.Erik.1,ES2002c.A.argumentstructs.Erik.1,True,3,1,1,2,True
+ES2002c - Light option,3,ES2002c.D.argumentstructs.Erik.3,ES2002c.D.argumentstructs.Erik.1,ES2002c.D.argumentstructs.Erik.2,False,4,0,3,1,True
+ES2002c - Light option,4,ES2002c.B.argumentstructs.Erik.1,ES2002c.D.argumentstructs.Erik.1,ES2002c.D.argumentstructs.Erik.1,True,5,0,0,5,True
+ES2002c - Light option,5,ES2002c.D.argumentstructs.Erik.4,ES2002c.D.argumentstructs.Erik.3,ES2002c.B.argumentstructs.Erik.1,False,7,4,5,2,True
+ES2002c - Light option,6,ES2002c.B.argumentstructs.Erik.2,ES2002c.D.argumentstructs.Erik.4,ES2002c.D.argumentstructs.Erik.4,True,9,7,7,2,True
+ES2002c - Light option,7,ES2002c.A.argumentstructs.Erik.2,ES2002c.B.argumentstructs.Erik.1,ES2002c.B.argumentstructs.Erik.1,True,10,5,5,5,True
+ES2002c - Light option,8,ES2002c.D.argumentstructs.Erik.5,ES2002c.A.argumentstructs.Erik.2,ES2002c.A.argumentstructs.Erik.2,True,11,10,10,1,True
+ES2002c - Light option,9,ES2002c.D.argumentstructs.Erik.6,ES2002c.D.argumentstructs.Erik.5,ES2002c.D.argumentstructs.Erik.5,True,12,11,11,1,True
+ES2002c - Light option,10,ES2002c.A.argumentstructs.Erik.3,ES2002c.D.argumentstructs.Erik.6,ES2002c.D.argumentstructs.Erik.6,True,13,12,12,1,True
+ES2002c - Light option,11,ES2002c.B.argumentstructs.Erik.3,ES2002c.A.argumentstructs.Erik.3,ES2002c.D.argumentstructs.Erik.6,False,14,13,12,2,True
+ES2002c - Light option,12,ES2002c.B.argumentstructs.Erik.4,ES2002c.D.argumentstructs.Erik.5,ES2002c.D.argumentstructs.Erik.6,False,16,11,12,4,True
+ES2002c - Light option,13,ES2002c.D.argumentstructs.Erik.7,ES2002c.B.argumentstructs.Erik.4,ES2002c.B.argumentstructs.Erik.4,True,17,16,16,1,True
+ES2002c - Light option,14,ES2002c.D.argumentstructs.Erik.8,ES2002c.B.argumentstructs.Erik.4,ES2002c.D.argumentstructs.Erik.7,False,18,16,17,1,True
+ES2002c - Light option,15,ES2002c.B.argumentstructs.Erik.5,ES2002c.D.argumentstructs.Erik.8,ES2002c.D.argumentstructs.Erik.8,True,19,18,18,1,True
+ES2002c - Light option,16,ES2002c.A.argumentstructs.Erik.4,ES2002c.D.argumentstructs.Erik.8,ES2002c.D.argumentstructs.Erik.8,True,20,18,18,2,True
+ES2002c - Light option,17,ES2002c.D.argumentstructs.Erik.9,ES2002c.A.argumentstructs.Erik.4,ES2002c.A.argumentstructs.Erik.4,True,21,20,20,1,True
+ES2002c - Light option,18,ES2002c.A.argumentstructs.Erik.5,ES2002c.A.argumentstructs.Erik.4,ES2002c.D.argumentstructs.Erik.9,False,23,20,21,2,True
+ES2002c - Light option,19,ES2002c.D.argumentstructs.Erik.10,ES2002c.D.argumentstructs.Erik.9,ES2002c.A.argumentstructs.Erik.5,False,24,21,23,1,True
+ES2002c - Light option,20,ES2002c.B.argumentstructs.Erik.6,ES2002c.D.argumentstructs.Erik.10,ES2002c.A.argumentstructs.Erik.5,False,26,24,23,3,True
+ES2002c - Remote shape,0,ES2002c.A.argumentstructs.Erik.6,ROOT,NONE,NONE,0,0,0,0,False
+ES2002c - Remote shape,1,ES2002c.B.argumentstructs.Erik.7,ES2002c.A.argumentstructs.Erik.6,ES2002c.A.argumentstructs.Erik.6,True,1,0,0,1,True
+ES2002c - Remote shape,2,ES2002c.A.argumentstructs.Erik.7,ES2002c.B.argumentstructs.Erik.7,ES2002c.B.argumentstructs.Erik.7,True,2,1,1,1,True
+ES2002c - Remote shape,3,ES2002c.D.argumentstructs.Erik.11,ES2002c.A.argumentstructs.Erik.7,ES2002c.A.argumentstructs.Erik.7,True,3,2,2,1,True
+ES2002c - Remote shape,4,ES2002c.B.argumentstructs.Erik.8,ES2002c.A.argumentstructs.Erik.7,ES2002c.A.argumentstructs.Erik.7,True,4,2,2,2,True
+ES2002c - Remote shape,5,ES2002c.A.argumentstructs.Erik.8,ES2002c.B.argumentstructs.Erik.8,ES2002c.B.argumentstructs.Erik.8,True,5,4,4,1,True
+ES2002c - Remote shape,6,ES2002c.D.argumentstructs.Erik.12,ES2002c.B.argumentstructs.Erik.8,ES2002c.A.argumentstructs.Erik.8,False,7,4,5,2,True
+ES2002c - Remote shape,7,ES2002c.B.argumentstructs.Erik.9,ES2002c.B.argumentstructs.Erik.8,ES2002c.B.argumentstructs.Erik.8,True,9,4,4,5,True
+ES2002c - Remote shape,8,ES2002c.B.argumentstructs.Erik.10,ES2002c.B.argumentstructs.Erik.9,ES2002c.B.argumentstructs.Erik.9,True,10,9,9,1,True
+ES2002c - Remote shape,9,ES2002c.D.argumentstructs.Erik.13,ES2002c.B.argumentstructs.Erik.10,ES2002c.B.argumentstructs.Erik.10,True,13,10,10,3,True
+ES2002c - Remote shape,10,ES2002c.B.argumentstructs.Erik.11,ES2002c.B.argumentstructs.Erik.10,ES2002c.A.argumentstructs.Erik.6,False,14,10,0,14,False
+ES2002c - Remote shape,11,ES2002c.C.argumentstructs.Erik.1,ES2002c.B.argumentstructs.Erik.11,ES2002c.B.argumentstructs.Erik.11,True,15,14,14,1,True
+ES2002c - Remote shape,12,ES2002c.B.argumentstructs.Erik.12,ES2002c.C.argumentstructs.Erik.1,ES2002c.C.argumentstructs.Erik.1,True,16,15,15,1,True
+ES2002c - Remote shape,13,ES2002c.C.argumentstructs.Erik.2,ES2002c.B.argumentstructs.Erik.12,ES2002c.B.argumentstructs.Erik.12,True,17,16,16,1,True
+ES2002c - Remote shape,14,ES2002c.B.argumentstructs.Erik.13,ES2002c.B.argumentstructs.Erik.12,ES2002c.C.argumentstructs.Erik.2,False,19,16,17,2,True
+ES2002c - Remote shape,15,ES2002c.D.argumentstructs.Erik.14,ES2002c.B.argumentstructs.Erik.13,ES2002c.B.argumentstructs.Erik.13,True,20,19,19,1,True
+ES2002c - Remote shape,16,ES2002c.B.argumentstructs.Erik.14,ES2002c.B.argumentstructs.Erik.13,ES2002c.B.argumentstructs.Erik.13,True,22,19,19,3,True
+ES2002c - Remote shape,17,ES2002c.B.argumentstructs.Erik.15,ES2002c.B.argumentstructs.Erik.14,ES2002c.C.argumentstructs.Erik.2,False,23,22,17,6,True
+ES2002c - Remote shape,18,ES2002c.D.argumentstructs.Erik.15,ES2002c.B.argumentstructs.Erik.15,ES2002c.B.argumentstructs.Erik.15,True,24,23,23,1,True
+ES2002c - Remote shape,19,ES2002c.C.argumentstructs.Erik.3,ES2002c.D.argumentstructs.Erik.15,ES2002c.B.argumentstructs.Erik.15,False,25,24,23,2,True
+ES2002c - Remote shape,20,ES2002c.D.argumentstructs.Erik.16,ES2002c.D.argumentstructs.Erik.15,ES2002c.C.argumentstructs.Erik.3,False,26,24,25,1,True
+ES2002c - Remote shape,21,ES2002c.B.argumentstructs.Erik.16,ES2002c.B.argumentstructs.Erik.14,ES2002c.C.argumentstructs.Erik.3,False,27,22,25,2,True
+ES2002c - Remote shape,22,ES2002c.B.argumentstructs.Erik.17,ES2002c.B.argumentstructs.Erik.16,ES2002c.C.argumentstructs.Erik.3,False,30,27,25,5,True
+ES2002c - Technology,0,ES2002c.D.argumentstructs.Erik.20,ROOT,NONE,NONE,0,0,0,0,False
+ES2002c - Technology,1,ES2002c.B.argumentstructs.Erik.23,ES2002c.D.argumentstructs.Erik.20,ES2002c.D.argumentstructs.Erik.20,True,2,0,0,2,True
+ES2002c - Technology,2,ES2002c.D.argumentstructs.Erik.21,ES2002c.B.argumentstructs.Erik.23,ES2002c.B.argumentstructs.Erik.23,True,3,2,2,1,True
+ES2002c - Technology,3,ES2002c.A.argumentstructs.Erik.14,ES2002c.B.argumentstructs.Erik.23,ES2002c.B.argumentstructs.Erik.23,True,4,2,2,2,True
+ES2002c - Technology,4,ES2002c.D.argumentstructs.Erik.22,ES2002c.A.argumentstructs.Erik.14,ES2002c.A.argumentstructs.Erik.14,True,5,4,4,1,True
+ES2002c - Technology,5,ES2002c.B.argumentstructs.Erik.24,ES2002c.D.argumentstructs.Erik.21,ES2002c.A.argumentstructs.Erik.14,False,6,3,4,2,True
+ES2002c - Technology,6,ES2002c.D.argumentstructs.Erik.23,ES2002c.B.argumentstructs.Erik.24,ES2002c.B.argumentstructs.Erik.24,True,7,6,6,1,True
+ES2002c - Technology,7,ES2002c.B.argumentstructs.Erik.25,ES2002c.A.argumentstructs.Erik.14,ES2002c.A.argumentstructs.Erik.14,True,9,4,4,5,True
+ES2002c - Technology,8,ES2002c.D.argumentstructs.Erik.24,ES2002c.B.argumentstructs.Erik.25,ES2002c.B.argumentstructs.Erik.25,True,10,9,9,1,True
+ES2002c - Technology,9,ES2002c.A.argumentstructs.Erik.15,ES2002c.D.argumentstructs.Erik.24,ES2002c.B.argumentstructs.Erik.25,False,11,10,9,2,True
+ES2002c - Technology,10,ES2002c.A.argumentstructs.Erik.16,ES2002c.B.argumentstructs.Erik.25,ES2002c.B.argumentstructs.Erik.23,False,14,9,2,12,False
+ES2002c - Technology,11,ES2002c.D.argumentstructs.Erik.25,ES2002c.D.argumentstructs.Erik.24,ES2002c.A.argumentstructs.Erik.16,False,15,10,14,1,True
+ES2002c - Technology,12,ES2002c.D.argumentstructs.Erik.26,ES2002c.A.argumentstructs.Erik.16,ES2002c.A.argumentstructs.Erik.16,True,17,14,14,3,True
+ES2002c - Technology,13,ES2002c.A.argumentstructs.Erik.17,ES2002c.D.argumentstructs.Erik.26,ES2002c.A.argumentstructs.Erik.16,False,18,17,14,4,True
+ES2002c - Technology,14,ES2002c.B.argumentstructs.Erik.26,ES2002c.A.argumentstructs.Erik.17,ES2002c.A.argumentstructs.Erik.16,False,19,18,14,5,True
+ES2002c - Technology,15,ES2002c.D.argumentstructs.Erik.27,ES2002c.B.argumentstructs.Erik.26,ES2002c.A.argumentstructs.Erik.17,False,21,19,18,3,True
+ES2002d - Digital pens,0,ES2002d.B.argumentstructs.Erik.37,ROOT,NONE,NONE,0,0,0,0,False
+ES2002d - Digital pens,1,ES2002d.D.argumentstructs.Erik.14,ES2002d.B.argumentstructs.Erik.37,ES2002d.B.argumentstructs.Erik.37,True,1,0,0,1,True
+ES2002d - Digital pens,2,ES2002d.C.argumentstructs.Erik.30,ES2002d.B.argumentstructs.Erik.37,ES2002d.B.argumentstructs.Erik.37,True,2,0,0,2,True
+ES2002d - Digital pens,3,ES2002d.A.argumentstructs.Erik.28,ES2002d.D.argumentstructs.Erik.14,ES2002d.B.argumentstructs.Erik.37,False,3,1,0,3,True
+ES2002d - Digital pens,4,ES2002d.B.argumentstructs.Erik.38,ES2002d.A.argumentstructs.Erik.28,ES2002d.D.argumentstructs.Erik.14,False,4,3,1,3,True
+ES2002d - Digital pens,5,ES2002d.C.argumentstructs.Erik.31,ES2002d.B.argumentstructs.Erik.38,ES2002d.D.argumentstructs.Erik.14,False,5,4,1,4,True
+ES2002d - Digital pens,6,ES2002d.B.argumentstructs.Erik.39,ES2002d.D.argumentstructs.Erik.14,ES2002d.D.argumentstructs.Erik.14,True,7,1,1,6,True
+ES2002d - Digital pens,7,ES2002d.A.argumentstructs.Erik.29,ES2002d.A.argumentstructs.Erik.28,ES2002d.B.argumentstructs.Erik.37,False,9,3,0,9,False
+ES2002d - Digital pens,8,ES2002d.B.argumentstructs.Erik.40,ES2002d.B.argumentstructs.Erik.39,ES2002d.A.argumentstructs.Erik.29,False,10,7,9,1,True
+ES2002d - Digital pens,9,ES2002d.B.argumentstructs.Erik.41,ES2002d.A.argumentstructs.Erik.29,ES2002d.A.argumentstructs.Erik.29,True,11,9,9,2,True
+ES2002d - Digital pens,10,ES2002d.C.argumentstructs.Erik.32,ES2002d.B.argumentstructs.Erik.40,ES2002d.B.argumentstructs.Erik.41,False,12,10,11,1,True
+ES2002d - Digital pens,11,ES2002d.A.argumentstructs.Erik.30,ES2002d.B.argumentstructs.Erik.41,ES2002d.B.argumentstructs.Erik.37,False,14,11,0,14,False
+ES2002d - Digital pens,12,ES2002d.B.argumentstructs.Erik.42,ES2002d.B.argumentstructs.Erik.40,ES2002d.A.argumentstructs.Erik.30,False,15,10,14,1,True
+ES2002d - Jog dial use,0,ES2002d.B.argumentstructs.Erik.7,ROOT,NONE,NONE,0,0,0,0,False
+ES2002d - Jog dial use,1,ES2002d.D.argumentstructs.Erik.5,ES2002d.B.argumentstructs.Erik.7,ES2002d.B.argumentstructs.Erik.7,True,2,0,0,2,True
+ES2002d - Jog dial use,2,ES2002d.B.argumentstructs.Erik.8,ES2002d.D.argumentstructs.Erik.5,ES2002d.D.argumentstructs.Erik.5,True,3,2,2,1,True
+ES2002d - Jog dial use,3,ES2002d.D.argumentstructs.Erik.6,ES2002d.B.argumentstructs.Erik.8,ES2002d.B.argumentstructs.Erik.8,True,5,3,3,2,True
+ES2002d - Jog dial use,4,ES2002d.B.argumentstructs.Erik.9,ES2002d.B.argumentstructs.Erik.8,ES2002d.D.argumentstructs.Erik.6,False,6,3,5,1,True
+ES2002d - Jog dial use,5,ES2002d.D.argumentstructs.Erik.7,ES2002d.B.argumentstructs.Erik.9,ES2002d.B.argumentstructs.Erik.9,True,7,6,6,1,True
+ES2002d - Jog dial use,6,ES2002d.A.argumentstructs.Erik.10,ES2002d.B.argumentstructs.Erik.8,ES2002d.D.argumentstructs.Erik.7,False,8,3,7,1,True
+ES2002d - Jog dial use,7,ES2002d.B.argumentstructs.Erik.10,ES2002d.A.argumentstructs.Erik.10,ES2002d.A.argumentstructs.Erik.10,True,10,8,8,2,True
+ES2002d - Jog dial use,8,ES2002d.A.argumentstructs.Erik.11,ES2002d.A.argumentstructs.Erik.10,ES2002d.B.argumentstructs.Erik.7,False,12,8,0,12,False
+ES2002d - Jog dial use,9,ES2002d.B.argumentstructs.Erik.11,ES2002d.A.argumentstructs.Erik.11,ES2002d.A.argumentstructs.Erik.11,True,13,12,12,1,True
+ES2002d - Jog dial use,10,ES2002d.C.argumentstructs.Erik.9,ES2002d.A.argumentstructs.Erik.10,ES2002d.A.argumentstructs.Erik.11,False,14,8,12,2,True
+ES2002d - Jog dial use,11,ES2002d.A.argumentstructs.Erik.12,ES2002d.C.argumentstructs.Erik.9,ES2002d.C.argumentstructs.Erik.9,True,16,14,14,2,True
+ES2002d - Jog dial use,12,ES2002d.B.argumentstructs.Erik.12,ES2002d.C.argumentstructs.Erik.9,ES2002d.C.argumentstructs.Erik.9,True,17,14,14,3,True
+ES2002d - Jog dial use,13,ES2002d.B.argumentstructs.Erik.13,ES2002d.A.argumentstructs.Erik.12,ES2002d.B.argumentstructs.Erik.7,False,19,16,0,19,False
+ES2002d - Jog dial use,14,ES2002d.A.argumentstructs.Erik.13,ES2002d.B.argumentstructs.Erik.13,ES2002d.B.argumentstructs.Erik.13,True,20,19,19,1,True
+ES2002d - Jog dial use,15,ES2002d.D.argumentstructs.Erik.8,ES2002d.B.argumentstructs.Erik.13,ES2002d.B.argumentstructs.Erik.13,True,23,19,19,4,True
+ES2002d - Jog dial use,16,ES2002d.A.argumentstructs.Erik.14,ES2002d.B.argumentstructs.Erik.13,ES2002d.D.argumentstructs.Erik.8,False,24,19,23,1,True
+ES2002d - Jog dial use,17,ES2002d.B.argumentstructs.Erik.14,ES2002d.A.argumentstructs.Erik.14,ES2002d.A.argumentstructs.Erik.14,True,25,24,24,1,True
+ES2002d - Jog dial use,18,ES2002d.B.argumentstructs.Erik.15,ES2002d.A.argumentstructs.Erik.14,ES2002d.A.argumentstructs.Erik.14,True,26,24,24,2,True
+ES2002d - Jog dial use,19,ES2002d.C.argumentstructs.Erik.10,ES2002d.B.argumentstructs.Erik.15,ES2002d.A.argumentstructs.Erik.14,False,27,26,24,3,True
+ES2002d - Jog dial use,20,ES2002d.A.argumentstructs.Erik.15,ES2002d.B.argumentstructs.Erik.15,ES2002d.A.argumentstructs.Erik.14,False,28,26,24,4,True
+ES2002d - Leadership,0,ES2002d.B.argumentstructs.Erik.21,ROOT,NONE,NONE,1,0,0,1,False
+ES2002d - Leadership,1,ES2002d.B.argumentstructs.Erik.22,ES2002d.B.argumentstructs.Erik.21,ES2002d.B.argumentstructs.Erik.21,True,2,1,1,1,True
+ES2002d - Leadership,2,ES2002d.C.argumentstructs.Erik.15,ES2002d.B.argumentstructs.Erik.21,ES2002d.B.argumentstructs.Erik.21,True,3,1,1,2,True
+ES2002d - Leadership,3,ES2002d.B.argumentstructs.Erik.23,ES2002d.C.argumentstructs.Erik.15,ES2002d.C.argumentstructs.Erik.15,True,4,3,3,1,True
+ES2002d - Leadership,4,ES2002d.C.argumentstructs.Erik.16,ES2002d.B.argumentstructs.Erik.23,ES2002d.B.argumentstructs.Erik.23,True,5,4,4,1,True
+ES2002d - Leadership,5,ES2002d.B.argumentstructs.Erik.24,ES2002d.B.argumentstructs.Erik.23,ES2002d.C.argumentstructs.Erik.16,False,6,4,5,1,True
+ES2002d - Leadership,6,ES2002d.C.argumentstructs.Erik.17,ES2002d.C.argumentstructs.Erik.16,ES2002d.B.argumentstructs.Erik.21,False,10,5,1,9,False
+ES2002d - Leadership,7,ES2002d.B.argumentstructs.Erik.25,ES2002d.C.argumentstructs.Erik.17,ES2002d.C.argumentstructs.Erik.17,True,11,10,10,1,True
+ES2002d - Leadership,8,ES2002d.C.argumentstructs.Erik.18,ES2002d.C.argumentstructs.Erik.17,ES2002d.C.argumentstructs.Erik.17,True,12,10,10,2,True
+ES2002d - Leadership,9,ES2002d.B.argumentstructs.Erik.26,ES2002d.C.argumentstructs.Erik.18,ES2002d.C.argumentstructs.Erik.18,True,13,12,12,1,True
+ES2002d - Leadership,10,ES2002d.C.argumentstructs.Erik.19,ES2002d.B.argumentstructs.Erik.26,ES2002d.B.argumentstructs.Erik.26,True,14,13,13,1,True
+ES2002d - Leadership,11,ES2002d.A.argumentstructs.Erik.22,ES2002d.C.argumentstructs.Erik.19,ES2002d.B.argumentstructs.Erik.26,False,15,14,13,2,True
+ES2002d - Leadership,12,ES2002d.C.argumentstructs.Erik.20,ES2002d.A.argumentstructs.Erik.22,ES2002d.A.argumentstructs.Erik.22,True,16,15,15,1,True
+ES2002d - Leadership,13,ES2002d.B.argumentstructs.Erik.28,ES2002d.C.argumentstructs.Erik.20,ES2002d.A.argumentstructs.Erik.22,False,18,16,15,3,True
+ES2002d - Remote height,0,ES2002d.A.argumentstructs.Erik.16,ROOT,NONE,NONE,1,0,0,1,False
+ES2002d - Remote height,1,ES2002d.B.argumentstructs.Erik.16,ES2002d.A.argumentstructs.Erik.16,ES2002d.A.argumentstructs.Erik.16,True,2,1,1,1,True
+ES2002d - Remote height,2,ES2002d.A.argumentstructs.Erik.17,ES2002d.B.argumentstructs.Erik.16,ES2002d.B.argumentstructs.Erik.16,True,3,2,2,1,True
+ES2002d - Remote height,3,ES2002d.B.argumentstructs.Erik.17,ES2002d.A.argumentstructs.Erik.16,ES2002d.A.argumentstructs.Erik.17,False,5,1,3,2,True
+ES2002d - Remote height,4,ES2002d.B.argumentstructs.Erik.18,ES2002d.B.argumentstructs.Erik.17,ES2002d.A.argumentstructs.Erik.16,False,6,5,1,5,True
+ES2002d - Remote height,5,ES2002d.D.argumentstructs.Erik.9,ES2002d.B.argumentstructs.Erik.18,ES2002d.B.argumentstructs.Erik.19,False,7,6,9,2,False
+ES2002d - Remote height,6,ES2002d.A.argumentstructs.Erik.18,ES2002d.B.argumentstructs.Erik.18,ES2002d.B.argumentstructs.Erik.19,False,8,6,9,1,False
+ES2002d - Remote height,7,ES2002d.B.argumentstructs.Erik.19,ES2002d.A.argumentstructs.Erik.18,ES2002d.B.argumentstructs.Erik.18,False,9,8,6,3,True
+ES2002d - Remote height,8,ES2002d.C.argumentstructs.Erik.11,ES2002d.B.argumentstructs.Erik.19,ES2002d.B.argumentstructs.Erik.19,True,10,9,9,1,True
+ES2002d - Remote height,9,ES2002d.C.argumentstructs.Erik.12,ES2002d.C.argumentstructs.Erik.11,ES2002d.C.argumentstructs.Erik.11,True,11,10,10,1,True
+ES2002d - Remote height,10,ES2002d.A.argumentstructs.Erik.19,ES2002d.A.argumentstructs.Erik.18,ES2002d.C.argumentstructs.Erik.12,False,12,8,11,1,True
+ES2002d - Remote height,11,ES2002d.A.argumentstructs.Erik.20,ES2002d.A.argumentstructs.Erik.19,ES2002d.A.argumentstructs.Erik.19,True,13,12,12,1,True
+ES2002d - Remote height,12,ES2002d.D.argumentstructs.Erik.10,ES2002d.A.argumentstructs.Erik.20,ES2002d.C.argumentstructs.Erik.12,False,14,13,11,3,True
+ES2002d - Remote height,13,ES2002d.C.argumentstructs.Erik.13,ES2002d.A.argumentstructs.Erik.20,ES2002d.C.argumentstructs.Erik.12,False,15,13,11,4,True
+ES2002d - Remote height,14,ES2002d.B.argumentstructs.Erik.20,ES2002d.A.argumentstructs.Erik.20,ES2002d.D.argumentstructs.Erik.10,False,16,13,14,2,True
+ES2002d - Remote height,15,ES2002d.C.argumentstructs.Erik.14,ES2002d.B.argumentstructs.Erik.20,ES2002d.B.argumentstructs.Erik.20,True,17,16,16,1,True
+ES2002d - Remote height,16,ES2002d.A.argumentstructs.Erik.21,ES2002d.B.argumentstructs.Erik.20,ES2002d.C.argumentstructs.Erik.14,False,18,16,17,1,True
+ES2002d - Remote size,0,ES2002d.B.argumentstructs.Erik.1,ROOT,NONE,NONE,1,0,0,1,False
+ES2002d - Remote size,1,ES2002d.D.argumentstructs.Erik.1,ES2002d.B.argumentstructs.Erik.1,ES2002d.B.argumentstructs.Erik.1,True,2,1,1,1,True
+ES2002d - Remote size,2,ES2002d.C.argumentstructs.Erik.1,ES2002d.B.argumentstructs.Erik.1,ES2002d.D.argumentstructs.Erik.1,False,4,1,2,2,True
+ES2002d - Remote size,3,ES2002d.A.argumentstructs.Erik.1,ES2002d.D.argumentstructs.Erik.1,ES2002d.D.argumentstructs.Erik.1,True,6,2,2,4,True
+ES2002d - Remote size,4,ES2002d.C.argumentstructs.Erik.2,ES2002d.A.argumentstructs.Erik.1,ES2002d.A.argumentstructs.Erik.1,True,8,6,6,2,True
+ES2002d - Remote size,5,ES2002d.A.argumentstructs.Erik.2,ES2002d.C.argumentstructs.Erik.2,ES2002d.C.argumentstructs.Erik.2,True,9,8,8,1,True
+ES2002d - Remote size,6,ES2002d.B.argumentstructs.Erik.2,ES2002d.A.argumentstructs.Erik.2,ES2002d.A.argumentstructs.Erik.2,True,10,9,9,1,True
+ES2002d - Remote size,7,ES2002d.C.argumentstructs.Erik.3,ES2002d.B.argumentstructs.Erik.2,ES2002d.B.argumentstructs.Erik.2,True,11,10,10,1,True
+ES2002d - Remote size,8,ES2002d.A.argumentstructs.Erik.3,ES2002d.B.argumentstructs.Erik.2,ES2002d.B.argumentstructs.Erik.2,True,14,10,10,4,True
+ES2002d - Remote size,9,ES2002d.C.argumentstructs.Erik.4,ES2002d.B.argumentstructs.Erik.2,ES2002d.B.argumentstructs.Erik.2,True,16,10,10,6,True
+ES2002d - Remote size,10,ES2002d.B.argumentstructs.Erik.3,ES2002d.C.argumentstructs.Erik.4,ES2002d.C.argumentstructs.Erik.4,True,17,16,16,1,True
+ES2002d - Remote width,0,ES2002d.A.argumentstructs.Erik.4,ROOT,NONE,NONE,0,0,0,0,False
+ES2002d - Remote width,1,ES2002d.D.argumentstructs.Erik.2,ES2002d.A.argumentstructs.Erik.4,ES2002d.A.argumentstructs.Erik.4,True,1,0,0,1,True
+ES2002d - Remote width,2,ES2002d.B.argumentstructs.Erik.4,ES2002d.D.argumentstructs.Erik.2,ES2002d.D.argumentstructs.Erik.2,True,2,1,1,1,True
+ES2002d - Remote width,3,ES2002d.C.argumentstructs.Erik.5,ES2002d.A.argumentstructs.Erik.4,ES2002d.A.argumentstructs.Erik.4,True,3,0,0,3,True
+ES2002d - Remote width,4,ES2002d.A.argumentstructs.Erik.5,ES2002d.A.argumentstructs.Erik.4,ES2002d.C.argumentstructs.Erik.5,False,4,0,3,1,True
+ES2002d - Remote width,5,ES2002d.C.argumentstructs.Erik.6,ES2002d.A.argumentstructs.Erik.5,ES2002d.A.argumentstructs.Erik.5,True,5,4,4,1,True
+ES2002d - Remote width,6,ES2002d.D.argumentstructs.Erik.3,ES2002d.C.argumentstructs.Erik.5,ES2002d.A.argumentstructs.Erik.5,False,6,3,4,2,True
+ES2002d - Remote width,7,ES2002d.B.argumentstructs.Erik.5,ES2002d.A.argumentstructs.Erik.5,ES2002d.A.argumentstructs.Erik.5,True,7,4,4,3,True
+ES2002d - Remote width,8,ES2002d.A.argumentstructs.Erik.6,ES2002d.D.argumentstructs.Erik.3,ES2002d.D.argumentstructs.Erik.3,True,8,6,6,2,True
+ES2002d - Remote width,9,ES2002d.C.argumentstructs.Erik.7,ES2002d.A.argumentstructs.Erik.6,ES2002d.A.argumentstructs.Erik.6,True,10,8,8,2,True
+ES2002d - Remote width,10,ES2002d.D.argumentstructs.Erik.4,ES2002d.B.argumentstructs.Erik.5,ES2002d.A.argumentstructs.Erik.6,False,11,7,8,3,True
+ES2002d - Remote width,11,ES2002d.B.argumentstructs.Erik.6,ES2002d.B.argumentstructs.Erik.5,ES2002d.C.argumentstructs.Erik.5,False,12,7,3,9,False
+ES2002d - Remote width,12,ES2002d.A.argumentstructs.Erik.7,ES2002d.B.argumentstructs.Erik.6,ES2002d.B.argumentstructs.Erik.6,True,13,12,12,1,True
+ES2002d - Teamwork,0,ES2002d.B.argumentstructs.Erik.29,ROOT,NONE,NONE,0,0,0,0,False
+ES2002d - Teamwork,1,ES2002d.C.argumentstructs.Erik.21,ES2002d.B.argumentstructs.Erik.29,ES2002d.B.argumentstructs.Erik.29,True,1,0,0,1,True
+ES2002d - Teamwork,2,ES2002d.D.argumentstructs.Erik.11,ES2002d.B.argumentstructs.Erik.29,ES2002d.C.argumentstructs.Erik.21,False,2,0,1,1,True
+ES2002d - Teamwork,3,ES2002d.C.argumentstructs.Erik.22,ES2002d.C.argumentstructs.Erik.21,ES2002d.D.argumentstructs.Erik.11,False,3,1,2,1,True
+ES2002d - Teamwork,4,ES2002d.B.argumentstructs.Erik.30,ES2002d.C.argumentstructs.Erik.22,ES2002d.D.argumentstructs.Erik.11,False,4,3,2,2,True
+ES2002d - Teamwork,5,ES2002d.D.argumentstructs.Erik.12,ES2002d.D.argumentstructs.Erik.11,ES2002d.D.argumentstructs.Erik.11,True,5,2,2,3,True
+ES2002d - Teamwork,6,ES2002d.C.argumentstructs.Erik.23,ES2002d.C.argumentstructs.Erik.22,ES2002d.D.argumentstructs.Erik.12,False,6,3,5,1,True
+ES2002d - Teamwork,7,ES2002d.B.argumentstructs.Erik.31,ES2002d.D.argumentstructs.Erik.12,ES2002d.D.argumentstructs.Erik.12,True,7,5,5,2,True
+ES2002d - Teamwork,8,ES2002d.C.argumentstructs.Erik.24,ES2002d.C.argumentstructs.Erik.23,ES2002d.D.argumentstructs.Erik.12,False,8,6,5,3,True
+ES2002d - Teamwork,9,ES2002d.A.argumentstructs.Erik.23,ES2002d.D.argumentstructs.Erik.12,ES2002d.D.argumentstructs.Erik.12,True,9,5,5,4,True
+ES2002d - Teamwork,10,ES2002d.C.argumentstructs.Erik.25,ES2002d.C.argumentstructs.Erik.24,ES2002d.A.argumentstructs.Erik.23,False,11,8,9,2,True
+ES2002d - Teamwork,11,ES2002d.B.argumentstructs.Erik.33,ES2002d.A.argumentstructs.Erik.23,ES2002d.A.argumentstructs.Erik.23,True,12,9,9,3,True
+ES2002d - Teamwork,12,ES2002d.C.argumentstructs.Erik.26,ES2002d.B.argumentstructs.Erik.33,ES2002d.B.argumentstructs.Erik.32,False,13,12,19,6,False
+ES2002d - Teamwork,13,ES2002d.D.argumentstructs.Erik.13,ES2002d.B.argumentstructs.Erik.33,ES2002d.B.argumentstructs.Erik.33,True,14,12,12,2,True
+ES2002d - Teamwork,14,ES2002d.A.argumentstructs.Erik.24,ES2002d.B.argumentstructs.Erik.33,ES2002d.B.argumentstructs.Erik.33,True,15,12,12,3,True
+ES2002d - Teamwork,15,ES2002d.C.argumentstructs.Erik.27,ES2002d.B.argumentstructs.Erik.33,ES2002d.B.argumentstructs.Erik.33,True,17,12,12,5,True
+ES2002d - Teamwork,16,ES2002d.B.argumentstructs.Erik.32,ES2002d.B.argumentstructs.Erik.33,ES2002d.B.argumentstructs.Erik.29,False,19,12,0,19,False
+ES2002d - Teamwork,17,ES2002d.A.argumentstructs.Erik.25,ES2002d.B.argumentstructs.Erik.32,ES2002d.B.argumentstructs.Erik.29,False,21,19,0,21,False
+ES2002d - Teamwork,18,ES2002d.C.argumentstructs.Erik.28,ES2002d.A.argumentstructs.Erik.25,ES2002d.A.argumentstructs.Erik.25,True,22,21,21,1,True
+ES2002d - Teamwork,19,ES2002d.B.argumentstructs.Erik.34,ES2002d.A.argumentstructs.Erik.25,ES2002d.A.argumentstructs.Erik.25,True,23,21,21,2,True
+ES2002d - Teamwork,20,ES2002d.C.argumentstructs.Erik.29,ES2002d.A.argumentstructs.Erik.25,ES2002d.A.argumentstructs.Erik.25,True,26,21,21,5,True
+ES2002d - Teamwork,21,ES2002d.A.argumentstructs.Erik.26,ES2002d.C.argumentstructs.Erik.29,ES2002d.C.argumentstructs.Erik.29,True,27,26,26,1,True
+ES2002d - Teamwork,22,ES2002d.B.argumentstructs.Erik.35,ES2002d.C.argumentstructs.Erik.28,ES2002d.C.argumentstructs.Erik.29,False,28,22,26,2,True
+ES2002d - Teamwork,23,ES2002d.B.argumentstructs.Erik.36,ES2002d.C.argumentstructs.Erik.29,ES2002d.B.argumentstructs.Erik.29,False,30,26,0,30,False
+ES2002d - Teamwork,24,ES2002d.A.argumentstructs.Erik.27,ES2002d.B.argumentstructs.Erik.36,ES2002d.B.argumentstructs.Erik.36,True,31,30,30,1,True
+ES2003a - Marktpositie AB,0,ES2003a.B.argumentstructs.Erik.1,ROOT,NONE,NONE,0,0,0,0,False
+ES2003a - Marktpositie AB,1,ES2003a.A.argumentstructs.Erik.1,ES2003a.B.argumentstructs.Erik.1,ES2003a.B.argumentstructs.Erik.1,True,1,0,0,1,True
+ES2003a - Marktpositie AB,2,ES2003a.B.argumentstructs.Erik.2,ES2003a.A.argumentstructs.Erik.1,ES2003a.A.argumentstructs.Erik.2,False,2,1,3,1,False
+ES2003a - Marktpositie AB,3,ES2003a.A.argumentstructs.Erik.2,ES2003a.B.argumentstructs.Erik.1,ES2003a.A.argumentstructs.Erik.1,False,3,0,1,2,True
+ES2003a - Marktpositie AB,4,ES2003a.B.argumentstructs.Erik.3,ES2003a.A.argumentstructs.Erik.2,ES2003a.A.argumentstructs.Erik.2,True,4,3,3,1,True
+ES2003a - Marktpositie AB,5,ES2003a.A.argumentstructs.Erik.3,ES2003a.B.argumentstructs.Erik.3,ES2003a.B.argumentstructs.Erik.3,True,5,4,4,1,True
+ES2003a - Marktpositie AB,6,ES2003a.B.argumentstructs.Erik.4,ES2003a.A.argumentstructs.Erik.3,ES2003a.A.argumentstructs.Erik.2,False,7,5,3,4,True
+ES2003a - Marktpositie AB,7,ES2003a.A.argumentstructs.Erik.4,ES2003a.B.argumentstructs.Erik.4,ES2003a.B.argumentstructs.Erik.4,True,8,7,7,1,True
+ES2003a - Marktpositie AB,8,ES2003a.B.argumentstructs.Erik.5,ES2003a.A.argumentstructs.Erik.4,ES2003a.A.argumentstructs.Erik.4,True,9,8,8,1,True
+ES2003a - Marktpositie AB,9,ES2003a.A.argumentstructs.Erik.5,ES2003a.B.argumentstructs.Erik.5,ES2003a.A.argumentstructs.Erik.4,False,10,9,8,2,True
+ES2003a - Marktpositie AB,10,ES2003a.B.argumentstructs.Erik.6,ES2003a.A.argumentstructs.Erik.5,ES2003a.A.argumentstructs.Erik.5,True,11,10,10,1,True
+ES2003a - Marktpositie AB,11,ES2003a.C.argumentstructs.Erik.1,ES2003a.B.argumentstructs.Erik.6,ES2003a.A.argumentstructs.Erik.5,False,12,11,10,2,True
+ES2003a - Marktpositie AB,12,ES2003a.B.argumentstructs.Erik.7,ES2003a.B.argumentstructs.Erik.6,ES2003a.A.argumentstructs.Erik.5,False,14,11,10,4,True
+ES2003a - Marktpositie AB,13,ES2003a.C.argumentstructs.Erik.2,ES2003a.B.argumentstructs.Erik.7,ES2003a.B.argumentstructs.Erik.7,True,15,14,14,1,True
+ES2003a - Marktpositie AB,14,ES2003a.A.argumentstructs.Erik.6,ES2003a.C.argumentstructs.Erik.2,ES2003a.C.argumentstructs.Erik.2,True,16,15,15,1,True
+ES2003a - Marktpositie AB,15,ES2003a.B.argumentstructs.Erik.9,ES2003a.C.argumentstructs.Erik.2,ES2003a.C.argumentstructs.Erik.2,True,18,15,15,3,True
+ES2003a - Marktpositie AB,16,ES2003a.B.argumentstructs.Erik.10,ES2003a.C.argumentstructs.Erik.2,ES2003a.C.argumentstructs.Erik.2,True,19,15,15,4,True
+ES2003a - Marktpositie AB,17,ES2003a.D.argumentstructs.Erik.1,ES2003a.B.argumentstructs.Erik.9,ES2003a.B.argumentstructs.Erik.10,False,20,18,19,1,True
+ES2003a - Marktpositie AB,18,ES2003a.A.argumentstructs.Erik.7,ES2003a.D.argumentstructs.Erik.1,ES2003a.B.argumentstructs.Erik.10,False,21,20,19,2,True
+ES2003a - Marktpositie AB,19,ES2003a.C.argumentstructs.Erik.3,ES2003a.A.argumentstructs.Erik.7,ES2003a.B.argumentstructs.Erik.10,False,22,21,19,3,True
+ES2003a - Marktpositie AB,20,ES2003a.C.argumentstructs.Erik.6,ES2003a.C.argumentstructs.Erik.3,ES2003a.C.argumentstructs.Erik.2,False,23,22,15,8,False
+ES2003a - Marktpositie AB,21,ES2003a.C.argumentstructs.Erik.5,ES2003a.C.argumentstructs.Erik.6,ES2003a.C.argumentstructs.Erik.2,False,24,23,15,9,False
+ES2003a - User wishes,0,ES2003a.B.argumentstructs.Erik.11,ROOT,NONE,NONE,0,0,0,0,False
+ES2003a - User wishes,1,ES2003a.D.argumentstructs.Erik.2,ES2003a.B.argumentstructs.Erik.11,ES2003a.B.argumentstructs.Erik.11,True,2,0,0,2,True
+ES2003a - User wishes,2,ES2003a.C.argumentstructs.Erik.7,ES2003a.B.argumentstructs.Erik.11,ES2003a.D.argumentstructs.Erik.2,False,3,0,2,1,True
+ES2003a - User wishes,3,ES2003a.D.argumentstructs.Erik.3,ES2003a.D.argumentstructs.Erik.2,ES2003a.D.argumentstructs.Erik.2,True,4,2,2,2,True
+ES2003a - User wishes,4,ES2003a.C.argumentstructs.Erik.8,ES2003a.D.argumentstructs.Erik.3,ES2003a.D.argumentstructs.Erik.3,True,5,4,4,1,True
+ES2003a - User wishes,5,ES2003a.B.argumentstructs.Erik.12,ES2003a.D.argumentstructs.Erik.2,ES2003a.D.argumentstructs.Erik.3,False,6,2,4,2,True
+ES2003a - User wishes,6,ES2003a.D.argumentstructs.Erik.4,ES2003a.B.argumentstructs.Erik.12,ES2003a.B.argumentstructs.Erik.12,True,7,6,6,1,True
+ES2003a - User wishes,7,ES2003a.B.argumentstructs.Erik.13,ES2003a.B.argumentstructs.Erik.12,ES2003a.B.argumentstructs.Erik.12,True,9,6,6,3,True
+ES2003a - User wishes,8,ES2003a.A.argumentstructs.Erik.8,ES2003a.C.argumentstructs.Erik.8,ES2003a.B.argumentstructs.Erik.13,False,10,5,9,1,True
+ES2003a - User wishes,9,ES2003a.A.argumentstructs.Erik.9,ES2003a.B.argumentstructs.Erik.12,ES2003a.B.argumentstructs.Erik.11,False,11,6,0,11,False
+ES2003a - User wishes,10,ES2003a.B.argumentstructs.Erik.14,ES2003a.B.argumentstructs.Erik.13,ES2003a.A.argumentstructs.Erik.9,False,12,9,11,1,True
+ES2003a - User wishes,11,ES2003a.B.argumentstructs.Erik.15,ES2003a.A.argumentstructs.Erik.9,ES2003a.A.argumentstructs.Erik.9,True,13,11,11,2,True
+ES2003a - User wishes,12,ES2003a.A.argumentstructs.Erik.10,ES2003a.A.argumentstructs.Erik.9,ES2003a.B.argumentstructs.Erik.15,False,14,11,13,1,True
+ES2003a - User wishes,13,ES2003a.B.argumentstructs.Erik.16,ES2003a.B.argumentstructs.Erik.15,ES2003a.A.argumentstructs.Erik.10,False,15,13,14,1,True
+ES2003a - User wishes,14,ES2003a.B.argumentstructs.Erik.17,ES2003a.B.argumentstructs.Erik.16,ES2003a.B.argumentstructs.Erik.16,True,16,15,15,1,True
+ES2003b - Joystick use,0,ES2003b.A.argumentstructs.Erik.1,ROOT,NONE,NONE,0,0,0,0,False
+ES2003b - Joystick use,1,ES2003b.D.argumentstructs.Erik.1,ES2003b.A.argumentstructs.Erik.1,ES2003b.A.argumentstructs.Erik.1,True,2,0,0,2,True
+ES2003b - Joystick use,2,ES2003b.A.argumentstructs.Erik.2,ES2003b.D.argumentstructs.Erik.1,ES2003b.D.argumentstructs.Erik.1,True,3,2,2,1,True
+ES2003b - Joystick use,3,ES2003b.D.argumentstructs.Erik.2,ES2003b.A.argumentstructs.Erik.2,ES2003b.A.argumentstructs.Erik.2,True,4,3,3,1,True
+ES2003b - Joystick use,4,ES2003b.C.argumentstructs.Erik.1,ES2003b.D.argumentstructs.Erik.2,ES2003b.A.argumentstructs.Erik.2,False,6,4,3,3,True
+ES2003b - Joystick use,5,ES2003b.A.argumentstructs.Erik.3,ES2003b.A.argumentstructs.Erik.1,ES2003b.A.argumentstructs.Erik.2,False,7,0,3,4,True
+ES2003b - Joystick use,6,ES2003b.A.argumentstructs.Erik.4,ES2003b.A.argumentstructs.Erik.3,ES2003b.A.argumentstructs.Erik.3,True,9,7,7,2,True
+ES2003b - Joystick use,7,ES2003b.B.argumentstructs.Erik.1,ES2003b.A.argumentstructs.Erik.4,ES2003b.A.argumentstructs.Erik.4,True,10,9,9,1,True
+ES2003b - Joystick use,8,ES2003b.A.argumentstructs.Erik.5,ES2003b.A.argumentstructs.Erik.4,ES2003b.A.argumentstructs.Erik.4,True,11,9,9,2,True
+ES2003b - Joystick use,9,ES2003b.A.argumentstructs.Erik.6,ES2003b.A.argumentstructs.Erik.5,ES2003b.A.argumentstructs.Erik.4,False,12,11,9,3,True
+ES2003b - Joystick use,10,ES2003b.B.argumentstructs.Erik.2,ES2003b.A.argumentstructs.Erik.6,ES2003b.A.argumentstructs.Erik.6,True,13,12,12,1,True
+ES2003b - Joystick use,11,ES2003b.C.argumentstructs.Erik.2,ES2003b.B.argumentstructs.Erik.2,ES2003b.A.argumentstructs.Erik.6,False,14,13,12,2,True
+ES2003b - Joystick use,12,ES2003b.C.argumentstructs.Erik.3,ES2003b.B.argumentstructs.Erik.2,ES2003b.A.argumentstructs.Erik.6,False,15,13,12,3,True
+ES2003b - Joystick use,13,ES2003b.B.argumentstructs.Erik.3,ES2003b.C.argumentstructs.Erik.3,ES2003b.C.argumentstructs.Erik.3,True,16,15,15,1,True
+ES2003b - Joystick use,14,ES2003b.C.argumentstructs.Erik.4,ES2003b.B.argumentstructs.Erik.3,ES2003b.B.argumentstructs.Erik.3,True,17,16,16,1,True
+ES2003b - Joystick use,15,ES2003b.A.argumentstructs.Erik.7,ES2003b.C.argumentstructs.Erik.4,ES2003b.B.argumentstructs.Erik.3,False,18,17,16,2,True
+ES2003b - Joystick use,16,ES2003b.C.argumentstructs.Erik.6,ES2003b.B.argumentstructs.Erik.3,ES2003b.B.argumentstructs.Erik.3,True,20,16,16,4,True
+ES2003b - Joystick use,17,ES2003b.B.argumentstructs.Erik.4,ES2003b.C.argumentstructs.Erik.3,ES2003b.B.argumentstructs.Erik.3,False,21,15,16,5,True
+ES2003b - Joystick use,18,ES2003b.A.argumentstructs.Erik.8,ES2003b.B.argumentstructs.Erik.4,ES2003b.B.argumentstructs.Erik.4,True,22,21,21,1,True
+ES2003b - Joystick use,19,ES2003b.C.argumentstructs.Erik.7,ES2003b.A.argumentstructs.Erik.8,ES2003b.B.argumentstructs.Erik.4,False,23,22,21,2,True
+ES2003b - Joystick use,20,ES2003b.A.argumentstructs.Erik.9,ES2003b.B.argumentstructs.Erik.4,ES2003b.C.argumentstructs.Erik.3,False,26,21,15,11,False
+ES2003b - Joystick use,21,ES2003b.B.argumentstructs.Erik.5,ES2003b.A.argumentstructs.Erik.9,ES2003b.A.argumentstructs.Erik.9,True,27,26,26,1,True
+ES2003b - Remote purpose,0,ES2003b.B.argumentstructs.Erik.6,ROOT,NONE,NONE,0,0,0,0,False
+ES2003b - Remote purpose,1,ES2003b.B.argumentstructs.Erik.7,ES2003b.B.argumentstructs.Erik.6,ES2003b.B.argumentstructs.Erik.6,True,1,0,0,1,True
+ES2003b - Remote purpose,2,ES2003b.A.argumentstructs.Erik.11,ES2003b.B.argumentstructs.Erik.7,ES2003b.B.argumentstructs.Erik.7,True,3,1,1,2,True
+ES2003b - Remote purpose,3,ES2003b.D.argumentstructs.Erik.3,ES2003b.B.argumentstructs.Erik.7,ES2003b.B.argumentstructs.Erik.7,True,4,1,1,3,True
+ES2003b - Remote purpose,4,ES2003b.A.argumentstructs.Erik.12,ES2003b.D.argumentstructs.Erik.3,ES2003b.D.argumentstructs.Erik.3,True,5,4,4,1,True
+ES2003b - Remote purpose,5,ES2003b.B.argumentstructs.Erik.8,ES2003b.B.argumentstructs.Erik.7,ES2003b.B.argumentstructs.Erik.7,True,6,1,1,5,True
+ES2003b - Remote purpose,6,ES2003b.A.argumentstructs.Erik.13,ES2003b.B.argumentstructs.Erik.8,ES2003b.B.argumentstructs.Erik.8,True,7,6,6,1,True
+ES2003b - Remote purpose,7,ES2003b.A.argumentstructs.Erik.14,ES2003b.D.argumentstructs.Erik.3,ES2003b.A.argumentstructs.Erik.13,False,8,4,7,1,True
+ES2003b - Remote purpose,8,ES2003b.D.argumentstructs.Erik.4,ES2003b.B.argumentstructs.Erik.8,ES2003b.A.argumentstructs.Erik.14,False,9,6,8,1,True
+ES2003b - Remote purpose,9,ES2003b.C.argumentstructs.Erik.8,ES2003b.B.argumentstructs.Erik.8,ES2003b.B.argumentstructs.Erik.7,False,10,6,1,9,False
+ES2003b - Remote purpose,10,ES2003b.B.argumentstructs.Erik.9,ES2003b.C.argumentstructs.Erik.8,ES2003b.C.argumentstructs.Erik.8,True,12,10,10,2,True
+ES2003b - Remote purpose,11,ES2003b.B.argumentstructs.Erik.10,ES2003b.A.argumentstructs.Erik.14,ES2003b.C.argumentstructs.Erik.8,False,15,8,10,5,True
+ES2003b - Remote purpose,12,ES2003b.B.argumentstructs.Erik.11,ES2003b.C.argumentstructs.Erik.8,ES2003b.C.argumentstructs.Erik.8,True,16,10,10,6,True
+ES2003b - Remote purpose,13,ES2003b.C.argumentstructs.Erik.9,ES2003b.B.argumentstructs.Erik.10,ES2003b.B.argumentstructs.Erik.11,False,17,15,16,1,True
+ES2003b - Remote purpose,14,ES2003b.B.argumentstructs.Erik.12,ES2003b.C.argumentstructs.Erik.8,ES2003b.C.argumentstructs.Erik.8,True,19,10,10,9,True
+ES2003b - Remote purpose,15,ES2003b.B.argumentstructs.Erik.13,ES2003b.B.argumentstructs.Erik.12,ES2003b.B.argumentstructs.Erik.12,True,20,19,19,1,True
+ES2003b - Remote purpose,16,ES2003b.A.argumentstructs.Erik.15,ES2003b.B.argumentstructs.Erik.12,ES2003b.B.argumentstructs.Erik.13,False,22,19,20,2,True
+ES2003b - Remote purpose,17,ES2003b.A.argumentstructs.Erik.16,ES2003b.B.argumentstructs.Erik.12,ES2003b.B.argumentstructs.Erik.12,True,23,19,19,4,True
+ES2003b - Remote purpose,18,ES2003b.B.argumentstructs.Erik.14,ES2003b.A.argumentstructs.Erik.15,ES2003b.A.argumentstructs.Erik.16,False,24,22,23,1,True
+ES2003b - Remote purpose,19,ES2003b.A.argumentstructs.Erik.17,ES2003b.A.argumentstructs.Erik.16,ES2003b.A.argumentstructs.Erik.16,True,25,23,23,2,True
+ES2003b - Remote purpose,20,ES2003b.C.argumentstructs.Erik.10,ES2003b.A.argumentstructs.Erik.17,ES2003b.A.argumentstructs.Erik.17,True,26,25,25,1,True
+ES2003b - Remote purpose,21,ES2003b.A.argumentstructs.Erik.18,ES2003b.A.argumentstructs.Erik.16,ES2003b.B.argumentstructs.Erik.12,False,28,23,19,9,False
+ES2003b - Remote purpose,22,ES2003b.B.argumentstructs.Erik.16,ES2003b.A.argumentstructs.Erik.18,ES2003b.A.argumentstructs.Erik.18,True,29,28,28,1,True
+ES2003b - Remote purpose,23,ES2003b.B.argumentstructs.Erik.17,ES2003b.B.argumentstructs.Erik.16,ES2003b.B.argumentstructs.Erik.6,False,30,29,0,30,False
+ES2003b - Remote purpose,24,ES2003b.D.argumentstructs.Erik.5,ES2003b.B.argumentstructs.Erik.17,ES2003b.B.argumentstructs.Erik.17,True,31,30,30,1,True
+ES2003b - Remote purpose,25,ES2003b.B.argumentstructs.Erik.18,ES2003b.D.argumentstructs.Erik.5,ES2003b.B.argumentstructs.Erik.17,False,32,31,30,2,True
+ES2003b - Remote purpose,26,ES2003b.C.argumentstructs.Erik.11,ES2003b.A.argumentstructs.Erik.18,ES2003b.B.argumentstructs.Erik.17,False,33,28,30,3,True
+ES2003b - Remote purpose,27,ES2003b.B.argumentstructs.Erik.19,ES2003b.B.argumentstructs.Erik.17,ES2003b.B.argumentstructs.Erik.17,True,34,30,30,4,True
+ES2003b - Remote purpose,28,ES2003b.C.argumentstructs.Erik.12,ES2003b.B.argumentstructs.Erik.19,ES2003b.B.argumentstructs.Erik.19,True,35,34,34,1,True
+ES2003b - Remote purpose,29,ES2003b.D.argumentstructs.Erik.6,ES2003b.C.argumentstructs.Erik.12,ES2003b.B.argumentstructs.Erik.17,False,36,35,30,6,False
+ES2003b - Remote purpose,30,ES2003b.A.argumentstructs.Erik.19,ES2003b.B.argumentstructs.Erik.19,ES2003b.B.argumentstructs.Erik.17,False,37,34,30,7,False
+ES2003b - Remote purpose,31,ES2003b.C.argumentstructs.Erik.13,ES2003b.C.argumentstructs.Erik.12,ES2003b.A.argumentstructs.Erik.19,False,39,35,37,2,True
+ES2003b - Remote purpose,32,ES2003b.B.argumentstructs.Erik.20,ES2003b.A.argumentstructs.Erik.19,ES2003b.A.argumentstructs.Erik.19,True,40,37,37,3,True
+ES2003b - Remote purpose,33,ES2003b.D.argumentstructs.Erik.7,ES2003b.D.argumentstructs.Erik.6,ES2003b.A.argumentstructs.Erik.19,False,41,36,37,4,True
+ES2003b - Remote purpose,34,ES2003b.D.argumentstructs.Erik.8,ES2003b.D.argumentstructs.Erik.7,ES2003b.D.argumentstructs.Erik.7,True,43,41,41,2,True
+ES2003b - Remote purpose,35,ES2003b.B.argumentstructs.Erik.21,ES2003b.B.argumentstructs.Erik.20,ES2003b.D.argumentstructs.Erik.7,False,44,40,41,3,True
+ES2003b - Remote purpose,36,ES2003b.D.argumentstructs.Erik.9,ES2003b.B.argumentstructs.Erik.21,ES2003b.C.argumentstructs.Erik.14,False,46,44,48,2,False
+ES2003b - Remote purpose,37,ES2003b.C.argumentstructs.Erik.14,ES2003b.B.argumentstructs.Erik.21,ES2003b.D.argumentstructs.Erik.7,False,48,44,41,7,True
+ES2003b - Remote purpose,38,ES2003b.B.argumentstructs.Erik.22,ES2003b.C.argumentstructs.Erik.14,ES2003b.D.argumentstructs.Erik.7,False,49,48,41,8,True
+ES2003b - Remote purpose,39,ES2003b.C.argumentstructs.Erik.15,ES2003b.D.argumentstructs.Erik.9,ES2003b.B.argumentstructs.Erik.22,False,50,46,49,1,True
+ES2003b - Remote purpose,40,ES2003b.A.argumentstructs.Erik.20,ES2003b.B.argumentstructs.Erik.22,ES2003b.B.argumentstructs.Erik.22,True,53,49,49,4,True
+ES2003b - Remote purpose,41,ES2003b.C.argumentstructs.Erik.18,ES2003b.C.argumentstructs.Erik.15,ES2003b.B.argumentstructs.Erik.23,False,55,50,56,1,False
+ES2003b - Remote purpose,42,ES2003b.B.argumentstructs.Erik.23,ES2003b.B.argumentstructs.Erik.22,ES2003b.B.argumentstructs.Erik.6,False,56,49,0,56,False
+ES2003b - Remote purpose,43,ES2003b.A.argumentstructs.Erik.21,ES2003b.A.argumentstructs.Erik.20,ES2003b.B.argumentstructs.Erik.23,False,58,53,56,2,True
+ES2003b - Remote purpose,44,ES2003b.B.argumentstructs.Erik.24,ES2003b.B.argumentstructs.Erik.23,ES2003b.B.argumentstructs.Erik.23,True,60,56,56,4,True
+ES2003b - Remote purpose,45,ES2003b.C.argumentstructs.Erik.19,ES2003b.B.argumentstructs.Erik.24,ES2003b.B.argumentstructs.Erik.24,True,62,60,60,2,True
+ES2003c - Manufacturer codes,0,ES2003c.C.argumentstructs.Erik.4,ROOT,NONE,NONE,0,0,0,0,False
+ES2003c - Manufacturer codes,1,ES2003c.C.argumentstructs.Erik.5,ES2003c.C.argumentstructs.Erik.4,ES2003c.C.argumentstructs.Erik.4,True,2,0,0,2,True
+ES2003c - Manufacturer codes,2,ES2003c.A.argumentstructs.Erik.2,ES2003c.C.argumentstructs.Erik.4,ES2003c.C.argumentstructs.Erik.4,True,3,0,0,3,True
+ES2003c - Manufacturer codes,3,ES2003c.C.argumentstructs.Erik.6,ES2003c.A.argumentstructs.Erik.2,ES2003c.A.argumentstructs.Erik.2,True,5,3,3,2,True
+ES2003c - Manufacturer codes,4,ES2003c.A.argumentstructs.Erik.4,ES2003c.A.argumentstructs.Erik.2,ES2003c.A.argumentstructs.Erik.2,True,7,3,3,4,True
+ES2003c - Manufacturer codes,5,ES2003c.C.argumentstructs.Erik.7,ES2003c.A.argumentstructs.Erik.4,ES2003c.A.argumentstructs.Erik.4,True,9,7,7,2,True
+ES2003c - Manufacturer codes,6,ES2003c.A.argumentstructs.Erik.5,ES2003c.C.argumentstructs.Erik.7,ES2003c.C.argumentstructs.Erik.7,True,11,9,9,2,True
+ES2003c - Manufacturer codes,7,ES2003c.A.argumentstructs.Erik.7,ES2003c.A.argumentstructs.Erik.4,ES2003c.A.argumentstructs.Erik.4,True,12,7,7,5,True
+ES2003c - Manufacturer codes,8,ES2003c.B.argumentstructs.Erik.7,ES2003c.A.argumentstructs.Erik.7,ES2003c.A.argumentstructs.Erik.4,False,13,12,7,6,True
+ES2003c - Manufacturer codes,9,ES2003c.A.argumentstructs.Erik.8,ES2003c.A.argumentstructs.Erik.5,ES2003c.B.argumentstructs.Erik.7,False,14,11,13,1,True
+ES2003c - Manufacturer codes,10,ES2003c.C.argumentstructs.Erik.8,ES2003c.B.argumentstructs.Erik.7,ES2003c.A.argumentstructs.Erik.4,False,16,13,7,9,False
+ES2003c - Manufacturer codes,11,ES2003c.A.argumentstructs.Erik.9,ES2003c.C.argumentstructs.Erik.8,ES2003c.C.argumentstructs.Erik.8,True,17,16,16,1,True
+ES2003c - Manufacturer codes,12,ES2003c.C.argumentstructs.Erik.9,ES2003c.A.argumentstructs.Erik.9,ES2003c.A.argumentstructs.Erik.4,False,18,17,7,11,False
+ES2003c - Manufacturer codes,13,ES2003c.C.argumentstructs.Erik.10,ES2003c.C.argumentstructs.Erik.9,ES2003c.C.argumentstructs.Erik.9,True,19,18,18,1,True
+ES2003c - Manufacturer codes,14,ES2003c.A.argumentstructs.Erik.10,ES2003c.A.argumentstructs.Erik.9,ES2003c.C.argumentstructs.Erik.10,False,21,17,19,2,True
+ES2003c - Manufacturer codes,15,ES2003c.B.argumentstructs.Erik.8,ES2003c.C.argumentstructs.Erik.10,ES2003c.C.argumentstructs.Erik.10,True,22,19,19,3,True
+ES2003c - Manufacturer codes,16,ES2003c.C.argumentstructs.Erik.11,ES2003c.B.argumentstructs.Erik.8,ES2003c.B.argumentstructs.Erik.8,True,23,22,22,1,True
+ES2003c - Manufacturer codes,17,ES2003c.A.argumentstructs.Erik.11,ES2003c.C.argumentstructs.Erik.11,ES2003c.C.argumentstructs.Erik.10,False,24,23,19,5,True
+ES2003c - Manufacturer codes,18,ES2003c.C.argumentstructs.Erik.12,ES2003c.A.argumentstructs.Erik.11,ES2003c.A.argumentstructs.Erik.11,True,25,24,24,1,True
+ES2003c - Remote design,0,ES2003c.B.argumentstructs.Erik.15,ROOT,NONE,NONE,1,0,0,1,False
+ES2003c - Remote design,1,ES2003c.C.argumentstructs.Erik.21,ES2003c.B.argumentstructs.Erik.15,ES2003c.B.argumentstructs.Erik.15,True,2,1,1,1,True
+ES2003c - Remote design,2,ES2003c.A.argumentstructs.Erik.18,ES2003c.C.argumentstructs.Erik.21,ES2003c.D.argumentstructs.Erik.12,False,3,2,4,1,False
+ES2003c - Remote design,3,ES2003c.D.argumentstructs.Erik.12,ES2003c.B.argumentstructs.Erik.15,ES2003c.B.argumentstructs.Erik.15,True,4,1,1,3,True
+ES2003c - Remote design,4,ES2003c.C.argumentstructs.Erik.22,ES2003c.D.argumentstructs.Erik.12,ES2003c.B.argumentstructs.Erik.15,False,5,4,1,4,True
+ES2003c - Remote design,5,ES2003c.C.argumentstructs.Erik.23,ES2003c.C.argumentstructs.Erik.22,ES2003c.C.argumentstructs.Erik.22,True,6,5,5,1,True
+ES2003c - Remote design,6,ES2003c.A.argumentstructs.Erik.19,ES2003c.A.argumentstructs.Erik.18,ES2003c.C.argumentstructs.Erik.23,False,8,3,6,2,True
+ES2003c - Remote design,7,ES2003c.B.argumentstructs.Erik.16,ES2003c.A.argumentstructs.Erik.19,ES2003c.C.argumentstructs.Erik.23,False,9,8,6,3,True
+ES2003c - Remote design,8,ES2003c.A.argumentstructs.Erik.20,ES2003c.C.argumentstructs.Erik.22,ES2003c.B.argumentstructs.Erik.15,False,10,5,1,9,False
+ES2003c - Remote design,9,ES2003c.A.argumentstructs.Erik.21,ES2003c.A.argumentstructs.Erik.20,ES2003c.B.argumentstructs.Erik.15,False,11,10,1,10,False
+ES2003c - Remote design,10,ES2003c.B.argumentstructs.Erik.17,ES2003c.A.argumentstructs.Erik.21,ES2003c.A.argumentstructs.Erik.21,True,12,11,11,1,True
+ES2003c - Remote design,11,ES2003c.C.argumentstructs.Erik.24,ES2003c.B.argumentstructs.Erik.17,ES2003c.B.argumentstructs.Erik.17,True,13,12,12,1,True
+ES2003c - Remote design,12,ES2003c.A.argumentstructs.Erik.22,ES2003c.A.argumentstructs.Erik.21,ES2003c.B.argumentstructs.Erik.17,False,15,11,12,3,True
+ES2003c - Remote design,13,ES2003c.C.argumentstructs.Erik.25,ES2003c.C.argumentstructs.Erik.24,ES2003c.A.argumentstructs.Erik.22,False,16,13,15,1,True
+ES2003c - Remote design,14,ES2003c.A.argumentstructs.Erik.23,ES2003c.A.argumentstructs.Erik.22,ES2003c.A.argumentstructs.Erik.22,True,17,15,15,2,True
+ES2003c - Remote design,15,ES2003c.C.argumentstructs.Erik.26,ES2003c.A.argumentstructs.Erik.22,ES2003c.A.argumentstructs.Erik.22,True,18,15,15,3,True
+ES2003c - Remote design,16,ES2003c.A.argumentstructs.Erik.24,ES2003c.C.argumentstructs.Erik.26,ES2003c.B.argumentstructs.Erik.18,False,19,18,20,1,False
+ES2003c - Remote design,17,ES2003c.B.argumentstructs.Erik.18,ES2003c.C.argumentstructs.Erik.26,ES2003c.C.argumentstructs.Erik.26,True,20,18,18,2,True
+ES2003c - Remote design,18,ES2003c.B.argumentstructs.Erik.19,ES2003c.B.argumentstructs.Erik.18,ES2003c.B.argumentstructs.Erik.18,True,21,20,20,1,True
+ES2003c - Remote design,19,ES2003c.A.argumentstructs.Erik.25,ES2003c.A.argumentstructs.Erik.24,ES2003c.B.argumentstructs.Erik.19,False,22,19,21,1,True
+ES2003c - Remote design,20,ES2003c.A.argumentstructs.Erik.26,ES2003c.B.argumentstructs.Erik.19,ES2003c.B.argumentstructs.Erik.19,True,23,21,21,2,True
+ES2003c - Remote design,21,ES2003c.B.argumentstructs.Erik.20,ES2003c.B.argumentstructs.Erik.19,ES2003c.A.argumentstructs.Erik.26,False,24,21,23,1,True
+ES2003c - Remote design,22,ES2003c.C.argumentstructs.Erik.27,ES2003c.B.argumentstructs.Erik.20,ES2003c.A.argumentstructs.Erik.26,False,25,24,23,2,True
+ES2003c - Three types of batteries,0,ES2003c.D.argumentstructs.Erik.1,ROOT,NONE,NONE,0,0,0,0,False
+ES2003c - Three types of batteries,1,ES2003c.B.argumentstructs.Erik.1,ES2003c.D.argumentstructs.Erik.1,ES2003c.D.argumentstructs.Erik.1,True,1,0,0,1,True
+ES2003c - Three types of batteries,2,ES2003c.B.argumentstructs.Erik.2,ES2003c.D.argumentstructs.Erik.1,ES2003c.D.argumentstructs.Erik.1,True,3,0,0,3,True
+ES2003c - Three types of batteries,3,ES2003c.C.argumentstructs.Erik.1,ES2003c.B.argumentstructs.Erik.2,ES2003c.B.argumentstructs.Erik.3,False,5,3,7,2,False
+ES2003c - Three types of batteries,4,ES2003c.D.argumentstructs.Erik.2,ES2003c.C.argumentstructs.Erik.1,ES2003c.B.argumentstructs.Erik.3,False,6,5,7,1,False
+ES2003c - Three types of batteries,5,ES2003c.B.argumentstructs.Erik.3,ES2003c.D.argumentstructs.Erik.1,ES2003c.B.argumentstructs.Erik.2,False,7,0,3,4,True
+ES2003c - Three types of batteries,6,ES2003c.A.argumentstructs.Erik.1,ES2003c.B.argumentstructs.Erik.3,ES2003c.B.argumentstructs.Erik.3,True,9,7,7,2,True
+ES2003c - Three types of batteries,7,ES2003c.B.argumentstructs.Erik.4,ES2003c.B.argumentstructs.Erik.3,ES2003c.A.argumentstructs.Erik.1,False,10,7,9,1,True
+ES2003c - Three types of batteries,8,ES2003c.D.argumentstructs.Erik.3,ES2003c.B.argumentstructs.Erik.4,ES2003c.B.argumentstructs.Erik.4,True,13,10,10,3,True
+ES2003c - Three types of batteries,9,ES2003c.C.argumentstructs.Erik.2,ES2003c.D.argumentstructs.Erik.3,ES2003c.B.argumentstructs.Erik.4,False,14,13,10,4,True
+ES2003c - Three types of batteries,10,ES2003c.D.argumentstructs.Erik.4,ES2003c.D.argumentstructs.Erik.3,ES2003c.D.argumentstructs.Erik.1,False,16,13,0,16,False
+ES2003c - Three types of batteries,11,ES2003c.C.argumentstructs.Erik.3,ES2003c.D.argumentstructs.Erik.4,ES2003c.D.argumentstructs.Erik.4,True,17,16,16,1,True
+ES2003c - Three types of batteries,12,ES2003c.D.argumentstructs.Erik.5,ES2003c.D.argumentstructs.Erik.4,ES2003c.D.argumentstructs.Erik.1,False,19,16,0,19,False
+ES2003c - Three types of batteries,13,ES2003c.D.argumentstructs.Erik.6,ES2003c.D.argumentstructs.Erik.5,ES2003c.D.argumentstructs.Erik.5,True,21,19,19,2,True
+ES2003c - Three types of batteries,14,ES2003c.B.argumentstructs.Erik.5,ES2003c.D.argumentstructs.Erik.5,ES2003c.D.argumentstructs.Erik.5,True,22,19,19,3,True
+ES2003c - Three types of batteries,15,ES2003c.D.argumentstructs.Erik.7,ES2003c.B.argumentstructs.Erik.5,ES2003c.B.argumentstructs.Erik.5,True,24,22,22,2,True
+ES2003c - USB functionality,0,ES2003c.D.argumentstructs.Erik.8,ROOT,NONE,NONE,0,0,0,0,False
+ES2003c - USB functionality,1,ES2003c.C.argumentstructs.Erik.13,ES2003c.D.argumentstructs.Erik.8,ES2003c.D.argumentstructs.Erik.8,True,1,0,0,1,True
+ES2003c - USB functionality,2,ES2003c.B.argumentstructs.Erik.9,ES2003c.C.argumentstructs.Erik.13,ES2003c.C.argumentstructs.Erik.13,True,2,1,1,1,True
+ES2003c - USB functionality,3,ES2003c.D.argumentstructs.Erik.9,ES2003c.C.argumentstructs.Erik.13,ES2003c.B.argumentstructs.Erik.9,False,3,1,2,1,True
+ES2003c - USB functionality,4,ES2003c.C.argumentstructs.Erik.14,ES2003c.C.argumentstructs.Erik.13,ES2003c.B.argumentstructs.Erik.9,False,4,1,2,2,True
+ES2003c - USB functionality,5,ES2003c.D.argumentstructs.Erik.10,ES2003c.C.argumentstructs.Erik.13,ES2003c.C.argumentstructs.Erik.14,False,6,1,4,2,True
+ES2003c - USB functionality,6,ES2003c.B.argumentstructs.Erik.10,ES2003c.D.argumentstructs.Erik.10,ES2003c.D.argumentstructs.Erik.10,True,7,6,6,1,True
+ES2003c - USB functionality,7,ES2003c.D.argumentstructs.Erik.11,ES2003c.B.argumentstructs.Erik.10,ES2003c.B.argumentstructs.Erik.11,False,9,7,10,1,False
+ES2003c - USB functionality,8,ES2003c.B.argumentstructs.Erik.11,ES2003c.B.argumentstructs.Erik.10,ES2003c.B.argumentstructs.Erik.10,True,10,7,7,3,True
+ES2003c - USB functionality,9,ES2003c.A.argumentstructs.Erik.12,ES2003c.B.argumentstructs.Erik.11,ES2003c.B.argumentstructs.Erik.11,True,11,10,10,1,True
+ES2003c - USB functionality,10,ES2003c.C.argumentstructs.Erik.15,ES2003c.B.argumentstructs.Erik.10,ES2003c.B.argumentstructs.Erik.10,True,12,7,7,5,True
+ES2003c - USB functionality,11,ES2003c.A.argumentstructs.Erik.13,ES2003c.C.argumentstructs.Erik.15,ES2003c.C.argumentstructs.Erik.15,True,14,12,12,2,True
+ES2003c - USB functionality,12,ES2003c.A.argumentstructs.Erik.14,ES2003c.C.argumentstructs.Erik.15,ES2003c.C.argumentstructs.Erik.15,True,15,12,12,3,True
+ES2003c - USB functionality,13,ES2003c.C.argumentstructs.Erik.16,ES2003c.C.argumentstructs.Erik.15,ES2003c.A.argumentstructs.Erik.14,False,16,12,15,1,True
+ES2003c - USB functionality,14,ES2003c.C.argumentstructs.Erik.17,ES2003c.C.argumentstructs.Erik.16,ES2003c.A.argumentstructs.Erik.14,False,17,16,15,2,True
+ES2003c - USB functionality,15,ES2003c.B.argumentstructs.Erik.12,ES2003c.C.argumentstructs.Erik.17,ES2003c.C.argumentstructs.Erik.17,True,18,17,17,1,True
+ES2003c - USB functionality,16,ES2003c.A.argumentstructs.Erik.15,ES2003c.B.argumentstructs.Erik.12,ES2003c.C.argumentstructs.Erik.17,False,19,18,17,2,True
+ES2003c - USB functionality,17,ES2003c.A.argumentstructs.Erik.16,ES2003c.A.argumentstructs.Erik.14,ES2003c.A.argumentstructs.Erik.14,True,21,15,15,6,True
+ES2003c - USB functionality,18,ES2003c.C.argumentstructs.Erik.18,ES2003c.C.argumentstructs.Erik.17,ES2003c.A.argumentstructs.Erik.16,False,22,17,21,1,True
+ES2003c - USB functionality,19,ES2003c.B.argumentstructs.Erik.13,ES2003c.C.argumentstructs.Erik.18,ES2003c.A.argumentstructs.Erik.16,False,23,22,21,2,True
+ES2003c - USB functionality,20,ES2003c.C.argumentstructs.Erik.19,ES2003c.B.argumentstructs.Erik.13,ES2003c.A.argumentstructs.Erik.16,False,24,23,21,3,True
+ES2003c - USB functionality,21,ES2003c.C.argumentstructs.Erik.20,ES2003c.C.argumentstructs.Erik.19,ES2003c.A.argumentstructs.Erik.16,False,25,24,21,4,True
+ES2003c - USB functionality,22,ES2003c.B.argumentstructs.Erik.14,ES2003c.C.argumentstructs.Erik.18,ES2003c.C.argumentstructs.Erik.18,True,26,22,22,4,True
+ES2003c - USB functionality,23,ES2003c.A.argumentstructs.Erik.17,ES2003c.B.argumentstructs.Erik.14,ES2003c.B.argumentstructs.Erik.14,True,27,26,26,1,True
+ES2003d - Fashion score,0,ES2003d.C.argumentstructs.Erik.58,ROOT,NONE,NONE,0,0,0,0,False
+ES2003d - Fashion score,1,ES2003d.C.argumentstructs.Erik.59,ES2003d.C.argumentstructs.Erik.58,ES2003d.C.argumentstructs.Erik.58,True,1,0,0,1,True
+ES2003d - Fashion score,2,ES2003d.D.argumentstructs.Erik.19,ES2003d.C.argumentstructs.Erik.59,ES2003d.C.argumentstructs.Erik.59,True,2,1,1,1,True
+ES2003d - Fashion score,3,ES2003d.A.argumentstructs.Erik.23,ES2003d.C.argumentstructs.Erik.59,ES2003d.C.argumentstructs.Erik.59,True,3,1,1,2,True
+ES2003d - Fashion score,4,ES2003d.A.argumentstructs.Erik.24,ES2003d.C.argumentstructs.Erik.59,ES2003d.C.argumentstructs.Erik.59,True,4,1,1,3,True
+ES2003d - Fashion score,5,ES2003d.C.argumentstructs.Erik.60,ES2003d.A.argumentstructs.Erik.24,ES2003d.A.argumentstructs.Erik.26,False,5,4,7,2,False
+ES2003d - Fashion score,6,ES2003d.A.argumentstructs.Erik.25,ES2003d.C.argumentstructs.Erik.59,ES2003d.C.argumentstructs.Erik.59,True,6,1,1,5,True
+ES2003d - Fashion score,7,ES2003d.A.argumentstructs.Erik.26,ES2003d.D.argumentstructs.Erik.19,ES2003d.D.argumentstructs.Erik.19,True,7,2,2,5,True
+ES2003d - Fashion score,8,ES2003d.D.argumentstructs.Erik.20,ES2003d.A.argumentstructs.Erik.24,ES2003d.C.argumentstructs.Erik.59,False,8,4,1,7,False
+ES2003d - Fashion score,9,ES2003d.C.argumentstructs.Erik.61,ES2003d.D.argumentstructs.Erik.20,ES2003d.D.argumentstructs.Erik.20,True,9,8,8,1,True
+ES2003d - Fashion score,10,ES2003d.B.argumentstructs.Erik.50,ES2003d.A.argumentstructs.Erik.26,ES2003d.C.argumentstructs.Erik.59,False,10,7,1,9,False
+ES2003d - Fashion score,11,ES2003d.D.argumentstructs.Erik.21,ES2003d.D.argumentstructs.Erik.20,ES2003d.B.argumentstructs.Erik.51,False,11,8,15,4,False
+ES2003d - Fashion score,12,ES2003d.C.argumentstructs.Erik.62,ES2003d.C.argumentstructs.Erik.61,ES2003d.D.argumentstructs.Erik.21,False,12,9,11,1,True
+ES2003d - Fashion score,13,ES2003d.D.argumentstructs.Erik.22,ES2003d.C.argumentstructs.Erik.62,ES2003d.C.argumentstructs.Erik.62,True,13,12,12,1,True
+ES2003d - Fashion score,14,ES2003d.B.argumentstructs.Erik.51,ES2003d.B.argumentstructs.Erik.50,ES2003d.B.argumentstructs.Erik.50,True,15,10,10,5,True
+ES2003d - Fashion score,15,ES2003d.C.argumentstructs.Erik.63,ES2003d.B.argumentstructs.Erik.50,ES2003d.B.argumentstructs.Erik.50,True,16,10,10,6,True
+ES2003d - Fashion score,16,ES2003d.C.argumentstructs.Erik.64,ES2003d.C.argumentstructs.Erik.63,ES2003d.C.argumentstructs.Erik.63,True,17,16,16,1,True
+ES2003d - Fashion score,17,ES2003d.B.argumentstructs.Erik.52,ES2003d.C.argumentstructs.Erik.64,ES2003d.C.argumentstructs.Erik.63,False,18,17,16,2,True
+ES2003d - Fashion score,18,ES2003d.A.argumentstructs.Erik.27,ES2003d.B.argumentstructs.Erik.52,ES2003d.C.argumentstructs.Erik.64,False,20,18,17,3,True
+ES2003d - Fashion score,19,ES2003d.C.argumentstructs.Erik.65,ES2003d.C.argumentstructs.Erik.64,ES2003d.A.argumentstructs.Erik.27,False,21,17,20,1,True
+ES2003d - Fashion score,20,ES2003d.C.argumentstructs.Erik.66,ES2003d.C.argumentstructs.Erik.65,ES2003d.C.argumentstructs.Erik.65,True,22,21,21,1,True
+ES2003d - Fashion score,21,ES2003d.A.argumentstructs.Erik.28,ES2003d.C.argumentstructs.Erik.66,ES2003d.C.argumentstructs.Erik.63,False,23,22,16,7,False
+ES2003d - Fashion score,22,ES2003d.C.argumentstructs.Erik.67,ES2003d.A.argumentstructs.Erik.28,ES2003d.A.argumentstructs.Erik.28,True,24,23,23,1,True
+ES2003d - Fashion score,23,ES2003d.B.argumentstructs.Erik.53,ES2003d.A.argumentstructs.Erik.28,ES2003d.A.argumentstructs.Erik.28,True,27,23,23,4,True
+ES2003d - Fashion score,24,ES2003d.C.argumentstructs.Erik.68,ES2003d.B.argumentstructs.Erik.53,ES2003d.B.argumentstructs.Erik.53,True,28,27,27,1,True
+ES2003d - Fashion score,25,ES2003d.B.argumentstructs.Erik.54,ES2003d.B.argumentstructs.Erik.53,ES2003d.C.argumentstructs.Erik.68,False,29,27,28,1,True
+ES2003d - Fashion score,26,ES2003d.A.argumentstructs.Erik.29,ES2003d.B.argumentstructs.Erik.54,ES2003d.B.argumentstructs.Erik.54,True,30,29,29,1,True
+ES2003d - Fashion score,27,ES2003d.C.argumentstructs.Erik.69,ES2003d.A.argumentstructs.Erik.29,ES2003d.A.argumentstructs.Erik.29,True,31,30,30,1,True
+ES2003d - Fashion score,28,ES2003d.D.argumentstructs.Erik.24,ES2003d.A.argumentstructs.Erik.29,ES2003d.A.argumentstructs.Erik.29,True,34,30,30,4,True
+ES2003d - Fashion score,29,ES2003d.C.argumentstructs.Erik.70,ES2003d.D.argumentstructs.Erik.24,ES2003d.D.argumentstructs.Erik.24,True,35,34,34,1,True
+ES2003d - Fashion score,30,ES2003d.C.argumentstructs.Erik.71,ES2003d.C.argumentstructs.Erik.70,ES2003d.D.argumentstructs.Erik.24,False,36,35,34,2,True
+ES2003d - Fashion score,31,ES2003d.B.argumentstructs.Erik.55,ES2003d.C.argumentstructs.Erik.71,ES2003d.C.argumentstructs.Erik.71,True,37,36,36,1,True
+ES2003d - Fashion score,32,ES2003d.C.argumentstructs.Erik.72,ES2003d.B.argumentstructs.Erik.55,ES2003d.B.argumentstructs.Erik.55,True,38,37,37,1,True
+ES2003d - Fashion score,33,ES2003d.B.argumentstructs.Erik.56,ES2003d.B.argumentstructs.Erik.55,ES2003d.D.argumentstructs.Erik.24,False,39,37,34,5,True
+ES2003d - Fashion score,34,ES2003d.C.argumentstructs.Erik.73,ES2003d.B.argumentstructs.Erik.56,ES2003d.B.argumentstructs.Erik.56,True,40,39,39,1,True
+ES2003d - Fashion score,35,ES2003d.B.argumentstructs.Erik.57,ES2003d.B.argumentstructs.Erik.56,ES2003d.C.argumentstructs.Erik.73,False,41,39,40,1,True
+ES2003d - Fashion score,36,ES2003d.C.argumentstructs.Erik.74,ES2003d.B.argumentstructs.Erik.57,ES2003d.B.argumentstructs.Erik.57,True,42,41,41,1,True
+ES2003d - Fashion score,37,ES2003d.B.argumentstructs.Erik.58,ES2003d.B.argumentstructs.Erik.57,ES2003d.C.argumentstructs.Erik.73,False,43,41,40,3,True
+ES2003d - Fashion score,38,ES2003d.D.argumentstructs.Erik.25,ES2003d.C.argumentstructs.Erik.74,ES2003d.C.argumentstructs.Erik.74,True,44,42,42,2,True
+ES2003d - Fashion score,39,ES2003d.C.argumentstructs.Erik.75,ES2003d.D.argumentstructs.Erik.25,ES2003d.C.argumentstructs.Erik.74,False,45,44,42,3,True
+ES2003d - Fashion score,40,ES2003d.C.argumentstructs.Erik.76,ES2003d.C.argumentstructs.Erik.75,ES2003d.B.argumentstructs.Erik.58,False,46,45,43,3,True
+ES2003d - Innovation score,0,ES2003d.C.argumentstructs.Erik.52,ROOT,NONE,NONE,1,0,0,1,False
+ES2003d - Innovation score,1,ES2003d.B.argumentstructs.Erik.48,ES2003d.C.argumentstructs.Erik.52,ES2003d.C.argumentstructs.Erik.52,True,2,1,1,1,True
+ES2003d - Innovation score,2,ES2003d.A.argumentstructs.Erik.19,ES2003d.B.argumentstructs.Erik.48,ES2003d.C.argumentstructs.Erik.52,False,3,2,1,2,True
+ES2003d - Innovation score,3,ES2003d.D.argumentstructs.Erik.18,ES2003d.B.argumentstructs.Erik.48,ES2003d.C.argumentstructs.Erik.52,False,4,2,1,3,True
+ES2003d - Innovation score,4,ES2003d.A.argumentstructs.Erik.20,ES2003d.C.argumentstructs.Erik.52,ES2003d.A.argumentstructs.Erik.19,False,6,1,3,3,True
+ES2003d - Innovation score,5,ES2003d.C.argumentstructs.Erik.53,ES2003d.A.argumentstructs.Erik.20,ES2003d.D.argumentstructs.Erik.18,False,7,6,4,3,True
+ES2003d - Innovation score,6,ES2003d.C.argumentstructs.Erik.54,ES2003d.A.argumentstructs.Erik.20,ES2003d.A.argumentstructs.Erik.20,True,8,6,6,2,True
+ES2003d - Innovation score,7,ES2003d.A.argumentstructs.Erik.21,ES2003d.A.argumentstructs.Erik.20,ES2003d.C.argumentstructs.Erik.54,False,10,6,8,2,True
+ES2003d - Innovation score,8,ES2003d.C.argumentstructs.Erik.55,ES2003d.A.argumentstructs.Erik.21,ES2003d.C.argumentstructs.Erik.52,False,11,10,1,10,False
+ES2003d - Innovation score,9,ES2003d.A.argumentstructs.Erik.22,ES2003d.C.argumentstructs.Erik.55,ES2003d.C.argumentstructs.Erik.55,True,12,11,11,1,True
+ES2003d - Innovation score,10,ES2003d.B.argumentstructs.Erik.49,ES2003d.A.argumentstructs.Erik.22,ES2003d.C.argumentstructs.Erik.55,False,13,12,11,2,True
+ES2003d - Innovation score,11,ES2003d.C.argumentstructs.Erik.56,ES2003d.C.argumentstructs.Erik.55,ES2003d.B.argumentstructs.Erik.49,False,14,11,13,1,True
+ES2003d - Innovation score,12,ES2003d.C.argumentstructs.Erik.57,ES2003d.C.argumentstructs.Erik.56,ES2003d.C.argumentstructs.Erik.56,True,15,14,14,1,True
+ES2003d - Lost remote score,0,ES2003d.C.argumentstructs.Erik.1,ROOT,NONE,NONE,1,0,0,1,False
+ES2003d - Lost remote score,1,ES2003d.A.argumentstructs.Erik.1,ES2003d.C.argumentstructs.Erik.1,ES2003d.C.argumentstructs.Erik.1,True,2,1,1,1,True
+ES2003d - Lost remote score,2,ES2003d.C.argumentstructs.Erik.2,ES2003d.A.argumentstructs.Erik.1,ES2003d.C.argumentstructs.Erik.1,False,3,2,1,2,True
+ES2003d - Lost remote score,3,ES2003d.C.argumentstructs.Erik.3,ES2003d.A.argumentstructs.Erik.1,ES2003d.C.argumentstructs.Erik.1,False,4,2,1,3,True
+ES2003d - Lost remote score,4,ES2003d.B.argumentstructs.Erik.1,ES2003d.A.argumentstructs.Erik.1,ES2003d.C.argumentstructs.Erik.3,False,5,2,4,1,True
+ES2003d - Lost remote score,5,ES2003d.B.argumentstructs.Erik.2,ES2003d.C.argumentstructs.Erik.1,ES2003d.B.argumentstructs.Erik.1,False,6,1,5,1,True
+ES2003d - Lost remote score,6,ES2003d.C.argumentstructs.Erik.4,ES2003d.B.argumentstructs.Erik.2,ES2003d.B.argumentstructs.Erik.2,True,7,6,6,1,True
+ES2003d - Lost remote score,7,ES2003d.A.argumentstructs.Erik.2,ES2003d.B.argumentstructs.Erik.2,ES2003d.B.argumentstructs.Erik.2,True,10,6,6,4,True
+ES2003d - Lost remote score,8,ES2003d.C.argumentstructs.Erik.5,ES2003d.A.argumentstructs.Erik.2,ES2003d.A.argumentstructs.Erik.2,True,11,10,10,1,True
+ES2003d - Lost remote score,9,ES2003d.C.argumentstructs.Erik.6,ES2003d.B.argumentstructs.Erik.1,ES2003d.B.argumentstructs.Erik.2,False,12,5,6,6,True
+ES2003d - Lost remote score,10,ES2003d.C.argumentstructs.Erik.7,ES2003d.B.argumentstructs.Erik.2,ES2003d.C.argumentstructs.Erik.1,False,14,6,1,13,False
+ES2003d - Lost remote score,11,ES2003d.A.argumentstructs.Erik.3,ES2003d.C.argumentstructs.Erik.7,ES2003d.C.argumentstructs.Erik.7,True,15,14,14,1,True
+ES2003d - Lost remote score,12,ES2003d.C.argumentstructs.Erik.8,ES2003d.A.argumentstructs.Erik.3,ES2003d.A.argumentstructs.Erik.3,True,16,15,15,1,True
+ES2003d - Lost remote score,13,ES2003d.D.argumentstructs.Erik.1,ES2003d.A.argumentstructs.Erik.3,ES2003d.A.argumentstructs.Erik.3,True,17,15,15,2,True
+ES2003d - Lost remote score,14,ES2003d.A.argumentstructs.Erik.4,ES2003d.C.argumentstructs.Erik.7,ES2003d.C.argumentstructs.Erik.1,False,18,14,1,17,False
+ES2003d - Lost remote score,15,ES2003d.C.argumentstructs.Erik.9,ES2003d.A.argumentstructs.Erik.4,ES2003d.A.argumentstructs.Erik.4,True,19,18,18,1,True
+ES2003d - Lost remote score,16,ES2003d.D.argumentstructs.Erik.2,ES2003d.A.argumentstructs.Erik.4,ES2003d.C.argumentstructs.Erik.1,False,20,18,1,19,False
+ES2003d - Lost remote score,17,ES2003d.D.argumentstructs.Erik.3,ES2003d.D.argumentstructs.Erik.2,ES2003d.D.argumentstructs.Erik.2,True,22,20,20,2,True
+ES2003d - Lost remote score,18,ES2003d.C.argumentstructs.Erik.10,ES2003d.D.argumentstructs.Erik.3,ES2003d.D.argumentstructs.Erik.3,True,23,22,22,1,True
+ES2003d - Lost remote score,19,ES2003d.A.argumentstructs.Erik.5,ES2003d.C.argumentstructs.Erik.10,ES2003d.D.argumentstructs.Erik.3,False,24,23,22,2,True
+ES2003d - Lost remote score,20,ES2003d.B.argumentstructs.Erik.3,ES2003d.D.argumentstructs.Erik.3,ES2003d.D.argumentstructs.Erik.3,True,25,22,22,3,True
+ES2003d - Lost remote score,21,ES2003d.D.argumentstructs.Erik.4,ES2003d.D.argumentstructs.Erik.2,ES2003d.D.argumentstructs.Erik.3,False,27,20,22,5,True
+ES2003d - Lost remote score,22,ES2003d.C.argumentstructs.Erik.11,ES2003d.D.argumentstructs.Erik.3,ES2003d.D.argumentstructs.Erik.4,False,29,22,27,2,True
+ES2003d - Remote cost,0,ES2003d.B.argumentstructs.Erik.4,ROOT,NONE,NONE,1,0,0,1,False
+ES2003d - Remote cost,1,ES2003d.B.argumentstructs.Erik.5,ES2003d.B.argumentstructs.Erik.4,ES2003d.B.argumentstructs.Erik.4,True,2,1,1,1,True
+ES2003d - Remote cost,2,ES2003d.B.argumentstructs.Erik.6,ES2003d.B.argumentstructs.Erik.5,ES2003d.B.argumentstructs.Erik.4,False,3,2,1,2,True
+ES2003d - Remote cost,3,ES2003d.C.argumentstructs.Erik.12,ES2003d.B.argumentstructs.Erik.6,ES2003d.B.argumentstructs.Erik.6,True,4,3,3,1,True
+ES2003d - Remote cost,4,ES2003d.B.argumentstructs.Erik.7,ES2003d.C.argumentstructs.Erik.12,ES2003d.C.argumentstructs.Erik.12,True,5,4,4,1,True
+ES2003d - Remote cost,5,ES2003d.C.argumentstructs.Erik.13,ES2003d.B.argumentstructs.Erik.7,ES2003d.B.argumentstructs.Erik.8,False,6,5,7,1,False
+ES2003d - Remote cost,6,ES2003d.B.argumentstructs.Erik.8,ES2003d.B.argumentstructs.Erik.7,ES2003d.B.argumentstructs.Erik.4,False,7,5,1,6,False
+ES2003d - Remote cost,7,ES2003d.B.argumentstructs.Erik.9,ES2003d.B.argumentstructs.Erik.8,ES2003d.B.argumentstructs.Erik.8,True,9,7,7,2,True
+ES2003d - Remote cost,8,ES2003d.A.argumentstructs.Erik.6,ES2003d.B.argumentstructs.Erik.9,ES2003d.B.argumentstructs.Erik.9,True,10,9,9,1,True
+ES2003d - Remote cost,9,ES2003d.B.argumentstructs.Erik.10,ES2003d.B.argumentstructs.Erik.9,ES2003d.A.argumentstructs.Erik.6,False,11,9,10,1,True
+ES2003d - Remote cost,10,ES2003d.C.argumentstructs.Erik.14,ES2003d.B.argumentstructs.Erik.10,ES2003d.A.argumentstructs.Erik.6,False,12,11,10,2,True
+ES2003d - Remote cost,11,ES2003d.B.argumentstructs.Erik.11,ES2003d.B.argumentstructs.Erik.9,ES2003d.B.argumentstructs.Erik.9,True,13,9,9,4,True
+ES2003d - Remote cost,12,ES2003d.A.argumentstructs.Erik.7,ES2003d.B.argumentstructs.Erik.11,ES2003d.B.argumentstructs.Erik.11,True,15,13,13,2,True
+ES2003d - Remote cost,13,ES2003d.C.argumentstructs.Erik.15,ES2003d.B.argumentstructs.Erik.11,ES2003d.B.argumentstructs.Erik.4,False,16,13,1,15,False
+ES2003d - Remote cost,14,ES2003d.B.argumentstructs.Erik.12,ES2003d.C.argumentstructs.Erik.15,ES2003d.C.argumentstructs.Erik.15,True,17,16,16,1,True
+ES2003d - Remote cost,15,ES2003d.C.argumentstructs.Erik.16,ES2003d.B.argumentstructs.Erik.12,ES2003d.B.argumentstructs.Erik.12,True,19,17,17,2,True
+ES2003d - Remote cost,16,ES2003d.B.argumentstructs.Erik.13,ES2003d.B.argumentstructs.Erik.12,ES2003d.B.argumentstructs.Erik.4,False,21,17,1,20,False
+ES2003d - Remote cost,17,ES2003d.B.argumentstructs.Erik.14,ES2003d.B.argumentstructs.Erik.13,ES2003d.B.argumentstructs.Erik.4,False,22,21,1,21,False
+ES2003d - Remote cost,18,ES2003d.B.argumentstructs.Erik.15,ES2003d.B.argumentstructs.Erik.14,ES2003d.B.argumentstructs.Erik.14,True,23,22,22,1,True
+ES2003d - Remote cost,19,ES2003d.C.argumentstructs.Erik.17,ES2003d.B.argumentstructs.Erik.15,ES2003d.B.argumentstructs.Erik.15,True,24,23,23,1,True
+ES2003d - Remote cost,20,ES2003d.C.argumentstructs.Erik.18,ES2003d.C.argumentstructs.Erik.17,ES2003d.B.argumentstructs.Erik.15,False,25,24,23,2,True
+ES2003d - Remote cost,21,ES2003d.B.argumentstructs.Erik.16,ES2003d.C.argumentstructs.Erik.17,ES2003d.C.argumentstructs.Erik.17,True,27,24,24,3,True
+ES2003d - Remote cost,22,ES2003d.A.argumentstructs.Erik.8,ES2003d.C.argumentstructs.Erik.18,ES2003d.B.argumentstructs.Erik.16,False,30,25,27,3,True
+ES2003d - Remote cost,23,ES2003d.B.argumentstructs.Erik.17,ES2003d.B.argumentstructs.Erik.15,ES2003d.B.argumentstructs.Erik.15,True,31,23,23,8,True
+ES2003d - Remote cost,24,ES2003d.C.argumentstructs.Erik.19,ES2003d.B.argumentstructs.Erik.17,ES2003d.B.argumentstructs.Erik.17,True,32,31,31,1,True
+ES2003d - Remote cost,25,ES2003d.C.argumentstructs.Erik.20,ES2003d.B.argumentstructs.Erik.17,ES2003d.B.argumentstructs.Erik.17,True,33,31,31,2,True
+ES2003d - Remote cost,26,ES2003d.B.argumentstructs.Erik.18,ES2003d.C.argumentstructs.Erik.20,ES2003d.C.argumentstructs.Erik.20,True,35,33,33,2,True
+ES2003d - Remote cost,27,ES2003d.C.argumentstructs.Erik.21,ES2003d.C.argumentstructs.Erik.20,ES2003d.B.argumentstructs.Erik.17,False,36,33,31,5,True
+ES2003d - Remote cost,28,ES2003d.B.argumentstructs.Erik.19,ES2003d.C.argumentstructs.Erik.21,ES2003d.C.argumentstructs.Erik.21,True,37,36,36,1,True
+ES2003d - Remote cost,29,ES2003d.C.argumentstructs.Erik.22,ES2003d.B.argumentstructs.Erik.19,ES2003d.B.argumentstructs.Erik.19,True,38,37,37,1,True
+ES2003d - Remote cost,30,ES2003d.D.argumentstructs.Erik.5,ES2003d.C.argumentstructs.Erik.21,ES2003d.C.argumentstructs.Erik.21,True,39,36,36,3,True
+ES2003d - Remote cost,31,ES2003d.B.argumentstructs.Erik.20,ES2003d.B.argumentstructs.Erik.19,ES2003d.C.argumentstructs.Erik.21,False,41,37,36,5,True
+ES2003d - Remote cost,32,ES2003d.B.argumentstructs.Erik.21,ES2003d.B.argumentstructs.Erik.20,ES2003d.C.argumentstructs.Erik.21,False,43,41,36,7,True
+ES2003d - Remote cost,33,ES2003d.C.argumentstructs.Erik.23,ES2003d.B.argumentstructs.Erik.21,ES2003d.C.argumentstructs.Erik.21,False,44,43,36,8,False
+ES2003d - Remote cost,34,ES2003d.B.argumentstructs.Erik.22,ES2003d.C.argumentstructs.Erik.23,ES2003d.C.argumentstructs.Erik.23,True,45,44,44,1,True
+ES2003d - Remote cost,35,ES2003d.C.argumentstructs.Erik.24,ES2003d.C.argumentstructs.Erik.23,ES2003d.B.argumentstructs.Erik.4,False,46,44,1,45,False
+ES2003d - Remote cost,36,ES2003d.D.argumentstructs.Erik.6,ES2003d.B.argumentstructs.Erik.22,ES2003d.C.argumentstructs.Erik.24,False,47,45,46,1,True
+ES2003d - Remote cost,37,ES2003d.C.argumentstructs.Erik.25,ES2003d.D.argumentstructs.Erik.6,ES2003d.C.argumentstructs.Erik.24,False,48,47,46,2,True
+ES2003d - Remote cost,38,ES2003d.B.argumentstructs.Erik.23,ES2003d.C.argumentstructs.Erik.24,ES2003d.C.argumentstructs.Erik.24,True,49,46,46,3,True
+ES2003d - Remote cost,39,ES2003d.C.argumentstructs.Erik.26,ES2003d.B.argumentstructs.Erik.23,NONE,False,50,49,0,50,False
+ES2003d - Remote cost,40,ES2003d.C.argumentstructs.Erik.27,ES2003d.C.argumentstructs.Erik.26,ES2003d.C.argumentstructs.Erik.26,True,51,50,50,1,True
+ES2003d - Remote cost,41,ES2003d.B.argumentstructs.Erik.24,ES2003d.B.argumentstructs.Erik.23,ES2003d.C.argumentstructs.Erik.27,False,52,49,51,1,True
+ES2003d - Remote cost,42,ES2003d.B.argumentstructs.Erik.25,ES2003d.B.argumentstructs.Erik.24,ES2003d.B.argumentstructs.Erik.24,True,53,52,52,1,True
+ES2003d - Remote cost,43,ES2003d.C.argumentstructs.Erik.28,ES2003d.B.argumentstructs.Erik.25,ES2003d.B.argumentstructs.Erik.25,True,54,53,53,1,True
+ES2003d - Remote cost,44,ES2003d.D.argumentstructs.Erik.7,ES2003d.B.argumentstructs.Erik.25,ES2003d.C.argumentstructs.Erik.28,False,55,53,54,1,True
+ES2003d - Remote cost,45,ES2003d.C.argumentstructs.Erik.29,ES2003d.B.argumentstructs.Erik.24,ES2003d.D.argumentstructs.Erik.7,False,56,52,55,1,True
+ES2003d - Remote cost,46,ES2003d.D.argumentstructs.Erik.8,ES2003d.C.argumentstructs.Erik.28,NONE,False,57,54,0,57,False
+ES2003d - Remote cost,47,ES2003d.B.argumentstructs.Erik.26,ES2003d.D.argumentstructs.Erik.8,ES2003d.D.argumentstructs.Erik.8,True,58,57,57,1,True
+ES2003d - Remote cost,48,ES2003d.D.argumentstructs.Erik.9,ES2003d.B.argumentstructs.Erik.26,ES2003d.B.argumentstructs.Erik.26,True,59,58,58,1,True
+ES2003d - Remote cost,49,ES2003d.B.argumentstructs.Erik.27,ES2003d.B.argumentstructs.Erik.26,ES2003d.D.argumentstructs.Erik.9,False,60,58,59,1,True
+ES2003d - Remote cost,50,ES2003d.C.argumentstructs.Erik.30,ES2003d.B.argumentstructs.Erik.26,ES2003d.B.argumentstructs.Erik.27,False,62,58,60,2,True
+ES2003d - Remote cost,51,ES2003d.C.argumentstructs.Erik.31,ES2003d.B.argumentstructs.Erik.27,ES2003d.B.argumentstructs.Erik.27,True,63,60,60,3,True
+ES2003d - Remote cost,52,ES2003d.B.argumentstructs.Erik.28,ES2003d.B.argumentstructs.Erik.27,ES2003d.C.argumentstructs.Erik.31,False,65,60,63,2,True
+ES2003d - Remote cost,53,ES2003d.D.argumentstructs.Erik.10,ES2003d.C.argumentstructs.Erik.30,ES2003d.D.argumentstructs.Erik.8,False,67,62,57,10,False
+ES2003d - Remote cost,54,ES2003d.B.argumentstructs.Erik.29,ES2003d.D.argumentstructs.Erik.10,ES2003d.D.argumentstructs.Erik.10,True,68,67,67,1,True
+ES2003d - Remote cost,55,ES2003d.D.argumentstructs.Erik.11,ES2003d.D.argumentstructs.Erik.10,ES2003d.B.argumentstructs.Erik.29,False,70,67,68,2,True
+ES2003d - Remote cost,56,ES2003d.A.argumentstructs.Erik.9,ES2003d.B.argumentstructs.Erik.29,ES2003d.D.argumentstructs.Erik.11,False,71,68,70,1,True
+ES2003d - Remote cost,57,ES2003d.C.argumentstructs.Erik.32,ES2003d.A.argumentstructs.Erik.9,ES2003d.A.argumentstructs.Erik.9,True,72,71,71,1,True
+ES2003d - Remote cost,58,ES2003d.B.argumentstructs.Erik.30,ES2003d.A.argumentstructs.Erik.9,ES2003d.D.argumentstructs.Erik.8,False,74,71,57,17,False
+ES2003d - Remote cost,59,ES2003d.B.argumentstructs.Erik.31,ES2003d.B.argumentstructs.Erik.30,ES2003d.B.argumentstructs.Erik.30,True,76,74,74,2,True
+ES2003d - Remote cost,60,ES2003d.C.argumentstructs.Erik.33,ES2003d.B.argumentstructs.Erik.31,ES2003d.B.argumentstructs.Erik.31,True,77,76,76,1,True
+ES2003d - Remote cost,61,ES2003d.B.argumentstructs.Erik.32,ES2003d.C.argumentstructs.Erik.33,ES2003d.C.argumentstructs.Erik.33,True,78,77,77,1,True
+ES2003d - Remote cost,62,ES2003d.C.argumentstructs.Erik.34,ES2003d.C.argumentstructs.Erik.33,ES2003d.B.argumentstructs.Erik.32,False,80,77,78,2,True
+ES2003d - Remote cost,63,ES2003d.B.argumentstructs.Erik.33,ES2003d.B.argumentstructs.Erik.32,ES2003d.B.argumentstructs.Erik.30,False,81,78,74,7,True
+ES2003d - Remote cost,64,ES2003d.C.argumentstructs.Erik.35,ES2003d.B.argumentstructs.Erik.33,ES2003d.B.argumentstructs.Erik.33,True,82,81,81,1,True
+ES2003d - Remote cost,65,ES2003d.B.argumentstructs.Erik.34,ES2003d.B.argumentstructs.Erik.33,ES2003d.B.argumentstructs.Erik.33,True,84,81,81,3,True
+ES2003d - Remote cost,66,ES2003d.A.argumentstructs.Erik.10,ES2003d.B.argumentstructs.Erik.34,ES2003d.B.argumentstructs.Erik.34,True,85,84,84,1,True
+ES2003d - Remote cost,67,ES2003d.A.argumentstructs.Erik.11,ES2003d.B.argumentstructs.Erik.33,ES2003d.B.argumentstructs.Erik.34,False,86,81,84,2,True
+ES2003d - Remote cost,68,ES2003d.B.argumentstructs.Erik.35,ES2003d.A.argumentstructs.Erik.11,ES2003d.A.argumentstructs.Erik.11,True,87,86,86,1,True
+ES2003d - Remote cost,69,ES2003d.C.argumentstructs.Erik.36,ES2003d.B.argumentstructs.Erik.35,ES2003d.B.argumentstructs.Erik.35,True,89,87,87,2,True
+ES2003d - Remote cost,70,ES2003d.A.argumentstructs.Erik.12,ES2003d.B.argumentstructs.Erik.35,ES2003d.B.argumentstructs.Erik.35,True,90,87,87,3,True
+ES2003d - Remote cost,71,ES2003d.D.argumentstructs.Erik.12,ES2003d.A.argumentstructs.Erik.12,ES2003d.A.argumentstructs.Erik.12,True,91,90,90,1,True
+ES2003d - Remote cost,72,ES2003d.A.argumentstructs.Erik.13,ES2003d.A.argumentstructs.Erik.11,ES2003d.A.argumentstructs.Erik.12,False,93,86,90,3,True
+ES2003d - Remote cost,73,ES2003d.B.argumentstructs.Erik.36,ES2003d.A.argumentstructs.Erik.13,ES2003d.A.argumentstructs.Erik.13,True,94,93,93,1,True
+ES2003d - Remote cost,74,ES2003d.C.argumentstructs.Erik.37,ES2003d.A.argumentstructs.Erik.12,ES2003d.B.argumentstructs.Erik.35,False,96,90,87,9,False
+ES2003d - Remote cost,75,ES2003d.C.argumentstructs.Erik.38,ES2003d.C.argumentstructs.Erik.37,ES2003d.C.argumentstructs.Erik.37,True,97,96,96,1,True
+ES2003d - Remote cost,76,ES2003d.D.argumentstructs.Erik.13,ES2003d.A.argumentstructs.Erik.13,ES2003d.C.argumentstructs.Erik.38,False,98,93,97,1,True
+ES2003d - Remote cost,77,ES2003d.C.argumentstructs.Erik.39,ES2003d.D.argumentstructs.Erik.13,ES2003d.D.argumentstructs.Erik.13,True,99,98,98,1,True
+ES2003d - Remote cost,78,ES2003d.A.argumentstructs.Erik.14,ES2003d.D.argumentstructs.Erik.13,ES2003d.C.argumentstructs.Erik.37,False,101,98,96,5,True
+ES2003d - Remote cost,79,ES2003d.B.argumentstructs.Erik.37,ES2003d.A.argumentstructs.Erik.14,ES2003d.A.argumentstructs.Erik.14,True,102,101,101,1,True
+ES2003d - Remote cost,80,ES2003d.C.argumentstructs.Erik.40,ES2003d.A.argumentstructs.Erik.14,ES2003d.B.argumentstructs.Erik.37,False,103,101,102,1,True
+ES2003d - Remote cost,81,ES2003d.B.argumentstructs.Erik.38,ES2003d.A.argumentstructs.Erik.14,ES2003d.C.argumentstructs.Erik.37,False,104,101,96,8,False
+ES2003d - Remote cost,82,ES2003d.C.argumentstructs.Erik.41,ES2003d.B.argumentstructs.Erik.38,ES2003d.B.argumentstructs.Erik.38,True,106,104,104,2,True
+ES2003d - Remote cost,83,ES2003d.B.argumentstructs.Erik.39,ES2003d.B.argumentstructs.Erik.38,ES2003d.B.argumentstructs.Erik.38,True,107,104,104,3,True
+ES2003d - Remote cost,84,ES2003d.C.argumentstructs.Erik.42,ES2003d.B.argumentstructs.Erik.39,ES2003d.B.argumentstructs.Erik.39,True,108,107,107,1,True
+ES2003d - Remote cost,85,ES2003d.C.argumentstructs.Erik.43,ES2003d.C.argumentstructs.Erik.42,ES2003d.C.argumentstructs.Erik.42,True,110,108,108,2,True
+ES2003d - Remote cost,86,ES2003d.B.argumentstructs.Erik.40,ES2003d.B.argumentstructs.Erik.39,ES2003d.C.argumentstructs.Erik.43,False,111,107,110,1,True
+ES2003d - Remote cost,87,ES2003d.A.argumentstructs.Erik.15,ES2003d.B.argumentstructs.Erik.40,ES2003d.C.argumentstructs.Erik.43,False,112,111,110,2,True
+ES2003d - Remote cost,88,ES2003d.C.argumentstructs.Erik.44,ES2003d.A.argumentstructs.Erik.15,ES2003d.A.argumentstructs.Erik.15,True,116,112,112,4,True
+ES2003d - Remote cost,89,ES2003d.A.argumentstructs.Erik.16,ES2003d.C.argumentstructs.Erik.44,ES2003d.C.argumentstructs.Erik.44,True,117,116,116,1,True
+ES2003d - Remote cost,90,ES2003d.C.argumentstructs.Erik.45,ES2003d.C.argumentstructs.Erik.44,ES2003d.A.argumentstructs.Erik.16,False,118,116,117,1,True
+ES2003d - Remote cost,91,ES2003d.A.argumentstructs.Erik.17,ES2003d.A.argumentstructs.Erik.15,ES2003d.A.argumentstructs.Erik.16,False,119,112,117,2,True
+ES2003d - Remote cost,92,ES2003d.B.argumentstructs.Erik.41,ES2003d.A.argumentstructs.Erik.17,ES2003d.A.argumentstructs.Erik.17,True,120,119,119,1,True
+ES2003d - Remote cost,93,ES2003d.C.argumentstructs.Erik.46,ES2003d.B.argumentstructs.Erik.41,ES2003d.B.argumentstructs.Erik.41,True,121,120,120,1,True
+ES2003d - Remote cost,94,ES2003d.B.argumentstructs.Erik.42,ES2003d.B.argumentstructs.Erik.41,ES2003d.C.argumentstructs.Erik.46,False,122,120,121,1,True
+ES2003d - Remote cost,95,ES2003d.C.argumentstructs.Erik.47,ES2003d.C.argumentstructs.Erik.46,ES2003d.B.argumentstructs.Erik.42,False,124,121,122,2,True
+ES2003d - Remote cost,96,ES2003d.C.argumentstructs.Erik.48,ES2003d.B.argumentstructs.Erik.42,ES2003d.B.argumentstructs.Erik.41,False,126,122,120,6,True
+ES2003d - Remote cost,97,ES2003d.B.argumentstructs.Erik.43,ES2003d.C.argumentstructs.Erik.48,ES2003d.C.argumentstructs.Erik.48,True,127,126,126,1,True
+ES2003d - Remote cost,98,ES2003d.D.argumentstructs.Erik.14,ES2003d.B.argumentstructs.Erik.43,ES2003d.B.argumentstructs.Erik.43,True,128,127,127,1,True
+ES2003d - Remote cost,99,ES2003d.C.argumentstructs.Erik.49,ES2003d.B.argumentstructs.Erik.43,ES2003d.B.argumentstructs.Erik.43,True,129,127,127,2,True
+ES2003d - Remote cost,100,ES2003d.B.argumentstructs.Erik.44,ES2003d.B.argumentstructs.Erik.43,ES2003d.B.argumentstructs.Erik.43,True,131,127,127,4,True
+ES2003d - Remote cost,101,ES2003d.D.argumentstructs.Erik.15,ES2003d.B.argumentstructs.Erik.44,NONE,False,133,131,0,133,False
+ES2003d - Remote cost,102,ES2003d.B.argumentstructs.Erik.45,ES2003d.B.argumentstructs.Erik.44,ES2003d.D.argumentstructs.Erik.15,False,135,131,133,2,True
+ES2003d - Remote cost,103,ES2003d.B.argumentstructs.Erik.46,ES2003d.B.argumentstructs.Erik.44,ES2003d.B.argumentstructs.Erik.45,False,136,131,135,1,True
+ES2003d - Remote cost,104,ES2003d.A.argumentstructs.Erik.18,ES2003d.B.argumentstructs.Erik.46,ES2003d.B.argumentstructs.Erik.46,True,138,136,136,2,True
+ES2003d - Remote cost,105,ES2003d.D.argumentstructs.Erik.16,ES2003d.B.argumentstructs.Erik.46,ES2003d.B.argumentstructs.Erik.46,True,139,136,136,3,True
+ES2003d - Remote cost,106,ES2003d.D.argumentstructs.Erik.17,ES2003d.D.argumentstructs.Erik.16,ES2003d.D.argumentstructs.Erik.16,True,140,139,139,1,True
+ES2003d - Remote cost,107,ES2003d.C.argumentstructs.Erik.50,ES2003d.D.argumentstructs.Erik.16,ES2003d.D.argumentstructs.Erik.15,False,141,139,133,8,False
+ES2003d - Remote cost,108,ES2003d.B.argumentstructs.Erik.47,ES2003d.B.argumentstructs.Erik.46,ES2003d.D.argumentstructs.Erik.15,False,142,136,133,9,False
+ES2003d - Remote cost,109,ES2003d.C.argumentstructs.Erik.51,ES2003d.C.argumentstructs.Erik.50,ES2003d.B.argumentstructs.Erik.47,False,143,141,142,1,True
+ES2004a - Older generation,0,ES2004a.B.argumentstructs.Erik.1,ROOT,NONE,NONE,0,0,0,0,False
+ES2004a - Older generation,1,ES2004a.B.argumentstructs.Erik.2,ES2004a.B.argumentstructs.Erik.1,ES2004a.B.argumentstructs.Erik.1,True,1,0,0,1,True
+ES2004a - Older generation,2,ES2004a.C.argumentstructs.Erik.1,ES2004a.B.argumentstructs.Erik.1,ES2004a.B.argumentstructs.Erik.2,False,3,0,1,2,True
+ES2004a - Older generation,3,ES2004a.D.argumentstructs.Erik.1,ES2004a.B.argumentstructs.Erik.2,ES2004a.B.argumentstructs.Erik.2,True,5,1,1,4,True
+ES2004a - Older generation,4,ES2004a.B.argumentstructs.Erik.3,ES2004a.D.argumentstructs.Erik.1,ES2004a.D.argumentstructs.Erik.1,True,6,5,5,1,True
+ES2004a - Older generation,5,ES2004a.C.argumentstructs.Erik.2,ES2004a.B.argumentstructs.Erik.1,ES2004a.B.argumentstructs.Erik.3,False,7,0,6,1,True
+ES2004a - Older generation,6,ES2004a.D.argumentstructs.Erik.2,ES2004a.C.argumentstructs.Erik.2,ES2004a.C.argumentstructs.Erik.2,True,8,7,7,1,True
+ES2004a - Older generation,7,ES2004a.D.argumentstructs.Erik.3,ES2004a.C.argumentstructs.Erik.2,ES2004a.B.argumentstructs.Erik.1,False,10,7,0,10,False
+ES2004a - Older generation,8,ES2004a.C.argumentstructs.Erik.3,ES2004a.D.argumentstructs.Erik.3,ES2004a.D.argumentstructs.Erik.3,True,11,10,10,1,True
+ES2004a - Older generation,9,ES2004a.B.argumentstructs.Erik.4,ES2004a.D.argumentstructs.Erik.3,ES2004a.D.argumentstructs.Erik.3,True,12,10,10,2,True
+ES2004a - Older generation,10,ES2004a.C.argumentstructs.Erik.4,ES2004a.D.argumentstructs.Erik.3,ES2004a.D.argumentstructs.Erik.3,True,13,10,10,3,True
+ES2004a - Older generation,11,ES2004a.B.argumentstructs.Erik.5,ES2004a.C.argumentstructs.Erik.4,ES2004a.C.argumentstructs.Erik.4,True,15,13,13,2,True
+ES2004a - Older generation,12,ES2004a.B.argumentstructs.Erik.6,ES2004a.C.argumentstructs.Erik.4,ES2004a.B.argumentstructs.Erik.5,False,18,13,15,3,True
+ES2004a - Older generation,13,ES2004a.D.argumentstructs.Erik.4,ES2004a.B.argumentstructs.Erik.6,ES2004a.B.argumentstructs.Erik.6,True,19,18,18,1,True
+ES2004a - Older generation,14,ES2004a.C.argumentstructs.Erik.5,ES2004a.B.argumentstructs.Erik.6,ES2004a.C.argumentstructs.Erik.4,False,20,18,13,7,True
+ES2004a - Older generation,15,ES2004a.B.argumentstructs.Erik.7,ES2004a.C.argumentstructs.Erik.5,ES2004a.C.argumentstructs.Erik.5,True,21,20,20,1,True
+ES2004a - Older generation,16,ES2004a.D.argumentstructs.Erik.5,ES2004a.D.argumentstructs.Erik.4,ES2004a.B.argumentstructs.Erik.1,False,23,19,0,23,False
+ES2004a - Older generation,17,ES2004a.A.argumentstructs.Erik.1,ES2004a.D.argumentstructs.Erik.5,ES2004a.D.argumentstructs.Erik.5,True,24,23,23,1,True
+ES2004a - Older generation,18,ES2004a.B.argumentstructs.Erik.8,ES2004a.D.argumentstructs.Erik.5,ES2004a.D.argumentstructs.Erik.5,True,25,23,23,2,True
+ES2004a - Older generation,19,ES2004a.B.argumentstructs.Erik.9,ES2004a.B.argumentstructs.Erik.8,ES2004a.D.argumentstructs.Erik.5,False,26,25,23,3,True
+ES2004b - Batteries,0,ES2004b.B.argumentstructs.Erik.17,ROOT,NONE,NONE,4,0,0,4,False
+ES2004b - Batteries,1,ES2004b.C.argumentstructs.Erik.20,ES2004b.B.argumentstructs.Erik.17,ES2004b.B.argumentstructs.Erik.17,True,5,4,4,1,True
+ES2004b - Batteries,2,ES2004b.B.argumentstructs.Erik.18,ES2004b.C.argumentstructs.Erik.20,ES2004b.C.argumentstructs.Erik.20,True,6,5,5,1,True
+ES2004b - Batteries,3,ES2004b.C.argumentstructs.Erik.21,ES2004b.C.argumentstructs.Erik.20,ES2004b.B.argumentstructs.Erik.18,False,8,5,6,2,True
+ES2004b - Batteries,4,ES2004b.C.argumentstructs.Erik.22,ES2004b.B.argumentstructs.Erik.18,ES2004b.B.argumentstructs.Erik.18,True,10,6,6,4,True
+ES2004b - Batteries,5,ES2004b.B.argumentstructs.Erik.19,ES2004b.B.argumentstructs.Erik.18,ES2004b.C.argumentstructs.Erik.22,False,11,6,10,1,True
+ES2004b - Batteries,6,ES2004b.C.argumentstructs.Erik.23,ES2004b.B.argumentstructs.Erik.19,ES2004b.B.argumentstructs.Erik.19,True,12,11,11,1,True
+ES2004b - Batteries,7,ES2004b.A.argumentstructs.Erik.8,ES2004b.B.argumentstructs.Erik.18,ES2004b.B.argumentstructs.Erik.18,True,14,6,6,8,True
+ES2004b - Batteries,8,ES2004b.C.argumentstructs.Erik.24,ES2004b.A.argumentstructs.Erik.8,ES2004b.A.argumentstructs.Erik.8,True,15,14,14,1,True
+ES2004b - Batteries,9,ES2004b.B.argumentstructs.Erik.20,ES2004b.C.argumentstructs.Erik.24,ES2004b.A.argumentstructs.Erik.8,False,16,15,14,2,True
+ES2004b - Batteries,10,ES2004b.B.argumentstructs.Erik.21,ES2004b.C.argumentstructs.Erik.24,ES2004b.B.argumentstructs.Erik.20,False,17,15,16,1,True
+ES2004b - Batteries,11,ES2004b.C.argumentstructs.Erik.25,ES2004b.B.argumentstructs.Erik.21,ES2004b.B.argumentstructs.Erik.22,False,20,17,21,1,False
+ES2004b - Batteries,12,ES2004b.B.argumentstructs.Erik.22,ES2004b.B.argumentstructs.Erik.21,ES2004b.B.argumentstructs.Erik.21,True,21,17,17,4,True
+ES2004b - Batteries,13,ES2004b.B.argumentstructs.Erik.23,ES2004b.C.argumentstructs.Erik.25,ES2004b.C.argumentstructs.Erik.25,True,22,20,20,2,True
+ES2004b - Batteries,14,ES2004b.B.argumentstructs.Erik.24,ES2004b.C.argumentstructs.Erik.25,ES2004b.C.argumentstructs.Erik.25,True,23,20,20,3,True
+ES2004b - Combined remote,0,ES2004b.B.argumentstructs.Erik.1,ROOT,NONE,NONE,1,0,0,1,False
+ES2004b - Combined remote,1,ES2004b.A.argumentstructs.Erik.1,ES2004b.B.argumentstructs.Erik.1,ES2004b.B.argumentstructs.Erik.1,True,2,1,1,1,True
+ES2004b - Combined remote,2,ES2004b.B.argumentstructs.Erik.2,ES2004b.B.argumentstructs.Erik.1,ES2004b.B.argumentstructs.Erik.1,True,4,1,1,3,True
+ES2004b - Combined remote,3,ES2004b.D.argumentstructs.Erik.1,ES2004b.B.argumentstructs.Erik.2,ES2004b.B.argumentstructs.Erik.2,True,6,4,4,2,True
+ES2004b - Combined remote,4,ES2004b.B.argumentstructs.Erik.3,ES2004b.B.argumentstructs.Erik.2,ES2004b.D.argumentstructs.Erik.1,False,7,4,6,1,True
+ES2004b - Combined remote,5,ES2004b.D.argumentstructs.Erik.2,ES2004b.B.argumentstructs.Erik.3,ES2004b.D.argumentstructs.Erik.1,False,8,7,6,2,True
+ES2004b - Combined remote,6,ES2004b.B.argumentstructs.Erik.4,ES2004b.B.argumentstructs.Erik.3,ES2004b.B.argumentstructs.Erik.3,True,10,7,7,3,True
+ES2004b - Combined remote,7,ES2004b.D.argumentstructs.Erik.3,ES2004b.B.argumentstructs.Erik.4,ES2004b.B.argumentstructs.Erik.4,True,11,10,10,1,True
+ES2004b - Combined remote,8,ES2004b.C.argumentstructs.Erik.1,ES2004b.D.argumentstructs.Erik.3,ES2004b.D.argumentstructs.Erik.3,True,13,11,11,2,True
+ES2004b - Combined remote,9,ES2004b.B.argumentstructs.Erik.5,ES2004b.B.argumentstructs.Erik.4,ES2004b.D.argumentstructs.Erik.3,False,15,10,11,4,True
+ES2004b - Combined remote,10,ES2004b.C.argumentstructs.Erik.2,ES2004b.B.argumentstructs.Erik.5,ES2004b.B.argumentstructs.Erik.5,True,16,15,15,1,True
+ES2004b - Combined remote,11,ES2004b.D.argumentstructs.Erik.4,ES2004b.C.argumentstructs.Erik.2,ES2004b.B.argumentstructs.Erik.5,False,17,16,15,2,True
+ES2004b - Combined remote,12,ES2004b.B.argumentstructs.Erik.6,ES2004b.D.argumentstructs.Erik.4,ES2004b.D.argumentstructs.Erik.1,False,19,17,6,13,False
+ES2004b - Combined remote,13,ES2004b.D.argumentstructs.Erik.5,ES2004b.D.argumentstructs.Erik.4,ES2004b.B.argumentstructs.Erik.6,False,20,17,19,1,True
+ES2004b - Combined remote,14,ES2004b.C.argumentstructs.Erik.3,ES2004b.D.argumentstructs.Erik.5,ES2004b.A.argumentstructs.Erik.2,False,21,20,22,1,False
+ES2004b - Combined remote,15,ES2004b.A.argumentstructs.Erik.2,ES2004b.C.argumentstructs.Erik.3,ES2004b.B.argumentstructs.Erik.6,False,22,21,19,3,True
+ES2004b - Combined remote,16,ES2004b.D.argumentstructs.Erik.6,ES2004b.A.argumentstructs.Erik.2,ES2004b.A.argumentstructs.Erik.2,True,23,22,22,1,True
+ES2004b - Combined remote,17,ES2004b.C.argumentstructs.Erik.4,ES2004b.D.argumentstructs.Erik.6,ES2004b.D.argumentstructs.Erik.6,True,26,23,23,3,True
+ES2004b - Combined remote,18,ES2004b.A.argumentstructs.Erik.3,ES2004b.C.argumentstructs.Erik.4,ES2004b.D.argumentstructs.Erik.6,False,27,26,23,4,True
+ES2004b - Remote design,0,ES2004b.B.argumentstructs.Erik.25,ROOT,NONE,NONE,0,0,0,0,False
+ES2004b - Remote design,1,ES2004b.A.argumentstructs.Erik.9,ES2004b.B.argumentstructs.Erik.25,ES2004b.B.argumentstructs.Erik.25,True,2,0,0,2,True
+ES2004b - Remote design,2,ES2004b.D.argumentstructs.Erik.15,ES2004b.B.argumentstructs.Erik.25,ES2004b.B.argumentstructs.Erik.25,True,3,0,0,3,True
+ES2004b - Remote design,3,ES2004b.A.argumentstructs.Erik.10,ES2004b.B.argumentstructs.Erik.25,ES2004b.B.argumentstructs.Erik.25,True,6,0,0,6,True
+ES2004b - Remote design,4,ES2004b.B.argumentstructs.Erik.26,ES2004b.A.argumentstructs.Erik.10,ES2004b.A.argumentstructs.Erik.10,True,7,6,6,1,True
+ES2004b - Remote design,5,ES2004b.D.argumentstructs.Erik.16,ES2004b.B.argumentstructs.Erik.26,ES2004b.B.argumentstructs.Erik.25,False,8,7,0,8,True
+ES2004b - Remote design,6,ES2004b.A.argumentstructs.Erik.11,ES2004b.D.argumentstructs.Erik.16,ES2004b.D.argumentstructs.Erik.16,True,9,8,8,1,True
+ES2004b - Remote design,7,ES2004b.C.argumentstructs.Erik.26,ES2004b.A.argumentstructs.Erik.11,ES2004b.A.argumentstructs.Erik.11,True,10,9,9,1,True
+ES2004b - Remote design,8,ES2004b.A.argumentstructs.Erik.12,ES2004b.A.argumentstructs.Erik.11,ES2004b.A.argumentstructs.Erik.11,True,11,9,9,2,True
+ES2004b - Remote design,9,ES2004b.B.argumentstructs.Erik.27,ES2004b.B.argumentstructs.Erik.26,ES2004b.B.argumentstructs.Erik.25,False,12,7,0,12,False
+ES2004b - Remote design,10,ES2004b.D.argumentstructs.Erik.17,ES2004b.D.argumentstructs.Erik.16,ES2004b.B.argumentstructs.Erik.27,False,15,8,12,3,True
+ES2004b - Remote design,11,ES2004b.D.argumentstructs.Erik.18,ES2004b.B.argumentstructs.Erik.27,ES2004b.B.argumentstructs.Erik.27,True,17,12,12,5,True
+ES2004b - Remote design,12,ES2004b.B.argumentstructs.Erik.28,ES2004b.D.argumentstructs.Erik.17,ES2004b.D.argumentstructs.Erik.18,False,18,15,17,1,True
+ES2004b - Remote design,13,ES2004b.A.argumentstructs.Erik.13,ES2004b.B.argumentstructs.Erik.27,ES2004b.B.argumentstructs.Erik.25,False,20,12,0,20,False
+ES2004b - Remote design,14,ES2004b.B.argumentstructs.Erik.29,ES2004b.A.argumentstructs.Erik.13,ES2004b.A.argumentstructs.Erik.13,True,21,20,20,1,True
+ES2004b - Remote design,15,ES2004b.C.argumentstructs.Erik.27,ES2004b.B.argumentstructs.Erik.29,ES2004b.A.argumentstructs.Erik.13,False,22,21,20,2,True
+ES2004b - Remote design,16,ES2004b.D.argumentstructs.Erik.19,ES2004b.B.argumentstructs.Erik.29,ES2004b.A.argumentstructs.Erik.13,False,25,21,20,5,True
+ES2004b - Remote design,17,ES2004b.A.argumentstructs.Erik.14,ES2004b.A.argumentstructs.Erik.13,ES2004b.A.argumentstructs.Erik.13,True,26,20,20,6,True
+ES2004b - Target audience,0,ES2004b.D.argumentstructs.Erik.8,ROOT,NONE,NONE,1,0,0,1,False
+ES2004b - Target audience,1,ES2004b.A.argumentstructs.Erik.6,ES2004b.D.argumentstructs.Erik.8,ES2004b.D.argumentstructs.Erik.8,True,3,1,1,2,True
+ES2004b - Target audience,2,ES2004b.A.argumentstructs.Erik.7,ES2004b.A.argumentstructs.Erik.6,ES2004b.A.argumentstructs.Erik.6,True,5,3,3,2,True
+ES2004b - Target audience,3,ES2004b.D.argumentstructs.Erik.9,ES2004b.A.argumentstructs.Erik.7,ES2004b.D.argumentstructs.Erik.8,False,6,5,1,5,True
+ES2004b - Target audience,4,ES2004b.C.argumentstructs.Erik.11,ES2004b.D.argumentstructs.Erik.9,ES2004b.B.argumentstructs.Erik.10,False,8,6,11,3,False
+ES2004b - Target audience,5,ES2004b.B.argumentstructs.Erik.10,ES2004b.D.argumentstructs.Erik.9,ES2004b.D.argumentstructs.Erik.8,False,11,6,1,10,True
+ES2004b - Touch screen,0,ES2004b.A.argumentstructs.Erik.4,ROOT,ES2004b.B.argumentstructs.Erik.7,NONE,1,0,3,2,False
+ES2004b - Touch screen,1,ES2004b.C.argumentstructs.Erik.5,ES2004b.A.argumentstructs.Erik.4,ES2004b.B.argumentstructs.Erik.7,False,2,1,3,1,False
+ES2004b - Touch screen,2,ES2004b.B.argumentstructs.Erik.7,ES2004b.A.argumentstructs.Erik.4,NONE,False,3,1,0,3,False
+ES2004b - Touch screen,3,ES2004b.C.argumentstructs.Erik.6,ES2004b.B.argumentstructs.Erik.7,ES2004b.B.argumentstructs.Erik.7,True,5,3,3,2,True
+ES2004b - Touch screen,4,ES2004b.B.argumentstructs.Erik.8,ES2004b.C.argumentstructs.Erik.6,ES2004b.C.argumentstructs.Erik.6,True,6,5,5,1,True
+ES2004b - Touch screen,5,ES2004b.C.argumentstructs.Erik.7,ES2004b.B.argumentstructs.Erik.8,ES2004b.B.argumentstructs.Erik.8,True,7,6,6,1,True
+ES2004b - Touch screen,6,ES2004b.D.argumentstructs.Erik.7,ES2004b.B.argumentstructs.Erik.8,ES2004b.B.argumentstructs.Erik.8,True,9,6,6,3,True
+ES2004b - Touch screen,7,ES2004b.B.argumentstructs.Erik.9,ES2004b.B.argumentstructs.Erik.8,ES2004b.B.argumentstructs.Erik.7,False,10,6,3,7,True
+ES2004b - Touch screen,8,ES2004b.C.argumentstructs.Erik.9,ES2004b.B.argumentstructs.Erik.8,ES2004b.B.argumentstructs.Erik.9,False,14,6,10,4,True
+ES2004b - Touch screen,9,ES2004b.A.argumentstructs.Erik.5,ES2004b.B.argumentstructs.Erik.9,ES2004b.B.argumentstructs.Erik.7,False,15,10,3,12,False
+ES2004b - Touch screen,10,ES2004b.C.argumentstructs.Erik.10,ES2004b.C.argumentstructs.Erik.9,ES2004b.A.argumentstructs.Erik.5,False,16,14,15,1,True
+ES2004b - Video plus,0,ES2004b.B.argumentstructs.Erik.11,ROOT,NONE,NONE,0,0,0,0,False
+ES2004b - Video plus,1,ES2004b.C.argumentstructs.Erik.12,ES2004b.B.argumentstructs.Erik.11,ES2004b.B.argumentstructs.Erik.11,True,2,0,0,2,True
+ES2004b - Video plus,2,ES2004b.B.argumentstructs.Erik.12,ES2004b.C.argumentstructs.Erik.12,ES2004b.B.argumentstructs.Erik.11,False,3,2,0,3,True
+ES2004b - Video plus,3,ES2004b.C.argumentstructs.Erik.13,ES2004b.B.argumentstructs.Erik.12,ES2004b.B.argumentstructs.Erik.12,True,4,3,3,1,True
+ES2004b - Video plus,4,ES2004b.C.argumentstructs.Erik.14,ES2004b.B.argumentstructs.Erik.12,ES2004b.B.argumentstructs.Erik.12,True,6,3,3,3,True
+ES2004b - Video plus,5,ES2004b.C.argumentstructs.Erik.15,ES2004b.B.argumentstructs.Erik.12,ES2004b.C.argumentstructs.Erik.14,False,8,3,6,2,True
+ES2004b - Video plus,6,ES2004b.B.argumentstructs.Erik.13,ES2004b.C.argumentstructs.Erik.15,ES2004b.C.argumentstructs.Erik.15,True,9,8,8,1,True
+ES2004b - Video plus,7,ES2004b.D.argumentstructs.Erik.10,ES2004b.B.argumentstructs.Erik.12,ES2004b.B.argumentstructs.Erik.12,True,10,3,3,7,True
+ES2004b - Video plus,8,ES2004b.B.argumentstructs.Erik.14,ES2004b.C.argumentstructs.Erik.15,ES2004b.D.argumentstructs.Erik.10,False,11,8,10,1,True
+ES2004b - Video plus,9,ES2004b.C.argumentstructs.Erik.16,ES2004b.B.argumentstructs.Erik.14,ES2004b.B.argumentstructs.Erik.14,True,13,11,11,2,True
+ES2004b - Video plus,10,ES2004b.D.argumentstructs.Erik.11,ES2004b.D.argumentstructs.Erik.10,ES2004b.B.argumentstructs.Erik.14,False,15,10,11,4,True
+ES2004b - Video plus,11,ES2004b.C.argumentstructs.Erik.17,ES2004b.B.argumentstructs.Erik.14,ES2004b.B.argumentstructs.Erik.14,True,16,11,11,5,True
+ES2004b - Video plus,12,ES2004b.B.argumentstructs.Erik.15,ES2004b.C.argumentstructs.Erik.17,ES2004b.C.argumentstructs.Erik.17,True,17,16,16,1,True
+ES2004b - Video plus,13,ES2004b.D.argumentstructs.Erik.12,ES2004b.B.argumentstructs.Erik.15,ES2004b.B.argumentstructs.Erik.14,False,18,17,11,7,True
+ES2004b - Video plus,14,ES2004b.D.argumentstructs.Erik.13,ES2004b.C.argumentstructs.Erik.16,ES2004b.C.argumentstructs.Erik.18,False,21,13,22,1,False
+ES2004b - Video plus,15,ES2004b.C.argumentstructs.Erik.18,ES2004b.C.argumentstructs.Erik.17,ES2004b.B.argumentstructs.Erik.12,False,22,16,3,19,False
+ES2004b - Video plus,16,ES2004b.C.argumentstructs.Erik.19,ES2004b.C.argumentstructs.Erik.18,ES2004b.B.argumentstructs.Erik.12,False,25,22,3,22,False
+ES2004b - Video plus,17,ES2004b.D.argumentstructs.Erik.14,ES2004b.C.argumentstructs.Erik.19,ES2004b.C.argumentstructs.Erik.19,True,26,25,25,1,True
+ES2004b - Video plus,18,ES2004b.B.argumentstructs.Erik.16,ES2004b.D.argumentstructs.Erik.14,ES2004b.C.argumentstructs.Erik.19,False,27,26,25,2,True
+ES2004c - Battery options,0,ES2004c.B.argumentstructs.Erik.1,ROOT,ES2004c.C.argumentstructs.Erik.1,NONE,1,0,2,1,False
+ES2004c - Battery options,1,ES2004c.C.argumentstructs.Erik.1,ES2004c.B.argumentstructs.Erik.1,NONE,False,2,1,0,2,False
+ES2004c - Battery options,2,ES2004c.C.argumentstructs.Erik.2,ES2004c.C.argumentstructs.Erik.1,ES2004c.C.argumentstructs.Erik.1,True,3,2,2,1,True
+ES2004c - Battery options,3,ES2004c.B.argumentstructs.Erik.2,ES2004c.C.argumentstructs.Erik.2,ES2004c.C.argumentstructs.Erik.2,True,5,3,3,2,True
+ES2004c - Battery options,4,ES2004c.B.argumentstructs.Erik.3,ES2004c.B.argumentstructs.Erik.2,ES2004c.B.argumentstructs.Erik.2,True,6,5,5,1,True
+ES2004c - Battery options,5,ES2004c.B.argumentstructs.Erik.4,ES2004c.C.argumentstructs.Erik.2,ES2004c.B.argumentstructs.Erik.3,False,7,3,6,1,True
+ES2004c - Battery options,6,ES2004c.C.argumentstructs.Erik.3,ES2004c.B.argumentstructs.Erik.4,ES2004c.B.argumentstructs.Erik.4,True,9,7,7,2,True
+ES2004c - Battery options,7,ES2004c.C.argumentstructs.Erik.4,ES2004c.C.argumentstructs.Erik.3,ES2004c.C.argumentstructs.Erik.2,False,11,9,3,8,True
+ES2004c - Battery options,8,ES2004c.B.argumentstructs.Erik.5,ES2004c.C.argumentstructs.Erik.4,ES2004c.C.argumentstructs.Erik.4,True,12,11,11,1,True
+ES2004c - Battery options,9,ES2004c.D.argumentstructs.Erik.1,ES2004c.B.argumentstructs.Erik.5,ES2004c.C.argumentstructs.Erik.4,False,13,12,11,2,True
+ES2004c - Battery options,10,ES2004c.B.argumentstructs.Erik.6,ES2004c.D.argumentstructs.Erik.1,ES2004c.D.argumentstructs.Erik.1,True,14,13,13,1,True
+ES2004c - Battery options,11,ES2004c.C.argumentstructs.Erik.5,ES2004c.B.argumentstructs.Erik.5,ES2004c.D.argumentstructs.Erik.1,False,15,12,13,2,True
+ES2004c - Battery options,12,ES2004c.D.argumentstructs.Erik.2,ES2004c.D.argumentstructs.Erik.1,ES2004c.C.argumentstructs.Erik.5,False,17,13,15,2,True
+ES2004c - Battery options,13,ES2004c.A.argumentstructs.Erik.1,ES2004c.D.argumentstructs.Erik.2,ES2004c.D.argumentstructs.Erik.2,True,19,17,17,2,True
+ES2004c - Battery options,14,ES2004c.A.argumentstructs.Erik.2,ES2004c.A.argumentstructs.Erik.1,ES2004c.C.argumentstructs.Erik.2,False,20,19,3,17,False
+ES2004c - Battery options,15,ES2004c.C.argumentstructs.Erik.6,ES2004c.A.argumentstructs.Erik.2,ES2004c.A.argumentstructs.Erik.2,True,21,20,20,1,True
+ES2004c - Battery options,16,ES2004c.B.argumentstructs.Erik.7,ES2004c.D.argumentstructs.Erik.2,ES2004c.D.argumentstructs.Erik.1,False,22,17,13,9,False
+ES2004c - Battery options,17,ES2004c.C.argumentstructs.Erik.7,ES2004c.B.argumentstructs.Erik.7,ES2004c.B.argumentstructs.Erik.7,True,23,22,22,1,True
+ES2004c - Battery options,18,ES2004c.B.argumentstructs.Erik.8,ES2004c.A.argumentstructs.Erik.2,ES2004c.B.argumentstructs.Erik.7,False,25,20,22,3,True
+ES2004c - Battery options,19,ES2004c.D.argumentstructs.Erik.3,ES2004c.B.argumentstructs.Erik.8,ES2004c.B.argumentstructs.Erik.8,True,26,25,25,1,True
+ES2004c - Battery options,20,ES2004c.C.argumentstructs.Erik.8,ES2004c.B.argumentstructs.Erik.8,ES2004c.B.argumentstructs.Erik.8,True,30,25,25,5,True
+ES2004c - Battery options,21,ES2004c.A.argumentstructs.Erik.3,ES2004c.C.argumentstructs.Erik.8,ES2004c.C.argumentstructs.Erik.8,True,31,30,30,1,True
+ES2004c - Battery options,22,ES2004c.B.argumentstructs.Erik.9,ES2004c.C.argumentstructs.Erik.8,ES2004c.C.argumentstructs.Erik.8,True,33,30,30,3,True
+ES2004c - Battery options,23,ES2004c.C.argumentstructs.Erik.9,ES2004c.B.argumentstructs.Erik.9,ES2004c.C.argumentstructs.Erik.1,False,34,33,2,32,False
+ES2004c - Battery options,24,ES2004c.B.argumentstructs.Erik.10,ES2004c.C.argumentstructs.Erik.9,ES2004c.C.argumentstructs.Erik.9,True,35,34,34,1,True
+ES2004c - Battery options,25,ES2004c.A.argumentstructs.Erik.4,ES2004c.B.argumentstructs.Erik.9,ES2004c.C.argumentstructs.Erik.9,False,37,33,34,3,True
+ES2004c - Battery options,26,ES2004c.C.argumentstructs.Erik.10,ES2004c.A.argumentstructs.Erik.4,ES2004c.A.argumentstructs.Erik.4,True,38,37,37,1,True
+ES2004c - Battery options,27,ES2004c.A.argumentstructs.Erik.5,ES2004c.C.argumentstructs.Erik.10,ES2004c.C.argumentstructs.Erik.10,True,40,38,38,2,True
+ES2004c - Battery options,28,ES2004c.B.argumentstructs.Erik.11,ES2004c.C.argumentstructs.Erik.9,ES2004c.C.argumentstructs.Erik.9,True,41,34,34,7,True
+ES2004c - Battery options,29,ES2004c.C.argumentstructs.Erik.11,ES2004c.B.argumentstructs.Erik.11,ES2004c.B.argumentstructs.Erik.11,True,43,41,41,2,True
+ES2004c - Battery options,30,ES2004c.C.argumentstructs.Erik.12,ES2004c.B.argumentstructs.Erik.11,ES2004c.B.argumentstructs.Erik.11,True,45,41,41,4,True
+ES2004c - Battery options,31,ES2004c.B.argumentstructs.Erik.12,ES2004c.C.argumentstructs.Erik.12,ES2004c.C.argumentstructs.Erik.12,True,46,45,45,1,True
+ES2004c - Battery options,32,ES2004c.D.argumentstructs.Erik.4,ES2004c.B.argumentstructs.Erik.12,ES2004c.C.argumentstructs.Erik.1,False,48,46,2,46,False
+ES2004c - Battery options,33,ES2004c.D.argumentstructs.Erik.5,ES2004c.D.argumentstructs.Erik.4,ES2004c.D.argumentstructs.Erik.4,True,50,48,48,2,True
+ES2004c - Battery options,34,ES2004c.C.argumentstructs.Erik.13,ES2004c.D.argumentstructs.Erik.5,ES2004c.D.argumentstructs.Erik.5,True,51,50,50,1,True
+ES2004c - Different fasciae,0,ES2004c.D.argumentstructs.Erik.6,ROOT,NONE,NONE,2,0,0,2,False
+ES2004c - Different fasciae,1,ES2004c.C.argumentstructs.Erik.14,ES2004c.D.argumentstructs.Erik.6,ES2004c.D.argumentstructs.Erik.6,True,3,2,2,1,True
+ES2004c - Different fasciae,2,ES2004c.C.argumentstructs.Erik.15,ES2004c.C.argumentstructs.Erik.14,ES2004c.D.argumentstructs.Erik.6,False,4,3,2,2,True
+ES2004c - Different fasciae,3,ES2004c.B.argumentstructs.Erik.13,ES2004c.D.argumentstructs.Erik.6,ES2004c.D.argumentstructs.Erik.6,True,5,2,2,3,True
+ES2004c - Different fasciae,4,ES2004c.A.argumentstructs.Erik.6,ES2004c.B.argumentstructs.Erik.13,ES2004c.B.argumentstructs.Erik.13,True,6,5,5,1,True
+ES2004c - Different fasciae,5,ES2004c.D.argumentstructs.Erik.7,ES2004c.D.argumentstructs.Erik.6,ES2004c.B.argumentstructs.Erik.13,False,7,2,5,2,True
+ES2004c - Different fasciae,6,ES2004c.C.argumentstructs.Erik.16,ES2004c.D.argumentstructs.Erik.7,ES2004c.B.argumentstructs.Erik.13,False,8,7,5,3,True
+ES2004c - Different fasciae,7,ES2004c.A.argumentstructs.Erik.8,ES2004c.B.argumentstructs.Erik.13,ES2004c.B.argumentstructs.Erik.13,True,12,5,5,7,True
+ES2004c - Different fasciae,8,ES2004c.A.argumentstructs.Erik.9,ES2004c.A.argumentstructs.Erik.8,ES2004c.A.argumentstructs.Erik.8,True,13,12,12,1,True
+ES2004c - Different fasciae,9,ES2004c.B.argumentstructs.Erik.14,ES2004c.A.argumentstructs.Erik.9,ES2004c.A.argumentstructs.Erik.9,True,14,13,13,1,True
+ES2004c - Different fasciae,10,ES2004c.D.argumentstructs.Erik.8,ES2004c.D.argumentstructs.Erik.7,ES2004c.B.argumentstructs.Erik.13,False,16,7,5,11,False
+ES2004c - Different fasciae,11,ES2004c.C.argumentstructs.Erik.17,ES2004c.C.argumentstructs.Erik.16,ES2004c.D.argumentstructs.Erik.8,False,17,8,16,1,True
+ES2004c - Different fasciae,12,ES2004c.B.argumentstructs.Erik.15,ES2004c.D.argumentstructs.Erik.8,ES2004c.B.argumentstructs.Erik.13,False,18,16,5,13,False
+ES2004c - Different fasciae,13,ES2004c.D.argumentstructs.Erik.9,ES2004c.B.argumentstructs.Erik.15,ES2004c.B.argumentstructs.Erik.15,True,19,18,18,1,True
+ES2004d - Rubber remote,0,ES2004d.B.argumentstructs.Erik.1,ROOT,NONE,NONE,0,0,0,0,False
+ES2004d - Rubber remote,1,ES2004d.C.argumentstructs.Erik.1,ES2004d.B.argumentstructs.Erik.1,ES2004d.B.argumentstructs.Erik.1,True,2,0,0,2,True
+ES2004d - Rubber remote,2,ES2004d.A.argumentstructs.Erik.1,ES2004d.B.argumentstructs.Erik.1,ES2004d.B.argumentstructs.Erik.1,True,3,0,0,3,True
+ES2004d - Rubber remote,3,ES2004d.C.argumentstructs.Erik.2,ES2004d.A.argumentstructs.Erik.1,ES2004d.A.argumentstructs.Erik.1,True,4,3,3,1,True
+ES2004d - Rubber remote,4,ES2004d.A.argumentstructs.Erik.2,ES2004d.A.argumentstructs.Erik.1,ES2004d.C.argumentstructs.Erik.2,False,6,3,4,2,True
+ES2004d - Rubber remote,5,ES2004d.C.argumentstructs.Erik.3,ES2004d.B.argumentstructs.Erik.1,ES2004d.A.argumentstructs.Erik.2,False,7,0,6,1,True
+ES2004d - Rubber remote,6,ES2004d.B.argumentstructs.Erik.2,ES2004d.A.argumentstructs.Erik.2,ES2004d.A.argumentstructs.Erik.2,True,8,6,6,2,True
+ES2004d - Rubber remote,7,ES2004d.A.argumentstructs.Erik.3,ES2004d.A.argumentstructs.Erik.2,ES2004d.B.argumentstructs.Erik.2,False,9,6,8,1,True
+ES2004d - Rubber remote,8,ES2004d.A.argumentstructs.Erik.4,ES2004d.A.argumentstructs.Erik.3,ES2004d.B.argumentstructs.Erik.2,False,10,9,8,2,True
+ES2004d - Rubber remote,9,ES2004d.C.argumentstructs.Erik.4,ES2004d.A.argumentstructs.Erik.4,ES2004d.A.argumentstructs.Erik.4,True,11,10,10,1,True
+ES2004d - Rubber remote,10,ES2004d.B.argumentstructs.Erik.3,ES2004d.C.argumentstructs.Erik.4,ES2004d.A.argumentstructs.Erik.4,False,12,11,10,2,True
+ES2004d - Rubber remote,11,ES2004d.D.argumentstructs.Erik.1,ES2004d.A.argumentstructs.Erik.4,ES2004d.A.argumentstructs.Erik.1,False,13,10,3,10,False
+ES2004d - Rubber remote,12,ES2004d.A.argumentstructs.Erik.5,ES2004d.D.argumentstructs.Erik.1,ES2004d.D.argumentstructs.Erik.1,True,14,13,13,1,True
+ES2004d - Rubber remote,13,ES2004d.B.argumentstructs.Erik.4,ES2004d.A.argumentstructs.Erik.5,ES2004d.D.argumentstructs.Erik.1,False,15,14,13,2,True
+ES2004d - Rubber remote,14,ES2004d.B.argumentstructs.Erik.5,ES2004d.A.argumentstructs.Erik.5,ES2004d.A.argumentstructs.Erik.5,True,18,14,14,4,True
+ES2004d - Rubber remote,15,ES2004d.C.argumentstructs.Erik.5,ES2004d.B.argumentstructs.Erik.5,ES2004d.B.argumentstructs.Erik.5,True,19,18,18,1,True
+ES2004d - Rubber remote,16,ES2004d.D.argumentstructs.Erik.2,ES2004d.C.argumentstructs.Erik.5,ES2004d.C.argumentstructs.Erik.5,True,20,19,19,1,True
+ES2004d - Rubber remote,17,ES2004d.C.argumentstructs.Erik.6,ES2004d.C.argumentstructs.Erik.5,ES2004d.C.argumentstructs.Erik.5,True,21,19,19,2,True
+ES2004d - Rubber remote,18,ES2004d.D.argumentstructs.Erik.3,ES2004d.C.argumentstructs.Erik.6,ES2004d.C.argumentstructs.Erik.6,True,22,21,21,1,True
+ES2004d - Rubber remote,19,ES2004d.B.argumentstructs.Erik.6,ES2004d.D.argumentstructs.Erik.3,ES2004d.D.argumentstructs.Erik.3,True,23,22,22,1,True
+ES2004d - Rubber remote,20,ES2004d.B.argumentstructs.Erik.7,ES2004d.B.argumentstructs.Erik.6,ES2004d.D.argumentstructs.Erik.3,False,25,23,22,3,True
+ES2004d - Rubber remote,21,ES2004d.C.argumentstructs.Erik.7,ES2004d.D.argumentstructs.Erik.3,ES2004d.B.argumentstructs.Erik.7,False,26,22,25,1,True
+ES2005b - Lost remote,0,ES2005b.D.argumentstructs.Erik.1,ROOT,NONE,NONE,0,0,0,0,False
+ES2005b - Lost remote,1,ES2005b.C.argumentstructs.Erik.1,ES2005b.D.argumentstructs.Erik.1,ES2005b.D.argumentstructs.Erik.1,True,1,0,0,1,True
+ES2005b - Lost remote,2,ES2005b.A.argumentstructs.Erik.1,ES2005b.C.argumentstructs.Erik.1,ES2005b.D.argumentstructs.Erik.1,False,2,1,0,2,True
+ES2005b - Lost remote,3,ES2005b.A.argumentstructs.Erik.2,ES2005b.D.argumentstructs.Erik.1,ES2005b.D.argumentstructs.Erik.1,True,5,0,0,5,True
+ES2005b - Lost remote,4,ES2005b.D.argumentstructs.Erik.2,ES2005b.A.argumentstructs.Erik.2,ES2005b.A.argumentstructs.Erik.2,True,6,5,5,1,True
+ES2005b - Lost remote,5,ES2005b.A.argumentstructs.Erik.3,ES2005b.A.argumentstructs.Erik.2,ES2005b.A.argumentstructs.Erik.2,True,7,5,5,2,True
+ES2005b - Lost remote,6,ES2005b.C.argumentstructs.Erik.2,ES2005b.A.argumentstructs.Erik.3,ES2005b.A.argumentstructs.Erik.3,True,8,7,7,1,True
+ES2005b - Lost remote,7,ES2005b.C.argumentstructs.Erik.3,ES2005b.C.argumentstructs.Erik.2,ES2005b.A.argumentstructs.Erik.3,False,9,8,7,2,True
+ES2005b - Lost remote,8,ES2005b.D.argumentstructs.Erik.3,ES2005b.A.argumentstructs.Erik.3,ES2005b.A.argumentstructs.Erik.3,True,10,7,7,3,True
+ES2005b - Lost remote,9,ES2005b.A.argumentstructs.Erik.4,ES2005b.D.argumentstructs.Erik.3,ES2005b.A.argumentstructs.Erik.3,False,12,10,7,5,True
+ES2005b - Lost remote,10,ES2005b.C.argumentstructs.Erik.4,ES2005b.A.argumentstructs.Erik.4,ES2005b.A.argumentstructs.Erik.4,True,13,12,12,1,True
+ES2005b - Lost remote,11,ES2005b.C.argumentstructs.Erik.5,ES2005b.A.argumentstructs.Erik.4,ES2005b.A.argumentstructs.Erik.4,True,14,12,12,2,True
+ES2005b - Lost remote,12,ES2005b.A.argumentstructs.Erik.5,ES2005b.A.argumentstructs.Erik.4,ES2005b.C.argumentstructs.Erik.5,False,15,12,14,1,True
+ES2005b - Lost remote,13,ES2005b.A.argumentstructs.Erik.6,ES2005b.A.argumentstructs.Erik.5,ES2005b.C.argumentstructs.Erik.5,False,17,15,14,3,True
+ES2005b - Lost remote,14,ES2005b.A.argumentstructs.Erik.7,ES2005b.A.argumentstructs.Erik.6,ES2005b.D.argumentstructs.Erik.1,False,19,17,0,19,False
+ES2005b - Lost remote,15,ES2005b.D.argumentstructs.Erik.4,ES2005b.A.argumentstructs.Erik.7,ES2005b.A.argumentstructs.Erik.7,True,21,19,19,2,True
+ES2005b - Lost remote,16,ES2005b.C.argumentstructs.Erik.6,ES2005b.D.argumentstructs.Erik.4,ES2005b.D.argumentstructs.Erik.4,True,22,21,21,1,True
+ES2005b - Lost remote,17,ES2005b.A.argumentstructs.Erik.8,ES2005b.D.argumentstructs.Erik.4,ES2005b.C.argumentstructs.Erik.6,False,23,21,22,1,True
+ES2005b - Lost remote,18,ES2005b.D.argumentstructs.Erik.5,ES2005b.A.argumentstructs.Erik.8,ES2005b.A.argumentstructs.Erik.8,True,24,23,23,1,True
+ES2005c - LCD screen,0,ES2005c.D.argumentstructs.Erik.1,ROOT,NONE,NONE,1,0,0,1,False
+ES2005c - LCD screen,1,ES2005c.A.argumentstructs.Erik.1,ES2005c.D.argumentstructs.Erik.1,ES2005c.D.argumentstructs.Erik.1,True,2,1,1,1,True
+ES2005c - LCD screen,2,ES2005c.D.argumentstructs.Erik.2,ES2005c.D.argumentstructs.Erik.1,ES2005c.A.argumentstructs.Erik.1,False,3,1,2,1,True
+ES2005c - LCD screen,3,ES2005c.D.argumentstructs.Erik.3,ES2005c.D.argumentstructs.Erik.2,ES2005c.A.argumentstructs.Erik.1,False,4,3,2,2,True
+ES2005c - LCD screen,4,ES2005c.B.argumentstructs.Erik.1,ES2005c.D.argumentstructs.Erik.3,ES2005c.A.argumentstructs.Erik.1,False,5,4,2,3,True
+ES2005c - LCD screen,5,ES2005c.C.argumentstructs.Erik.1,ES2005c.B.argumentstructs.Erik.1,ES2005c.B.argumentstructs.Erik.1,True,7,5,5,2,True
+ES2005c - LCD screen,6,ES2005c.D.argumentstructs.Erik.4,ES2005c.B.argumentstructs.Erik.1,ES2005c.B.argumentstructs.Erik.1,True,8,5,5,3,True
+ES2005c - LCD screen,7,ES2005c.C.argumentstructs.Erik.2,ES2005c.D.argumentstructs.Erik.4,ES2005c.D.argumentstructs.Erik.4,True,9,8,8,1,True
+ES2005c - LCD screen,8,ES2005c.D.argumentstructs.Erik.5,ES2005c.C.argumentstructs.Erik.2,ES2005c.C.argumentstructs.Erik.2,True,11,9,9,2,True
+ES2005c - LCD screen,9,ES2005c.D.argumentstructs.Erik.6,ES2005c.C.argumentstructs.Erik.2,ES2005c.C.argumentstructs.Erik.2,True,12,9,9,3,True
+ES2005c - LCD screen,10,ES2005c.C.argumentstructs.Erik.3,ES2005c.D.argumentstructs.Erik.5,ES2005c.D.argumentstructs.Erik.6,False,13,11,12,1,True
+ES2005c - LCD screen,11,ES2005c.C.argumentstructs.Erik.4,ES2005c.D.argumentstructs.Erik.6,ES2005c.D.argumentstructs.Erik.1,False,15,12,1,14,False
+ES2005c - LCD screen,12,ES2005c.D.argumentstructs.Erik.7,ES2005c.C.argumentstructs.Erik.4,ES2005c.C.argumentstructs.Erik.4,True,17,15,15,2,True
+ES2005c - LCD screen,13,ES2005c.C.argumentstructs.Erik.5,ES2005c.C.argumentstructs.Erik.4,ES2005c.D.argumentstructs.Erik.1,False,18,15,1,17,False
+ES2005c - LCD screen,14,ES2005c.D.argumentstructs.Erik.8,ES2005c.D.argumentstructs.Erik.7,ES2005c.C.argumentstructs.Erik.5,False,20,17,18,2,True
+ES2005c - LCD screen,15,ES2005c.A.argumentstructs.Erik.2,ES2005c.C.argumentstructs.Erik.5,ES2005c.D.argumentstructs.Erik.1,False,22,18,1,21,False
+ES2005c - LCD screen,16,ES2005c.B.argumentstructs.Erik.2,ES2005c.A.argumentstructs.Erik.2,ES2005c.A.argumentstructs.Erik.2,True,25,22,22,3,True
+ES2005c - LCD screen,17,ES2005c.C.argumentstructs.Erik.6,ES2005c.B.argumentstructs.Erik.2,ES2005c.B.argumentstructs.Erik.2,True,26,25,25,1,True
+ES2005c - LCD screen,18,ES2005c.A.argumentstructs.Erik.3,ES2005c.B.argumentstructs.Erik.2,ES2005c.B.argumentstructs.Erik.2,True,27,25,25,2,True
+ES2005c - LCD screen,19,ES2005c.C.argumentstructs.Erik.7,ES2005c.A.argumentstructs.Erik.3,ES2005c.A.argumentstructs.Erik.3,True,28,27,27,1,True
+ES2005c - LCD screen,20,ES2005c.D.argumentstructs.Erik.9,ES2005c.A.argumentstructs.Erik.3,ES2005c.A.argumentstructs.Erik.3,True,31,27,27,4,True
+ES2005c - LCD screen,21,ES2005c.D.argumentstructs.Erik.10,ES2005c.B.argumentstructs.Erik.2,ES2005c.A.argumentstructs.Erik.3,False,32,25,27,5,True
+ES2005c - Rechargeable,0,ES2005c.A.argumentstructs.Erik.17,ROOT,NONE,NONE,1,0,0,1,False
+ES2005c - Rechargeable,1,ES2005c.C.argumentstructs.Erik.26,ES2005c.A.argumentstructs.Erik.17,ES2005c.A.argumentstructs.Erik.17,True,2,1,1,1,True
+ES2005c - Rechargeable,2,ES2005c.A.argumentstructs.Erik.18,ES2005c.C.argumentstructs.Erik.26,ES2005c.C.argumentstructs.Erik.26,True,3,2,2,1,True
+ES2005c - Rechargeable,3,ES2005c.D.argumentstructs.Erik.30,ES2005c.A.argumentstructs.Erik.17,ES2005c.A.argumentstructs.Erik.18,False,4,1,3,1,True
+ES2005c - Rechargeable,4,ES2005c.B.argumentstructs.Erik.7,ES2005c.D.argumentstructs.Erik.30,ES2005c.D.argumentstructs.Erik.30,True,5,4,4,1,True
+ES2005c - Rechargeable,5,ES2005c.D.argumentstructs.Erik.31,ES2005c.B.argumentstructs.Erik.7,ES2005c.D.argumentstructs.Erik.30,False,6,5,4,2,True
+ES2005c - Rechargeable,6,ES2005c.D.argumentstructs.Erik.32,ES2005c.A.argumentstructs.Erik.18,ES2005c.A.argumentstructs.Erik.18,True,7,3,3,4,True
+ES2005c - Rechargeable,7,ES2005c.C.argumentstructs.Erik.27,ES2005c.D.argumentstructs.Erik.32,ES2005c.D.argumentstructs.Erik.30,False,8,7,4,4,True
+ES2005c - Rechargeable,8,ES2005c.C.argumentstructs.Erik.28,ES2005c.C.argumentstructs.Erik.27,ES2005c.D.argumentstructs.Erik.32,False,9,8,7,2,True
+ES2005c - Rechargeable,9,ES2005c.A.argumentstructs.Erik.19,ES2005c.D.argumentstructs.Erik.32,ES2005c.A.argumentstructs.Erik.18,False,10,7,3,7,False
+ES2005c - Rechargeable,10,ES2005c.C.argumentstructs.Erik.29,ES2005c.A.argumentstructs.Erik.19,ES2005c.A.argumentstructs.Erik.19,True,11,10,10,1,True
+ES2005c - Rechargeable,11,ES2005c.C.argumentstructs.Erik.30,ES2005c.A.argumentstructs.Erik.19,ES2005c.A.argumentstructs.Erik.19,True,13,10,10,3,True
+ES2005c - Rechargeable,12,ES2005c.B.argumentstructs.Erik.8,ES2005c.A.argumentstructs.Erik.19,ES2005c.A.argumentstructs.Erik.17,False,14,10,1,13,False
+ES2005c - Rechargeable,13,ES2005c.D.argumentstructs.Erik.33,ES2005c.C.argumentstructs.Erik.30,ES2005c.B.argumentstructs.Erik.8,False,15,13,14,1,True
+ES2005c - Rechargeable,14,ES2005c.C.argumentstructs.Erik.31,ES2005c.C.argumentstructs.Erik.30,ES2005c.B.argumentstructs.Erik.8,False,16,13,14,2,True
+ES2005c - Rechargeable,15,ES2005c.B.argumentstructs.Erik.9,ES2005c.C.argumentstructs.Erik.31,ES2005c.C.argumentstructs.Erik.31,True,17,16,16,1,True
+ES2005c - Rechargeable,16,ES2005c.A.argumentstructs.Erik.20,ES2005c.B.argumentstructs.Erik.9,ES2005c.C.argumentstructs.Erik.31,False,18,17,16,2,True
+ES2005c - Rechargeable,17,ES2005c.D.argumentstructs.Erik.34,ES2005c.B.argumentstructs.Erik.8,ES2005c.C.argumentstructs.Erik.31,False,19,14,16,3,True
+ES2005c - Rechargeable,18,ES2005c.C.argumentstructs.Erik.32,ES2005c.D.argumentstructs.Erik.34,ES2005c.D.argumentstructs.Erik.34,True,20,19,19,1,True
+ES2005c - Rechargeable,19,ES2005c.C.argumentstructs.Erik.33,ES2005c.C.argumentstructs.Erik.32,ES2005c.A.argumentstructs.Erik.17,False,22,20,1,21,False
+ES2005c - Rechargeable,20,ES2005c.A.argumentstructs.Erik.21,ES2005c.C.argumentstructs.Erik.33,ES2005c.C.argumentstructs.Erik.33,True,23,22,22,1,True
+ES2005c - Rechargeable,21,ES2005c.B.argumentstructs.Erik.10,ES2005c.A.argumentstructs.Erik.21,ES2005c.A.argumentstructs.Erik.21,True,24,23,23,1,True
+ES2005c - Rechargeable,22,ES2005c.C.argumentstructs.Erik.34,ES2005c.B.argumentstructs.Erik.10,ES2005c.B.argumentstructs.Erik.11,False,25,24,28,3,False
+ES2005c - Rechargeable,23,ES2005c.A.argumentstructs.Erik.22,ES2005c.C.argumentstructs.Erik.34,ES2005c.B.argumentstructs.Erik.11,False,26,25,28,2,False
+ES2005c - Rechargeable,24,ES2005c.C.argumentstructs.Erik.35,ES2005c.B.argumentstructs.Erik.10,ES2005c.B.argumentstructs.Erik.10,True,27,24,24,3,True
+ES2005c - Rechargeable,25,ES2005c.B.argumentstructs.Erik.11,ES2005c.B.argumentstructs.Erik.10,ES2005c.C.argumentstructs.Erik.33,False,28,24,22,6,False
+ES2005c - Rechargeable,26,ES2005c.C.argumentstructs.Erik.36,ES2005c.B.argumentstructs.Erik.11,ES2005c.B.argumentstructs.Erik.11,True,31,28,28,3,True
+ES2005c - Rechargeable,27,ES2005c.D.argumentstructs.Erik.35,ES2005c.B.argumentstructs.Erik.11,ES2005c.C.argumentstructs.Erik.36,False,33,28,31,2,True
+ES2005c - Rechargeable,28,ES2005c.B.argumentstructs.Erik.12,ES2005c.D.argumentstructs.Erik.35,ES2005c.C.argumentstructs.Erik.36,False,34,33,31,3,True
+ES2005c - Rechargeable,29,ES2005c.D.argumentstructs.Erik.36,ES2005c.D.argumentstructs.Erik.35,ES2005c.C.argumentstructs.Erik.36,False,35,33,31,4,True
+ES2005c - Rechargeable,30,ES2005c.B.argumentstructs.Erik.13,ES2005c.B.argumentstructs.Erik.12,ES2005c.D.argumentstructs.Erik.35,False,36,34,33,3,True
+ES2005c - Rechargeable,31,ES2005c.D.argumentstructs.Erik.37,ES2005c.D.argumentstructs.Erik.36,ES2005c.D.argumentstructs.Erik.35,False,37,35,33,4,True
+ES2005c - Rechargeable,32,ES2005c.A.argumentstructs.Erik.23,ES2005c.D.argumentstructs.Erik.37,ES2005c.C.argumentstructs.Erik.36,False,38,37,31,7,False
+ES2005c - Rechargeable,33,ES2005c.D.argumentstructs.Erik.38,ES2005c.A.argumentstructs.Erik.23,ES2005c.C.argumentstructs.Erik.36,False,39,38,31,8,False
+ES2005c - Rechargeable,34,ES2005c.C.argumentstructs.Erik.37,ES2005c.D.argumentstructs.Erik.38,ES2005c.D.argumentstructs.Erik.38,True,40,39,39,1,True
+ES2005c - Rechargeable,35,ES2005c.B.argumentstructs.Erik.14,ES2005c.C.argumentstructs.Erik.37,ES2005c.D.argumentstructs.Erik.38,False,41,40,39,2,True
+ES2005c - Rechargeable,36,ES2005c.A.argumentstructs.Erik.24,ES2005c.B.argumentstructs.Erik.14,ES2005c.B.argumentstructs.Erik.14,True,42,41,41,1,True
+ES2005c - Rechargeable,37,ES2005c.A.argumentstructs.Erik.25,ES2005c.D.argumentstructs.Erik.38,ES2005c.B.argumentstructs.Erik.11,False,43,39,28,15,False
+ES2005c - Rechargeable,38,ES2005c.C.argumentstructs.Erik.38,ES2005c.C.argumentstructs.Erik.37,ES2005c.A.argumentstructs.Erik.25,False,44,40,43,1,True
+ES2005c - Rechargeable,39,ES2005c.B.argumentstructs.Erik.15,ES2005c.C.argumentstructs.Erik.38,ES2005c.A.argumentstructs.Erik.25,False,45,44,43,2,True
+ES2005c - Rechargeable,40,ES2005c.C.argumentstructs.Erik.39,ES2005c.A.argumentstructs.Erik.25,ES2005c.A.argumentstructs.Erik.25,True,46,43,43,3,True
+ES2005c - Remote casing,0,ES2005c.A.argumentstructs.Erik.4,ROOT,NONE,NONE,1,0,0,1,False
+ES2005c - Remote casing,1,ES2005c.A.argumentstructs.Erik.5,ES2005c.A.argumentstructs.Erik.4,ES2005c.A.argumentstructs.Erik.4,True,3,1,1,2,True
+ES2005c - Remote casing,2,ES2005c.D.argumentstructs.Erik.11,ES2005c.A.argumentstructs.Erik.5,ES2005c.A.argumentstructs.Erik.5,True,4,3,3,1,True
+ES2005c - Remote casing,3,ES2005c.C.argumentstructs.Erik.8,ES2005c.A.argumentstructs.Erik.5,ES2005c.A.argumentstructs.Erik.4,False,5,3,1,4,True
+ES2005c - Remote casing,4,ES2005c.A.argumentstructs.Erik.6,ES2005c.C.argumentstructs.Erik.8,ES2005c.C.argumentstructs.Erik.8,True,6,5,5,1,True
+ES2005c - Remote casing,5,ES2005c.D.argumentstructs.Erik.12,ES2005c.D.argumentstructs.Erik.11,ES2005c.C.argumentstructs.Erik.9,False,8,4,10,2,False
+ES2005c - Remote casing,6,ES2005c.C.argumentstructs.Erik.9,ES2005c.C.argumentstructs.Erik.8,ES2005c.A.argumentstructs.Erik.6,False,10,5,6,4,True
+ES2005c - Remote casing,7,ES2005c.A.argumentstructs.Erik.7,ES2005c.C.argumentstructs.Erik.8,ES2005c.C.argumentstructs.Erik.9,False,12,5,10,2,True
+ES2005c - Remote casing,8,ES2005c.D.argumentstructs.Erik.13,ES2005c.C.argumentstructs.Erik.9,ES2005c.A.argumentstructs.Erik.4,False,13,10,1,12,False
+ES2005c - Remote casing,9,ES2005c.C.argumentstructs.Erik.10,ES2005c.C.argumentstructs.Erik.9,ES2005c.D.argumentstructs.Erik.13,False,14,10,13,1,True
+ES2005c - Remote casing,10,ES2005c.A.argumentstructs.Erik.8,ES2005c.C.argumentstructs.Erik.10,ES2005c.D.argumentstructs.Erik.13,False,15,14,13,2,True
+ES2005c - Remote casing,11,ES2005c.C.argumentstructs.Erik.11,ES2005c.D.argumentstructs.Erik.13,ES2005c.D.argumentstructs.Erik.13,True,16,13,13,3,True
+ES2005c - Remote casing,12,ES2005c.A.argumentstructs.Erik.9,ES2005c.D.argumentstructs.Erik.13,ES2005c.D.argumentstructs.Erik.13,True,17,13,13,4,True
+ES2005c - Remote casing,13,ES2005c.C.argumentstructs.Erik.12,ES2005c.A.argumentstructs.Erik.9,ES2005c.A.argumentstructs.Erik.9,True,18,17,17,1,True
+ES2005c - Remote casing,14,ES2005c.D.argumentstructs.Erik.14,ES2005c.C.argumentstructs.Erik.12,ES2005c.A.argumentstructs.Erik.9,False,19,18,17,2,True
+ES2005c - Remote casing,15,ES2005c.D.argumentstructs.Erik.15,ES2005c.A.argumentstructs.Erik.9,ES2005c.A.argumentstructs.Erik.9,True,20,17,17,3,True
+ES2005c - Remote casings,0,ES2005c.B.argumentstructs.Erik.3,ROOT,NONE,NONE,1,0,0,1,False
+ES2005c - Remote casings,1,ES2005c.C.argumentstructs.Erik.17,ES2005c.B.argumentstructs.Erik.3,ES2005c.B.argumentstructs.Erik.3,True,3,1,1,2,True
+ES2005c - Remote casings,2,ES2005c.D.argumentstructs.Erik.22,ES2005c.B.argumentstructs.Erik.3,ES2005c.B.argumentstructs.Erik.3,True,5,1,1,4,True
+ES2005c - Remote casings,3,ES2005c.C.argumentstructs.Erik.18,ES2005c.C.argumentstructs.Erik.17,ES2005c.D.argumentstructs.Erik.22,False,6,3,5,1,True
+ES2005c - Remote casings,4,ES2005c.B.argumentstructs.Erik.4,ES2005c.D.argumentstructs.Erik.22,ES2005c.D.argumentstructs.Erik.22,True,7,5,5,2,True
+ES2005c - Remote casings,5,ES2005c.D.argumentstructs.Erik.23,ES2005c.D.argumentstructs.Erik.22,ES2005c.B.argumentstructs.Erik.4,False,8,5,7,1,True
+ES2005c - Remote casings,6,ES2005c.B.argumentstructs.Erik.5,ES2005c.C.argumentstructs.Erik.17,ES2005c.D.argumentstructs.Erik.23,False,9,3,8,1,True
+ES2005c - Remote casings,7,ES2005c.D.argumentstructs.Erik.24,ES2005c.D.argumentstructs.Erik.23,ES2005c.B.argumentstructs.Erik.5,False,10,8,9,1,True
+ES2005c - Remote casings,8,ES2005c.C.argumentstructs.Erik.19,ES2005c.B.argumentstructs.Erik.5,ES2005c.B.argumentstructs.Erik.5,True,11,9,9,2,True
+ES2005c - Remote casings,9,ES2005c.D.argumentstructs.Erik.25,ES2005c.D.argumentstructs.Erik.24,ES2005c.C.argumentstructs.Erik.19,False,12,10,11,1,True
+ES2005c - Remote casings,10,ES2005c.D.argumentstructs.Erik.26,ES2005c.D.argumentstructs.Erik.25,ES2005c.B.argumentstructs.Erik.3,False,14,12,1,13,False
+ES2005c - Remote casings,11,ES2005c.B.argumentstructs.Erik.6,ES2005c.D.argumentstructs.Erik.26,ES2005c.D.argumentstructs.Erik.26,True,15,14,14,1,True
+ES2005c - Remote casings,12,ES2005c.C.argumentstructs.Erik.20,ES2005c.B.argumentstructs.Erik.6,ES2005c.B.argumentstructs.Erik.6,True,16,15,15,1,True
+ES2005c - Remote casings,13,ES2005c.D.argumentstructs.Erik.27,ES2005c.B.argumentstructs.Erik.6,ES2005c.B.argumentstructs.Erik.6,True,17,15,15,2,True
+ES2005c - Remote casings,14,ES2005c.D.argumentstructs.Erik.28,ES2005c.D.argumentstructs.Erik.27,ES2005c.B.argumentstructs.Erik.6,False,18,17,15,3,True
+ES2005c - Remote casings,15,ES2005c.A.argumentstructs.Erik.15,ES2005c.D.argumentstructs.Erik.28,ES2005c.D.argumentstructs.Erik.28,True,20,18,18,2,True
+ES2005c - Remote casings,16,ES2005c.C.argumentstructs.Erik.21,ES2005c.C.argumentstructs.Erik.20,ES2005c.B.argumentstructs.Erik.6,False,21,16,15,6,True
+ES2005c - Remote casings,17,ES2005c.C.argumentstructs.Erik.22,ES2005c.C.argumentstructs.Erik.21,ES2005c.C.argumentstructs.Erik.21,True,23,21,21,2,True
+ES2005c - Remote casings,18,ES2005c.D.argumentstructs.Erik.29,ES2005c.C.argumentstructs.Erik.22,ES2005c.C.argumentstructs.Erik.22,True,24,23,23,1,True
+ES2005c - Remote casings,19,ES2005c.C.argumentstructs.Erik.23,ES2005c.C.argumentstructs.Erik.22,ES2005c.C.argumentstructs.Erik.22,True,25,23,23,2,True
+ES2005c - Remote casings,20,ES2005c.C.argumentstructs.Erik.24,ES2005c.C.argumentstructs.Erik.23,ES2005c.C.argumentstructs.Erik.23,True,27,25,25,2,True
+ES2005c - Remote casings,21,ES2005c.A.argumentstructs.Erik.16,ES2005c.C.argumentstructs.Erik.24,ES2005c.C.argumentstructs.Erik.23,False,28,27,25,3,True
+ES2005c - Remote casings,22,ES2005c.C.argumentstructs.Erik.25,ES2005c.C.argumentstructs.Erik.24,ES2005c.A.argumentstructs.Erik.16,False,29,27,28,1,True
+ES2005c - Remote color,0,ES2005c.A.argumentstructs.Erik.10,ROOT,NONE,NONE,0,0,0,0,False
+ES2005c - Remote color,1,ES2005c.D.argumentstructs.Erik.16,ES2005c.A.argumentstructs.Erik.10,ES2005c.A.argumentstructs.Erik.10,True,1,0,0,1,True
+ES2005c - Remote color,2,ES2005c.C.argumentstructs.Erik.13,ES2005c.D.argumentstructs.Erik.16,ES2005c.A.argumentstructs.Erik.10,False,2,1,0,2,True
+ES2005c - Remote color,3,ES2005c.A.argumentstructs.Erik.11,ES2005c.A.argumentstructs.Erik.10,ES2005c.C.argumentstructs.Erik.13,False,3,0,2,1,True
+ES2005c - Remote color,4,ES2005c.C.argumentstructs.Erik.14,ES2005c.A.argumentstructs.Erik.11,ES2005c.A.argumentstructs.Erik.10,False,6,3,0,6,True
+ES2005c - Remote color,5,ES2005c.D.argumentstructs.Erik.17,ES2005c.D.argumentstructs.Erik.16,ES2005c.C.argumentstructs.Erik.14,False,8,1,6,2,True
+ES2005c - Remote color,6,ES2005c.A.argumentstructs.Erik.12,ES2005c.D.argumentstructs.Erik.17,ES2005c.D.argumentstructs.Erik.17,True,10,8,8,2,True
+ES2005c - Remote color,7,ES2005c.C.argumentstructs.Erik.15,ES2005c.A.argumentstructs.Erik.12,ES2005c.A.argumentstructs.Erik.12,True,12,10,10,2,True
+ES2005c - Remote color,8,ES2005c.D.argumentstructs.Erik.18,ES2005c.A.argumentstructs.Erik.12,ES2005c.C.argumentstructs.Erik.15,False,13,10,12,1,True
+ES2005c - Remote color,9,ES2005c.A.argumentstructs.Erik.13,ES2005c.C.argumentstructs.Erik.15,ES2005c.D.argumentstructs.Erik.18,False,14,12,13,1,True
+ES2005c - Remote color,10,ES2005c.D.argumentstructs.Erik.19,ES2005c.A.argumentstructs.Erik.13,ES2005c.A.argumentstructs.Erik.13,True,15,14,14,1,True
+ES2005c - Remote color,11,ES2005c.C.argumentstructs.Erik.16,ES2005c.C.argumentstructs.Erik.15,ES2005c.D.argumentstructs.Erik.19,False,16,12,15,1,True
+ES2005c - Remote color,12,ES2005c.D.argumentstructs.Erik.20,ES2005c.C.argumentstructs.Erik.16,ES2005c.D.argumentstructs.Erik.19,False,17,16,15,2,True
+ES2005c - Remote color,13,ES2005c.D.argumentstructs.Erik.21,ES2005c.D.argumentstructs.Erik.20,ES2005c.C.argumentstructs.Erik.16,False,18,17,16,2,True
+ES2005c - Remote color,14,ES2005c.A.argumentstructs.Erik.14,ES2005c.D.argumentstructs.Erik.19,ES2005c.D.argumentstructs.Erik.21,False,19,15,18,1,True
+ES2005d - Trend score,0,ES2005d.D.argumentstructs.Erik.1,ROOT,ES2005d.A.argumentstructs.Erik.1,NONE,1,0,2,1,False
+ES2005d - Trend score,1,ES2005d.A.argumentstructs.Erik.1,ES2005d.D.argumentstructs.Erik.1,NONE,False,2,1,0,2,False
+ES2005d - Trend score,2,ES2005d.A.argumentstructs.Erik.2,ES2005d.A.argumentstructs.Erik.1,ES2005d.A.argumentstructs.Erik.1,True,3,2,2,1,True
+ES2005d - Trend score,3,ES2005d.B.argumentstructs.Erik.1,ES2005d.A.argumentstructs.Erik.2,ES2005d.A.argumentstructs.Erik.2,True,4,3,3,1,True
+ES2005d - Trend score,4,ES2005d.A.argumentstructs.Erik.3,ES2005d.A.argumentstructs.Erik.2,ES2005d.B.argumentstructs.Erik.1,False,5,3,4,1,True
+ES2005d - Trend score,5,ES2005d.B.argumentstructs.Erik.2,ES2005d.A.argumentstructs.Erik.3,ES2005d.A.argumentstructs.Erik.3,True,6,5,5,1,True
+ES2005d - Trend score,6,ES2005d.D.argumentstructs.Erik.2,ES2005d.B.argumentstructs.Erik.2,ES2005d.A.argumentstructs.Erik.1,False,8,6,2,6,True
+ES2005d - Trend score,7,ES2005d.D.argumentstructs.Erik.3,ES2005d.D.argumentstructs.Erik.2,ES2005d.D.argumentstructs.Erik.2,True,10,8,8,2,True
+ES2005d - Trend score,8,ES2005d.B.argumentstructs.Erik.3,ES2005d.D.argumentstructs.Erik.3,ES2005d.D.argumentstructs.Erik.2,False,11,10,8,3,True
+ES2005d - Trend score,9,ES2005d.A.argumentstructs.Erik.4,ES2005d.A.argumentstructs.Erik.3,ES2005d.A.argumentstructs.Erik.1,False,13,5,2,11,False
+ES2005d - Trend score,10,ES2005d.C.argumentstructs.Erik.2,ES2005d.A.argumentstructs.Erik.4,ES2005d.A.argumentstructs.Erik.4,True,14,13,13,1,True
+ES2005d - Trend score,11,ES2005d.B.argumentstructs.Erik.4,ES2005d.D.argumentstructs.Erik.2,ES2005d.A.argumentstructs.Erik.1,False,16,8,2,14,False
+ES2005d - Trend score,12,ES2005d.B.argumentstructs.Erik.5,ES2005d.B.argumentstructs.Erik.4,ES2005d.B.argumentstructs.Erik.4,True,17,16,16,1,True
+ES2006a - Remote first ideas,0,ES2006a.C.argumentstructs.Erik.1,ROOT,NONE,NONE,1,0,0,1,False
+ES2006a - Remote first ideas,1,ES2006a.D.argumentstructs.Erik.1,ES2006a.C.argumentstructs.Erik.1,ES2006a.C.argumentstructs.Erik.1,True,2,1,1,1,True
+ES2006a - Remote first ideas,2,ES2006a.C.argumentstructs.Erik.2,ES2006a.D.argumentstructs.Erik.1,ES2006a.D.argumentstructs.Erik.1,True,4,2,2,2,True
+ES2006a - Remote first ideas,3,ES2006a.A.argumentstructs.Erik.1,ES2006a.D.argumentstructs.Erik.1,ES2006a.C.argumentstructs.Erik.1,False,6,2,1,5,True
+ES2006a - Remote first ideas,4,ES2006a.C.argumentstructs.Erik.3,ES2006a.A.argumentstructs.Erik.1,ES2006a.A.argumentstructs.Erik.1,True,7,6,6,1,True
+ES2006a - Remote first ideas,5,ES2006a.B.argumentstructs.Erik.1,ES2006a.A.argumentstructs.Erik.1,ES2006a.A.argumentstructs.Erik.1,True,8,6,6,2,True
+ES2006a - Remote first ideas,6,ES2006a.A.argumentstructs.Erik.2,ES2006a.B.argumentstructs.Erik.1,ES2006a.B.argumentstructs.Erik.1,True,11,8,8,3,True
+ES2006a - Remote first ideas,7,ES2006a.B.argumentstructs.Erik.2,ES2006a.A.argumentstructs.Erik.2,ES2006a.B.argumentstructs.Erik.1,False,12,11,8,4,True
+ES2006a - Remote first ideas,8,ES2006a.C.argumentstructs.Erik.4,ES2006a.B.argumentstructs.Erik.2,ES2006a.B.argumentstructs.Erik.1,False,15,12,8,7,True
+ES2006a - Remote first ideas,9,ES2006a.B.argumentstructs.Erik.3,ES2006a.C.argumentstructs.Erik.4,ES2006a.C.argumentstructs.Erik.4,True,16,15,15,1,True
+ES2006a - Remote first ideas,10,ES2006a.C.argumentstructs.Erik.5,ES2006a.B.argumentstructs.Erik.3,ES2006a.B.argumentstructs.Erik.3,True,18,16,16,2,True
+ES2006a - Remote first ideas,11,ES2006a.A.argumentstructs.Erik.3,ES2006a.C.argumentstructs.Erik.5,ES2006a.B.argumentstructs.Erik.3,False,19,18,16,3,True
+ES2006a - Remote first ideas,12,ES2006a.A.argumentstructs.Erik.4,ES2006a.B.argumentstructs.Erik.3,ES2006a.B.argumentstructs.Erik.3,True,21,16,16,5,True
+ES2006a - Remote first ideas,13,ES2006a.B.argumentstructs.Erik.4,ES2006a.A.argumentstructs.Erik.4,ES2006a.A.argumentstructs.Erik.4,True,22,21,21,1,True
+ES2006a - Remote first ideas,14,ES2006a.C.argumentstructs.Erik.6,ES2006a.B.argumentstructs.Erik.4,ES2006a.A.argumentstructs.Erik.4,False,23,22,21,2,True
+ES2006a - Remote first ideas,15,ES2006a.B.argumentstructs.Erik.5,ES2006a.A.argumentstructs.Erik.4,ES2006a.A.argumentstructs.Erik.4,True,24,21,21,3,True
+ES2006a - Remote first ideas,16,ES2006a.C.argumentstructs.Erik.7,ES2006a.B.argumentstructs.Erik.5,ES2006a.C.argumentstructs.Erik.4,False,25,24,15,10,False
+ES2006a - Remote first ideas,17,ES2006a.A.argumentstructs.Erik.5,ES2006a.B.argumentstructs.Erik.5,ES2006a.C.argumentstructs.Erik.7,False,27,24,25,2,True
+ES2006a - Remote first ideas,18,ES2006a.B.argumentstructs.Erik.6,ES2006a.A.argumentstructs.Erik.5,ES2006a.C.argumentstructs.Erik.7,False,28,27,25,3,True
+ES2006a - Remote first ideas,19,ES2006a.A.argumentstructs.Erik.6,ES2006a.B.argumentstructs.Erik.5,ES2006a.C.argumentstructs.Erik.7,False,30,24,25,5,True
+ES2006a - Remote first ideas,20,ES2006a.B.argumentstructs.Erik.7,ES2006a.B.argumentstructs.Erik.5,ES2006a.C.argumentstructs.Erik.7,False,31,24,25,6,True
+ES2006a - Remote first ideas,21,ES2006a.C.argumentstructs.Erik.8,ES2006a.B.argumentstructs.Erik.7,ES2006a.B.argumentstructs.Erik.7,True,35,31,31,4,True
+ES2006b - Target audience,0,ES2006b.A.argumentstructs.Erik.1,ROOT,NONE,NONE,0,0,0,0,False
+ES2006b - Target audience,1,ES2006b.B.argumentstructs.Erik.1,ES2006b.A.argumentstructs.Erik.1,ES2006b.A.argumentstructs.Erik.1,True,4,0,0,4,True
+ES2006b - Target audience,2,ES2006b.A.argumentstructs.Erik.2,ES2006b.A.argumentstructs.Erik.1,ES2006b.B.argumentstructs.Erik.1,False,5,0,4,1,True
+ES2006b - Target audience,3,ES2006b.C.argumentstructs.Erik.1,ES2006b.A.argumentstructs.Erik.2,ES2006b.A.argumentstructs.Erik.2,True,6,5,5,1,True
+ES2006b - Target audience,4,ES2006b.C.argumentstructs.Erik.2,ES2006b.A.argumentstructs.Erik.1,ES2006b.A.argumentstructs.Erik.2,False,9,0,5,4,True
+ES2006b - Target audience,5,ES2006b.A.argumentstructs.Erik.3,ES2006b.A.argumentstructs.Erik.2,ES2006b.C.argumentstructs.Erik.2,False,11,5,9,2,True
+ES2006b - Target audience,6,ES2006b.B.argumentstructs.Erik.2,ES2006b.A.argumentstructs.Erik.3,ES2006b.C.argumentstructs.Erik.2,False,12,11,9,3,True
+ES2006b - Target audience,7,ES2006b.C.argumentstructs.Erik.3,ES2006b.B.argumentstructs.Erik.2,ES2006b.B.argumentstructs.Erik.2,True,14,12,12,2,True
+ES2006b - Target audience,8,ES2006b.D.argumentstructs.Erik.1,ES2006b.C.argumentstructs.Erik.3,ES2006b.C.argumentstructs.Erik.3,True,15,14,14,1,True
+ES2006b - Target audience,9,ES2006b.A.argumentstructs.Erik.4,ES2006b.C.argumentstructs.Erik.3,ES2006b.A.argumentstructs.Erik.1,False,16,14,0,16,False
+ES2006b - Target audience,10,ES2006b.B.argumentstructs.Erik.3,ES2006b.A.argumentstructs.Erik.4,ES2006b.A.argumentstructs.Erik.4,True,17,16,16,1,True
+ES2006b - Target audience,11,ES2006b.B.argumentstructs.Erik.5,ES2006b.A.argumentstructs.Erik.4,ES2006b.B.argumentstructs.Erik.3,False,20,16,17,3,True
+ES2006b - Target audience,12,ES2006b.D.argumentstructs.Erik.2,ES2006b.B.argumentstructs.Erik.5,ES2006b.A.argumentstructs.Erik.4,False,21,20,16,5,True
+ES2006b - Target audience,13,ES2006b.B.argumentstructs.Erik.6,ES2006b.D.argumentstructs.Erik.2,ES2006b.D.argumentstructs.Erik.2,True,22,21,21,1,True
+ES2006b - Target audience,14,ES2006b.A.argumentstructs.Erik.5,ES2006b.B.argumentstructs.Erik.6,ES2006b.B.argumentstructs.Erik.7,False,24,22,26,2,False
+ES2006b - Target audience,15,ES2006b.C.argumentstructs.Erik.4,ES2006b.A.argumentstructs.Erik.5,ES2006b.B.argumentstructs.Erik.7,False,25,24,26,1,False
+ES2006b - Target audience,16,ES2006b.B.argumentstructs.Erik.7,ES2006b.C.argumentstructs.Erik.4,ES2006b.A.argumentstructs.Erik.1,False,26,25,0,26,False
+ES2006b - Target audience,17,ES2006b.C.argumentstructs.Erik.5,ES2006b.B.argumentstructs.Erik.7,ES2006b.B.argumentstructs.Erik.7,True,29,26,26,3,True
+ES2006b - Target audience,18,ES2006b.B.argumentstructs.Erik.8,ES2006b.C.argumentstructs.Erik.5,ES2006b.C.argumentstructs.Erik.5,True,30,29,29,1,True
+ES2006b - Target audience,19,ES2006b.C.argumentstructs.Erik.6,ES2006b.C.argumentstructs.Erik.5,ES2006b.B.argumentstructs.Erik.8,False,31,29,30,1,True
+ES2006b - Target audience,20,ES2006b.D.argumentstructs.Erik.3,ES2006b.C.argumentstructs.Erik.5,ES2006b.B.argumentstructs.Erik.8,False,32,29,30,2,True
+ES2006b - Voice recognition or buttons,0,ES2006b.D.argumentstructs.Erik.8,ROOT,NONE,NONE,0,0,0,0,False
+ES2006b - Voice recognition or buttons,1,ES2006b.C.argumentstructs.Erik.11,ES2006b.D.argumentstructs.Erik.8,ES2006b.D.argumentstructs.Erik.8,True,1,0,0,1,True
+ES2006b - Voice recognition or buttons,2,ES2006b.C.argumentstructs.Erik.12,ES2006b.C.argumentstructs.Erik.11,ES2006b.D.argumentstructs.Erik.8,False,2,1,0,2,True
+ES2006b - Voice recognition or buttons,3,ES2006b.A.argumentstructs.Erik.12,ES2006b.D.argumentstructs.Erik.8,ES2006b.D.argumentstructs.Erik.8,True,5,0,0,5,True
+ES2006b - Voice recognition or buttons,4,ES2006b.B.argumentstructs.Erik.13,ES2006b.D.argumentstructs.Erik.8,ES2006b.A.argumentstructs.Erik.12,False,6,0,5,1,True
+ES2006b - Voice recognition or buttons,5,ES2006b.C.argumentstructs.Erik.13,ES2006b.D.argumentstructs.Erik.8,ES2006b.A.argumentstructs.Erik.12,False,7,0,5,2,True
+ES2006b - Voice recognition or buttons,6,ES2006b.B.argumentstructs.Erik.14,ES2006b.C.argumentstructs.Erik.13,ES2006b.C.argumentstructs.Erik.13,True,8,7,7,1,True
+ES2006b - Voice recognition or buttons,7,ES2006b.C.argumentstructs.Erik.14,ES2006b.B.argumentstructs.Erik.14,ES2006b.B.argumentstructs.Erik.14,True,9,8,8,1,True
+ES2006b - Voice recognition or buttons,8,ES2006b.C.argumentstructs.Erik.15,ES2006b.B.argumentstructs.Erik.14,ES2006b.B.argumentstructs.Erik.14,True,12,8,8,4,True
+ES2006b - Voice recognition or buttons,9,ES2006b.B.argumentstructs.Erik.15,ES2006b.B.argumentstructs.Erik.14,ES2006b.B.argumentstructs.Erik.14,True,13,8,8,5,True
+ES2006b - Voice recognition or buttons,10,ES2006b.A.argumentstructs.Erik.13,ES2006b.B.argumentstructs.Erik.15,ES2006b.B.argumentstructs.Erik.14,False,14,13,8,6,True
+ES2006b - Voice recognition or buttons,11,ES2006b.C.argumentstructs.Erik.16,ES2006b.B.argumentstructs.Erik.14,ES2006b.B.argumentstructs.Erik.14,True,17,8,8,9,True
+ES2006b - Voice recognition,0,ES2006b.C.argumentstructs.Erik.7,ROOT,NONE,NONE,0,0,0,0,False
+ES2006b - Voice recognition,1,ES2006b.D.argumentstructs.Erik.4,ES2006b.C.argumentstructs.Erik.7,ES2006b.C.argumentstructs.Erik.7,True,2,0,0,2,True
+ES2006b - Voice recognition,2,ES2006b.A.argumentstructs.Erik.6,ES2006b.C.argumentstructs.Erik.7,ES2006b.C.argumentstructs.Erik.7,True,3,0,0,3,True
+ES2006b - Voice recognition,3,ES2006b.B.argumentstructs.Erik.9,ES2006b.C.argumentstructs.Erik.7,ES2006b.A.argumentstructs.Erik.6,False,5,0,3,2,True
+ES2006b - Voice recognition,4,ES2006b.C.argumentstructs.Erik.8,ES2006b.C.argumentstructs.Erik.7,ES2006b.B.argumentstructs.Erik.9,False,6,0,5,1,True
+ES2006b - Voice recognition,5,ES2006b.A.argumentstructs.Erik.7,ES2006b.C.argumentstructs.Erik.8,ES2006b.B.argumentstructs.Erik.9,False,7,6,5,2,True
+ES2006b - Voice recognition,6,ES2006b.A.argumentstructs.Erik.8,ES2006b.A.argumentstructs.Erik.6,ES2006b.B.argumentstructs.Erik.9,False,8,3,5,3,True
+ES2006b - Voice recognition,7,ES2006b.D.argumentstructs.Erik.5,ES2006b.A.argumentstructs.Erik.8,ES2006b.A.argumentstructs.Erik.8,True,9,8,8,1,True
+ES2006b - Voice recognition,8,ES2006b.B.argumentstructs.Erik.10,ES2006b.B.argumentstructs.Erik.9,ES2006b.A.argumentstructs.Erik.8,False,11,5,8,3,True
+ES2006b - Voice recognition,9,ES2006b.A.argumentstructs.Erik.9,ES2006b.D.argumentstructs.Erik.5,ES2006b.C.argumentstructs.Erik.9,False,13,9,17,4,False
+ES2006b - Voice recognition,10,ES2006b.D.argumentstructs.Erik.6,ES2006b.A.argumentstructs.Erik.9,ES2006b.C.argumentstructs.Erik.9,False,14,13,17,3,False
+ES2006b - Voice recognition,11,ES2006b.B.argumentstructs.Erik.11,ES2006b.D.argumentstructs.Erik.6,ES2006b.C.argumentstructs.Erik.9,False,15,14,17,2,False
+ES2006b - Voice recognition,12,ES2006b.C.argumentstructs.Erik.9,ES2006b.D.argumentstructs.Erik.6,ES2006b.A.argumentstructs.Erik.8,False,17,14,8,9,False
+ES2006b - Voice recognition,13,ES2006b.B.argumentstructs.Erik.12,ES2006b.C.argumentstructs.Erik.9,ES2006b.C.argumentstructs.Erik.9,True,19,17,17,2,True
+ES2006b - Voice recognition,14,ES2006b.A.argumentstructs.Erik.10,ES2006b.B.argumentstructs.Erik.12,ES2006b.B.argumentstructs.Erik.12,True,20,19,19,1,True
+ES2006b - Voice recognition,15,ES2006b.C.argumentstructs.Erik.10,ES2006b.A.argumentstructs.Erik.10,ES2006b.B.argumentstructs.Erik.12,False,22,20,19,3,True
+ES2006b - Voice recognition,16,ES2006b.A.argumentstructs.Erik.11,ES2006b.B.argumentstructs.Erik.12,ES2006b.B.argumentstructs.Erik.12,True,25,19,19,6,True
+ES2006b - Voice recognition,17,ES2006b.D.argumentstructs.Erik.7,ES2006b.A.argumentstructs.Erik.11,ES2006b.A.argumentstructs.Erik.11,True,26,25,25,1,True
+ES2006d - Flipping open,0,ES2006d.B.argumentstructs.Erik.1,ROOT,ES2006d.A.argumentstructs.Erik.1,NONE,1,0,2,1,False
+ES2006d - Flipping open,1,ES2006d.A.argumentstructs.Erik.1,ES2006d.B.argumentstructs.Erik.1,NONE,False,2,1,0,2,False
+ES2006d - Flipping open,2,ES2006d.D.argumentstructs.Erik.1,ES2006d.A.argumentstructs.Erik.1,ES2006d.A.argumentstructs.Erik.1,True,4,2,2,2,True
+ES2006d - Flipping open,3,ES2006d.A.argumentstructs.Erik.2,ES2006d.D.argumentstructs.Erik.1,ES2006d.D.argumentstructs.Erik.1,True,5,4,4,1,True
+ES2006d - Flipping open,4,ES2006d.C.argumentstructs.Erik.1,ES2006d.A.argumentstructs.Erik.2,ES2006d.A.argumentstructs.Erik.2,True,6,5,5,1,True
+ES2006d - Flipping open,5,ES2006d.B.argumentstructs.Erik.2,ES2006d.C.argumentstructs.Erik.1,ES2006d.A.argumentstructs.Erik.2,False,7,6,5,2,True
+ES2006d - Flipping open,6,ES2006d.B.argumentstructs.Erik.3,ES2006d.A.argumentstructs.Erik.2,ES2006d.A.argumentstructs.Erik.1,False,9,5,2,7,True
+ES2006d - Flipping open,7,ES2006d.D.argumentstructs.Erik.2,ES2006d.D.argumentstructs.Erik.1,ES2006d.B.argumentstructs.Erik.3,False,10,4,9,1,True
+ES2006d - Flipping open,8,ES2006d.A.argumentstructs.Erik.3,ES2006d.D.argumentstructs.Erik.2,ES2006d.D.argumentstructs.Erik.2,True,11,10,10,1,True
+ES2006d - Flipping open,9,ES2006d.C.argumentstructs.Erik.2,ES2006d.D.argumentstructs.Erik.2,ES2006d.D.argumentstructs.Erik.2,True,12,10,10,2,True
+ES2006d - Flipping open,10,ES2006d.B.argumentstructs.Erik.4,ES2006d.C.argumentstructs.Erik.2,ES2006d.C.argumentstructs.Erik.2,True,13,12,12,1,True
+ES2006d - Flipping open,11,ES2006d.B.argumentstructs.Erik.5,ES2006d.D.argumentstructs.Erik.2,ES2006d.C.argumentstructs.Erik.2,False,14,10,12,2,True
+ES2006d - Flipping open,12,ES2006d.D.argumentstructs.Erik.3,ES2006d.B.argumentstructs.Erik.5,ES2006d.B.argumentstructs.Erik.5,True,17,14,14,3,True
+ES2006d - Flipping open,13,ES2006d.B.argumentstructs.Erik.6,ES2006d.B.argumentstructs.Erik.5,ES2006d.D.argumentstructs.Erik.3,False,19,14,17,2,True
+ES2006d - Flipping open,14,ES2006d.D.argumentstructs.Erik.4,ES2006d.B.argumentstructs.Erik.6,ES2006d.B.argumentstructs.Erik.6,True,20,19,19,1,True
+ES2006d - Flipping open,15,ES2006d.A.argumentstructs.Erik.4,ES2006d.D.argumentstructs.Erik.4,ES2006d.D.argumentstructs.Erik.4,True,21,20,20,1,True
+ES2006d - Flipping open,16,ES2006d.B.argumentstructs.Erik.7,ES2006d.B.argumentstructs.Erik.6,ES2006d.D.argumentstructs.Erik.4,False,22,19,20,2,True
+ES2006d - Flipping open,17,ES2006d.A.argumentstructs.Erik.5,ES2006d.B.argumentstructs.Erik.7,ES2006d.B.argumentstructs.Erik.7,True,23,22,22,1,True
