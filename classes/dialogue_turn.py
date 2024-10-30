@@ -66,8 +66,20 @@ class DialogueTurn:
                 removed_turns.append(turn)
             else:
                 filtered_turns.append(turn)
-        return filtered_turns, removed_turns
 
+        reindex_filtered_turns = DialogueTurn.reindex(filtered_turns)
+
+        return reindex_filtered_turns, removed_turns
+
+    # indexを振りなおす（1から始める）
+    @staticmethod
+    def reindex(dialogue_turns):
+        reindex_turns = []
+        for index, turn in enumerate(dialogue_turns):
+            turn.index = index
+            reindex_turns.append(turn)
+
+        return reindex_turns
 
     # ae_idからファイルを検索し、ファイルパスのリストを返すメソッド
     @staticmethod
@@ -92,7 +104,7 @@ class DialogueTurn:
             for turn in dialogue_turns:
                 if turn.ae_id == ae_id:
                     return turn
-        
+
         return 'NONE'
 
     # 自身の辞書型を返すメソッド

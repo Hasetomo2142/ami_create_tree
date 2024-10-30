@@ -36,6 +36,14 @@ class OneTurnResult:
 			"judgement": self.judgement
 		}
 
+	# 再インデックスする
+	def reindex(self, ae_id_to_index):
+		self.current_node.index = ae_id_to_index[self.current_node.ae_id]
+		for target_node in self.target_node_list:
+			target_node.index = ae_id_to_index[target_node.ae_id]
+		return self
+
+
 	@classmethod
 	def from_dict(cls, data):
 		current_node = DialogueTurn.from_dict(data["current_node"])
