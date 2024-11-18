@@ -120,6 +120,10 @@ class DialogueTurn:
             "targets": self.targets
         }
 
+    # 自身が葉ノードかどうかを判定するメソッド
+    def is_leaf(self):
+        return self.source != 'NONE' and self.targets == ['NONE']
+
 
     @classmethod
     def from_dict(cls, data):
