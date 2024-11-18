@@ -1,3 +1,4 @@
+import json
 import os
 import csv
 import sys
@@ -111,6 +112,11 @@ def main():
 
     # tqdmを使用してファイルの進行状況を表示
     for csv_file in tqdm(csv_file_list, desc="Processing CSV files"):
+        result_exists = False
+        result_file = os.path.join(out_put_dir_path, f"{os.path.basename(csv_file).replace('.csv', '')}.json")
+        if os.path.exists(result_file):
+            result_exists = True
+
         try:
             tmp_turns = DialogueTurn.from_csv(csv_file)
             dialogue_turns, removed_turns = DialogueTurn.remove_none_relationships(tmp_turns)
@@ -148,8 +154,18 @@ def main():
                     prompt = generate_prompt_from_template(turn, previous_utterances, prompt_file)
                     gpt_cout_calculator.add_input_text(prompt)
 
-                    # GPT-4o APIに送信
-                    result = get_chat_response(prompt)
+                    # out_put_dir_pathにすでに結果がある場合は、その結果を読み込む
+                    if result_exists:
+                        rusult_json = Result.load_result_from_json(result_file, ae_id_to_index)
+                        one_turn_results = rusult_json.one_turn_results
+                        for one_turn_result in one_turn_results:
+                            if one_turn_result.current_node.ae_id == turn.ae_id:
+                                result = one_turn_result.gpt_ans
+                                # print(f"\033[91mLoaded result from {result_file}\033[0m")
+                    else:
+                        # GPT-4o APIに送信
+                        result = get_chat_response(prompt)
+
                     gpt_cout_calculator.add_output_text(result)
                     judgement = DialogueTurn.relationship_exists(dialogue_turns, turn.ae_id, result)
 
@@ -174,35 +190,40 @@ def main():
         except Exception as e:
             print(csv_file)
             print(f"Error: {e}")
+            continue
 
-            if total_count > 0:
-                true_ratio = true_count / total_count
-            else:
-                true_ratio = 0
+        if total_count > 0:
+            true_ratio = true_count / total_count
+        else:
+            true_ratio = 0
 
-            # 処理後の時刻を記録
-            end_time = time.time()
+        # 処理後の時刻を記録
+        end_time = time.time()
 
-            result = Result(
-                file_name=csv_file,
-                use_model=MODEL,
-                use_method=METHOD,
-                template=template,
-                rate=true_ratio,
-                total_node_count=len(tmp_turns),
-                removed_node_count=len(removed_turns),
-                removed_node_list=removed_turns,
-                one_turn_results=one_turn_result_list
-                )
+        result = Result(
+            file_name=csv_file,
+            use_model=MODEL,
+            use_method=METHOD,
+            template=template,
+            rate=true_ratio,
+            total_node_count=len(tmp_turns),
+            removed_node_count=len(removed_turns),
+            removed_node_list=removed_turns,
+            one_turn_results=one_turn_result_list
+            )
 
-            overall_true_count += true_count
-            overall_total_count += total_count
-
+        overall_true_count += true_count
+        overall_total_count += total_count
+        try:
             result.save()
             NodeResult.save_nodes_from_result_class(result, node_result_csv_path)
             tree_result = TreeResult.save_trees_from_result_class(result, tree_result_csv_path)
-            tree_result.draw_tree(out_put_dir_path, "estimated")
-            tree_result.draw_tree(out_put_dir_path, "real")
+            if not result_exists:
+                tree_result.draw_tree(out_put_dir_path, "estimated")
+                tree_result.draw_tree(out_put_dir_path, "real")
+        except Exception as e:
+            print(f"Error: {e}")
+            continue
 
     # 処理にかかった時間を計算
     elapsed_time = end_time - start_time

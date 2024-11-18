@@ -1,0 +1,1163 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2003b-ES2003b - Joystick use.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "ver.1.1.txt",
+    "rate": 0.8095238095238095,
+    "total_node_count": 29,
+    "removed_node_count": 7,
+    "removed_node_list": [
+        {
+            "index": 1,
+            "ae_id": "ES2003b.B.argumentstructs.25",
+            "speaker": "B",
+            "start_time": 1173.4,
+            "end_time": 1173.85,
+            "sentence": "We",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 5,
+            "ae_id": "ES2003b.A.argumentstructs.22",
+            "speaker": "A",
+            "start_time": 1192.39,
+            "end_time": 1192.94,
+            "sentence": "um.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 8,
+            "ae_id": "ES2003b.A.argumentstructs.23",
+            "speaker": "A",
+            "start_time": 1199.54,
+            "end_time": 1200.86,
+            "sentence": ". Um though",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 19,
+            "ae_id": "ES2003b.C.argumentstructs.20",
+            "speaker": "C",
+            "start_time": 1287.74,
+            "end_time": 1287.95,
+            "sentence": "Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 24,
+            "ae_id": "ES2003b.C.argumentstructs.21",
+            "speaker": "C",
+            "start_time": 1332.12,
+            "end_time": 1352.51,
+            "sentence": "Mm-hmm. Mm-hmm. Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 25,
+            "ae_id": "ES2003b.A.argumentstructs.24",
+            "speaker": "A",
+            "start_time": 1352.52,
+            "end_time": 1355.5,
+            "sentence": "Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 28,
+            "ae_id": "ES2003b.A.argumentstructs.25",
+            "speaker": "A",
+            "start_time": 1379.15,
+            "end_time": 1379.65,
+            "sentence": "Um.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 0,
+                "ae_id": "ES2003b.A.argumentstructs.Erik.1",
+                "speaker": "A",
+                "start_time": 1163.51,
+                "end_time": 1172.08,
+                "sentence": "I I was thinking that the remote  the um  sort of default functions for the joystick would be up and down for uh volume, left and right for channels.",
+                "source": "NONE",
+                "targets": [
+                    "ES2003b.D.argumentstructs.Erik.1"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "NONE",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2003b.D.argumentstructs.Erik.1",
+                "speaker": "D",
+                "start_time": 1173.47,
+                "end_time": 1182.74,
+                "sentence": "Do you think that people will get mixed up, like, they'll be looking at this screen and that screen and then, you know, trying to get everything working, would it be a bit confusing ?",
+                "source": "ES2003b.A.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2003b.A.argumentstructs.Erik.2"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1163.51,
+                    "end_time": 1172.08,
+                    "sentence": "I I was thinking that the remote  the um  sort of default functions for the joystick would be up and down for uh volume, left and right for channels.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003b.D.argumentstructs.Erik.1"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 1):\n- AE_ID: ES2003b.D.argumentstructs.Erik.1\n- Speaker: D\n- Sentence: \"Do you think that people will get mixed up, like, they'll be looking at this screen and that screen and then, you know, trying to get everything working, would it be a bit confusing ?\"\n\nPast Dialogue Turns:\nAE_ID ES2003b.A.argumentstructs.Erik.1 (Index: 0, Speaker: A): \"I I was thinking that the remote  the um  sort of default functions for the joystick would be up and down for uh volume, left and right for channels.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003b.A.argumentstructs.Erik.1",
+            "ans": "ES2003b.A.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 2,
+                "ae_id": "ES2003b.A.argumentstructs.Erik.2",
+                "speaker": "A",
+                "start_time": 1183.07,
+                "end_time": 1192.39,
+                "sentence": "Um I think probably for the first couple of hours of using it um but you know muscle memory's a wonderful thing,",
+                "source": "ES2003b.D.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2003b.D.argumentstructs.Erik.2",
+                    "ES2003b.C.argumentstructs.Erik.1",
+                    "ES2003b.A.argumentstructs.Erik.3"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1163.51,
+                    "end_time": 1172.08,
+                    "sentence": "I I was thinking that the remote  the um  sort of default functions for the joystick would be up and down for uh volume, left and right for channels.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003b.D.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2003b.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1173.47,
+                    "end_time": 1182.74,
+                    "sentence": "Do you think that people will get mixed up, like, they'll be looking at this screen and that screen and then, you know, trying to get everything working, would it be a bit confusing ?",
+                    "source": "ES2003b.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003b.A.argumentstructs.Erik.2"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 2):\n- AE_ID: ES2003b.A.argumentstructs.Erik.2\n- Speaker: A\n- Sentence: \"Um I think probably for the first couple of hours of using it um but you know muscle memory's a wonderful thing,\"\n\nPast Dialogue Turns:\nAE_ID ES2003b.A.argumentstructs.Erik.1 (Index: 0, Speaker: A): \"I I was thinking that the remote  the um  sort of default functions for the joystick would be up and down for uh volume, left and right for channels.\"\nAE_ID ES2003b.D.argumentstructs.Erik.1 (Index: 1, Speaker: D): \"Do you think that people will get mixed up, like, they'll be looking at this screen and that screen and then, you know, trying to get everything working, would it be a bit confusing ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003b.D.argumentstructs.Erik.1",
+            "ans": "ES2003b.D.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 3,
+                "ae_id": "ES2003b.D.argumentstructs.Erik.2",
+                "speaker": "D",
+                "start_time": 1187.97,
+                "end_time": 1188.19,
+                "sentence": "Yeah.",
+                "source": "ES2003b.A.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1163.51,
+                    "end_time": 1172.08,
+                    "sentence": "I I was thinking that the remote  the um  sort of default functions for the joystick would be up and down for uh volume, left and right for channels.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003b.D.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2003b.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1173.47,
+                    "end_time": 1182.74,
+                    "sentence": "Do you think that people will get mixed up, like, they'll be looking at this screen and that screen and then, you know, trying to get everything working, would it be a bit confusing ?",
+                    "source": "ES2003b.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003b.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1183.07,
+                    "end_time": 1192.39,
+                    "sentence": "Um I think probably for the first couple of hours of using it um but you know muscle memory's a wonderful thing,",
+                    "source": "ES2003b.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003b.D.argumentstructs.Erik.2",
+                        "ES2003b.C.argumentstructs.Erik.1",
+                        "ES2003b.A.argumentstructs.Erik.3"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 3):\n- AE_ID: ES2003b.D.argumentstructs.Erik.2\n- Speaker: D\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2003b.A.argumentstructs.Erik.1 (Index: 0, Speaker: A): \"I I was thinking that the remote  the um  sort of default functions for the joystick would be up and down for uh volume, left and right for channels.\"\nAE_ID ES2003b.D.argumentstructs.Erik.1 (Index: 1, Speaker: D): \"Do you think that people will get mixed up, like, they'll be looking at this screen and that screen and then, you know, trying to get everything working, would it be a bit confusing ?\"\nAE_ID ES2003b.A.argumentstructs.Erik.2 (Index: 2, Speaker: A): \"Um I think probably for the first couple of hours of using it um but you know muscle memory's a wonderful thing,\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003b.A.argumentstructs.Erik.2",
+            "ans": "ES2003b.A.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 4,
+                "ae_id": "ES2003b.C.argumentstructs.Erik.1",
+                "speaker": "C",
+                "start_time": 1193.87,
+                "end_time": 1194.01,
+                "sentence": "Mm.",
+                "source": "ES2003b.A.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1163.51,
+                    "end_time": 1172.08,
+                    "sentence": "I I was thinking that the remote  the um  sort of default functions for the joystick would be up and down for uh volume, left and right for channels.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003b.D.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2003b.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1173.47,
+                    "end_time": 1182.74,
+                    "sentence": "Do you think that people will get mixed up, like, they'll be looking at this screen and that screen and then, you know, trying to get everything working, would it be a bit confusing ?",
+                    "source": "ES2003b.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003b.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1183.07,
+                    "end_time": 1192.39,
+                    "sentence": "Um I think probably for the first couple of hours of using it um but you know muscle memory's a wonderful thing,",
+                    "source": "ES2003b.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003b.D.argumentstructs.Erik.2",
+                        "ES2003b.C.argumentstructs.Erik.1",
+                        "ES2003b.A.argumentstructs.Erik.3"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 4):\n- AE_ID: ES2003b.C.argumentstructs.Erik.1\n- Speaker: C\n- Sentence: \"Mm.\"\n\nPast Dialogue Turns:\nAE_ID ES2003b.A.argumentstructs.Erik.1 (Index: 0, Speaker: A): \"I I was thinking that the remote  the um  sort of default functions for the joystick would be up and down for uh volume, left and right for channels.\"\nAE_ID ES2003b.D.argumentstructs.Erik.1 (Index: 1, Speaker: D): \"Do you think that people will get mixed up, like, they'll be looking at this screen and that screen and then, you know, trying to get everything working, would it be a bit confusing ?\"\nAE_ID ES2003b.A.argumentstructs.Erik.2 (Index: 2, Speaker: A): \"Um I think probably for the first couple of hours of using it um but you know muscle memory's a wonderful thing,\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003b.D.argumentstructs.Erik.1",
+            "ans": "ES2003b.A.argumentstructs.Erik.2",
+            "judgement": false
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 5,
+                "ae_id": "ES2003b.A.argumentstructs.Erik.3",
+                "speaker": "A",
+                "start_time": 1194.24,
+                "end_time": 1199.54,
+                "sentence": "And I think  and I think that size of uh display was about what I had in mind",
+                "source": "ES2003b.A.argumentstructs.Erik.2",
+                "targets": [
+                    "ES2003b.A.argumentstructs.Erik.4"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1163.51,
+                    "end_time": 1172.08,
+                    "sentence": "I I was thinking that the remote  the um  sort of default functions for the joystick would be up and down for uh volume, left and right for channels.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2003b.D.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2003b.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1173.47,
+                    "end_time": 1182.74,
+                    "sentence": "Do you think that people will get mixed up, like, they'll be looking at this screen and that screen and then, you know, trying to get everything working, would it be a bit confusing ?",
+                    "source": "ES2003b.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003b.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1183.07,
+                    "end_time": 1192.39,
+                    "sentence": "Um I think probably for the first couple of hours of using it um but you know muscle memory's a wonderful thing,",
+                    "source": "ES2003b.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003b.D.argumentstructs.Erik.2",
+                        "ES2003b.C.argumentstructs.Erik.1",
+                        "ES2003b.A.argumentstructs.Erik.3"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 5):\n- AE_ID: ES2003b.A.argumentstructs.Erik.3\n- Speaker: A\n- Sentence: \"And I think  and I think that size of uh display was about what I had in mind\"\n\nPast Dialogue Turns:\nAE_ID ES2003b.A.argumentstructs.Erik.1 (Index: 0, Speaker: A): \"I I was thinking that the remote  the um  sort of default functions for the joystick would be up and down for uh volume, left and right for channels.\"\nAE_ID ES2003b.D.argumentstructs.Erik.1 (Index: 1, Speaker: D): \"Do you think that people will get mixed up, like, they'll be looking at this screen and that screen and then, you know, trying to get everything working, would it be a bit confusing ?\"\nAE_ID ES2003b.A.argumentstructs.Erik.2 (Index: 2, Speaker: A): \"Um I think probably for the first couple of hours of using it um but you know muscle memory's a wonderful thing,\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003b.A.argumentstructs.Erik.2",
+            "ans": "ES2003b.A.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 6,
+                "ae_id": "ES2003b.A.argumentstructs.Erik.4",
+                "speaker": "A",
+                "start_time": 1201.96,
+                "end_time": 1214.67,
+                "sentence": "I mean I w I would say that uh we could probably probably be required to um mo most of the mobile phone displays you see these days are colour but we should probably try to stick to black and white.",
+                "source": "ES2003b.A.argumentstructs.Erik.3",
+                "targets": [
+                    "ES2003b.A.argumentstructs.Erik.5",
+                    "ES2003b.B.argumentstructs.Erik.1",
+                    "ES2003b.A.argumentstructs.Erik.6"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2003b.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1173.47,
+                    "end_time": 1182.74,
+                    "sentence": "Do you think that people will get mixed up, like, they'll be looking at this screen and that screen and then, you know, trying to get everything working, would it be a bit confusing ?",
+                    "source": "ES2003b.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003b.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1183.07,
+                    "end_time": 1192.39,
+                    "sentence": "Um I think probably for the first couple of hours of using it um but you know muscle memory's a wonderful thing,",
+                    "source": "ES2003b.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003b.D.argumentstructs.Erik.2",
+                        "ES2003b.C.argumentstructs.Erik.1",
+                        "ES2003b.A.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1194.24,
+                    "end_time": 1199.54,
+                    "sentence": "And I think  and I think that size of uh display was about what I had in mind",
+                    "source": "ES2003b.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003b.A.argumentstructs.Erik.4"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 6):\n- AE_ID: ES2003b.A.argumentstructs.Erik.4\n- Speaker: A\n- Sentence: \"I mean I w I would say that uh we could probably probably be required to um mo most of the mobile phone displays you see these days are colour but we should probably try to stick to black and white.\"\n\nPast Dialogue Turns:\nAE_ID ES2003b.D.argumentstructs.Erik.1 (Index: 1, Speaker: D): \"Do you think that people will get mixed up, like, they'll be looking at this screen and that screen and then, you know, trying to get everything working, would it be a bit confusing ?\"\nAE_ID ES2003b.A.argumentstructs.Erik.2 (Index: 2, Speaker: A): \"Um I think probably for the first couple of hours of using it um but you know muscle memory's a wonderful thing,\"\nAE_ID ES2003b.A.argumentstructs.Erik.3 (Index: 5, Speaker: A): \"And I think  and I think that size of uh display was about what I had in mind\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003b.A.argumentstructs.Erik.3",
+            "ans": "ES2003b.A.argumentstructs.Erik.3",
+            "judgement": true
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 7,
+                "ae_id": "ES2003b.B.argumentstructs.Erik.1",
+                "speaker": "B",
+                "start_time": 1214.57,
+                "end_time": 1215.41,
+                "sentence": "I would agree with you.",
+                "source": "ES2003b.A.argumentstructs.Erik.4",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 2,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1183.07,
+                    "end_time": 1192.39,
+                    "sentence": "Um I think probably for the first couple of hours of using it um but you know muscle memory's a wonderful thing,",
+                    "source": "ES2003b.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2003b.D.argumentstructs.Erik.2",
+                        "ES2003b.C.argumentstructs.Erik.1",
+                        "ES2003b.A.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1194.24,
+                    "end_time": 1199.54,
+                    "sentence": "And I think  and I think that size of uh display was about what I had in mind",
+                    "source": "ES2003b.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003b.A.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1201.96,
+                    "end_time": 1214.67,
+                    "sentence": "I mean I w I would say that uh we could probably probably be required to um mo most of the mobile phone displays you see these days are colour but we should probably try to stick to black and white.",
+                    "source": "ES2003b.A.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003b.A.argumentstructs.Erik.5",
+                        "ES2003b.B.argumentstructs.Erik.1",
+                        "ES2003b.A.argumentstructs.Erik.6"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 7):\n- AE_ID: ES2003b.B.argumentstructs.Erik.1\n- Speaker: B\n- Sentence: \"I would agree with you.\"\n\nPast Dialogue Turns:\nAE_ID ES2003b.A.argumentstructs.Erik.2 (Index: 2, Speaker: A): \"Um I think probably for the first couple of hours of using it um but you know muscle memory's a wonderful thing,\"\nAE_ID ES2003b.A.argumentstructs.Erik.3 (Index: 5, Speaker: A): \"And I think  and I think that size of uh display was about what I had in mind\"\nAE_ID ES2003b.A.argumentstructs.Erik.4 (Index: 6, Speaker: A): \"I mean I w I would say that uh we could probably probably be required to um mo most of the mobile phone displays you see these days are colour but we should probably try to stick to black and white.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003b.A.argumentstructs.Erik.4",
+            "ans": "ES2003b.A.argumentstructs.Erik.4",
+            "judgement": true
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 8,
+                "ae_id": "ES2003b.A.argumentstructs.Erik.5",
+                "speaker": "A",
+                "start_time": 1214.67,
+                "end_time": 1217.54,
+                "sentence": "Si si simply to keep m keep the unit cost down.",
+                "source": "ES2003b.A.argumentstructs.Erik.4",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 5,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1194.24,
+                    "end_time": 1199.54,
+                    "sentence": "And I think  and I think that size of uh display was about what I had in mind",
+                    "source": "ES2003b.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003b.A.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1201.96,
+                    "end_time": 1214.67,
+                    "sentence": "I mean I w I would say that uh we could probably probably be required to um mo most of the mobile phone displays you see these days are colour but we should probably try to stick to black and white.",
+                    "source": "ES2003b.A.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003b.A.argumentstructs.Erik.5",
+                        "ES2003b.B.argumentstructs.Erik.1",
+                        "ES2003b.A.argumentstructs.Erik.6"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 8):\n- AE_ID: ES2003b.A.argumentstructs.Erik.5\n- Speaker: A\n- Sentence: \"Si si simply to keep m keep the unit cost down.\"\n\nPast Dialogue Turns:\nAE_ID ES2003b.A.argumentstructs.Erik.3 (Index: 5, Speaker: A): \"And I think  and I think that size of uh display was about what I had in mind\"\nAE_ID ES2003b.A.argumentstructs.Erik.4 (Index: 6, Speaker: A): \"I mean I w I would say that uh we could probably probably be required to um mo most of the mobile phone displays you see these days are colour but we should probably try to stick to black and white.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003b.A.argumentstructs.Erik.4",
+            "ans": "ES2003b.A.argumentstructs.Erik.4",
+            "judgement": true
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 9,
+                "ae_id": "ES2003b.A.argumentstructs.Erik.6",
+                "speaker": "A",
+                "start_time": 1218.14,
+                "end_time": 1232.85,
+                "sentence": "Um I mean colour could be a sort of subsequent development but uh you know cost a bit of extra money f w w w w w once everyone's got the first, you know, oh colour's out, we'll have to replace it won't we. It does nothing extra.",
+                "source": "ES2003b.A.argumentstructs.Erik.4",
+                "targets": [
+                    "ES2003b.B.argumentstructs.Erik.2",
+                    "ES2003b.C.argumentstructs.Erik.2",
+                    "ES2003b.C.argumentstructs.Erik.3"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 5,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1194.24,
+                    "end_time": 1199.54,
+                    "sentence": "And I think  and I think that size of uh display was about what I had in mind",
+                    "source": "ES2003b.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003b.A.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1201.96,
+                    "end_time": 1214.67,
+                    "sentence": "I mean I w I would say that uh we could probably probably be required to um mo most of the mobile phone displays you see these days are colour but we should probably try to stick to black and white.",
+                    "source": "ES2003b.A.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003b.A.argumentstructs.Erik.5",
+                        "ES2003b.B.argumentstructs.Erik.1",
+                        "ES2003b.A.argumentstructs.Erik.6"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 9):\n- AE_ID: ES2003b.A.argumentstructs.Erik.6\n- Speaker: A\n- Sentence: \"Um I mean colour could be a sort of subsequent development but uh you know cost a bit of extra money f w w w w w once everyone's got the first, you know, oh colour's out, we'll have to replace it won't we. It does nothing extra.\"\n\nPast Dialogue Turns:\nAE_ID ES2003b.A.argumentstructs.Erik.3 (Index: 5, Speaker: A): \"And I think  and I think that size of uh display was about what I had in mind\"\nAE_ID ES2003b.A.argumentstructs.Erik.4 (Index: 6, Speaker: A): \"I mean I w I would say that uh we could probably probably be required to um mo most of the mobile phone displays you see these days are colour but we should probably try to stick to black and white.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003b.A.argumentstructs.Erik.4",
+            "ans": "ES2003b.A.argumentstructs.Erik.4",
+            "judgement": true
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 10,
+                "ae_id": "ES2003b.B.argumentstructs.Erik.2",
+                "speaker": "B",
+                "start_time": 1230.27,
+                "end_time": 1241.69,
+                "sentence": "Mm-hmm.  That would be my feeling as well, I think we could possibly create quite a useful user interface. Um now I mean I don't  sorry, go for it.",
+                "source": "ES2003b.A.argumentstructs.Erik.6",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 5,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1194.24,
+                    "end_time": 1199.54,
+                    "sentence": "And I think  and I think that size of uh display was about what I had in mind",
+                    "source": "ES2003b.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2003b.A.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1201.96,
+                    "end_time": 1214.67,
+                    "sentence": "I mean I w I would say that uh we could probably probably be required to um mo most of the mobile phone displays you see these days are colour but we should probably try to stick to black and white.",
+                    "source": "ES2003b.A.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003b.A.argumentstructs.Erik.5",
+                        "ES2003b.B.argumentstructs.Erik.1",
+                        "ES2003b.A.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 1218.14,
+                    "end_time": 1232.85,
+                    "sentence": "Um I mean colour could be a sort of subsequent development but uh you know cost a bit of extra money f w w w w w once everyone's got the first, you know, oh colour's out, we'll have to replace it won't we. It does nothing extra.",
+                    "source": "ES2003b.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2003b.B.argumentstructs.Erik.2",
+                        "ES2003b.C.argumentstructs.Erik.2",
+                        "ES2003b.C.argumentstructs.Erik.3"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 10):\n- AE_ID: ES2003b.B.argumentstructs.Erik.2\n- Speaker: B\n- Sentence: \"Mm-hmm.  That would be my feeling as well, I think we could possibly create quite a useful user interface. Um now I mean I don't  sorry, go for it.\"\n\nPast Dialogue Turns:\nAE_ID ES2003b.A.argumentstructs.Erik.3 (Index: 5, Speaker: A): \"And I think  and I think that size of uh display was about what I had in mind\"\nAE_ID ES2003b.A.argumentstructs.Erik.4 (Index: 6, Speaker: A): \"I mean I w I would say that uh we could probably probably be required to um mo most of the mobile phone displays you see these days are colour but we should probably try to stick to black and white.\"\nAE_ID ES2003b.A.argumentstructs.Erik.6 (Index: 9, Speaker: A): \"Um I mean colour could be a sort of subsequent development but uh you know cost a bit of extra money f w w w w w once everyone's got the first, you know, oh colour's out, we'll have to replace it won't we. It does nothing extra.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003b.A.argumentstructs.Erik.4",
+            "ans": "ES2003b.A.argumentstructs.Erik.6",
+            "judgement": false
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 11,
+                "ae_id": "ES2003b.C.argumentstructs.Erik.2",
+                "speaker": "C",
+                "start_time": 1239.21,
+                "end_time": 1239.63,
+                "sentence": "Sure",
+                "source": "ES2003b.A.argumentstructs.Erik.6",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 6,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1201.96,
+                    "end_time": 1214.67,
+                    "sentence": "I mean I w I would say that uh we could probably probably be required to um mo most of the mobile phone displays you see these days are colour but we should probably try to stick to black and white.",
+                    "source": "ES2003b.A.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003b.A.argumentstructs.Erik.5",
+                        "ES2003b.B.argumentstructs.Erik.1",
+                        "ES2003b.A.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 1218.14,
+                    "end_time": 1232.85,
+                    "sentence": "Um I mean colour could be a sort of subsequent development but uh you know cost a bit of extra money f w w w w w once everyone's got the first, you know, oh colour's out, we'll have to replace it won't we. It does nothing extra.",
+                    "source": "ES2003b.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2003b.B.argumentstructs.Erik.2",
+                        "ES2003b.C.argumentstructs.Erik.2",
+                        "ES2003b.C.argumentstructs.Erik.3"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 11):\n- AE_ID: ES2003b.C.argumentstructs.Erik.2\n- Speaker: C\n- Sentence: \"Sure\"\n\nPast Dialogue Turns:\nAE_ID ES2003b.A.argumentstructs.Erik.4 (Index: 6, Speaker: A): \"I mean I w I would say that uh we could probably probably be required to um mo most of the mobile phone displays you see these days are colour but we should probably try to stick to black and white.\"\nAE_ID ES2003b.A.argumentstructs.Erik.6 (Index: 9, Speaker: A): \"Um I mean colour could be a sort of subsequent development but uh you know cost a bit of extra money f w w w w w once everyone's got the first, you know, oh colour's out, we'll have to replace it won't we. It does nothing extra.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003b.A.argumentstructs.Erik.6",
+            "ans": "ES2003b.A.argumentstructs.Erik.6",
+            "judgement": true
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 12,
+                "ae_id": "ES2003b.C.argumentstructs.Erik.3",
+                "speaker": "C",
+                "start_time": 1239.63,
+                "end_time": 1264.35,
+                "sentence": "but the idea of a remote with a menu or  and a joystick I think like I h if I was in the habit of buying remote controls then I would want one, but I think we don't have a specific audience, you know, like what is our target audience, what niche are  niche are we trying to market and corner. You know, you know what I'm saying, like, for whom is this intended ? Everybody ?",
+                "source": "ES2003b.A.argumentstructs.Erik.6",
+                "targets": [
+                    "ES2003b.B.argumentstructs.Erik.3",
+                    "ES2003b.A.argumentstructs.Erik.9"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 9,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 1218.14,
+                    "end_time": 1232.85,
+                    "sentence": "Um I mean colour could be a sort of subsequent development but uh you know cost a bit of extra money f w w w w w once everyone's got the first, you know, oh colour's out, we'll have to replace it won't we. It does nothing extra.",
+                    "source": "ES2003b.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2003b.B.argumentstructs.Erik.2",
+                        "ES2003b.C.argumentstructs.Erik.2",
+                        "ES2003b.C.argumentstructs.Erik.3"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 12):\n- AE_ID: ES2003b.C.argumentstructs.Erik.3\n- Speaker: C\n- Sentence: \"but the idea of a remote with a menu or  and a joystick I think like I h if I was in the habit of buying remote controls then I would want one, but I think we don't have a specific audience, you know, like what is our target audience, what niche are  niche are we trying to market and corner. You know, you know what I'm saying, like, for whom is this intended ? Everybody ?\"\n\nPast Dialogue Turns:\nAE_ID ES2003b.A.argumentstructs.Erik.6 (Index: 9, Speaker: A): \"Um I mean colour could be a sort of subsequent development but uh you know cost a bit of extra money f w w w w w once everyone's got the first, you know, oh colour's out, we'll have to replace it won't we. It does nothing extra.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003b.A.argumentstructs.Erik.6",
+            "ans": "ES2003b.A.argumentstructs.Erik.6",
+            "judgement": true
+        },
+        {
+            "turn_number": 13,
+            "current_node": {
+                "index": 13,
+                "ae_id": "ES2003b.B.argumentstructs.Erik.3",
+                "speaker": "B",
+                "start_time": 1268.6,
+                "end_time": 1291.59,
+                "sentence": "I think it could probably be aimed at most people who've used a mobile. And that might be just another way of saying try to target most people. Um, if we are if we were to follow that avenue, we might be s you know um we're kind of almost relying on their experience with a mobile phone I suppose. But that does cover a very large section of the people out there.",
+                "source": "ES2003b.C.argumentstructs.Erik.3",
+                "targets": [
+                    "ES2003b.C.argumentstructs.Erik.4",
+                    "ES2003b.A.argumentstructs.Erik.7",
+                    "ES2003b.C.argumentstructs.Erik.6",
+                    "ES2003b.B.argumentstructs.Erik.4"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 9,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 1218.14,
+                    "end_time": 1232.85,
+                    "sentence": "Um I mean colour could be a sort of subsequent development but uh you know cost a bit of extra money f w w w w w once everyone's got the first, you know, oh colour's out, we'll have to replace it won't we. It does nothing extra.",
+                    "source": "ES2003b.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2003b.B.argumentstructs.Erik.2",
+                        "ES2003b.C.argumentstructs.Erik.2",
+                        "ES2003b.C.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2003b.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 1239.63,
+                    "end_time": 1264.35,
+                    "sentence": "but the idea of a remote with a menu or  and a joystick I think like I h if I was in the habit of buying remote controls then I would want one, but I think we don't have a specific audience, you know, like what is our target audience, what niche are  niche are we trying to market and corner. You know, you know what I'm saying, like, for whom is this intended ? Everybody ?",
+                    "source": "ES2003b.A.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2003b.B.argumentstructs.Erik.3",
+                        "ES2003b.A.argumentstructs.Erik.9"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 13):\n- AE_ID: ES2003b.B.argumentstructs.Erik.3\n- Speaker: B\n- Sentence: \"I think it could probably be aimed at most people who've used a mobile. And that might be just another way of saying try to target most people. Um, if we are if we were to follow that avenue, we might be s you know um we're kind of almost relying on their experience with a mobile phone I suppose. But that does cover a very large section of the people out there.\"\n\nPast Dialogue Turns:\nAE_ID ES2003b.A.argumentstructs.Erik.6 (Index: 9, Speaker: A): \"Um I mean colour could be a sort of subsequent development but uh you know cost a bit of extra money f w w w w w once everyone's got the first, you know, oh colour's out, we'll have to replace it won't we. It does nothing extra.\"\nAE_ID ES2003b.C.argumentstructs.Erik.3 (Index: 12, Speaker: C): \"but the idea of a remote with a menu or  and a joystick I think like I h if I was in the habit of buying remote controls then I would want one, but I think we don't have a specific audience, you know, like what is our target audience, what niche are  niche are we trying to market and corner. You know, you know what I'm saying, like, for whom is this intended ? Everybody ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003b.C.argumentstructs.Erik.3",
+            "ans": "ES2003b.C.argumentstructs.Erik.3",
+            "judgement": true
+        },
+        {
+            "turn_number": 14,
+            "current_node": {
+                "index": 14,
+                "ae_id": "ES2003b.C.argumentstructs.Erik.4",
+                "speaker": "C",
+                "start_time": 1276.64,
+                "end_time": 1277.41,
+                "sentence": "Most people, yeah.",
+                "source": "ES2003b.B.argumentstructs.Erik.3",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 9,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 1218.14,
+                    "end_time": 1232.85,
+                    "sentence": "Um I mean colour could be a sort of subsequent development but uh you know cost a bit of extra money f w w w w w once everyone's got the first, you know, oh colour's out, we'll have to replace it won't we. It does nothing extra.",
+                    "source": "ES2003b.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2003b.B.argumentstructs.Erik.2",
+                        "ES2003b.C.argumentstructs.Erik.2",
+                        "ES2003b.C.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2003b.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 1239.63,
+                    "end_time": 1264.35,
+                    "sentence": "but the idea of a remote with a menu or  and a joystick I think like I h if I was in the habit of buying remote controls then I would want one, but I think we don't have a specific audience, you know, like what is our target audience, what niche are  niche are we trying to market and corner. You know, you know what I'm saying, like, for whom is this intended ? Everybody ?",
+                    "source": "ES2003b.A.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2003b.B.argumentstructs.Erik.3",
+                        "ES2003b.A.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2003b.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1268.6,
+                    "end_time": 1291.59,
+                    "sentence": "I think it could probably be aimed at most people who've used a mobile. And that might be just another way of saying try to target most people. Um, if we are if we were to follow that avenue, we might be s you know um we're kind of almost relying on their experience with a mobile phone I suppose. But that does cover a very large section of the people out there.",
+                    "source": "ES2003b.C.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003b.C.argumentstructs.Erik.4",
+                        "ES2003b.A.argumentstructs.Erik.7",
+                        "ES2003b.C.argumentstructs.Erik.6",
+                        "ES2003b.B.argumentstructs.Erik.4"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 14):\n- AE_ID: ES2003b.C.argumentstructs.Erik.4\n- Speaker: C\n- Sentence: \"Most people, yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2003b.A.argumentstructs.Erik.6 (Index: 9, Speaker: A): \"Um I mean colour could be a sort of subsequent development but uh you know cost a bit of extra money f w w w w w once everyone's got the first, you know, oh colour's out, we'll have to replace it won't we. It does nothing extra.\"\nAE_ID ES2003b.C.argumentstructs.Erik.3 (Index: 12, Speaker: C): \"but the idea of a remote with a menu or  and a joystick I think like I h if I was in the habit of buying remote controls then I would want one, but I think we don't have a specific audience, you know, like what is our target audience, what niche are  niche are we trying to market and corner. You know, you know what I'm saying, like, for whom is this intended ? Everybody ?\"\nAE_ID ES2003b.B.argumentstructs.Erik.3 (Index: 13, Speaker: B): \"I think it could probably be aimed at most people who've used a mobile. And that might be just another way of saying try to target most people. Um, if we are if we were to follow that avenue, we might be s you know um we're kind of almost relying on their experience with a mobile phone I suppose. But that does cover a very large section of the people out there.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003b.B.argumentstructs.Erik.3",
+            "ans": "ES2003b.B.argumentstructs.Erik.3",
+            "judgement": true
+        },
+        {
+            "turn_number": 15,
+            "current_node": {
+                "index": 15,
+                "ae_id": "ES2003b.A.argumentstructs.Erik.7",
+                "speaker": "A",
+                "start_time": 1277.76,
+                "end_time": 1278.15,
+                "sentence": "Mm.",
+                "source": "ES2003b.B.argumentstructs.Erik.3",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 12,
+                    "ae_id": "ES2003b.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 1239.63,
+                    "end_time": 1264.35,
+                    "sentence": "but the idea of a remote with a menu or  and a joystick I think like I h if I was in the habit of buying remote controls then I would want one, but I think we don't have a specific audience, you know, like what is our target audience, what niche are  niche are we trying to market and corner. You know, you know what I'm saying, like, for whom is this intended ? Everybody ?",
+                    "source": "ES2003b.A.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2003b.B.argumentstructs.Erik.3",
+                        "ES2003b.A.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2003b.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1268.6,
+                    "end_time": 1291.59,
+                    "sentence": "I think it could probably be aimed at most people who've used a mobile. And that might be just another way of saying try to target most people. Um, if we are if we were to follow that avenue, we might be s you know um we're kind of almost relying on their experience with a mobile phone I suppose. But that does cover a very large section of the people out there.",
+                    "source": "ES2003b.C.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003b.C.argumentstructs.Erik.4",
+                        "ES2003b.A.argumentstructs.Erik.7",
+                        "ES2003b.C.argumentstructs.Erik.6",
+                        "ES2003b.B.argumentstructs.Erik.4"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 15):\n- AE_ID: ES2003b.A.argumentstructs.Erik.7\n- Speaker: A\n- Sentence: \"Mm.\"\n\nPast Dialogue Turns:\nAE_ID ES2003b.C.argumentstructs.Erik.3 (Index: 12, Speaker: C): \"but the idea of a remote with a menu or  and a joystick I think like I h if I was in the habit of buying remote controls then I would want one, but I think we don't have a specific audience, you know, like what is our target audience, what niche are  niche are we trying to market and corner. You know, you know what I'm saying, like, for whom is this intended ? Everybody ?\"\nAE_ID ES2003b.B.argumentstructs.Erik.3 (Index: 13, Speaker: B): \"I think it could probably be aimed at most people who've used a mobile. And that might be just another way of saying try to target most people. Um, if we are if we were to follow that avenue, we might be s you know um we're kind of almost relying on their experience with a mobile phone I suppose. But that does cover a very large section of the people out there.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003b.B.argumentstructs.Erik.3",
+            "ans": "ES2003b.B.argumentstructs.Erik.3",
+            "judgement": true
+        },
+        {
+            "turn_number": 16,
+            "current_node": {
+                "index": 16,
+                "ae_id": "ES2003b.C.argumentstructs.Erik.6",
+                "speaker": "C",
+                "start_time": 1291.61,
+                "end_time": 1293.54,
+                "sentence": "Sure. I think that's fair  yeah.",
+                "source": "ES2003b.B.argumentstructs.Erik.3",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 12,
+                    "ae_id": "ES2003b.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 1239.63,
+                    "end_time": 1264.35,
+                    "sentence": "but the idea of a remote with a menu or  and a joystick I think like I h if I was in the habit of buying remote controls then I would want one, but I think we don't have a specific audience, you know, like what is our target audience, what niche are  niche are we trying to market and corner. You know, you know what I'm saying, like, for whom is this intended ? Everybody ?",
+                    "source": "ES2003b.A.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2003b.B.argumentstructs.Erik.3",
+                        "ES2003b.A.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2003b.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1268.6,
+                    "end_time": 1291.59,
+                    "sentence": "I think it could probably be aimed at most people who've used a mobile. And that might be just another way of saying try to target most people. Um, if we are if we were to follow that avenue, we might be s you know um we're kind of almost relying on their experience with a mobile phone I suppose. But that does cover a very large section of the people out there.",
+                    "source": "ES2003b.C.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003b.C.argumentstructs.Erik.4",
+                        "ES2003b.A.argumentstructs.Erik.7",
+                        "ES2003b.C.argumentstructs.Erik.6",
+                        "ES2003b.B.argumentstructs.Erik.4"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 16):\n- AE_ID: ES2003b.C.argumentstructs.Erik.6\n- Speaker: C\n- Sentence: \"Sure. I think that's fair  yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2003b.C.argumentstructs.Erik.3 (Index: 12, Speaker: C): \"but the idea of a remote with a menu or  and a joystick I think like I h if I was in the habit of buying remote controls then I would want one, but I think we don't have a specific audience, you know, like what is our target audience, what niche are  niche are we trying to market and corner. You know, you know what I'm saying, like, for whom is this intended ? Everybody ?\"\nAE_ID ES2003b.B.argumentstructs.Erik.3 (Index: 13, Speaker: B): \"I think it could probably be aimed at most people who've used a mobile. And that might be just another way of saying try to target most people. Um, if we are if we were to follow that avenue, we might be s you know um we're kind of almost relying on their experience with a mobile phone I suppose. But that does cover a very large section of the people out there.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003b.B.argumentstructs.Erik.3",
+            "ans": "ES2003b.B.argumentstructs.Erik.3",
+            "judgement": true
+        },
+        {
+            "turn_number": 17,
+            "current_node": {
+                "index": 17,
+                "ae_id": "ES2003b.B.argumentstructs.Erik.4",
+                "speaker": "B",
+                "start_time": 1293.13,
+                "end_time": 1353.17,
+                "sentence": "Um, I mean I imagine as well that the actual L_C_D_ and maybe to a certain extent the joystick as well would be for the additional functionality. Which maybe doesn't get used as often, maybe it makes it easy for them to figure out how to um change the channels as in the frequencies and such for reprogramming it. Um and you can still have the main buttons that allow the people to turn the machine on and off, d up and down, it depends, I mean maybe we have the fol um the joystick as a separate one for the other functions then, that there's just a a small number of as you were saying uh buttons that have already been defined. So like we go for the nice standard um up and down for and volume control. So that literally anybody can come along, pick up the remote and still know what do do. And they can completely ignore most of the functionality which would be for say the o actual owner of the the T_V_ and who would normally use the unit. I dunno.",
+                "source": "ES2003b.B.argumentstructs.Erik.3",
+                "targets": [
+                    "ES2003b.A.argumentstructs.Erik.8",
+                    "ES2003b.C.argumentstructs.Erik.7"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 12,
+                    "ae_id": "ES2003b.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 1239.63,
+                    "end_time": 1264.35,
+                    "sentence": "but the idea of a remote with a menu or  and a joystick I think like I h if I was in the habit of buying remote controls then I would want one, but I think we don't have a specific audience, you know, like what is our target audience, what niche are  niche are we trying to market and corner. You know, you know what I'm saying, like, for whom is this intended ? Everybody ?",
+                    "source": "ES2003b.A.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2003b.B.argumentstructs.Erik.3",
+                        "ES2003b.A.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2003b.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1268.6,
+                    "end_time": 1291.59,
+                    "sentence": "I think it could probably be aimed at most people who've used a mobile. And that might be just another way of saying try to target most people. Um, if we are if we were to follow that avenue, we might be s you know um we're kind of almost relying on their experience with a mobile phone I suppose. But that does cover a very large section of the people out there.",
+                    "source": "ES2003b.C.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003b.C.argumentstructs.Erik.4",
+                        "ES2003b.A.argumentstructs.Erik.7",
+                        "ES2003b.C.argumentstructs.Erik.6",
+                        "ES2003b.B.argumentstructs.Erik.4"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 17):\n- AE_ID: ES2003b.B.argumentstructs.Erik.4\n- Speaker: B\n- Sentence: \"Um, I mean I imagine as well that the actual L_C_D_ and maybe to a certain extent the joystick as well would be for the additional functionality. Which maybe doesn't get used as often, maybe it makes it easy for them to figure out how to um change the channels as in the frequencies and such for reprogramming it. Um and you can still have the main buttons that allow the people to turn the machine on and off, d up and down, it depends, I mean maybe we have the fol um the joystick as a separate one for the other functions then, that there's just a a small number of as you were saying uh buttons that have already been defined. So like we go for the nice standard um up and down for and volume control. So that literally anybody can come along, pick up the remote and still know what do do. And they can completely ignore most of the functionality which would be for say the o actual owner of the the T_V_ and who would normally use the unit. I dunno.\"\n\nPast Dialogue Turns:\nAE_ID ES2003b.C.argumentstructs.Erik.3 (Index: 12, Speaker: C): \"but the idea of a remote with a menu or  and a joystick I think like I h if I was in the habit of buying remote controls then I would want one, but I think we don't have a specific audience, you know, like what is our target audience, what niche are  niche are we trying to market and corner. You know, you know what I'm saying, like, for whom is this intended ? Everybody ?\"\nAE_ID ES2003b.B.argumentstructs.Erik.3 (Index: 13, Speaker: B): \"I think it could probably be aimed at most people who've used a mobile. And that might be just another way of saying try to target most people. Um, if we are if we were to follow that avenue, we might be s you know um we're kind of almost relying on their experience with a mobile phone I suppose. But that does cover a very large section of the people out there.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003b.C.argumentstructs.Erik.3",
+            "ans": "ES2003b.B.argumentstructs.Erik.3",
+            "judgement": false
+        },
+        {
+            "turn_number": 18,
+            "current_node": {
+                "index": 18,
+                "ae_id": "ES2003b.A.argumentstructs.Erik.8",
+                "speaker": "A",
+                "start_time": 1293.26,
+                "end_time": 1293.71,
+                "sentence": "Mm.",
+                "source": "ES2003b.B.argumentstructs.Erik.4",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 13,
+                    "ae_id": "ES2003b.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1268.6,
+                    "end_time": 1291.59,
+                    "sentence": "I think it could probably be aimed at most people who've used a mobile. And that might be just another way of saying try to target most people. Um, if we are if we were to follow that avenue, we might be s you know um we're kind of almost relying on their experience with a mobile phone I suppose. But that does cover a very large section of the people out there.",
+                    "source": "ES2003b.C.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003b.C.argumentstructs.Erik.4",
+                        "ES2003b.A.argumentstructs.Erik.7",
+                        "ES2003b.C.argumentstructs.Erik.6",
+                        "ES2003b.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2003b.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1293.13,
+                    "end_time": 1353.17,
+                    "sentence": "Um, I mean I imagine as well that the actual L_C_D_ and maybe to a certain extent the joystick as well would be for the additional functionality. Which maybe doesn't get used as often, maybe it makes it easy for them to figure out how to um change the channels as in the frequencies and such for reprogramming it. Um and you can still have the main buttons that allow the people to turn the machine on and off, d up and down, it depends, I mean maybe we have the fol um the joystick as a separate one for the other functions then, that there's just a a small number of as you were saying uh buttons that have already been defined. So like we go for the nice standard um up and down for and volume control. So that literally anybody can come along, pick up the remote and still know what do do. And they can completely ignore most of the functionality which would be for say the o actual owner of the the T_V_ and who would normally use the unit. I dunno.",
+                    "source": "ES2003b.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003b.A.argumentstructs.Erik.8",
+                        "ES2003b.C.argumentstructs.Erik.7"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 18):\n- AE_ID: ES2003b.A.argumentstructs.Erik.8\n- Speaker: A\n- Sentence: \"Mm.\"\n\nPast Dialogue Turns:\nAE_ID ES2003b.B.argumentstructs.Erik.3 (Index: 13, Speaker: B): \"I think it could probably be aimed at most people who've used a mobile. And that might be just another way of saying try to target most people. Um, if we are if we were to follow that avenue, we might be s you know um we're kind of almost relying on their experience with a mobile phone I suppose. But that does cover a very large section of the people out there.\"\nAE_ID ES2003b.B.argumentstructs.Erik.4 (Index: 17, Speaker: B): \"Um, I mean I imagine as well that the actual L_C_D_ and maybe to a certain extent the joystick as well would be for the additional functionality. Which maybe doesn't get used as often, maybe it makes it easy for them to figure out how to um change the channels as in the frequencies and such for reprogramming it. Um and you can still have the main buttons that allow the people to turn the machine on and off, d up and down, it depends, I mean maybe we have the fol um the joystick as a separate one for the other functions then, that there's just a a small number of as you were saying uh buttons that have already been defined. So like we go for the nice standard um up and down for and volume control. So that literally anybody can come along, pick up the remote and still know what do do. And they can completely ignore most of the functionality which would be for say the o actual owner of the the T_V_ and who would normally use the unit. I dunno.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003b.B.argumentstructs.Erik.4",
+            "ans": "ES2003b.B.argumentstructs.Erik.4",
+            "judgement": true
+        },
+        {
+            "turn_number": 19,
+            "current_node": {
+                "index": 19,
+                "ae_id": "ES2003b.C.argumentstructs.Erik.7",
+                "speaker": "C",
+                "start_time": 1314.05,
+                "end_time": 1314.29,
+                "sentence": "Mm-hmm.",
+                "source": "ES2003b.B.argumentstructs.Erik.4",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 17,
+                    "ae_id": "ES2003b.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1293.13,
+                    "end_time": 1353.17,
+                    "sentence": "Um, I mean I imagine as well that the actual L_C_D_ and maybe to a certain extent the joystick as well would be for the additional functionality. Which maybe doesn't get used as often, maybe it makes it easy for them to figure out how to um change the channels as in the frequencies and such for reprogramming it. Um and you can still have the main buttons that allow the people to turn the machine on and off, d up and down, it depends, I mean maybe we have the fol um the joystick as a separate one for the other functions then, that there's just a a small number of as you were saying uh buttons that have already been defined. So like we go for the nice standard um up and down for and volume control. So that literally anybody can come along, pick up the remote and still know what do do. And they can completely ignore most of the functionality which would be for say the o actual owner of the the T_V_ and who would normally use the unit. I dunno.",
+                    "source": "ES2003b.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003b.A.argumentstructs.Erik.8",
+                        "ES2003b.C.argumentstructs.Erik.7"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 19):\n- AE_ID: ES2003b.C.argumentstructs.Erik.7\n- Speaker: C\n- Sentence: \"Mm-hmm.\"\n\nPast Dialogue Turns:\nAE_ID ES2003b.B.argumentstructs.Erik.4 (Index: 17, Speaker: B): \"Um, I mean I imagine as well that the actual L_C_D_ and maybe to a certain extent the joystick as well would be for the additional functionality. Which maybe doesn't get used as often, maybe it makes it easy for them to figure out how to um change the channels as in the frequencies and such for reprogramming it. Um and you can still have the main buttons that allow the people to turn the machine on and off, d up and down, it depends, I mean maybe we have the fol um the joystick as a separate one for the other functions then, that there's just a a small number of as you were saying uh buttons that have already been defined. So like we go for the nice standard um up and down for and volume control. So that literally anybody can come along, pick up the remote and still know what do do. And they can completely ignore most of the functionality which would be for say the o actual owner of the the T_V_ and who would normally use the unit. I dunno.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003b.B.argumentstructs.Erik.4",
+            "ans": "ES2003b.B.argumentstructs.Erik.4",
+            "judgement": true
+        },
+        {
+            "turn_number": 20,
+            "current_node": {
+                "index": 20,
+                "ae_id": "ES2003b.A.argumentstructs.Erik.9",
+                "speaker": "A",
+                "start_time": 1355.5,
+                "end_time": 1379.15,
+                "sentence": "I th the thing I like about the uh the uh joystick is that uh you you you then basically you can then basically put it I mean for for T_ T_ for T_V_ remote alone, you could put um I mean there are  like I say the the the main things people do with a T_V_ remote control is the volume and the channel. You can pack all that onto was onto a single control.",
+                "source": "ES2003b.C.argumentstructs.Erik.3",
+                "targets": [
+                    "ES2003b.B.argumentstructs.Erik.5"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 17,
+                    "ae_id": "ES2003b.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1293.13,
+                    "end_time": 1353.17,
+                    "sentence": "Um, I mean I imagine as well that the actual L_C_D_ and maybe to a certain extent the joystick as well would be for the additional functionality. Which maybe doesn't get used as often, maybe it makes it easy for them to figure out how to um change the channels as in the frequencies and such for reprogramming it. Um and you can still have the main buttons that allow the people to turn the machine on and off, d up and down, it depends, I mean maybe we have the fol um the joystick as a separate one for the other functions then, that there's just a a small number of as you were saying uh buttons that have already been defined. So like we go for the nice standard um up and down for and volume control. So that literally anybody can come along, pick up the remote and still know what do do. And they can completely ignore most of the functionality which would be for say the o actual owner of the the T_V_ and who would normally use the unit. I dunno.",
+                    "source": "ES2003b.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003b.A.argumentstructs.Erik.8",
+                        "ES2003b.C.argumentstructs.Erik.7"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 20):\n- AE_ID: ES2003b.A.argumentstructs.Erik.9\n- Speaker: A\n- Sentence: \"I th the thing I like about the uh the uh joystick is that uh you you you then basically you can then basically put it I mean for for T_ T_ for T_V_ remote alone, you could put um I mean there are  like I say the the the main things people do with a T_V_ remote control is the volume and the channel. You can pack all that onto was onto a single control.\"\n\nPast Dialogue Turns:\nAE_ID ES2003b.B.argumentstructs.Erik.4 (Index: 17, Speaker: B): \"Um, I mean I imagine as well that the actual L_C_D_ and maybe to a certain extent the joystick as well would be for the additional functionality. Which maybe doesn't get used as often, maybe it makes it easy for them to figure out how to um change the channels as in the frequencies and such for reprogramming it. Um and you can still have the main buttons that allow the people to turn the machine on and off, d up and down, it depends, I mean maybe we have the fol um the joystick as a separate one for the other functions then, that there's just a a small number of as you were saying uh buttons that have already been defined. So like we go for the nice standard um up and down for and volume control. So that literally anybody can come along, pick up the remote and still know what do do. And they can completely ignore most of the functionality which would be for say the o actual owner of the the T_V_ and who would normally use the unit. I dunno.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003b.B.argumentstructs.Erik.4",
+            "ans": "ES2003b.C.argumentstructs.Erik.3",
+            "judgement": false
+        },
+        {
+            "turn_number": 21,
+            "current_node": {
+                "index": 21,
+                "ae_id": "ES2003b.B.argumentstructs.Erik.5",
+                "speaker": "B",
+                "start_time": 1378.6,
+                "end_time": 1380.01,
+                "sentence": "Mm-hmm.",
+                "source": "ES2003b.A.argumentstructs.Erik.9",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 17,
+                    "ae_id": "ES2003b.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1293.13,
+                    "end_time": 1353.17,
+                    "sentence": "Um, I mean I imagine as well that the actual L_C_D_ and maybe to a certain extent the joystick as well would be for the additional functionality. Which maybe doesn't get used as often, maybe it makes it easy for them to figure out how to um change the channels as in the frequencies and such for reprogramming it. Um and you can still have the main buttons that allow the people to turn the machine on and off, d up and down, it depends, I mean maybe we have the fol um the joystick as a separate one for the other functions then, that there's just a a small number of as you were saying uh buttons that have already been defined. So like we go for the nice standard um up and down for and volume control. So that literally anybody can come along, pick up the remote and still know what do do. And they can completely ignore most of the functionality which would be for say the o actual owner of the the T_V_ and who would normally use the unit. I dunno.",
+                    "source": "ES2003b.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003b.A.argumentstructs.Erik.8",
+                        "ES2003b.C.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2003b.A.argumentstructs.Erik.9",
+                    "speaker": "A",
+                    "start_time": 1355.5,
+                    "end_time": 1379.15,
+                    "sentence": "I th the thing I like about the uh the uh joystick is that uh you you you then basically you can then basically put it I mean for for T_ T_ for T_V_ remote alone, you could put um I mean there are  like I say the the the main things people do with a T_V_ remote control is the volume and the channel. You can pack all that onto was onto a single control.",
+                    "source": "ES2003b.C.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2003b.B.argumentstructs.Erik.5"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 21):\n- AE_ID: ES2003b.B.argumentstructs.Erik.5\n- Speaker: B\n- Sentence: \"Mm-hmm.\"\n\nPast Dialogue Turns:\nAE_ID ES2003b.B.argumentstructs.Erik.4 (Index: 17, Speaker: B): \"Um, I mean I imagine as well that the actual L_C_D_ and maybe to a certain extent the joystick as well would be for the additional functionality. Which maybe doesn't get used as often, maybe it makes it easy for them to figure out how to um change the channels as in the frequencies and such for reprogramming it. Um and you can still have the main buttons that allow the people to turn the machine on and off, d up and down, it depends, I mean maybe we have the fol um the joystick as a separate one for the other functions then, that there's just a a small number of as you were saying uh buttons that have already been defined. So like we go for the nice standard um up and down for and volume control. So that literally anybody can come along, pick up the remote and still know what do do. And they can completely ignore most of the functionality which would be for say the o actual owner of the the T_V_ and who would normally use the unit. I dunno.\"\nAE_ID ES2003b.A.argumentstructs.Erik.9 (Index: 20, Speaker: A): \"I th the thing I like about the uh the uh joystick is that uh you you you then basically you can then basically put it I mean for for T_ T_ for T_V_ remote alone, you could put um I mean there are  like I say the the the main things people do with a T_V_ remote control is the volume and the channel. You can pack all that onto was onto a single control.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2003b.A.argumentstructs.Erik.9",
+            "ans": "ES2003b.A.argumentstructs.Erik.9",
+            "judgement": true
+        }
+    ]
+}

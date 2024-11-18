@@ -32,27 +32,8 @@ def extract_short_leaf_nodes(csv_file):
                 # row[4]から句読点を削除
                 sentence = row[4].replace(',', '').replace('.', '').replace('?', '').replace('!', '')
 
-                if len(sentence.split()) <= 10:
-                    leaf_nodes.append(sentence)
-
-        return leaf_nodes
-
-def extract_all_leaf_nodes(csv_file):
-    leaf_nodes = []
-
-    # CSVファイルを読み込む
-    with open(csv_file, 'r') as f:
-        reader = csv.reader(f)
-
-        # ヘッダーをスキップ
-        next(reader)
-
-        # ルートノードはスキップ
-        next(reader)
-
-        for row in reader:
-            if row[5] != 'NONE' and row[6] == 'NONE':
-                leaf_nodes.append(row[4])
+                # if len(sentence.split()) <= 6:
+                leaf_nodes.append(sentence)
 
         return leaf_nodes
 
@@ -66,37 +47,24 @@ def main():
     # CSVファイルのパスを取得
     csv_files = get_csv_files(csv_topics_path)
 
-    # 単語とその出現回数を格納する辞書
-    word_count = {}
-
-    leaf_node_list = []
+    length_size_count = []
 
     for csv_file in csv_files:
         leaf_nodes = extract_short_leaf_nodes(csv_file)
         for leaf_node in leaf_nodes:
-            leaf_node_list.append(leaf_node)
-            words = leaf_node.split()
-            for word in words:
-                w = word.lower()
-                if w in word_count:
-                    word_count[w] += 1
-                else:
-                    word_count[w] = 1
+            word_count = len(leaf_node.split())
+            length_size_count.append(word_count)
 
-    # 出現回数が多い順にソート
-    word_count = dict(sorted(word_count.items(), key=lambda x: x[1], reverse=True))
+    # 外れ値を削除
+    length_size_count = [l for l in length_size_count if l <= 30]
 
-    # 出現回数が多い 上位30単語を抽出
-    leaf_word_list = list(word_count.items())[:30]
-    # print(leaf_word_list)
-
-
-    all_leaf_nodes = []
-    for csv_file in csv_files:
-        leaf_nodes = extract_all_leaf_nodes(csv_file)
-        all_leaf_nodes.extend(leaf_nodes)
-
-    print(len(all_leaf_nodes))
+    # ヒストグラムを描画
+    sns.histplot(length_size_count, bins=range(min(length_size_count), max(length_size_count) + 1))
+    plt.xlabel('Number of words')
+    plt.ylabel('Number of leaf nodes')
+    plt.title('Number of words in leaf nodes')
+    # pngファイルとして保存
+    plt.savefig('word_count.png')
 
 
 if __name__ == '__main__':

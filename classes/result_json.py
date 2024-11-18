@@ -130,7 +130,7 @@ class Result:
 			f.write(self.to_json())
 
 	@classmethod
-	def from_dict(cls, data):
+	def from_dict(cls, data, ae_id_to_index):
 		one_turn_results = []
 		for one_turn_result_data in data["one_turn_results"]:
 
@@ -145,8 +145,9 @@ class Result:
 					one_turn_result_data['prompt'],
 					one_turn_result_data['gpt_ans'],
 					one_turn_result_data['ans'],
-					one_turn_result_data['judgement']
-					)
+					one_turn_result_data['judgement'],
+                    ae_id_to_index
+					).reindex()
 			one_turn_results.append(one_turn_result)
 
 		removed_node_list = []
@@ -165,8 +166,9 @@ class Result:
 				one_turn_results=one_turn_results
 		)
 
-	def load_result_from_json(json_file_path):
+	@classmethod
+	def load_result_from_json(cls, json_file_path, ae_id_to_index):
 		with open(json_file_path, 'r', encoding='utf-8') as f:
 			data = json.load(f)
-		result = Result.from_dict(data)
+		result = cls.from_dict(data, ae_id_to_index)
 		return result
