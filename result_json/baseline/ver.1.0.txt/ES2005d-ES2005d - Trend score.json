@@ -1,0 +1,987 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2005d-ES2005d - Trend score.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "ver.1.0.txt",
+    "rate": 0.5833333333333334,
+    "total_node_count": 19,
+    "removed_node_count": 6,
+    "removed_node_list": [
+        {
+            "index": 0,
+            "ae_id": "ES2005d.A.argumentstructs.5",
+            "speaker": "A",
+            "start_time": 1349.01,
+            "end_time": 1351.32,
+            "sentence": "Yeah round it up to two",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 7,
+            "ae_id": "ES2005d.D.argumentstructs.4",
+            "speaker": "D",
+            "start_time": 1367.71,
+            "end_time": 1368.17,
+            "sentence": "Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 9,
+            "ae_id": "ES2005d.B.argumentstructs.6",
+            "speaker": "B",
+            "start_time": 1370.91,
+            "end_time": 1371.75,
+            "sentence": "Uh.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 12,
+            "ae_id": "ES2005d.B.argumentstructs.7",
+            "speaker": "B",
+            "start_time": 1403.88,
+            "end_time": 1404.41,
+            "sentence": "Uh",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 15,
+            "ae_id": "ES2005d.D.argumentstructs.5",
+            "speaker": "D",
+            "start_time": 1441.61,
+            "end_time": 1474.62,
+            "sentence": "Yeah. Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 18,
+            "ae_id": "ES2005d.B.argumentstructs.8",
+            "speaker": "B",
+            "start_time": 1518.3,
+            "end_time": 1522.43,
+            "sentence": "Is it fine ? So what about company strategy ?",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2005d.D.argumentstructs.Erik.1",
+                "speaker": "D",
+                "start_time": 1350.42,
+                "end_time": 1351.03,
+                "sentence": "Okay, yeah.",
+                "source": "ES2005d.A.argumentstructs.Erik.1",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "ES2005d.A.argumentstructs.Erik.1",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2005d.A.argumentstructs.Erik.1",
+                "speaker": "A",
+                "start_time": 1351.32,
+                "end_time": 1352.45,
+                "sentence": ". So trends.",
+                "source": "NONE",
+                "targets": [
+                    "ES2005d.D.argumentstructs.Erik.1",
+                    "ES2005d.A.argumentstructs.Erik.2",
+                    "ES2005d.D.argumentstructs.Erik.2",
+                    "ES2005d.A.argumentstructs.Erik.4",
+                    "ES2005d.B.argumentstructs.Erik.4"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2005d.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1350.42,
+                    "end_time": 1351.03,
+                    "sentence": "Okay, yeah.",
+                    "source": "ES2005d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005d.A.argumentstructs.Erik.1\n- Index: 1\n- Speaker: A\n- Sentence: \". So trends.\"\n\nPast Dialogue Turns:\nAE_ID ES2005d.D.argumentstructs.Erik.1 (Index: 0, Speaker: D): \"Okay, yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005d.D.argumentstructs.Erik.1",
+            "ans": "NONE",
+            "judgement": false
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 2,
+                "ae_id": "ES2005d.A.argumentstructs.Erik.2",
+                "speaker": "A",
+                "start_time": 1354.49,
+                "end_time": 1356.58,
+                "sentence": "Can you explain what you want us to write there ?",
+                "source": "ES2005d.A.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2005d.B.argumentstructs.Erik.1"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2005d.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1350.42,
+                    "end_time": 1351.03,
+                    "sentence": "Okay, yeah.",
+                    "source": "ES2005d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2005d.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1351.32,
+                    "end_time": 1352.45,
+                    "sentence": ". So trends.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2005d.D.argumentstructs.Erik.1",
+                        "ES2005d.A.argumentstructs.Erik.2",
+                        "ES2005d.D.argumentstructs.Erik.2",
+                        "ES2005d.A.argumentstructs.Erik.4",
+                        "ES2005d.B.argumentstructs.Erik.4"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005d.A.argumentstructs.Erik.2\n- Index: 2\n- Speaker: A\n- Sentence: \"Can you explain what you want us to write there ?\"\n\nPast Dialogue Turns:\nAE_ID ES2005d.D.argumentstructs.Erik.1 (Index: 0, Speaker: D): \"Okay, yeah.\"\nAE_ID ES2005d.A.argumentstructs.Erik.1 (Index: 1, Speaker: A): \". So trends.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005d.A.argumentstructs.Erik.1",
+            "ans": "ES2005d.A.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 3,
+                "ae_id": "ES2005d.B.argumentstructs.Erik.1",
+                "speaker": "B",
+                "start_time": 1357.4,
+                "end_time": 1357.73,
+                "sentence": "Sorry ?",
+                "source": "ES2005d.A.argumentstructs.Erik.2",
+                "targets": [
+                    "ES2005d.A.argumentstructs.Erik.3"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2005d.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1350.42,
+                    "end_time": 1351.03,
+                    "sentence": "Okay, yeah.",
+                    "source": "ES2005d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2005d.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1351.32,
+                    "end_time": 1352.45,
+                    "sentence": ". So trends.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2005d.D.argumentstructs.Erik.1",
+                        "ES2005d.A.argumentstructs.Erik.2",
+                        "ES2005d.D.argumentstructs.Erik.2",
+                        "ES2005d.A.argumentstructs.Erik.4",
+                        "ES2005d.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2005d.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1354.49,
+                    "end_time": 1356.58,
+                    "sentence": "Can you explain what you want us to write there ?",
+                    "source": "ES2005d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2005d.B.argumentstructs.Erik.1"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005d.B.argumentstructs.Erik.1\n- Index: 3\n- Speaker: B\n- Sentence: \"Sorry ?\"\n\nPast Dialogue Turns:\nAE_ID ES2005d.D.argumentstructs.Erik.1 (Index: 0, Speaker: D): \"Okay, yeah.\"\nAE_ID ES2005d.A.argumentstructs.Erik.1 (Index: 1, Speaker: A): \". So trends.\"\nAE_ID ES2005d.A.argumentstructs.Erik.2 (Index: 2, Speaker: A): \"Can you explain what you want us to write there ?\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005d.A.argumentstructs.Erik.2",
+            "ans": "ES2005d.A.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 4,
+                "ae_id": "ES2005d.A.argumentstructs.Erik.3",
+                "speaker": "A",
+                "start_time": 1358.12,
+                "end_time": 1360.4,
+                "sentence": "How it  how conforms to the current trends ?",
+                "source": "ES2005d.B.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2005d.B.argumentstructs.Erik.2"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2005d.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1350.42,
+                    "end_time": 1351.03,
+                    "sentence": "Okay, yeah.",
+                    "source": "ES2005d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2005d.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1351.32,
+                    "end_time": 1352.45,
+                    "sentence": ". So trends.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2005d.D.argumentstructs.Erik.1",
+                        "ES2005d.A.argumentstructs.Erik.2",
+                        "ES2005d.D.argumentstructs.Erik.2",
+                        "ES2005d.A.argumentstructs.Erik.4",
+                        "ES2005d.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2005d.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1354.49,
+                    "end_time": 1356.58,
+                    "sentence": "Can you explain what you want us to write there ?",
+                    "source": "ES2005d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2005d.B.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2005d.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1357.4,
+                    "end_time": 1357.73,
+                    "sentence": "Sorry ?",
+                    "source": "ES2005d.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2005d.A.argumentstructs.Erik.3"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005d.A.argumentstructs.Erik.3\n- Index: 4\n- Speaker: A\n- Sentence: \"How it  how conforms to the current trends ?\"\n\nPast Dialogue Turns:\nAE_ID ES2005d.D.argumentstructs.Erik.1 (Index: 0, Speaker: D): \"Okay, yeah.\"\nAE_ID ES2005d.A.argumentstructs.Erik.1 (Index: 1, Speaker: A): \". So trends.\"\nAE_ID ES2005d.A.argumentstructs.Erik.2 (Index: 2, Speaker: A): \"Can you explain what you want us to write there ?\"\nAE_ID ES2005d.B.argumentstructs.Erik.1 (Index: 3, Speaker: B): \"Sorry ?\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005d.B.argumentstructs.Erik.1",
+            "ans": "ES2005d.B.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 5,
+                "ae_id": "ES2005d.B.argumentstructs.Erik.2",
+                "speaker": "B",
+                "start_time": 1360.38,
+                "end_time": 1370.91,
+                "sentence": "Yeah, again the the fashion trends, this also like whether it it will be fashionable to have these products in the  uh as a fruit shape or something.",
+                "source": "ES2005d.A.argumentstructs.Erik.3",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2005d.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 1350.42,
+                    "end_time": 1351.03,
+                    "sentence": "Okay, yeah.",
+                    "source": "ES2005d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2005d.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1351.32,
+                    "end_time": 1352.45,
+                    "sentence": ". So trends.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2005d.D.argumentstructs.Erik.1",
+                        "ES2005d.A.argumentstructs.Erik.2",
+                        "ES2005d.D.argumentstructs.Erik.2",
+                        "ES2005d.A.argumentstructs.Erik.4",
+                        "ES2005d.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2005d.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1354.49,
+                    "end_time": 1356.58,
+                    "sentence": "Can you explain what you want us to write there ?",
+                    "source": "ES2005d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2005d.B.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2005d.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1357.4,
+                    "end_time": 1357.73,
+                    "sentence": "Sorry ?",
+                    "source": "ES2005d.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2005d.A.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2005d.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1358.12,
+                    "end_time": 1360.4,
+                    "sentence": "How it  how conforms to the current trends ?",
+                    "source": "ES2005d.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2005d.B.argumentstructs.Erik.2"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005d.B.argumentstructs.Erik.2\n- Index: 5\n- Speaker: B\n- Sentence: \"Yeah, again the the fashion trends, this also like whether it it will be fashionable to have these products in the  uh as a fruit shape or something.\"\n\nPast Dialogue Turns:\nAE_ID ES2005d.D.argumentstructs.Erik.1 (Index: 0, Speaker: D): \"Okay, yeah.\"\nAE_ID ES2005d.A.argumentstructs.Erik.1 (Index: 1, Speaker: A): \". So trends.\"\nAE_ID ES2005d.A.argumentstructs.Erik.2 (Index: 2, Speaker: A): \"Can you explain what you want us to write there ?\"\nAE_ID ES2005d.B.argumentstructs.Erik.1 (Index: 3, Speaker: B): \"Sorry ?\"\nAE_ID ES2005d.A.argumentstructs.Erik.3 (Index: 4, Speaker: A): \"How it  how conforms to the current trends ?\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005d.A.argumentstructs.Erik.3",
+            "ans": "ES2005d.A.argumentstructs.Erik.3",
+            "judgement": true
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 6,
+                "ae_id": "ES2005d.D.argumentstructs.Erik.2",
+                "speaker": "D",
+                "start_time": 1370.13,
+                "end_time": 1398.88,
+                "sentence": "Okay. Well um going on uh the specifications that we had, that fruit and vegetables are quite popular, and that people like something that is good to look at and not many buttons, I would give it um, well, because it's hard to make a fruit good to look at, that that looks cool, you know, so I would actually give it a three.",
+                "source": "ES2005d.A.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2005d.D.argumentstructs.Erik.3",
+                    "ES2005d.B.argumentstructs.Erik.3"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2005d.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 1351.32,
+                    "end_time": 1352.45,
+                    "sentence": ". So trends.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2005d.D.argumentstructs.Erik.1",
+                        "ES2005d.A.argumentstructs.Erik.2",
+                        "ES2005d.D.argumentstructs.Erik.2",
+                        "ES2005d.A.argumentstructs.Erik.4",
+                        "ES2005d.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2005d.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1354.49,
+                    "end_time": 1356.58,
+                    "sentence": "Can you explain what you want us to write there ?",
+                    "source": "ES2005d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2005d.B.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2005d.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1357.4,
+                    "end_time": 1357.73,
+                    "sentence": "Sorry ?",
+                    "source": "ES2005d.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2005d.A.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2005d.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1358.12,
+                    "end_time": 1360.4,
+                    "sentence": "How it  how conforms to the current trends ?",
+                    "source": "ES2005d.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2005d.B.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2005d.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1360.38,
+                    "end_time": 1370.91,
+                    "sentence": "Yeah, again the the fashion trends, this also like whether it it will be fashionable to have these products in the  uh as a fruit shape or something.",
+                    "source": "ES2005d.A.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005d.D.argumentstructs.Erik.2\n- Index: 6\n- Speaker: D\n- Sentence: \"Okay. Well um going on uh the specifications that we had, that fruit and vegetables are quite popular, and that people like something that is good to look at and not many buttons, I would give it um, well, because it's hard to make a fruit good to look at, that that looks cool, you know, so I would actually give it a three.\"\n\nPast Dialogue Turns:\nAE_ID ES2005d.A.argumentstructs.Erik.1 (Index: 1, Speaker: A): \". So trends.\"\nAE_ID ES2005d.A.argumentstructs.Erik.2 (Index: 2, Speaker: A): \"Can you explain what you want us to write there ?\"\nAE_ID ES2005d.B.argumentstructs.Erik.1 (Index: 3, Speaker: B): \"Sorry ?\"\nAE_ID ES2005d.A.argumentstructs.Erik.3 (Index: 4, Speaker: A): \"How it  how conforms to the current trends ?\"\nAE_ID ES2005d.B.argumentstructs.Erik.2 (Index: 5, Speaker: B): \"Yeah, again the the fashion trends, this also like whether it it will be fashionable to have these products in the  uh as a fruit shape or something.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005d.B.argumentstructs.Erik.2",
+            "ans": "ES2005d.A.argumentstructs.Erik.1",
+            "judgement": false
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 7,
+                "ae_id": "ES2005d.D.argumentstructs.Erik.3",
+                "speaker": "D",
+                "start_time": 1398.88,
+                "end_time": 1403.75,
+                "sentence": "Tha three or four, I'm not sure. Three. Go for three. That's fine.",
+                "source": "ES2005d.D.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 2,
+                    "ae_id": "ES2005d.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1354.49,
+                    "end_time": 1356.58,
+                    "sentence": "Can you explain what you want us to write there ?",
+                    "source": "ES2005d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2005d.B.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2005d.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1357.4,
+                    "end_time": 1357.73,
+                    "sentence": "Sorry ?",
+                    "source": "ES2005d.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2005d.A.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2005d.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1358.12,
+                    "end_time": 1360.4,
+                    "sentence": "How it  how conforms to the current trends ?",
+                    "source": "ES2005d.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2005d.B.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2005d.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1360.38,
+                    "end_time": 1370.91,
+                    "sentence": "Yeah, again the the fashion trends, this also like whether it it will be fashionable to have these products in the  uh as a fruit shape or something.",
+                    "source": "ES2005d.A.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2005d.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1370.13,
+                    "end_time": 1398.88,
+                    "sentence": "Okay. Well um going on uh the specifications that we had, that fruit and vegetables are quite popular, and that people like something that is good to look at and not many buttons, I would give it um, well, because it's hard to make a fruit good to look at, that that looks cool, you know, so I would actually give it a three.",
+                    "source": "ES2005d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2005d.D.argumentstructs.Erik.3",
+                        "ES2005d.B.argumentstructs.Erik.3"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005d.D.argumentstructs.Erik.3\n- Index: 7\n- Speaker: D\n- Sentence: \"Tha three or four, I'm not sure. Three. Go for three. That's fine.\"\n\nPast Dialogue Turns:\nAE_ID ES2005d.A.argumentstructs.Erik.2 (Index: 2, Speaker: A): \"Can you explain what you want us to write there ?\"\nAE_ID ES2005d.B.argumentstructs.Erik.1 (Index: 3, Speaker: B): \"Sorry ?\"\nAE_ID ES2005d.A.argumentstructs.Erik.3 (Index: 4, Speaker: A): \"How it  how conforms to the current trends ?\"\nAE_ID ES2005d.B.argumentstructs.Erik.2 (Index: 5, Speaker: B): \"Yeah, again the the fashion trends, this also like whether it it will be fashionable to have these products in the  uh as a fruit shape or something.\"\nAE_ID ES2005d.D.argumentstructs.Erik.2 (Index: 6, Speaker: D): \"Okay. Well um going on uh the specifications that we had, that fruit and vegetables are quite popular, and that people like something that is good to look at and not many buttons, I would give it um, well, because it's hard to make a fruit good to look at, that that looks cool, you know, so I would actually give it a three.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005d.D.argumentstructs.Erik.2",
+            "ans": "ES2005d.D.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 8,
+                "ae_id": "ES2005d.B.argumentstructs.Erik.3",
+                "speaker": "B",
+                "start_time": 1402.12,
+                "end_time": 1403.88,
+                "sentence": "Okay. Yeah.",
+                "source": "ES2005d.D.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 3,
+                    "ae_id": "ES2005d.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 1357.4,
+                    "end_time": 1357.73,
+                    "sentence": "Sorry ?",
+                    "source": "ES2005d.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2005d.A.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2005d.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1358.12,
+                    "end_time": 1360.4,
+                    "sentence": "How it  how conforms to the current trends ?",
+                    "source": "ES2005d.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2005d.B.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2005d.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1360.38,
+                    "end_time": 1370.91,
+                    "sentence": "Yeah, again the the fashion trends, this also like whether it it will be fashionable to have these products in the  uh as a fruit shape or something.",
+                    "source": "ES2005d.A.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2005d.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1370.13,
+                    "end_time": 1398.88,
+                    "sentence": "Okay. Well um going on uh the specifications that we had, that fruit and vegetables are quite popular, and that people like something that is good to look at and not many buttons, I would give it um, well, because it's hard to make a fruit good to look at, that that looks cool, you know, so I would actually give it a three.",
+                    "source": "ES2005d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2005d.D.argumentstructs.Erik.3",
+                        "ES2005d.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2005d.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 1398.88,
+                    "end_time": 1403.75,
+                    "sentence": "Tha three or four, I'm not sure. Three. Go for three. That's fine.",
+                    "source": "ES2005d.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005d.B.argumentstructs.Erik.3\n- Index: 8\n- Speaker: B\n- Sentence: \"Okay. Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2005d.B.argumentstructs.Erik.1 (Index: 3, Speaker: B): \"Sorry ?\"\nAE_ID ES2005d.A.argumentstructs.Erik.3 (Index: 4, Speaker: A): \"How it  how conforms to the current trends ?\"\nAE_ID ES2005d.B.argumentstructs.Erik.2 (Index: 5, Speaker: B): \"Yeah, again the the fashion trends, this also like whether it it will be fashionable to have these products in the  uh as a fruit shape or something.\"\nAE_ID ES2005d.D.argumentstructs.Erik.2 (Index: 6, Speaker: D): \"Okay. Well um going on uh the specifications that we had, that fruit and vegetables are quite popular, and that people like something that is good to look at and not many buttons, I would give it um, well, because it's hard to make a fruit good to look at, that that looks cool, you know, so I would actually give it a three.\"\nAE_ID ES2005d.D.argumentstructs.Erik.3 (Index: 7, Speaker: D): \"Tha three or four, I'm not sure. Three. Go for three. That's fine.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005d.D.argumentstructs.Erik.3",
+            "ans": "ES2005d.D.argumentstructs.Erik.2",
+            "judgement": false
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 9,
+                "ae_id": "ES2005d.A.argumentstructs.Erik.4",
+                "speaker": "A",
+                "start_time": 1404.88,
+                "end_time": 1430.43,
+                "sentence": "'Kay. As far as the uh technology it its' got the latest trends in speech technology, but it's missing the screen, as we said, um but it does have the push-buttons, or the scroll-buttons, um but it doesn't have that fancy solar power or the the vibrating energy mechanism. So I give it a a four. I'd give it a kinda middle of the road for for technology.",
+                "source": "ES2005d.A.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2005d.C.argumentstructs.Erik.2"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 4,
+                    "ae_id": "ES2005d.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1358.12,
+                    "end_time": 1360.4,
+                    "sentence": "How it  how conforms to the current trends ?",
+                    "source": "ES2005d.B.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2005d.B.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2005d.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1360.38,
+                    "end_time": 1370.91,
+                    "sentence": "Yeah, again the the fashion trends, this also like whether it it will be fashionable to have these products in the  uh as a fruit shape or something.",
+                    "source": "ES2005d.A.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2005d.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1370.13,
+                    "end_time": 1398.88,
+                    "sentence": "Okay. Well um going on uh the specifications that we had, that fruit and vegetables are quite popular, and that people like something that is good to look at and not many buttons, I would give it um, well, because it's hard to make a fruit good to look at, that that looks cool, you know, so I would actually give it a three.",
+                    "source": "ES2005d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2005d.D.argumentstructs.Erik.3",
+                        "ES2005d.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2005d.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 1398.88,
+                    "end_time": 1403.75,
+                    "sentence": "Tha three or four, I'm not sure. Three. Go for three. That's fine.",
+                    "source": "ES2005d.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2005d.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1402.12,
+                    "end_time": 1403.88,
+                    "sentence": "Okay. Yeah.",
+                    "source": "ES2005d.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005d.A.argumentstructs.Erik.4\n- Index: 9\n- Speaker: A\n- Sentence: \"'Kay. As far as the uh technology it its' got the latest trends in speech technology, but it's missing the screen, as we said, um but it does have the push-buttons, or the scroll-buttons, um but it doesn't have that fancy solar power or the the vibrating energy mechanism. So I give it a a four. I'd give it a kinda middle of the road for for technology.\"\n\nPast Dialogue Turns:\nAE_ID ES2005d.A.argumentstructs.Erik.3 (Index: 4, Speaker: A): \"How it  how conforms to the current trends ?\"\nAE_ID ES2005d.B.argumentstructs.Erik.2 (Index: 5, Speaker: B): \"Yeah, again the the fashion trends, this also like whether it it will be fashionable to have these products in the  uh as a fruit shape or something.\"\nAE_ID ES2005d.D.argumentstructs.Erik.2 (Index: 6, Speaker: D): \"Okay. Well um going on uh the specifications that we had, that fruit and vegetables are quite popular, and that people like something that is good to look at and not many buttons, I would give it um, well, because it's hard to make a fruit good to look at, that that looks cool, you know, so I would actually give it a three.\"\nAE_ID ES2005d.D.argumentstructs.Erik.3 (Index: 7, Speaker: D): \"Tha three or four, I'm not sure. Three. Go for three. That's fine.\"\nAE_ID ES2005d.B.argumentstructs.Erik.3 (Index: 8, Speaker: B): \"Okay. Yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005d.B.argumentstructs.Erik.3",
+            "ans": "ES2005d.A.argumentstructs.Erik.1",
+            "judgement": false
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 10,
+                "ae_id": "ES2005d.C.argumentstructs.Erik.2",
+                "speaker": "C",
+                "start_time": 1431.86,
+                "end_time": 1451.61,
+                "sentence": "Yeah, I am sort of pret uh   Just the fruit does me in, I mean uh it might it might be trendy to some, but I'm just not swallowing the fruit, so um   Uh also uh I would have liked to have seen the L_C_D_ screen in it. Um so yeah I'd say about four as well.",
+                "source": "ES2005d.A.argumentstructs.Erik.4",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 5,
+                    "ae_id": "ES2005d.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 1360.38,
+                    "end_time": 1370.91,
+                    "sentence": "Yeah, again the the fashion trends, this also like whether it it will be fashionable to have these products in the  uh as a fruit shape or something.",
+                    "source": "ES2005d.A.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2005d.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1370.13,
+                    "end_time": 1398.88,
+                    "sentence": "Okay. Well um going on uh the specifications that we had, that fruit and vegetables are quite popular, and that people like something that is good to look at and not many buttons, I would give it um, well, because it's hard to make a fruit good to look at, that that looks cool, you know, so I would actually give it a three.",
+                    "source": "ES2005d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2005d.D.argumentstructs.Erik.3",
+                        "ES2005d.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2005d.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 1398.88,
+                    "end_time": 1403.75,
+                    "sentence": "Tha three or four, I'm not sure. Three. Go for three. That's fine.",
+                    "source": "ES2005d.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2005d.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1402.12,
+                    "end_time": 1403.88,
+                    "sentence": "Okay. Yeah.",
+                    "source": "ES2005d.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2005d.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1404.88,
+                    "end_time": 1430.43,
+                    "sentence": "'Kay. As far as the uh technology it its' got the latest trends in speech technology, but it's missing the screen, as we said, um but it does have the push-buttons, or the scroll-buttons, um but it doesn't have that fancy solar power or the the vibrating energy mechanism. So I give it a a four. I'd give it a kinda middle of the road for for technology.",
+                    "source": "ES2005d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2005d.C.argumentstructs.Erik.2"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005d.C.argumentstructs.Erik.2\n- Index: 10\n- Speaker: C\n- Sentence: \"Yeah, I am sort of pret uh   Just the fruit does me in, I mean uh it might it might be trendy to some, but I'm just not swallowing the fruit, so um   Uh also uh I would have liked to have seen the L_C_D_ screen in it. Um so yeah I'd say about four as well.\"\n\nPast Dialogue Turns:\nAE_ID ES2005d.B.argumentstructs.Erik.2 (Index: 5, Speaker: B): \"Yeah, again the the fashion trends, this also like whether it it will be fashionable to have these products in the  uh as a fruit shape or something.\"\nAE_ID ES2005d.D.argumentstructs.Erik.2 (Index: 6, Speaker: D): \"Okay. Well um going on uh the specifications that we had, that fruit and vegetables are quite popular, and that people like something that is good to look at and not many buttons, I would give it um, well, because it's hard to make a fruit good to look at, that that looks cool, you know, so I would actually give it a three.\"\nAE_ID ES2005d.D.argumentstructs.Erik.3 (Index: 7, Speaker: D): \"Tha three or four, I'm not sure. Three. Go for three. That's fine.\"\nAE_ID ES2005d.B.argumentstructs.Erik.3 (Index: 8, Speaker: B): \"Okay. Yeah.\"\nAE_ID ES2005d.A.argumentstructs.Erik.4 (Index: 9, Speaker: A): \"'Kay. As far as the uh technology it its' got the latest trends in speech technology, but it's missing the screen, as we said, um but it does have the push-buttons, or the scroll-buttons, um but it doesn't have that fancy solar power or the the vibrating energy mechanism. So I give it a a four. I'd give it a kinda middle of the road for for technology.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005d.A.argumentstructs.Erik.4",
+            "ans": "ES2005d.A.argumentstructs.Erik.4",
+            "judgement": true
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 11,
+                "ae_id": "ES2005d.B.argumentstructs.Erik.4",
+                "speaker": "B",
+                "start_time": 1452.0,
+                "end_time": 1481.1,
+                "sentence": "Okay. Uh personally I wi uh I think that in terms of trends, these products are quite good, like, these products are in fruit shape, because that wha people now  our fashion trend shows that people like everything  all f everything that is being advertised, like clothes, shoes, and everything is being advertised in the form of fruits and vegetables, or getting them  or showing some association with them.",
+                "source": "ES2005d.A.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2005d.B.argumentstructs.Erik.5"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 6,
+                    "ae_id": "ES2005d.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 1370.13,
+                    "end_time": 1398.88,
+                    "sentence": "Okay. Well um going on uh the specifications that we had, that fruit and vegetables are quite popular, and that people like something that is good to look at and not many buttons, I would give it um, well, because it's hard to make a fruit good to look at, that that looks cool, you know, so I would actually give it a three.",
+                    "source": "ES2005d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2005d.D.argumentstructs.Erik.3",
+                        "ES2005d.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2005d.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 1398.88,
+                    "end_time": 1403.75,
+                    "sentence": "Tha three or four, I'm not sure. Three. Go for three. That's fine.",
+                    "source": "ES2005d.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2005d.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1402.12,
+                    "end_time": 1403.88,
+                    "sentence": "Okay. Yeah.",
+                    "source": "ES2005d.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2005d.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1404.88,
+                    "end_time": 1430.43,
+                    "sentence": "'Kay. As far as the uh technology it its' got the latest trends in speech technology, but it's missing the screen, as we said, um but it does have the push-buttons, or the scroll-buttons, um but it doesn't have that fancy solar power or the the vibrating energy mechanism. So I give it a a four. I'd give it a kinda middle of the road for for technology.",
+                    "source": "ES2005d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2005d.C.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2005d.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 1431.86,
+                    "end_time": 1451.61,
+                    "sentence": "Yeah, I am sort of pret uh   Just the fruit does me in, I mean uh it might it might be trendy to some, but I'm just not swallowing the fruit, so um   Uh also uh I would have liked to have seen the L_C_D_ screen in it. Um so yeah I'd say about four as well.",
+                    "source": "ES2005d.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005d.B.argumentstructs.Erik.4\n- Index: 11\n- Speaker: B\n- Sentence: \"Okay. Uh personally I wi uh I think that in terms of trends, these products are quite good, like, these products are in fruit shape, because that wha people now  our fashion trend shows that people like everything  all f everything that is being advertised, like clothes, shoes, and everything is being advertised in the form of fruits and vegetables, or getting them  or showing some association with them.\"\n\nPast Dialogue Turns:\nAE_ID ES2005d.D.argumentstructs.Erik.2 (Index: 6, Speaker: D): \"Okay. Well um going on uh the specifications that we had, that fruit and vegetables are quite popular, and that people like something that is good to look at and not many buttons, I would give it um, well, because it's hard to make a fruit good to look at, that that looks cool, you know, so I would actually give it a three.\"\nAE_ID ES2005d.D.argumentstructs.Erik.3 (Index: 7, Speaker: D): \"Tha three or four, I'm not sure. Three. Go for three. That's fine.\"\nAE_ID ES2005d.B.argumentstructs.Erik.3 (Index: 8, Speaker: B): \"Okay. Yeah.\"\nAE_ID ES2005d.A.argumentstructs.Erik.4 (Index: 9, Speaker: A): \"'Kay. As far as the uh technology it its' got the latest trends in speech technology, but it's missing the screen, as we said, um but it does have the push-buttons, or the scroll-buttons, um but it doesn't have that fancy solar power or the the vibrating energy mechanism. So I give it a a four. I'd give it a kinda middle of the road for for technology.\"\nAE_ID ES2005d.C.argumentstructs.Erik.2 (Index: 10, Speaker: C): \"Yeah, I am sort of pret uh   Just the fruit does me in, I mean uh it might it might be trendy to some, but I'm just not swallowing the fruit, so um   Uh also uh I would have liked to have seen the L_C_D_ screen in it. Um so yeah I'd say about four as well.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005d.C.argumentstructs.Erik.2",
+            "ans": "ES2005d.A.argumentstructs.Erik.1",
+            "judgement": false
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 12,
+                "ae_id": "ES2005d.B.argumentstructs.Erik.5",
+                "speaker": "B",
+                "start_time": 1481.4,
+                "end_time": 1511.37,
+                "sentence": "So and in this way our product is good. And the second thing, now people don't want any complicated or bulky products and ours is quite simple and quite handy. So that is also ef that also  Our product meets the f the fashion uh trends of the market. And yes. It is cus spongy also. So they can play with it, it's quite good. So then I think, maybe I can give it two.",
+                "source": "ES2005d.B.argumentstructs.Erik.4",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 7,
+                    "ae_id": "ES2005d.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 1398.88,
+                    "end_time": 1403.75,
+                    "sentence": "Tha three or four, I'm not sure. Three. Go for three. That's fine.",
+                    "source": "ES2005d.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2005d.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 1402.12,
+                    "end_time": 1403.88,
+                    "sentence": "Okay. Yeah.",
+                    "source": "ES2005d.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2005d.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1404.88,
+                    "end_time": 1430.43,
+                    "sentence": "'Kay. As far as the uh technology it its' got the latest trends in speech technology, but it's missing the screen, as we said, um but it does have the push-buttons, or the scroll-buttons, um but it doesn't have that fancy solar power or the the vibrating energy mechanism. So I give it a a four. I'd give it a kinda middle of the road for for technology.",
+                    "source": "ES2005d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2005d.C.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2005d.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 1431.86,
+                    "end_time": 1451.61,
+                    "sentence": "Yeah, I am sort of pret uh   Just the fruit does me in, I mean uh it might it might be trendy to some, but I'm just not swallowing the fruit, so um   Uh also uh I would have liked to have seen the L_C_D_ screen in it. Um so yeah I'd say about four as well.",
+                    "source": "ES2005d.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2005d.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1452.0,
+                    "end_time": 1481.1,
+                    "sentence": "Okay. Uh personally I wi uh I think that in terms of trends, these products are quite good, like, these products are in fruit shape, because that wha people now  our fashion trend shows that people like everything  all f everything that is being advertised, like clothes, shoes, and everything is being advertised in the form of fruits and vegetables, or getting them  or showing some association with them.",
+                    "source": "ES2005d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2005d.B.argumentstructs.Erik.5"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2005d.B.argumentstructs.Erik.5\n- Index: 12\n- Speaker: B\n- Sentence: \"So and in this way our product is good. And the second thing, now people don't want any complicated or bulky products and ours is quite simple and quite handy. So that is also ef that also  Our product meets the f the fashion uh trends of the market. And yes. It is cus spongy also. So they can play with it, it's quite good. So then I think, maybe I can give it two.\"\n\nPast Dialogue Turns:\nAE_ID ES2005d.D.argumentstructs.Erik.3 (Index: 7, Speaker: D): \"Tha three or four, I'm not sure. Three. Go for three. That's fine.\"\nAE_ID ES2005d.B.argumentstructs.Erik.3 (Index: 8, Speaker: B): \"Okay. Yeah.\"\nAE_ID ES2005d.A.argumentstructs.Erik.4 (Index: 9, Speaker: A): \"'Kay. As far as the uh technology it its' got the latest trends in speech technology, but it's missing the screen, as we said, um but it does have the push-buttons, or the scroll-buttons, um but it doesn't have that fancy solar power or the the vibrating energy mechanism. So I give it a a four. I'd give it a kinda middle of the road for for technology.\"\nAE_ID ES2005d.C.argumentstructs.Erik.2 (Index: 10, Speaker: C): \"Yeah, I am sort of pret uh   Just the fruit does me in, I mean uh it might it might be trendy to some, but I'm just not swallowing the fruit, so um   Uh also uh I would have liked to have seen the L_C_D_ screen in it. Um so yeah I'd say about four as well.\"\nAE_ID ES2005d.B.argumentstructs.Erik.4 (Index: 11, Speaker: B): \"Okay. Uh personally I wi uh I think that in terms of trends, these products are quite good, like, these products are in fruit shape, because that wha people now  our fashion trend shows that people like everything  all f everything that is being advertised, like clothes, shoes, and everything is being advertised in the form of fruits and vegetables, or getting them  or showing some association with them.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2005d.B.argumentstructs.Erik.4",
+            "ans": "ES2005d.B.argumentstructs.Erik.4",
+            "judgement": true
+        }
+    ]
+}

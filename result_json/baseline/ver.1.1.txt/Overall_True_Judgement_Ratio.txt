@@ -1,0 +1,8 @@
+Model: gpt-4o-mini
+Method: baseline
+Prompt: ver.1.1.txt
+Count: 50
+Overall True Judgement Ratio: 53.82%
+Time: 1087.68 seconds
+Total cost: $0.07255
+Recent Turns: 5

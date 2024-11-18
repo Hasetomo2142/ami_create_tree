@@ -1,0 +1,2955 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2004c-ES2004c - Battery options.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "ver.1.1.txt",
+    "rate": 0.6764705882352942,
+    "total_node_count": 52,
+    "removed_node_count": 17,
+    "removed_node_list": [
+        {
+            "index": 0,
+            "ae_id": "ES2004c.C.argumentstructs.18",
+            "speaker": "C",
+            "start_time": 452.66,
+            "end_time": 474.86,
+            "sentence": "Um, findings, I've got my nice little picture there. This is uh the chip called the T_A_ double one eight three five which is what's used in pretty much every remote control 'cause it sends out standard signals, based on your input and um it's pretty much used for all all T_V_ remotes at the moment.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 4,
+            "ae_id": "ES2004c.B.argumentstructs.16",
+            "speaker": "B",
+            "start_time": 497.45,
+            "end_time": 497.99,
+            "sentence": "Wa",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 8,
+            "ae_id": "ES2004c.C.argumentstructs.19",
+            "speaker": "C",
+            "start_time": 508.76,
+            "end_time": 509.16,
+            "sentence": "You",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 10,
+            "ae_id": "ES2004c.B.argumentstructs.17",
+            "speaker": "B",
+            "start_time": 512.23,
+            "end_time": 512.55,
+            "sentence": "Or",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 16,
+            "ae_id": "ES2004c.C.argumentstructs.20",
+            "speaker": "C",
+            "start_time": 536.91,
+            "end_time": 539.1,
+            "sentence": "Is it ? Alright i",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 18,
+            "ae_id": "ES2004c.B.argumentstructs.18",
+            "speaker": "B",
+            "start_time": 539.61,
+            "end_time": 540.83,
+            "sentence": "Any, any",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 24,
+            "ae_id": "ES2004c.D.argumentstructs.10",
+            "speaker": "D",
+            "start_time": 560.34,
+            "end_time": 560.68,
+            "sentence": "Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 27,
+            "ae_id": "ES2004c.D.argumentstructs.11",
+            "speaker": "D",
+            "start_time": 571.17,
+            "end_time": 685.04,
+            "sentence": "I know, different parts of the world too, if we're if we're marketing internationally. Mm-hmm. Hmm. Mm-hmm. Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 28,
+            "ae_id": "ES2004c.A.argumentstructs.10",
+            "speaker": "A",
+            "start_time": 571.57,
+            "end_time": 571.74,
+            "sentence": "Uh",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 29,
+            "ae_id": "ES2004c.C.argumentstructs.21",
+            "speaker": "C",
+            "start_time": 571.73,
+            "end_time": 571.93,
+            "sentence": "But",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 32,
+            "ae_id": "ES2004c.A.argumentstructs.11",
+            "speaker": "A",
+            "start_time": 579.56,
+            "end_time": 580.19,
+            "sentence": "Night.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 36,
+            "ae_id": "ES2004c.B.argumentstructs.19",
+            "speaker": "B",
+            "start_time": 595.4,
+            "end_time": 596.24,
+            "sentence": "Yeah I've seen",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 39,
+            "ae_id": "ES2004c.A.argumentstructs.12",
+            "speaker": "A",
+            "start_time": 620.36,
+            "end_time": 620.61,
+            "sentence": "Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 42,
+            "ae_id": "ES2004c.A.argumentstructs.13",
+            "speaker": "A",
+            "start_time": 640.27,
+            "end_time": 640.66,
+            "sentence": "We c",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 44,
+            "ae_id": "ES2004c.C.argumentstructs.22",
+            "speaker": "C",
+            "start_time": 649.9,
+            "end_time": 651.28,
+            "sentence": "Yeah and",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 47,
+            "ae_id": "ES2004c.B.argumentstructs.20",
+            "speaker": "B",
+            "start_time": 684.92,
+            "end_time": 685.39,
+            "sentence": "Okay.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 49,
+            "ae_id": "ES2004c.C.argumentstructs.23",
+            "speaker": "C",
+            "start_time": 688.53,
+            "end_time": 689.05,
+            "sentence": "Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2004c.B.argumentstructs.Erik.1",
+                "speaker": "B",
+                "start_time": 472.18,
+                "end_time": 472.33,
+                "sentence": "'Kay.",
+                "source": "ES2004c.C.argumentstructs.Erik.1",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "ES2004c.C.argumentstructs.Erik.1",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2004c.C.argumentstructs.Erik.1",
+                "speaker": "C",
+                "start_time": 474.86,
+                "end_time": 478.53,
+                "sentence": "Um and then we we're loo looking into battery options.",
+                "source": "NONE",
+                "targets": [
+                    "ES2004c.B.argumentstructs.Erik.1",
+                    "ES2004c.C.argumentstructs.Erik.2",
+                    "ES2004c.C.argumentstructs.Erik.9",
+                    "ES2004c.D.argumentstructs.Erik.4"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 472.18,
+                    "end_time": 472.33,
+                    "sentence": "'Kay.",
+                    "source": "ES2004c.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 1):\n- AE_ID: ES2004c.C.argumentstructs.Erik.1\n- Speaker: C\n- Sentence: \"Um and then we we're loo looking into battery options.\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.B.argumentstructs.Erik.1 (Index: 0, Speaker: B): \"'Kay.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.B.argumentstructs.Erik.1",
+            "ans": "NONE",
+            "judgement": false
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 2,
+                "ae_id": "ES2004c.C.argumentstructs.Erik.2",
+                "speaker": "C",
+                "start_time": 479.86,
+                "end_time": 507.024,
+                "sentence": "There's um actually no rechargeable option available, so we  I saw the um the standard double A_ and triple A_ which we thought were a bit bit too bulky at the moment, dynamo charging, I thought that that might be a bit silly to be to be honest, people won't  it's it's basically like wind-up radio. So you wind up your remote control before you use it. It might",
+                "source": "ES2004c.C.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2004c.B.argumentstructs.Erik.2",
+                    "ES2004c.C.argumentstructs.Erik.4",
+                    "ES2004c.A.argumentstructs.Erik.2"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 472.18,
+                    "end_time": 472.33,
+                    "sentence": "'Kay.",
+                    "source": "ES2004c.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 474.86,
+                    "end_time": 478.53,
+                    "sentence": "Um and then we we're loo looking into battery options.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.1",
+                        "ES2004c.C.argumentstructs.Erik.2",
+                        "ES2004c.C.argumentstructs.Erik.9",
+                        "ES2004c.D.argumentstructs.Erik.4"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 2):\n- AE_ID: ES2004c.C.argumentstructs.Erik.2\n- Speaker: C\n- Sentence: \"There's um actually no rechargeable option available, so we  I saw the um the standard double A_ and triple A_ which we thought were a bit bit too bulky at the moment, dynamo charging, I thought that that might be a bit silly to be to be honest, people won't  it's it's basically like wind-up radio. So you wind up your remote control before you use it. It might\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.B.argumentstructs.Erik.1 (Index: 0, Speaker: B): \"'Kay.\"\nAE_ID ES2004c.C.argumentstructs.Erik.1 (Index: 1, Speaker: C): \"Um and then we we're loo looking into battery options.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.C.argumentstructs.Erik.1",
+            "ans": "ES2004c.C.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 3,
+                "ae_id": "ES2004c.B.argumentstructs.Erik.2",
+                "speaker": "B",
+                "start_time": 497.99,
+                "end_time": 498.86,
+                "sentence": "can you explain that ?",
+                "source": "ES2004c.C.argumentstructs.Erik.2",
+                "targets": [
+                    "ES2004c.B.argumentstructs.Erik.3"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 472.18,
+                    "end_time": 472.33,
+                    "sentence": "'Kay.",
+                    "source": "ES2004c.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 474.86,
+                    "end_time": 478.53,
+                    "sentence": "Um and then we we're loo looking into battery options.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.1",
+                        "ES2004c.C.argumentstructs.Erik.2",
+                        "ES2004c.C.argumentstructs.Erik.9",
+                        "ES2004c.D.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 479.86,
+                    "end_time": 507.024,
+                    "sentence": "There's um actually no rechargeable option available, so we  I saw the um the standard double A_ and triple A_ which we thought were a bit bit too bulky at the moment, dynamo charging, I thought that that might be a bit silly to be to be honest, people won't  it's it's basically like wind-up radio. So you wind up your remote control before you use it. It might",
+                    "source": "ES2004c.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.2",
+                        "ES2004c.C.argumentstructs.Erik.4",
+                        "ES2004c.A.argumentstructs.Erik.2"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 3):\n- AE_ID: ES2004c.B.argumentstructs.Erik.2\n- Speaker: B\n- Sentence: \"can you explain that ?\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.B.argumentstructs.Erik.1 (Index: 0, Speaker: B): \"'Kay.\"\nAE_ID ES2004c.C.argumentstructs.Erik.1 (Index: 1, Speaker: C): \"Um and then we we're loo looking into battery options.\"\nAE_ID ES2004c.C.argumentstructs.Erik.2 (Index: 2, Speaker: C): \"There's um actually no rechargeable option available, so we  I saw the um the standard double A_ and triple A_ which we thought were a bit bit too bulky at the moment, dynamo charging, I thought that that might be a bit silly to be to be honest, people won't  it's it's basically like wind-up radio. So you wind up your remote control before you use it. It might\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.C.argumentstructs.Erik.2",
+            "ans": "ES2004c.C.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 4,
+                "ae_id": "ES2004c.B.argumentstructs.Erik.3",
+                "speaker": "B",
+                "start_time": 500.12,
+                "end_time": 502.6,
+                "sentence": "Like a  right, okay.",
+                "source": "ES2004c.B.argumentstructs.Erik.2",
+                "targets": [
+                    "ES2004c.B.argumentstructs.Erik.4"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 472.18,
+                    "end_time": 472.33,
+                    "sentence": "'Kay.",
+                    "source": "ES2004c.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 474.86,
+                    "end_time": 478.53,
+                    "sentence": "Um and then we we're loo looking into battery options.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.1",
+                        "ES2004c.C.argumentstructs.Erik.2",
+                        "ES2004c.C.argumentstructs.Erik.9",
+                        "ES2004c.D.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 479.86,
+                    "end_time": 507.024,
+                    "sentence": "There's um actually no rechargeable option available, so we  I saw the um the standard double A_ and triple A_ which we thought were a bit bit too bulky at the moment, dynamo charging, I thought that that might be a bit silly to be to be honest, people won't  it's it's basically like wind-up radio. So you wind up your remote control before you use it. It might",
+                    "source": "ES2004c.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.2",
+                        "ES2004c.C.argumentstructs.Erik.4",
+                        "ES2004c.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 497.99,
+                    "end_time": 498.86,
+                    "sentence": "can you explain that ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.3"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 4):\n- AE_ID: ES2004c.B.argumentstructs.Erik.3\n- Speaker: B\n- Sentence: \"Like a  right, okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.B.argumentstructs.Erik.1 (Index: 0, Speaker: B): \"'Kay.\"\nAE_ID ES2004c.C.argumentstructs.Erik.1 (Index: 1, Speaker: C): \"Um and then we we're loo looking into battery options.\"\nAE_ID ES2004c.C.argumentstructs.Erik.2 (Index: 2, Speaker: C): \"There's um actually no rechargeable option available, so we  I saw the um the standard double A_ and triple A_ which we thought were a bit bit too bulky at the moment, dynamo charging, I thought that that might be a bit silly to be to be honest, people won't  it's it's basically like wind-up radio. So you wind up your remote control before you use it. It might\"\nAE_ID ES2004c.B.argumentstructs.Erik.2 (Index: 3, Speaker: B): \"can you explain that ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.B.argumentstructs.Erik.2",
+            "ans": "ES2004c.B.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 5,
+                "ae_id": "ES2004c.B.argumentstructs.Erik.4",
+                "speaker": "B",
+                "start_time": 504.94,
+                "end_time": 512.23,
+                "sentence": "How   what kind of  how l long can you get out of that, I mean can you pick it up and then wind it for two minutes and then that's it for the night ?",
+                "source": "ES2004c.B.argumentstructs.Erik.3",
+                "targets": [
+                    "ES2004c.C.argumentstructs.Erik.3"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 472.18,
+                    "end_time": 472.33,
+                    "sentence": "'Kay.",
+                    "source": "ES2004c.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 474.86,
+                    "end_time": 478.53,
+                    "sentence": "Um and then we we're loo looking into battery options.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.1",
+                        "ES2004c.C.argumentstructs.Erik.2",
+                        "ES2004c.C.argumentstructs.Erik.9",
+                        "ES2004c.D.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 479.86,
+                    "end_time": 507.024,
+                    "sentence": "There's um actually no rechargeable option available, so we  I saw the um the standard double A_ and triple A_ which we thought were a bit bit too bulky at the moment, dynamo charging, I thought that that might be a bit silly to be to be honest, people won't  it's it's basically like wind-up radio. So you wind up your remote control before you use it. It might",
+                    "source": "ES2004c.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.2",
+                        "ES2004c.C.argumentstructs.Erik.4",
+                        "ES2004c.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 497.99,
+                    "end_time": 498.86,
+                    "sentence": "can you explain that ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 500.12,
+                    "end_time": 502.6,
+                    "sentence": "Like a  right, okay.",
+                    "source": "ES2004c.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.4"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 5):\n- AE_ID: ES2004c.B.argumentstructs.Erik.4\n- Speaker: B\n- Sentence: \"How   what kind of  how l long can you get out of that, I mean can you pick it up and then wind it for two minutes and then that's it for the night ?\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.B.argumentstructs.Erik.1 (Index: 0, Speaker: B): \"'Kay.\"\nAE_ID ES2004c.C.argumentstructs.Erik.1 (Index: 1, Speaker: C): \"Um and then we we're loo looking into battery options.\"\nAE_ID ES2004c.C.argumentstructs.Erik.2 (Index: 2, Speaker: C): \"There's um actually no rechargeable option available, so we  I saw the um the standard double A_ and triple A_ which we thought were a bit bit too bulky at the moment, dynamo charging, I thought that that might be a bit silly to be to be honest, people won't  it's it's basically like wind-up radio. So you wind up your remote control before you use it. It might\"\nAE_ID ES2004c.B.argumentstructs.Erik.2 (Index: 3, Speaker: B): \"can you explain that ?\"\nAE_ID ES2004c.B.argumentstructs.Erik.3 (Index: 4, Speaker: B): \"Like a  right, okay.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.C.argumentstructs.Erik.2",
+            "ans": "ES2004c.B.argumentstructs.Erik.3",
+            "judgement": false
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 6,
+                "ae_id": "ES2004c.C.argumentstructs.Erik.3",
+                "speaker": "C",
+                "start_time": 512.15,
+                "end_time": 516.88,
+                "sentence": "Yeah, yeah, oh yeah I presu you wouldn't have to wind it for very long,",
+                "source": "ES2004c.B.argumentstructs.Erik.4",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 474.86,
+                    "end_time": 478.53,
+                    "sentence": "Um and then we we're loo looking into battery options.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.1",
+                        "ES2004c.C.argumentstructs.Erik.2",
+                        "ES2004c.C.argumentstructs.Erik.9",
+                        "ES2004c.D.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 479.86,
+                    "end_time": 507.024,
+                    "sentence": "There's um actually no rechargeable option available, so we  I saw the um the standard double A_ and triple A_ which we thought were a bit bit too bulky at the moment, dynamo charging, I thought that that might be a bit silly to be to be honest, people won't  it's it's basically like wind-up radio. So you wind up your remote control before you use it. It might",
+                    "source": "ES2004c.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.2",
+                        "ES2004c.C.argumentstructs.Erik.4",
+                        "ES2004c.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 497.99,
+                    "end_time": 498.86,
+                    "sentence": "can you explain that ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 500.12,
+                    "end_time": 502.6,
+                    "sentence": "Like a  right, okay.",
+                    "source": "ES2004c.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 504.94,
+                    "end_time": 512.23,
+                    "sentence": "How   what kind of  how l long can you get out of that, I mean can you pick it up and then wind it for two minutes and then that's it for the night ?",
+                    "source": "ES2004c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.3"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 6):\n- AE_ID: ES2004c.C.argumentstructs.Erik.3\n- Speaker: C\n- Sentence: \"Yeah, yeah, oh yeah I presu you wouldn't have to wind it for very long,\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.C.argumentstructs.Erik.1 (Index: 1, Speaker: C): \"Um and then we we're loo looking into battery options.\"\nAE_ID ES2004c.C.argumentstructs.Erik.2 (Index: 2, Speaker: C): \"There's um actually no rechargeable option available, so we  I saw the um the standard double A_ and triple A_ which we thought were a bit bit too bulky at the moment, dynamo charging, I thought that that might be a bit silly to be to be honest, people won't  it's it's basically like wind-up radio. So you wind up your remote control before you use it. It might\"\nAE_ID ES2004c.B.argumentstructs.Erik.2 (Index: 3, Speaker: B): \"can you explain that ?\"\nAE_ID ES2004c.B.argumentstructs.Erik.3 (Index: 4, Speaker: B): \"Like a  right, okay.\"\nAE_ID ES2004c.B.argumentstructs.Erik.4 (Index: 5, Speaker: B): \"How   what kind of  how l long can you get out of that, I mean can you pick it up and then wind it for two minutes and then that's it for the night ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.B.argumentstructs.Erik.4",
+            "ans": "ES2004c.B.argumentstructs.Erik.4",
+            "judgement": true
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 7,
+                "ae_id": "ES2004c.C.argumentstructs.Erik.4",
+                "speaker": "C",
+                "start_time": 516.88,
+                "end_time": 533.17,
+                "sentence": "but I don't I don't think it's really sort of necessary when you th you think of the next two options, like the the solar charging, 'cause most people have the light on in the room anyway so they could get  when when you got T_V_.",
+                "source": "ES2004c.C.argumentstructs.Erik.2",
+                "targets": [
+                    "ES2004c.B.argumentstructs.Erik.5",
+                    "ES2004c.D.argumentstructs.Erik.1"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 2,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 479.86,
+                    "end_time": 507.024,
+                    "sentence": "There's um actually no rechargeable option available, so we  I saw the um the standard double A_ and triple A_ which we thought were a bit bit too bulky at the moment, dynamo charging, I thought that that might be a bit silly to be to be honest, people won't  it's it's basically like wind-up radio. So you wind up your remote control before you use it. It might",
+                    "source": "ES2004c.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.2",
+                        "ES2004c.C.argumentstructs.Erik.4",
+                        "ES2004c.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 497.99,
+                    "end_time": 498.86,
+                    "sentence": "can you explain that ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 500.12,
+                    "end_time": 502.6,
+                    "sentence": "Like a  right, okay.",
+                    "source": "ES2004c.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 504.94,
+                    "end_time": 512.23,
+                    "sentence": "How   what kind of  how l long can you get out of that, I mean can you pick it up and then wind it for two minutes and then that's it for the night ?",
+                    "source": "ES2004c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 512.15,
+                    "end_time": 516.88,
+                    "sentence": "Yeah, yeah, oh yeah I presu you wouldn't have to wind it for very long,",
+                    "source": "ES2004c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 7):\n- AE_ID: ES2004c.C.argumentstructs.Erik.4\n- Speaker: C\n- Sentence: \"but I don't I don't think it's really sort of necessary when you th you think of the next two options, like the the solar charging, 'cause most people have the light on in the room anyway so they could get  when when you got T_V_.\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.C.argumentstructs.Erik.2 (Index: 2, Speaker: C): \"There's um actually no rechargeable option available, so we  I saw the um the standard double A_ and triple A_ which we thought were a bit bit too bulky at the moment, dynamo charging, I thought that that might be a bit silly to be to be honest, people won't  it's it's basically like wind-up radio. So you wind up your remote control before you use it. It might\"\nAE_ID ES2004c.B.argumentstructs.Erik.2 (Index: 3, Speaker: B): \"can you explain that ?\"\nAE_ID ES2004c.B.argumentstructs.Erik.3 (Index: 4, Speaker: B): \"Like a  right, okay.\"\nAE_ID ES2004c.B.argumentstructs.Erik.4 (Index: 5, Speaker: B): \"How   what kind of  how l long can you get out of that, I mean can you pick it up and then wind it for two minutes and then that's it for the night ?\"\nAE_ID ES2004c.C.argumentstructs.Erik.3 (Index: 6, Speaker: C): \"Yeah, yeah, oh yeah I presu you wouldn't have to wind it for very long,\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.C.argumentstructs.Erik.2",
+            "ans": "ES2004c.C.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 8,
+                "ae_id": "ES2004c.B.argumentstructs.Erik.5",
+                "speaker": "B",
+                "start_time": 531.46,
+                "end_time": 532.94,
+                "sentence": "That doesn't count though does it ?",
+                "source": "ES2004c.C.argumentstructs.Erik.4",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 3,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 497.99,
+                    "end_time": 498.86,
+                    "sentence": "can you explain that ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 500.12,
+                    "end_time": 502.6,
+                    "sentence": "Like a  right, okay.",
+                    "source": "ES2004c.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 504.94,
+                    "end_time": 512.23,
+                    "sentence": "How   what kind of  how l long can you get out of that, I mean can you pick it up and then wind it for two minutes and then that's it for the night ?",
+                    "source": "ES2004c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 512.15,
+                    "end_time": 516.88,
+                    "sentence": "Yeah, yeah, oh yeah I presu you wouldn't have to wind it for very long,",
+                    "source": "ES2004c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.4",
+                    "speaker": "C",
+                    "start_time": 516.88,
+                    "end_time": 533.17,
+                    "sentence": "but I don't I don't think it's really sort of necessary when you th you think of the next two options, like the the solar charging, 'cause most people have the light on in the room anyway so they could get  when when you got T_V_.",
+                    "source": "ES2004c.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.5",
+                        "ES2004c.D.argumentstructs.Erik.1"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 8):\n- AE_ID: ES2004c.B.argumentstructs.Erik.5\n- Speaker: B\n- Sentence: \"That doesn't count though does it ?\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.B.argumentstructs.Erik.2 (Index: 3, Speaker: B): \"can you explain that ?\"\nAE_ID ES2004c.B.argumentstructs.Erik.3 (Index: 4, Speaker: B): \"Like a  right, okay.\"\nAE_ID ES2004c.B.argumentstructs.Erik.4 (Index: 5, Speaker: B): \"How   what kind of  how l long can you get out of that, I mean can you pick it up and then wind it for two minutes and then that's it for the night ?\"\nAE_ID ES2004c.C.argumentstructs.Erik.3 (Index: 6, Speaker: C): \"Yeah, yeah, oh yeah I presu you wouldn't have to wind it for very long,\"\nAE_ID ES2004c.C.argumentstructs.Erik.4 (Index: 7, Speaker: C): \"but I don't I don't think it's really sort of necessary when you th you think of the next two options, like the the solar charging, 'cause most people have the light on in the room anyway so they could get  when when you got T_V_.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.C.argumentstructs.Erik.4",
+            "ans": "ES2004c.C.argumentstructs.Erik.4",
+            "judgement": true
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 9,
+                "ae_id": "ES2004c.D.argumentstructs.Erik.1",
+                "speaker": "D",
+                "start_time": 532.32,
+                "end_time": 535.71,
+                "sentence": "Does does light charge as as sunlight does ? Artificial light ?",
+                "source": "ES2004c.C.argumentstructs.Erik.4",
+                "targets": [
+                    "ES2004c.B.argumentstructs.Erik.6",
+                    "ES2004c.C.argumentstructs.Erik.5",
+                    "ES2004c.B.argumentstructs.Erik.7"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 4,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 500.12,
+                    "end_time": 502.6,
+                    "sentence": "Like a  right, okay.",
+                    "source": "ES2004c.B.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 504.94,
+                    "end_time": 512.23,
+                    "sentence": "How   what kind of  how l long can you get out of that, I mean can you pick it up and then wind it for two minutes and then that's it for the night ?",
+                    "source": "ES2004c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 512.15,
+                    "end_time": 516.88,
+                    "sentence": "Yeah, yeah, oh yeah I presu you wouldn't have to wind it for very long,",
+                    "source": "ES2004c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.4",
+                    "speaker": "C",
+                    "start_time": 516.88,
+                    "end_time": 533.17,
+                    "sentence": "but I don't I don't think it's really sort of necessary when you th you think of the next two options, like the the solar charging, 'cause most people have the light on in the room anyway so they could get  when when you got T_V_.",
+                    "source": "ES2004c.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.5",
+                        "ES2004c.D.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 531.46,
+                    "end_time": 532.94,
+                    "sentence": "That doesn't count though does it ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 9):\n- AE_ID: ES2004c.D.argumentstructs.Erik.1\n- Speaker: D\n- Sentence: \"Does does light charge as as sunlight does ? Artificial light ?\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.B.argumentstructs.Erik.3 (Index: 4, Speaker: B): \"Like a  right, okay.\"\nAE_ID ES2004c.B.argumentstructs.Erik.4 (Index: 5, Speaker: B): \"How   what kind of  how l long can you get out of that, I mean can you pick it up and then wind it for two minutes and then that's it for the night ?\"\nAE_ID ES2004c.C.argumentstructs.Erik.3 (Index: 6, Speaker: C): \"Yeah, yeah, oh yeah I presu you wouldn't have to wind it for very long,\"\nAE_ID ES2004c.C.argumentstructs.Erik.4 (Index: 7, Speaker: C): \"but I don't I don't think it's really sort of necessary when you th you think of the next two options, like the the solar charging, 'cause most people have the light on in the room anyway so they could get  when when you got T_V_.\"\nAE_ID ES2004c.B.argumentstructs.Erik.5 (Index: 8, Speaker: B): \"That doesn't count though does it ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.B.argumentstructs.Erik.5",
+            "ans": "ES2004c.C.argumentstructs.Erik.4",
+            "judgement": false
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 10,
+                "ae_id": "ES2004c.B.argumentstructs.Erik.6",
+                "speaker": "B",
+                "start_time": 533.78,
+                "end_time": 537.905,
+                "sentence": "I thought it was U_V_ like",
+                "source": "ES2004c.D.argumentstructs.Erik.1",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 5,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 504.94,
+                    "end_time": 512.23,
+                    "sentence": "How   what kind of  how l long can you get out of that, I mean can you pick it up and then wind it for two minutes and then that's it for the night ?",
+                    "source": "ES2004c.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 512.15,
+                    "end_time": 516.88,
+                    "sentence": "Yeah, yeah, oh yeah I presu you wouldn't have to wind it for very long,",
+                    "source": "ES2004c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.4",
+                    "speaker": "C",
+                    "start_time": 516.88,
+                    "end_time": 533.17,
+                    "sentence": "but I don't I don't think it's really sort of necessary when you th you think of the next two options, like the the solar charging, 'cause most people have the light on in the room anyway so they could get  when when you got T_V_.",
+                    "source": "ES2004c.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.5",
+                        "ES2004c.D.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 531.46,
+                    "end_time": 532.94,
+                    "sentence": "That doesn't count though does it ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2004c.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 532.32,
+                    "end_time": 535.71,
+                    "sentence": "Does does light charge as as sunlight does ? Artificial light ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.6",
+                        "ES2004c.C.argumentstructs.Erik.5",
+                        "ES2004c.B.argumentstructs.Erik.7"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 10):\n- AE_ID: ES2004c.B.argumentstructs.Erik.6\n- Speaker: B\n- Sentence: \"I thought it was U_V_ like\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.B.argumentstructs.Erik.4 (Index: 5, Speaker: B): \"How   what kind of  how l long can you get out of that, I mean can you pick it up and then wind it for two minutes and then that's it for the night ?\"\nAE_ID ES2004c.C.argumentstructs.Erik.3 (Index: 6, Speaker: C): \"Yeah, yeah, oh yeah I presu you wouldn't have to wind it for very long,\"\nAE_ID ES2004c.C.argumentstructs.Erik.4 (Index: 7, Speaker: C): \"but I don't I don't think it's really sort of necessary when you th you think of the next two options, like the the solar charging, 'cause most people have the light on in the room anyway so they could get  when when you got T_V_.\"\nAE_ID ES2004c.B.argumentstructs.Erik.5 (Index: 8, Speaker: B): \"That doesn't count though does it ?\"\nAE_ID ES2004c.D.argumentstructs.Erik.1 (Index: 9, Speaker: D): \"Does does light charge as as sunlight does ? Artificial light ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.D.argumentstructs.Erik.1",
+            "ans": "ES2004c.D.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 11,
+                "ae_id": "ES2004c.C.argumentstructs.Erik.5",
+                "speaker": "C",
+                "start_time": 535.19,
+                "end_time": 535.53,
+                "sentence": "No.",
+                "source": "ES2004c.D.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2004c.D.argumentstructs.Erik.2"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 6,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.3",
+                    "speaker": "C",
+                    "start_time": 512.15,
+                    "end_time": 516.88,
+                    "sentence": "Yeah, yeah, oh yeah I presu you wouldn't have to wind it for very long,",
+                    "source": "ES2004c.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.4",
+                    "speaker": "C",
+                    "start_time": 516.88,
+                    "end_time": 533.17,
+                    "sentence": "but I don't I don't think it's really sort of necessary when you th you think of the next two options, like the the solar charging, 'cause most people have the light on in the room anyway so they could get  when when you got T_V_.",
+                    "source": "ES2004c.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.5",
+                        "ES2004c.D.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 531.46,
+                    "end_time": 532.94,
+                    "sentence": "That doesn't count though does it ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2004c.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 532.32,
+                    "end_time": 535.71,
+                    "sentence": "Does does light charge as as sunlight does ? Artificial light ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.6",
+                        "ES2004c.C.argumentstructs.Erik.5",
+                        "ES2004c.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 533.78,
+                    "end_time": 537.905,
+                    "sentence": "I thought it was U_V_ like",
+                    "source": "ES2004c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 11):\n- AE_ID: ES2004c.C.argumentstructs.Erik.5\n- Speaker: C\n- Sentence: \"No.\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.C.argumentstructs.Erik.3 (Index: 6, Speaker: C): \"Yeah, yeah, oh yeah I presu you wouldn't have to wind it for very long,\"\nAE_ID ES2004c.C.argumentstructs.Erik.4 (Index: 7, Speaker: C): \"but I don't I don't think it's really sort of necessary when you th you think of the next two options, like the the solar charging, 'cause most people have the light on in the room anyway so they could get  when when you got T_V_.\"\nAE_ID ES2004c.B.argumentstructs.Erik.5 (Index: 8, Speaker: B): \"That doesn't count though does it ?\"\nAE_ID ES2004c.D.argumentstructs.Erik.1 (Index: 9, Speaker: D): \"Does does light charge as as sunlight does ? Artificial light ?\"\nAE_ID ES2004c.B.argumentstructs.Erik.6 (Index: 10, Speaker: B): \"I thought it was U_V_ like\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.B.argumentstructs.Erik.5",
+            "ans": "ES2004c.D.argumentstructs.Erik.1",
+            "judgement": false
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 12,
+                "ae_id": "ES2004c.D.argumentstructs.Erik.2",
+                "speaker": "D",
+                "start_time": 539.17,
+                "end_time": 539.99,
+                "sentence": "Has to be solar.",
+                "source": "ES2004c.C.argumentstructs.Erik.5",
+                "targets": [
+                    "ES2004c.A.argumentstructs.Erik.1"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 7,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.4",
+                    "speaker": "C",
+                    "start_time": 516.88,
+                    "end_time": 533.17,
+                    "sentence": "but I don't I don't think it's really sort of necessary when you th you think of the next two options, like the the solar charging, 'cause most people have the light on in the room anyway so they could get  when when you got T_V_.",
+                    "source": "ES2004c.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.5",
+                        "ES2004c.D.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 531.46,
+                    "end_time": 532.94,
+                    "sentence": "That doesn't count though does it ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2004c.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 532.32,
+                    "end_time": 535.71,
+                    "sentence": "Does does light charge as as sunlight does ? Artificial light ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.6",
+                        "ES2004c.C.argumentstructs.Erik.5",
+                        "ES2004c.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 533.78,
+                    "end_time": 537.905,
+                    "sentence": "I thought it was U_V_ like",
+                    "source": "ES2004c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.5",
+                    "speaker": "C",
+                    "start_time": 535.19,
+                    "end_time": 535.53,
+                    "sentence": "No.",
+                    "source": "ES2004c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004c.D.argumentstructs.Erik.2"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 12):\n- AE_ID: ES2004c.D.argumentstructs.Erik.2\n- Speaker: D\n- Sentence: \"Has to be solar.\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.C.argumentstructs.Erik.4 (Index: 7, Speaker: C): \"but I don't I don't think it's really sort of necessary when you th you think of the next two options, like the the solar charging, 'cause most people have the light on in the room anyway so they could get  when when you got T_V_.\"\nAE_ID ES2004c.B.argumentstructs.Erik.5 (Index: 8, Speaker: B): \"That doesn't count though does it ?\"\nAE_ID ES2004c.D.argumentstructs.Erik.1 (Index: 9, Speaker: D): \"Does does light charge as as sunlight does ? Artificial light ?\"\nAE_ID ES2004c.B.argumentstructs.Erik.6 (Index: 10, Speaker: B): \"I thought it was U_V_ like\"\nAE_ID ES2004c.C.argumentstructs.Erik.5 (Index: 11, Speaker: C): \"No.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.D.argumentstructs.Erik.1",
+            "ans": "ES2004c.C.argumentstructs.Erik.5",
+            "judgement": false
+        },
+        {
+            "turn_number": 13,
+            "current_node": {
+                "index": 13,
+                "ae_id": "ES2004c.A.argumentstructs.Erik.1",
+                "speaker": "A",
+                "start_time": 540.57,
+                "end_time": 540.83,
+                "sentence": "Yep.",
+                "source": "ES2004c.D.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 8,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 531.46,
+                    "end_time": 532.94,
+                    "sentence": "That doesn't count though does it ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2004c.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 532.32,
+                    "end_time": 535.71,
+                    "sentence": "Does does light charge as as sunlight does ? Artificial light ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.6",
+                        "ES2004c.C.argumentstructs.Erik.5",
+                        "ES2004c.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 533.78,
+                    "end_time": 537.905,
+                    "sentence": "I thought it was U_V_ like",
+                    "source": "ES2004c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.5",
+                    "speaker": "C",
+                    "start_time": 535.19,
+                    "end_time": 535.53,
+                    "sentence": "No.",
+                    "source": "ES2004c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004c.D.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2004c.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 539.17,
+                    "end_time": 539.99,
+                    "sentence": "Has to be solar.",
+                    "source": "ES2004c.C.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2004c.A.argumentstructs.Erik.1"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 13):\n- AE_ID: ES2004c.A.argumentstructs.Erik.1\n- Speaker: A\n- Sentence: \"Yep.\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.B.argumentstructs.Erik.5 (Index: 8, Speaker: B): \"That doesn't count though does it ?\"\nAE_ID ES2004c.D.argumentstructs.Erik.1 (Index: 9, Speaker: D): \"Does does light charge as as sunlight does ? Artificial light ?\"\nAE_ID ES2004c.B.argumentstructs.Erik.6 (Index: 10, Speaker: B): \"I thought it was U_V_ like\"\nAE_ID ES2004c.C.argumentstructs.Erik.5 (Index: 11, Speaker: C): \"No.\"\nAE_ID ES2004c.D.argumentstructs.Erik.2 (Index: 12, Speaker: D): \"Has to be solar.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.D.argumentstructs.Erik.2",
+            "ans": "ES2004c.D.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 14,
+            "current_node": {
+                "index": 14,
+                "ae_id": "ES2004c.A.argumentstructs.Erik.2",
+                "speaker": "A",
+                "start_time": 540.83,
+                "end_time": 552.17,
+                "sentence": "Regarding those sizes, which one you think will be light because we we have to take into consideration size also, so maybe a standard triple A_ might take lesser space or  and dynamo might take more space.",
+                "source": "ES2004c.C.argumentstructs.Erik.2",
+                "targets": [
+                    "ES2004c.C.argumentstructs.Erik.6"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 9,
+                    "ae_id": "ES2004c.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 532.32,
+                    "end_time": 535.71,
+                    "sentence": "Does does light charge as as sunlight does ? Artificial light ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.6",
+                        "ES2004c.C.argumentstructs.Erik.5",
+                        "ES2004c.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 533.78,
+                    "end_time": 537.905,
+                    "sentence": "I thought it was U_V_ like",
+                    "source": "ES2004c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.5",
+                    "speaker": "C",
+                    "start_time": 535.19,
+                    "end_time": 535.53,
+                    "sentence": "No.",
+                    "source": "ES2004c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004c.D.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2004c.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 539.17,
+                    "end_time": 539.99,
+                    "sentence": "Has to be solar.",
+                    "source": "ES2004c.C.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2004c.A.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 540.57,
+                    "end_time": 540.83,
+                    "sentence": "Yep.",
+                    "source": "ES2004c.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 14):\n- AE_ID: ES2004c.A.argumentstructs.Erik.2\n- Speaker: A\n- Sentence: \"Regarding those sizes, which one you think will be light because we we have to take into consideration size also, so maybe a standard triple A_ might take lesser space or  and dynamo might take more space.\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.D.argumentstructs.Erik.1 (Index: 9, Speaker: D): \"Does does light charge as as sunlight does ? Artificial light ?\"\nAE_ID ES2004c.B.argumentstructs.Erik.6 (Index: 10, Speaker: B): \"I thought it was U_V_ like\"\nAE_ID ES2004c.C.argumentstructs.Erik.5 (Index: 11, Speaker: C): \"No.\"\nAE_ID ES2004c.D.argumentstructs.Erik.2 (Index: 12, Speaker: D): \"Has to be solar.\"\nAE_ID ES2004c.A.argumentstructs.Erik.1 (Index: 13, Speaker: A): \"Yep.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.A.argumentstructs.Erik.1",
+            "ans": "ES2004c.C.argumentstructs.Erik.2",
+            "judgement": false
+        },
+        {
+            "turn_number": 15,
+            "current_node": {
+                "index": 15,
+                "ae_id": "ES2004c.C.argumentstructs.Erik.6",
+                "speaker": "C",
+                "start_time": 551.03,
+                "end_time": 557.25,
+                "sentence": "Yeah it would the d yeah the dynamo would take more space 'cause you actually need a physical sort of handle to wind up.",
+                "source": "ES2004c.A.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 10,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 533.78,
+                    "end_time": 537.905,
+                    "sentence": "I thought it was U_V_ like",
+                    "source": "ES2004c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.5",
+                    "speaker": "C",
+                    "start_time": 535.19,
+                    "end_time": 535.53,
+                    "sentence": "No.",
+                    "source": "ES2004c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004c.D.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2004c.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 539.17,
+                    "end_time": 539.99,
+                    "sentence": "Has to be solar.",
+                    "source": "ES2004c.C.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2004c.A.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 540.57,
+                    "end_time": 540.83,
+                    "sentence": "Yep.",
+                    "source": "ES2004c.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 540.83,
+                    "end_time": 552.17,
+                    "sentence": "Regarding those sizes, which one you think will be light because we we have to take into consideration size also, so maybe a standard triple A_ might take lesser space or  and dynamo might take more space.",
+                    "source": "ES2004c.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.6"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 15):\n- AE_ID: ES2004c.C.argumentstructs.Erik.6\n- Speaker: C\n- Sentence: \"Yeah it would the d yeah the dynamo would take more space 'cause you actually need a physical sort of handle to wind up.\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.B.argumentstructs.Erik.6 (Index: 10, Speaker: B): \"I thought it was U_V_ like\"\nAE_ID ES2004c.C.argumentstructs.Erik.5 (Index: 11, Speaker: C): \"No.\"\nAE_ID ES2004c.D.argumentstructs.Erik.2 (Index: 12, Speaker: D): \"Has to be solar.\"\nAE_ID ES2004c.A.argumentstructs.Erik.1 (Index: 13, Speaker: A): \"Yep.\"\nAE_ID ES2004c.A.argumentstructs.Erik.2 (Index: 14, Speaker: A): \"Regarding those sizes, which one you think will be light because we we have to take into consideration size also, so maybe a standard triple A_ might take lesser space or  and dynamo might take more space.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.A.argumentstructs.Erik.2",
+            "ans": "ES2004c.A.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 16,
+            "current_node": {
+                "index": 16,
+                "ae_id": "ES2004c.B.argumentstructs.Erik.7",
+                "speaker": "B",
+                "start_time": 557.01,
+                "end_time": 559.69,
+                "sentence": "I'm pretty sure that solar is from the sun.",
+                "source": "ES2004c.D.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2004c.C.argumentstructs.Erik.7",
+                    "ES2004c.B.argumentstructs.Erik.8"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 11,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.5",
+                    "speaker": "C",
+                    "start_time": 535.19,
+                    "end_time": 535.53,
+                    "sentence": "No.",
+                    "source": "ES2004c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004c.D.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2004c.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 539.17,
+                    "end_time": 539.99,
+                    "sentence": "Has to be solar.",
+                    "source": "ES2004c.C.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2004c.A.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 540.57,
+                    "end_time": 540.83,
+                    "sentence": "Yep.",
+                    "source": "ES2004c.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 540.83,
+                    "end_time": 552.17,
+                    "sentence": "Regarding those sizes, which one you think will be light because we we have to take into consideration size also, so maybe a standard triple A_ might take lesser space or  and dynamo might take more space.",
+                    "source": "ES2004c.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.6",
+                    "speaker": "C",
+                    "start_time": 551.03,
+                    "end_time": 557.25,
+                    "sentence": "Yeah it would the d yeah the dynamo would take more space 'cause you actually need a physical sort of handle to wind up.",
+                    "source": "ES2004c.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 16):\n- AE_ID: ES2004c.B.argumentstructs.Erik.7\n- Speaker: B\n- Sentence: \"I'm pretty sure that solar is from the sun.\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.C.argumentstructs.Erik.5 (Index: 11, Speaker: C): \"No.\"\nAE_ID ES2004c.D.argumentstructs.Erik.2 (Index: 12, Speaker: D): \"Has to be solar.\"\nAE_ID ES2004c.A.argumentstructs.Erik.1 (Index: 13, Speaker: A): \"Yep.\"\nAE_ID ES2004c.A.argumentstructs.Erik.2 (Index: 14, Speaker: A): \"Regarding those sizes, which one you think will be light because we we have to take into consideration size also, so maybe a standard triple A_ might take lesser space or  and dynamo might take more space.\"\nAE_ID ES2004c.C.argumentstructs.Erik.6 (Index: 15, Speaker: C): \"Yeah it would the d yeah the dynamo would take more space 'cause you actually need a physical sort of handle to wind up.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.D.argumentstructs.Erik.2",
+            "ans": "ES2004c.D.argumentstructs.Erik.1",
+            "judgement": false
+        },
+        {
+            "turn_number": 17,
+            "current_node": {
+                "index": 17,
+                "ae_id": "ES2004c.C.argumentstructs.Erik.7",
+                "speaker": "C",
+                "start_time": 559.77,
+                "end_time": 560.85,
+                "sentence": "Yeah, okay.",
+                "source": "ES2004c.B.argumentstructs.Erik.7",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 12,
+                    "ae_id": "ES2004c.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 539.17,
+                    "end_time": 539.99,
+                    "sentence": "Has to be solar.",
+                    "source": "ES2004c.C.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2004c.A.argumentstructs.Erik.1"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 540.57,
+                    "end_time": 540.83,
+                    "sentence": "Yep.",
+                    "source": "ES2004c.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 540.83,
+                    "end_time": 552.17,
+                    "sentence": "Regarding those sizes, which one you think will be light because we we have to take into consideration size also, so maybe a standard triple A_ might take lesser space or  and dynamo might take more space.",
+                    "source": "ES2004c.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.6",
+                    "speaker": "C",
+                    "start_time": 551.03,
+                    "end_time": 557.25,
+                    "sentence": "Yeah it would the d yeah the dynamo would take more space 'cause you actually need a physical sort of handle to wind up.",
+                    "source": "ES2004c.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 557.01,
+                    "end_time": 559.69,
+                    "sentence": "I'm pretty sure that solar is from the sun.",
+                    "source": "ES2004c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.7",
+                        "ES2004c.B.argumentstructs.Erik.8"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 17):\n- AE_ID: ES2004c.C.argumentstructs.Erik.7\n- Speaker: C\n- Sentence: \"Yeah, okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.D.argumentstructs.Erik.2 (Index: 12, Speaker: D): \"Has to be solar.\"\nAE_ID ES2004c.A.argumentstructs.Erik.1 (Index: 13, Speaker: A): \"Yep.\"\nAE_ID ES2004c.A.argumentstructs.Erik.2 (Index: 14, Speaker: A): \"Regarding those sizes, which one you think will be light because we we have to take into consideration size also, so maybe a standard triple A_ might take lesser space or  and dynamo might take more space.\"\nAE_ID ES2004c.C.argumentstructs.Erik.6 (Index: 15, Speaker: C): \"Yeah it would the d yeah the dynamo would take more space 'cause you actually need a physical sort of handle to wind up.\"\nAE_ID ES2004c.B.argumentstructs.Erik.7 (Index: 16, Speaker: B): \"I'm pretty sure that solar is from the sun.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.B.argumentstructs.Erik.7",
+            "ans": "ES2004c.B.argumentstructs.Erik.7",
+            "judgement": true
+        },
+        {
+            "turn_number": 18,
+            "current_node": {
+                "index": 18,
+                "ae_id": "ES2004c.B.argumentstructs.Erik.8",
+                "speaker": "B",
+                "start_time": 560.54,
+                "end_time": 573.0,
+                "sentence": "Uh, I don't think it counts electric lights no, but I mean not many  you don't want to limit your market. I mean people who live in basement flats there's not that many people, but there are people.",
+                "source": "ES2004c.B.argumentstructs.Erik.7",
+                "targets": [
+                    "ES2004c.D.argumentstructs.Erik.3",
+                    "ES2004c.C.argumentstructs.Erik.8"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 13,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 540.57,
+                    "end_time": 540.83,
+                    "sentence": "Yep.",
+                    "source": "ES2004c.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 540.83,
+                    "end_time": 552.17,
+                    "sentence": "Regarding those sizes, which one you think will be light because we we have to take into consideration size also, so maybe a standard triple A_ might take lesser space or  and dynamo might take more space.",
+                    "source": "ES2004c.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.6",
+                    "speaker": "C",
+                    "start_time": 551.03,
+                    "end_time": 557.25,
+                    "sentence": "Yeah it would the d yeah the dynamo would take more space 'cause you actually need a physical sort of handle to wind up.",
+                    "source": "ES2004c.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 557.01,
+                    "end_time": 559.69,
+                    "sentence": "I'm pretty sure that solar is from the sun.",
+                    "source": "ES2004c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.7",
+                        "ES2004c.B.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.7",
+                    "speaker": "C",
+                    "start_time": 559.77,
+                    "end_time": 560.85,
+                    "sentence": "Yeah, okay.",
+                    "source": "ES2004c.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 18):\n- AE_ID: ES2004c.B.argumentstructs.Erik.8\n- Speaker: B\n- Sentence: \"Uh, I don't think it counts electric lights no, but I mean not many  you don't want to limit your market. I mean people who live in basement flats there's not that many people, but there are people.\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.A.argumentstructs.Erik.1 (Index: 13, Speaker: A): \"Yep.\"\nAE_ID ES2004c.A.argumentstructs.Erik.2 (Index: 14, Speaker: A): \"Regarding those sizes, which one you think will be light because we we have to take into consideration size also, so maybe a standard triple A_ might take lesser space or  and dynamo might take more space.\"\nAE_ID ES2004c.C.argumentstructs.Erik.6 (Index: 15, Speaker: C): \"Yeah it would the d yeah the dynamo would take more space 'cause you actually need a physical sort of handle to wind up.\"\nAE_ID ES2004c.B.argumentstructs.Erik.7 (Index: 16, Speaker: B): \"I'm pretty sure that solar is from the sun.\"\nAE_ID ES2004c.C.argumentstructs.Erik.7 (Index: 17, Speaker: C): \"Yeah, okay.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.C.argumentstructs.Erik.7",
+            "ans": "ES2004c.B.argumentstructs.Erik.7",
+            "judgement": false
+        },
+        {
+            "turn_number": 19,
+            "current_node": {
+                "index": 19,
+                "ae_id": "ES2004c.D.argumentstructs.Erik.3",
+                "speaker": "D",
+                "start_time": 561.91,
+                "end_time": 563.03,
+                "sentence": "Artificial light, no.",
+                "source": "ES2004c.B.argumentstructs.Erik.8",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 14,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 540.83,
+                    "end_time": 552.17,
+                    "sentence": "Regarding those sizes, which one you think will be light because we we have to take into consideration size also, so maybe a standard triple A_ might take lesser space or  and dynamo might take more space.",
+                    "source": "ES2004c.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.6",
+                    "speaker": "C",
+                    "start_time": 551.03,
+                    "end_time": 557.25,
+                    "sentence": "Yeah it would the d yeah the dynamo would take more space 'cause you actually need a physical sort of handle to wind up.",
+                    "source": "ES2004c.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 557.01,
+                    "end_time": 559.69,
+                    "sentence": "I'm pretty sure that solar is from the sun.",
+                    "source": "ES2004c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.7",
+                        "ES2004c.B.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.7",
+                    "speaker": "C",
+                    "start_time": 559.77,
+                    "end_time": 560.85,
+                    "sentence": "Yeah, okay.",
+                    "source": "ES2004c.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.8",
+                    "speaker": "B",
+                    "start_time": 560.54,
+                    "end_time": 573.0,
+                    "sentence": "Uh, I don't think it counts electric lights no, but I mean not many  you don't want to limit your market. I mean people who live in basement flats there's not that many people, but there are people.",
+                    "source": "ES2004c.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2004c.D.argumentstructs.Erik.3",
+                        "ES2004c.C.argumentstructs.Erik.8"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 19):\n- AE_ID: ES2004c.D.argumentstructs.Erik.3\n- Speaker: D\n- Sentence: \"Artificial light, no.\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.A.argumentstructs.Erik.2 (Index: 14, Speaker: A): \"Regarding those sizes, which one you think will be light because we we have to take into consideration size also, so maybe a standard triple A_ might take lesser space or  and dynamo might take more space.\"\nAE_ID ES2004c.C.argumentstructs.Erik.6 (Index: 15, Speaker: C): \"Yeah it would the d yeah the dynamo would take more space 'cause you actually need a physical sort of handle to wind up.\"\nAE_ID ES2004c.B.argumentstructs.Erik.7 (Index: 16, Speaker: B): \"I'm pretty sure that solar is from the sun.\"\nAE_ID ES2004c.C.argumentstructs.Erik.7 (Index: 17, Speaker: C): \"Yeah, okay.\"\nAE_ID ES2004c.B.argumentstructs.Erik.8 (Index: 18, Speaker: B): \"Uh, I don't think it counts electric lights no, but I mean not many  you don't want to limit your market. I mean people who live in basement flats there's not that many people, but there are people.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.B.argumentstructs.Erik.8",
+            "ans": "ES2004c.B.argumentstructs.Erik.8",
+            "judgement": true
+        },
+        {
+            "turn_number": 20,
+            "current_node": {
+                "index": 20,
+                "ae_id": "ES2004c.C.argumentstructs.Erik.8",
+                "speaker": "C",
+                "start_time": 575.14,
+                "end_time": 580.39,
+                "sentence": "Yeah and most people most people also watch T_V_ in the in the night anyway.",
+                "source": "ES2004c.B.argumentstructs.Erik.8",
+                "targets": [
+                    "ES2004c.A.argumentstructs.Erik.3",
+                    "ES2004c.B.argumentstructs.Erik.9"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 15,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.6",
+                    "speaker": "C",
+                    "start_time": 551.03,
+                    "end_time": 557.25,
+                    "sentence": "Yeah it would the d yeah the dynamo would take more space 'cause you actually need a physical sort of handle to wind up.",
+                    "source": "ES2004c.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 557.01,
+                    "end_time": 559.69,
+                    "sentence": "I'm pretty sure that solar is from the sun.",
+                    "source": "ES2004c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.7",
+                        "ES2004c.B.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.7",
+                    "speaker": "C",
+                    "start_time": 559.77,
+                    "end_time": 560.85,
+                    "sentence": "Yeah, okay.",
+                    "source": "ES2004c.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.8",
+                    "speaker": "B",
+                    "start_time": 560.54,
+                    "end_time": 573.0,
+                    "sentence": "Uh, I don't think it counts electric lights no, but I mean not many  you don't want to limit your market. I mean people who live in basement flats there's not that many people, but there are people.",
+                    "source": "ES2004c.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2004c.D.argumentstructs.Erik.3",
+                        "ES2004c.C.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2004c.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 561.91,
+                    "end_time": 563.03,
+                    "sentence": "Artificial light, no.",
+                    "source": "ES2004c.B.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 20):\n- AE_ID: ES2004c.C.argumentstructs.Erik.8\n- Speaker: C\n- Sentence: \"Yeah and most people most people also watch T_V_ in the in the night anyway.\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.C.argumentstructs.Erik.6 (Index: 15, Speaker: C): \"Yeah it would the d yeah the dynamo would take more space 'cause you actually need a physical sort of handle to wind up.\"\nAE_ID ES2004c.B.argumentstructs.Erik.7 (Index: 16, Speaker: B): \"I'm pretty sure that solar is from the sun.\"\nAE_ID ES2004c.C.argumentstructs.Erik.7 (Index: 17, Speaker: C): \"Yeah, okay.\"\nAE_ID ES2004c.B.argumentstructs.Erik.8 (Index: 18, Speaker: B): \"Uh, I don't think it counts electric lights no, but I mean not many  you don't want to limit your market. I mean people who live in basement flats there's not that many people, but there are people.\"\nAE_ID ES2004c.D.argumentstructs.Erik.3 (Index: 19, Speaker: D): \"Artificial light, no.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.B.argumentstructs.Erik.8",
+            "ans": "ES2004c.B.argumentstructs.Erik.8",
+            "judgement": true
+        },
+        {
+            "turn_number": 21,
+            "current_node": {
+                "index": 21,
+                "ae_id": "ES2004c.A.argumentstructs.Erik.3",
+                "speaker": "A",
+                "start_time": 575.7,
+                "end_time": 575.93,
+                "sentence": "Right.",
+                "source": "ES2004c.C.argumentstructs.Erik.8",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 16,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 557.01,
+                    "end_time": 559.69,
+                    "sentence": "I'm pretty sure that solar is from the sun.",
+                    "source": "ES2004c.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.7",
+                        "ES2004c.B.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 17,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.7",
+                    "speaker": "C",
+                    "start_time": 559.77,
+                    "end_time": 560.85,
+                    "sentence": "Yeah, okay.",
+                    "source": "ES2004c.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.8",
+                    "speaker": "B",
+                    "start_time": 560.54,
+                    "end_time": 573.0,
+                    "sentence": "Uh, I don't think it counts electric lights no, but I mean not many  you don't want to limit your market. I mean people who live in basement flats there's not that many people, but there are people.",
+                    "source": "ES2004c.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2004c.D.argumentstructs.Erik.3",
+                        "ES2004c.C.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2004c.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 561.91,
+                    "end_time": 563.03,
+                    "sentence": "Artificial light, no.",
+                    "source": "ES2004c.B.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.8",
+                    "speaker": "C",
+                    "start_time": 575.14,
+                    "end_time": 580.39,
+                    "sentence": "Yeah and most people most people also watch T_V_ in the in the night anyway.",
+                    "source": "ES2004c.B.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2004c.A.argumentstructs.Erik.3",
+                        "ES2004c.B.argumentstructs.Erik.9"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 21):\n- AE_ID: ES2004c.A.argumentstructs.Erik.3\n- Speaker: A\n- Sentence: \"Right.\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.B.argumentstructs.Erik.7 (Index: 16, Speaker: B): \"I'm pretty sure that solar is from the sun.\"\nAE_ID ES2004c.C.argumentstructs.Erik.7 (Index: 17, Speaker: C): \"Yeah, okay.\"\nAE_ID ES2004c.B.argumentstructs.Erik.8 (Index: 18, Speaker: B): \"Uh, I don't think it counts electric lights no, but I mean not many  you don't want to limit your market. I mean people who live in basement flats there's not that many people, but there are people.\"\nAE_ID ES2004c.D.argumentstructs.Erik.3 (Index: 19, Speaker: D): \"Artificial light, no.\"\nAE_ID ES2004c.C.argumentstructs.Erik.8 (Index: 20, Speaker: C): \"Yeah and most people most people also watch T_V_ in the in the night anyway.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.C.argumentstructs.Erik.8",
+            "ans": "ES2004c.C.argumentstructs.Erik.8",
+            "judgement": true
+        },
+        {
+            "turn_number": 22,
+            "current_node": {
+                "index": 22,
+                "ae_id": "ES2004c.B.argumentstructs.Erik.9",
+                "speaker": "B",
+                "start_time": 580.59,
+                "end_time": 588.72,
+                "sentence": "Mm, but then it would be charging through the day, I think the point is that it charges through the day and then you've got it charged for the evening.",
+                "source": "ES2004c.C.argumentstructs.Erik.8",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 17,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.7",
+                    "speaker": "C",
+                    "start_time": 559.77,
+                    "end_time": 560.85,
+                    "sentence": "Yeah, okay.",
+                    "source": "ES2004c.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 18,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.8",
+                    "speaker": "B",
+                    "start_time": 560.54,
+                    "end_time": 573.0,
+                    "sentence": "Uh, I don't think it counts electric lights no, but I mean not many  you don't want to limit your market. I mean people who live in basement flats there's not that many people, but there are people.",
+                    "source": "ES2004c.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2004c.D.argumentstructs.Erik.3",
+                        "ES2004c.C.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2004c.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 561.91,
+                    "end_time": 563.03,
+                    "sentence": "Artificial light, no.",
+                    "source": "ES2004c.B.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.8",
+                    "speaker": "C",
+                    "start_time": 575.14,
+                    "end_time": 580.39,
+                    "sentence": "Yeah and most people most people also watch T_V_ in the in the night anyway.",
+                    "source": "ES2004c.B.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2004c.A.argumentstructs.Erik.3",
+                        "ES2004c.B.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 575.7,
+                    "end_time": 575.93,
+                    "sentence": "Right.",
+                    "source": "ES2004c.C.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 22):\n- AE_ID: ES2004c.B.argumentstructs.Erik.9\n- Speaker: B\n- Sentence: \"Mm, but then it would be charging through the day, I think the point is that it charges through the day and then you've got it charged for the evening.\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.C.argumentstructs.Erik.7 (Index: 17, Speaker: C): \"Yeah, okay.\"\nAE_ID ES2004c.B.argumentstructs.Erik.8 (Index: 18, Speaker: B): \"Uh, I don't think it counts electric lights no, but I mean not many  you don't want to limit your market. I mean people who live in basement flats there's not that many people, but there are people.\"\nAE_ID ES2004c.D.argumentstructs.Erik.3 (Index: 19, Speaker: D): \"Artificial light, no.\"\nAE_ID ES2004c.C.argumentstructs.Erik.8 (Index: 20, Speaker: C): \"Yeah and most people most people also watch T_V_ in the in the night anyway.\"\nAE_ID ES2004c.A.argumentstructs.Erik.3 (Index: 21, Speaker: A): \"Right.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.C.argumentstructs.Erik.8",
+            "ans": "ES2004c.C.argumentstructs.Erik.8",
+            "judgement": true
+        },
+        {
+            "turn_number": 23,
+            "current_node": {
+                "index": 23,
+                "ae_id": "ES2004c.C.argumentstructs.Erik.9",
+                "speaker": "C",
+                "start_time": 587.25,
+                "end_time": 608.06,
+                "sentence": "But I I think I think the the next one's the best anyway. The the kinetic charging which is like you get it in r you get it in wrist watches and you d you don't even notice it. I mean the amount the amount of probably moving around you'd be doing all the time would would charge it up, I don't think you'd ever need to actually physically start shaking it up to make it work.",
+                "source": "ES2004c.C.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2004c.B.argumentstructs.Erik.10",
+                    "ES2004c.A.argumentstructs.Erik.4",
+                    "ES2004c.B.argumentstructs.Erik.11"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 18,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.8",
+                    "speaker": "B",
+                    "start_time": 560.54,
+                    "end_time": 573.0,
+                    "sentence": "Uh, I don't think it counts electric lights no, but I mean not many  you don't want to limit your market. I mean people who live in basement flats there's not that many people, but there are people.",
+                    "source": "ES2004c.B.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2004c.D.argumentstructs.Erik.3",
+                        "ES2004c.C.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 19,
+                    "ae_id": "ES2004c.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 561.91,
+                    "end_time": 563.03,
+                    "sentence": "Artificial light, no.",
+                    "source": "ES2004c.B.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.8",
+                    "speaker": "C",
+                    "start_time": 575.14,
+                    "end_time": 580.39,
+                    "sentence": "Yeah and most people most people also watch T_V_ in the in the night anyway.",
+                    "source": "ES2004c.B.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2004c.A.argumentstructs.Erik.3",
+                        "ES2004c.B.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 575.7,
+                    "end_time": 575.93,
+                    "sentence": "Right.",
+                    "source": "ES2004c.C.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 580.59,
+                    "end_time": 588.72,
+                    "sentence": "Mm, but then it would be charging through the day, I think the point is that it charges through the day and then you've got it charged for the evening.",
+                    "source": "ES2004c.C.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 23):\n- AE_ID: ES2004c.C.argumentstructs.Erik.9\n- Speaker: C\n- Sentence: \"But I I think I think the the next one's the best anyway. The the kinetic charging which is like you get it in r you get it in wrist watches and you d you don't even notice it. I mean the amount the amount of probably moving around you'd be doing all the time would would charge it up, I don't think you'd ever need to actually physically start shaking it up to make it work.\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.B.argumentstructs.Erik.8 (Index: 18, Speaker: B): \"Uh, I don't think it counts electric lights no, but I mean not many  you don't want to limit your market. I mean people who live in basement flats there's not that many people, but there are people.\"\nAE_ID ES2004c.D.argumentstructs.Erik.3 (Index: 19, Speaker: D): \"Artificial light, no.\"\nAE_ID ES2004c.C.argumentstructs.Erik.8 (Index: 20, Speaker: C): \"Yeah and most people most people also watch T_V_ in the in the night anyway.\"\nAE_ID ES2004c.A.argumentstructs.Erik.3 (Index: 21, Speaker: A): \"Right.\"\nAE_ID ES2004c.B.argumentstructs.Erik.9 (Index: 22, Speaker: B): \"Mm, but then it would be charging through the day, I think the point is that it charges through the day and then you've got it charged for the evening.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.B.argumentstructs.Erik.9",
+            "ans": "ES2004c.C.argumentstructs.Erik.1",
+            "judgement": false
+        },
+        {
+            "turn_number": 24,
+            "current_node": {
+                "index": 24,
+                "ae_id": "ES2004c.B.argumentstructs.Erik.10",
+                "speaker": "B",
+                "start_time": 590.12,
+                "end_time": 590.6,
+                "sentence": "Okay.",
+                "source": "ES2004c.C.argumentstructs.Erik.9",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 19,
+                    "ae_id": "ES2004c.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 561.91,
+                    "end_time": 563.03,
+                    "sentence": "Artificial light, no.",
+                    "source": "ES2004c.B.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 20,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.8",
+                    "speaker": "C",
+                    "start_time": 575.14,
+                    "end_time": 580.39,
+                    "sentence": "Yeah and most people most people also watch T_V_ in the in the night anyway.",
+                    "source": "ES2004c.B.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2004c.A.argumentstructs.Erik.3",
+                        "ES2004c.B.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 575.7,
+                    "end_time": 575.93,
+                    "sentence": "Right.",
+                    "source": "ES2004c.C.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 580.59,
+                    "end_time": 588.72,
+                    "sentence": "Mm, but then it would be charging through the day, I think the point is that it charges through the day and then you've got it charged for the evening.",
+                    "source": "ES2004c.C.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.9",
+                    "speaker": "C",
+                    "start_time": 587.25,
+                    "end_time": 608.06,
+                    "sentence": "But I I think I think the the next one's the best anyway. The the kinetic charging which is like you get it in r you get it in wrist watches and you d you don't even notice it. I mean the amount the amount of probably moving around you'd be doing all the time would would charge it up, I don't think you'd ever need to actually physically start shaking it up to make it work.",
+                    "source": "ES2004c.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.10",
+                        "ES2004c.A.argumentstructs.Erik.4",
+                        "ES2004c.B.argumentstructs.Erik.11"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 24):\n- AE_ID: ES2004c.B.argumentstructs.Erik.10\n- Speaker: B\n- Sentence: \"Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.D.argumentstructs.Erik.3 (Index: 19, Speaker: D): \"Artificial light, no.\"\nAE_ID ES2004c.C.argumentstructs.Erik.8 (Index: 20, Speaker: C): \"Yeah and most people most people also watch T_V_ in the in the night anyway.\"\nAE_ID ES2004c.A.argumentstructs.Erik.3 (Index: 21, Speaker: A): \"Right.\"\nAE_ID ES2004c.B.argumentstructs.Erik.9 (Index: 22, Speaker: B): \"Mm, but then it would be charging through the day, I think the point is that it charges through the day and then you've got it charged for the evening.\"\nAE_ID ES2004c.C.argumentstructs.Erik.9 (Index: 23, Speaker: C): \"But I I think I think the the next one's the best anyway. The the kinetic charging which is like you get it in r you get it in wrist watches and you d you don't even notice it. I mean the amount the amount of probably moving around you'd be doing all the time would would charge it up, I don't think you'd ever need to actually physically start shaking it up to make it work.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.C.argumentstructs.Erik.9",
+            "ans": "ES2004c.C.argumentstructs.Erik.9",
+            "judgement": true
+        },
+        {
+            "turn_number": 25,
+            "current_node": {
+                "index": 25,
+                "ae_id": "ES2004c.A.argumentstructs.Erik.4",
+                "speaker": "A",
+                "start_time": 608.54,
+                "end_time": 613.53,
+                "sentence": "And are these like uh  what are the life of the kinetic battery, it like it runs for long time ?",
+                "source": "ES2004c.C.argumentstructs.Erik.9",
+                "targets": [
+                    "ES2004c.C.argumentstructs.Erik.10"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 20,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.8",
+                    "speaker": "C",
+                    "start_time": 575.14,
+                    "end_time": 580.39,
+                    "sentence": "Yeah and most people most people also watch T_V_ in the in the night anyway.",
+                    "source": "ES2004c.B.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2004c.A.argumentstructs.Erik.3",
+                        "ES2004c.B.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 21,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 575.7,
+                    "end_time": 575.93,
+                    "sentence": "Right.",
+                    "source": "ES2004c.C.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 580.59,
+                    "end_time": 588.72,
+                    "sentence": "Mm, but then it would be charging through the day, I think the point is that it charges through the day and then you've got it charged for the evening.",
+                    "source": "ES2004c.C.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.9",
+                    "speaker": "C",
+                    "start_time": 587.25,
+                    "end_time": 608.06,
+                    "sentence": "But I I think I think the the next one's the best anyway. The the kinetic charging which is like you get it in r you get it in wrist watches and you d you don't even notice it. I mean the amount the amount of probably moving around you'd be doing all the time would would charge it up, I don't think you'd ever need to actually physically start shaking it up to make it work.",
+                    "source": "ES2004c.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.10",
+                        "ES2004c.A.argumentstructs.Erik.4",
+                        "ES2004c.B.argumentstructs.Erik.11"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 590.12,
+                    "end_time": 590.6,
+                    "sentence": "Okay.",
+                    "source": "ES2004c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 25):\n- AE_ID: ES2004c.A.argumentstructs.Erik.4\n- Speaker: A\n- Sentence: \"And are these like uh  what are the life of the kinetic battery, it like it runs for long time ?\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.C.argumentstructs.Erik.8 (Index: 20, Speaker: C): \"Yeah and most people most people also watch T_V_ in the in the night anyway.\"\nAE_ID ES2004c.A.argumentstructs.Erik.3 (Index: 21, Speaker: A): \"Right.\"\nAE_ID ES2004c.B.argumentstructs.Erik.9 (Index: 22, Speaker: B): \"Mm, but then it would be charging through the day, I think the point is that it charges through the day and then you've got it charged for the evening.\"\nAE_ID ES2004c.C.argumentstructs.Erik.9 (Index: 23, Speaker: C): \"But I I think I think the the next one's the best anyway. The the kinetic charging which is like you get it in r you get it in wrist watches and you d you don't even notice it. I mean the amount the amount of probably moving around you'd be doing all the time would would charge it up, I don't think you'd ever need to actually physically start shaking it up to make it work.\"\nAE_ID ES2004c.B.argumentstructs.Erik.10 (Index: 24, Speaker: B): \"Okay.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.B.argumentstructs.Erik.9",
+            "ans": "ES2004c.C.argumentstructs.Erik.9",
+            "judgement": false
+        },
+        {
+            "turn_number": 26,
+            "current_node": {
+                "index": 26,
+                "ae_id": "ES2004c.C.argumentstructs.Erik.10",
+                "speaker": "C",
+                "start_time": 613.51,
+                "end_time": 640.41,
+                "sentence": "Um yeah it's  it charges into um some form of  it's a smaller cell which it charges into and uh the si the size sort of a watch a watch battery, 'cause they use them quite frequently in watches. And that'll that would l would last for um well I do I d I'm not entirely sure how long it would last but I've never seen one run out.",
+                "source": "ES2004c.A.argumentstructs.Erik.4",
+                "targets": [
+                    "ES2004c.A.argumentstructs.Erik.5"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 21,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 575.7,
+                    "end_time": 575.93,
+                    "sentence": "Right.",
+                    "source": "ES2004c.C.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 22,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 580.59,
+                    "end_time": 588.72,
+                    "sentence": "Mm, but then it would be charging through the day, I think the point is that it charges through the day and then you've got it charged for the evening.",
+                    "source": "ES2004c.C.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.9",
+                    "speaker": "C",
+                    "start_time": 587.25,
+                    "end_time": 608.06,
+                    "sentence": "But I I think I think the the next one's the best anyway. The the kinetic charging which is like you get it in r you get it in wrist watches and you d you don't even notice it. I mean the amount the amount of probably moving around you'd be doing all the time would would charge it up, I don't think you'd ever need to actually physically start shaking it up to make it work.",
+                    "source": "ES2004c.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.10",
+                        "ES2004c.A.argumentstructs.Erik.4",
+                        "ES2004c.B.argumentstructs.Erik.11"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 590.12,
+                    "end_time": 590.6,
+                    "sentence": "Okay.",
+                    "source": "ES2004c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 608.54,
+                    "end_time": 613.53,
+                    "sentence": "And are these like uh  what are the life of the kinetic battery, it like it runs for long time ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.10"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 26):\n- AE_ID: ES2004c.C.argumentstructs.Erik.10\n- Speaker: C\n- Sentence: \"Um yeah it's  it charges into um some form of  it's a smaller cell which it charges into and uh the si the size sort of a watch a watch battery, 'cause they use them quite frequently in watches. And that'll that would l would last for um well I do I d I'm not entirely sure how long it would last but I've never seen one run out.\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.A.argumentstructs.Erik.3 (Index: 21, Speaker: A): \"Right.\"\nAE_ID ES2004c.B.argumentstructs.Erik.9 (Index: 22, Speaker: B): \"Mm, but then it would be charging through the day, I think the point is that it charges through the day and then you've got it charged for the evening.\"\nAE_ID ES2004c.C.argumentstructs.Erik.9 (Index: 23, Speaker: C): \"But I I think I think the the next one's the best anyway. The the kinetic charging which is like you get it in r you get it in wrist watches and you d you don't even notice it. I mean the amount the amount of probably moving around you'd be doing all the time would would charge it up, I don't think you'd ever need to actually physically start shaking it up to make it work.\"\nAE_ID ES2004c.B.argumentstructs.Erik.10 (Index: 24, Speaker: B): \"Okay.\"\nAE_ID ES2004c.A.argumentstructs.Erik.4 (Index: 25, Speaker: A): \"And are these like uh  what are the life of the kinetic battery, it like it runs for long time ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.A.argumentstructs.Erik.4",
+            "ans": "ES2004c.A.argumentstructs.Erik.4",
+            "judgement": true
+        },
+        {
+            "turn_number": 27,
+            "current_node": {
+                "index": 27,
+                "ae_id": "ES2004c.A.argumentstructs.Erik.5",
+                "speaker": "A",
+                "start_time": 627.88,
+                "end_time": 628.27,
+                "sentence": "Okay.",
+                "source": "ES2004c.C.argumentstructs.Erik.10",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 22,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 580.59,
+                    "end_time": 588.72,
+                    "sentence": "Mm, but then it would be charging through the day, I think the point is that it charges through the day and then you've got it charged for the evening.",
+                    "source": "ES2004c.C.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 23,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.9",
+                    "speaker": "C",
+                    "start_time": 587.25,
+                    "end_time": 608.06,
+                    "sentence": "But I I think I think the the next one's the best anyway. The the kinetic charging which is like you get it in r you get it in wrist watches and you d you don't even notice it. I mean the amount the amount of probably moving around you'd be doing all the time would would charge it up, I don't think you'd ever need to actually physically start shaking it up to make it work.",
+                    "source": "ES2004c.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.10",
+                        "ES2004c.A.argumentstructs.Erik.4",
+                        "ES2004c.B.argumentstructs.Erik.11"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 590.12,
+                    "end_time": 590.6,
+                    "sentence": "Okay.",
+                    "source": "ES2004c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 608.54,
+                    "end_time": 613.53,
+                    "sentence": "And are these like uh  what are the life of the kinetic battery, it like it runs for long time ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 26,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.10",
+                    "speaker": "C",
+                    "start_time": 613.51,
+                    "end_time": 640.41,
+                    "sentence": "Um yeah it's  it charges into um some form of  it's a smaller cell which it charges into and uh the si the size sort of a watch a watch battery, 'cause they use them quite frequently in watches. And that'll that would l would last for um well I do I d I'm not entirely sure how long it would last but I've never seen one run out.",
+                    "source": "ES2004c.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2004c.A.argumentstructs.Erik.5"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 27):\n- AE_ID: ES2004c.A.argumentstructs.Erik.5\n- Speaker: A\n- Sentence: \"Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.B.argumentstructs.Erik.9 (Index: 22, Speaker: B): \"Mm, but then it would be charging through the day, I think the point is that it charges through the day and then you've got it charged for the evening.\"\nAE_ID ES2004c.C.argumentstructs.Erik.9 (Index: 23, Speaker: C): \"But I I think I think the the next one's the best anyway. The the kinetic charging which is like you get it in r you get it in wrist watches and you d you don't even notice it. I mean the amount the amount of probably moving around you'd be doing all the time would would charge it up, I don't think you'd ever need to actually physically start shaking it up to make it work.\"\nAE_ID ES2004c.B.argumentstructs.Erik.10 (Index: 24, Speaker: B): \"Okay.\"\nAE_ID ES2004c.A.argumentstructs.Erik.4 (Index: 25, Speaker: A): \"And are these like uh  what are the life of the kinetic battery, it like it runs for long time ?\"\nAE_ID ES2004c.C.argumentstructs.Erik.10 (Index: 26, Speaker: C): \"Um yeah it's  it charges into um some form of  it's a smaller cell which it charges into and uh the si the size sort of a watch a watch battery, 'cause they use them quite frequently in watches. And that'll that would l would last for um well I do I d I'm not entirely sure how long it would last but I've never seen one run out.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.C.argumentstructs.Erik.10",
+            "ans": "ES2004c.C.argumentstructs.Erik.10",
+            "judgement": true
+        },
+        {
+            "turn_number": 28,
+            "current_node": {
+                "index": 28,
+                "ae_id": "ES2004c.B.argumentstructs.Erik.11",
+                "speaker": "B",
+                "start_time": 640.02,
+                "end_time": 657.18,
+                "sentence": "But then if you think about a watch, it's on your wrist so it's on your whole bod it's on your body the whole time so you're walking around, you're doing things, it is moving a lot of the time. If you'd  I mean you switch the T_V_ on, then you put it on the side, then you pick it up to change it and then you put it on the side. Is it really gonna be enough ?",
+                "source": "ES2004c.C.argumentstructs.Erik.9",
+                "targets": [
+                    "ES2004c.C.argumentstructs.Erik.11",
+                    "ES2004c.C.argumentstructs.Erik.12"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 23,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.9",
+                    "speaker": "C",
+                    "start_time": 587.25,
+                    "end_time": 608.06,
+                    "sentence": "But I I think I think the the next one's the best anyway. The the kinetic charging which is like you get it in r you get it in wrist watches and you d you don't even notice it. I mean the amount the amount of probably moving around you'd be doing all the time would would charge it up, I don't think you'd ever need to actually physically start shaking it up to make it work.",
+                    "source": "ES2004c.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.10",
+                        "ES2004c.A.argumentstructs.Erik.4",
+                        "ES2004c.B.argumentstructs.Erik.11"
+                    ]
+                },
+                {
+                    "index": 24,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 590.12,
+                    "end_time": 590.6,
+                    "sentence": "Okay.",
+                    "source": "ES2004c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 608.54,
+                    "end_time": 613.53,
+                    "sentence": "And are these like uh  what are the life of the kinetic battery, it like it runs for long time ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 26,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.10",
+                    "speaker": "C",
+                    "start_time": 613.51,
+                    "end_time": 640.41,
+                    "sentence": "Um yeah it's  it charges into um some form of  it's a smaller cell which it charges into and uh the si the size sort of a watch a watch battery, 'cause they use them quite frequently in watches. And that'll that would l would last for um well I do I d I'm not entirely sure how long it would last but I've never seen one run out.",
+                    "source": "ES2004c.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2004c.A.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 27,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 627.88,
+                    "end_time": 628.27,
+                    "sentence": "Okay.",
+                    "source": "ES2004c.C.argumentstructs.Erik.10",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 28):\n- AE_ID: ES2004c.B.argumentstructs.Erik.11\n- Speaker: B\n- Sentence: \"But then if you think about a watch, it's on your wrist so it's on your whole bod it's on your body the whole time so you're walking around, you're doing things, it is moving a lot of the time. If you'd  I mean you switch the T_V_ on, then you put it on the side, then you pick it up to change it and then you put it on the side. Is it really gonna be enough ?\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.C.argumentstructs.Erik.9 (Index: 23, Speaker: C): \"But I I think I think the the next one's the best anyway. The the kinetic charging which is like you get it in r you get it in wrist watches and you d you don't even notice it. I mean the amount the amount of probably moving around you'd be doing all the time would would charge it up, I don't think you'd ever need to actually physically start shaking it up to make it work.\"\nAE_ID ES2004c.B.argumentstructs.Erik.10 (Index: 24, Speaker: B): \"Okay.\"\nAE_ID ES2004c.A.argumentstructs.Erik.4 (Index: 25, Speaker: A): \"And are these like uh  what are the life of the kinetic battery, it like it runs for long time ?\"\nAE_ID ES2004c.C.argumentstructs.Erik.10 (Index: 26, Speaker: C): \"Um yeah it's  it charges into um some form of  it's a smaller cell which it charges into and uh the si the size sort of a watch a watch battery, 'cause they use them quite frequently in watches. And that'll that would l would last for um well I do I d I'm not entirely sure how long it would last but I've never seen one run out.\"\nAE_ID ES2004c.A.argumentstructs.Erik.5 (Index: 27, Speaker: A): \"Okay.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.C.argumentstructs.Erik.9",
+            "ans": "ES2004c.C.argumentstructs.Erik.9",
+            "judgement": true
+        },
+        {
+            "turn_number": 29,
+            "current_node": {
+                "index": 29,
+                "ae_id": "ES2004c.C.argumentstructs.Erik.11",
+                "speaker": "C",
+                "start_time": 645.11,
+                "end_time": 645.51,
+                "sentence": "Yeah.",
+                "source": "ES2004c.B.argumentstructs.Erik.11",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 24,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 590.12,
+                    "end_time": 590.6,
+                    "sentence": "Okay.",
+                    "source": "ES2004c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 25,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 608.54,
+                    "end_time": 613.53,
+                    "sentence": "And are these like uh  what are the life of the kinetic battery, it like it runs for long time ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 26,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.10",
+                    "speaker": "C",
+                    "start_time": 613.51,
+                    "end_time": 640.41,
+                    "sentence": "Um yeah it's  it charges into um some form of  it's a smaller cell which it charges into and uh the si the size sort of a watch a watch battery, 'cause they use them quite frequently in watches. And that'll that would l would last for um well I do I d I'm not entirely sure how long it would last but I've never seen one run out.",
+                    "source": "ES2004c.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2004c.A.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 27,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 627.88,
+                    "end_time": 628.27,
+                    "sentence": "Okay.",
+                    "source": "ES2004c.C.argumentstructs.Erik.10",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 28,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 640.02,
+                    "end_time": 657.18,
+                    "sentence": "But then if you think about a watch, it's on your wrist so it's on your whole bod it's on your body the whole time so you're walking around, you're doing things, it is moving a lot of the time. If you'd  I mean you switch the T_V_ on, then you put it on the side, then you pick it up to change it and then you put it on the side. Is it really gonna be enough ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.11",
+                        "ES2004c.C.argumentstructs.Erik.12"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 29):\n- AE_ID: ES2004c.C.argumentstructs.Erik.11\n- Speaker: C\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.B.argumentstructs.Erik.10 (Index: 24, Speaker: B): \"Okay.\"\nAE_ID ES2004c.A.argumentstructs.Erik.4 (Index: 25, Speaker: A): \"And are these like uh  what are the life of the kinetic battery, it like it runs for long time ?\"\nAE_ID ES2004c.C.argumentstructs.Erik.10 (Index: 26, Speaker: C): \"Um yeah it's  it charges into um some form of  it's a smaller cell which it charges into and uh the si the size sort of a watch a watch battery, 'cause they use them quite frequently in watches. And that'll that would l would last for um well I do I d I'm not entirely sure how long it would last but I've never seen one run out.\"\nAE_ID ES2004c.A.argumentstructs.Erik.5 (Index: 27, Speaker: A): \"Okay.\"\nAE_ID ES2004c.B.argumentstructs.Erik.11 (Index: 28, Speaker: B): \"But then if you think about a watch, it's on your wrist so it's on your whole bod it's on your body the whole time so you're walking around, you're doing things, it is moving a lot of the time. If you'd  I mean you switch the T_V_ on, then you put it on the side, then you pick it up to change it and then you put it on the side. Is it really gonna be enough ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.B.argumentstructs.Erik.11",
+            "ans": "ES2004c.B.argumentstructs.Erik.11",
+            "judgement": true
+        },
+        {
+            "turn_number": 30,
+            "current_node": {
+                "index": 30,
+                "ae_id": "ES2004c.C.argumentstructs.Erik.12",
+                "speaker": "C",
+                "start_time": 655.38,
+                "end_time": 686.784,
+                "sentence": "Yeah but then again I I think it is because if you think about it, the watch, although it's only a tiny amount it's it's um  it's always moving for the whole day and they don't run out over night when you leave them on the side. And th for the same the same reason, you're only using it for a v incredibly short amount of time just to send the signal and then you're finished with it and you put it  no no I do I don't think the the draw on it would be",
+                "source": "ES2004c.B.argumentstructs.Erik.11",
+                "targets": [
+                    "ES2004c.B.argumentstructs.Erik.12"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 25,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 608.54,
+                    "end_time": 613.53,
+                    "sentence": "And are these like uh  what are the life of the kinetic battery, it like it runs for long time ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 26,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.10",
+                    "speaker": "C",
+                    "start_time": 613.51,
+                    "end_time": 640.41,
+                    "sentence": "Um yeah it's  it charges into um some form of  it's a smaller cell which it charges into and uh the si the size sort of a watch a watch battery, 'cause they use them quite frequently in watches. And that'll that would l would last for um well I do I d I'm not entirely sure how long it would last but I've never seen one run out.",
+                    "source": "ES2004c.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2004c.A.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 27,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 627.88,
+                    "end_time": 628.27,
+                    "sentence": "Okay.",
+                    "source": "ES2004c.C.argumentstructs.Erik.10",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 28,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 640.02,
+                    "end_time": 657.18,
+                    "sentence": "But then if you think about a watch, it's on your wrist so it's on your whole bod it's on your body the whole time so you're walking around, you're doing things, it is moving a lot of the time. If you'd  I mean you switch the T_V_ on, then you put it on the side, then you pick it up to change it and then you put it on the side. Is it really gonna be enough ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.11",
+                        "ES2004c.C.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 29,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.11",
+                    "speaker": "C",
+                    "start_time": 645.11,
+                    "end_time": 645.51,
+                    "sentence": "Yeah.",
+                    "source": "ES2004c.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 30):\n- AE_ID: ES2004c.C.argumentstructs.Erik.12\n- Speaker: C\n- Sentence: \"Yeah but then again I I think it is because if you think about it, the watch, although it's only a tiny amount it's it's um  it's always moving for the whole day and they don't run out over night when you leave them on the side. And th for the same the same reason, you're only using it for a v incredibly short amount of time just to send the signal and then you're finished with it and you put it  no no I do I don't think the the draw on it would be\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.A.argumentstructs.Erik.4 (Index: 25, Speaker: A): \"And are these like uh  what are the life of the kinetic battery, it like it runs for long time ?\"\nAE_ID ES2004c.C.argumentstructs.Erik.10 (Index: 26, Speaker: C): \"Um yeah it's  it charges into um some form of  it's a smaller cell which it charges into and uh the si the size sort of a watch a watch battery, 'cause they use them quite frequently in watches. And that'll that would l would last for um well I do I d I'm not entirely sure how long it would last but I've never seen one run out.\"\nAE_ID ES2004c.A.argumentstructs.Erik.5 (Index: 27, Speaker: A): \"Okay.\"\nAE_ID ES2004c.B.argumentstructs.Erik.11 (Index: 28, Speaker: B): \"But then if you think about a watch, it's on your wrist so it's on your whole bod it's on your body the whole time so you're walking around, you're doing things, it is moving a lot of the time. If you'd  I mean you switch the T_V_ on, then you put it on the side, then you pick it up to change it and then you put it on the side. Is it really gonna be enough ?\"\nAE_ID ES2004c.C.argumentstructs.Erik.11 (Index: 29, Speaker: C): \"Yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.B.argumentstructs.Erik.11",
+            "ans": "ES2004c.B.argumentstructs.Erik.11",
+            "judgement": true
+        },
+        {
+            "turn_number": 31,
+            "current_node": {
+                "index": 31,
+                "ae_id": "ES2004c.B.argumentstructs.Erik.12",
+                "speaker": "B",
+                "start_time": 672.45,
+                "end_time": 672.94,
+                "sentence": "Okay.",
+                "source": "ES2004c.C.argumentstructs.Erik.12",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 26,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.10",
+                    "speaker": "C",
+                    "start_time": 613.51,
+                    "end_time": 640.41,
+                    "sentence": "Um yeah it's  it charges into um some form of  it's a smaller cell which it charges into and uh the si the size sort of a watch a watch battery, 'cause they use them quite frequently in watches. And that'll that would l would last for um well I do I d I'm not entirely sure how long it would last but I've never seen one run out.",
+                    "source": "ES2004c.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2004c.A.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 27,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 627.88,
+                    "end_time": 628.27,
+                    "sentence": "Okay.",
+                    "source": "ES2004c.C.argumentstructs.Erik.10",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 28,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 640.02,
+                    "end_time": 657.18,
+                    "sentence": "But then if you think about a watch, it's on your wrist so it's on your whole bod it's on your body the whole time so you're walking around, you're doing things, it is moving a lot of the time. If you'd  I mean you switch the T_V_ on, then you put it on the side, then you pick it up to change it and then you put it on the side. Is it really gonna be enough ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.11",
+                        "ES2004c.C.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 29,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.11",
+                    "speaker": "C",
+                    "start_time": 645.11,
+                    "end_time": 645.51,
+                    "sentence": "Yeah.",
+                    "source": "ES2004c.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 30,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.12",
+                    "speaker": "C",
+                    "start_time": 655.38,
+                    "end_time": 686.784,
+                    "sentence": "Yeah but then again I I think it is because if you think about it, the watch, although it's only a tiny amount it's it's um  it's always moving for the whole day and they don't run out over night when you leave them on the side. And th for the same the same reason, you're only using it for a v incredibly short amount of time just to send the signal and then you're finished with it and you put it  no no I do I don't think the the draw on it would be",
+                    "source": "ES2004c.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.12"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 31):\n- AE_ID: ES2004c.B.argumentstructs.Erik.12\n- Speaker: B\n- Sentence: \"Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.C.argumentstructs.Erik.10 (Index: 26, Speaker: C): \"Um yeah it's  it charges into um some form of  it's a smaller cell which it charges into and uh the si the size sort of a watch a watch battery, 'cause they use them quite frequently in watches. And that'll that would l would last for um well I do I d I'm not entirely sure how long it would last but I've never seen one run out.\"\nAE_ID ES2004c.A.argumentstructs.Erik.5 (Index: 27, Speaker: A): \"Okay.\"\nAE_ID ES2004c.B.argumentstructs.Erik.11 (Index: 28, Speaker: B): \"But then if you think about a watch, it's on your wrist so it's on your whole bod it's on your body the whole time so you're walking around, you're doing things, it is moving a lot of the time. If you'd  I mean you switch the T_V_ on, then you put it on the side, then you pick it up to change it and then you put it on the side. Is it really gonna be enough ?\"\nAE_ID ES2004c.C.argumentstructs.Erik.11 (Index: 29, Speaker: C): \"Yeah.\"\nAE_ID ES2004c.C.argumentstructs.Erik.12 (Index: 30, Speaker: C): \"Yeah but then again I I think it is because if you think about it, the watch, although it's only a tiny amount it's it's um  it's always moving for the whole day and they don't run out over night when you leave them on the side. And th for the same the same reason, you're only using it for a v incredibly short amount of time just to send the signal and then you're finished with it and you put it  no no I do I don't think the the draw on it would be\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.C.argumentstructs.Erik.12",
+            "ans": "ES2004c.C.argumentstructs.Erik.12",
+            "judgement": true
+        },
+        {
+            "turn_number": 32,
+            "current_node": {
+                "index": 32,
+                "ae_id": "ES2004c.D.argumentstructs.Erik.4",
+                "speaker": "D",
+                "start_time": 685.04,
+                "end_time": 691.32,
+                "sentence": "Could I just ask  referring back to solar charging, is that compatible with um standard batteries ?",
+                "source": "ES2004c.C.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2004c.D.argumentstructs.Erik.5"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 27,
+                    "ae_id": "ES2004c.A.argumentstructs.Erik.5",
+                    "speaker": "A",
+                    "start_time": 627.88,
+                    "end_time": 628.27,
+                    "sentence": "Okay.",
+                    "source": "ES2004c.C.argumentstructs.Erik.10",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 28,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 640.02,
+                    "end_time": 657.18,
+                    "sentence": "But then if you think about a watch, it's on your wrist so it's on your whole bod it's on your body the whole time so you're walking around, you're doing things, it is moving a lot of the time. If you'd  I mean you switch the T_V_ on, then you put it on the side, then you pick it up to change it and then you put it on the side. Is it really gonna be enough ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.11",
+                        "ES2004c.C.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 29,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.11",
+                    "speaker": "C",
+                    "start_time": 645.11,
+                    "end_time": 645.51,
+                    "sentence": "Yeah.",
+                    "source": "ES2004c.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 30,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.12",
+                    "speaker": "C",
+                    "start_time": 655.38,
+                    "end_time": 686.784,
+                    "sentence": "Yeah but then again I I think it is because if you think about it, the watch, although it's only a tiny amount it's it's um  it's always moving for the whole day and they don't run out over night when you leave them on the side. And th for the same the same reason, you're only using it for a v incredibly short amount of time just to send the signal and then you're finished with it and you put it  no no I do I don't think the the draw on it would be",
+                    "source": "ES2004c.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 31,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 672.45,
+                    "end_time": 672.94,
+                    "sentence": "Okay.",
+                    "source": "ES2004c.C.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 32):\n- AE_ID: ES2004c.D.argumentstructs.Erik.4\n- Speaker: D\n- Sentence: \"Could I just ask  referring back to solar charging, is that compatible with um standard batteries ?\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.A.argumentstructs.Erik.5 (Index: 27, Speaker: A): \"Okay.\"\nAE_ID ES2004c.B.argumentstructs.Erik.11 (Index: 28, Speaker: B): \"But then if you think about a watch, it's on your wrist so it's on your whole bod it's on your body the whole time so you're walking around, you're doing things, it is moving a lot of the time. If you'd  I mean you switch the T_V_ on, then you put it on the side, then you pick it up to change it and then you put it on the side. Is it really gonna be enough ?\"\nAE_ID ES2004c.C.argumentstructs.Erik.11 (Index: 29, Speaker: C): \"Yeah.\"\nAE_ID ES2004c.C.argumentstructs.Erik.12 (Index: 30, Speaker: C): \"Yeah but then again I I think it is because if you think about it, the watch, although it's only a tiny amount it's it's um  it's always moving for the whole day and they don't run out over night when you leave them on the side. And th for the same the same reason, you're only using it for a v incredibly short amount of time just to send the signal and then you're finished with it and you put it  no no I do I don't think the the draw on it would be\"\nAE_ID ES2004c.B.argumentstructs.Erik.12 (Index: 31, Speaker: B): \"Okay.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.B.argumentstructs.Erik.11",
+            "ans": "ES2004c.C.argumentstructs.Erik.1",
+            "judgement": false
+        },
+        {
+            "turn_number": 33,
+            "current_node": {
+                "index": 33,
+                "ae_id": "ES2004c.D.argumentstructs.Erik.5",
+                "speaker": "D",
+                "start_time": 691.32,
+                "end_time": 697.26,
+                "sentence": "I mean, could people put standard batteries in but with a s you know they could leave it in the sunlight for solar charging or the two things not compatible ?",
+                "source": "ES2004c.D.argumentstructs.Erik.4",
+                "targets": [
+                    "ES2004c.C.argumentstructs.Erik.13"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 28,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 640.02,
+                    "end_time": 657.18,
+                    "sentence": "But then if you think about a watch, it's on your wrist so it's on your whole bod it's on your body the whole time so you're walking around, you're doing things, it is moving a lot of the time. If you'd  I mean you switch the T_V_ on, then you put it on the side, then you pick it up to change it and then you put it on the side. Is it really gonna be enough ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.11",
+                        "ES2004c.C.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 29,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.11",
+                    "speaker": "C",
+                    "start_time": 645.11,
+                    "end_time": 645.51,
+                    "sentence": "Yeah.",
+                    "source": "ES2004c.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 30,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.12",
+                    "speaker": "C",
+                    "start_time": 655.38,
+                    "end_time": 686.784,
+                    "sentence": "Yeah but then again I I think it is because if you think about it, the watch, although it's only a tiny amount it's it's um  it's always moving for the whole day and they don't run out over night when you leave them on the side. And th for the same the same reason, you're only using it for a v incredibly short amount of time just to send the signal and then you're finished with it and you put it  no no I do I don't think the the draw on it would be",
+                    "source": "ES2004c.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 31,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 672.45,
+                    "end_time": 672.94,
+                    "sentence": "Okay.",
+                    "source": "ES2004c.C.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 32,
+                    "ae_id": "ES2004c.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 685.04,
+                    "end_time": 691.32,
+                    "sentence": "Could I just ask  referring back to solar charging, is that compatible with um standard batteries ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004c.D.argumentstructs.Erik.5"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 33):\n- AE_ID: ES2004c.D.argumentstructs.Erik.5\n- Speaker: D\n- Sentence: \"I mean, could people put standard batteries in but with a s you know they could leave it in the sunlight for solar charging or the two things not compatible ?\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.B.argumentstructs.Erik.11 (Index: 28, Speaker: B): \"But then if you think about a watch, it's on your wrist so it's on your whole bod it's on your body the whole time so you're walking around, you're doing things, it is moving a lot of the time. If you'd  I mean you switch the T_V_ on, then you put it on the side, then you pick it up to change it and then you put it on the side. Is it really gonna be enough ?\"\nAE_ID ES2004c.C.argumentstructs.Erik.11 (Index: 29, Speaker: C): \"Yeah.\"\nAE_ID ES2004c.C.argumentstructs.Erik.12 (Index: 30, Speaker: C): \"Yeah but then again I I think it is because if you think about it, the watch, although it's only a tiny amount it's it's um  it's always moving for the whole day and they don't run out over night when you leave them on the side. And th for the same the same reason, you're only using it for a v incredibly short amount of time just to send the signal and then you're finished with it and you put it  no no I do I don't think the the draw on it would be\"\nAE_ID ES2004c.B.argumentstructs.Erik.12 (Index: 31, Speaker: B): \"Okay.\"\nAE_ID ES2004c.D.argumentstructs.Erik.4 (Index: 32, Speaker: D): \"Could I just ask  referring back to solar charging, is that compatible with um standard batteries ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.D.argumentstructs.Erik.4",
+            "ans": "ES2004c.D.argumentstructs.Erik.4",
+            "judgement": true
+        },
+        {
+            "turn_number": 34,
+            "current_node": {
+                "index": 34,
+                "ae_id": "ES2004c.C.argumentstructs.Erik.13",
+                "speaker": "C",
+                "start_time": 695.82,
+                "end_time": 714.99,
+                "sentence": "Ye yeah I think I th uh g y you could have a dual um power thing but the the thing with the solar cells is you would need to put them on the case and they  because, if you lie   on a calculator they they're qui they're quite big and they all they all look i identical.",
+                "source": "ES2004c.D.argumentstructs.Erik.5",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 29,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.11",
+                    "speaker": "C",
+                    "start_time": 645.11,
+                    "end_time": 645.51,
+                    "sentence": "Yeah.",
+                    "source": "ES2004c.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 30,
+                    "ae_id": "ES2004c.C.argumentstructs.Erik.12",
+                    "speaker": "C",
+                    "start_time": 655.38,
+                    "end_time": 686.784,
+                    "sentence": "Yeah but then again I I think it is because if you think about it, the watch, although it's only a tiny amount it's it's um  it's always moving for the whole day and they don't run out over night when you leave them on the side. And th for the same the same reason, you're only using it for a v incredibly short amount of time just to send the signal and then you're finished with it and you put it  no no I do I don't think the the draw on it would be",
+                    "source": "ES2004c.B.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2004c.B.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 31,
+                    "ae_id": "ES2004c.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 672.45,
+                    "end_time": 672.94,
+                    "sentence": "Okay.",
+                    "source": "ES2004c.C.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 32,
+                    "ae_id": "ES2004c.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 685.04,
+                    "end_time": 691.32,
+                    "sentence": "Could I just ask  referring back to solar charging, is that compatible with um standard batteries ?",
+                    "source": "ES2004c.C.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2004c.D.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 33,
+                    "ae_id": "ES2004c.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 691.32,
+                    "end_time": 697.26,
+                    "sentence": "I mean, could people put standard batteries in but with a s you know they could leave it in the sunlight for solar charging or the two things not compatible ?",
+                    "source": "ES2004c.D.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2004c.C.argumentstructs.Erik.13"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 34):\n- AE_ID: ES2004c.C.argumentstructs.Erik.13\n- Speaker: C\n- Sentence: \"Ye yeah I think I th uh g y you could have a dual um power thing but the the thing with the solar cells is you would need to put them on the case and they  because, if you lie   on a calculator they they're qui they're quite big and they all they all look i identical.\"\n\nPast Dialogue Turns:\nAE_ID ES2004c.C.argumentstructs.Erik.11 (Index: 29, Speaker: C): \"Yeah.\"\nAE_ID ES2004c.C.argumentstructs.Erik.12 (Index: 30, Speaker: C): \"Yeah but then again I I think it is because if you think about it, the watch, although it's only a tiny amount it's it's um  it's always moving for the whole day and they don't run out over night when you leave them on the side. And th for the same the same reason, you're only using it for a v incredibly short amount of time just to send the signal and then you're finished with it and you put it  no no I do I don't think the the draw on it would be\"\nAE_ID ES2004c.B.argumentstructs.Erik.12 (Index: 31, Speaker: B): \"Okay.\"\nAE_ID ES2004c.D.argumentstructs.Erik.4 (Index: 32, Speaker: D): \"Could I just ask  referring back to solar charging, is that compatible with um standard batteries ?\"\nAE_ID ES2004c.D.argumentstructs.Erik.5 (Index: 33, Speaker: D): \"I mean, could people put standard batteries in but with a s you know they could leave it in the sunlight for solar charging or the two things not compatible ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2004c.D.argumentstructs.Erik.5",
+            "ans": "ES2004c.D.argumentstructs.Erik.5",
+            "judgement": true
+        }
+    ]
+}

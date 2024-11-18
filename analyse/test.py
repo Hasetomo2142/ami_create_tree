@@ -32,7 +32,7 @@ def count_node_results(file_path):
 def remove_outliers(data, m=2):
     """与えられたリストの外れ値を除去する。デフォルトは標準偏差2倍以上の値を除外"""
     mean = sum(data) / len(data)
-    return [x for x in data if abs(x - mean) < m * (sum((xi - mean) ** 2 for xi in data) / len(data)) ** 0.5]
+    return [x for x in data if x >= 1 and abs(x - mean) < m * (sum((xi - mean) ** 2 for xi in data) / len(data)) ** 0.5]
 
 # ノードインデックスの分布を描画する
 def plot_node_index_distribution(file_path, output_image_path):
@@ -40,20 +40,22 @@ def plot_node_index_distribution(file_path, output_image_path):
     node_index_list = []
 
     for row in read_csv_file(file_path):
-        node_index_list.append(int(row[9]))
+        node_index = int(row[9])
+        if node_index >= 1:
+            node_index_list.append(node_index)
 
     # 外れ値を除去
     node_index_list = remove_outliers(node_index_list)
 
     # ヒストグラムを描画して保存
-    sns.histplot(node_index_list, bins=range(min(node_index_list), max(node_index_list) + 2, 1))
+    sns.histplot(node_index_list, bins=range(1, max(node_index_list) + 2, 1))
     plt.xlabel('Distance')  # 横軸にラベルを追加
     plt.savefig(output_image_path)
     plt.close()
 
 # メイン処理
 if __name__ == '__main__':
-    csv_file_path = '/home/hasegawa_tomokazu/create_tree/result_json/baseline/ver.1.1-20.txt/NodeResult.csv'
+    csv_file_path = '/home/hasegawa_tomokazu/create_tree/result_json/baseline/ver.1.1.txt/NodeResult.csv'
     output_image_path = '/home/hasegawa_tomokazu/create_tree/node_index_distribution.png'
 
     # 全ノード数と回答が含まれていないノード数のカウント

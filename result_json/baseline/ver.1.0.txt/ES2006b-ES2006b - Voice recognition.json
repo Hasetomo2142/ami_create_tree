@@ -1,0 +1,1456 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2006b-ES2006b - Voice recognition.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "ver.1.0.txt",
+    "rate": 0.4117647058823529,
+    "total_node_count": 27,
+    "removed_node_count": 9,
+    "removed_node_list": [
+        {
+            "index": 1,
+            "ae_id": "ES2006b.A.argumentstructs.18",
+            "speaker": "A",
+            "start_time": 1721.89,
+            "end_time": 1722.1,
+            "sentence": "Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 4,
+            "ae_id": "ES2006b.C.argumentstructs.21",
+            "speaker": "C",
+            "start_time": 1742.68,
+            "end_time": 1743.06,
+            "sentence": "Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 10,
+            "ae_id": "ES2006b.D.argumentstructs.10",
+            "speaker": "D",
+            "start_time": 1753.86,
+            "end_time": 1760.23,
+            "sentence": "Yeah. An",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 12,
+            "ae_id": "ES2006b.C.argumentstructs.22",
+            "speaker": "C",
+            "start_time": 1760.43,
+            "end_time": 1768.84,
+            "sentence": "but with a T_V_ remote it's gonna be quite limited if we're t saying the main things people want to do is on off channel five,",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 16,
+            "ae_id": "ES2006b.A.argumentstructs.19",
+            "speaker": "A",
+            "start_time": 1770.15,
+            "end_time": 1774.84,
+            "sentence": "Right. Right. Okay. O",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 18,
+            "ae_id": "ES2006b.B.argumentstructs.19",
+            "speaker": "B",
+            "start_time": 1771.15,
+            "end_time": 1772.16,
+            "sentence": "S so",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 21,
+            "ae_id": "ES2006b.C.argumentstructs.23",
+            "speaker": "C",
+            "start_time": 1776.79,
+            "end_time": 1777.04,
+            "sentence": "Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 23,
+            "ae_id": "ES2006b.A.argumentstructs.20",
+            "speaker": "A",
+            "start_time": 1793.52,
+            "end_time": 1795.68,
+            "sentence": "Right. Yeah.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 24,
+            "ae_id": "ES2006b.C.argumentstructs.24",
+            "speaker": "C",
+            "start_time": 1795.64,
+            "end_time": 1795.93,
+            "sentence": "Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 0,
+                "ae_id": "ES2006b.C.argumentstructs.Erik.7",
+                "speaker": "C",
+                "start_time": 1720.7,
+                "end_time": 1731.19,
+                "sentence": "Yeah, if we ta if we take fifteen to thirty five, but that then does imply that we should try and incorporate voice recognition. Is that gonna have a  an implication for the technical specs ?",
+                "source": "NONE",
+                "targets": [
+                    "ES2006b.D.argumentstructs.Erik.4",
+                    "ES2006b.A.argumentstructs.Erik.6"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "NONE",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2006b.D.argumentstructs.Erik.4",
+                "speaker": "D",
+                "start_time": 1723.7,
+                "end_time": 1724.01,
+                "sentence": "Yeah.",
+                "source": "ES2006b.C.argumentstructs.Erik.7",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.7",
+                    "speaker": "C",
+                    "start_time": 1720.7,
+                    "end_time": 1731.19,
+                    "sentence": "Yeah, if we ta if we take fifteen to thirty five, but that then does imply that we should try and incorporate voice recognition. Is that gonna have a  an implication for the technical specs ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006b.D.argumentstructs.Erik.4",
+                        "ES2006b.A.argumentstructs.Erik.6"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006b.D.argumentstructs.Erik.4\n- Index: 1\n- Speaker: D\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.C.argumentstructs.Erik.7 (Index: 0, Speaker: C): \"Yeah, if we ta if we take fifteen to thirty five, but that then does imply that we should try and incorporate voice recognition. Is that gonna have a  an implication for the technical specs ?\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.C.argumentstructs.Erik.7",
+            "ans": "ES2006b.C.argumentstructs.Erik.7",
+            "judgement": true
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 2,
+                "ae_id": "ES2006b.A.argumentstructs.Erik.6",
+                "speaker": "A",
+                "start_time": 1727.42,
+                "end_time": 1744.843,
+                "sentence": "Um  I was having a a general outlook on um m most like sophisticated features, but voice recognition itself I'm not very sure about, because one of the p uh things that Cat pointed out was uh uh how do we go about implementing it ? Uh and uh",
+                "source": "ES2006b.C.argumentstructs.Erik.7",
+                "targets": [
+                    "ES2006b.B.argumentstructs.Erik.9"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.7",
+                    "speaker": "C",
+                    "start_time": 1720.7,
+                    "end_time": 1731.19,
+                    "sentence": "Yeah, if we ta if we take fifteen to thirty five, but that then does imply that we should try and incorporate voice recognition. Is that gonna have a  an implication for the technical specs ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006b.D.argumentstructs.Erik.4",
+                        "ES2006b.A.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 1723.7,
+                    "end_time": 1724.01,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006b.A.argumentstructs.Erik.6\n- Index: 2\n- Speaker: A\n- Sentence: \"Um  I was having a a general outlook on um m most like sophisticated features, but voice recognition itself I'm not very sure about, because one of the p uh things that Cat pointed out was uh uh how do we go about implementing it ? Uh and uh\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.C.argumentstructs.Erik.7 (Index: 0, Speaker: C): \"Yeah, if we ta if we take fifteen to thirty five, but that then does imply that we should try and incorporate voice recognition. Is that gonna have a  an implication for the technical specs ?\"\nAE_ID ES2006b.D.argumentstructs.Erik.4 (Index: 1, Speaker: D): \"Yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.D.argumentstructs.Erik.4",
+            "ans": "ES2006b.C.argumentstructs.Erik.7",
+            "judgement": false
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 3,
+                "ae_id": "ES2006b.B.argumentstructs.Erik.9",
+                "speaker": "B",
+                "start_time": 1744.0,
+                "end_time": 1751.81,
+                "sentence": "You do have it in your mobile phone though, don't you ? Because you have like  I mean every mobile phone now has like call this person and it calls them.",
+                "source": "ES2006b.A.argumentstructs.Erik.6",
+                "targets": [
+                    "ES2006b.C.argumentstructs.Erik.8",
+                    "ES2006b.A.argumentstructs.Erik.7",
+                    "ES2006b.A.argumentstructs.Erik.8"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.7",
+                    "speaker": "C",
+                    "start_time": 1720.7,
+                    "end_time": 1731.19,
+                    "sentence": "Yeah, if we ta if we take fifteen to thirty five, but that then does imply that we should try and incorporate voice recognition. Is that gonna have a  an implication for the technical specs ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006b.D.argumentstructs.Erik.4",
+                        "ES2006b.A.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 1723.7,
+                    "end_time": 1724.01,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 1727.42,
+                    "end_time": 1744.843,
+                    "sentence": "Um  I was having a a general outlook on um m most like sophisticated features, but voice recognition itself I'm not very sure about, because one of the p uh things that Cat pointed out was uh uh how do we go about implementing it ? Uh and uh",
+                    "source": "ES2006b.C.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.9"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006b.B.argumentstructs.Erik.9\n- Index: 3\n- Speaker: B\n- Sentence: \"You do have it in your mobile phone though, don't you ? Because you have like  I mean every mobile phone now has like call this person and it calls them.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.C.argumentstructs.Erik.7 (Index: 0, Speaker: C): \"Yeah, if we ta if we take fifteen to thirty five, but that then does imply that we should try and incorporate voice recognition. Is that gonna have a  an implication for the technical specs ?\"\nAE_ID ES2006b.D.argumentstructs.Erik.4 (Index: 1, Speaker: D): \"Yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.6 (Index: 2, Speaker: A): \"Um  I was having a a general outlook on um m most like sophisticated features, but voice recognition itself I'm not very sure about, because one of the p uh things that Cat pointed out was uh uh how do we go about implementing it ? Uh and uh\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.A.argumentstructs.Erik.6",
+            "ans": "ES2006b.A.argumentstructs.Erik.6",
+            "judgement": true
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 4,
+                "ae_id": "ES2006b.C.argumentstructs.Erik.8",
+                "speaker": "C",
+                "start_time": 1747.59,
+                "end_time": 1748.11,
+                "sentence": "Yeah.",
+                "source": "ES2006b.B.argumentstructs.Erik.9",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.7",
+                    "speaker": "C",
+                    "start_time": 1720.7,
+                    "end_time": 1731.19,
+                    "sentence": "Yeah, if we ta if we take fifteen to thirty five, but that then does imply that we should try and incorporate voice recognition. Is that gonna have a  an implication for the technical specs ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006b.D.argumentstructs.Erik.4",
+                        "ES2006b.A.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 1723.7,
+                    "end_time": 1724.01,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 1727.42,
+                    "end_time": 1744.843,
+                    "sentence": "Um  I was having a a general outlook on um m most like sophisticated features, but voice recognition itself I'm not very sure about, because one of the p uh things that Cat pointed out was uh uh how do we go about implementing it ? Uh and uh",
+                    "source": "ES2006b.C.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 1744.0,
+                    "end_time": 1751.81,
+                    "sentence": "You do have it in your mobile phone though, don't you ? Because you have like  I mean every mobile phone now has like call this person and it calls them.",
+                    "source": "ES2006b.A.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.8",
+                        "ES2006b.A.argumentstructs.Erik.7",
+                        "ES2006b.A.argumentstructs.Erik.8"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006b.C.argumentstructs.Erik.8\n- Index: 4\n- Speaker: C\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.C.argumentstructs.Erik.7 (Index: 0, Speaker: C): \"Yeah, if we ta if we take fifteen to thirty five, but that then does imply that we should try and incorporate voice recognition. Is that gonna have a  an implication for the technical specs ?\"\nAE_ID ES2006b.D.argumentstructs.Erik.4 (Index: 1, Speaker: D): \"Yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.6 (Index: 2, Speaker: A): \"Um  I was having a a general outlook on um m most like sophisticated features, but voice recognition itself I'm not very sure about, because one of the p uh things that Cat pointed out was uh uh how do we go about implementing it ? Uh and uh\"\nAE_ID ES2006b.B.argumentstructs.Erik.9 (Index: 3, Speaker: B): \"You do have it in your mobile phone though, don't you ? Because you have like  I mean every mobile phone now has like call this person and it calls them.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.B.argumentstructs.Erik.9",
+            "ans": "ES2006b.B.argumentstructs.Erik.9",
+            "judgement": true
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 5,
+                "ae_id": "ES2006b.A.argumentstructs.Erik.7",
+                "speaker": "A",
+                "start_time": 1750.76,
+                "end_time": 1751.52,
+                "sentence": "Yeah.",
+                "source": "ES2006b.B.argumentstructs.Erik.9",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.7",
+                    "speaker": "C",
+                    "start_time": 1720.7,
+                    "end_time": 1731.19,
+                    "sentence": "Yeah, if we ta if we take fifteen to thirty five, but that then does imply that we should try and incorporate voice recognition. Is that gonna have a  an implication for the technical specs ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006b.D.argumentstructs.Erik.4",
+                        "ES2006b.A.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 1723.7,
+                    "end_time": 1724.01,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 1727.42,
+                    "end_time": 1744.843,
+                    "sentence": "Um  I was having a a general outlook on um m most like sophisticated features, but voice recognition itself I'm not very sure about, because one of the p uh things that Cat pointed out was uh uh how do we go about implementing it ? Uh and uh",
+                    "source": "ES2006b.C.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 1744.0,
+                    "end_time": 1751.81,
+                    "sentence": "You do have it in your mobile phone though, don't you ? Because you have like  I mean every mobile phone now has like call this person and it calls them.",
+                    "source": "ES2006b.A.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.8",
+                        "ES2006b.A.argumentstructs.Erik.7",
+                        "ES2006b.A.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.8",
+                    "speaker": "C",
+                    "start_time": 1747.59,
+                    "end_time": 1748.11,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006b.A.argumentstructs.Erik.7\n- Index: 5\n- Speaker: A\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.C.argumentstructs.Erik.7 (Index: 0, Speaker: C): \"Yeah, if we ta if we take fifteen to thirty five, but that then does imply that we should try and incorporate voice recognition. Is that gonna have a  an implication for the technical specs ?\"\nAE_ID ES2006b.D.argumentstructs.Erik.4 (Index: 1, Speaker: D): \"Yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.6 (Index: 2, Speaker: A): \"Um  I was having a a general outlook on um m most like sophisticated features, but voice recognition itself I'm not very sure about, because one of the p uh things that Cat pointed out was uh uh how do we go about implementing it ? Uh and uh\"\nAE_ID ES2006b.B.argumentstructs.Erik.9 (Index: 3, Speaker: B): \"You do have it in your mobile phone though, don't you ? Because you have like  I mean every mobile phone now has like call this person and it calls them.\"\nAE_ID ES2006b.C.argumentstructs.Erik.8 (Index: 4, Speaker: C): \"Yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.C.argumentstructs.Erik.8",
+            "ans": "ES2006b.B.argumentstructs.Erik.9",
+            "judgement": false
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 6,
+                "ae_id": "ES2006b.A.argumentstructs.Erik.8",
+                "speaker": "A",
+                "start_time": 1751.52,
+                "end_time": 1759.968,
+                "sentence": "But how frequently do we use it anyway and um uh h ho how good is it, you know uh voice recognition softwares are still quite uh",
+                "source": "ES2006b.B.argumentstructs.Erik.9",
+                "targets": [
+                    "ES2006b.D.argumentstructs.Erik.5",
+                    "ES2006b.B.argumentstructs.Erik.10",
+                    "ES2006b.C.argumentstructs.Erik.9"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 1723.7,
+                    "end_time": 1724.01,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.7",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 1727.42,
+                    "end_time": 1744.843,
+                    "sentence": "Um  I was having a a general outlook on um m most like sophisticated features, but voice recognition itself I'm not very sure about, because one of the p uh things that Cat pointed out was uh uh how do we go about implementing it ? Uh and uh",
+                    "source": "ES2006b.C.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 1744.0,
+                    "end_time": 1751.81,
+                    "sentence": "You do have it in your mobile phone though, don't you ? Because you have like  I mean every mobile phone now has like call this person and it calls them.",
+                    "source": "ES2006b.A.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.8",
+                        "ES2006b.A.argumentstructs.Erik.7",
+                        "ES2006b.A.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.8",
+                    "speaker": "C",
+                    "start_time": 1747.59,
+                    "end_time": 1748.11,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.7",
+                    "speaker": "A",
+                    "start_time": 1750.76,
+                    "end_time": 1751.52,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006b.A.argumentstructs.Erik.8\n- Index: 6\n- Speaker: A\n- Sentence: \"But how frequently do we use it anyway and um uh h ho how good is it, you know uh voice recognition softwares are still quite uh\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.D.argumentstructs.Erik.4 (Index: 1, Speaker: D): \"Yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.6 (Index: 2, Speaker: A): \"Um  I was having a a general outlook on um m most like sophisticated features, but voice recognition itself I'm not very sure about, because one of the p uh things that Cat pointed out was uh uh how do we go about implementing it ? Uh and uh\"\nAE_ID ES2006b.B.argumentstructs.Erik.9 (Index: 3, Speaker: B): \"You do have it in your mobile phone though, don't you ? Because you have like  I mean every mobile phone now has like call this person and it calls them.\"\nAE_ID ES2006b.C.argumentstructs.Erik.8 (Index: 4, Speaker: C): \"Yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.7 (Index: 5, Speaker: A): \"Yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.A.argumentstructs.Erik.7",
+            "ans": "ES2006b.B.argumentstructs.Erik.9",
+            "judgement": false
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 7,
+                "ae_id": "ES2006b.D.argumentstructs.Erik.5",
+                "speaker": "D",
+                "start_time": 1752.13,
+                "end_time": 1752.52,
+                "sentence": "Yeah.",
+                "source": "ES2006b.A.argumentstructs.Erik.8",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 2,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.6",
+                    "speaker": "A",
+                    "start_time": 1727.42,
+                    "end_time": 1744.843,
+                    "sentence": "Um  I was having a a general outlook on um m most like sophisticated features, but voice recognition itself I'm not very sure about, because one of the p uh things that Cat pointed out was uh uh how do we go about implementing it ? Uh and uh",
+                    "source": "ES2006b.C.argumentstructs.Erik.7",
+                    "targets": [
+                        "ES2006b.B.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 1744.0,
+                    "end_time": 1751.81,
+                    "sentence": "You do have it in your mobile phone though, don't you ? Because you have like  I mean every mobile phone now has like call this person and it calls them.",
+                    "source": "ES2006b.A.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.8",
+                        "ES2006b.A.argumentstructs.Erik.7",
+                        "ES2006b.A.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.8",
+                    "speaker": "C",
+                    "start_time": 1747.59,
+                    "end_time": 1748.11,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.7",
+                    "speaker": "A",
+                    "start_time": 1750.76,
+                    "end_time": 1751.52,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.8",
+                    "speaker": "A",
+                    "start_time": 1751.52,
+                    "end_time": 1759.968,
+                    "sentence": "But how frequently do we use it anyway and um uh h ho how good is it, you know uh voice recognition softwares are still quite uh",
+                    "source": "ES2006b.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2006b.D.argumentstructs.Erik.5",
+                        "ES2006b.B.argumentstructs.Erik.10",
+                        "ES2006b.C.argumentstructs.Erik.9"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006b.D.argumentstructs.Erik.5\n- Index: 7\n- Speaker: D\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.A.argumentstructs.Erik.6 (Index: 2, Speaker: A): \"Um  I was having a a general outlook on um m most like sophisticated features, but voice recognition itself I'm not very sure about, because one of the p uh things that Cat pointed out was uh uh how do we go about implementing it ? Uh and uh\"\nAE_ID ES2006b.B.argumentstructs.Erik.9 (Index: 3, Speaker: B): \"You do have it in your mobile phone though, don't you ? Because you have like  I mean every mobile phone now has like call this person and it calls them.\"\nAE_ID ES2006b.C.argumentstructs.Erik.8 (Index: 4, Speaker: C): \"Yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.7 (Index: 5, Speaker: A): \"Yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.8 (Index: 6, Speaker: A): \"But how frequently do we use it anyway and um uh h ho how good is it, you know uh voice recognition softwares are still quite uh\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.A.argumentstructs.Erik.8",
+            "ans": "ES2006b.A.argumentstructs.Erik.8",
+            "judgement": true
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 8,
+                "ae_id": "ES2006b.B.argumentstructs.Erik.10",
+                "speaker": "B",
+                "start_time": 1758.56,
+                "end_time": 1759.02,
+                "sentence": "I don't know.",
+                "source": "ES2006b.A.argumentstructs.Erik.8",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 3,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.9",
+                    "speaker": "B",
+                    "start_time": 1744.0,
+                    "end_time": 1751.81,
+                    "sentence": "You do have it in your mobile phone though, don't you ? Because you have like  I mean every mobile phone now has like call this person and it calls them.",
+                    "source": "ES2006b.A.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2006b.C.argumentstructs.Erik.8",
+                        "ES2006b.A.argumentstructs.Erik.7",
+                        "ES2006b.A.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.8",
+                    "speaker": "C",
+                    "start_time": 1747.59,
+                    "end_time": 1748.11,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.7",
+                    "speaker": "A",
+                    "start_time": 1750.76,
+                    "end_time": 1751.52,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.8",
+                    "speaker": "A",
+                    "start_time": 1751.52,
+                    "end_time": 1759.968,
+                    "sentence": "But how frequently do we use it anyway and um uh h ho how good is it, you know uh voice recognition softwares are still quite uh",
+                    "source": "ES2006b.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2006b.D.argumentstructs.Erik.5",
+                        "ES2006b.B.argumentstructs.Erik.10",
+                        "ES2006b.C.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 1752.13,
+                    "end_time": 1752.52,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006b.B.argumentstructs.Erik.10\n- Index: 8\n- Speaker: B\n- Sentence: \"I don't know.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.B.argumentstructs.Erik.9 (Index: 3, Speaker: B): \"You do have it in your mobile phone though, don't you ? Because you have like  I mean every mobile phone now has like call this person and it calls them.\"\nAE_ID ES2006b.C.argumentstructs.Erik.8 (Index: 4, Speaker: C): \"Yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.7 (Index: 5, Speaker: A): \"Yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.8 (Index: 6, Speaker: A): \"But how frequently do we use it anyway and um uh h ho how good is it, you know uh voice recognition softwares are still quite uh\"\nAE_ID ES2006b.D.argumentstructs.Erik.5 (Index: 7, Speaker: D): \"Yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.D.argumentstructs.Erik.5",
+            "ans": "ES2006b.A.argumentstructs.Erik.8",
+            "judgement": false
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 9,
+                "ae_id": "ES2006b.A.argumentstructs.Erik.9",
+                "speaker": "A",
+                "start_time": 1766.63,
+                "end_time": 1767.33,
+                "sentence": "Yeah.",
+                "source": "ES2006b.C.argumentstructs.Erik.9",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 4,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.8",
+                    "speaker": "C",
+                    "start_time": 1747.59,
+                    "end_time": 1748.11,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.7",
+                    "speaker": "A",
+                    "start_time": 1750.76,
+                    "end_time": 1751.52,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.8",
+                    "speaker": "A",
+                    "start_time": 1751.52,
+                    "end_time": 1759.968,
+                    "sentence": "But how frequently do we use it anyway and um uh h ho how good is it, you know uh voice recognition softwares are still quite uh",
+                    "source": "ES2006b.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2006b.D.argumentstructs.Erik.5",
+                        "ES2006b.B.argumentstructs.Erik.10",
+                        "ES2006b.C.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 1752.13,
+                    "end_time": 1752.52,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 1758.56,
+                    "end_time": 1759.02,
+                    "sentence": "I don't know.",
+                    "source": "ES2006b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006b.A.argumentstructs.Erik.9\n- Index: 9\n- Speaker: A\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.C.argumentstructs.Erik.8 (Index: 4, Speaker: C): \"Yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.7 (Index: 5, Speaker: A): \"Yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.8 (Index: 6, Speaker: A): \"But how frequently do we use it anyway and um uh h ho how good is it, you know uh voice recognition softwares are still quite uh\"\nAE_ID ES2006b.D.argumentstructs.Erik.5 (Index: 7, Speaker: D): \"Yeah.\"\nAE_ID ES2006b.B.argumentstructs.Erik.10 (Index: 8, Speaker: B): \"I don't know.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.B.argumentstructs.Erik.10",
+            "ans": "ES2006b.C.argumentstructs.Erik.9",
+            "judgement": false
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 10,
+                "ae_id": "ES2006b.D.argumentstructs.Erik.6",
+                "speaker": "D",
+                "start_time": 1767.94,
+                "end_time": 1768.27,
+                "sentence": "Yeah.",
+                "source": "ES2006b.C.argumentstructs.Erik.9",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 5,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.7",
+                    "speaker": "A",
+                    "start_time": 1750.76,
+                    "end_time": 1751.52,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.8",
+                    "speaker": "A",
+                    "start_time": 1751.52,
+                    "end_time": 1759.968,
+                    "sentence": "But how frequently do we use it anyway and um uh h ho how good is it, you know uh voice recognition softwares are still quite uh",
+                    "source": "ES2006b.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2006b.D.argumentstructs.Erik.5",
+                        "ES2006b.B.argumentstructs.Erik.10",
+                        "ES2006b.C.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 1752.13,
+                    "end_time": 1752.52,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 1758.56,
+                    "end_time": 1759.02,
+                    "sentence": "I don't know.",
+                    "source": "ES2006b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.9",
+                    "speaker": "A",
+                    "start_time": 1766.63,
+                    "end_time": 1767.33,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006b.D.argumentstructs.Erik.6\n- Index: 10\n- Speaker: D\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.A.argumentstructs.Erik.7 (Index: 5, Speaker: A): \"Yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.8 (Index: 6, Speaker: A): \"But how frequently do we use it anyway and um uh h ho how good is it, you know uh voice recognition softwares are still quite uh\"\nAE_ID ES2006b.D.argumentstructs.Erik.5 (Index: 7, Speaker: D): \"Yeah.\"\nAE_ID ES2006b.B.argumentstructs.Erik.10 (Index: 8, Speaker: B): \"I don't know.\"\nAE_ID ES2006b.A.argumentstructs.Erik.9 (Index: 9, Speaker: A): \"Yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.A.argumentstructs.Erik.9",
+            "ans": "ES2006b.C.argumentstructs.Erik.9",
+            "judgement": false
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 11,
+                "ae_id": "ES2006b.B.argumentstructs.Erik.11",
+                "speaker": "B",
+                "start_time": 1769.04,
+                "end_time": 1769.52,
+                "sentence": "Yeah.",
+                "source": "ES2006b.C.argumentstructs.Erik.9",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 6,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.8",
+                    "speaker": "A",
+                    "start_time": 1751.52,
+                    "end_time": 1759.968,
+                    "sentence": "But how frequently do we use it anyway and um uh h ho how good is it, you know uh voice recognition softwares are still quite uh",
+                    "source": "ES2006b.B.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2006b.D.argumentstructs.Erik.5",
+                        "ES2006b.B.argumentstructs.Erik.10",
+                        "ES2006b.C.argumentstructs.Erik.9"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 1752.13,
+                    "end_time": 1752.52,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 1758.56,
+                    "end_time": 1759.02,
+                    "sentence": "I don't know.",
+                    "source": "ES2006b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.9",
+                    "speaker": "A",
+                    "start_time": 1766.63,
+                    "end_time": 1767.33,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.6",
+                    "speaker": "D",
+                    "start_time": 1767.94,
+                    "end_time": 1768.27,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006b.B.argumentstructs.Erik.11\n- Index: 11\n- Speaker: B\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.A.argumentstructs.Erik.8 (Index: 6, Speaker: A): \"But how frequently do we use it anyway and um uh h ho how good is it, you know uh voice recognition softwares are still quite uh\"\nAE_ID ES2006b.D.argumentstructs.Erik.5 (Index: 7, Speaker: D): \"Yeah.\"\nAE_ID ES2006b.B.argumentstructs.Erik.10 (Index: 8, Speaker: B): \"I don't know.\"\nAE_ID ES2006b.A.argumentstructs.Erik.9 (Index: 9, Speaker: A): \"Yeah.\"\nAE_ID ES2006b.D.argumentstructs.Erik.6 (Index: 10, Speaker: D): \"Yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.D.argumentstructs.Erik.6",
+            "ans": "ES2006b.C.argumentstructs.Erik.9",
+            "judgement": false
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 12,
+                "ae_id": "ES2006b.C.argumentstructs.Erik.9",
+                "speaker": "C",
+                "start_time": 1770.94,
+                "end_time": 1774.12,
+                "sentence": "louder, tha that should be relatively simple.",
+                "source": "ES2006b.A.argumentstructs.Erik.8",
+                "targets": [
+                    "ES2006b.A.argumentstructs.Erik.9",
+                    "ES2006b.D.argumentstructs.Erik.6",
+                    "ES2006b.B.argumentstructs.Erik.11",
+                    "ES2006b.B.argumentstructs.Erik.12"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 7,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 1752.13,
+                    "end_time": 1752.52,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 1758.56,
+                    "end_time": 1759.02,
+                    "sentence": "I don't know.",
+                    "source": "ES2006b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.9",
+                    "speaker": "A",
+                    "start_time": 1766.63,
+                    "end_time": 1767.33,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.6",
+                    "speaker": "D",
+                    "start_time": 1767.94,
+                    "end_time": 1768.27,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 1769.04,
+                    "end_time": 1769.52,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006b.C.argumentstructs.Erik.9\n- Index: 12\n- Speaker: C\n- Sentence: \"louder, tha that should be relatively simple.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.D.argumentstructs.Erik.5 (Index: 7, Speaker: D): \"Yeah.\"\nAE_ID ES2006b.B.argumentstructs.Erik.10 (Index: 8, Speaker: B): \"I don't know.\"\nAE_ID ES2006b.A.argumentstructs.Erik.9 (Index: 9, Speaker: A): \"Yeah.\"\nAE_ID ES2006b.D.argumentstructs.Erik.6 (Index: 10, Speaker: D): \"Yeah.\"\nAE_ID ES2006b.B.argumentstructs.Erik.11 (Index: 11, Speaker: B): \"Yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.B.argumentstructs.Erik.11",
+            "ans": "ES2006b.A.argumentstructs.Erik.8",
+            "judgement": false
+        },
+        {
+            "turn_number": 13,
+            "current_node": {
+                "index": 13,
+                "ae_id": "ES2006b.B.argumentstructs.Erik.12",
+                "speaker": "B",
+                "start_time": 1774.23,
+                "end_time": 1797.29,
+                "sentence": "y you'd maybe need a code word. Do you know what I mean ? So like when you say change, except that's  being said quite a lot on T_V_, so maybe like, you know, remote. I mean how often do people say remote on T_V_ ? Although I only watch Charmed, so really  I wouldn't know but like so you'd just say remote five, you know, remote ten, remote one two nine.",
+                "source": "ES2006b.C.argumentstructs.Erik.9",
+                "targets": [
+                    "ES2006b.A.argumentstructs.Erik.10",
+                    "ES2006b.C.argumentstructs.Erik.10",
+                    "ES2006b.A.argumentstructs.Erik.11"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 8,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.10",
+                    "speaker": "B",
+                    "start_time": 1758.56,
+                    "end_time": 1759.02,
+                    "sentence": "I don't know.",
+                    "source": "ES2006b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.9",
+                    "speaker": "A",
+                    "start_time": 1766.63,
+                    "end_time": 1767.33,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.6",
+                    "speaker": "D",
+                    "start_time": 1767.94,
+                    "end_time": 1768.27,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 1769.04,
+                    "end_time": 1769.52,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.9",
+                    "speaker": "C",
+                    "start_time": 1770.94,
+                    "end_time": 1774.12,
+                    "sentence": "louder, tha that should be relatively simple.",
+                    "source": "ES2006b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2006b.A.argumentstructs.Erik.9",
+                        "ES2006b.D.argumentstructs.Erik.6",
+                        "ES2006b.B.argumentstructs.Erik.11",
+                        "ES2006b.B.argumentstructs.Erik.12"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006b.B.argumentstructs.Erik.12\n- Index: 13\n- Speaker: B\n- Sentence: \"y you'd maybe need a code word. Do you know what I mean ? So like when you say change, except that's  being said quite a lot on T_V_, so maybe like, you know, remote. I mean how often do people say remote on T_V_ ? Although I only watch Charmed, so really  I wouldn't know but like so you'd just say remote five, you know, remote ten, remote one two nine.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.B.argumentstructs.Erik.10 (Index: 8, Speaker: B): \"I don't know.\"\nAE_ID ES2006b.A.argumentstructs.Erik.9 (Index: 9, Speaker: A): \"Yeah.\"\nAE_ID ES2006b.D.argumentstructs.Erik.6 (Index: 10, Speaker: D): \"Yeah.\"\nAE_ID ES2006b.B.argumentstructs.Erik.11 (Index: 11, Speaker: B): \"Yeah.\"\nAE_ID ES2006b.C.argumentstructs.Erik.9 (Index: 12, Speaker: C): \"louder, tha that should be relatively simple.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.C.argumentstructs.Erik.9",
+            "ans": "ES2006b.C.argumentstructs.Erik.9",
+            "judgement": true
+        },
+        {
+            "turn_number": 14,
+            "current_node": {
+                "index": 14,
+                "ae_id": "ES2006b.A.argumentstructs.Erik.10",
+                "speaker": "A",
+                "start_time": 1776.59,
+                "end_time": 1776.95,
+                "sentence": "Right.",
+                "source": "ES2006b.B.argumentstructs.Erik.12",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 9,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.9",
+                    "speaker": "A",
+                    "start_time": 1766.63,
+                    "end_time": 1767.33,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.6",
+                    "speaker": "D",
+                    "start_time": 1767.94,
+                    "end_time": 1768.27,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 1769.04,
+                    "end_time": 1769.52,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.9",
+                    "speaker": "C",
+                    "start_time": 1770.94,
+                    "end_time": 1774.12,
+                    "sentence": "louder, tha that should be relatively simple.",
+                    "source": "ES2006b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2006b.A.argumentstructs.Erik.9",
+                        "ES2006b.D.argumentstructs.Erik.6",
+                        "ES2006b.B.argumentstructs.Erik.11",
+                        "ES2006b.B.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 1774.23,
+                    "end_time": 1797.29,
+                    "sentence": "y you'd maybe need a code word. Do you know what I mean ? So like when you say change, except that's  being said quite a lot on T_V_, so maybe like, you know, remote. I mean how often do people say remote on T_V_ ? Although I only watch Charmed, so really  I wouldn't know but like so you'd just say remote five, you know, remote ten, remote one two nine.",
+                    "source": "ES2006b.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2006b.A.argumentstructs.Erik.10",
+                        "ES2006b.C.argumentstructs.Erik.10",
+                        "ES2006b.A.argumentstructs.Erik.11"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006b.A.argumentstructs.Erik.10\n- Index: 14\n- Speaker: A\n- Sentence: \"Right.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.A.argumentstructs.Erik.9 (Index: 9, Speaker: A): \"Yeah.\"\nAE_ID ES2006b.D.argumentstructs.Erik.6 (Index: 10, Speaker: D): \"Yeah.\"\nAE_ID ES2006b.B.argumentstructs.Erik.11 (Index: 11, Speaker: B): \"Yeah.\"\nAE_ID ES2006b.C.argumentstructs.Erik.9 (Index: 12, Speaker: C): \"louder, tha that should be relatively simple.\"\nAE_ID ES2006b.B.argumentstructs.Erik.12 (Index: 13, Speaker: B): \"y you'd maybe need a code word. Do you know what I mean ? So like when you say change, except that's  being said quite a lot on T_V_, so maybe like, you know, remote. I mean how often do people say remote on T_V_ ? Although I only watch Charmed, so really  I wouldn't know but like so you'd just say remote five, you know, remote ten, remote one two nine.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.B.argumentstructs.Erik.12",
+            "ans": "ES2006b.B.argumentstructs.Erik.12",
+            "judgement": true
+        },
+        {
+            "turn_number": 15,
+            "current_node": {
+                "index": 15,
+                "ae_id": "ES2006b.C.argumentstructs.Erik.10",
+                "speaker": "C",
+                "start_time": 1786.04,
+                "end_time": 1786.72,
+                "sentence": "Yeah.",
+                "source": "ES2006b.B.argumentstructs.Erik.12",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 10,
+                    "ae_id": "ES2006b.D.argumentstructs.Erik.6",
+                    "speaker": "D",
+                    "start_time": 1767.94,
+                    "end_time": 1768.27,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 1769.04,
+                    "end_time": 1769.52,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.9",
+                    "speaker": "C",
+                    "start_time": 1770.94,
+                    "end_time": 1774.12,
+                    "sentence": "louder, tha that should be relatively simple.",
+                    "source": "ES2006b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2006b.A.argumentstructs.Erik.9",
+                        "ES2006b.D.argumentstructs.Erik.6",
+                        "ES2006b.B.argumentstructs.Erik.11",
+                        "ES2006b.B.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 1774.23,
+                    "end_time": 1797.29,
+                    "sentence": "y you'd maybe need a code word. Do you know what I mean ? So like when you say change, except that's  being said quite a lot on T_V_, so maybe like, you know, remote. I mean how often do people say remote on T_V_ ? Although I only watch Charmed, so really  I wouldn't know but like so you'd just say remote five, you know, remote ten, remote one two nine.",
+                    "source": "ES2006b.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2006b.A.argumentstructs.Erik.10",
+                        "ES2006b.C.argumentstructs.Erik.10",
+                        "ES2006b.A.argumentstructs.Erik.11"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.10",
+                    "speaker": "A",
+                    "start_time": 1776.59,
+                    "end_time": 1776.95,
+                    "sentence": "Right.",
+                    "source": "ES2006b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006b.C.argumentstructs.Erik.10\n- Index: 15\n- Speaker: C\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.D.argumentstructs.Erik.6 (Index: 10, Speaker: D): \"Yeah.\"\nAE_ID ES2006b.B.argumentstructs.Erik.11 (Index: 11, Speaker: B): \"Yeah.\"\nAE_ID ES2006b.C.argumentstructs.Erik.9 (Index: 12, Speaker: C): \"louder, tha that should be relatively simple.\"\nAE_ID ES2006b.B.argumentstructs.Erik.12 (Index: 13, Speaker: B): \"y you'd maybe need a code word. Do you know what I mean ? So like when you say change, except that's  being said quite a lot on T_V_, so maybe like, you know, remote. I mean how often do people say remote on T_V_ ? Although I only watch Charmed, so really  I wouldn't know but like so you'd just say remote five, you know, remote ten, remote one two nine.\"\nAE_ID ES2006b.A.argumentstructs.Erik.10 (Index: 14, Speaker: A): \"Right.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.A.argumentstructs.Erik.10",
+            "ans": "ES2006b.B.argumentstructs.Erik.12",
+            "judgement": false
+        },
+        {
+            "turn_number": 16,
+            "current_node": {
+                "index": 16,
+                "ae_id": "ES2006b.A.argumentstructs.Erik.11",
+                "speaker": "A",
+                "start_time": 1797.88,
+                "end_time": 1804.66,
+                "sentence": "Okay, so it seems like a feasible thing to implement uh for for a limited  yeah.",
+                "source": "ES2006b.B.argumentstructs.Erik.12",
+                "targets": [
+                    "ES2006b.D.argumentstructs.Erik.7"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 11,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.11",
+                    "speaker": "B",
+                    "start_time": 1769.04,
+                    "end_time": 1769.52,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.9",
+                    "speaker": "C",
+                    "start_time": 1770.94,
+                    "end_time": 1774.12,
+                    "sentence": "louder, tha that should be relatively simple.",
+                    "source": "ES2006b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2006b.A.argumentstructs.Erik.9",
+                        "ES2006b.D.argumentstructs.Erik.6",
+                        "ES2006b.B.argumentstructs.Erik.11",
+                        "ES2006b.B.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 1774.23,
+                    "end_time": 1797.29,
+                    "sentence": "y you'd maybe need a code word. Do you know what I mean ? So like when you say change, except that's  being said quite a lot on T_V_, so maybe like, you know, remote. I mean how often do people say remote on T_V_ ? Although I only watch Charmed, so really  I wouldn't know but like so you'd just say remote five, you know, remote ten, remote one two nine.",
+                    "source": "ES2006b.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2006b.A.argumentstructs.Erik.10",
+                        "ES2006b.C.argumentstructs.Erik.10",
+                        "ES2006b.A.argumentstructs.Erik.11"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.10",
+                    "speaker": "A",
+                    "start_time": 1776.59,
+                    "end_time": 1776.95,
+                    "sentence": "Right.",
+                    "source": "ES2006b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.10",
+                    "speaker": "C",
+                    "start_time": 1786.04,
+                    "end_time": 1786.72,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006b.A.argumentstructs.Erik.11\n- Index: 16\n- Speaker: A\n- Sentence: \"Okay, so it seems like a feasible thing to implement uh for for a limited  yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.B.argumentstructs.Erik.11 (Index: 11, Speaker: B): \"Yeah.\"\nAE_ID ES2006b.C.argumentstructs.Erik.9 (Index: 12, Speaker: C): \"louder, tha that should be relatively simple.\"\nAE_ID ES2006b.B.argumentstructs.Erik.12 (Index: 13, Speaker: B): \"y you'd maybe need a code word. Do you know what I mean ? So like when you say change, except that's  being said quite a lot on T_V_, so maybe like, you know, remote. I mean how often do people say remote on T_V_ ? Although I only watch Charmed, so really  I wouldn't know but like so you'd just say remote five, you know, remote ten, remote one two nine.\"\nAE_ID ES2006b.A.argumentstructs.Erik.10 (Index: 14, Speaker: A): \"Right.\"\nAE_ID ES2006b.C.argumentstructs.Erik.10 (Index: 15, Speaker: C): \"Yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.C.argumentstructs.Erik.10",
+            "ans": "ES2006b.B.argumentstructs.Erik.12",
+            "judgement": false
+        },
+        {
+            "turn_number": 17,
+            "current_node": {
+                "index": 17,
+                "ae_id": "ES2006b.D.argumentstructs.Erik.7",
+                "speaker": "D",
+                "start_time": 1799.06,
+                "end_time": 1799.31,
+                "sentence": "Yeah.",
+                "source": "ES2006b.A.argumentstructs.Erik.11",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 12,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.9",
+                    "speaker": "C",
+                    "start_time": 1770.94,
+                    "end_time": 1774.12,
+                    "sentence": "louder, tha that should be relatively simple.",
+                    "source": "ES2006b.A.argumentstructs.Erik.8",
+                    "targets": [
+                        "ES2006b.A.argumentstructs.Erik.9",
+                        "ES2006b.D.argumentstructs.Erik.6",
+                        "ES2006b.B.argumentstructs.Erik.11",
+                        "ES2006b.B.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2006b.B.argumentstructs.Erik.12",
+                    "speaker": "B",
+                    "start_time": 1774.23,
+                    "end_time": 1797.29,
+                    "sentence": "y you'd maybe need a code word. Do you know what I mean ? So like when you say change, except that's  being said quite a lot on T_V_, so maybe like, you know, remote. I mean how often do people say remote on T_V_ ? Although I only watch Charmed, so really  I wouldn't know but like so you'd just say remote five, you know, remote ten, remote one two nine.",
+                    "source": "ES2006b.C.argumentstructs.Erik.9",
+                    "targets": [
+                        "ES2006b.A.argumentstructs.Erik.10",
+                        "ES2006b.C.argumentstructs.Erik.10",
+                        "ES2006b.A.argumentstructs.Erik.11"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.10",
+                    "speaker": "A",
+                    "start_time": 1776.59,
+                    "end_time": 1776.95,
+                    "sentence": "Right.",
+                    "source": "ES2006b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2006b.C.argumentstructs.Erik.10",
+                    "speaker": "C",
+                    "start_time": 1786.04,
+                    "end_time": 1786.72,
+                    "sentence": "Yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2006b.A.argumentstructs.Erik.11",
+                    "speaker": "A",
+                    "start_time": 1797.88,
+                    "end_time": 1804.66,
+                    "sentence": "Okay, so it seems like a feasible thing to implement uh for for a limited  yeah.",
+                    "source": "ES2006b.B.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2006b.D.argumentstructs.Erik.7"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006b.D.argumentstructs.Erik.7\n- Index: 17\n- Speaker: D\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2006b.C.argumentstructs.Erik.9 (Index: 12, Speaker: C): \"louder, tha that should be relatively simple.\"\nAE_ID ES2006b.B.argumentstructs.Erik.12 (Index: 13, Speaker: B): \"y you'd maybe need a code word. Do you know what I mean ? So like when you say change, except that's  being said quite a lot on T_V_, so maybe like, you know, remote. I mean how often do people say remote on T_V_ ? Although I only watch Charmed, so really  I wouldn't know but like so you'd just say remote five, you know, remote ten, remote one two nine.\"\nAE_ID ES2006b.A.argumentstructs.Erik.10 (Index: 14, Speaker: A): \"Right.\"\nAE_ID ES2006b.C.argumentstructs.Erik.10 (Index: 15, Speaker: C): \"Yeah.\"\nAE_ID ES2006b.A.argumentstructs.Erik.11 (Index: 16, Speaker: A): \"Okay, so it seems like a feasible thing to implement uh for for a limited  yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006b.A.argumentstructs.Erik.11",
+            "ans": "ES2006b.A.argumentstructs.Erik.11",
+            "judgement": true
+        }
+    ]
+}

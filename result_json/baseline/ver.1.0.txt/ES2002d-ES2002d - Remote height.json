@@ -1,0 +1,1263 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2002d-ES2002d - Remote height.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "ver.1.0.txt",
+    "rate": 0.5625,
+    "total_node_count": 19,
+    "removed_node_count": 2,
+    "removed_node_list": [
+        {
+            "index": 0,
+            "ae_id": "ES2002d.C.argumentstructs.39",
+            "speaker": "C",
+            "start_time": 774.2,
+            "end_time": 795.36,
+            "sentence": "Yeah alright yeah fair enough. Okay, just thought I'd ask. Mm-hmm. Hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 4,
+            "ae_id": "ES2002d.A.argumentstructs.36",
+            "speaker": "A",
+            "start_time": 792.36,
+            "end_time": 792.62,
+            "sentence": "Yeah.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2002d.A.argumentstructs.Erik.16",
+                "speaker": "A",
+                "start_time": 777.91,
+                "end_time": 783.5,
+                "sentence": "So there's one more dimension to the thing which we need to to add, and you might want to add in the report, length, width, and height.",
+                "source": "NONE",
+                "targets": [
+                    "ES2002d.B.argumentstructs.Erik.16",
+                    "ES2002d.B.argumentstructs.Erik.18"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "NONE",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.16",
+                "speaker": "B",
+                "start_time": 784.01,
+                "end_time": 791.85,
+                "sentence": "Right okay. So just to well to be thorough then, width-wise we're looking at about what three centimetres or something ?",
+                "source": "ES2002d.A.argumentstructs.Erik.16",
+                "targets": [
+                    "ES2002d.A.argumentstructs.Erik.17"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.16",
+                    "speaker": "A",
+                    "start_time": 777.91,
+                    "end_time": 783.5,
+                    "sentence": "So there's one more dimension to the thing which we need to to add, and you might want to add in the report, length, width, and height.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.16",
+                        "ES2002d.B.argumentstructs.Erik.18"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.B.argumentstructs.Erik.16\n- Index: 1\n- Speaker: B\n- Sentence: \"Right okay. So just to well to be thorough then, width-wise we're looking at about what three centimetres or something ?\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.A.argumentstructs.Erik.16 (Index: 0, Speaker: A): \"So there's one more dimension to the thing which we need to to add, and you might want to add in the report, length, width, and height.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.A.argumentstructs.Erik.16",
+            "ans": "ES2002d.A.argumentstructs.Erik.16",
+            "judgement": true
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 2,
+                "ae_id": "ES2002d.A.argumentstructs.Erik.17",
+                "speaker": "A",
+                "start_time": 785.24,
+                "end_time": 785.44,
+                "sentence": "Yeah.",
+                "source": "ES2002d.B.argumentstructs.Erik.16",
+                "targets": [
+                    "ES2002d.B.argumentstructs.Erik.17"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.16",
+                    "speaker": "A",
+                    "start_time": 777.91,
+                    "end_time": 783.5,
+                    "sentence": "So there's one more dimension to the thing which we need to to add, and you might want to add in the report, length, width, and height.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.16",
+                        "ES2002d.B.argumentstructs.Erik.18"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.16",
+                    "speaker": "B",
+                    "start_time": 784.01,
+                    "end_time": 791.85,
+                    "sentence": "Right okay. So just to well to be thorough then, width-wise we're looking at about what three centimetres or something ?",
+                    "source": "ES2002d.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.17"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.A.argumentstructs.Erik.17\n- Index: 2\n- Speaker: A\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.A.argumentstructs.Erik.16 (Index: 0, Speaker: A): \"So there's one more dimension to the thing which we need to to add, and you might want to add in the report, length, width, and height.\"\nAE_ID ES2002d.B.argumentstructs.Erik.16 (Index: 1, Speaker: B): \"Right okay. So just to well to be thorough then, width-wise we're looking at about what three centimetres or something ?\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.16",
+            "ans": "ES2002d.B.argumentstructs.Erik.16",
+            "judgement": true
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 3,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.17",
+                "speaker": "B",
+                "start_time": 793.04,
+                "end_time": 796.752,
+                "sentence": "Okay and then so height-wise",
+                "source": "ES2002d.A.argumentstructs.Erik.17",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.16",
+                    "speaker": "A",
+                    "start_time": 777.91,
+                    "end_time": 783.5,
+                    "sentence": "So there's one more dimension to the thing which we need to to add, and you might want to add in the report, length, width, and height.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.16",
+                        "ES2002d.B.argumentstructs.Erik.18"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.16",
+                    "speaker": "B",
+                    "start_time": 784.01,
+                    "end_time": 791.85,
+                    "sentence": "Right okay. So just to well to be thorough then, width-wise we're looking at about what three centimetres or something ?",
+                    "source": "ES2002d.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.17"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.17",
+                    "speaker": "A",
+                    "start_time": 785.24,
+                    "end_time": 785.44,
+                    "sentence": "Yeah.",
+                    "source": "ES2002d.B.argumentstructs.Erik.16",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.17"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.B.argumentstructs.Erik.17\n- Index: 3\n- Speaker: B\n- Sentence: \"Okay and then so height-wise\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.A.argumentstructs.Erik.16 (Index: 0, Speaker: A): \"So there's one more dimension to the thing which we need to to add, and you might want to add in the report, length, width, and height.\"\nAE_ID ES2002d.B.argumentstructs.Erik.16 (Index: 1, Speaker: B): \"Right okay. So just to well to be thorough then, width-wise we're looking at about what three centimetres or something ?\"\nAE_ID ES2002d.A.argumentstructs.Erik.17 (Index: 2, Speaker: A): \"Yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.A.argumentstructs.Erik.17",
+            "ans": "ES2002d.A.argumentstructs.Erik.17",
+            "judgement": true
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 4,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.18",
+                "speaker": "B",
+                "start_time": 801.25,
+                "end_time": 805.0,
+                "sentence": "How how tall do you envisage it being ? About that big ?",
+                "source": "ES2002d.A.argumentstructs.Erik.16",
+                "targets": [
+                    "ES2002d.B.argumentstructs.Erik.19"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.16",
+                    "speaker": "A",
+                    "start_time": 777.91,
+                    "end_time": 783.5,
+                    "sentence": "So there's one more dimension to the thing which we need to to add, and you might want to add in the report, length, width, and height.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.16",
+                        "ES2002d.B.argumentstructs.Erik.18"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.16",
+                    "speaker": "B",
+                    "start_time": 784.01,
+                    "end_time": 791.85,
+                    "sentence": "Right okay. So just to well to be thorough then, width-wise we're looking at about what three centimetres or something ?",
+                    "source": "ES2002d.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.17"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.17",
+                    "speaker": "A",
+                    "start_time": 785.24,
+                    "end_time": 785.44,
+                    "sentence": "Yeah.",
+                    "source": "ES2002d.B.argumentstructs.Erik.16",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.17"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.17",
+                    "speaker": "B",
+                    "start_time": 793.04,
+                    "end_time": 796.752,
+                    "sentence": "Okay and then so height-wise",
+                    "source": "ES2002d.A.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.B.argumentstructs.Erik.18\n- Index: 4\n- Speaker: B\n- Sentence: \"How how tall do you envisage it being ? About that big ?\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.A.argumentstructs.Erik.16 (Index: 0, Speaker: A): \"So there's one more dimension to the thing which we need to to add, and you might want to add in the report, length, width, and height.\"\nAE_ID ES2002d.B.argumentstructs.Erik.16 (Index: 1, Speaker: B): \"Right okay. So just to well to be thorough then, width-wise we're looking at about what three centimetres or something ?\"\nAE_ID ES2002d.A.argumentstructs.Erik.17 (Index: 2, Speaker: A): \"Yeah.\"\nAE_ID ES2002d.B.argumentstructs.Erik.17 (Index: 3, Speaker: B): \"Okay and then so height-wise\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.17",
+            "ans": "ES2002d.A.argumentstructs.Erik.16",
+            "judgement": false
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 5,
+                "ae_id": "ES2002d.D.argumentstructs.Erik.9",
+                "speaker": "D",
+                "start_time": 804.05,
+                "end_time": 805.0,
+                "sentence": "Yeah it works, yeah.",
+                "source": "ES2002d.B.argumentstructs.Erik.19",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.16",
+                    "speaker": "A",
+                    "start_time": 777.91,
+                    "end_time": 783.5,
+                    "sentence": "So there's one more dimension to the thing which we need to to add, and you might want to add in the report, length, width, and height.",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.16",
+                        "ES2002d.B.argumentstructs.Erik.18"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.16",
+                    "speaker": "B",
+                    "start_time": 784.01,
+                    "end_time": 791.85,
+                    "sentence": "Right okay. So just to well to be thorough then, width-wise we're looking at about what three centimetres or something ?",
+                    "source": "ES2002d.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.17"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.17",
+                    "speaker": "A",
+                    "start_time": 785.24,
+                    "end_time": 785.44,
+                    "sentence": "Yeah.",
+                    "source": "ES2002d.B.argumentstructs.Erik.16",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.17"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.17",
+                    "speaker": "B",
+                    "start_time": 793.04,
+                    "end_time": 796.752,
+                    "sentence": "Okay and then so height-wise",
+                    "source": "ES2002d.A.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.18",
+                    "speaker": "B",
+                    "start_time": 801.25,
+                    "end_time": 805.0,
+                    "sentence": "How how tall do you envisage it being ? About that big ?",
+                    "source": "ES2002d.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.19"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.D.argumentstructs.Erik.9\n- Index: 5\n- Speaker: D\n- Sentence: \"Yeah it works, yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.A.argumentstructs.Erik.16 (Index: 0, Speaker: A): \"So there's one more dimension to the thing which we need to to add, and you might want to add in the report, length, width, and height.\"\nAE_ID ES2002d.B.argumentstructs.Erik.16 (Index: 1, Speaker: B): \"Right okay. So just to well to be thorough then, width-wise we're looking at about what three centimetres or something ?\"\nAE_ID ES2002d.A.argumentstructs.Erik.17 (Index: 2, Speaker: A): \"Yeah.\"\nAE_ID ES2002d.B.argumentstructs.Erik.17 (Index: 3, Speaker: B): \"Okay and then so height-wise\"\nAE_ID ES2002d.B.argumentstructs.Erik.18 (Index: 4, Speaker: B): \"How how tall do you envisage it being ? About that big ?\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.18",
+            "ans": "ES2002d.B.argumentstructs.Erik.19",
+            "judgement": false
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 6,
+                "ae_id": "ES2002d.A.argumentstructs.Erik.18",
+                "speaker": "A",
+                "start_time": 804.4,
+                "end_time": 804.57,
+                "sentence": "Two.",
+                "source": "ES2002d.B.argumentstructs.Erik.19",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.16",
+                    "speaker": "B",
+                    "start_time": 784.01,
+                    "end_time": 791.85,
+                    "sentence": "Right okay. So just to well to be thorough then, width-wise we're looking at about what three centimetres or something ?",
+                    "source": "ES2002d.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.17"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.17",
+                    "speaker": "A",
+                    "start_time": 785.24,
+                    "end_time": 785.44,
+                    "sentence": "Yeah.",
+                    "source": "ES2002d.B.argumentstructs.Erik.16",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.17"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.17",
+                    "speaker": "B",
+                    "start_time": 793.04,
+                    "end_time": 796.752,
+                    "sentence": "Okay and then so height-wise",
+                    "source": "ES2002d.A.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.18",
+                    "speaker": "B",
+                    "start_time": 801.25,
+                    "end_time": 805.0,
+                    "sentence": "How how tall do you envisage it being ? About that big ?",
+                    "source": "ES2002d.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.19"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.9",
+                    "speaker": "D",
+                    "start_time": 804.05,
+                    "end_time": 805.0,
+                    "sentence": "Yeah it works, yeah.",
+                    "source": "ES2002d.B.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.A.argumentstructs.Erik.18\n- Index: 6\n- Speaker: A\n- Sentence: \"Two.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.B.argumentstructs.Erik.16 (Index: 1, Speaker: B): \"Right okay. So just to well to be thorough then, width-wise we're looking at about what three centimetres or something ?\"\nAE_ID ES2002d.A.argumentstructs.Erik.17 (Index: 2, Speaker: A): \"Yeah.\"\nAE_ID ES2002d.B.argumentstructs.Erik.17 (Index: 3, Speaker: B): \"Okay and then so height-wise\"\nAE_ID ES2002d.B.argumentstructs.Erik.18 (Index: 4, Speaker: B): \"How how tall do you envisage it being ? About that big ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.9 (Index: 5, Speaker: D): \"Yeah it works, yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.D.argumentstructs.Erik.9",
+            "ans": "ES2002d.B.argumentstructs.Erik.19",
+            "judgement": false
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 7,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.19",
+                "speaker": "B",
+                "start_time": 805.0,
+                "end_time": 806.87,
+                "sentence": "About two centimetres, okay.",
+                "source": "ES2002d.B.argumentstructs.Erik.18",
+                "targets": [
+                    "ES2002d.D.argumentstructs.Erik.9",
+                    "ES2002d.A.argumentstructs.Erik.18",
+                    "ES2002d.C.argumentstructs.Erik.11"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 2,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.17",
+                    "speaker": "A",
+                    "start_time": 785.24,
+                    "end_time": 785.44,
+                    "sentence": "Yeah.",
+                    "source": "ES2002d.B.argumentstructs.Erik.16",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.17"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.17",
+                    "speaker": "B",
+                    "start_time": 793.04,
+                    "end_time": 796.752,
+                    "sentence": "Okay and then so height-wise",
+                    "source": "ES2002d.A.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.18",
+                    "speaker": "B",
+                    "start_time": 801.25,
+                    "end_time": 805.0,
+                    "sentence": "How how tall do you envisage it being ? About that big ?",
+                    "source": "ES2002d.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.19"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.9",
+                    "speaker": "D",
+                    "start_time": 804.05,
+                    "end_time": 805.0,
+                    "sentence": "Yeah it works, yeah.",
+                    "source": "ES2002d.B.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.18",
+                    "speaker": "A",
+                    "start_time": 804.4,
+                    "end_time": 804.57,
+                    "sentence": "Two.",
+                    "source": "ES2002d.B.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.B.argumentstructs.Erik.19\n- Index: 7\n- Speaker: B\n- Sentence: \"About two centimetres, okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.A.argumentstructs.Erik.17 (Index: 2, Speaker: A): \"Yeah.\"\nAE_ID ES2002d.B.argumentstructs.Erik.17 (Index: 3, Speaker: B): \"Okay and then so height-wise\"\nAE_ID ES2002d.B.argumentstructs.Erik.18 (Index: 4, Speaker: B): \"How how tall do you envisage it being ? About that big ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.9 (Index: 5, Speaker: D): \"Yeah it works, yeah.\"\nAE_ID ES2002d.A.argumentstructs.Erik.18 (Index: 6, Speaker: A): \"Two.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.A.argumentstructs.Erik.18",
+            "ans": "ES2002d.B.argumentstructs.Erik.18",
+            "judgement": false
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 8,
+                "ae_id": "ES2002d.C.argumentstructs.Erik.11",
+                "speaker": "C",
+                "start_time": 807.14,
+                "end_time": 809.29,
+                "sentence": "Two's not very high at all though.",
+                "source": "ES2002d.B.argumentstructs.Erik.19",
+                "targets": [
+                    "ES2002d.C.argumentstructs.Erik.12"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 3,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.17",
+                    "speaker": "B",
+                    "start_time": 793.04,
+                    "end_time": 796.752,
+                    "sentence": "Okay and then so height-wise",
+                    "source": "ES2002d.A.argumentstructs.Erik.17",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.18",
+                    "speaker": "B",
+                    "start_time": 801.25,
+                    "end_time": 805.0,
+                    "sentence": "How how tall do you envisage it being ? About that big ?",
+                    "source": "ES2002d.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.19"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.9",
+                    "speaker": "D",
+                    "start_time": 804.05,
+                    "end_time": 805.0,
+                    "sentence": "Yeah it works, yeah.",
+                    "source": "ES2002d.B.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.18",
+                    "speaker": "A",
+                    "start_time": 804.4,
+                    "end_time": 804.57,
+                    "sentence": "Two.",
+                    "source": "ES2002d.B.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.19",
+                    "speaker": "B",
+                    "start_time": 805.0,
+                    "end_time": 806.87,
+                    "sentence": "About two centimetres, okay.",
+                    "source": "ES2002d.B.argumentstructs.Erik.18",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.9",
+                        "ES2002d.A.argumentstructs.Erik.18",
+                        "ES2002d.C.argumentstructs.Erik.11"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.C.argumentstructs.Erik.11\n- Index: 8\n- Speaker: C\n- Sentence: \"Two's not very high at all though.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.B.argumentstructs.Erik.17 (Index: 3, Speaker: B): \"Okay and then so height-wise\"\nAE_ID ES2002d.B.argumentstructs.Erik.18 (Index: 4, Speaker: B): \"How how tall do you envisage it being ? About that big ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.9 (Index: 5, Speaker: D): \"Yeah it works, yeah.\"\nAE_ID ES2002d.A.argumentstructs.Erik.18 (Index: 6, Speaker: A): \"Two.\"\nAE_ID ES2002d.B.argumentstructs.Erik.19 (Index: 7, Speaker: B): \"About two centimetres, okay.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.19",
+            "ans": "ES2002d.B.argumentstructs.Erik.19",
+            "judgement": true
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 9,
+                "ae_id": "ES2002d.C.argumentstructs.Erik.12",
+                "speaker": "C",
+                "start_time": 809.29,
+                "end_time": 810.03,
+                "sentence": "Maybe a bit higher ?",
+                "source": "ES2002d.C.argumentstructs.Erik.11",
+                "targets": [
+                    "ES2002d.A.argumentstructs.Erik.19",
+                    "ES2002d.C.argumentstructs.Erik.13",
+                    "ES2002d.D.argumentstructs.Erik.10"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 4,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.18",
+                    "speaker": "B",
+                    "start_time": 801.25,
+                    "end_time": 805.0,
+                    "sentence": "How how tall do you envisage it being ? About that big ?",
+                    "source": "ES2002d.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.19"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.9",
+                    "speaker": "D",
+                    "start_time": 804.05,
+                    "end_time": 805.0,
+                    "sentence": "Yeah it works, yeah.",
+                    "source": "ES2002d.B.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.18",
+                    "speaker": "A",
+                    "start_time": 804.4,
+                    "end_time": 804.57,
+                    "sentence": "Two.",
+                    "source": "ES2002d.B.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.19",
+                    "speaker": "B",
+                    "start_time": 805.0,
+                    "end_time": 806.87,
+                    "sentence": "About two centimetres, okay.",
+                    "source": "ES2002d.B.argumentstructs.Erik.18",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.9",
+                        "ES2002d.A.argumentstructs.Erik.18",
+                        "ES2002d.C.argumentstructs.Erik.11"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.11",
+                    "speaker": "C",
+                    "start_time": 807.14,
+                    "end_time": 809.29,
+                    "sentence": "Two's not very high at all though.",
+                    "source": "ES2002d.B.argumentstructs.Erik.19",
+                    "targets": [
+                        "ES2002d.C.argumentstructs.Erik.12"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.C.argumentstructs.Erik.12\n- Index: 9\n- Speaker: C\n- Sentence: \"Maybe a bit higher ?\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.B.argumentstructs.Erik.18 (Index: 4, Speaker: B): \"How how tall do you envisage it being ? About that big ?\"\nAE_ID ES2002d.D.argumentstructs.Erik.9 (Index: 5, Speaker: D): \"Yeah it works, yeah.\"\nAE_ID ES2002d.A.argumentstructs.Erik.18 (Index: 6, Speaker: A): \"Two.\"\nAE_ID ES2002d.B.argumentstructs.Erik.19 (Index: 7, Speaker: B): \"About two centimetres, okay.\"\nAE_ID ES2002d.C.argumentstructs.Erik.11 (Index: 8, Speaker: C): \"Two's not very high at all though.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.C.argumentstructs.Erik.11",
+            "ans": "ES2002d.C.argumentstructs.Erik.11",
+            "judgement": true
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 10,
+                "ae_id": "ES2002d.A.argumentstructs.Erik.19",
+                "speaker": "A",
+                "start_time": 809.38,
+                "end_time": 810.86,
+                "sentence": "This is about this is about two.",
+                "source": "ES2002d.C.argumentstructs.Erik.12",
+                "targets": [
+                    "ES2002d.A.argumentstructs.Erik.20"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 5,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.9",
+                    "speaker": "D",
+                    "start_time": 804.05,
+                    "end_time": 805.0,
+                    "sentence": "Yeah it works, yeah.",
+                    "source": "ES2002d.B.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.18",
+                    "speaker": "A",
+                    "start_time": 804.4,
+                    "end_time": 804.57,
+                    "sentence": "Two.",
+                    "source": "ES2002d.B.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.19",
+                    "speaker": "B",
+                    "start_time": 805.0,
+                    "end_time": 806.87,
+                    "sentence": "About two centimetres, okay.",
+                    "source": "ES2002d.B.argumentstructs.Erik.18",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.9",
+                        "ES2002d.A.argumentstructs.Erik.18",
+                        "ES2002d.C.argumentstructs.Erik.11"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.11",
+                    "speaker": "C",
+                    "start_time": 807.14,
+                    "end_time": 809.29,
+                    "sentence": "Two's not very high at all though.",
+                    "source": "ES2002d.B.argumentstructs.Erik.19",
+                    "targets": [
+                        "ES2002d.C.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.12",
+                    "speaker": "C",
+                    "start_time": 809.29,
+                    "end_time": 810.03,
+                    "sentence": "Maybe a bit higher ?",
+                    "source": "ES2002d.C.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.19",
+                        "ES2002d.C.argumentstructs.Erik.13",
+                        "ES2002d.D.argumentstructs.Erik.10"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.A.argumentstructs.Erik.19\n- Index: 10\n- Speaker: A\n- Sentence: \"This is about this is about two.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.D.argumentstructs.Erik.9 (Index: 5, Speaker: D): \"Yeah it works, yeah.\"\nAE_ID ES2002d.A.argumentstructs.Erik.18 (Index: 6, Speaker: A): \"Two.\"\nAE_ID ES2002d.B.argumentstructs.Erik.19 (Index: 7, Speaker: B): \"About two centimetres, okay.\"\nAE_ID ES2002d.C.argumentstructs.Erik.11 (Index: 8, Speaker: C): \"Two's not very high at all though.\"\nAE_ID ES2002d.C.argumentstructs.Erik.12 (Index: 9, Speaker: C): \"Maybe a bit higher ?\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.C.argumentstructs.Erik.12",
+            "ans": "ES2002d.C.argumentstructs.Erik.12",
+            "judgement": true
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 11,
+                "ae_id": "ES2002d.A.argumentstructs.Erik.20",
+                "speaker": "A",
+                "start_time": 812.92,
+                "end_time": 814.458,
+                "sentence": "Slightly more than two, so",
+                "source": "ES2002d.A.argumentstructs.Erik.19",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 6,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.18",
+                    "speaker": "A",
+                    "start_time": 804.4,
+                    "end_time": 804.57,
+                    "sentence": "Two.",
+                    "source": "ES2002d.B.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.19",
+                    "speaker": "B",
+                    "start_time": 805.0,
+                    "end_time": 806.87,
+                    "sentence": "About two centimetres, okay.",
+                    "source": "ES2002d.B.argumentstructs.Erik.18",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.9",
+                        "ES2002d.A.argumentstructs.Erik.18",
+                        "ES2002d.C.argumentstructs.Erik.11"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.11",
+                    "speaker": "C",
+                    "start_time": 807.14,
+                    "end_time": 809.29,
+                    "sentence": "Two's not very high at all though.",
+                    "source": "ES2002d.B.argumentstructs.Erik.19",
+                    "targets": [
+                        "ES2002d.C.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.12",
+                    "speaker": "C",
+                    "start_time": 809.29,
+                    "end_time": 810.03,
+                    "sentence": "Maybe a bit higher ?",
+                    "source": "ES2002d.C.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.19",
+                        "ES2002d.C.argumentstructs.Erik.13",
+                        "ES2002d.D.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.19",
+                    "speaker": "A",
+                    "start_time": 809.38,
+                    "end_time": 810.86,
+                    "sentence": "This is about this is about two.",
+                    "source": "ES2002d.C.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.20"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.A.argumentstructs.Erik.20\n- Index: 11\n- Speaker: A\n- Sentence: \"Slightly more than two, so\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.A.argumentstructs.Erik.18 (Index: 6, Speaker: A): \"Two.\"\nAE_ID ES2002d.B.argumentstructs.Erik.19 (Index: 7, Speaker: B): \"About two centimetres, okay.\"\nAE_ID ES2002d.C.argumentstructs.Erik.11 (Index: 8, Speaker: C): \"Two's not very high at all though.\"\nAE_ID ES2002d.C.argumentstructs.Erik.12 (Index: 9, Speaker: C): \"Maybe a bit higher ?\"\nAE_ID ES2002d.A.argumentstructs.Erik.19 (Index: 10, Speaker: A): \"This is about this is about two.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.A.argumentstructs.Erik.19",
+            "ans": "ES2002d.A.argumentstructs.Erik.19",
+            "judgement": true
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 12,
+                "ae_id": "ES2002d.D.argumentstructs.Erik.10",
+                "speaker": "D",
+                "start_time": 813.63,
+                "end_time": 815.4,
+                "sentence": "See, about that thick.",
+                "source": "ES2002d.C.argumentstructs.Erik.12",
+                "targets": [
+                    "ES2002d.B.argumentstructs.Erik.20"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 7,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.19",
+                    "speaker": "B",
+                    "start_time": 805.0,
+                    "end_time": 806.87,
+                    "sentence": "About two centimetres, okay.",
+                    "source": "ES2002d.B.argumentstructs.Erik.18",
+                    "targets": [
+                        "ES2002d.D.argumentstructs.Erik.9",
+                        "ES2002d.A.argumentstructs.Erik.18",
+                        "ES2002d.C.argumentstructs.Erik.11"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.11",
+                    "speaker": "C",
+                    "start_time": 807.14,
+                    "end_time": 809.29,
+                    "sentence": "Two's not very high at all though.",
+                    "source": "ES2002d.B.argumentstructs.Erik.19",
+                    "targets": [
+                        "ES2002d.C.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.12",
+                    "speaker": "C",
+                    "start_time": 809.29,
+                    "end_time": 810.03,
+                    "sentence": "Maybe a bit higher ?",
+                    "source": "ES2002d.C.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.19",
+                        "ES2002d.C.argumentstructs.Erik.13",
+                        "ES2002d.D.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.19",
+                    "speaker": "A",
+                    "start_time": 809.38,
+                    "end_time": 810.86,
+                    "sentence": "This is about this is about two.",
+                    "source": "ES2002d.C.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.20"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.20",
+                    "speaker": "A",
+                    "start_time": 812.92,
+                    "end_time": 814.458,
+                    "sentence": "Slightly more than two, so",
+                    "source": "ES2002d.A.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.D.argumentstructs.Erik.10\n- Index: 12\n- Speaker: D\n- Sentence: \"See, about that thick.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.B.argumentstructs.Erik.19 (Index: 7, Speaker: B): \"About two centimetres, okay.\"\nAE_ID ES2002d.C.argumentstructs.Erik.11 (Index: 8, Speaker: C): \"Two's not very high at all though.\"\nAE_ID ES2002d.C.argumentstructs.Erik.12 (Index: 9, Speaker: C): \"Maybe a bit higher ?\"\nAE_ID ES2002d.A.argumentstructs.Erik.19 (Index: 10, Speaker: A): \"This is about this is about two.\"\nAE_ID ES2002d.A.argumentstructs.Erik.20 (Index: 11, Speaker: A): \"Slightly more than two, so\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.A.argumentstructs.Erik.20",
+            "ans": "ES2002d.C.argumentstructs.Erik.12",
+            "judgement": false
+        },
+        {
+            "turn_number": 13,
+            "current_node": {
+                "index": 13,
+                "ae_id": "ES2002d.C.argumentstructs.Erik.13",
+                "speaker": "C",
+                "start_time": 813.93,
+                "end_time": 814.27,
+                "sentence": "Yeah.",
+                "source": "ES2002d.C.argumentstructs.Erik.12",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 8,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.11",
+                    "speaker": "C",
+                    "start_time": 807.14,
+                    "end_time": 809.29,
+                    "sentence": "Two's not very high at all though.",
+                    "source": "ES2002d.B.argumentstructs.Erik.19",
+                    "targets": [
+                        "ES2002d.C.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.12",
+                    "speaker": "C",
+                    "start_time": 809.29,
+                    "end_time": 810.03,
+                    "sentence": "Maybe a bit higher ?",
+                    "source": "ES2002d.C.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.19",
+                        "ES2002d.C.argumentstructs.Erik.13",
+                        "ES2002d.D.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.19",
+                    "speaker": "A",
+                    "start_time": 809.38,
+                    "end_time": 810.86,
+                    "sentence": "This is about this is about two.",
+                    "source": "ES2002d.C.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.20"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.20",
+                    "speaker": "A",
+                    "start_time": 812.92,
+                    "end_time": 814.458,
+                    "sentence": "Slightly more than two, so",
+                    "source": "ES2002d.A.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.10",
+                    "speaker": "D",
+                    "start_time": 813.63,
+                    "end_time": 815.4,
+                    "sentence": "See, about that thick.",
+                    "source": "ES2002d.C.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.20"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.C.argumentstructs.Erik.13\n- Index: 13\n- Speaker: C\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.C.argumentstructs.Erik.11 (Index: 8, Speaker: C): \"Two's not very high at all though.\"\nAE_ID ES2002d.C.argumentstructs.Erik.12 (Index: 9, Speaker: C): \"Maybe a bit higher ?\"\nAE_ID ES2002d.A.argumentstructs.Erik.19 (Index: 10, Speaker: A): \"This is about this is about two.\"\nAE_ID ES2002d.A.argumentstructs.Erik.20 (Index: 11, Speaker: A): \"Slightly more than two, so\"\nAE_ID ES2002d.D.argumentstructs.Erik.10 (Index: 12, Speaker: D): \"See, about that thick.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.D.argumentstructs.Erik.10",
+            "ans": "ES2002d.C.argumentstructs.Erik.12",
+            "judgement": false
+        },
+        {
+            "turn_number": 14,
+            "current_node": {
+                "index": 14,
+                "ae_id": "ES2002d.B.argumentstructs.Erik.20",
+                "speaker": "B",
+                "start_time": 815.37,
+                "end_time": 824.11,
+                "sentence": "Okay. Ach, that is  Yeah. Okay we'll s we'll say two point five. Okay um so we have it within cost anyway.",
+                "source": "ES2002d.D.argumentstructs.Erik.10",
+                "targets": [
+                    "ES2002d.C.argumentstructs.Erik.14"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 9,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.12",
+                    "speaker": "C",
+                    "start_time": 809.29,
+                    "end_time": 810.03,
+                    "sentence": "Maybe a bit higher ?",
+                    "source": "ES2002d.C.argumentstructs.Erik.11",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.19",
+                        "ES2002d.C.argumentstructs.Erik.13",
+                        "ES2002d.D.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.19",
+                    "speaker": "A",
+                    "start_time": 809.38,
+                    "end_time": 810.86,
+                    "sentence": "This is about this is about two.",
+                    "source": "ES2002d.C.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.20"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.20",
+                    "speaker": "A",
+                    "start_time": 812.92,
+                    "end_time": 814.458,
+                    "sentence": "Slightly more than two, so",
+                    "source": "ES2002d.A.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.10",
+                    "speaker": "D",
+                    "start_time": 813.63,
+                    "end_time": 815.4,
+                    "sentence": "See, about that thick.",
+                    "source": "ES2002d.C.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.20"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.13",
+                    "speaker": "C",
+                    "start_time": 813.93,
+                    "end_time": 814.27,
+                    "sentence": "Yeah.",
+                    "source": "ES2002d.C.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.B.argumentstructs.Erik.20\n- Index: 14\n- Speaker: B\n- Sentence: \"Okay. Ach, that is  Yeah. Okay we'll s we'll say two point five. Okay um so we have it within cost anyway.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.C.argumentstructs.Erik.12 (Index: 9, Speaker: C): \"Maybe a bit higher ?\"\nAE_ID ES2002d.A.argumentstructs.Erik.19 (Index: 10, Speaker: A): \"This is about this is about two.\"\nAE_ID ES2002d.A.argumentstructs.Erik.20 (Index: 11, Speaker: A): \"Slightly more than two, so\"\nAE_ID ES2002d.D.argumentstructs.Erik.10 (Index: 12, Speaker: D): \"See, about that thick.\"\nAE_ID ES2002d.C.argumentstructs.Erik.13 (Index: 13, Speaker: C): \"Yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.C.argumentstructs.Erik.13",
+            "ans": "ES2002d.D.argumentstructs.Erik.10",
+            "judgement": false
+        },
+        {
+            "turn_number": 15,
+            "current_node": {
+                "index": 15,
+                "ae_id": "ES2002d.C.argumentstructs.Erik.14",
+                "speaker": "C",
+                "start_time": 815.59,
+                "end_time": 817.92,
+                "sentence": "Maybe closer to three even or two and a half.",
+                "source": "ES2002d.B.argumentstructs.Erik.20",
+                "targets": [
+                    "ES2002d.A.argumentstructs.Erik.21"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 10,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.19",
+                    "speaker": "A",
+                    "start_time": 809.38,
+                    "end_time": 810.86,
+                    "sentence": "This is about this is about two.",
+                    "source": "ES2002d.C.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.20"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.20",
+                    "speaker": "A",
+                    "start_time": 812.92,
+                    "end_time": 814.458,
+                    "sentence": "Slightly more than two, so",
+                    "source": "ES2002d.A.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.10",
+                    "speaker": "D",
+                    "start_time": 813.63,
+                    "end_time": 815.4,
+                    "sentence": "See, about that thick.",
+                    "source": "ES2002d.C.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.20"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.13",
+                    "speaker": "C",
+                    "start_time": 813.93,
+                    "end_time": 814.27,
+                    "sentence": "Yeah.",
+                    "source": "ES2002d.C.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.20",
+                    "speaker": "B",
+                    "start_time": 815.37,
+                    "end_time": 824.11,
+                    "sentence": "Okay. Ach, that is  Yeah. Okay we'll s we'll say two point five. Okay um so we have it within cost anyway.",
+                    "source": "ES2002d.D.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2002d.C.argumentstructs.Erik.14"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.C.argumentstructs.Erik.14\n- Index: 15\n- Speaker: C\n- Sentence: \"Maybe closer to three even or two and a half.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.A.argumentstructs.Erik.19 (Index: 10, Speaker: A): \"This is about this is about two.\"\nAE_ID ES2002d.A.argumentstructs.Erik.20 (Index: 11, Speaker: A): \"Slightly more than two, so\"\nAE_ID ES2002d.D.argumentstructs.Erik.10 (Index: 12, Speaker: D): \"See, about that thick.\"\nAE_ID ES2002d.C.argumentstructs.Erik.13 (Index: 13, Speaker: C): \"Yeah.\"\nAE_ID ES2002d.B.argumentstructs.Erik.20 (Index: 14, Speaker: B): \"Okay. Ach, that is  Yeah. Okay we'll s we'll say two point five. Okay um so we have it within cost anyway.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.B.argumentstructs.Erik.20",
+            "ans": "ES2002d.B.argumentstructs.Erik.20",
+            "judgement": true
+        },
+        {
+            "turn_number": 16,
+            "current_node": {
+                "index": 16,
+                "ae_id": "ES2002d.A.argumentstructs.Erik.21",
+                "speaker": "A",
+                "start_time": 816.92,
+                "end_time": 817.4,
+                "sentence": "Okay.",
+                "source": "ES2002d.C.argumentstructs.Erik.14",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 11,
+                    "ae_id": "ES2002d.A.argumentstructs.Erik.20",
+                    "speaker": "A",
+                    "start_time": 812.92,
+                    "end_time": 814.458,
+                    "sentence": "Slightly more than two, so",
+                    "source": "ES2002d.A.argumentstructs.Erik.19",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2002d.D.argumentstructs.Erik.10",
+                    "speaker": "D",
+                    "start_time": 813.63,
+                    "end_time": 815.4,
+                    "sentence": "See, about that thick.",
+                    "source": "ES2002d.C.argumentstructs.Erik.12",
+                    "targets": [
+                        "ES2002d.B.argumentstructs.Erik.20"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.13",
+                    "speaker": "C",
+                    "start_time": 813.93,
+                    "end_time": 814.27,
+                    "sentence": "Yeah.",
+                    "source": "ES2002d.C.argumentstructs.Erik.12",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2002d.B.argumentstructs.Erik.20",
+                    "speaker": "B",
+                    "start_time": 815.37,
+                    "end_time": 824.11,
+                    "sentence": "Okay. Ach, that is  Yeah. Okay we'll s we'll say two point five. Okay um so we have it within cost anyway.",
+                    "source": "ES2002d.D.argumentstructs.Erik.10",
+                    "targets": [
+                        "ES2002d.C.argumentstructs.Erik.14"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2002d.C.argumentstructs.Erik.14",
+                    "speaker": "C",
+                    "start_time": 815.59,
+                    "end_time": 817.92,
+                    "sentence": "Maybe closer to three even or two and a half.",
+                    "source": "ES2002d.B.argumentstructs.Erik.20",
+                    "targets": [
+                        "ES2002d.A.argumentstructs.Erik.21"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002d.A.argumentstructs.Erik.21\n- Index: 16\n- Speaker: A\n- Sentence: \"Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2002d.A.argumentstructs.Erik.20 (Index: 11, Speaker: A): \"Slightly more than two, so\"\nAE_ID ES2002d.D.argumentstructs.Erik.10 (Index: 12, Speaker: D): \"See, about that thick.\"\nAE_ID ES2002d.C.argumentstructs.Erik.13 (Index: 13, Speaker: C): \"Yeah.\"\nAE_ID ES2002d.B.argumentstructs.Erik.20 (Index: 14, Speaker: B): \"Okay. Ach, that is  Yeah. Okay we'll s we'll say two point five. Okay um so we have it within cost anyway.\"\nAE_ID ES2002d.C.argumentstructs.Erik.14 (Index: 15, Speaker: C): \"Maybe closer to three even or two and a half.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002d.C.argumentstructs.Erik.14",
+            "ans": "ES2002d.C.argumentstructs.Erik.14",
+            "judgement": true
+        }
+    ]
+}

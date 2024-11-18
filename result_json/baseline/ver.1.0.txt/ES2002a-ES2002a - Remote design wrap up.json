@@ -1,0 +1,1066 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2002a-ES2002a - Remote design wrap up.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "ver.1.0.txt",
+    "rate": 0.38461538461538464,
+    "total_node_count": 19,
+    "removed_node_count": 5,
+    "removed_node_list": [
+        {
+            "index": 2,
+            "ae_id": "ES2002a.B.argumentstructs.22",
+            "speaker": "B",
+            "start_time": 1075.49,
+            "end_time": 1076.64,
+            "sentence": "we're supposed to finish now.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 11,
+            "ae_id": "ES2002a.B.argumentstructs.23",
+            "speaker": "B",
+            "start_time": 1093.82,
+            "end_time": 1096.16,
+            "sentence": "Mm-hmm. Yeah.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 12,
+            "ae_id": "ES2002a.D.argumentstructs.27",
+            "speaker": "D",
+            "start_time": 1093.83,
+            "end_time": 1094.13,
+            "sentence": "Okay.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 13,
+            "ae_id": "ES2002a.A.argumentstructs.9",
+            "speaker": "A",
+            "start_time": 1094.65,
+            "end_time": 1094.9,
+            "sentence": "Um.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 18,
+            "ae_id": "ES2002a.B.argumentstructs.24",
+            "speaker": "B",
+            "start_time": 1102.48,
+            "end_time": 1103.2,
+            "sentence": "Um.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 0,
+                "ae_id": "ES2002a.D.argumentstructs.Erik.5",
+                "speaker": "D",
+                "start_time": 1060.99,
+                "end_time": 1073.79,
+                "sentence": "are we at ma right now on the assumption that our television remote control may have features which go beyond the television ? Or are we keeping sort of like a a design commitment to television features ?",
+                "source": "NONE",
+                "targets": [
+                    "ES2002a.D.argumentstructs.Erik.6",
+                    "ES2002a.B.argumentstructs.Erik.4",
+                    "ES2002a.A.argumentstructs.Erik.2"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "NONE",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2002a.D.argumentstructs.Erik.6",
+                "speaker": "D",
+                "start_time": 1073.79,
+                "end_time": 1074.44,
+                "sentence": "I I don't know.",
+                "source": "ES2002a.D.argumentstructs.Erik.5",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 1060.99,
+                    "end_time": 1073.79,
+                    "sentence": "are we at ma right now on the assumption that our television remote control may have features which go beyond the television ? Or are we keeping sort of like a a design commitment to television features ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002a.D.argumentstructs.Erik.6",
+                        "ES2002a.B.argumentstructs.Erik.4",
+                        "ES2002a.A.argumentstructs.Erik.2"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002a.D.argumentstructs.Erik.6\n- Index: 1\n- Speaker: D\n- Sentence: \"I I don't know.\"\n\nPast Dialogue Turns:\nAE_ID ES2002a.D.argumentstructs.Erik.5 (Index: 0, Speaker: D): \"are we at ma right now on the assumption that our television remote control may have features which go beyond the television ? Or are we keeping sort of like a a design commitment to television features ?\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002a.D.argumentstructs.Erik.5",
+            "ans": "ES2002a.D.argumentstructs.Erik.5",
+            "judgement": true
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 2,
+                "ae_id": "ES2002a.D.argumentstructs.Erik.7",
+                "speaker": "D",
+                "start_time": 1076.56,
+                "end_time": 1078.06,
+                "sentence": "Yep. Yeah, sure.",
+                "source": "ES2002a.B.argumentstructs.Erik.4",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 1060.99,
+                    "end_time": 1073.79,
+                    "sentence": "are we at ma right now on the assumption that our television remote control may have features which go beyond the television ? Or are we keeping sort of like a a design commitment to television features ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002a.D.argumentstructs.Erik.6",
+                        "ES2002a.B.argumentstructs.Erik.4",
+                        "ES2002a.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.6",
+                    "speaker": "D",
+                    "start_time": 1073.79,
+                    "end_time": 1074.44,
+                    "sentence": "I I don't know.",
+                    "source": "ES2002a.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002a.D.argumentstructs.Erik.7\n- Index: 2\n- Speaker: D\n- Sentence: \"Yep. Yeah, sure.\"\n\nPast Dialogue Turns:\nAE_ID ES2002a.D.argumentstructs.Erik.5 (Index: 0, Speaker: D): \"are we at ma right now on the assumption that our television remote control may have features which go beyond the television ? Or are we keeping sort of like a a design commitment to television features ?\"\nAE_ID ES2002a.D.argumentstructs.Erik.6 (Index: 1, Speaker: D): \"I I don't know.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002a.D.argumentstructs.Erik.6",
+            "ans": "ES2002a.B.argumentstructs.Erik.4",
+            "judgement": false
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 3,
+                "ae_id": "ES2002a.B.argumentstructs.Erik.4",
+                "speaker": "B",
+                "start_time": 1076.64,
+                "end_time": 1084.8,
+                "sentence": "Um I guess that's up to us, I mean you probably want some kind of unique selling point of it, so um, you know",
+                "source": "ES2002a.D.argumentstructs.Erik.5",
+                "targets": [
+                    "ES2002a.D.argumentstructs.Erik.7",
+                    "ES2002a.D.argumentstructs.Erik.8"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 1060.99,
+                    "end_time": 1073.79,
+                    "sentence": "are we at ma right now on the assumption that our television remote control may have features which go beyond the television ? Or are we keeping sort of like a a design commitment to television features ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002a.D.argumentstructs.Erik.6",
+                        "ES2002a.B.argumentstructs.Erik.4",
+                        "ES2002a.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.6",
+                    "speaker": "D",
+                    "start_time": 1073.79,
+                    "end_time": 1074.44,
+                    "sentence": "I I don't know.",
+                    "source": "ES2002a.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.7",
+                    "speaker": "D",
+                    "start_time": 1076.56,
+                    "end_time": 1078.06,
+                    "sentence": "Yep. Yeah, sure.",
+                    "source": "ES2002a.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002a.B.argumentstructs.Erik.4\n- Index: 3\n- Speaker: B\n- Sentence: \"Um I guess that's up to us, I mean you probably want some kind of unique selling point of it, so um, you know\"\n\nPast Dialogue Turns:\nAE_ID ES2002a.D.argumentstructs.Erik.5 (Index: 0, Speaker: D): \"are we at ma right now on the assumption that our television remote control may have features which go beyond the television ? Or are we keeping sort of like a a design commitment to television features ?\"\nAE_ID ES2002a.D.argumentstructs.Erik.6 (Index: 1, Speaker: D): \"I I don't know.\"\nAE_ID ES2002a.D.argumentstructs.Erik.7 (Index: 2, Speaker: D): \"Yep. Yeah, sure.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002a.D.argumentstructs.Erik.7",
+            "ans": "ES2002a.D.argumentstructs.Erik.5",
+            "judgement": false
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 4,
+                "ae_id": "ES2002a.D.argumentstructs.Erik.8",
+                "speaker": "D",
+                "start_time": 1081.99,
+                "end_time": 1082.38,
+                "sentence": "Okay.",
+                "source": "ES2002a.B.argumentstructs.Erik.4",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 1060.99,
+                    "end_time": 1073.79,
+                    "sentence": "are we at ma right now on the assumption that our television remote control may have features which go beyond the television ? Or are we keeping sort of like a a design commitment to television features ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002a.D.argumentstructs.Erik.6",
+                        "ES2002a.B.argumentstructs.Erik.4",
+                        "ES2002a.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.6",
+                    "speaker": "D",
+                    "start_time": 1073.79,
+                    "end_time": 1074.44,
+                    "sentence": "I I don't know.",
+                    "source": "ES2002a.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.7",
+                    "speaker": "D",
+                    "start_time": 1076.56,
+                    "end_time": 1078.06,
+                    "sentence": "Yep. Yeah, sure.",
+                    "source": "ES2002a.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002a.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1076.64,
+                    "end_time": 1084.8,
+                    "sentence": "Um I guess that's up to us, I mean you probably want some kind of unique selling point of it, so um, you know",
+                    "source": "ES2002a.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2002a.D.argumentstructs.Erik.7",
+                        "ES2002a.D.argumentstructs.Erik.8"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002a.D.argumentstructs.Erik.8\n- Index: 4\n- Speaker: D\n- Sentence: \"Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2002a.D.argumentstructs.Erik.5 (Index: 0, Speaker: D): \"are we at ma right now on the assumption that our television remote control may have features which go beyond the television ? Or are we keeping sort of like a a design commitment to television features ?\"\nAE_ID ES2002a.D.argumentstructs.Erik.6 (Index: 1, Speaker: D): \"I I don't know.\"\nAE_ID ES2002a.D.argumentstructs.Erik.7 (Index: 2, Speaker: D): \"Yep. Yeah, sure.\"\nAE_ID ES2002a.B.argumentstructs.Erik.4 (Index: 3, Speaker: B): \"Um I guess that's up to us, I mean you probably want some kind of unique selling point of it, so um, you know\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002a.B.argumentstructs.Erik.4",
+            "ans": "ES2002a.B.argumentstructs.Erik.4",
+            "judgement": true
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 5,
+                "ae_id": "ES2002a.A.argumentstructs.Erik.2",
+                "speaker": "A",
+                "start_time": 1084.36,
+                "end_time": 1086.91,
+                "sentence": "I think one factor would be production cost.",
+                "source": "ES2002a.D.argumentstructs.Erik.5",
+                "targets": [
+                    "ES2002a.D.argumentstructs.Erik.9",
+                    "ES2002a.A.argumentstructs.Erik.3",
+                    "ES2002a.A.argumentstructs.Erik.4"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.5",
+                    "speaker": "D",
+                    "start_time": 1060.99,
+                    "end_time": 1073.79,
+                    "sentence": "are we at ma right now on the assumption that our television remote control may have features which go beyond the television ? Or are we keeping sort of like a a design commitment to television features ?",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002a.D.argumentstructs.Erik.6",
+                        "ES2002a.B.argumentstructs.Erik.4",
+                        "ES2002a.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.6",
+                    "speaker": "D",
+                    "start_time": 1073.79,
+                    "end_time": 1074.44,
+                    "sentence": "I I don't know.",
+                    "source": "ES2002a.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.7",
+                    "speaker": "D",
+                    "start_time": 1076.56,
+                    "end_time": 1078.06,
+                    "sentence": "Yep. Yeah, sure.",
+                    "source": "ES2002a.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002a.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1076.64,
+                    "end_time": 1084.8,
+                    "sentence": "Um I guess that's up to us, I mean you probably want some kind of unique selling point of it, so um, you know",
+                    "source": "ES2002a.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2002a.D.argumentstructs.Erik.7",
+                        "ES2002a.D.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 1081.99,
+                    "end_time": 1082.38,
+                    "sentence": "Okay.",
+                    "source": "ES2002a.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002a.A.argumentstructs.Erik.2\n- Index: 5\n- Speaker: A\n- Sentence: \"I think one factor would be production cost.\"\n\nPast Dialogue Turns:\nAE_ID ES2002a.D.argumentstructs.Erik.5 (Index: 0, Speaker: D): \"are we at ma right now on the assumption that our television remote control may have features which go beyond the television ? Or are we keeping sort of like a a design commitment to television features ?\"\nAE_ID ES2002a.D.argumentstructs.Erik.6 (Index: 1, Speaker: D): \"I I don't know.\"\nAE_ID ES2002a.D.argumentstructs.Erik.7 (Index: 2, Speaker: D): \"Yep. Yeah, sure.\"\nAE_ID ES2002a.B.argumentstructs.Erik.4 (Index: 3, Speaker: B): \"Um I guess that's up to us, I mean you probably want some kind of unique selling point of it, so um, you know\"\nAE_ID ES2002a.D.argumentstructs.Erik.8 (Index: 4, Speaker: D): \"Okay.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002a.D.argumentstructs.Erik.8",
+            "ans": "ES2002a.D.argumentstructs.Erik.5",
+            "judgement": false
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 6,
+                "ae_id": "ES2002a.D.argumentstructs.Erik.9",
+                "speaker": "D",
+                "start_time": 1086.96,
+                "end_time": 1087.76,
+                "sentence": "Okay, yeah.",
+                "source": "ES2002a.A.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.6",
+                    "speaker": "D",
+                    "start_time": 1073.79,
+                    "end_time": 1074.44,
+                    "sentence": "I I don't know.",
+                    "source": "ES2002a.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.7",
+                    "speaker": "D",
+                    "start_time": 1076.56,
+                    "end_time": 1078.06,
+                    "sentence": "Yep. Yeah, sure.",
+                    "source": "ES2002a.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002a.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1076.64,
+                    "end_time": 1084.8,
+                    "sentence": "Um I guess that's up to us, I mean you probably want some kind of unique selling point of it, so um, you know",
+                    "source": "ES2002a.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2002a.D.argumentstructs.Erik.7",
+                        "ES2002a.D.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 1081.99,
+                    "end_time": 1082.38,
+                    "sentence": "Okay.",
+                    "source": "ES2002a.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002a.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1084.36,
+                    "end_time": 1086.91,
+                    "sentence": "I think one factor would be production cost.",
+                    "source": "ES2002a.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2002a.D.argumentstructs.Erik.9",
+                        "ES2002a.A.argumentstructs.Erik.3",
+                        "ES2002a.A.argumentstructs.Erik.4"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002a.D.argumentstructs.Erik.9\n- Index: 6\n- Speaker: D\n- Sentence: \"Okay, yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2002a.D.argumentstructs.Erik.6 (Index: 1, Speaker: D): \"I I don't know.\"\nAE_ID ES2002a.D.argumentstructs.Erik.7 (Index: 2, Speaker: D): \"Yep. Yeah, sure.\"\nAE_ID ES2002a.B.argumentstructs.Erik.4 (Index: 3, Speaker: B): \"Um I guess that's up to us, I mean you probably want some kind of unique selling point of it, so um, you know\"\nAE_ID ES2002a.D.argumentstructs.Erik.8 (Index: 4, Speaker: D): \"Okay.\"\nAE_ID ES2002a.A.argumentstructs.Erik.2 (Index: 5, Speaker: A): \"I think one factor would be production cost.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002a.A.argumentstructs.Erik.2",
+            "ans": "ES2002a.A.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 7,
+                "ae_id": "ES2002a.A.argumentstructs.Erik.3",
+                "speaker": "A",
+                "start_time": 1087.57,
+                "end_time": 1094.65,
+                "sentence": "Because there's a cap there, so um depends on how much you can cram into that price.",
+                "source": "ES2002a.A.argumentstructs.Erik.2",
+                "targets": [
+                    "ES2002a.B.argumentstructs.Erik.5",
+                    "ES2002a.D.argumentstructs.Erik.10"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 2,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.7",
+                    "speaker": "D",
+                    "start_time": 1076.56,
+                    "end_time": 1078.06,
+                    "sentence": "Yep. Yeah, sure.",
+                    "source": "ES2002a.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002a.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1076.64,
+                    "end_time": 1084.8,
+                    "sentence": "Um I guess that's up to us, I mean you probably want some kind of unique selling point of it, so um, you know",
+                    "source": "ES2002a.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2002a.D.argumentstructs.Erik.7",
+                        "ES2002a.D.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 1081.99,
+                    "end_time": 1082.38,
+                    "sentence": "Okay.",
+                    "source": "ES2002a.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002a.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1084.36,
+                    "end_time": 1086.91,
+                    "sentence": "I think one factor would be production cost.",
+                    "source": "ES2002a.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2002a.D.argumentstructs.Erik.9",
+                        "ES2002a.A.argumentstructs.Erik.3",
+                        "ES2002a.A.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.9",
+                    "speaker": "D",
+                    "start_time": 1086.96,
+                    "end_time": 1087.76,
+                    "sentence": "Okay, yeah.",
+                    "source": "ES2002a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002a.A.argumentstructs.Erik.3\n- Index: 7\n- Speaker: A\n- Sentence: \"Because there's a cap there, so um depends on how much you can cram into that price.\"\n\nPast Dialogue Turns:\nAE_ID ES2002a.D.argumentstructs.Erik.7 (Index: 2, Speaker: D): \"Yep. Yeah, sure.\"\nAE_ID ES2002a.B.argumentstructs.Erik.4 (Index: 3, Speaker: B): \"Um I guess that's up to us, I mean you probably want some kind of unique selling point of it, so um, you know\"\nAE_ID ES2002a.D.argumentstructs.Erik.8 (Index: 4, Speaker: D): \"Okay.\"\nAE_ID ES2002a.A.argumentstructs.Erik.2 (Index: 5, Speaker: A): \"I think one factor would be production cost.\"\nAE_ID ES2002a.D.argumentstructs.Erik.9 (Index: 6, Speaker: D): \"Okay, yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002a.D.argumentstructs.Erik.9",
+            "ans": "ES2002a.A.argumentstructs.Erik.2",
+            "judgement": false
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 8,
+                "ae_id": "ES2002a.B.argumentstructs.Erik.5",
+                "speaker": "B",
+                "start_time": 1087.59,
+                "end_time": 1088.2,
+                "sentence": "Yeah.",
+                "source": "ES2002a.A.argumentstructs.Erik.3",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 3,
+                    "ae_id": "ES2002a.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 1076.64,
+                    "end_time": 1084.8,
+                    "sentence": "Um I guess that's up to us, I mean you probably want some kind of unique selling point of it, so um, you know",
+                    "source": "ES2002a.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2002a.D.argumentstructs.Erik.7",
+                        "ES2002a.D.argumentstructs.Erik.8"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 1081.99,
+                    "end_time": 1082.38,
+                    "sentence": "Okay.",
+                    "source": "ES2002a.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002a.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1084.36,
+                    "end_time": 1086.91,
+                    "sentence": "I think one factor would be production cost.",
+                    "source": "ES2002a.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2002a.D.argumentstructs.Erik.9",
+                        "ES2002a.A.argumentstructs.Erik.3",
+                        "ES2002a.A.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.9",
+                    "speaker": "D",
+                    "start_time": 1086.96,
+                    "end_time": 1087.76,
+                    "sentence": "Okay, yeah.",
+                    "source": "ES2002a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002a.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1087.57,
+                    "end_time": 1094.65,
+                    "sentence": "Because there's a cap there, so um depends on how much you can cram into that price.",
+                    "source": "ES2002a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2002a.B.argumentstructs.Erik.5",
+                        "ES2002a.D.argumentstructs.Erik.10"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002a.B.argumentstructs.Erik.5\n- Index: 8\n- Speaker: B\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2002a.B.argumentstructs.Erik.4 (Index: 3, Speaker: B): \"Um I guess that's up to us, I mean you probably want some kind of unique selling point of it, so um, you know\"\nAE_ID ES2002a.D.argumentstructs.Erik.8 (Index: 4, Speaker: D): \"Okay.\"\nAE_ID ES2002a.A.argumentstructs.Erik.2 (Index: 5, Speaker: A): \"I think one factor would be production cost.\"\nAE_ID ES2002a.D.argumentstructs.Erik.9 (Index: 6, Speaker: D): \"Okay, yeah.\"\nAE_ID ES2002a.A.argumentstructs.Erik.3 (Index: 7, Speaker: A): \"Because there's a cap there, so um depends on how much you can cram into that price.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002a.A.argumentstructs.Erik.3",
+            "ans": "ES2002a.A.argumentstructs.Erik.3",
+            "judgement": true
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 9,
+                "ae_id": "ES2002a.D.argumentstructs.Erik.10",
+                "speaker": "D",
+                "start_time": 1089.89,
+                "end_time": 1090.23,
+                "sentence": "Okay.",
+                "source": "ES2002a.A.argumentstructs.Erik.3",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 4,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.8",
+                    "speaker": "D",
+                    "start_time": 1081.99,
+                    "end_time": 1082.38,
+                    "sentence": "Okay.",
+                    "source": "ES2002a.B.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002a.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1084.36,
+                    "end_time": 1086.91,
+                    "sentence": "I think one factor would be production cost.",
+                    "source": "ES2002a.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2002a.D.argumentstructs.Erik.9",
+                        "ES2002a.A.argumentstructs.Erik.3",
+                        "ES2002a.A.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.9",
+                    "speaker": "D",
+                    "start_time": 1086.96,
+                    "end_time": 1087.76,
+                    "sentence": "Okay, yeah.",
+                    "source": "ES2002a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002a.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1087.57,
+                    "end_time": 1094.65,
+                    "sentence": "Because there's a cap there, so um depends on how much you can cram into that price.",
+                    "source": "ES2002a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2002a.B.argumentstructs.Erik.5",
+                        "ES2002a.D.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2002a.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1087.59,
+                    "end_time": 1088.2,
+                    "sentence": "Yeah.",
+                    "source": "ES2002a.A.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002a.D.argumentstructs.Erik.10\n- Index: 9\n- Speaker: D\n- Sentence: \"Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2002a.D.argumentstructs.Erik.8 (Index: 4, Speaker: D): \"Okay.\"\nAE_ID ES2002a.A.argumentstructs.Erik.2 (Index: 5, Speaker: A): \"I think one factor would be production cost.\"\nAE_ID ES2002a.D.argumentstructs.Erik.9 (Index: 6, Speaker: D): \"Okay, yeah.\"\nAE_ID ES2002a.A.argumentstructs.Erik.3 (Index: 7, Speaker: A): \"Because there's a cap there, so um depends on how much you can cram into that price.\"\nAE_ID ES2002a.B.argumentstructs.Erik.5 (Index: 8, Speaker: B): \"Yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002a.B.argumentstructs.Erik.5",
+            "ans": "ES2002a.A.argumentstructs.Erik.3",
+            "judgement": false
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 10,
+                "ae_id": "ES2002a.A.argumentstructs.Erik.4",
+                "speaker": "A",
+                "start_time": 1096.03,
+                "end_time": 1098.43,
+                "sentence": "I think that that's the main factor.",
+                "source": "ES2002a.A.argumentstructs.Erik.2",
+                "targets": [
+                    "ES2002a.B.argumentstructs.Erik.7",
+                    "ES2002a.D.argumentstructs.Erik.11"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 5,
+                    "ae_id": "ES2002a.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 1084.36,
+                    "end_time": 1086.91,
+                    "sentence": "I think one factor would be production cost.",
+                    "source": "ES2002a.D.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2002a.D.argumentstructs.Erik.9",
+                        "ES2002a.A.argumentstructs.Erik.3",
+                        "ES2002a.A.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.9",
+                    "speaker": "D",
+                    "start_time": 1086.96,
+                    "end_time": 1087.76,
+                    "sentence": "Okay, yeah.",
+                    "source": "ES2002a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002a.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1087.57,
+                    "end_time": 1094.65,
+                    "sentence": "Because there's a cap there, so um depends on how much you can cram into that price.",
+                    "source": "ES2002a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2002a.B.argumentstructs.Erik.5",
+                        "ES2002a.D.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2002a.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1087.59,
+                    "end_time": 1088.2,
+                    "sentence": "Yeah.",
+                    "source": "ES2002a.A.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.10",
+                    "speaker": "D",
+                    "start_time": 1089.89,
+                    "end_time": 1090.23,
+                    "sentence": "Okay.",
+                    "source": "ES2002a.A.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002a.A.argumentstructs.Erik.4\n- Index: 10\n- Speaker: A\n- Sentence: \"I think that that's the main factor.\"\n\nPast Dialogue Turns:\nAE_ID ES2002a.A.argumentstructs.Erik.2 (Index: 5, Speaker: A): \"I think one factor would be production cost.\"\nAE_ID ES2002a.D.argumentstructs.Erik.9 (Index: 6, Speaker: D): \"Okay, yeah.\"\nAE_ID ES2002a.A.argumentstructs.Erik.3 (Index: 7, Speaker: A): \"Because there's a cap there, so um depends on how much you can cram into that price.\"\nAE_ID ES2002a.B.argumentstructs.Erik.5 (Index: 8, Speaker: B): \"Yeah.\"\nAE_ID ES2002a.D.argumentstructs.Erik.10 (Index: 9, Speaker: D): \"Okay.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002a.D.argumentstructs.Erik.10",
+            "ans": "ES2002a.A.argumentstructs.Erik.2",
+            "judgement": false
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 11,
+                "ae_id": "ES2002a.B.argumentstructs.Erik.7",
+                "speaker": "B",
+                "start_time": 1098.51,
+                "end_time": 1102.48,
+                "sentence": "Okay. Right, okay, we'll that's that's the end of the meeting, then.",
+                "source": "ES2002a.A.argumentstructs.Erik.4",
+                "targets": [
+                    "ES2002a.D.argumentstructs.Erik.12"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 6,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.9",
+                    "speaker": "D",
+                    "start_time": 1086.96,
+                    "end_time": 1087.76,
+                    "sentence": "Okay, yeah.",
+                    "source": "ES2002a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002a.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1087.57,
+                    "end_time": 1094.65,
+                    "sentence": "Because there's a cap there, so um depends on how much you can cram into that price.",
+                    "source": "ES2002a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2002a.B.argumentstructs.Erik.5",
+                        "ES2002a.D.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2002a.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1087.59,
+                    "end_time": 1088.2,
+                    "sentence": "Yeah.",
+                    "source": "ES2002a.A.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.10",
+                    "speaker": "D",
+                    "start_time": 1089.89,
+                    "end_time": 1090.23,
+                    "sentence": "Okay.",
+                    "source": "ES2002a.A.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002a.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1096.03,
+                    "end_time": 1098.43,
+                    "sentence": "I think that that's the main factor.",
+                    "source": "ES2002a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2002a.B.argumentstructs.Erik.7",
+                        "ES2002a.D.argumentstructs.Erik.11"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002a.B.argumentstructs.Erik.7\n- Index: 11\n- Speaker: B\n- Sentence: \"Okay. Right, okay, we'll that's that's the end of the meeting, then.\"\n\nPast Dialogue Turns:\nAE_ID ES2002a.D.argumentstructs.Erik.9 (Index: 6, Speaker: D): \"Okay, yeah.\"\nAE_ID ES2002a.A.argumentstructs.Erik.3 (Index: 7, Speaker: A): \"Because there's a cap there, so um depends on how much you can cram into that price.\"\nAE_ID ES2002a.B.argumentstructs.Erik.5 (Index: 8, Speaker: B): \"Yeah.\"\nAE_ID ES2002a.D.argumentstructs.Erik.10 (Index: 9, Speaker: D): \"Okay.\"\nAE_ID ES2002a.A.argumentstructs.Erik.4 (Index: 10, Speaker: A): \"I think that that's the main factor.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002a.A.argumentstructs.Erik.4",
+            "ans": "ES2002a.A.argumentstructs.Erik.4",
+            "judgement": true
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 12,
+                "ae_id": "ES2002a.D.argumentstructs.Erik.11",
+                "speaker": "D",
+                "start_time": 1098.52,
+                "end_time": 1098.85,
+                "sentence": "Okay.",
+                "source": "ES2002a.A.argumentstructs.Erik.4",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 7,
+                    "ae_id": "ES2002a.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 1087.57,
+                    "end_time": 1094.65,
+                    "sentence": "Because there's a cap there, so um depends on how much you can cram into that price.",
+                    "source": "ES2002a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2002a.B.argumentstructs.Erik.5",
+                        "ES2002a.D.argumentstructs.Erik.10"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2002a.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1087.59,
+                    "end_time": 1088.2,
+                    "sentence": "Yeah.",
+                    "source": "ES2002a.A.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.10",
+                    "speaker": "D",
+                    "start_time": 1089.89,
+                    "end_time": 1090.23,
+                    "sentence": "Okay.",
+                    "source": "ES2002a.A.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002a.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1096.03,
+                    "end_time": 1098.43,
+                    "sentence": "I think that that's the main factor.",
+                    "source": "ES2002a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2002a.B.argumentstructs.Erik.7",
+                        "ES2002a.D.argumentstructs.Erik.11"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2002a.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 1098.51,
+                    "end_time": 1102.48,
+                    "sentence": "Okay. Right, okay, we'll that's that's the end of the meeting, then.",
+                    "source": "ES2002a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2002a.D.argumentstructs.Erik.12"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002a.D.argumentstructs.Erik.11\n- Index: 12\n- Speaker: D\n- Sentence: \"Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2002a.A.argumentstructs.Erik.3 (Index: 7, Speaker: A): \"Because there's a cap there, so um depends on how much you can cram into that price.\"\nAE_ID ES2002a.B.argumentstructs.Erik.5 (Index: 8, Speaker: B): \"Yeah.\"\nAE_ID ES2002a.D.argumentstructs.Erik.10 (Index: 9, Speaker: D): \"Okay.\"\nAE_ID ES2002a.A.argumentstructs.Erik.4 (Index: 10, Speaker: A): \"I think that that's the main factor.\"\nAE_ID ES2002a.B.argumentstructs.Erik.7 (Index: 11, Speaker: B): \"Okay. Right, okay, we'll that's that's the end of the meeting, then.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002a.B.argumentstructs.Erik.7",
+            "ans": "ES2002a.A.argumentstructs.Erik.4",
+            "judgement": false
+        },
+        {
+            "turn_number": 13,
+            "current_node": {
+                "index": 13,
+                "ae_id": "ES2002a.D.argumentstructs.Erik.12",
+                "speaker": "D",
+                "start_time": 1102.4,
+                "end_time": 1102.86,
+                "sentence": "Alright.",
+                "source": "ES2002a.B.argumentstructs.Erik.7",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 8,
+                    "ae_id": "ES2002a.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 1087.59,
+                    "end_time": 1088.2,
+                    "sentence": "Yeah.",
+                    "source": "ES2002a.A.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.10",
+                    "speaker": "D",
+                    "start_time": 1089.89,
+                    "end_time": 1090.23,
+                    "sentence": "Okay.",
+                    "source": "ES2002a.A.argumentstructs.Erik.3",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002a.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 1096.03,
+                    "end_time": 1098.43,
+                    "sentence": "I think that that's the main factor.",
+                    "source": "ES2002a.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2002a.B.argumentstructs.Erik.7",
+                        "ES2002a.D.argumentstructs.Erik.11"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2002a.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 1098.51,
+                    "end_time": 1102.48,
+                    "sentence": "Okay. Right, okay, we'll that's that's the end of the meeting, then.",
+                    "source": "ES2002a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2002a.D.argumentstructs.Erik.12"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2002a.D.argumentstructs.Erik.11",
+                    "speaker": "D",
+                    "start_time": 1098.52,
+                    "end_time": 1098.85,
+                    "sentence": "Okay.",
+                    "source": "ES2002a.A.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2002a.D.argumentstructs.Erik.12\n- Index: 13\n- Speaker: D\n- Sentence: \"Alright.\"\n\nPast Dialogue Turns:\nAE_ID ES2002a.B.argumentstructs.Erik.5 (Index: 8, Speaker: B): \"Yeah.\"\nAE_ID ES2002a.D.argumentstructs.Erik.10 (Index: 9, Speaker: D): \"Okay.\"\nAE_ID ES2002a.A.argumentstructs.Erik.4 (Index: 10, Speaker: A): \"I think that that's the main factor.\"\nAE_ID ES2002a.B.argumentstructs.Erik.7 (Index: 11, Speaker: B): \"Okay. Right, okay, we'll that's that's the end of the meeting, then.\"\nAE_ID ES2002a.D.argumentstructs.Erik.11 (Index: 12, Speaker: D): \"Okay.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002a.D.argumentstructs.Erik.11",
+            "ans": "ES2002a.B.argumentstructs.Erik.7",
+            "judgement": false
+        }
+    ]
+}

@@ -1,0 +1,1248 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2002c-ES2002c - Technology.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "ver.1.1.txt",
+    "rate": 0.4666666666666667,
+    "total_node_count": 22,
+    "removed_node_count": 6,
+    "removed_node_list": [
+        {
+            "index": 1,
+            "ae_id": "ES2002c.B.argumentstructs.37",
+            "speaker": "B",
+            "start_time": 2015.07,
+            "end_time": 2025.23,
+            "sentence": "Mm-hmm. Mm 'kay.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 8,
+            "ae_id": "ES2002c.D.argumentstructs.35",
+            "speaker": "D",
+            "start_time": 2054.2,
+            "end_time": 2054.95,
+            "sentence": "Yeah sure.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 12,
+            "ae_id": "ES2002c.D.argumentstructs.36",
+            "speaker": "D",
+            "start_time": 2059.53,
+            "end_time": 2059.95,
+            "sentence": "Yeah.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 13,
+            "ae_id": "ES2002c.A.argumentstructs.20",
+            "speaker": "A",
+            "start_time": 2060.8,
+            "end_time": 2061.7,
+            "sentence": "Yeah.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 16,
+            "ae_id": "ES2002c.D.argumentstructs.37",
+            "speaker": "D",
+            "start_time": 2068.37,
+            "end_time": 2074.19,
+            "sentence": "Yeah, yeah. Yeah. Sure.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 20,
+            "ae_id": "ES2002c.B.argumentstructs.38",
+            "speaker": "B",
+            "start_time": 2079.28,
+            "end_time": 2079.69,
+            "sentence": "Lights.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 0,
+                "ae_id": "ES2002c.D.argumentstructs.Erik.20",
+                "speaker": "D",
+                "start_time": 2011.25,
+                "end_time": 2038.806,
+                "sentence": "I mean one of the things running through my mind right now, I realise we're being efficient to wrap up the meeting and have lots of decisions made, um but we are leaning quite a bit to the side of being low-tech, rubber buttons plastic frame, it's almost like we're reproducing the same old remote control that's out there. Should we think about how we are actually getting this high-tech user friendly uh um theme  like what is it that we're u we're using to to achieve those goals ? Like",
+                "source": "NONE",
+                "targets": [
+                    "ES2002c.B.argumentstructs.Erik.23"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "NONE",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2002c.B.argumentstructs.Erik.23",
+                "speaker": "B",
+                "start_time": 2038.4,
+                "end_time": 2041.64,
+                "sentence": "Could have things like backlighting the buttons and stuff like that.",
+                "source": "ES2002c.D.argumentstructs.Erik.20",
+                "targets": [
+                    "ES2002c.D.argumentstructs.Erik.21",
+                    "ES2002c.A.argumentstructs.Erik.14",
+                    "ES2002c.A.argumentstructs.Erik.16"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.20",
+                    "speaker": "D",
+                    "start_time": 2011.25,
+                    "end_time": 2038.806,
+                    "sentence": "I mean one of the things running through my mind right now, I realise we're being efficient to wrap up the meeting and have lots of decisions made, um but we are leaning quite a bit to the side of being low-tech, rubber buttons plastic frame, it's almost like we're reproducing the same old remote control that's out there. Should we think about how we are actually getting this high-tech user friendly uh um theme  like what is it that we're u we're using to to achieve those goals ? Like",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002c.B.argumentstructs.Erik.23"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 1):\n- AE_ID: ES2002c.B.argumentstructs.Erik.23\n- Speaker: B\n- Sentence: \"Could have things like backlighting the buttons and stuff like that.\"\n\nPast Dialogue Turns:\nAE_ID ES2002c.D.argumentstructs.Erik.20 (Index: 0, Speaker: D): \"I mean one of the things running through my mind right now, I realise we're being efficient to wrap up the meeting and have lots of decisions made, um but we are leaning quite a bit to the side of being low-tech, rubber buttons plastic frame, it's almost like we're reproducing the same old remote control that's out there. Should we think about how we are actually getting this high-tech user friendly uh um theme  like what is it that we're u we're using to to achieve those goals ? Like\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002c.D.argumentstructs.Erik.20",
+            "ans": "ES2002c.D.argumentstructs.Erik.20",
+            "judgement": true
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 2,
+                "ae_id": "ES2002c.D.argumentstructs.Erik.21",
+                "speaker": "D",
+                "start_time": 2040.69,
+                "end_time": 2043.59,
+                "sentence": "Okay so so backlighting, that would be good.",
+                "source": "ES2002c.B.argumentstructs.Erik.23",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.20",
+                    "speaker": "D",
+                    "start_time": 2011.25,
+                    "end_time": 2038.806,
+                    "sentence": "I mean one of the things running through my mind right now, I realise we're being efficient to wrap up the meeting and have lots of decisions made, um but we are leaning quite a bit to the side of being low-tech, rubber buttons plastic frame, it's almost like we're reproducing the same old remote control that's out there. Should we think about how we are actually getting this high-tech user friendly uh um theme  like what is it that we're u we're using to to achieve those goals ? Like",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002c.B.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.23",
+                    "speaker": "B",
+                    "start_time": 2038.4,
+                    "end_time": 2041.64,
+                    "sentence": "Could have things like backlighting the buttons and stuff like that.",
+                    "source": "ES2002c.D.argumentstructs.Erik.20",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.21",
+                        "ES2002c.A.argumentstructs.Erik.14",
+                        "ES2002c.A.argumentstructs.Erik.16"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 2):\n- AE_ID: ES2002c.D.argumentstructs.Erik.21\n- Speaker: D\n- Sentence: \"Okay so so backlighting, that would be good.\"\n\nPast Dialogue Turns:\nAE_ID ES2002c.D.argumentstructs.Erik.20 (Index: 0, Speaker: D): \"I mean one of the things running through my mind right now, I realise we're being efficient to wrap up the meeting and have lots of decisions made, um but we are leaning quite a bit to the side of being low-tech, rubber buttons plastic frame, it's almost like we're reproducing the same old remote control that's out there. Should we think about how we are actually getting this high-tech user friendly uh um theme  like what is it that we're u we're using to to achieve those goals ? Like\"\nAE_ID ES2002c.B.argumentstructs.Erik.23 (Index: 1, Speaker: B): \"Could have things like backlighting the buttons and stuff like that.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002c.B.argumentstructs.Erik.23",
+            "ans": "ES2002c.B.argumentstructs.Erik.23",
+            "judgement": true
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 3,
+                "ae_id": "ES2002c.A.argumentstructs.Erik.14",
+                "speaker": "A",
+                "start_time": 2042.64,
+                "end_time": 2057.47,
+                "sentence": "Or even a clear case. Um you know a a glowing a a glowing yellow type case where the yellow is showable, but in the dark it sort of, it's alive. Um in in a slight subtle way.",
+                "source": "ES2002c.B.argumentstructs.Erik.23",
+                "targets": [
+                    "ES2002c.D.argumentstructs.Erik.22",
+                    "ES2002c.B.argumentstructs.Erik.24",
+                    "ES2002c.B.argumentstructs.Erik.25"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.20",
+                    "speaker": "D",
+                    "start_time": 2011.25,
+                    "end_time": 2038.806,
+                    "sentence": "I mean one of the things running through my mind right now, I realise we're being efficient to wrap up the meeting and have lots of decisions made, um but we are leaning quite a bit to the side of being low-tech, rubber buttons plastic frame, it's almost like we're reproducing the same old remote control that's out there. Should we think about how we are actually getting this high-tech user friendly uh um theme  like what is it that we're u we're using to to achieve those goals ? Like",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002c.B.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.23",
+                    "speaker": "B",
+                    "start_time": 2038.4,
+                    "end_time": 2041.64,
+                    "sentence": "Could have things like backlighting the buttons and stuff like that.",
+                    "source": "ES2002c.D.argumentstructs.Erik.20",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.21",
+                        "ES2002c.A.argumentstructs.Erik.14",
+                        "ES2002c.A.argumentstructs.Erik.16"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.21",
+                    "speaker": "D",
+                    "start_time": 2040.69,
+                    "end_time": 2043.59,
+                    "sentence": "Okay so so backlighting, that would be good.",
+                    "source": "ES2002c.B.argumentstructs.Erik.23",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 3):\n- AE_ID: ES2002c.A.argumentstructs.Erik.14\n- Speaker: A\n- Sentence: \"Or even a clear case. Um you know a a glowing a a glowing yellow type case where the yellow is showable, but in the dark it sort of, it's alive. Um in in a slight subtle way.\"\n\nPast Dialogue Turns:\nAE_ID ES2002c.D.argumentstructs.Erik.20 (Index: 0, Speaker: D): \"I mean one of the things running through my mind right now, I realise we're being efficient to wrap up the meeting and have lots of decisions made, um but we are leaning quite a bit to the side of being low-tech, rubber buttons plastic frame, it's almost like we're reproducing the same old remote control that's out there. Should we think about how we are actually getting this high-tech user friendly uh um theme  like what is it that we're u we're using to to achieve those goals ? Like\"\nAE_ID ES2002c.B.argumentstructs.Erik.23 (Index: 1, Speaker: B): \"Could have things like backlighting the buttons and stuff like that.\"\nAE_ID ES2002c.D.argumentstructs.Erik.21 (Index: 2, Speaker: D): \"Okay so so backlighting, that would be good.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002c.B.argumentstructs.Erik.23",
+            "ans": "ES2002c.B.argumentstructs.Erik.23",
+            "judgement": true
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 4,
+                "ae_id": "ES2002c.D.argumentstructs.Erik.22",
+                "speaker": "D",
+                "start_time": 2044.65,
+                "end_time": 2045.656,
+                "sentence": "Yeah clear, that'd be",
+                "source": "ES2002c.A.argumentstructs.Erik.14",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.20",
+                    "speaker": "D",
+                    "start_time": 2011.25,
+                    "end_time": 2038.806,
+                    "sentence": "I mean one of the things running through my mind right now, I realise we're being efficient to wrap up the meeting and have lots of decisions made, um but we are leaning quite a bit to the side of being low-tech, rubber buttons plastic frame, it's almost like we're reproducing the same old remote control that's out there. Should we think about how we are actually getting this high-tech user friendly uh um theme  like what is it that we're u we're using to to achieve those goals ? Like",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002c.B.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.23",
+                    "speaker": "B",
+                    "start_time": 2038.4,
+                    "end_time": 2041.64,
+                    "sentence": "Could have things like backlighting the buttons and stuff like that.",
+                    "source": "ES2002c.D.argumentstructs.Erik.20",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.21",
+                        "ES2002c.A.argumentstructs.Erik.14",
+                        "ES2002c.A.argumentstructs.Erik.16"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.21",
+                    "speaker": "D",
+                    "start_time": 2040.69,
+                    "end_time": 2043.59,
+                    "sentence": "Okay so so backlighting, that would be good.",
+                    "source": "ES2002c.B.argumentstructs.Erik.23",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.14",
+                    "speaker": "A",
+                    "start_time": 2042.64,
+                    "end_time": 2057.47,
+                    "sentence": "Or even a clear case. Um you know a a glowing a a glowing yellow type case where the yellow is showable, but in the dark it sort of, it's alive. Um in in a slight subtle way.",
+                    "source": "ES2002c.B.argumentstructs.Erik.23",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.22",
+                        "ES2002c.B.argumentstructs.Erik.24",
+                        "ES2002c.B.argumentstructs.Erik.25"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 4):\n- AE_ID: ES2002c.D.argumentstructs.Erik.22\n- Speaker: D\n- Sentence: \"Yeah clear, that'd be\"\n\nPast Dialogue Turns:\nAE_ID ES2002c.D.argumentstructs.Erik.20 (Index: 0, Speaker: D): \"I mean one of the things running through my mind right now, I realise we're being efficient to wrap up the meeting and have lots of decisions made, um but we are leaning quite a bit to the side of being low-tech, rubber buttons plastic frame, it's almost like we're reproducing the same old remote control that's out there. Should we think about how we are actually getting this high-tech user friendly uh um theme  like what is it that we're u we're using to to achieve those goals ? Like\"\nAE_ID ES2002c.B.argumentstructs.Erik.23 (Index: 1, Speaker: B): \"Could have things like backlighting the buttons and stuff like that.\"\nAE_ID ES2002c.D.argumentstructs.Erik.21 (Index: 2, Speaker: D): \"Okay so so backlighting, that would be good.\"\nAE_ID ES2002c.A.argumentstructs.Erik.14 (Index: 3, Speaker: A): \"Or even a clear case. Um you know a a glowing a a glowing yellow type case where the yellow is showable, but in the dark it sort of, it's alive. Um in in a slight subtle way.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002c.D.argumentstructs.Erik.21",
+            "ans": "ES2002c.A.argumentstructs.Erik.14",
+            "judgement": false
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 5,
+                "ae_id": "ES2002c.B.argumentstructs.Erik.24",
+                "speaker": "B",
+                "start_time": 2045.94,
+                "end_time": 2047.52,
+                "sentence": "Aye that would be a good idea.",
+                "source": "ES2002c.A.argumentstructs.Erik.14",
+                "targets": [
+                    "ES2002c.D.argumentstructs.Erik.23"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.20",
+                    "speaker": "D",
+                    "start_time": 2011.25,
+                    "end_time": 2038.806,
+                    "sentence": "I mean one of the things running through my mind right now, I realise we're being efficient to wrap up the meeting and have lots of decisions made, um but we are leaning quite a bit to the side of being low-tech, rubber buttons plastic frame, it's almost like we're reproducing the same old remote control that's out there. Should we think about how we are actually getting this high-tech user friendly uh um theme  like what is it that we're u we're using to to achieve those goals ? Like",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2002c.B.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.23",
+                    "speaker": "B",
+                    "start_time": 2038.4,
+                    "end_time": 2041.64,
+                    "sentence": "Could have things like backlighting the buttons and stuff like that.",
+                    "source": "ES2002c.D.argumentstructs.Erik.20",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.21",
+                        "ES2002c.A.argumentstructs.Erik.14",
+                        "ES2002c.A.argumentstructs.Erik.16"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.21",
+                    "speaker": "D",
+                    "start_time": 2040.69,
+                    "end_time": 2043.59,
+                    "sentence": "Okay so so backlighting, that would be good.",
+                    "source": "ES2002c.B.argumentstructs.Erik.23",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.14",
+                    "speaker": "A",
+                    "start_time": 2042.64,
+                    "end_time": 2057.47,
+                    "sentence": "Or even a clear case. Um you know a a glowing a a glowing yellow type case where the yellow is showable, but in the dark it sort of, it's alive. Um in in a slight subtle way.",
+                    "source": "ES2002c.B.argumentstructs.Erik.23",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.22",
+                        "ES2002c.B.argumentstructs.Erik.24",
+                        "ES2002c.B.argumentstructs.Erik.25"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.22",
+                    "speaker": "D",
+                    "start_time": 2044.65,
+                    "end_time": 2045.656,
+                    "sentence": "Yeah clear, that'd be",
+                    "source": "ES2002c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 5):\n- AE_ID: ES2002c.B.argumentstructs.Erik.24\n- Speaker: B\n- Sentence: \"Aye that would be a good idea.\"\n\nPast Dialogue Turns:\nAE_ID ES2002c.D.argumentstructs.Erik.20 (Index: 0, Speaker: D): \"I mean one of the things running through my mind right now, I realise we're being efficient to wrap up the meeting and have lots of decisions made, um but we are leaning quite a bit to the side of being low-tech, rubber buttons plastic frame, it's almost like we're reproducing the same old remote control that's out there. Should we think about how we are actually getting this high-tech user friendly uh um theme  like what is it that we're u we're using to to achieve those goals ? Like\"\nAE_ID ES2002c.B.argumentstructs.Erik.23 (Index: 1, Speaker: B): \"Could have things like backlighting the buttons and stuff like that.\"\nAE_ID ES2002c.D.argumentstructs.Erik.21 (Index: 2, Speaker: D): \"Okay so so backlighting, that would be good.\"\nAE_ID ES2002c.A.argumentstructs.Erik.14 (Index: 3, Speaker: A): \"Or even a clear case. Um you know a a glowing a a glowing yellow type case where the yellow is showable, but in the dark it sort of, it's alive. Um in in a slight subtle way.\"\nAE_ID ES2002c.D.argumentstructs.Erik.22 (Index: 4, Speaker: D): \"Yeah clear, that'd be\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002c.D.argumentstructs.Erik.22",
+            "ans": "ES2002c.A.argumentstructs.Erik.14",
+            "judgement": false
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 6,
+                "ae_id": "ES2002c.D.argumentstructs.Erik.23",
+                "speaker": "D",
+                "start_time": 2046.67,
+                "end_time": 2047.15,
+                "sentence": "Okay.",
+                "source": "ES2002c.B.argumentstructs.Erik.24",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.23",
+                    "speaker": "B",
+                    "start_time": 2038.4,
+                    "end_time": 2041.64,
+                    "sentence": "Could have things like backlighting the buttons and stuff like that.",
+                    "source": "ES2002c.D.argumentstructs.Erik.20",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.21",
+                        "ES2002c.A.argumentstructs.Erik.14",
+                        "ES2002c.A.argumentstructs.Erik.16"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.21",
+                    "speaker": "D",
+                    "start_time": 2040.69,
+                    "end_time": 2043.59,
+                    "sentence": "Okay so so backlighting, that would be good.",
+                    "source": "ES2002c.B.argumentstructs.Erik.23",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.14",
+                    "speaker": "A",
+                    "start_time": 2042.64,
+                    "end_time": 2057.47,
+                    "sentence": "Or even a clear case. Um you know a a glowing a a glowing yellow type case where the yellow is showable, but in the dark it sort of, it's alive. Um in in a slight subtle way.",
+                    "source": "ES2002c.B.argumentstructs.Erik.23",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.22",
+                        "ES2002c.B.argumentstructs.Erik.24",
+                        "ES2002c.B.argumentstructs.Erik.25"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.22",
+                    "speaker": "D",
+                    "start_time": 2044.65,
+                    "end_time": 2045.656,
+                    "sentence": "Yeah clear, that'd be",
+                    "source": "ES2002c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.24",
+                    "speaker": "B",
+                    "start_time": 2045.94,
+                    "end_time": 2047.52,
+                    "sentence": "Aye that would be a good idea.",
+                    "source": "ES2002c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.23"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 6):\n- AE_ID: ES2002c.D.argumentstructs.Erik.23\n- Speaker: D\n- Sentence: \"Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2002c.B.argumentstructs.Erik.23 (Index: 1, Speaker: B): \"Could have things like backlighting the buttons and stuff like that.\"\nAE_ID ES2002c.D.argumentstructs.Erik.21 (Index: 2, Speaker: D): \"Okay so so backlighting, that would be good.\"\nAE_ID ES2002c.A.argumentstructs.Erik.14 (Index: 3, Speaker: A): \"Or even a clear case. Um you know a a glowing a a glowing yellow type case where the yellow is showable, but in the dark it sort of, it's alive. Um in in a slight subtle way.\"\nAE_ID ES2002c.D.argumentstructs.Erik.22 (Index: 4, Speaker: D): \"Yeah clear, that'd be\"\nAE_ID ES2002c.B.argumentstructs.Erik.24 (Index: 5, Speaker: B): \"Aye that would be a good idea.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002c.B.argumentstructs.Erik.24",
+            "ans": "ES2002c.B.argumentstructs.Erik.24",
+            "judgement": true
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 7,
+                "ae_id": "ES2002c.B.argumentstructs.Erik.25",
+                "speaker": "B",
+                "start_time": 2056.02,
+                "end_time": 2063.23,
+                "sentence": "S so like cur slightly transparent case, so it's yellow, like tinted yellow, but you can maybe see through it. Is that what you mean ?",
+                "source": "ES2002c.A.argumentstructs.Erik.14",
+                "targets": [
+                    "ES2002c.D.argumentstructs.Erik.24",
+                    "ES2002c.A.argumentstructs.Erik.15"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 2,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.21",
+                    "speaker": "D",
+                    "start_time": 2040.69,
+                    "end_time": 2043.59,
+                    "sentence": "Okay so so backlighting, that would be good.",
+                    "source": "ES2002c.B.argumentstructs.Erik.23",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.14",
+                    "speaker": "A",
+                    "start_time": 2042.64,
+                    "end_time": 2057.47,
+                    "sentence": "Or even a clear case. Um you know a a glowing a a glowing yellow type case where the yellow is showable, but in the dark it sort of, it's alive. Um in in a slight subtle way.",
+                    "source": "ES2002c.B.argumentstructs.Erik.23",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.22",
+                        "ES2002c.B.argumentstructs.Erik.24",
+                        "ES2002c.B.argumentstructs.Erik.25"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.22",
+                    "speaker": "D",
+                    "start_time": 2044.65,
+                    "end_time": 2045.656,
+                    "sentence": "Yeah clear, that'd be",
+                    "source": "ES2002c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.24",
+                    "speaker": "B",
+                    "start_time": 2045.94,
+                    "end_time": 2047.52,
+                    "sentence": "Aye that would be a good idea.",
+                    "source": "ES2002c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.23",
+                    "speaker": "D",
+                    "start_time": 2046.67,
+                    "end_time": 2047.15,
+                    "sentence": "Okay.",
+                    "source": "ES2002c.B.argumentstructs.Erik.24",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 7):\n- AE_ID: ES2002c.B.argumentstructs.Erik.25\n- Speaker: B\n- Sentence: \"S so like cur slightly transparent case, so it's yellow, like tinted yellow, but you can maybe see through it. Is that what you mean ?\"\n\nPast Dialogue Turns:\nAE_ID ES2002c.D.argumentstructs.Erik.21 (Index: 2, Speaker: D): \"Okay so so backlighting, that would be good.\"\nAE_ID ES2002c.A.argumentstructs.Erik.14 (Index: 3, Speaker: A): \"Or even a clear case. Um you know a a glowing a a glowing yellow type case where the yellow is showable, but in the dark it sort of, it's alive. Um in in a slight subtle way.\"\nAE_ID ES2002c.D.argumentstructs.Erik.22 (Index: 4, Speaker: D): \"Yeah clear, that'd be\"\nAE_ID ES2002c.B.argumentstructs.Erik.24 (Index: 5, Speaker: B): \"Aye that would be a good idea.\"\nAE_ID ES2002c.D.argumentstructs.Erik.23 (Index: 6, Speaker: D): \"Okay.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002c.A.argumentstructs.Erik.14",
+            "ans": "ES2002c.A.argumentstructs.Erik.14",
+            "judgement": true
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 8,
+                "ae_id": "ES2002c.D.argumentstructs.Erik.24",
+                "speaker": "D",
+                "start_time": 2056.9,
+                "end_time": 2057.81,
+                "sentence": "Yeah that'd be really good.",
+                "source": "ES2002c.B.argumentstructs.Erik.25",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 3,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.14",
+                    "speaker": "A",
+                    "start_time": 2042.64,
+                    "end_time": 2057.47,
+                    "sentence": "Or even a clear case. Um you know a a glowing a a glowing yellow type case where the yellow is showable, but in the dark it sort of, it's alive. Um in in a slight subtle way.",
+                    "source": "ES2002c.B.argumentstructs.Erik.23",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.22",
+                        "ES2002c.B.argumentstructs.Erik.24",
+                        "ES2002c.B.argumentstructs.Erik.25"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.22",
+                    "speaker": "D",
+                    "start_time": 2044.65,
+                    "end_time": 2045.656,
+                    "sentence": "Yeah clear, that'd be",
+                    "source": "ES2002c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.24",
+                    "speaker": "B",
+                    "start_time": 2045.94,
+                    "end_time": 2047.52,
+                    "sentence": "Aye that would be a good idea.",
+                    "source": "ES2002c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.23",
+                    "speaker": "D",
+                    "start_time": 2046.67,
+                    "end_time": 2047.15,
+                    "sentence": "Okay.",
+                    "source": "ES2002c.B.argumentstructs.Erik.24",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.25",
+                    "speaker": "B",
+                    "start_time": 2056.02,
+                    "end_time": 2063.23,
+                    "sentence": "S so like cur slightly transparent case, so it's yellow, like tinted yellow, but you can maybe see through it. Is that what you mean ?",
+                    "source": "ES2002c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.24",
+                        "ES2002c.A.argumentstructs.Erik.15"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 8):\n- AE_ID: ES2002c.D.argumentstructs.Erik.24\n- Speaker: D\n- Sentence: \"Yeah that'd be really good.\"\n\nPast Dialogue Turns:\nAE_ID ES2002c.A.argumentstructs.Erik.14 (Index: 3, Speaker: A): \"Or even a clear case. Um you know a a glowing a a glowing yellow type case where the yellow is showable, but in the dark it sort of, it's alive. Um in in a slight subtle way.\"\nAE_ID ES2002c.D.argumentstructs.Erik.22 (Index: 4, Speaker: D): \"Yeah clear, that'd be\"\nAE_ID ES2002c.B.argumentstructs.Erik.24 (Index: 5, Speaker: B): \"Aye that would be a good idea.\"\nAE_ID ES2002c.D.argumentstructs.Erik.23 (Index: 6, Speaker: D): \"Okay.\"\nAE_ID ES2002c.B.argumentstructs.Erik.25 (Index: 7, Speaker: B): \"S so like cur slightly transparent case, so it's yellow, like tinted yellow, but you can maybe see through it. Is that what you mean ?\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002c.B.argumentstructs.Erik.25",
+            "ans": "ES2002c.B.argumentstructs.Erik.25",
+            "judgement": true
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 9,
+                "ae_id": "ES2002c.A.argumentstructs.Erik.15",
+                "speaker": "A",
+                "start_time": 2058.68,
+                "end_time": 2059.67,
+                "sentence": "Yeah yeah.",
+                "source": "ES2002c.B.argumentstructs.Erik.25",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 4,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.22",
+                    "speaker": "D",
+                    "start_time": 2044.65,
+                    "end_time": 2045.656,
+                    "sentence": "Yeah clear, that'd be",
+                    "source": "ES2002c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.24",
+                    "speaker": "B",
+                    "start_time": 2045.94,
+                    "end_time": 2047.52,
+                    "sentence": "Aye that would be a good idea.",
+                    "source": "ES2002c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.23",
+                    "speaker": "D",
+                    "start_time": 2046.67,
+                    "end_time": 2047.15,
+                    "sentence": "Okay.",
+                    "source": "ES2002c.B.argumentstructs.Erik.24",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.25",
+                    "speaker": "B",
+                    "start_time": 2056.02,
+                    "end_time": 2063.23,
+                    "sentence": "S so like cur slightly transparent case, so it's yellow, like tinted yellow, but you can maybe see through it. Is that what you mean ?",
+                    "source": "ES2002c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.24",
+                        "ES2002c.A.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.24",
+                    "speaker": "D",
+                    "start_time": 2056.9,
+                    "end_time": 2057.81,
+                    "sentence": "Yeah that'd be really good.",
+                    "source": "ES2002c.B.argumentstructs.Erik.25",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 9):\n- AE_ID: ES2002c.A.argumentstructs.Erik.15\n- Speaker: A\n- Sentence: \"Yeah yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2002c.D.argumentstructs.Erik.22 (Index: 4, Speaker: D): \"Yeah clear, that'd be\"\nAE_ID ES2002c.B.argumentstructs.Erik.24 (Index: 5, Speaker: B): \"Aye that would be a good idea.\"\nAE_ID ES2002c.D.argumentstructs.Erik.23 (Index: 6, Speaker: D): \"Okay.\"\nAE_ID ES2002c.B.argumentstructs.Erik.25 (Index: 7, Speaker: B): \"S so like cur slightly transparent case, so it's yellow, like tinted yellow, but you can maybe see through it. Is that what you mean ?\"\nAE_ID ES2002c.D.argumentstructs.Erik.24 (Index: 8, Speaker: D): \"Yeah that'd be really good.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002c.D.argumentstructs.Erik.24",
+            "ans": "ES2002c.B.argumentstructs.Erik.25",
+            "judgement": false
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 10,
+                "ae_id": "ES2002c.A.argumentstructs.Erik.16",
+                "speaker": "A",
+                "start_time": 2062.82,
+                "end_time": 2075.456,
+                "sentence": "Or or there might be a light running through it like a mouse. You know you have cordless mice and they don't eat that much power right. So the power  the battery in that sense, maybe you have one or two stratig strategically placed lights that sort of",
+                "source": "ES2002c.B.argumentstructs.Erik.23",
+                "targets": [
+                    "ES2002c.D.argumentstructs.Erik.25",
+                    "ES2002c.D.argumentstructs.Erik.26",
+                    "ES2002c.B.argumentstructs.Erik.26",
+                    "ES2002c.A.argumentstructs.Erik.17"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 5,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.24",
+                    "speaker": "B",
+                    "start_time": 2045.94,
+                    "end_time": 2047.52,
+                    "sentence": "Aye that would be a good idea.",
+                    "source": "ES2002c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.23"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.23",
+                    "speaker": "D",
+                    "start_time": 2046.67,
+                    "end_time": 2047.15,
+                    "sentence": "Okay.",
+                    "source": "ES2002c.B.argumentstructs.Erik.24",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.25",
+                    "speaker": "B",
+                    "start_time": 2056.02,
+                    "end_time": 2063.23,
+                    "sentence": "S so like cur slightly transparent case, so it's yellow, like tinted yellow, but you can maybe see through it. Is that what you mean ?",
+                    "source": "ES2002c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.24",
+                        "ES2002c.A.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.24",
+                    "speaker": "D",
+                    "start_time": 2056.9,
+                    "end_time": 2057.81,
+                    "sentence": "Yeah that'd be really good.",
+                    "source": "ES2002c.B.argumentstructs.Erik.25",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.15",
+                    "speaker": "A",
+                    "start_time": 2058.68,
+                    "end_time": 2059.67,
+                    "sentence": "Yeah yeah.",
+                    "source": "ES2002c.B.argumentstructs.Erik.25",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 10):\n- AE_ID: ES2002c.A.argumentstructs.Erik.16\n- Speaker: A\n- Sentence: \"Or or there might be a light running through it like a mouse. You know you have cordless mice and they don't eat that much power right. So the power  the battery in that sense, maybe you have one or two stratig strategically placed lights that sort of\"\n\nPast Dialogue Turns:\nAE_ID ES2002c.B.argumentstructs.Erik.24 (Index: 5, Speaker: B): \"Aye that would be a good idea.\"\nAE_ID ES2002c.D.argumentstructs.Erik.23 (Index: 6, Speaker: D): \"Okay.\"\nAE_ID ES2002c.B.argumentstructs.Erik.25 (Index: 7, Speaker: B): \"S so like cur slightly transparent case, so it's yellow, like tinted yellow, but you can maybe see through it. Is that what you mean ?\"\nAE_ID ES2002c.D.argumentstructs.Erik.24 (Index: 8, Speaker: D): \"Yeah that'd be really good.\"\nAE_ID ES2002c.A.argumentstructs.Erik.15 (Index: 9, Speaker: A): \"Yeah yeah.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002c.B.argumentstructs.Erik.25",
+            "ans": "ES2002c.B.argumentstructs.Erik.23",
+            "judgement": false
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 11,
+                "ae_id": "ES2002c.D.argumentstructs.Erik.25",
+                "speaker": "D",
+                "start_time": 2065.44,
+                "end_time": 2065.79,
+                "sentence": "Sure.",
+                "source": "ES2002c.A.argumentstructs.Erik.16",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 6,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.23",
+                    "speaker": "D",
+                    "start_time": 2046.67,
+                    "end_time": 2047.15,
+                    "sentence": "Okay.",
+                    "source": "ES2002c.B.argumentstructs.Erik.24",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.25",
+                    "speaker": "B",
+                    "start_time": 2056.02,
+                    "end_time": 2063.23,
+                    "sentence": "S so like cur slightly transparent case, so it's yellow, like tinted yellow, but you can maybe see through it. Is that what you mean ?",
+                    "source": "ES2002c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.24",
+                        "ES2002c.A.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.24",
+                    "speaker": "D",
+                    "start_time": 2056.9,
+                    "end_time": 2057.81,
+                    "sentence": "Yeah that'd be really good.",
+                    "source": "ES2002c.B.argumentstructs.Erik.25",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.15",
+                    "speaker": "A",
+                    "start_time": 2058.68,
+                    "end_time": 2059.67,
+                    "sentence": "Yeah yeah.",
+                    "source": "ES2002c.B.argumentstructs.Erik.25",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.16",
+                    "speaker": "A",
+                    "start_time": 2062.82,
+                    "end_time": 2075.456,
+                    "sentence": "Or or there might be a light running through it like a mouse. You know you have cordless mice and they don't eat that much power right. So the power  the battery in that sense, maybe you have one or two stratig strategically placed lights that sort of",
+                    "source": "ES2002c.B.argumentstructs.Erik.23",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.25",
+                        "ES2002c.D.argumentstructs.Erik.26",
+                        "ES2002c.B.argumentstructs.Erik.26",
+                        "ES2002c.A.argumentstructs.Erik.17"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 11):\n- AE_ID: ES2002c.D.argumentstructs.Erik.25\n- Speaker: D\n- Sentence: \"Sure.\"\n\nPast Dialogue Turns:\nAE_ID ES2002c.D.argumentstructs.Erik.23 (Index: 6, Speaker: D): \"Okay.\"\nAE_ID ES2002c.B.argumentstructs.Erik.25 (Index: 7, Speaker: B): \"S so like cur slightly transparent case, so it's yellow, like tinted yellow, but you can maybe see through it. Is that what you mean ?\"\nAE_ID ES2002c.D.argumentstructs.Erik.24 (Index: 8, Speaker: D): \"Yeah that'd be really good.\"\nAE_ID ES2002c.A.argumentstructs.Erik.15 (Index: 9, Speaker: A): \"Yeah yeah.\"\nAE_ID ES2002c.A.argumentstructs.Erik.16 (Index: 10, Speaker: A): \"Or or there might be a light running through it like a mouse. You know you have cordless mice and they don't eat that much power right. So the power  the battery in that sense, maybe you have one or two stratig strategically placed lights that sort of\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002c.D.argumentstructs.Erik.24",
+            "ans": "ES2002c.A.argumentstructs.Erik.16",
+            "judgement": false
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 12,
+                "ae_id": "ES2002c.D.argumentstructs.Erik.26",
+                "speaker": "D",
+                "start_time": 2075.4,
+                "end_time": 2077.11,
+                "sentence": "Yeah they they emanate a light through it.",
+                "source": "ES2002c.A.argumentstructs.Erik.16",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 7,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.25",
+                    "speaker": "B",
+                    "start_time": 2056.02,
+                    "end_time": 2063.23,
+                    "sentence": "S so like cur slightly transparent case, so it's yellow, like tinted yellow, but you can maybe see through it. Is that what you mean ?",
+                    "source": "ES2002c.A.argumentstructs.Erik.14",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.24",
+                        "ES2002c.A.argumentstructs.Erik.15"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.24",
+                    "speaker": "D",
+                    "start_time": 2056.9,
+                    "end_time": 2057.81,
+                    "sentence": "Yeah that'd be really good.",
+                    "source": "ES2002c.B.argumentstructs.Erik.25",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.15",
+                    "speaker": "A",
+                    "start_time": 2058.68,
+                    "end_time": 2059.67,
+                    "sentence": "Yeah yeah.",
+                    "source": "ES2002c.B.argumentstructs.Erik.25",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.16",
+                    "speaker": "A",
+                    "start_time": 2062.82,
+                    "end_time": 2075.456,
+                    "sentence": "Or or there might be a light running through it like a mouse. You know you have cordless mice and they don't eat that much power right. So the power  the battery in that sense, maybe you have one or two stratig strategically placed lights that sort of",
+                    "source": "ES2002c.B.argumentstructs.Erik.23",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.25",
+                        "ES2002c.D.argumentstructs.Erik.26",
+                        "ES2002c.B.argumentstructs.Erik.26",
+                        "ES2002c.A.argumentstructs.Erik.17"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.25",
+                    "speaker": "D",
+                    "start_time": 2065.44,
+                    "end_time": 2065.79,
+                    "sentence": "Sure.",
+                    "source": "ES2002c.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 12):\n- AE_ID: ES2002c.D.argumentstructs.Erik.26\n- Speaker: D\n- Sentence: \"Yeah they they emanate a light through it.\"\n\nPast Dialogue Turns:\nAE_ID ES2002c.B.argumentstructs.Erik.25 (Index: 7, Speaker: B): \"S so like cur slightly transparent case, so it's yellow, like tinted yellow, but you can maybe see through it. Is that what you mean ?\"\nAE_ID ES2002c.D.argumentstructs.Erik.24 (Index: 8, Speaker: D): \"Yeah that'd be really good.\"\nAE_ID ES2002c.A.argumentstructs.Erik.15 (Index: 9, Speaker: A): \"Yeah yeah.\"\nAE_ID ES2002c.A.argumentstructs.Erik.16 (Index: 10, Speaker: A): \"Or or there might be a light running through it like a mouse. You know you have cordless mice and they don't eat that much power right. So the power  the battery in that sense, maybe you have one or two stratig strategically placed lights that sort of\"\nAE_ID ES2002c.D.argumentstructs.Erik.25 (Index: 11, Speaker: D): \"Sure.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002c.A.argumentstructs.Erik.16",
+            "ans": "ES2002c.A.argumentstructs.Erik.16",
+            "judgement": true
+        },
+        {
+            "turn_number": 13,
+            "current_node": {
+                "index": 13,
+                "ae_id": "ES2002c.A.argumentstructs.Erik.17",
+                "speaker": "A",
+                "start_time": 2077.05,
+                "end_time": 2083.16,
+                "sentence": "Yeah but because the case is transparent so it gives it a little bit of a glow, doesn't make it freaky.",
+                "source": "ES2002c.A.argumentstructs.Erik.16",
+                "targets": [
+                    "ES2002c.D.argumentstructs.Erik.27"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 8,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.24",
+                    "speaker": "D",
+                    "start_time": 2056.9,
+                    "end_time": 2057.81,
+                    "sentence": "Yeah that'd be really good.",
+                    "source": "ES2002c.B.argumentstructs.Erik.25",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.15",
+                    "speaker": "A",
+                    "start_time": 2058.68,
+                    "end_time": 2059.67,
+                    "sentence": "Yeah yeah.",
+                    "source": "ES2002c.B.argumentstructs.Erik.25",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.16",
+                    "speaker": "A",
+                    "start_time": 2062.82,
+                    "end_time": 2075.456,
+                    "sentence": "Or or there might be a light running through it like a mouse. You know you have cordless mice and they don't eat that much power right. So the power  the battery in that sense, maybe you have one or two stratig strategically placed lights that sort of",
+                    "source": "ES2002c.B.argumentstructs.Erik.23",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.25",
+                        "ES2002c.D.argumentstructs.Erik.26",
+                        "ES2002c.B.argumentstructs.Erik.26",
+                        "ES2002c.A.argumentstructs.Erik.17"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.25",
+                    "speaker": "D",
+                    "start_time": 2065.44,
+                    "end_time": 2065.79,
+                    "sentence": "Sure.",
+                    "source": "ES2002c.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.26",
+                    "speaker": "D",
+                    "start_time": 2075.4,
+                    "end_time": 2077.11,
+                    "sentence": "Yeah they they emanate a light through it.",
+                    "source": "ES2002c.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 13):\n- AE_ID: ES2002c.A.argumentstructs.Erik.17\n- Speaker: A\n- Sentence: \"Yeah but because the case is transparent so it gives it a little bit of a glow, doesn't make it freaky.\"\n\nPast Dialogue Turns:\nAE_ID ES2002c.D.argumentstructs.Erik.24 (Index: 8, Speaker: D): \"Yeah that'd be really good.\"\nAE_ID ES2002c.A.argumentstructs.Erik.15 (Index: 9, Speaker: A): \"Yeah yeah.\"\nAE_ID ES2002c.A.argumentstructs.Erik.16 (Index: 10, Speaker: A): \"Or or there might be a light running through it like a mouse. You know you have cordless mice and they don't eat that much power right. So the power  the battery in that sense, maybe you have one or two stratig strategically placed lights that sort of\"\nAE_ID ES2002c.D.argumentstructs.Erik.25 (Index: 11, Speaker: D): \"Sure.\"\nAE_ID ES2002c.D.argumentstructs.Erik.26 (Index: 12, Speaker: D): \"Yeah they they emanate a light through it.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002c.D.argumentstructs.Erik.26",
+            "ans": "ES2002c.A.argumentstructs.Erik.16",
+            "judgement": false
+        },
+        {
+            "turn_number": 14,
+            "current_node": {
+                "index": 14,
+                "ae_id": "ES2002c.B.argumentstructs.Erik.26",
+                "speaker": "B",
+                "start_time": 2077.17,
+                "end_time": 2077.61,
+                "sentence": "Okay.",
+                "source": "ES2002c.A.argumentstructs.Erik.16",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 9,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.15",
+                    "speaker": "A",
+                    "start_time": 2058.68,
+                    "end_time": 2059.67,
+                    "sentence": "Yeah yeah.",
+                    "source": "ES2002c.B.argumentstructs.Erik.25",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.16",
+                    "speaker": "A",
+                    "start_time": 2062.82,
+                    "end_time": 2075.456,
+                    "sentence": "Or or there might be a light running through it like a mouse. You know you have cordless mice and they don't eat that much power right. So the power  the battery in that sense, maybe you have one or two stratig strategically placed lights that sort of",
+                    "source": "ES2002c.B.argumentstructs.Erik.23",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.25",
+                        "ES2002c.D.argumentstructs.Erik.26",
+                        "ES2002c.B.argumentstructs.Erik.26",
+                        "ES2002c.A.argumentstructs.Erik.17"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.25",
+                    "speaker": "D",
+                    "start_time": 2065.44,
+                    "end_time": 2065.79,
+                    "sentence": "Sure.",
+                    "source": "ES2002c.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.26",
+                    "speaker": "D",
+                    "start_time": 2075.4,
+                    "end_time": 2077.11,
+                    "sentence": "Yeah they they emanate a light through it.",
+                    "source": "ES2002c.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.17",
+                    "speaker": "A",
+                    "start_time": 2077.05,
+                    "end_time": 2083.16,
+                    "sentence": "Yeah but because the case is transparent so it gives it a little bit of a glow, doesn't make it freaky.",
+                    "source": "ES2002c.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.27"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 14):\n- AE_ID: ES2002c.B.argumentstructs.Erik.26\n- Speaker: B\n- Sentence: \"Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2002c.A.argumentstructs.Erik.15 (Index: 9, Speaker: A): \"Yeah yeah.\"\nAE_ID ES2002c.A.argumentstructs.Erik.16 (Index: 10, Speaker: A): \"Or or there might be a light running through it like a mouse. You know you have cordless mice and they don't eat that much power right. So the power  the battery in that sense, maybe you have one or two stratig strategically placed lights that sort of\"\nAE_ID ES2002c.D.argumentstructs.Erik.25 (Index: 11, Speaker: D): \"Sure.\"\nAE_ID ES2002c.D.argumentstructs.Erik.26 (Index: 12, Speaker: D): \"Yeah they they emanate a light through it.\"\nAE_ID ES2002c.A.argumentstructs.Erik.17 (Index: 13, Speaker: A): \"Yeah but because the case is transparent so it gives it a little bit of a glow, doesn't make it freaky.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002c.A.argumentstructs.Erik.17",
+            "ans": "ES2002c.A.argumentstructs.Erik.16",
+            "judgement": false
+        },
+        {
+            "turn_number": 15,
+            "current_node": {
+                "index": 15,
+                "ae_id": "ES2002c.D.argumentstructs.Erik.27",
+                "speaker": "D",
+                "start_time": 2080.02,
+                "end_time": 2080.27,
+                "sentence": "'Kay.",
+                "source": "ES2002c.A.argumentstructs.Erik.17",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 10,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.16",
+                    "speaker": "A",
+                    "start_time": 2062.82,
+                    "end_time": 2075.456,
+                    "sentence": "Or or there might be a light running through it like a mouse. You know you have cordless mice and they don't eat that much power right. So the power  the battery in that sense, maybe you have one or two stratig strategically placed lights that sort of",
+                    "source": "ES2002c.B.argumentstructs.Erik.23",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.25",
+                        "ES2002c.D.argumentstructs.Erik.26",
+                        "ES2002c.B.argumentstructs.Erik.26",
+                        "ES2002c.A.argumentstructs.Erik.17"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.25",
+                    "speaker": "D",
+                    "start_time": 2065.44,
+                    "end_time": 2065.79,
+                    "sentence": "Sure.",
+                    "source": "ES2002c.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2002c.D.argumentstructs.Erik.26",
+                    "speaker": "D",
+                    "start_time": 2075.4,
+                    "end_time": 2077.11,
+                    "sentence": "Yeah they they emanate a light through it.",
+                    "source": "ES2002c.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2002c.A.argumentstructs.Erik.17",
+                    "speaker": "A",
+                    "start_time": 2077.05,
+                    "end_time": 2083.16,
+                    "sentence": "Yeah but because the case is transparent so it gives it a little bit of a glow, doesn't make it freaky.",
+                    "source": "ES2002c.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "ES2002c.D.argumentstructs.Erik.27"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2002c.B.argumentstructs.Erik.26",
+                    "speaker": "B",
+                    "start_time": 2077.17,
+                    "end_time": 2077.61,
+                    "sentence": "Okay.",
+                    "source": "ES2002c.A.argumentstructs.Erik.16",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nYou are analyzing a multi-person discussion where each dialogue turn may be influenced by a previous turn, forming a directed tree structure. Your task is to identify the one past dialogue turn that directly influenced the current turn. Use the content, context, and sequence of the dialogue to make your determination.\n\nCurrent Turn (Index: 15):\n- AE_ID: ES2002c.D.argumentstructs.Erik.27\n- Speaker: D\n- Sentence: \"'Kay.\"\n\nPast Dialogue Turns:\nAE_ID ES2002c.A.argumentstructs.Erik.16 (Index: 10, Speaker: A): \"Or or there might be a light running through it like a mouse. You know you have cordless mice and they don't eat that much power right. So the power  the battery in that sense, maybe you have one or two stratig strategically placed lights that sort of\"\nAE_ID ES2002c.D.argumentstructs.Erik.25 (Index: 11, Speaker: D): \"Sure.\"\nAE_ID ES2002c.D.argumentstructs.Erik.26 (Index: 12, Speaker: D): \"Yeah they they emanate a light through it.\"\nAE_ID ES2002c.A.argumentstructs.Erik.17 (Index: 13, Speaker: A): \"Yeah but because the case is transparent so it gives it a little bit of a glow, doesn't make it freaky.\"\nAE_ID ES2002c.B.argumentstructs.Erik.26 (Index: 14, Speaker: B): \"Okay.\"\n\nGuidelines:\n- Only consider the provided past dialogue turns as potential influencing turns.\n- The influencing turn is typically the one the current turn is responding to or building upon.\n- Pay attention to references, questions, answers, and topic continuity.\n- Do not assume any information beyond what is provided.\n\nAnswer Format:\n- Provide only the AE_ID (alphabets and numbers) of the influencing past turn.\n- Do not include any explanations, justifications, or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2002c.B.argumentstructs.Erik.26",
+            "ans": "ES2002c.A.argumentstructs.Erik.17",
+            "judgement": false
+        }
+    ]
+}

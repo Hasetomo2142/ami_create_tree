@@ -1,0 +1,1396 @@
+{
+    "file_name": "/home/hasegawa_tomokazu/create_tree/CSV_topics/ES2006d-ES2006d - Flipping open.csv",
+    "use_model": "gpt-4o-mini",
+    "use_method": "baseline",
+    "template": "ver.1.0.txt",
+    "rate": 0.6470588235294118,
+    "total_node_count": 24,
+    "removed_node_count": 6,
+    "removed_node_list": [
+        {
+            "index": 0,
+            "ae_id": "ES2006d.A.argumentstructs.9",
+            "speaker": "A",
+            "start_time": 666.62,
+            "end_time": 667.72,
+            "sentence": "One more thing is that i",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 3,
+            "ae_id": "ES2006d.C.argumentstructs.10",
+            "speaker": "C",
+            "start_time": 675.56,
+            "end_time": 676.28,
+            "sentence": "Mm-hmm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 8,
+            "ae_id": "ES2006d.A.argumentstructs.10",
+            "speaker": "A",
+            "start_time": 685.96,
+            "end_time": 686.21,
+            "sentence": "Oops.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 15,
+            "ae_id": "ES2006d.C.argumentstructs.11",
+            "speaker": "C",
+            "start_time": 698.75,
+            "end_time": 699.18,
+            "sentence": "Mm.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 16,
+            "ae_id": "ES2006d.B.argumentstructs.14",
+            "speaker": "B",
+            "start_time": 699.48,
+            "end_time": 700.1,
+            "sentence": "Because",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        },
+        {
+            "index": 18,
+            "ae_id": "ES2006d.A.argumentstructs.11",
+            "speaker": "A",
+            "start_time": 701.26,
+            "end_time": 704.87,
+            "sentence": "and two, it might interfere with the I_R_ channel.",
+            "source": "NONE",
+            "targets": [
+                "NONE"
+            ]
+        }
+    ],
+    "one_turn_results": [
+        {
+            "turn_number": 0,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2006d.B.argumentstructs.Erik.1",
+                "speaker": "B",
+                "start_time": 670.21,
+                "end_time": 670.72,
+                "sentence": "Okay.",
+                "source": "ES2006d.A.argumentstructs.Erik.1",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [],
+            "prompt": "NONE",
+            "gpt_ans": "ROOT",
+            "ans": "ES2006d.A.argumentstructs.Erik.1",
+            "judgement": "NONE"
+        },
+        {
+            "turn_number": 1,
+            "current_node": {
+                "index": 1,
+                "ae_id": "ES2006d.A.argumentstructs.Erik.1",
+                "speaker": "A",
+                "start_time": 670.89,
+                "end_time": 677.536,
+                "sentence": "It might be a little clumsy when when it opens up, right, so it opens on the side. So",
+                "source": "NONE",
+                "targets": [
+                    "ES2006d.B.argumentstructs.Erik.1",
+                    "ES2006d.D.argumentstructs.Erik.1",
+                    "ES2006d.B.argumentstructs.Erik.3"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 670.21,
+                    "end_time": 670.72,
+                    "sentence": "Okay.",
+                    "source": "ES2006d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006d.A.argumentstructs.Erik.1\n- Index: 1\n- Speaker: A\n- Sentence: \"It might be a little clumsy when when it opens up, right, so it opens on the side. So\"\n\nPast Dialogue Turns:\nAE_ID ES2006d.B.argumentstructs.Erik.1 (Index: 0, Speaker: B): \"Okay.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006d.B.argumentstructs.Erik.1",
+            "ans": "NONE",
+            "judgement": false
+        },
+        {
+            "turn_number": 2,
+            "current_node": {
+                "index": 2,
+                "ae_id": "ES2006d.D.argumentstructs.Erik.1",
+                "speaker": "D",
+                "start_time": 675.6,
+                "end_time": 686.15,
+                "sentence": "No, yeah, but mm but we have it  nicely  with the hinges here  yeah. So it won't be a problem, it will be  and it will be  it won't be heavy.",
+                "source": "ES2006d.A.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2006d.A.argumentstructs.Erik.2"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 670.21,
+                    "end_time": 670.72,
+                    "sentence": "Okay.",
+                    "source": "ES2006d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2006d.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 670.89,
+                    "end_time": 677.536,
+                    "sentence": "It might be a little clumsy when when it opens up, right, so it opens on the side. So",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006d.B.argumentstructs.Erik.1",
+                        "ES2006d.D.argumentstructs.Erik.1",
+                        "ES2006d.B.argumentstructs.Erik.3"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006d.D.argumentstructs.Erik.1\n- Index: 2\n- Speaker: D\n- Sentence: \"No, yeah, but mm but we have it  nicely  with the hinges here  yeah. So it won't be a problem, it will be  and it will be  it won't be heavy.\"\n\nPast Dialogue Turns:\nAE_ID ES2006d.B.argumentstructs.Erik.1 (Index: 0, Speaker: B): \"Okay.\"\nAE_ID ES2006d.A.argumentstructs.Erik.1 (Index: 1, Speaker: A): \"It might be a little clumsy when when it opens up, right, so it opens on the side. So\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006d.A.argumentstructs.Erik.1",
+            "ans": "ES2006d.A.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 3,
+            "current_node": {
+                "index": 3,
+                "ae_id": "ES2006d.A.argumentstructs.Erik.2",
+                "speaker": "A",
+                "start_time": 679.22,
+                "end_time": 684.464,
+                "sentence": "Yeah yeah yeah, I mean  yeah. So you guys can decide wh whether",
+                "source": "ES2006d.D.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2006d.C.argumentstructs.Erik.1",
+                    "ES2006d.B.argumentstructs.Erik.2"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 670.21,
+                    "end_time": 670.72,
+                    "sentence": "Okay.",
+                    "source": "ES2006d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2006d.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 670.89,
+                    "end_time": 677.536,
+                    "sentence": "It might be a little clumsy when when it opens up, right, so it opens on the side. So",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006d.B.argumentstructs.Erik.1",
+                        "ES2006d.D.argumentstructs.Erik.1",
+                        "ES2006d.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2006d.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 675.6,
+                    "end_time": 686.15,
+                    "sentence": "No, yeah, but mm but we have it  nicely  with the hinges here  yeah. So it won't be a problem, it will be  and it will be  it won't be heavy.",
+                    "source": "ES2006d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006d.A.argumentstructs.Erik.2"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006d.A.argumentstructs.Erik.2\n- Index: 3\n- Speaker: A\n- Sentence: \"Yeah yeah yeah, I mean  yeah. So you guys can decide wh whether\"\n\nPast Dialogue Turns:\nAE_ID ES2006d.B.argumentstructs.Erik.1 (Index: 0, Speaker: B): \"Okay.\"\nAE_ID ES2006d.A.argumentstructs.Erik.1 (Index: 1, Speaker: A): \"It might be a little clumsy when when it opens up, right, so it opens on the side. So\"\nAE_ID ES2006d.D.argumentstructs.Erik.1 (Index: 2, Speaker: D): \"No, yeah, but mm but we have it  nicely  with the hinges here  yeah. So it won't be a problem, it will be  and it will be  it won't be heavy.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006d.D.argumentstructs.Erik.1",
+            "ans": "ES2006d.D.argumentstructs.Erik.1",
+            "judgement": true
+        },
+        {
+            "turn_number": 4,
+            "current_node": {
+                "index": 4,
+                "ae_id": "ES2006d.C.argumentstructs.Erik.1",
+                "speaker": "C",
+                "start_time": 680.67,
+                "end_time": 681.09,
+                "sentence": "Yeah.",
+                "source": "ES2006d.A.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 670.21,
+                    "end_time": 670.72,
+                    "sentence": "Okay.",
+                    "source": "ES2006d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2006d.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 670.89,
+                    "end_time": 677.536,
+                    "sentence": "It might be a little clumsy when when it opens up, right, so it opens on the side. So",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006d.B.argumentstructs.Erik.1",
+                        "ES2006d.D.argumentstructs.Erik.1",
+                        "ES2006d.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2006d.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 675.6,
+                    "end_time": 686.15,
+                    "sentence": "No, yeah, but mm but we have it  nicely  with the hinges here  yeah. So it won't be a problem, it will be  and it will be  it won't be heavy.",
+                    "source": "ES2006d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006d.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2006d.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 679.22,
+                    "end_time": 684.464,
+                    "sentence": "Yeah yeah yeah, I mean  yeah. So you guys can decide wh whether",
+                    "source": "ES2006d.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006d.C.argumentstructs.Erik.1",
+                        "ES2006d.B.argumentstructs.Erik.2"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006d.C.argumentstructs.Erik.1\n- Index: 4\n- Speaker: C\n- Sentence: \"Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2006d.B.argumentstructs.Erik.1 (Index: 0, Speaker: B): \"Okay.\"\nAE_ID ES2006d.A.argumentstructs.Erik.1 (Index: 1, Speaker: A): \"It might be a little clumsy when when it opens up, right, so it opens on the side. So\"\nAE_ID ES2006d.D.argumentstructs.Erik.1 (Index: 2, Speaker: D): \"No, yeah, but mm but we have it  nicely  with the hinges here  yeah. So it won't be a problem, it will be  and it will be  it won't be heavy.\"\nAE_ID ES2006d.A.argumentstructs.Erik.2 (Index: 3, Speaker: A): \"Yeah yeah yeah, I mean  yeah. So you guys can decide wh whether\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006d.A.argumentstructs.Erik.2",
+            "ans": "ES2006d.A.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 5,
+            "current_node": {
+                "index": 5,
+                "ae_id": "ES2006d.B.argumentstructs.Erik.2",
+                "speaker": "B",
+                "start_time": 681.6,
+                "end_time": 682.83,
+                "sentence": "Yeah. Yeah.",
+                "source": "ES2006d.A.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 0,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.1",
+                    "speaker": "B",
+                    "start_time": 670.21,
+                    "end_time": 670.72,
+                    "sentence": "Okay.",
+                    "source": "ES2006d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 1,
+                    "ae_id": "ES2006d.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 670.89,
+                    "end_time": 677.536,
+                    "sentence": "It might be a little clumsy when when it opens up, right, so it opens on the side. So",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006d.B.argumentstructs.Erik.1",
+                        "ES2006d.D.argumentstructs.Erik.1",
+                        "ES2006d.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2006d.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 675.6,
+                    "end_time": 686.15,
+                    "sentence": "No, yeah, but mm but we have it  nicely  with the hinges here  yeah. So it won't be a problem, it will be  and it will be  it won't be heavy.",
+                    "source": "ES2006d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006d.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2006d.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 679.22,
+                    "end_time": 684.464,
+                    "sentence": "Yeah yeah yeah, I mean  yeah. So you guys can decide wh whether",
+                    "source": "ES2006d.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006d.C.argumentstructs.Erik.1",
+                        "ES2006d.B.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2006d.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 680.67,
+                    "end_time": 681.09,
+                    "sentence": "Yeah.",
+                    "source": "ES2006d.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006d.B.argumentstructs.Erik.2\n- Index: 5\n- Speaker: B\n- Sentence: \"Yeah. Yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2006d.B.argumentstructs.Erik.1 (Index: 0, Speaker: B): \"Okay.\"\nAE_ID ES2006d.A.argumentstructs.Erik.1 (Index: 1, Speaker: A): \"It might be a little clumsy when when it opens up, right, so it opens on the side. So\"\nAE_ID ES2006d.D.argumentstructs.Erik.1 (Index: 2, Speaker: D): \"No, yeah, but mm but we have it  nicely  with the hinges here  yeah. So it won't be a problem, it will be  and it will be  it won't be heavy.\"\nAE_ID ES2006d.A.argumentstructs.Erik.2 (Index: 3, Speaker: A): \"Yeah yeah yeah, I mean  yeah. So you guys can decide wh whether\"\nAE_ID ES2006d.C.argumentstructs.Erik.1 (Index: 4, Speaker: C): \"Yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006d.C.argumentstructs.Erik.1",
+            "ans": "ES2006d.A.argumentstructs.Erik.2",
+            "judgement": false
+        },
+        {
+            "turn_number": 6,
+            "current_node": {
+                "index": 6,
+                "ae_id": "ES2006d.B.argumentstructs.Erik.3",
+                "speaker": "B",
+                "start_time": 686.56,
+                "end_time": 689.01,
+                "sentence": "I th I think the alternative is flipping from the top.",
+                "source": "ES2006d.A.argumentstructs.Erik.1",
+                "targets": [
+                    "ES2006d.D.argumentstructs.Erik.2"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 1,
+                    "ae_id": "ES2006d.A.argumentstructs.Erik.1",
+                    "speaker": "A",
+                    "start_time": 670.89,
+                    "end_time": 677.536,
+                    "sentence": "It might be a little clumsy when when it opens up, right, so it opens on the side. So",
+                    "source": "NONE",
+                    "targets": [
+                        "ES2006d.B.argumentstructs.Erik.1",
+                        "ES2006d.D.argumentstructs.Erik.1",
+                        "ES2006d.B.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 2,
+                    "ae_id": "ES2006d.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 675.6,
+                    "end_time": 686.15,
+                    "sentence": "No, yeah, but mm but we have it  nicely  with the hinges here  yeah. So it won't be a problem, it will be  and it will be  it won't be heavy.",
+                    "source": "ES2006d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006d.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2006d.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 679.22,
+                    "end_time": 684.464,
+                    "sentence": "Yeah yeah yeah, I mean  yeah. So you guys can decide wh whether",
+                    "source": "ES2006d.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006d.C.argumentstructs.Erik.1",
+                        "ES2006d.B.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2006d.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 680.67,
+                    "end_time": 681.09,
+                    "sentence": "Yeah.",
+                    "source": "ES2006d.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 681.6,
+                    "end_time": 682.83,
+                    "sentence": "Yeah. Yeah.",
+                    "source": "ES2006d.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006d.B.argumentstructs.Erik.3\n- Index: 6\n- Speaker: B\n- Sentence: \"I th I think the alternative is flipping from the top.\"\n\nPast Dialogue Turns:\nAE_ID ES2006d.A.argumentstructs.Erik.1 (Index: 1, Speaker: A): \"It might be a little clumsy when when it opens up, right, so it opens on the side. So\"\nAE_ID ES2006d.D.argumentstructs.Erik.1 (Index: 2, Speaker: D): \"No, yeah, but mm but we have it  nicely  with the hinges here  yeah. So it won't be a problem, it will be  and it will be  it won't be heavy.\"\nAE_ID ES2006d.A.argumentstructs.Erik.2 (Index: 3, Speaker: A): \"Yeah yeah yeah, I mean  yeah. So you guys can decide wh whether\"\nAE_ID ES2006d.C.argumentstructs.Erik.1 (Index: 4, Speaker: C): \"Yeah.\"\nAE_ID ES2006d.B.argumentstructs.Erik.2 (Index: 5, Speaker: B): \"Yeah. Yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006d.B.argumentstructs.Erik.2",
+            "ans": "ES2006d.A.argumentstructs.Erik.1",
+            "judgement": false
+        },
+        {
+            "turn_number": 7,
+            "current_node": {
+                "index": 7,
+                "ae_id": "ES2006d.D.argumentstructs.Erik.2",
+                "speaker": "D",
+                "start_time": 689.59,
+                "end_time": 696.63,
+                "sentence": "Yeah well yeah, but it's it's a bit long. It's a little bit long. Well, I mean it can be opened like this of course and yeah.",
+                "source": "ES2006d.B.argumentstructs.Erik.3",
+                "targets": [
+                    "ES2006d.A.argumentstructs.Erik.3",
+                    "ES2006d.C.argumentstructs.Erik.2"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 2,
+                    "ae_id": "ES2006d.D.argumentstructs.Erik.1",
+                    "speaker": "D",
+                    "start_time": 675.6,
+                    "end_time": 686.15,
+                    "sentence": "No, yeah, but mm but we have it  nicely  with the hinges here  yeah. So it won't be a problem, it will be  and it will be  it won't be heavy.",
+                    "source": "ES2006d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006d.A.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 3,
+                    "ae_id": "ES2006d.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 679.22,
+                    "end_time": 684.464,
+                    "sentence": "Yeah yeah yeah, I mean  yeah. So you guys can decide wh whether",
+                    "source": "ES2006d.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006d.C.argumentstructs.Erik.1",
+                        "ES2006d.B.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2006d.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 680.67,
+                    "end_time": 681.09,
+                    "sentence": "Yeah.",
+                    "source": "ES2006d.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 681.6,
+                    "end_time": 682.83,
+                    "sentence": "Yeah. Yeah.",
+                    "source": "ES2006d.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 686.56,
+                    "end_time": 689.01,
+                    "sentence": "I th I think the alternative is flipping from the top.",
+                    "source": "ES2006d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006d.D.argumentstructs.Erik.2"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006d.D.argumentstructs.Erik.2\n- Index: 7\n- Speaker: D\n- Sentence: \"Yeah well yeah, but it's it's a bit long. It's a little bit long. Well, I mean it can be opened like this of course and yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2006d.D.argumentstructs.Erik.1 (Index: 2, Speaker: D): \"No, yeah, but mm but we have it  nicely  with the hinges here  yeah. So it won't be a problem, it will be  and it will be  it won't be heavy.\"\nAE_ID ES2006d.A.argumentstructs.Erik.2 (Index: 3, Speaker: A): \"Yeah yeah yeah, I mean  yeah. So you guys can decide wh whether\"\nAE_ID ES2006d.C.argumentstructs.Erik.1 (Index: 4, Speaker: C): \"Yeah.\"\nAE_ID ES2006d.B.argumentstructs.Erik.2 (Index: 5, Speaker: B): \"Yeah. Yeah.\"\nAE_ID ES2006d.B.argumentstructs.Erik.3 (Index: 6, Speaker: B): \"I th I think the alternative is flipping from the top.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006d.B.argumentstructs.Erik.3",
+            "ans": "ES2006d.B.argumentstructs.Erik.3",
+            "judgement": true
+        },
+        {
+            "turn_number": 8,
+            "current_node": {
+                "index": 8,
+                "ae_id": "ES2006d.A.argumentstructs.Erik.3",
+                "speaker": "A",
+                "start_time": 689.62,
+                "end_time": 693.78,
+                "sentence": "Yeah, but we  which makes it kind of really big, yeah.",
+                "source": "ES2006d.D.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 3,
+                    "ae_id": "ES2006d.A.argumentstructs.Erik.2",
+                    "speaker": "A",
+                    "start_time": 679.22,
+                    "end_time": 684.464,
+                    "sentence": "Yeah yeah yeah, I mean  yeah. So you guys can decide wh whether",
+                    "source": "ES2006d.D.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006d.C.argumentstructs.Erik.1",
+                        "ES2006d.B.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 4,
+                    "ae_id": "ES2006d.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 680.67,
+                    "end_time": 681.09,
+                    "sentence": "Yeah.",
+                    "source": "ES2006d.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 681.6,
+                    "end_time": 682.83,
+                    "sentence": "Yeah. Yeah.",
+                    "source": "ES2006d.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 686.56,
+                    "end_time": 689.01,
+                    "sentence": "I th I think the alternative is flipping from the top.",
+                    "source": "ES2006d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006d.D.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2006d.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 689.59,
+                    "end_time": 696.63,
+                    "sentence": "Yeah well yeah, but it's it's a bit long. It's a little bit long. Well, I mean it can be opened like this of course and yeah.",
+                    "source": "ES2006d.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2006d.A.argumentstructs.Erik.3",
+                        "ES2006d.C.argumentstructs.Erik.2"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006d.A.argumentstructs.Erik.3\n- Index: 8\n- Speaker: A\n- Sentence: \"Yeah, but we  which makes it kind of really big, yeah.\"\n\nPast Dialogue Turns:\nAE_ID ES2006d.A.argumentstructs.Erik.2 (Index: 3, Speaker: A): \"Yeah yeah yeah, I mean  yeah. So you guys can decide wh whether\"\nAE_ID ES2006d.C.argumentstructs.Erik.1 (Index: 4, Speaker: C): \"Yeah.\"\nAE_ID ES2006d.B.argumentstructs.Erik.2 (Index: 5, Speaker: B): \"Yeah. Yeah.\"\nAE_ID ES2006d.B.argumentstructs.Erik.3 (Index: 6, Speaker: B): \"I th I think the alternative is flipping from the top.\"\nAE_ID ES2006d.D.argumentstructs.Erik.2 (Index: 7, Speaker: D): \"Yeah well yeah, but it's it's a bit long. It's a little bit long. Well, I mean it can be opened like this of course and yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006d.D.argumentstructs.Erik.2",
+            "ans": "ES2006d.D.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 9,
+            "current_node": {
+                "index": 9,
+                "ae_id": "ES2006d.C.argumentstructs.Erik.2",
+                "speaker": "C",
+                "start_time": 690.88,
+                "end_time": 692.67,
+                "sentence": "The length is gonna be difficu",
+                "source": "ES2006d.D.argumentstructs.Erik.2",
+                "targets": [
+                    "ES2006d.B.argumentstructs.Erik.4",
+                    "ES2006d.B.argumentstructs.Erik.5"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 4,
+                    "ae_id": "ES2006d.C.argumentstructs.Erik.1",
+                    "speaker": "C",
+                    "start_time": 680.67,
+                    "end_time": 681.09,
+                    "sentence": "Yeah.",
+                    "source": "ES2006d.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 5,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 681.6,
+                    "end_time": 682.83,
+                    "sentence": "Yeah. Yeah.",
+                    "source": "ES2006d.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 686.56,
+                    "end_time": 689.01,
+                    "sentence": "I th I think the alternative is flipping from the top.",
+                    "source": "ES2006d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006d.D.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2006d.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 689.59,
+                    "end_time": 696.63,
+                    "sentence": "Yeah well yeah, but it's it's a bit long. It's a little bit long. Well, I mean it can be opened like this of course and yeah.",
+                    "source": "ES2006d.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2006d.A.argumentstructs.Erik.3",
+                        "ES2006d.C.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2006d.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 689.62,
+                    "end_time": 693.78,
+                    "sentence": "Yeah, but we  which makes it kind of really big, yeah.",
+                    "source": "ES2006d.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006d.C.argumentstructs.Erik.2\n- Index: 9\n- Speaker: C\n- Sentence: \"The length is gonna be difficu\"\n\nPast Dialogue Turns:\nAE_ID ES2006d.C.argumentstructs.Erik.1 (Index: 4, Speaker: C): \"Yeah.\"\nAE_ID ES2006d.B.argumentstructs.Erik.2 (Index: 5, Speaker: B): \"Yeah. Yeah.\"\nAE_ID ES2006d.B.argumentstructs.Erik.3 (Index: 6, Speaker: B): \"I th I think the alternative is flipping from the top.\"\nAE_ID ES2006d.D.argumentstructs.Erik.2 (Index: 7, Speaker: D): \"Yeah well yeah, but it's it's a bit long. It's a little bit long. Well, I mean it can be opened like this of course and yeah.\"\nAE_ID ES2006d.A.argumentstructs.Erik.3 (Index: 8, Speaker: A): \"Yeah, but we  which makes it kind of really big, yeah.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006d.A.argumentstructs.Erik.3",
+            "ans": "ES2006d.D.argumentstructs.Erik.2",
+            "judgement": false
+        },
+        {
+            "turn_number": 10,
+            "current_node": {
+                "index": 10,
+                "ae_id": "ES2006d.B.argumentstructs.Erik.4",
+                "speaker": "B",
+                "start_time": 693.57,
+                "end_time": 694.589,
+                "sentence": "Yeah um",
+                "source": "ES2006d.C.argumentstructs.Erik.2",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 5,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.2",
+                    "speaker": "B",
+                    "start_time": 681.6,
+                    "end_time": 682.83,
+                    "sentence": "Yeah. Yeah.",
+                    "source": "ES2006d.A.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 6,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 686.56,
+                    "end_time": 689.01,
+                    "sentence": "I th I think the alternative is flipping from the top.",
+                    "source": "ES2006d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006d.D.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2006d.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 689.59,
+                    "end_time": 696.63,
+                    "sentence": "Yeah well yeah, but it's it's a bit long. It's a little bit long. Well, I mean it can be opened like this of course and yeah.",
+                    "source": "ES2006d.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2006d.A.argumentstructs.Erik.3",
+                        "ES2006d.C.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2006d.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 689.62,
+                    "end_time": 693.78,
+                    "sentence": "Yeah, but we  which makes it kind of really big, yeah.",
+                    "source": "ES2006d.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2006d.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 690.88,
+                    "end_time": 692.67,
+                    "sentence": "The length is gonna be difficu",
+                    "source": "ES2006d.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006d.B.argumentstructs.Erik.4",
+                        "ES2006d.B.argumentstructs.Erik.5"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006d.B.argumentstructs.Erik.4\n- Index: 10\n- Speaker: B\n- Sentence: \"Yeah um\"\n\nPast Dialogue Turns:\nAE_ID ES2006d.B.argumentstructs.Erik.2 (Index: 5, Speaker: B): \"Yeah. Yeah.\"\nAE_ID ES2006d.B.argumentstructs.Erik.3 (Index: 6, Speaker: B): \"I th I think the alternative is flipping from the top.\"\nAE_ID ES2006d.D.argumentstructs.Erik.2 (Index: 7, Speaker: D): \"Yeah well yeah, but it's it's a bit long. It's a little bit long. Well, I mean it can be opened like this of course and yeah.\"\nAE_ID ES2006d.A.argumentstructs.Erik.3 (Index: 8, Speaker: A): \"Yeah, but we  which makes it kind of really big, yeah.\"\nAE_ID ES2006d.C.argumentstructs.Erik.2 (Index: 9, Speaker: C): \"The length is gonna be difficu\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006d.C.argumentstructs.Erik.2",
+            "ans": "ES2006d.C.argumentstructs.Erik.2",
+            "judgement": true
+        },
+        {
+            "turn_number": 11,
+            "current_node": {
+                "index": 11,
+                "ae_id": "ES2006d.B.argumentstructs.Erik.5",
+                "speaker": "B",
+                "start_time": 695.56,
+                "end_time": 697.91,
+                "sentence": "But you were thinking about making it smaller, yeah ?",
+                "source": "ES2006d.C.argumentstructs.Erik.2",
+                "targets": [
+                    "ES2006d.D.argumentstructs.Erik.3"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 6,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.3",
+                    "speaker": "B",
+                    "start_time": 686.56,
+                    "end_time": 689.01,
+                    "sentence": "I th I think the alternative is flipping from the top.",
+                    "source": "ES2006d.A.argumentstructs.Erik.1",
+                    "targets": [
+                        "ES2006d.D.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 7,
+                    "ae_id": "ES2006d.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 689.59,
+                    "end_time": 696.63,
+                    "sentence": "Yeah well yeah, but it's it's a bit long. It's a little bit long. Well, I mean it can be opened like this of course and yeah.",
+                    "source": "ES2006d.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2006d.A.argumentstructs.Erik.3",
+                        "ES2006d.C.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2006d.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 689.62,
+                    "end_time": 693.78,
+                    "sentence": "Yeah, but we  which makes it kind of really big, yeah.",
+                    "source": "ES2006d.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2006d.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 690.88,
+                    "end_time": 692.67,
+                    "sentence": "The length is gonna be difficu",
+                    "source": "ES2006d.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006d.B.argumentstructs.Erik.4",
+                        "ES2006d.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 693.57,
+                    "end_time": 694.589,
+                    "sentence": "Yeah um",
+                    "source": "ES2006d.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006d.B.argumentstructs.Erik.5\n- Index: 11\n- Speaker: B\n- Sentence: \"But you were thinking about making it smaller, yeah ?\"\n\nPast Dialogue Turns:\nAE_ID ES2006d.B.argumentstructs.Erik.3 (Index: 6, Speaker: B): \"I th I think the alternative is flipping from the top.\"\nAE_ID ES2006d.D.argumentstructs.Erik.2 (Index: 7, Speaker: D): \"Yeah well yeah, but it's it's a bit long. It's a little bit long. Well, I mean it can be opened like this of course and yeah.\"\nAE_ID ES2006d.A.argumentstructs.Erik.3 (Index: 8, Speaker: A): \"Yeah, but we  which makes it kind of really big, yeah.\"\nAE_ID ES2006d.C.argumentstructs.Erik.2 (Index: 9, Speaker: C): \"The length is gonna be difficu\"\nAE_ID ES2006d.B.argumentstructs.Erik.4 (Index: 10, Speaker: B): \"Yeah um\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006d.B.argumentstructs.Erik.4",
+            "ans": "ES2006d.C.argumentstructs.Erik.2",
+            "judgement": false
+        },
+        {
+            "turn_number": 12,
+            "current_node": {
+                "index": 12,
+                "ae_id": "ES2006d.D.argumentstructs.Erik.3",
+                "speaker": "D",
+                "start_time": 699.77,
+                "end_time": 701.19,
+                "sentence": "S uh slightly smaller.",
+                "source": "ES2006d.B.argumentstructs.Erik.5",
+                "targets": [
+                    "ES2006d.B.argumentstructs.Erik.6"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 7,
+                    "ae_id": "ES2006d.D.argumentstructs.Erik.2",
+                    "speaker": "D",
+                    "start_time": 689.59,
+                    "end_time": 696.63,
+                    "sentence": "Yeah well yeah, but it's it's a bit long. It's a little bit long. Well, I mean it can be opened like this of course and yeah.",
+                    "source": "ES2006d.B.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2006d.A.argumentstructs.Erik.3",
+                        "ES2006d.C.argumentstructs.Erik.2"
+                    ]
+                },
+                {
+                    "index": 8,
+                    "ae_id": "ES2006d.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 689.62,
+                    "end_time": 693.78,
+                    "sentence": "Yeah, but we  which makes it kind of really big, yeah.",
+                    "source": "ES2006d.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2006d.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 690.88,
+                    "end_time": 692.67,
+                    "sentence": "The length is gonna be difficu",
+                    "source": "ES2006d.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006d.B.argumentstructs.Erik.4",
+                        "ES2006d.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 693.57,
+                    "end_time": 694.589,
+                    "sentence": "Yeah um",
+                    "source": "ES2006d.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 695.56,
+                    "end_time": 697.91,
+                    "sentence": "But you were thinking about making it smaller, yeah ?",
+                    "source": "ES2006d.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006d.D.argumentstructs.Erik.3"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006d.D.argumentstructs.Erik.3\n- Index: 12\n- Speaker: D\n- Sentence: \"S uh slightly smaller.\"\n\nPast Dialogue Turns:\nAE_ID ES2006d.D.argumentstructs.Erik.2 (Index: 7, Speaker: D): \"Yeah well yeah, but it's it's a bit long. It's a little bit long. Well, I mean it can be opened like this of course and yeah.\"\nAE_ID ES2006d.A.argumentstructs.Erik.3 (Index: 8, Speaker: A): \"Yeah, but we  which makes it kind of really big, yeah.\"\nAE_ID ES2006d.C.argumentstructs.Erik.2 (Index: 9, Speaker: C): \"The length is gonna be difficu\"\nAE_ID ES2006d.B.argumentstructs.Erik.4 (Index: 10, Speaker: B): \"Yeah um\"\nAE_ID ES2006d.B.argumentstructs.Erik.5 (Index: 11, Speaker: B): \"But you were thinking about making it smaller, yeah ?\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006d.B.argumentstructs.Erik.5",
+            "ans": "ES2006d.B.argumentstructs.Erik.5",
+            "judgement": true
+        },
+        {
+            "turn_number": 13,
+            "current_node": {
+                "index": 13,
+                "ae_id": "ES2006d.B.argumentstructs.Erik.6",
+                "speaker": "B",
+                "start_time": 701.48,
+                "end_time": 704.88,
+                "sentence": "So you have to keep that side flat.",
+                "source": "ES2006d.D.argumentstructs.Erik.3",
+                "targets": [
+                    "ES2006d.D.argumentstructs.Erik.4"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 8,
+                    "ae_id": "ES2006d.A.argumentstructs.Erik.3",
+                    "speaker": "A",
+                    "start_time": 689.62,
+                    "end_time": 693.78,
+                    "sentence": "Yeah, but we  which makes it kind of really big, yeah.",
+                    "source": "ES2006d.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 9,
+                    "ae_id": "ES2006d.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 690.88,
+                    "end_time": 692.67,
+                    "sentence": "The length is gonna be difficu",
+                    "source": "ES2006d.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006d.B.argumentstructs.Erik.4",
+                        "ES2006d.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 693.57,
+                    "end_time": 694.589,
+                    "sentence": "Yeah um",
+                    "source": "ES2006d.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 695.56,
+                    "end_time": 697.91,
+                    "sentence": "But you were thinking about making it smaller, yeah ?",
+                    "source": "ES2006d.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006d.D.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2006d.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 699.77,
+                    "end_time": 701.19,
+                    "sentence": "S uh slightly smaller.",
+                    "source": "ES2006d.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2006d.B.argumentstructs.Erik.6"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006d.B.argumentstructs.Erik.6\n- Index: 13\n- Speaker: B\n- Sentence: \"So you have to keep that side flat.\"\n\nPast Dialogue Turns:\nAE_ID ES2006d.A.argumentstructs.Erik.3 (Index: 8, Speaker: A): \"Yeah, but we  which makes it kind of really big, yeah.\"\nAE_ID ES2006d.C.argumentstructs.Erik.2 (Index: 9, Speaker: C): \"The length is gonna be difficu\"\nAE_ID ES2006d.B.argumentstructs.Erik.4 (Index: 10, Speaker: B): \"Yeah um\"\nAE_ID ES2006d.B.argumentstructs.Erik.5 (Index: 11, Speaker: B): \"But you were thinking about making it smaller, yeah ?\"\nAE_ID ES2006d.D.argumentstructs.Erik.3 (Index: 12, Speaker: D): \"S uh slightly smaller.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006d.D.argumentstructs.Erik.3",
+            "ans": "ES2006d.D.argumentstructs.Erik.3",
+            "judgement": true
+        },
+        {
+            "turn_number": 14,
+            "current_node": {
+                "index": 14,
+                "ae_id": "ES2006d.D.argumentstructs.Erik.4",
+                "speaker": "D",
+                "start_time": 705.13,
+                "end_time": 707.55,
+                "sentence": "Yeah, but if we flip it open only as much as that.",
+                "source": "ES2006d.B.argumentstructs.Erik.6",
+                "targets": [
+                    "ES2006d.A.argumentstructs.Erik.4",
+                    "ES2006d.B.argumentstructs.Erik.7"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 9,
+                    "ae_id": "ES2006d.C.argumentstructs.Erik.2",
+                    "speaker": "C",
+                    "start_time": 690.88,
+                    "end_time": 692.67,
+                    "sentence": "The length is gonna be difficu",
+                    "source": "ES2006d.D.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006d.B.argumentstructs.Erik.4",
+                        "ES2006d.B.argumentstructs.Erik.5"
+                    ]
+                },
+                {
+                    "index": 10,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 693.57,
+                    "end_time": 694.589,
+                    "sentence": "Yeah um",
+                    "source": "ES2006d.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 695.56,
+                    "end_time": 697.91,
+                    "sentence": "But you were thinking about making it smaller, yeah ?",
+                    "source": "ES2006d.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006d.D.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2006d.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 699.77,
+                    "end_time": 701.19,
+                    "sentence": "S uh slightly smaller.",
+                    "source": "ES2006d.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2006d.B.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 701.48,
+                    "end_time": 704.88,
+                    "sentence": "So you have to keep that side flat.",
+                    "source": "ES2006d.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2006d.D.argumentstructs.Erik.4"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006d.D.argumentstructs.Erik.4\n- Index: 14\n- Speaker: D\n- Sentence: \"Yeah, but if we flip it open only as much as that.\"\n\nPast Dialogue Turns:\nAE_ID ES2006d.C.argumentstructs.Erik.2 (Index: 9, Speaker: C): \"The length is gonna be difficu\"\nAE_ID ES2006d.B.argumentstructs.Erik.4 (Index: 10, Speaker: B): \"Yeah um\"\nAE_ID ES2006d.B.argumentstructs.Erik.5 (Index: 11, Speaker: B): \"But you were thinking about making it smaller, yeah ?\"\nAE_ID ES2006d.D.argumentstructs.Erik.3 (Index: 12, Speaker: D): \"S uh slightly smaller.\"\nAE_ID ES2006d.B.argumentstructs.Erik.6 (Index: 13, Speaker: B): \"So you have to keep that side flat.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006d.B.argumentstructs.Erik.6",
+            "ans": "ES2006d.B.argumentstructs.Erik.6",
+            "judgement": true
+        },
+        {
+            "turn_number": 15,
+            "current_node": {
+                "index": 15,
+                "ae_id": "ES2006d.A.argumentstructs.Erik.4",
+                "speaker": "A",
+                "start_time": 707.9,
+                "end_time": 708.53,
+                "sentence": "Okay.",
+                "source": "ES2006d.D.argumentstructs.Erik.4",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 10,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.4",
+                    "speaker": "B",
+                    "start_time": 693.57,
+                    "end_time": 694.589,
+                    "sentence": "Yeah um",
+                    "source": "ES2006d.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 11,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 695.56,
+                    "end_time": 697.91,
+                    "sentence": "But you were thinking about making it smaller, yeah ?",
+                    "source": "ES2006d.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006d.D.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2006d.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 699.77,
+                    "end_time": 701.19,
+                    "sentence": "S uh slightly smaller.",
+                    "source": "ES2006d.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2006d.B.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 701.48,
+                    "end_time": 704.88,
+                    "sentence": "So you have to keep that side flat.",
+                    "source": "ES2006d.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2006d.D.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2006d.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 705.13,
+                    "end_time": 707.55,
+                    "sentence": "Yeah, but if we flip it open only as much as that.",
+                    "source": "ES2006d.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2006d.A.argumentstructs.Erik.4",
+                        "ES2006d.B.argumentstructs.Erik.7"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006d.A.argumentstructs.Erik.4\n- Index: 15\n- Speaker: A\n- Sentence: \"Okay.\"\n\nPast Dialogue Turns:\nAE_ID ES2006d.B.argumentstructs.Erik.4 (Index: 10, Speaker: B): \"Yeah um\"\nAE_ID ES2006d.B.argumentstructs.Erik.5 (Index: 11, Speaker: B): \"But you were thinking about making it smaller, yeah ?\"\nAE_ID ES2006d.D.argumentstructs.Erik.3 (Index: 12, Speaker: D): \"S uh slightly smaller.\"\nAE_ID ES2006d.B.argumentstructs.Erik.6 (Index: 13, Speaker: B): \"So you have to keep that side flat.\"\nAE_ID ES2006d.D.argumentstructs.Erik.4 (Index: 14, Speaker: D): \"Yeah, but if we flip it open only as much as that.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006d.D.argumentstructs.Erik.4",
+            "ans": "ES2006d.D.argumentstructs.Erik.4",
+            "judgement": true
+        },
+        {
+            "turn_number": 16,
+            "current_node": {
+                "index": 16,
+                "ae_id": "ES2006d.B.argumentstructs.Erik.7",
+                "speaker": "B",
+                "start_time": 709.09,
+                "end_time": 713.94,
+                "sentence": "So it works like a mobile phone flipping, but y you know, as long as that side's flat, than that will work.",
+                "source": "ES2006d.D.argumentstructs.Erik.4",
+                "targets": [
+                    "ES2006d.A.argumentstructs.Erik.5"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 11,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.5",
+                    "speaker": "B",
+                    "start_time": 695.56,
+                    "end_time": 697.91,
+                    "sentence": "But you were thinking about making it smaller, yeah ?",
+                    "source": "ES2006d.C.argumentstructs.Erik.2",
+                    "targets": [
+                        "ES2006d.D.argumentstructs.Erik.3"
+                    ]
+                },
+                {
+                    "index": 12,
+                    "ae_id": "ES2006d.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 699.77,
+                    "end_time": 701.19,
+                    "sentence": "S uh slightly smaller.",
+                    "source": "ES2006d.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2006d.B.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 701.48,
+                    "end_time": 704.88,
+                    "sentence": "So you have to keep that side flat.",
+                    "source": "ES2006d.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2006d.D.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2006d.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 705.13,
+                    "end_time": 707.55,
+                    "sentence": "Yeah, but if we flip it open only as much as that.",
+                    "source": "ES2006d.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2006d.A.argumentstructs.Erik.4",
+                        "ES2006d.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2006d.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 707.9,
+                    "end_time": 708.53,
+                    "sentence": "Okay.",
+                    "source": "ES2006d.D.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006d.B.argumentstructs.Erik.7\n- Index: 16\n- Speaker: B\n- Sentence: \"So it works like a mobile phone flipping, but y you know, as long as that side's flat, than that will work.\"\n\nPast Dialogue Turns:\nAE_ID ES2006d.B.argumentstructs.Erik.5 (Index: 11, Speaker: B): \"But you were thinking about making it smaller, yeah ?\"\nAE_ID ES2006d.D.argumentstructs.Erik.3 (Index: 12, Speaker: D): \"S uh slightly smaller.\"\nAE_ID ES2006d.B.argumentstructs.Erik.6 (Index: 13, Speaker: B): \"So you have to keep that side flat.\"\nAE_ID ES2006d.D.argumentstructs.Erik.4 (Index: 14, Speaker: D): \"Yeah, but if we flip it open only as much as that.\"\nAE_ID ES2006d.A.argumentstructs.Erik.4 (Index: 15, Speaker: A): \"Okay.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006d.A.argumentstructs.Erik.4",
+            "ans": "ES2006d.D.argumentstructs.Erik.4",
+            "judgement": false
+        },
+        {
+            "turn_number": 17,
+            "current_node": {
+                "index": 17,
+                "ae_id": "ES2006d.A.argumentstructs.Erik.5",
+                "speaker": "A",
+                "start_time": 714.21,
+                "end_time": 714.45,
+                "sentence": "Right.",
+                "source": "ES2006d.B.argumentstructs.Erik.7",
+                "targets": [
+                    "NONE"
+                ]
+            },
+            "target_node_list": [
+                {
+                    "index": 12,
+                    "ae_id": "ES2006d.D.argumentstructs.Erik.3",
+                    "speaker": "D",
+                    "start_time": 699.77,
+                    "end_time": 701.19,
+                    "sentence": "S uh slightly smaller.",
+                    "source": "ES2006d.B.argumentstructs.Erik.5",
+                    "targets": [
+                        "ES2006d.B.argumentstructs.Erik.6"
+                    ]
+                },
+                {
+                    "index": 13,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.6",
+                    "speaker": "B",
+                    "start_time": 701.48,
+                    "end_time": 704.88,
+                    "sentence": "So you have to keep that side flat.",
+                    "source": "ES2006d.D.argumentstructs.Erik.3",
+                    "targets": [
+                        "ES2006d.D.argumentstructs.Erik.4"
+                    ]
+                },
+                {
+                    "index": 14,
+                    "ae_id": "ES2006d.D.argumentstructs.Erik.4",
+                    "speaker": "D",
+                    "start_time": 705.13,
+                    "end_time": 707.55,
+                    "sentence": "Yeah, but if we flip it open only as much as that.",
+                    "source": "ES2006d.B.argumentstructs.Erik.6",
+                    "targets": [
+                        "ES2006d.A.argumentstructs.Erik.4",
+                        "ES2006d.B.argumentstructs.Erik.7"
+                    ]
+                },
+                {
+                    "index": 15,
+                    "ae_id": "ES2006d.A.argumentstructs.Erik.4",
+                    "speaker": "A",
+                    "start_time": 707.9,
+                    "end_time": 708.53,
+                    "sentence": "Okay.",
+                    "source": "ES2006d.D.argumentstructs.Erik.4",
+                    "targets": [
+                        "NONE"
+                    ]
+                },
+                {
+                    "index": 16,
+                    "ae_id": "ES2006d.B.argumentstructs.Erik.7",
+                    "speaker": "B",
+                    "start_time": 709.09,
+                    "end_time": 713.94,
+                    "sentence": "So it works like a mobile phone flipping, but y you know, as long as that side's flat, than that will work.",
+                    "source": "ES2006d.D.argumentstructs.Erik.4",
+                    "targets": [
+                        "ES2006d.A.argumentstructs.Erik.5"
+                    ]
+                }
+            ],
+            "prompt": "Instruction:\n\nGiven the current dialogue turn and the list of past dialogue turns, identify the one past turn that directly influenced the current turn. Provide only the AE_ID of that past turn.\n\nCurrent Turn:\n- AE_ID: ES2006d.A.argumentstructs.Erik.5\n- Index: 17\n- Speaker: A\n- Sentence: \"Right.\"\n\nPast Dialogue Turns:\nAE_ID ES2006d.D.argumentstructs.Erik.3 (Index: 12, Speaker: D): \"S uh slightly smaller.\"\nAE_ID ES2006d.B.argumentstructs.Erik.6 (Index: 13, Speaker: B): \"So you have to keep that side flat.\"\nAE_ID ES2006d.D.argumentstructs.Erik.4 (Index: 14, Speaker: D): \"Yeah, but if we flip it open only as much as that.\"\nAE_ID ES2006d.A.argumentstructs.Erik.4 (Index: 15, Speaker: A): \"Okay.\"\nAE_ID ES2006d.B.argumentstructs.Erik.7 (Index: 16, Speaker: B): \"So it works like a mobile phone flipping, but y you know, as long as that side's flat, than that will work.\"\n\nPlease provide only the AE_ID (consisting of alphabets and numbers) of the influencing past turn. Do not include any explanations or additional information.\n\nAnswer:\n",
+            "gpt_ans": "ES2006d.B.argumentstructs.Erik.7",
+            "ans": "ES2006d.B.argumentstructs.Erik.7",
+            "judgement": true
+        }
+    ]
+}

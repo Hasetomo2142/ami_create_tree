@@ -26,7 +26,7 @@ prompt_dir = os.path.join(dir_path, 'prompt')  # プロンプトファイルの�
 MODEL = "gpt-4o-mini"
 METHOD = "baseline"
 PROMPT = "ver.1.1.txt"
-COUNT = 1
+COUNT = 50
 
 # 参照する直近ノードの数
 RECENT_TURNS = 5
@@ -106,6 +106,9 @@ def main():
     # 処理前の時刻を記録
     start_time = time.time()
 
+    # APIのコスト計算クラスをインスタンス化
+    gpt_cout_calculator = GPTCostCalculator(MODEL)
+
     # tqdmを使用してファイルの進行状況を表示
     for csv_file in tqdm(csv_file_list, desc="Processing CSV files"):
         tmp_turns = DialogueTurn.from_csv(csv_file)
@@ -116,9 +119,6 @@ def main():
 
         #ターンごとの結果を保持するリスト
         one_turn_result_list = []
-
-        # APIのコスト計算クラスをインスタンス化
-        gpt_cout_calculator = GPTCostCalculator(MODEL)
 
         # ae_idとindexの対応を保持する辞書
         ae_id_to_index = {turn.ae_id: turn.index for turn in dialogue_turns}
@@ -222,6 +222,7 @@ def main():
         f.write(f"Overall True Judgement Ratio: {overall_true_ratio:.2%}\n")
         f.write(f"Time: {elapsed_time:.2f} seconds\n")
         f.write(f"Total cost: ${cost:.5f}\n")
+        f.write(f"Recent Turns: {RECENT_TURNS}\n")
 
 
 
